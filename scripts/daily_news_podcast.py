@@ -31,10 +31,10 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = PROJECT_ROOT / "data" / "news"
 WORK_DIR = PROJECT_ROOT  # .git 所在
 
-# ============ 音色配置 (1男1女, 1.5× 速度, 活泼自然) ============
-# 选青年/活泼音色, 让播客听起来更轻松
-HOST_VOICE = "female-shaonv"    # 主持人: 少女声 (活泼自然)
-GUEST_VOICE = "male-qn-qingse"  # 嘉宾: 青年男声 (清晰)
+# ============ 音色配置 (1男1女, 1.5× 速度, 经典播客场景) ============
+# 选成熟音色, 男声女声对比度明显 (经典电台/播客场景)
+HOST_VOICE = "female-chengshu"   # 主持人: 成熟女声 (浑厚, 跟男声区分度大)
+GUEST_VOICE = "male-qn-qingse"  # 嘉宾: 青年男声 (清晰, 中频)
 HOST_SPEED = 1.5                # 主持人 1.5× (活泼快节奏)
 GUEST_SPEED = 1.5               # 嘉宾 1.5× (信息密度高)
 HOST_EMOTION = "happy"
@@ -444,64 +444,63 @@ async def generate_script(news: dict[str, list[dict]], date: str) -> dict[str, A
     return script
 
 
-# ============ Step 3: TTS 合成 ============
-def synthesize_tts(script: dict, out_dir: Path) -> list[Path]:
+async def synthesize_tts_async(script: dict, out_dir: Path) -> list[Path]:
     """
-    用 hermes 内部 MiniMax TTS 合成。
-    失败则降级到 macOS say。
-    """
-    sys.path.insert(0, "/Users/saber/.hermes/hermes-agent")
+    用 HermesTTSClient (直接调 MiniMax t2a_v2) 合成。
+    不用 hermes text_to_speech_tool (它不接受 voice 参数, 只能用一个默认 voice)。
 
+    优先从项目路径 import, 失败则从 ~/.hermes/scripts (cron 调用) 找
+    """
+    project_root = Path(__file__).parent.parent
+    hermes_scripts = Path("/Users/saber/.hermes/scripts")
+    for path in (project_root, hermes_scripts):
+        if path.exists() and (path / "app" / "tts" / "hermes_tts.py").exists():
+            sys.path.insert(0, str(path))
+            break
+    from app.tts.hermes_tts import HermesTTSClient
+
+    tts_client = HermesTTSClient()
     tts_segments: list[Path] = []
-    use_fallback = False
-
-    try:
-        from tools.tts_tool import text_to_speech_tool
-    except ImportError as e:
-        print(f"⚠️ 无法 import tts_tool: {e}, 用 macOS say 兜底")
-        use_fallback = True
 
     for i, line in enumerate(script["lines"]):
         role = line["role"]
         text = line["text"]
         mp3_path = out_dir / f"line_{i:02d}_{role}.mp3"
 
-        if not use_fallback:
-            voice = HOST_VOICE if role == "host" else GUEST_VOICE
-            speed = HOST_SPEED if role == "host" else GUEST_SPEED
-            try:
-                result_str = text_to_speech_tool(
-                    text=text,
-                    output_path=str(mp3_path),
-                    provider="minimax",
-                    speed=speed,
-                )
-                result = json.loads(result_str)
-                if result.get("success") and mp3_path.exists():
-                    tts_segments.append(mp3_path)
-                    continue
-            except Exception as e:
-                print(f"  ⚠️ [{i}] MiniMax TTS 失败: {e}, 切到 macOS say")
-                use_fallback = True
+        # 经典播客场景: 1男1女双角色
+        if role == "host":
+            voice = HOST_VOICE
+            speed = HOST_SPEED
+            emotion = HOST_EMOTION
+        else:
+            voice = GUEST_VOICE
+            speed = GUEST_SPEED
+            emotion = GUEST_EMOTION
 
-        # macOS say 兜底
-        voice = "Tingting" if role == "host" else "Eddy (Chinese (China mainland))"
-        aiff = out_dir / f"line_{i:02d}_{role}.aiff"
-        subprocess.run(
-            ["say", "-v", voice, "-o", str(aiff), text],
-            capture_output=True, timeout=30,
-        )
-        subprocess.run(
-            ["ffmpeg", "-y", "-i", str(aiff),
-             "-acodec", "libmp3lame", "-b:a", "128k",
-             "-ac", "1", "-ar", "32000", str(mp3_path)],
-            capture_output=True, timeout=15,
-        )
-        aiff.unlink(missing_ok=True)
-        if mp3_path.exists():
+        try:
+            result = await tts_client.synthesize(
+                text=text,
+                voice=voice,
+                speed=speed,
+                emotion=emotion,
+                output_path=mp3_path,
+            )
             tts_segments.append(mp3_path)
+            if i % 5 == 0 or i == len(script["lines"]) - 1:
+                print(f"     [{i+1}/{len(script['lines'])}] {role:5s} {voice:20s} "
+                      f"{result['audio_size_bytes']/1024:6.1f}KB "
+                      f"{result['duration_ms']:5d}ms")
+        except Exception as e:
+            print(f"  ⚠️ [{i}] TTS 失败: {e}")
+            continue
 
+    await tts_client.close()
     return tts_segments
+
+
+def synthesize_tts(script: dict, out_dir: Path) -> list[Path]:
+    """同步包装 (给 main 同步部分用, 但 main 是 async, 应该用 synthesize_tts_async)"""
+    return asyncio.run(synthesize_tts_async(script, out_dir))
 
 
 # ============ Step 4: 拼接 ============
@@ -821,18 +820,30 @@ BGM_PRESETS = [
     },
     {
         "name": "synthwave_100bpm",
-        "description": "Synthwave 100 BPM - 复古电子 + drive",
+        "description": "Synthwave 100 BPM - 复古电子 + drive (高能量版)",
         "filter_complex": (
-            "sine=frequency=73:duration={dur}[b];"
-            "[b]volume=0.4,acompressor=threshold=0.5:ratio=4[bs];"
-            "sine=frequency=55:duration={dur}:sample_rate=32000[k];"
-            "[k]volume=0.4,tremolo=f=2:d=0.85[k2];"
+            # 低音 - 用 saw 模拟 (用多个 sine 叠加)
+            "sine=frequency=73:duration={dur}[b1];"
+            "sine=frequency=146:duration={dur}[b2];"
+            # 加重低音能量
+            "[b1]volume=0.6,acompressor=threshold=0.5:ratio=4[b1c];"
+            "[b2]volume=0.5,acompressor=threshold=0.5:ratio=4[b2c];"
+            "[b1c][b2c]amix=inputs=2:normalize=0[bs];"
+            # kick 鼓点
+            "sine=frequency=55:duration={dur}[k];"
+            "[k]volume=0.7,tremolo=f=2:d=0.85[k2];"
+            # 主旋律 synth
             "sine=frequency=587:duration={dur}[l];"
-            "[l]volume=0.18,tremolo=f=3:d=0.6[l2];"
+            "[l]volume=0.4,tremolo=f=3:d=0.6[l2];"
+            # 和声高音
             "sine=frequency=1760:duration={dur}[h];"
-            "[h]volume=0.06[h2];"
-            "[bs][k2][l2][h2]amix=inputs=4:normalize=0[m];"
-            "[m]lowpass=f=12000,aecho=0.7:0.85:400:0.25[out]"
+            "[h]volume=0.15[h2];"
+            # 噪声鼓 (snare/hi-hat)
+            "anoisesrc=color=white:duration={dur}:amplitude=0.05[n];"
+            "[n]highpass=f=4000[n2];"
+            "[n2]tremolo=f=4:d=0.7[n3];"
+            "[bs][k2][l2][h2][n3]amix=inputs=5:normalize=0[m];"
+            "[m]lowpass=f=14000,aecho=0.7:0.85:400:0.25,acompressor=threshold=0.3:ratio=3[out]"
         ),
         "duration": 300,
     },
@@ -875,10 +886,15 @@ def ensure_bgm() -> dict:
 
 
 def mix_with_bgm(voice_path: Path, bgm_path: Path, output_path: Path,
-                  bgm_volume_db: float = -22.0) -> dict:
+                  bgm_volume_db: float = -5.0) -> dict:
     """
-    人声 + BGM 混音。 BGM 自动循环到人声长度, 降低音量 (-22dB = 背景)。
-    返回 {duration_sec, size_bytes}.
+    人声 + BGM 混音。 经典播客场景: BGM -5dB (不压时), 用 sidetone compress
+    让 BGM 在人声说话时自动降到 -13dB (-8dB ducking), 人声停时回到 -5dB。
+
+    用户反馈之前的版本 BGM 完全听不到, 现在用更激进的参数:
+    - BGM 默认 -5dB (跟人声只差 ~11dB)
+    - sidetone ducking 8dB (说话时降到 -13dB)
+    - 人声停顿时 BGM 回到 -5dB, 明显可听
     """
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -887,9 +903,11 @@ def mix_with_bgm(voice_path: Path, bgm_path: Path, output_path: Path,
         "-i", str(voice_path),
         "-stream_loop", "-1", "-i", str(bgm_path),
         "-filter_complex",
+        # BGM 整体降到 -5dB (明显可听)
         f"[1:a]volume={bgm_volume_db}dB[bgm];"
-        f"[0:a]volume=2dB[voice];"
-        f"[voice][bgm]amix=inputs=2:duration=first:dropout_transition=0[m]",
+        # sidetone compress: voice 响时 BGM 额外降低 8dB
+        f"[bgm][0:a]sidechaincompress=threshold=0.05:ratio=8:attack=15:release=800:makeup=1[ducked];"
+        f"[0:a][ducked]amix=inputs=2:duration=first:dropout_transition=0[m]",
         "-map", "[m]",
         "-ac", "1", "-ar", "32000",
         "-c:a", "libmp3lame", "-b:a", "128k",
@@ -986,7 +1004,7 @@ async def main():
 
     # Step 3: TTS 合成
     print(f"\n🎙️ [3/5] TTS 合成 (host={HOST_VOICE}, guest={GUEST_VOICE})...")
-    segments = synthesize_tts(script, tts_dir)
+    segments = await synthesize_tts_async(script, tts_dir)
     print(f"   ✓ {len(segments)} 句")
 
     # Step 4: 拼接

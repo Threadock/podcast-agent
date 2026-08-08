@@ -1,132 +1,136 @@
 {
   "title": "今日AI头条",
-  "tagline": "2026-08-09 | 国际+国内重磅速览",
+  "tagline": "2026-08-09 | 大模型卷上下文、Agent 抢工地、AI 开始搞电",
   "selected_news": [
     {
       "source": "MarkTechPost",
-      "title": "Cloudflare Introduces Kitesurf: An Agent-First Web Browser That Runs Entirely in V8 Isolates",
+      "title": "Pokee AI 发布 Pokee-Isaac 28B：10M 上下文 Agent 模型，RULER 10M 达 93.3%",
       "url": "https://marktechpost.com",
       "weight": "deep"
     },
     {
       "source": "MarkTechPost",
-      "title": "Liquid AI Releases LFM2.5-2.6B: An On-Device Agentic Model With 128K Context",
+      "title": "Cloudflare 发布 Kitesurf：跑在 V8 隔离里的 Agent 专属浏览器",
       "url": "https://marktechpost.com",
       "weight": "deep"
     },
     {
       "source": "钛媒体",
-      "title": "估值610亿元之后，宇树要卖多少台机器人？",
+      "title": "阿里 Qwen3.8 正式发布，编程与办公再进化",
       "url": "https://tmtpost.com",
       "weight": "deep"
     },
     {
       "source": "钛媒体",
-      "title": "【数智周报】张一鸣：字节跳动\"拒绝蒸馏\"，阿里Qwen3.8正式发布",
+      "title": "估值 610 亿，宇树要卖多少台机器人才能稳住？",
+      "url": "https://tmtpost.com",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "AI 没被电饿死，先被电\"气\"死了：毫秒级断电杀训练",
       "url": "https://tmtpost.com",
       "weight": "deep"
     },
     {
       "source": "MarkTechPost",
-      "title": "Microsoft Open Sources code-testing-generator: 92.1% Task Completion",
+      "title": "Liquid AI 发布 LFM2.5-2.6B：端侧 Agent 模型，128K 上下文",
       "url": "https://marktechpost.com",
-      "weight": "mention"
+      "weight": "brief"
     },
     {
-      "source": "MarkTechPost",
-      "title": "Mistral AI Releases Shieldstral 1.0 3B Multimodal Safety Classifier",
-      "url": "https://marktechpost.com",
-      "weight": "mention"
+      "source": "199IT",
+      "title": "Crunchbase：2026 Q1 北美风投 2526 亿美元，史上最大单季",
+      "url": "https://199it.com",
+      "weight": "brief"
     },
     {
       "source": "钛媒体",
-      "title": "离开美团的王慧文：一笔投资赚20倍，押中24家AI公司",
+      "title": "Link-X Demo Day 2026 在中关村举办，AI 创业向下扎根",
       "url": "https://tmtpost.com",
-      "weight": "mention"
-    },
-    {
-      "source": "TheVerge-AI",
-      "title": "Fenix Flexin admits using AI to make 'Rubberz'",
-      "url": "https://theverge.com",
-      "weight": "mention"
+      "weight": "brief"
     }
   ],
   "lines": [
     {
       "role": "host",
-      "text": "家人们早上好呀，欢迎来到今天8月9号的《今日AI头条》，我是主持人小晚，咱们今天聊点硬核的。"
+      "text": "听众朋友们大家好，欢迎来到今天的《今日AI头条》，我是小诺，咱们今天聊点硬核的。"
     },
     {
       "role": "guest",
-      "text": "大家好我是评论员老周，你看这24小时AI圈动静可真不小，咱们按国际到国内的顺序一条条拆。"
+      "text": "大家好，我是老陈，你看这一天国际国内一起炸，光是大模型就刷出来好几条，咱们慢慢拆。"
     },
     {
       "role": "host",
-      "text": "国际这边第一条就很有冲击力——Cloudflare刚发布的Kitesurf浏览器，给AI Agent用的，你先给大家讲讲？"
+      "text": "先看国际，Pokee AI 搞了个 28B 参数的模型，上下文直接拉到 1000 万 token，这在玩命吧？"
     },
     {
       "role": "guest",
-      "text": "这是个大动作啊，Kitesurf完全跑在Cloudflare Workers的V8沙箱里，没有Chromium底层，你看浏览器专为Agent设计、无状态、轻量。"
+      "text": "你看啊，它在 RULER 10M 基准上拿了 93.3%，而且强调\"客户边界内部署\"，就是不把你的数据送出去。"
     },
     {
       "role": "host",
-      "text": "那同一时间Liquid AI也放了LFM2.5-2.6B出来，2.69B参数还能在端侧跑Agent，这个怎么理解？"
+      "text": "Cloudflare 那边也放了个大招，叫 Kitesurf，说专门给 AI Agent 用的浏览器，它底层没用 Chromium？"
     },
     {
       "role": "guest",
-      "text": "对，2.6B配128K上下文、支持工具调用，开源权重全部给到，意味着手机和笔记本能本地执行多步骤任务。"
+      "text": "对，整套跑在 V8 isolate 里，意思就是无状态、起得快、成本低，Agent 抓网页终于不烧显卡了。"
     },
     {
       "role": "host",
-      "text": "国际货看完了咱切回国内，宇树估值冲到610亿元，有声音说一年得卖10万台机器人，这账算得过来吗？"
+      "text": "好切回国内，阿里 Qwen3.8 正式发布了，编程和办公能力又往前蹿了一截，对吧？"
     },
     {
       "role": "guest",
-      "text": "纯卖硬件确实吃力，你看610亿估值对应10万台年销是底线，但出路在把机器人变成持续服务入口，订阅收入才是大头。"
+      "text": "其实啊，张一鸣刚说了\"拒绝蒸馏\"，Qwen 这边就拿新版本回击，榜单和生态两手抓，压力很大。"
     },
     {
       "role": "host",
-      "text": "那字节这边呢，张一鸣说\"拒绝蒸馏\"、Qwen3.8也紧跟着发布，这两件事合一块看您怎么品？"
+      "text": "宇树科技估值冲到 610 亿了，有人算账说一年得卖 10 万台机器人，这账真的撑得住吗？"
     },
     {
       "role": "guest",
-      "text": "很有意思，张一鸣明确说不用别人输出换榜单排名，Qwen3.8主攻编程和办公，你看巨头策略从追分转向自研沉淀。"
+      "text": "我看关键不在卖硬件，而是能不能把机器人变成\"持续服务入口\"，否则 610 亿就是纯硬件 PE。"
     },
     {
       "role": "host",
-      "text": "对吧两件事放一起，国内大模型打法明显变了，从卷跑分到卷落地场景，您怎么评价这个趋势？"
+      "text": "还有个更好玩的说法，叫\"AI 没被电饿死，先被电'气'死了\"，这是啥意思？"
     },
     {
       "role": "guest",
-      "text": "其实挺合理的，你看跑分红利吃完，企业客户要的是能跑生产任务的Agent，编程和办公就是最肥的两块。"
+      "text": "说白了就是电网波动，毫秒级断电就能把万卡训练砍掉，万卡集群一小时电费烧掉一辆车。"
     },
     {
       "role": "host",
-      "text": "而且端侧模型叠Agent浏览器，AI正从云端集中往端侧分散跑，这对产业链冲击多大啊？"
+      "text": "所以你看，2026 年拼的不是模型有多大，而是供电压不压得住，这算不算新基建？"
     },
     {
       "role": "guest",
-      "text": "非常大，你看2.6B能在端侧跑，浏览器又给Agent铺路，硬件厂商和云厂商都得重新排队站位。"
+      "text": "对，\"电脏\"问题比\"电荒\"更隐蔽，IDC 选址从\"哪里便宜\"变成\"哪里稳\"，格局真变了。"
     },
     {
       "role": "host",
-      "text": "好咱们快讯扫几条：微软开源code-testing-generator单测Agent完成率92.1%，Mistral发布Shieldstral 3B安全分类器。"
+      "text": "另外几条也值得提：Liquid AI 发了 2.6B 的端侧 Agent 模型，128K 上下文能跑在手机上了。"
     },
     {
       "role": "guest",
-      "text": "对，还有王慧文押中24家AI公司一笔投资赚20倍，TheVerge报道说唱歌手Fenix Flexin终于承认用AI做歌。"
+      "text": "嗯，Crunchbase 数据也吓人，2026 Q1 北美风投 2526 亿美元，是上一季度的三倍，史上最大单季。"
     },
     {
       "role": "host",
-      "text": "你看从模型层到应用层都在加速，连娱乐圈都被AI渗透了，下一步估计是法律和版权框架的全面补位。"
+      "text": "国内这边 Link-X Demo Day 在中关村搞了一波，AI 创业都在说\"向下扎根、向内深入\"。"
     },
     {
       "role": "guest",
-      "text": "展望一下，接下来您最期待哪个方向有突破，端侧Agent还是具身机器人？"
+      "text": "你看从 10M 上下文到端侧 Agent，模型在变小、上下文在变大，Agent 真的开始抢工地了。"
     },
     {
       "role": "host",
-      "text": "我赌端侧Agent，你看Kitesurf加LFM2.5这套组合出来，三个月内会有一波Agent原生应用集中爆发。"
+      "text": "下期咱们可以专门聊聊 AI 电影和苏泊尔那个 AI 广告翻车，能聊的方向挺多。"
+    },
+    {
+      "role": "host",
+      "text": "对，下期我准备带一份\"AI 含量清零\"的片单，咱们盘一盘哪些是真用、哪些是被用。"
     }
   ]
 }

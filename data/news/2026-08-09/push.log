@@ -1,0 +1,7 @@
+ERROR: Command '['git', 'add', 'data/news/2026-08-09']' returned non-zero exit status 128.
+Traceback (most recent call last):
+  File "/Users/saber/.hermes/scripts/daily_news_podcast.py", line 645, in git_push
+    subprocess.run(["git", "add", rel_path], check=True, capture_output=True)
+  File "/Users/saber/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'add', 'data/news/2026-08-09']' returned non-zero exit status 128.
