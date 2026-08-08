@@ -224,7 +224,7 @@
     "TheGradient": 0,
     "HuggingFace-Blog": 1,
     "HackerNews": 2,
-    "ArXiv-cs.AI": 15,
+    "ArXiv-cs.AI": 13,
     "量子位": 10,
     "雷锋网": 10,
     "钛媒体": 15,
@@ -233,8 +233,8 @@
   },
   "dedup": {
     "intl": {
-      "before": 35,
-      "after": 35
+      "before": 33,
+      "after": 33
     },
     "cn": {
       "before": 55,

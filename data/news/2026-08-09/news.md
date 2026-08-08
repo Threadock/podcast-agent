@@ -3,9 +3,9 @@
 > 每日 8:00 自动汇总国际 + 国内 AI 新闻 (24h 内)
 
 
-**抓取统计**: OpenAI-News=2, TheVerge-AI=6, MarkTechPost=9, HuggingFace-Blog=1, HackerNews=2, ArXiv-cs.AI=15, 量子位=10, 雷锋网=10, 钛媒体=15, 掘金=15, 199IT=5
+**抓取统计**: OpenAI-News=2, TheVerge-AI=6, MarkTechPost=9, HuggingFace-Blog=1, HackerNews=2, ArXiv-cs.AI=13, 量子位=10, 雷锋网=10, 钛媒体=15, 掘金=15, 199IT=5
 
-**去重**: 国际 35→35, 国内 55→55
+**去重**: 国际 33→33, 国内 55→55
 
 ## 🌍 国际
 
