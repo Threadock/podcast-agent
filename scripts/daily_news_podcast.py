@@ -27,7 +27,8 @@ from pathlib import Path
 from typing import Any
 
 # ============ 路径配置 ============
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+# 项目根目录: 固定指向 podcast-agent (脚本可能从 ~/.hermes/scripts 或项目 scripts/ 运行)
+PROJECT_ROOT = Path("/Users/saber/projects/podcast-agent")
 DATA_DIR = PROJECT_ROOT / "data" / "news"
 WORK_DIR = PROJECT_ROOT  # .git 所在
 
@@ -35,8 +36,8 @@ WORK_DIR = PROJECT_ROOT  # .git 所在
 # 选成熟音色, 男声女声对比度明显 (经典电台/播客场景)
 HOST_VOICE = "female-chengshu"   # 主持人: 成熟女声 (浑厚, 跟男声区分度大)
 GUEST_VOICE = "male-qn-qingse"  # 嘉宾: 青年男声 (清晰, 中频)
-HOST_SPEED = 1.5                # 主持人 1.5× (活泼快节奏)
-GUEST_SPEED = 1.5               # 嘉宾 1.5× (信息密度高)
+HOST_SPEED = 1.25               # 主持人 1.25× (信息密度高, 节奏舒适)
+GUEST_SPEED = 1.25              # 嘉宾 1.25× (跟 host 一致)
 HOST_EMOTION = "happy"
 GUEST_EMOTION = "happy"           # 都用 happy, 整体气氛积极
 
@@ -314,7 +315,7 @@ SCRIPT_PROMPT = """你是一档名为《今日AI头条》的中文科技播客�
 - **guest** (男, 科技评论员) — 解读事实、给数字、举例子
 
 ## 严格要求
-1. **总轮数**: 20 句 (10 轮对话, host/guest 各 10 句)
+1. **总轮数**: 30 句 (15 轮对话, host/guest 各 15 句) - 目标时长 6 分钟
 2. **严格交替**: host→guest→host→...→host 收尾
 3. **句长**: 35-70 字 (口语化, 用"咱们/你看/啊/对吧/其实/不过"等口语词)
 4. **节奏**: 紧凑, 一句一个信息点
@@ -322,14 +323,14 @@ SCRIPT_PROMPT = """你是一档名为《今日AI头条》的中文科技播客�
 6. **国际+国内都覆盖**: 至少 2 条国际 + 2 条国内
 7. **结尾必须是 host**, 包含"订阅/点赞/小铃铛/下期预告"
 
-## 结构模板
+## 结构模板 (30 句)
 - 句1-2: 开场寒暄 (host 问, guest 应)
-- 句3-6: 国际重磅 1-2 条 (host 问, guest 详解)
-- 句7-10: 国内动态 1-2 条 (host 问, guest 详解)
-- 句11-13: 行业影响/对比 (host 总结, guest 回应)
-- 句14-16: 其他要闻速览 (2-3 条, 各一句话)
-- 句17-19: 后续展望 (host+guest)
-- 句20: 结尾订阅 CTA (host)
+- 句3-8: 国际重磅 2-3 条 (host 问, guest 详解)
+- 句9-16: 国内动态 2-3 条 (host 问, guest 详解)
+- 句17-22: 行业影响/对比 (host 总结, guest 回应)
+- 句23-26: 其他要闻速览 (3-4 条, 各一句话)
+- 句27-29: 后续展望 (host+guest)
+- 句30: 结尾订阅 CTA (host)
 
 ## 输出 (严格 JSON, 不要任何解释文字)
 {{
@@ -446,10 +447,12 @@ async def generate_script(news: dict[str, list[dict]], date: str) -> dict[str, A
 
 async def synthesize_tts_async(script: dict, out_dir: Path) -> list[Path]:
     """
-    用 HermesTTSClient (直接调 MiniMax t2a_v2) 合成。
+    用 HermesTTSClient (直接调 MiniMax t2a_v2) 合成, 串行+重试, 避免 RPM 限流。
+
     不用 hermes text_to_speech_tool (它不接受 voice 参数, 只能用一个默认 voice)。
 
-    优先从项目路径 import, 失败则从 ~/.hermes/scripts (cron 调用) 找
+    串行实现: MiniMax TTS RPM 限流严 (实测并发 3 会触发 1002 rate limit),
+    串行单请求 5-7s, 30 句约 3 分钟, 可接受
     """
     project_root = Path(__file__).parent.parent
     hermes_scripts = Path("/Users/saber/.hermes/scripts")
@@ -462,12 +465,13 @@ async def synthesize_tts_async(script: dict, out_dir: Path) -> list[Path]:
     tts_client = HermesTTSClient()
     tts_segments: list[Path] = []
 
+    # 串行 + 重试 (MiniMax TTS RPM 限流严, 并发容易触发 1002)
+    MAX_RETRIES = 3
     for i, line in enumerate(script["lines"]):
         role = line["role"]
         text = line["text"]
         mp3_path = out_dir / f"line_{i:02d}_{role}.mp3"
 
-        # 经典播客场景: 1男1女双角色
         if role == "host":
             voice = HOST_VOICE
             speed = HOST_SPEED
@@ -477,29 +481,37 @@ async def synthesize_tts_async(script: dict, out_dir: Path) -> list[Path]:
             speed = GUEST_SPEED
             emotion = GUEST_EMOTION
 
-        try:
-            result = await tts_client.synthesize(
-                text=text,
-                voice=voice,
-                speed=speed,
-                emotion=emotion,
-                output_path=mp3_path,
-            )
-            tts_segments.append(mp3_path)
-            if i % 5 == 0 or i == len(script["lines"]) - 1:
-                print(f"     [{i+1}/{len(script['lines'])}] {role:5s} {voice:20s} "
-                      f"{result['audio_size_bytes']/1024:6.1f}KB "
-                      f"{result['duration_ms']:5d}ms")
-        except Exception as e:
-            print(f"  ⚠️ [{i}] TTS 失败: {e}")
-            continue
+        # 重试逻辑
+        for attempt in range(1, MAX_RETRIES + 1):
+            try:
+                result = await tts_client.synthesize(
+                    text=text,
+                    voice=voice,
+                    speed=speed,
+                    emotion=emotion,
+                    output_path=mp3_path,
+                )
+                tts_segments.append(mp3_path)
+                if i % 5 == 0 or i == len(script["lines"]) - 1:
+                    print(f"     [{i+1}/{len(script['lines'])}] {role:5s} {voice:20s} "
+                          f"{result['audio_size_bytes']/1024:6.1f}KB "
+                          f"{result['duration_ms']:5d}ms")
+                break  # 成功, 退出重试循环
+            except Exception as e:
+                if attempt < MAX_RETRIES and ("rate limit" in str(e).lower() or "1002" in str(e)):
+                    wait = 5 * attempt  # 5s, 10s, 15s
+                    print(f"  ⚠️ [{i}] TTS 限流, {wait}s 后重试 ({attempt}/{MAX_RETRIES})")
+                    await asyncio.sleep(wait)
+                else:
+                    print(f"  ⚠️ [{i}] TTS 失败: {e}")
+                    break
 
     await tts_client.close()
     return tts_segments
 
 
 def synthesize_tts(script: dict, out_dir: Path) -> list[Path]:
-    """同步包装 (给 main 同步部分用, 但 main 是 async, 应该用 synthesize_tts_async)"""
+    """同步包装"""
     return asyncio.run(synthesize_tts_async(script, out_dir))
 
 
@@ -879,6 +891,20 @@ def ensure_bgm() -> dict:
             if r.returncode != 0:
                 print(f"  ⚠️ 生成 {preset['name']} 失败: {r.stderr[-200:]}")
                 continue
+
+            # 关键: 放大 BGM 音量 (程序化合成太安静, mean ~ -30dB,
+            # 直接 amplify +20dB 提到 ~ -10dB 才能在混音中可闻)
+            norm_path = out.with_suffix(".norm.mp3")
+            r2 = subprocess.run([
+                "ffmpeg", "-y", "-i", str(out),
+                "-af", "volume=18dB,alimiter=limit=0.95",
+                "-ac", "1", "-ar", "32000",
+                "-acodec", "libmp3lame", "-b:a", "128k",
+                str(norm_path),
+            ], capture_output=True, text=True)
+            if r2.returncode == 0:
+                norm_path.replace(out)
+                print(f"     🔊 放大 18dB: {preset['name']}")
         files.append(out)
         descriptions.append(f"{preset['name']}: {preset['description']}")
 
@@ -886,15 +912,15 @@ def ensure_bgm() -> dict:
 
 
 def mix_with_bgm(voice_path: Path, bgm_path: Path, output_path: Path,
-                  bgm_volume_db: float = -5.0) -> dict:
+                  bgm_volume_db: float = -3.0) -> dict:
     """
-    人声 + BGM 混音。 经典播客场景: BGM -5dB (不压时), 用 sidetone compress
-    让 BGM 在人声说话时自动降到 -13dB (-8dB ducking), 人声停时回到 -5dB。
+    人声 + BGM 混音, 不压 (不再用 sidetone compress)。
 
-    用户反馈之前的版本 BGM 完全听不到, 现在用更激进的参数:
-    - BGM 默认 -5dB (跟人声只差 ~11dB)
-    - sidetone ducking 8dB (说话时降到 -13dB)
-    - 人声停顿时 BGM 回到 -5dB, 明显可听
+    BGM 整体 -3dB, 人声不做音量调整。
+    让 BGM 在 line 之间的 350ms 静音间隙清晰可闻 (人声停了,
+    BGM 单独在那段最响), 说话时 BGM 仍然在背景里。
+
+    算法: [bgm]volume=-3dB; [voice][bgm]amix
     """
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -903,11 +929,10 @@ def mix_with_bgm(voice_path: Path, bgm_path: Path, output_path: Path,
         "-i", str(voice_path),
         "-stream_loop", "-1", "-i", str(bgm_path),
         "-filter_complex",
-        # BGM 整体降到 -5dB (明显可听)
-        f"[1:a]volume={bgm_volume_db}dB[bgm];"
-        # sidetone compress: voice 响时 BGM 额外降低 8dB
-        f"[bgm][0:a]sidechaincompress=threshold=0.05:ratio=8:attack=15:release=800:makeup=1[ducked];"
-        f"[0:a][ducked]amix=inputs=2:duration=first:dropout_transition=0[m]",
+        # BGM 整体 -8dB (不压, 让它在静音间隙清晰可闻)
+        f"[1:a]volume={bgm_volume_db}dB,acompressor=threshold=0.1:ratio=2[bgm];"
+        # 直接混合
+        f"[0:a][bgm]amix=inputs=2:duration=first:dropout_transition=0[m]",
         "-map", "[m]",
         "-ac", "1", "-ar", "32000",
         "-c:a", "libmp3lame", "-b:a", "128k",
@@ -938,21 +963,42 @@ def build_feishu_message(date: str, news: dict, script: dict,
                          push_ok: bool, bgm_used: str | None) -> str:
     """构造飞书消息 (含文本+mp3, MEDIA: 标记由 hermes gateway 自动转换)"""
 
+    # 国际 + 国内各 8 条 (比之前 5+5 多)
     lines_summary = []
-    for n in news["intl"][:5]:
+    for n in news["intl"][:8]:
         lines_summary.append(f"🌍 [{n['title']}]({n['url']})")
-    for n in news["cn"][:5]:
+    for n in news["cn"][:8]:
         lines_summary.append(f"🇨🇳 [{n['title']}]({n['url']})")
 
     push_status = "✅ 已同步到 GitHub" if push_ok else "⚠️ GitHub push 失败 (数据在本地)"
     bgm_info = f"\n🎵 **BGM**: {bgm_used}" if bgm_used else ""
 
+    # 节目统计
+    n_lines = len(script["lines"])
+    n_host = sum(1 for l in script["lines"] if l["role"] == "host")
+    n_guest = sum(1 for l in script["lines"] if l["role"] == "guest")
+
+    # 剧本节选 (前 4 句 + 后 2 句)
+    transcript_excerpt = ""
+    if "lines" in script:
+        first_lines = script["lines"][:3]
+        last_lines = script["lines"][-2:]
+        transcript_excerpt = "\n## 🎙️ 本期节选\n"
+        for line in first_lines:
+            emoji = "🎙️" if line["role"] == "host" else "🎓"
+            transcript_excerpt += f"\n> {emoji} **{line['role'].upper()}**: {line['text']}"
+        transcript_excerpt += "\n\n*... (更多精彩内容请收听本期播客) ...*\n"
+        for line in last_lines:
+            emoji = "🎙️" if line["role"] == "host" else "🎓"
+            transcript_excerpt += f"\n> {emoji} **{line['role'].upper()}**: {line['text']}"
+
     msg = f"""📰 **今日AI头条** · {date}
 {now_str()}
 
-🎧 **播客**: 5-6分钟双角色解读{bgm_info}
+🎧 **播客**: 双角色 1男1女 (host={HOST_VOICE} + guest={GUEST_VOICE}){bgm_info}
 ⏱️ **时长**: {audio_info['duration_sec']:.0f}秒 ({audio_info['duration_sec']/60:.1f}分钟)
 💾 **文件**: {mp3_path.stat().st_size/1024:.0f} KB
+🎙️ **剧本**: {n_lines} 句 (host {n_host} + guest {n_guest}) | 1.25× 速度
 {push_status}
 
 ---
@@ -960,6 +1006,8 @@ def build_feishu_message(date: str, news: dict, script: dict,
 ## 🔥 今日要闻 ({len(news['intl']) + len(news['cn'])}条)
 
 {chr(10).join(lines_summary)}
+
+{transcript_excerpt}
 
 ---
 

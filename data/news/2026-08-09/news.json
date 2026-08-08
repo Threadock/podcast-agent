@@ -216,7 +216,7 @@
   "source_stats": {
     "OpenAI-News": 2,
     "Google-AI-Blog": 0,
-    "TheVerge-AI": 6,
+    "TheVerge-AI": 5,
     "TechReview-AI": 0,
     "LastWeekInAI": 0,
     "MarkTechPost": 9,
@@ -224,7 +224,7 @@
     "TheGradient": 0,
     "HuggingFace-Blog": 1,
     "HackerNews": 2,
-    "ArXiv-cs.AI": 11,
+    "ArXiv-cs.AI": 9,
     "量子位": 10,
     "雷锋网": 10,
     "钛媒体": 15,
@@ -233,8 +233,8 @@
   },
   "dedup": {
     "intl": {
-      "before": 31,
-      "after": 31
+      "before": 28,
+      "after": 28
     },
     "cn": {
       "before": 55,
