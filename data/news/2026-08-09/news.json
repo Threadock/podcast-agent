@@ -9,13 +9,6 @@
     },
     {
       "source": "MarkTechPost",
-      "title": "Adaptive Experimentation with Meta’s Ax: A Practical Coding Guide",
-      "url": "https://www.marktechpost.com/2026/08/06/adaptive-experimentation-with-metas-ax-a-practical-coding-guide/",
-      "snippet": "<p>In this tutorial, we explore adaptive experimentation using Meta’s Ax with the modern Client API. We work through a complete workflow where we tune a RandomForest model on a synthetic classificatio",
-      "published": "Thu, 06 Aug 2026 17:17:52 +0000"
-    },
-    {
-      "source": "MarkTechPost",
       "title": "Pokee AI Releases Pokee-Isaac 28B: A 10M-Token Context Agentic Model Built to Run Inside the Customer Boundary",
       "url": "https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/",
       "snippet": "<p>Pokee AI released Pokee-Isaac 28B, a 28B text-only foundation model with a 10M-token context window built to run inside the customer boundary. It scores 93.3% on RULER at 10M tokens, where every ba",
@@ -104,6 +97,13 @@
       "url": "https://www.alyph.ai/",
       "snippet": "Since I started using LLMs, I&#x27;ve always had this feeling of wanting to go back, change the history, and then go down another branch.<p>The lightbulb moment for me was when Google AI Studio starte",
       "published": "2026-08-07T19:58:51Z"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
+      "snippet": "It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His comments follow the producer Medasin's videos claiming that an AI",
+      "published": "2026-08-07T16:01:51-04:00"
     }
   ],
   "cn": [
@@ -219,7 +219,7 @@
     "TheVerge-AI": 6,
     "TechReview-AI": 0,
     "LastWeekInAI": 0,
-    "MarkTechPost": 10,
+    "MarkTechPost": 9,
     "SebastianRaschka": 0,
     "TheGradient": 0,
     "HuggingFace-Blog": 1,
@@ -233,8 +233,8 @@
   },
   "dedup": {
     "intl": {
-      "before": 36,
-      "after": 36
+      "before": 35,
+      "after": 35
     },
     "cn": {
       "before": 55,

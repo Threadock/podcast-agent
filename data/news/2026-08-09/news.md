@@ -3,14 +3,13 @@
 > 每日 8:00 自动汇总国际 + 国内 AI 新闻 (24h 内)
 
 
-**抓取统计**: OpenAI-News=2, TheVerge-AI=6, MarkTechPost=10, HuggingFace-Blog=1, HackerNews=2, ArXiv-cs.AI=15, 量子位=10, 雷锋网=10, 钛媒体=15, 掘金=15, 199IT=5
+**抓取统计**: OpenAI-News=2, TheVerge-AI=6, MarkTechPost=9, HuggingFace-Blog=1, HackerNews=2, ArXiv-cs.AI=15, 量子位=10, 雷锋网=10, 钛媒体=15, 掘金=15, 199IT=5
 
-**去重**: 国际 36→36, 国内 55→55
+**去重**: 国际 35→35, 国内 55→55
 
 ## 🌍 国际
 
 - **[Cloudflare Introduces Kitesurf: An Agent-First Web Browser That Runs Entirely in V8 Isolates on Cloudflare Workers](https://www.marktechpost.com/2026/08/06/cloudflare-introduces-kitesurf-an-agent-first-web-browser-that-runs-entirely-in-v8-isolates-on-cloudflare-workers/)** _MarkTechPost_ — <p>Cloudflare has released Kitesurf, a stateless web browser built specifically for AI agents that runs entirely in V8 isolates on Cloudflare Workers, with no Chromium underneath. The browser drops hu
-- **[Adaptive Experimentation with Meta’s Ax: A Practical Coding Guide](https://www.marktechpost.com/2026/08/06/adaptive-experimentation-with-metas-ax-a-practical-coding-guide/)** _MarkTechPost_ — <p>In this tutorial, we explore adaptive experimentation using Meta’s Ax with the modern Client API. We work through a complete workflow where we tune a RandomForest model on a synthetic classificatio
 - **[Pokee AI Releases Pokee-Isaac 28B: A 10M-Token Context Agentic Model Built to Run Inside the Customer Boundary](https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/)** _MarkTechPost_ — <p>Pokee AI released Pokee-Isaac 28B, a 28B text-only foundation model with a 10M-token context window built to run inside the customer boundary. It scores 93.3% on RULER at 10M tokens, where every ba
 - **[Designing Scalable Interactive Visualizations with Reflex XY: Composition, Million-Point Rendering, Streaming, Custom Marks, and Export](https://www.marktechpost.com/2026/08/08/designing-scalable-interactive-visualizations-with-reflex-xy-composition-million-point-rendering-streaming-custom-marks-and-export/)** _MarkTechPost_ — <p>Dive into the advanced visualization capabilities of the Reflex XY Python library. This tutorial guides you through building high-performance, interactive charts—from handling million-point dataset
 - **[Mistral AI Releases Shieldstral 1.0 3B: An Open-Weights Policy-Adaptive Multimodal Safety Classifier Matching Models 7× Its Size](https://www.marktechpost.com/2026/08/07/mistral-ai-releases-shieldstral-1-0-3b/)** _MarkTechPost_ — <p>Mistral AI has released Shieldstral 1.0 3B, an open-weights, policy-adaptive multimodal safety classifier that frames content moderation as a single yes/no question instead of a fixed harm taxonomy
@@ -24,6 +23,7 @@
 - **[Liquid AI Releases LFM2.5-2.6B: An On-Device Agentic Model With 128K Context, Tool Calling, And Open Weights](https://www.marktechpost.com/2026/08/06/liquid-ai-lfm2-5-2-6b-on-device-agentic-model/)** _MarkTechPost_ — <p>Liquid AI released LFM2.5-2.6B, an agentic model that plans, calls tools, and completes multi-step tasks entirely on-device. The 2.69B parameter model pairs 22 double-gated short convolution blocks
 - **[Show HN: Salestrics – An open MCP server and CRM for AI-native revenue teams](https://www.salestrics.com/)** _HackerNews_ — Hey HN, I’m Austin, founder of Salestrics (salestrics.com).<p>The Problem: &gt; Most AI agents today are trapped in chat windows. While models are smart enough to run complex multi-step workflows, giv
 - **[Show HN: Alyph, a manual transmission for LLM context](https://www.alyph.ai/)** _HackerNews_ — Since I started using LLMs, I&#x27;ve always had this feeling of wanting to go back, change the history, and then go down another branch.<p>The lightbulb moment for me was when Google AI Studio starte
+- **[Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore](https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo)** _TheVerge-AI_ — It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song "Rubberz." His comments follow the producer Medasin's videos claiming that an AI
 
 ## 🇨🇳 国内
 
