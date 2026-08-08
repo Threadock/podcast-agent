@@ -13,6 +13,9 @@ output/*.mp3
 output/*.wav
 output/tts_segments/
 output/bgm/
+data/news/*/tts_segments/
+data/news/*/_concat.txt
+data/news/*/_silence.mp3
 
 # 测试
 .pytest_cache/
