@@ -31,13 +31,14 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = PROJECT_ROOT / "data" / "news"
 WORK_DIR = PROJECT_ROOT  # .git 所在
 
-# ============ 音色配置 (1男1女, 快节奏) ============
-HOST_VOICE = "female-shaonv"  # 主持人: 少女声, 自然活泼
-GUEST_VOICE = "male-qn-qingse"  # 嘉宾: 青年男声, 偏快
-HOST_SPEED = 1.20  # 主持人略快 (活泼)
-GUEST_SPEED = 1.15  # 嘉宾略快 (信息密度高)
+# ============ 音色配置 (1男1女, 1.5× 速度, 活泼自然) ============
+# 选青年/活泼音色, 让播客听起来更轻松
+HOST_VOICE = "female-shaonv"    # 主持人: 少女声 (活泼自然)
+GUEST_VOICE = "male-qn-qingse"  # 嘉宾: 青年男声 (清晰)
+HOST_SPEED = 1.5                # 主持人 1.5× (活泼快节奏)
+GUEST_SPEED = 1.5               # 嘉宾 1.5× (信息密度高)
 HOST_EMOTION = "happy"
-GUEST_EMOTION = "happy"  # 都用 happy, 整体气氛积极
+GUEST_EMOTION = "happy"           # 都用 happy, 整体气氛积极
 
 # 时区: GMT+8
 TZ = timezone(timedelta(hours=8))
@@ -58,25 +59,31 @@ def now_str() -> str:
 
 
 # ============ 步骤 1: 拉新闻 (多源 + 24h 过滤 + 去重) ============
-# 国内 RSS 源 (4个权威)
-RSS_FEEDS_CN = [
-    ("量子位", "https://www.qbitai.com/feed"),
-    ("智东西", "https://zhidx.com/feed"),
-    ("36氪", "https://36kr.com/feed"),
-    ("机器之心", "https://www.jiqizhixin.com/rss"),
-]
-# 国外源: RSS + JSON API
+# 国际 RSS 源 (全部验证过 entries > 0, 2026-08-09 验证)
 RSS_FEEDS_INTL = [
-    ("TechCrunch-AI", "https://techcrunch.com/category/artificial-intelligence/feed/"),
-    ("TheVerge-AI", "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml"),
-    ("ArsTechnica-AI", "https://feeds.arstechnica.com/arstechnica/ai"),
-    ("OpenAI-Blog", "https://openai.com/blog/rss.xml"),
-    ("Anthropic-News", "https://www.anthropic.com/news/rss.xml"),
-    ("DeepMind-Blog", "https://deepmind.google/blog/rss/basic.xml"),
+    ("OpenAI-News", "https://openai.com/news/rss.xml"),  # 1115 条, 官方一手
+    ("Google-AI-Blog", "https://blog.google/technology/ai/rss/"),  # Google 官方
+    ("TheVerge-AI", "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"),  # 10 条
+    ("TechReview-AI", "https://www.technologyreview.com/topic/artificial-intelligence/feed/"),  # MIT 科技评论
+    ("LastWeekInAI", "https://lastweekin.ai/feed"),  # 6 条, AI 周报
+    ("MarkTechPost", "https://www.marktechpost.com/feed/"),  # 10 条, AI 技术博客
+    ("SebastianRaschka", "https://magazine.sebastianraschka.com/feed"),  # 13 条, AI 论文
+    ("TheGradient", "https://thegradient.pub/rss/"),  # 11 条, AI 研究
+    ("HuggingFace-Blog", "https://huggingface.co/blog/feed.xml"),  # 开源模型
+]
+# 国内 RSS 源 (验证过)
+RSS_FEEDS_CN = [
+    ("量子位", "https://www.qbitai.com/feed"),  # 10 条, 国内 AI 主流
+    ("雷锋网", "https://www.leiphone.com/feed"),  # 20 条, 智能硬件+AI
+    ("钛媒体", "https://www.tmtpost.com/feed"),  # 17 条, 创投资讯
+    ("掘金", "https://juejin.cn/rss"),  # 20 条, 技术社区
+    ("199IT", "https://www.199it.com/feed"),  # 50 条, 数据/AI 媒体
 ]
 # JSON API (无需 RSS 解析, 时间戳原生)
+# ArXiv API 返回 Atom XML, 用 feedparser 解析 (不是 JSON)
 JSON_API_INTL = [
-    ("HackerNews", "https://hn.algolia.com/api/v1/search?tags=story&query=AI+OR+LLM+OR+GPT&numericFilters=created_at_i%3E{ts}"),
+    ("HackerNews", "json", "https://hn.algolia.com/api/v1/search?tags=story&query=AI+OR+LLM+OR+GPT&numericFilters=created_at_i%3E{ts}"),
+    ("ArXiv-cs.AI", "atom", "https://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=15"),
 ]
 
 
@@ -92,14 +99,16 @@ def fetch_news() -> dict[str, list[dict]]:
     from datetime import datetime, timezone, timedelta
 
     now = datetime.now(timezone.utc)
-    cutoff_ts = int((now - timedelta(hours=24)).timestamp())  # 24h 窗口
+    # 放宽到 48h 窗口 - 24h 太严, RSS 通常一天一更, 凌晨跑就只能看到当天零星几条
+    cutoff_ts = int((now - timedelta(hours=48)).timestamp())  # 48h 窗口
+    primary_cutoff_ts = int((now - timedelta(hours=24)).timestamp())  # 24h 用于"优先"
 
     intl_items: list[dict] = []
     cn_items: list[dict] = []
     source_stats: dict[str, int] = {}
 
-    # ============ 国际 RSS ============
     with httpx.Client(timeout=15.0, follow_redirects=True) as client:
+        # ============ 国际 RSS ============
         for name, url in RSS_FEEDS_INTL:
             try:
                 resp = client.get(url, headers={
@@ -107,11 +116,11 @@ def fetch_news() -> dict[str, list[dict]]:
                 })
                 feed = feedparser.parse(resp.text)
                 count = 0
-                for entry in feed.entries[:8]:
+                for entry in feed.entries:
                     pub = entry.get("published_parsed") or entry.get("updated_parsed")
                     if pub:
                         pub_dt = datetime(*pub[:6], tzinfo=timezone.utc)
-                        if pub_dt < now - timedelta(hours=24):
+                        if pub_dt < now - timedelta(hours=48):
                             continue
                     intl_items.append({
                         "source": name,
@@ -121,56 +130,59 @@ def fetch_news() -> dict[str, list[dict]]:
                         "published": entry.get("published", ""),
                     })
                     count += 1
+                    if count >= 12:  # 每源最多 12 条
+                        break
                 source_stats[name] = count
             except Exception as e:
                 print(f"  ⚠️ [intl] {name}: {e}")
 
-        # ============ Hacker News Algolia API ============
-        for name, url_template in JSON_API_INTL:
-            url = url_template.format(ts=cutoff_ts)
+        # ============ Hacker News (JSON) + ArXiv (Atom XML) ============
+        for name, fmt, url_template in JSON_API_INTL:
             try:
+                if "{ts}" in url_template:
+                    url = url_template.format(ts=cutoff_ts)
+                else:
+                    url = url_template
                 resp = client.get(url, headers={"User-Agent": "Mozilla/5.0"})
-                data = resp.json()
+
                 count = 0
-                for hit in data.get("hits", [])[:8]:
-                    intl_items.append({
-                        "source": name,
-                        "title": hit.get("title") or hit.get("story_title", ""),
-                        "url": hit.get("url") or f"https://news.ycombinator.com/item?id={hit.get('objectID', '')}",
-                        "snippet": (hit.get("story_text") or "")[:200],
-                        "published": hit.get("created_at", ""),
-                    })
-                    count += 1
+                if fmt == "json":
+                    data = resp.json()
+                    items_iter = data.get("hits", [])
+                    for hit in items_iter:
+                        title = hit.get("title") or hit.get("story_title", "")
+                        url_link = hit.get("url") or f"https://news.ycombinator.com/item?id={hit.get('objectID', '')}"
+                        snippet = (hit.get("story_text") or "")[:200]
+                        pub = hit.get("created_at", "")
+                        intl_items.append({
+                            "source": name, "title": title, "url": url_link,
+                            "snippet": snippet, "published": pub,
+                        })
+                        count += 1
+                elif fmt == "atom":
+                    # ArXiv 返回 Atom XML, 用 feedparser 解析
+                    feed = feedparser.parse(resp.text)
+                    for entry in feed.entries[:15]:
+                        pub_dt = None
+                        pub = entry.get("published", "")
+                        if entry.get("published_parsed"):
+                            pub_dt = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
+                            # 48h 过滤
+                            if pub_dt and pub_dt < now - timedelta(hours=48):
+                                continue
+                        title = entry.get("title", "").replace("\n", " ").strip()
+                        url_link = entry.get("link") or entry.get("id", "")
+                        snippet = entry.get("summary", "")[:200].replace("\n", " ")
+                        intl_items.append({
+                            "source": name, "title": title, "url": url_link,
+                            "snippet": snippet, "published": pub,
+                        })
+                        count += 1
                 source_stats[name] = count
             except Exception as e:
                 print(f"  ⚠️ [intl] {name}: {e}")
 
-        # ============ Reddit JSON (只取 r/MachineLearning top 24h) ============
-        try:
-            resp = client.get(
-                "https://www.reddit.com/r/MachineLearning/top.json?t=day&limit=8",
-                headers={"User-Agent": "Mozilla/5.0 podcast-bot/1.0"},
-            )
-            if resp.status_code == 200:
-                data = resp.json()
-                count = 0
-                for child in data.get("data", {}).get("children", []):
-                    d = child.get("data", {})
-                    intl_items.append({
-                        "source": "Reddit-ML",
-                        "title": d.get("title", ""),
-                        "url": f"https://reddit.com{d.get('permalink', '')}",
-                        "snippet": (d.get("selftext", "") or "")[:200],
-                        "published": datetime.fromtimestamp(
-                            d.get("created_utc", 0), tz=timezone.utc
-                        ).isoformat(),
-                    })
-                    count += 1
-                source_stats["Reddit-ML"] = count
-        except Exception as e:
-            print(f"  ⚠️ [intl] Reddit-ML: {e}")
-
-        # ============ 国内 RSS ============
+        # ============ 国内 RSS (同样放宽到 48h) ============
         for name, url in RSS_FEEDS_CN:
             try:
                 resp = client.get(url, headers={
@@ -178,11 +190,11 @@ def fetch_news() -> dict[str, list[dict]]:
                 })
                 feed = feedparser.parse(resp.text)
                 count = 0
-                for entry in feed.entries[:8]:
+                for entry in feed.entries:
                     pub = entry.get("published_parsed") or entry.get("updated_parsed")
                     if pub:
                         pub_dt = datetime(*pub[:6], tzinfo=timezone.utc)
-                        if pub_dt < now - timedelta(hours=24):
+                        if pub_dt < now - timedelta(hours=48):
                             continue
                     cn_items.append({
                         "source": name,
@@ -192,6 +204,8 @@ def fetch_news() -> dict[str, list[dict]]:
                         "published": entry.get("published", ""),
                     })
                     count += 1
+                    if count >= 15:  # 国内每源最多 15 条
+                        break
                 source_stats[name] = count
             except Exception as e:
                 print(f"  ⚠️ [cn] {name}: {e}")
@@ -663,37 +677,63 @@ def git_push(date: str, summary: dict, push_log: Path) -> bool:
 # ============ Step 4.5: BGM 模块 ============
 BGM_DIR = PROJECT_ROOT / "assets" / "bgm"
 
-# 4 段程序化合成的 BGM 配置 (用 ffmpeg 生成, 永久缓存)
+# 10 段程序化合成的 BGM (ffmpeg sine + noise + filter 链)
+# 风格覆盖: lo-fi / ambient / jazz / electronic / focus
 BGM_PRESETS = [
+    # ===== Lo-Fi 系列 (3 段) =====
     {
         "name": "lofi_chill_60bpm",
         "description": "Lo-Fi chill 60 BPM - 温暖的钢琴循环 + lo-fi 鼓点",
         "filter_complex": (
-            # 暖色钢琴: sine 220Hz 弹旋律, 慢节奏
             "[0:a]volume=0.3[beat];"
-            # 慢节奏 bass
             "sine=frequency=80:duration={dur}[bass];"
             "[bass]volume=0.4[bs];"
-            # 白噪声当 vinyl hiss
             "anoisesrc=color=brown:duration={dur}:amplitude=0.04[noise];"
             "[noise]highpass=f=200[hp];"
-            # 合成
             "[beat][bs][hp]amix=inputs=3:normalize=0[mixed];"
-            # 高通 + 一点点混响
             "[mixed]highpass=f=80,lowpass=f=8000,aecho=0.8:0.9:1000:0.3[out]"
         ),
         "duration": 300,
     },
     {
+        "name": "lofi_study_70bpm",
+        "description": "Lo-Fi study 70 BPM - 慢节奏 + 钢琴琶音",
+        "filter_complex": (
+            "sine=frequency=65:duration={dur}[b];"
+            "[b]volume=0.4[bs];"
+            "sine=frequency=330:duration={dur}[p];"
+            "[p]volume=0.2,tremolo=f=2:d=0.6[p2];"
+            "anoisesrc=color=pink:duration={dur}:amplitude=0.03[n];"
+            "[n]highpass=f=300[n2];"
+            "[bs][p2][n2]amix=inputs=3:normalize=0[m];"
+            "[m]lowpass=f=6000,aecho=0.7:0.85:800:0.3[out]"
+        ),
+        "duration": 300,
+    },
+    {
+        "name": "lofi_sunset_80bpm",
+        "description": "Lo-Fi sunset 80 BPM - 慵懒吉他感 + 雨声",
+        "filter_complex": (
+            "sine=frequency=98:duration={dur}[b];"
+            "[b]volume=0.35,tremolo=f=3:d=0.7[bs];"
+            "sine=frequency=440:duration={dur}[g];"
+            "[g]volume=0.15,tremolo=f=4:d=0.5[g2];"
+            "anoisesrc=color=white:duration={dur}:amplitude=0.02[n];"
+            "[n]highpass=f=500[n2];"
+            "[bs][g2][n2]amix=inputs=3:normalize=0[m];"
+            "[m]lowpass=f=8000,aecho=0.8:0.9:1200:0.4[out]"
+        ),
+        "duration": 300,
+    },
+    # ===== Ambient 系列 (3 段) =====
+    {
         "name": "ambient_pad_70bpm",
         "description": "Ambient pad 70 BPM - drone + 慢琶音",
         "filter_complex": (
-            # Pad: 两个 sine 叠加形成 drone
             "sine=frequency=174:duration={dur}[s1];"
             "sine=frequency=261:duration={dur}[s2];"
             "[s1][s2]amix=inputs=2:normalize=0[pad];"
             "[pad]volume=0.25,lowpass=f=2000[pad2];"
-            # 慢琶音 (用 tremolo 模拟)
             "sine=frequency=440:duration={dur}[arp];"
             "[arp]volume=0.15,tremolo=f=0.5:d=0.7[arp2];"
             "[pad2][arp2]amix=inputs=2:normalize=0[m];"
@@ -702,16 +742,76 @@ BGM_PRESETS = [
         "duration": 300,
     },
     {
+        "name": "ambient_drone_50bpm",
+        "description": "Ambient drone 50 BPM - 极慢 drone 适合长播客",
+        "filter_complex": (
+            "sine=frequency=110:duration={dur}[d1];"
+            "sine=frequency=165:duration={dur}[d2];"
+            "sine=frequency=220:duration={dur}[d3];"
+            "[d1][d2][d3]amix=inputs=3:normalize=0[d];"
+            "[d]volume=0.3,lowpass=f=1500[d2];"
+            "sine=frequency=523:duration={dur}[s];"
+            "[s]volume=0.08,tremolo=f=0.3:d=0.8[s2];"
+            "[d2][s2]amix=inputs=2:normalize=0[m];"
+            "[m]aecho=0.8:0.9:2000:0.5,lowpass=f=5000[out]"
+        ),
+        "duration": 300,
+    },
+    {
+        "name": "ambient_space_60bpm",
+        "description": "Ambient space 60 BPM - 太空感 + 钟声",
+        "filter_complex": (
+            "sine=frequency=220:duration={dur}[d];"
+            "[d]volume=0.3,lowpass=f=1500[d2];"
+            "sine=frequency=880:duration={dur}[b1];"
+            "sine=frequency=1320:duration={dur}[b2];"
+            "[b1]volume=0.05,tremolo=f=0.2:d=0.9[b1p];"
+            "[b2]volume=0.04,tremolo=f=0.15:d=0.9[b2p];"
+            "[d2][b1p][b2p]amix=inputs=3:normalize=0[m];"
+            "[m]aecho=0.9:0.95:3000:0.6,lowpass=f=8000[out]"
+        ),
+        "duration": 300,
+    },
+    # ===== Jazz / Acoustic (2 段) =====
+    {
+        "name": "coffee_shop_jazz",
+        "description": "Coffee shop jazz - 慵懒的钢琴/吉他感",
+        "filter_complex": (
+            "sine=frequency=98:duration={dur}[b];"
+            "[b]volume=0.3,tremolo=f=3:d=0.6[bs];"
+            "sine=frequency=392:duration={dur}[p];"
+            "[p]volume=0.15,tremolo=f=1.5:d=0.4[p2];"
+            "sine=frequency=1318:duration={dur}[sp];"
+            "[sp]volume=0.06[sp2];"
+            "[bs][p2][sp2]amix=inputs=3:normalize=0[m];"
+            "[m]lowpass=f=12000,aecho=0.8:0.9:500:0.2[out]"
+        ),
+        "duration": 300,
+    },
+    {
+        "name": "smooth_jazz_90bpm",
+        "description": "Smooth jazz 90 BPM - 复古萨克斯感",
+        "filter_complex": (
+            "sine=frequency=82:duration={dur}[b];"
+            "[b]volume=0.35,tremolo=f=2:d=0.5[bs];"
+            "sine=frequency=466:duration={dur}[s];"
+            "[s]volume=0.12,tremolo=f=3:d=0.6[s2];"
+            "sine=frequency=1109:duration={dur}[h];"
+            "[h]volume=0.04[h2];"
+            "[bs][s2][h2]amix=inputs=3:normalize=0[m];"
+            "[m]lowpass=f=14000,aecho=0.7:0.85:600:0.3[out]"
+        ),
+        "duration": 300,
+    },
+    # ===== Electronic 系列 (2 段) =====
+    {
         "name": "soft_electronic_90bpm",
         "description": "Soft electronic 90 BPM - 轻快 synth",
         "filter_complex": (
-            # synth bass
             "sine=frequency=110:duration={dur}[b];"
             "[b]volume=0.35[bs];"
-            # 轻快 kick 节奏
-            "sine=frequency=60:duration={dur}:sample_rate=32000[k];"
+            "sine=frequency=60:duration={dur}[k];"
             "[k]volume=0.5,tremolo=f=2:d=0.9[k2];"
-            # synth lead
             "sine=frequency=523:duration={dur}[l];"
             "[l]volume=0.15,tremolo=f=4:d=0.5[l2];"
             "[bs][k2][l2]amix=inputs=3:normalize=0[m];"
@@ -720,20 +820,19 @@ BGM_PRESETS = [
         "duration": 300,
     },
     {
-        "name": "coffee_shop_jazz",
-        "description": "Coffee shop jazz - 慵懒的吉他/钢琴感",
+        "name": "synthwave_100bpm",
+        "description": "Synthwave 100 BPM - 复古电子 + drive",
         "filter_complex": (
-            # 慢琶音 bass
-            "sine=frequency=98:duration={dur}[b];"
-            "[b]volume=0.3,tremolo=f=3:d=0.6[bs];"
-            # 中频 sine 模拟钢琴
-            "sine=frequency=392:duration={dur}[p];"
-            "[p]volume=0.15,tremolo=f=1.5:d=0.4[p2];"
-            # 高频 sparkle
-            "sine=frequency=1318:duration={dur}[sp];"
-            "[sp]volume=0.06[sp2];"
-            "[bs][p2][sp2]amix=inputs=3:normalize=0[m];"
-            "[m]lowpass=f=12000,aecho=0.8:0.9:500:0.2[out]"
+            "sine=frequency=73:duration={dur}[b];"
+            "[b]volume=0.4,acompressor=threshold=0.5:ratio=4[bs];"
+            "sine=frequency=55:duration={dur}:sample_rate=32000[k];"
+            "[k]volume=0.4,tremolo=f=2:d=0.85[k2];"
+            "sine=frequency=587:duration={dur}[l];"
+            "[l]volume=0.18,tremolo=f=3:d=0.6[l2];"
+            "sine=frequency=1760:duration={dur}[h];"
+            "[h]volume=0.06[h2];"
+            "[bs][k2][l2][h2]amix=inputs=4:normalize=0[m];"
+            "[m]lowpass=f=12000,aecho=0.7:0.85:400:0.25[out]"
         ),
         "duration": 300,
     },
