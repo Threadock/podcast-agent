@@ -3,14 +3,15 @@
 > 每日 8:00 自动汇总国际 + 国内 AI 新闻 (24h 内)
 
 
-**抓取统计**: OpenAI-News=2, TheVerge-AI=7, MarkTechPost=9, HuggingFace-Blog=1, HackerNews=2, 量子位=10, 雷锋网=10
+**抓取统计**: OpenAI-News=2, TheVerge-AI=6, MarkTechPost=10, HuggingFace-Blog=1, HackerNews=2, ArXiv-cs.AI=15, 量子位=10, 雷锋网=10, 钛媒体=15, 掘金=15, 199IT=5
 
-**去重**: 国际 21→21, 国内 20→20
+**去重**: 国际 36→36, 国内 55→55
 
 ## 🌍 国际
 
 - **[Cloudflare Introduces Kitesurf: An Agent-First Web Browser That Runs Entirely in V8 Isolates on Cloudflare Workers](https://www.marktechpost.com/2026/08/06/cloudflare-introduces-kitesurf-an-agent-first-web-browser-that-runs-entirely-in-v8-isolates-on-cloudflare-workers/)** _MarkTechPost_ — <p>Cloudflare has released Kitesurf, a stateless web browser built specifically for AI agents that runs entirely in V8 isolates on Cloudflare Workers, with no Chromium underneath. The browser drops hu
 - **[Adaptive Experimentation with Meta’s Ax: A Practical Coding Guide](https://www.marktechpost.com/2026/08/06/adaptive-experimentation-with-metas-ax-a-practical-coding-guide/)** _MarkTechPost_ — <p>In this tutorial, we explore adaptive experimentation using Meta’s Ax with the modern Client API. We work through a complete workflow where we tune a RandomForest model on a synthetic classificatio
+- **[Pokee AI Releases Pokee-Isaac 28B: A 10M-Token Context Agentic Model Built to Run Inside the Customer Boundary](https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/)** _MarkTechPost_ — <p>Pokee AI released Pokee-Isaac 28B, a 28B text-only foundation model with a 10M-token context window built to run inside the customer boundary. It scores 93.3% on RULER at 10M tokens, where every ba
 - **[Designing Scalable Interactive Visualizations with Reflex XY: Composition, Million-Point Rendering, Streaming, Custom Marks, and Export](https://www.marktechpost.com/2026/08/08/designing-scalable-interactive-visualizations-with-reflex-xy-composition-million-point-rendering-streaming-custom-marks-and-export/)** _MarkTechPost_ — <p>Dive into the advanced visualization capabilities of the Reflex XY Python library. This tutorial guides you through building high-performance, interactive charts—from handling million-point dataset
 - **[Mistral AI Releases Shieldstral 1.0 3B: An Open-Weights Policy-Adaptive Multimodal Safety Classifier Matching Models 7× Its Size](https://www.marktechpost.com/2026/08/07/mistral-ai-releases-shieldstral-1-0-3b/)** _MarkTechPost_ — <p>Mistral AI has released Shieldstral 1.0 3B, an open-weights, policy-adaptive multimodal safety classifier that frames content moderation as a single yes/no question instead of a fixed harm taxonomy
 - **[Tencent Cloud Open-Sources TencentDB Agent Memory v2.0: A Team-Level Memory Hub for AI Coding Agents](https://www.marktechpost.com/2026/08/07/tencent-cloud-open-sources-tencentdb-agent-memory-v2-0/)** _MarkTechPost_ — <p>Tencent Cloud has open-sourced TencentDB Agent Memory v2.0, a team-level memory hub that turns conversations, documents and code into four governed, reusable assets — Chat Memory, Skill, LLM-Wiki a
@@ -23,22 +24,23 @@
 - **[Liquid AI Releases LFM2.5-2.6B: An On-Device Agentic Model With 128K Context, Tool Calling, And Open Weights](https://www.marktechpost.com/2026/08/06/liquid-ai-lfm2-5-2-6b-on-device-agentic-model/)** _MarkTechPost_ — <p>Liquid AI released LFM2.5-2.6B, an agentic model that plans, calls tools, and completes multi-step tasks entirely on-device. The 2.69B parameter model pairs 22 double-gated short convolution blocks
 - **[Show HN: Salestrics – An open MCP server and CRM for AI-native revenue teams](https://www.salestrics.com/)** _HackerNews_ — Hey HN, I’m Austin, founder of Salestrics (salestrics.com).<p>The Problem: &gt; Most AI agents today are trapped in chat windows. While models are smart enough to run complex multi-step workflows, giv
 - **[Show HN: Alyph, a manual transmission for LLM context](https://www.alyph.ai/)** _HackerNews_ — Since I started using LLMs, I&#x27;ve always had this feeling of wanting to go back, change the history, and then go down another branch.<p>The lightbulb moment for me was when Google AI Studio starte
-- **[Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore](https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo)** _TheVerge-AI_ — It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song "Rubberz." His comments follow the producer Medasin's videos claiming that an AI
 
 ## 🇨🇳 国内
 
-- **[奥特曼的ChatGPT育儿大法，捅了马蜂窝](https://www.qbitai.com/2026/08/468631.html)** _量子位_ — 这就有些尴尬了。
-- **[中国NeoLab时刻：EverMind用3篇论文，交出全栈自进化首份答卷](https://www.qbitai.com/2026/08/468555.html)** _量子位_ — 海外团队纷纷下注，NeoLab浪潮狂飙
-- **[Jeff Dean创业BP曝光，杨植麟也在上面！硅谷VC抢破头送钱](https://www.qbitai.com/2026/08/468498.html)** _量子位_ — 「我，Jeff Dean，打钱」
-- **[都学坏了！奥特曼亲手封锁最强模型Astra，重蹈Mythos覆辙](https://www.qbitai.com/2026/08/468462.html)** _量子位_ — 唉，赶紧整完快点发布吧。。。
-- **[谷歌急了：AI核心员工全给我搬回硅谷坐班！](https://www.qbitai.com/2026/08/468398.html)** _量子位_ — 再花15亿美元买现成AI编程团队
-- **[Kimi K3也失控了…学霸AI逃离沙箱只为找答案](https://www.qbitai.com/2026/08/468338.html)** _量子位_ — 啊，这真是个AI“失控”的夏天
-- **[赌注十万亿：字节拒绝走蒸馏捷径背后，张一鸣的长期主义有多狠？](https://www.leiphone.com/category/yanxishe/JR3ppBP5VOxND55d.html)** _雷锋网_ — <section style="text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;"><img class="rich_pages wxw-img" src="https://static.leiphone.com/uploads/new/images/20260807/6a75f97f62ce2.j
-- **[82 篇论文撑起的判断：IJCAI 凭什么是推理、规划、知识的「第一主场」](https://www.leiphone.com/category/private/iME7Xg5tMwxIyZqU.html)** _雷锋网_ — <section style="text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;"><img class="rich_pages wxw-img" src="https://static.leiphone.com/uploads/new/images/20260807/6a75b30b8ac12.j
-- **[美团王莆中：将AI融入家庭健康，助力建设“15分钟医疗圈”](https://www.leiphone.com/category/industrynews/iGjt6GWE2NRHORMU.html)** _雷锋网_ — <p>8月7日，2026全球医疗峰会在香港举行。美团核心本地商业CEO王莆中在会上表示，美团将立足医疗资源连接者角色，与行业伙伴共建“15分钟医疗卫生服务圈”。</p><p>“过去，‘15分钟医疗卫生服务圈’的建设重心主要落在基建层面，但物理基础设施总有边界。”王莆中表示，在医疗健康领域，美团扮演的始终是连接者角色，通过数字化能力和AI技术，让医疗资源更高效地触达需要的人，让服务看得到、到得快、用
-- **[延长20年！上汽集团与通用汽车签署合资续约协议](https://www.leiphone.com/category/industrynews/n8L9ojfqMPqsvH2u.html)** _雷锋网_ — <p style="text-align: left; margin-top: 7.8pt; margin-bottom: 12pt;"><span>2026年</span><span>8</span><span>月</span><span>5</span><span>日</span><span> &nbsp; </span><span>今天，“共赴新境——上汽通用汽车合资续约签约仪式”在上海世界
-- **[IJCAI 2026 专访：机器人想学会人类动作，还差一座桥 | GAIR Paper 118](https://www.leiphone.com/category/private/V2FQ6puH0pDdAKeI.html)** _雷锋网_ — <section style="text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;"><img class="rich_pages wxw-img" src="https://static.leiphone.com/uploads/new/images/20260807/6a7576077ad82.j
-- **[Jeff Dean 创业路演 PPT，惊现 34 位创始人，谷歌系人才占领半壁江山](https://www.leiphone.com/category/yanxishe/Ga2vGDMkzS2dp4Ew.html)** _雷锋网_ — <section style="text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;"><img class="rich_pages wxw-img" src="https://static.leiphone.com/uploads/new/images/20260807/6a75508b13d00.j
-- **[汪峰：我现在买衣服，80%都是淘宝](https://www.leiphone.com/category/industrynews/FqaTMocwsNfeul2p.html)** _雷锋网_ — <p>日前，汪峰在一档视频采访中提及，孩子爱买奢侈品，他认为这不是他们应该有的消费行为，谈及自身，他说到，“我现在挑衣服只希望合适，买衣服 80% 都是淘宝”。</p><p style="text-align: center;"><img src="https://static.leiphone.com/uploads/new/images/20260807/6a754cfc0f84c.png?i
-- **[阿里视频大模型Wan3.0开启公测：文档、ppt也能变视频](https://www.leiphone.com/category/industrynews/Wp4SCQ5wu1Lbhtr1.html)** _雷锋网_ — <p style="text-align: center;"><img src="https://static.leiphone.com/uploads/new/images/20260807/6a75419d20d2d.jpeg?imageView2/2/w/740" /></p><p>8月6日，阿里巴巴视频生成大模型Wan 3.0开启公测，在生成时长、万能创作、全能参考以及真实世界还原等维度全
-- **[2个月做到3000单，内贸卖家如何借「轻出海」快速打开跨境生意？](https://www.leiphone.com/category/industrynews/XnHMK4DKZgEQBCZs.html)** _雷锋网_ — <p style="text-align: center;"><img src="https://static.leiphone.com/uploads/new/images/20260807/6a75386a64cb5.jpeg?imageView2/2/w/740" /></p><p>跨境电商发展到今天，已经很难用一套方法适用于所有人。不同卖家的起点、资源和优势各不相同，尤其是对于拥有成熟供应
+- **[世界银行：2025年商业就绪度报告](http://www.199it.com/archives/1836573.html)** _199IT_ — 报告数据显示，未来十年全球预计将新增约12亿劳动年龄人口，而2025年全球GDP增速预计仅约2.3%，供需失衡风险正在扩大。
+- **[SensorTower：2026年动作和策略游戏应用报告](http://www.199it.com/archives/1827335.html)** _199IT_ — Steam领衔增长，移动端聚焦变现
+
+Steam上的动作和策略类游戏的下载量和收入均出现同比大幅增长，证明市场对优质游戏仍有巨大需求。“战地6”、“ClairObscur：Expedition33”和“ARCRaiders”等热门游戏表明，个人电脑和游戏机能够实现移动端无法实现的技术密集型体验。
+- **[Brand Finance：2026年全球B2B品牌价值](http://www.199it.com/archives/1827399.html)** _199IT_ — 品牌强度的财务影响既具有可衡量性，也具有重要意义。BrandFinance对全球超过1000个受评B2B品牌的分析显示，以品牌评级表示的品牌强度与债务成本之间存在清晰、单调的关系。强势品牌受益于较低的借贷成本，低端品牌和顶级品牌之间的债务风险溢价相差60个基点。在规模效应下，这意味着每年可节省数千万美元。
+- **[世界经济论坛：体育惠及人类与地球](http://www.199it.com/archives/1836574.html)** _199IT_ — 2025年全球体育相关收入约为2.3万亿美元，预计2030年将增长至3.7万亿美元，复合增速约10%，远高于过去十年7%的水平，并在2050年达到8.8万亿美元规模。
+- **[Crunchbase：2026年第一季度北美风险投资额达2526亿美元](http://www.199it.com/archives/1822841.html)** _199IT_ — 根据Crunchbase的数据，美国和加拿大公司在种子轮至成长型投资轮次中获得了惊人的2526亿美元。这是上一季度融资总额的三倍多，也是有史以来最大的单季度总额。
+- **[Link-X Demo Day 2026 ：AI 创业向下扎根、向外延伸、向内深入](https://www.tmtpost.com/8096463.html)** _钛媒体_ — 8月8日，“Link-X Demo Day 2026（创新项目展示日）——Spark Moment·灵光一闪”活动在北京中关村国际技术交易中心举行。
+- **[【数智周报】张一鸣：字节跳动“拒绝蒸馏”，不用别人输出换榜单排名；三星发布下一代AI存储路线图，展示zHBM和400层以上V10 NAND技术；闪迪第四财季营收超预期增长372%，数据中心收入增近13倍，拟豪掷140亿回购](https://www.tmtpost.com/8096279.html)** _钛媒体_ — （8月3日-8日）“AI支出巨浪”很快消退？资深策略师“捕捉”到两大危险信号；谷歌人工智能领导层重大调整：AI元老效力27年后离职，DeepMind创始人转任首席科学家；阿里Qwen3.8正式发布，编程与办公再进化；自变量已秘密递表，估值已突破200亿人民币...
+- **[估值610亿元之后，宇树要卖多少台机器人？](https://www.tmtpost.com/8095572.html)** _钛媒体_ — 如果宇树未来仍然主要依靠销售硬件，610亿元大概要每年卖出10万台以上。但如果宇树能把机器人变成“持续服务入口”，那可能就是另一个答案。
+- **[AI低俗广告，闪了300亿“中国锅王”的腰](https://www.tmtpost.com/8095881.html)** _钛媒体_ — 苏泊尔卷入低俗营销风波。
+- **[AI没被电饿死，先被电“气”死了](https://www.tmtpost.com/8096048.html)** _钛媒体_ — 毫秒级断电杀训练、万卡集群一小时烧掉一辆车——比“电荒”更先到来的，是“电脏”。
+- **[每回一次县城，加盟商的门头又变了](https://www.tmtpost.com/8096277.html)** _钛媒体_ — 留在县城的，是什么？
+- **[苏泊尔“国民品牌”的信任，是如何被一步步透支的](https://www.tmtpost.com/8096242.html)** _钛媒体_ — AI擦边广告翻车，营销投入已是研发4倍，净利五年来首降，却清仓式分红给法国大股东。
+- **[离开美团的王慧文：一笔投资赚20倍，押中24家AI公司](https://www.tmtpost.com/8095579.html)** _钛媒体_ — 商业大佬纷纷入局AI浪潮。
+- **[终于有人承认在院线电影里用 AI 了，未来的电影，还有“含 AI 量”为零的可能吗？](https://www.tmtpost.com/8095471.html)** _钛媒体_ — AI进入电影行业，哪个方向才是未来？
+- **[一行代码没写，我用AI做了一个可以收费产品](https://juejin.cn/post/7671566723838115878)** _掘金_ — 这篇文章记录 PennyScribe 从 Qwen ASR、Vast.ai GPU 调度到正式上线的开发过程，以及我对 AI Agent 时代产品设计的新思考。

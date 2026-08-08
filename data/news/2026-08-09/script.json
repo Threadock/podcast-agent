@@ -4,117 +4,133 @@
   "selected_news": [
     {
       "source": "MarkTechPost",
-      "title": "Cloudflare发布Kitesurf：专为AI Agent打造的浏览器",
-      "url": "https://www.marktechpost.com",
+      "title": "Cloudflare推出Kitesurf：专为AI Agent打造的Web浏览器",
+      "url": "https://marktechpost.com/cloudflare-kitesurf/",
       "weight": "deep"
     },
     {
       "source": "MarkTechPost",
-      "title": "Liquid AI发布LFM2.5-2.6B：128K上下文、端侧Agent模型",
-      "url": "https://www.marktechpost.com",
+      "title": "Liquid AI发布LFM2.5-2.6B：端侧Agent模型，128K上下文",
+      "url": "https://marktechpost.com/liquid-ai-lfm2-5-2-6b/",
       "weight": "deep"
     },
     {
-      "source": "量子位",
-      "title": "Jeff Dean创业BP曝光，34位创始人谷歌系占半壁江山",
-      "url": "https://www.qbitai.com",
+      "source": "钛媒体",
+      "title": "Link-X Demo Day 2026：AI创业向下扎根、向外延伸、向内深入",
+      "url": "https://www.tmtpost.com/",
       "weight": "deep"
     },
     {
-      "source": "雷锋网",
-      "title": "阿里Wan3.0视频大模型开启公测，文档PPT也能变视频",
-      "url": "https://www.leiphone.com",
+      "source": "钛媒体",
+      "title": "宇树610亿估值之后，要卖多少台机器人？",
+      "url": "https://www.tmtpost.com/",
       "weight": "deep"
     },
     {
-      "source": "雷锋网",
-      "title": "字节拒绝蒸馏捷径，张一鸣押注十万亿长期主义",
-      "url": "https://www.leiphone.com",
+      "source": "钛媒体",
+      "title": "数智周报：张一鸣拒绝蒸馏、阿里Qwen3.8正式发布",
+      "url": "https://www.tmtpost.com/",
       "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "NVIDIA发布NOOA：面向对象Python Agent框架",
+      "url": "https://marktechpost.com/nvidia-nooa/",
+      "weight": "brief"
     },
     {
       "source": "OpenAI-News",
-      "title": "OpenAI公布Astra网络安全评估与防御升级",
-      "url": "https://openai.com/news",
-      "weight": "deep"
+      "title": "OpenAI公布Astra网络安全评估与防护措施",
+      "url": "https://openai.com/news/",
+      "weight": "brief"
+    },
+    {
+      "source": "钛媒体",
+      "title": "离开美团的王慧文：押中24家AI公司，一笔投资赚20倍",
+      "url": "https://www.tmtpost.com/",
+      "weight": "brief"
     }
   ],
   "lines": [
     {
       "role": "host",
-      "text": "欢迎来到《今日AI头条》！今天是2026年8月9号，咱们一起聊聊AI圈昨天发生了什么大事儿吧。"
+      "text": "大家好，欢迎来到《今日AI头条》！今天是8月9号，咱们一起看看过去24小时国内外AI圈又炸了哪些大事。"
     },
     {
       "role": "guest",
-      "text": "好啊，今天的国际和国内料都很足，咱们直接上硬菜，先从Cloudflare说起。"
+      "text": "大家好，我是科技评论员。没错，昨晚到今早信息量极大，从底层浏览器到端侧模型，从国内Demo Day到大佬投资，动作非常密集。"
     },
     {
       "role": "host",
-      "text": "对，Cloudflare昨天扔了个炸弹——Kitesurf浏览器，完全跑在V8沙箱里，没有Chromium内核，这是为AI Agent专门做的啊？"
+      "text": "先聊国际！Cloudflare突然甩出一个叫Kitesurf的浏览器，这东西有什么特别的？"
     },
     {
       "role": "guest",
-      "text": "没错，这浏览器是无状态的，每个会话在V8隔离环境里跑完即销毁，特别适合自动化Agent批量操作网页，比传统浏览器轻得多。"
+      "text": "你看，Kitesurf是给AI Agent专用的浏览器，跑在Cloudflare Workers的V8隔离环境里，根本没有Chromium内核，纯无状态设计，Agent调用网页更轻。"
     },
     {
       "role": "host",
-      "text": "那咱们再看Liquid AI的LFM2.5-2.6B，这个2.69B参数的端侧模型号称能跑Agent，你怎么看？"
+      "text": "那对普通用户有啥意义啊？是不是说以后AI上网冲浪会更便宜？"
     },
     {
       "role": "guest",
-      "text": "亮点是128K上下文加工具调用，全部本地跑，22个双门控短卷积块堆出来，性能据说不输大模型，对手机和边缘设备非常友好。"
+      "text": "对，Agent不再背沉重的浏览器栈，Serverless启动毫秒级，调用网页API成本直线下降，Agent生态要起飞。"
     },
     {
       "role": "host",
-      "text": "国内这边Jeff Dean的创业BP曝光了，里面有34位创始人，谷歌系直接占了一半，杨植麟也在名单里？"
+      "text": "另一条端侧新闻，Liquid AI发的LFM2.5-2.6B模型，号称能在手机上跑Agent？"
     },
     {
       "role": "guest",
-      "text": "对，硅谷VC抢着送钱，Jeff Dean本人挂帅，这阵容豪华得像谷歌AI实验室的校友会啊。"
+      "text": "没错，2.69B参数配128K上下文，支持工具调用，开源权重直接下放到端侧，本地就能规划多步任务。"
     },
     {
       "role": "host",
-      "text": "那阿里Wan3.0视频大模型公测了呢，说文档和PPT都能变成视频，这玩法也太野了吧？"
+      "text": "切回国内！8月8号北京中关村那个Link-X Demo Day，我听说挺热闹？"
     },
     {
       "role": "guest",
-      "text": "Wan3.0在生成时长、参考还原上都升级了，公测免费体验，企业用户也能接入，对做培训和短视频的团队是大利好。"
+      "text": "对，今年主题叫\"向下扎根、向外延伸、向内深入\"，一批AI创业公司同台亮相，涉及底层算子、行业应用和自我迭代，方向很全。"
     },
     {
       "role": "host",
-      "text": "字节拒绝走蒸馏捷径，张一鸣押注十万亿搞自研，这事儿你怎么看啊？"
+      "text": "再看看宇树科技，610亿估值刷屏了！这数字到底靠啥撑起来？"
     },
     {
       "role": "guest",
-      "text": "其实长期主义说起来简单做起来难，字节愿意砸钱做全栈自研，等于押宝下一代模型话语权，这魄力不是谁都有的。"
+      "text": "钛媒体算了一笔账：纯卖硬件的话，610亿意味着每年要卖10万台以上；但如果机器人变成持续服务入口，那就是另一个故事了。"
     },
     {
       "role": "host",
-      "text": "OpenAI也公布了Astra的网络安全评估，说要加强防护，这是不是在回应之前的安全质疑？"
+      "text": "这两件事其实有联动吧？端侧模型越强，机器人就能越智能。"
     },
     {
       "role": "guest",
-      "text": "没错，Astra能力越强风险越大，OpenAI提前做攻防演练是必须的，这也是头部模型的必修课。"
+      "text": "太对了！LFM2.5-2.6B这种小钢炮端侧模型，正是宇树这类具身智能最稀缺的弹药，未来算力下沉到本体里才是终局。"
     },
     {
       "role": "host",
-      "text": "另外腾讯开源了Agent Memory v2.0，Mistral也放出了3B的多模态安全分类器Shieldstral。"
+      "text": "数智周报那边还有料，张一鸣说字节\"拒绝蒸馏\"，阿里Qwen3.8也来了？"
     },
     {
       "role": "guest",
-      "text": "对，腾讯那个记忆中枢把对话、文档、代码都变成可复用资产，Mistral的3B模型据说能打平7倍体积的大模型，挺有意思。"
+      "text": "对，字节明确不拿别人蒸馏换榜单排名；阿里Qwen3.8在编程和办公场景再进化，国内大模型内卷已经从参数转向落地能力。"
     },
     {
       "role": "host",
-      "text": "NVIDIA也开源了NOOA框架，把Agent封装成一个Python类，开发者门槛直接降了一大截。"
+      "text": "另外几条也很快提一下：NVIDIA开了NOOA框架，把Agent封装成单个Python类；OpenAI公布了Astra的网络安全评估；前美团王慧文押中24家AI公司，一笔投资赚了20倍。"
     },
     {
       "role": "guest",
-      "text": "你看，从端侧模型到Agent基础设施，这两天整个AI产业链都在加速分层对吧？"
+      "text": "对，还有苏泊尔被AI低俗广告翻车，营销费是研发的4倍，净利五年来首降，这条很有意思，反映AI生成内容的合规风险已经烧到消费品。"
     },
     {
       "role": "host",
-      "text": "确实，模型、Agent、工具链都在各自赛道上狂奔，谁能率先把闭环跑通，谁就能吃到下一波红利。"
+      "text": "你怎么看接下来一周？AI Agent会不会真正大规模落地？"
+    },
+    {
+      "role": "host",
+      "text": "我觉得8月会是分水岭，端侧模型、Agent浏览器、具身智能三条线同时加速，谁先把\"调用成本\"打下来，谁就能吃到红利。"
     }
   ]
 }

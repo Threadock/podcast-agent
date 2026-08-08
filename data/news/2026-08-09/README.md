@@ -1,11 +1,11 @@
 # 每日AI播客 · 2026-08-09
 
-> 生成时间: 2026-08-09 00:48:45 +0800
-> 时长: 200.2 秒 (3.3 分钟)
-> 字符数: 951
-> 句数: 19
+> 生成时间: 2026-08-09 01:12:17 +0800
+> 时长: 221.3 秒 (3.7 分钟)
+> 字符数: 1040
+> 句数: 20
 > 抓取: 15 国际 + 15 国内
-> 🎵 BGM: ambient_pad_70bpm
+> 🎵 BGM: synthwave_100bpm
 
 ## 文件清单
 - `news.md` — AI 新闻汇总 (可读 Markdown)
@@ -19,5 +19,5 @@
 **今日AI头条** — 2026-08-09 | 国际+国内重磅速览
 
 ## 音色
-- 主持人 (host): `female-shaonv` 语速 1.2x 情绪 happy
-- 嘉宾 (guest): `male-qn-qingse` 语速 1.15x 情绪 happy
+- 主持人 (host): `female-shaonv` 语速 1.5x 情绪 happy
+- 嘉宾 (guest): `male-qn-qingse` 语速 1.5x 情绪 happy
