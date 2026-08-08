@@ -4,133 +4,123 @@
   "selected_news": [
     {
       "source": "MarkTechPost",
-      "title": "Cloudflare推出Kitesurf：专为AI Agent打造的Web浏览器",
-      "url": "https://marktechpost.com/cloudflare-kitesurf/",
+      "title": "Cloudflare发布Kitesurf：完全运行在V8 Isolates的无状态浏览器，专为AI Agent打造",
+      "url": "",
       "weight": "deep"
-    },
-    {
-      "source": "MarkTechPost",
-      "title": "Liquid AI发布LFM2.5-2.6B：端侧Agent模型，128K上下文",
-      "url": "https://marktechpost.com/liquid-ai-lfm2-5-2-6b/",
-      "weight": "deep"
-    },
-    {
-      "source": "钛媒体",
-      "title": "Link-X Demo Day 2026：AI创业向下扎根、向外延伸、向内深入",
-      "url": "https://www.tmtpost.com/",
-      "weight": "deep"
-    },
-    {
-      "source": "钛媒体",
-      "title": "宇树610亿估值之后，要卖多少台机器人？",
-      "url": "https://www.tmtpost.com/",
-      "weight": "deep"
-    },
-    {
-      "source": "钛媒体",
-      "title": "数智周报：张一鸣拒绝蒸馏、阿里Qwen3.8正式发布",
-      "url": "https://www.tmtpost.com/",
-      "weight": "deep"
-    },
-    {
-      "source": "MarkTechPost",
-      "title": "NVIDIA发布NOOA：面向对象Python Agent框架",
-      "url": "https://marktechpost.com/nvidia-nooa/",
-      "weight": "brief"
     },
     {
       "source": "OpenAI-News",
-      "title": "OpenAI公布Astra网络安全评估与防护措施",
-      "url": "https://openai.com/news/",
+      "title": "OpenAI公布Astra网络安全评估，应对下一代关键网络能力",
+      "url": "",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "阿里Qwen3.8正式发布，编程与办公能力再进化",
+      "url": "",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "估值610亿，宇树要卖多少台机器人才能撑起这个数字",
+      "url": "",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Mistral AI发布Shieldstral 1.0 3B：3B参数安全分类器比肩7倍体量对手",
+      "url": "",
       "weight": "brief"
     },
     {
       "source": "钛媒体",
-      "title": "离开美团的王慧文：押中24家AI公司，一笔投资赚20倍",
-      "url": "https://www.tmtpost.com/",
+      "title": "张一鸣：字节跳动拒绝蒸馏，不拿别人输出换榜单",
+      "url": "",
+      "weight": "brief"
+    },
+    {
+      "source": "钛媒体",
+      "title": "离开美团的王慧文：一笔投资赚20倍，押中24家AI公司",
+      "url": "",
       "weight": "brief"
     }
   ],
   "lines": [
     {
       "role": "host",
-      "text": "大家好，欢迎来到《今日AI头条》！今天是8月9号，咱们一起看看过去24小时国内外AI圈又炸了哪些大事。"
+      "text": "听众朋友早上好，今天是2026年8月9日的《今日AI头条》，我是小晚，咱们今天聊点硬核的——AI Agent要长出\"身体\"了！"
     },
     {
       "role": "guest",
-      "text": "大家好，我是科技评论员。没错，昨晚到今早信息量极大，从底层浏览器到端侧模型，从国内Demo Day到大佬投资，动作非常密集。"
+      "text": "没错，今天海内外好几条大新闻都指向一个趋势：AI不再只是聊天框里的角色，而是要真的动手干活了。咱们一条条拆。"
     },
     {
       "role": "host",
-      "text": "先聊国际！Cloudflare突然甩出一个叫Kitesurf的浏览器，这东西有什么特别的？"
+      "text": "先看Cloudflare这波操作，他们推出的Kitesurf浏览器号称完全跑在V8 Isolates里，连Chromium都没有，这是要给Agent一个\"原生\"的家吗？"
     },
     {
       "role": "guest",
-      "text": "你看，Kitesurf是给AI Agent专用的浏览器，跑在Cloudflare Workers的V8隔离环境里，根本没有Chromium内核，纯无状态设计，Agent调用网页更轻。"
+      "text": "对，这个设计很聪明，传统浏览器太重，Agent只是去抓数据、下个单，根本不需要渲染界面，所以Cloudflare直接砍掉Chromium，让浏览器变成无状态、轻量化的执行环境。"
     },
     {
       "role": "host",
-      "text": "那对普通用户有啥意义啊？是不是说以后AI上网冲浪会更便宜？"
+      "text": "OpenAI那边也有新动作，他们公布了Astra模型的网络安全评估，说要应对下一代关键网络能力，这事儿对普通用户有啥影响呢？"
     },
     {
       "role": "guest",
-      "text": "对，Agent不再背沉重的浏览器栈，Serverless启动毫秒级，调用网页API成本直线下降，Agent生态要起飞。"
+      "text": "直接影响就是Astra会被武装成攻防利器，既能帮白帽找漏洞，也可能被滥用，所以OpenAI提前做安全分级，本质是在监管落地前先把篱笆扎好。"
     },
     {
       "role": "host",
-      "text": "另一条端侧新闻，Liquid AI发的LFM2.5-2.6B模型，号称能在手机上跑Agent？"
+      "text": "视线切回国内，阿里这两天悄悄放出了Qwen3.8，据钛媒体报道，编程和办公能力又进化了，这版本升级到底强在哪儿？"
     },
     {
       "role": "guest",
-      "text": "没错，2.69B参数配128K上下文，支持工具调用，开源权重直接下放到端侧，本地就能规划多步任务。"
+      "text": "从公开信息看，Qwen3.8在代码补全、长文档办公场景明显加强，特别是多轮工具调用更稳了，对开发者来说体感差距还是很大的。"
     },
     {
       "role": "host",
-      "text": "切回国内！8月8号北京中关村那个Link-X Demo Day，我听说挺热闹？"
+      "text": "另一个大新闻是宇树科技估值冲到610亿，可钛媒体算了笔账：如果只卖硬件，每年得卖出10万台机器人才能撑住，这事儿你怎么看？"
     },
     {
       "role": "guest",
-      "text": "对，今年主题叫\"向下扎根、向外延伸、向内深入\"，一批AI创业公司同台亮相，涉及底层算子、行业应用和自我迭代，方向很全。"
+      "text": "这正是行业拐点信号，硬件只是入口，真正的想象空间是\"持续服务\"——机器人变成数据节点，靠订阅、API、内容持续赚钱，估值逻辑就完全不一样了。"
     },
     {
       "role": "host",
-      "text": "再看看宇树科技，610亿估值刷屏了！这数字到底靠啥撑起来？"
+      "text": "所以你看，国际国内其实在赛跑：Cloudflare做Agent基建、OpenAI强化安全、阿里卷模型、宇树卷具身，四个方向全是未来三年的大风口。"
     },
     {
       "role": "guest",
-      "text": "钛媒体算了一笔账：纯卖硬件的话，610亿意味着每年要卖10万台以上；但如果机器人变成持续服务入口，那就是另一个故事了。"
+      "text": "而且别忘了Mistral也来凑热闹，他们刚发的Shieldstral 1.0只有3B参数，却能匹敌7倍体量的安全分类器，小模型做合规越来越香了。"
     },
     {
       "role": "host",
-      "text": "这两件事其实有联动吧？端侧模型越强，机器人就能越智能。"
+      "text": "对，小模型在端侧合规、内容审核上的优势会越来越大，这块未来一定会成为标配。另外字节那边也有态度新闻。"
     },
     {
       "role": "guest",
-      "text": "太对了！LFM2.5-2.6B这种小钢炮端侧模型，正是宇树这类具身智能最稀缺的弹药，未来算力下沉到本体里才是终局。"
+      "text": "没错，张一鸣明确说\"拒绝蒸馏\"，不用别人模型输出来换榜单排名，这对国产开源生态是个好事，意味着大家愿意从零啃硬骨头了。"
     },
     {
       "role": "host",
-      "text": "数智周报那边还有料，张一鸣说字节\"拒绝蒸馏\"，阿里Qwen3.8也来了？"
+      "text": "还有一条花边：离开美团的王慧文，据说一笔投资赚了20倍，还押中了24家AI公司，看来大佬转身也是踩着风口的。"
     },
     {
       "role": "guest",
-      "text": "对，字节明确不拿别人蒸馏换榜单排名；阿里Qwen3.8在编程和办公场景再进化，国内大模型内卷已经从参数转向落地能力。"
+      "text": "这说明AI赛道的造富效应还在扩散，从大厂高管到独立投资人，全在用真金白银投票下注下一代基础设施。"
     },
     {
       "role": "host",
-      "text": "另外几条也很快提一下：NVIDIA开了NOOA框架，把Agent封装成单个Python类；OpenAI公布了Astra的网络安全评估；前美团王慧文押中24家AI公司，一笔投资赚了20倍。"
+      "text": "如果让你预测下半年，你最看好哪个细分赛道会先跑出独角兽？具身机器人还是Agent基建？"
     },
     {
       "role": "guest",
-      "text": "对，还有苏泊尔被AI低俗广告翻车，营销费是研发的4倍，净利五年来首降，这条很有意思，反映AI生成内容的合规风险已经烧到消费品。"
+      "text": "我赌Agent基建，因为模型层格局基本定了，但Agent如何稳定调用工具、如何安全上网，是真正的硬骨头，谁能解决，估值想象空间最大。"
     },
     {
       "role": "host",
-      "text": "你怎么看接下来一周？AI Agent会不会真正大规模落地？"
-    },
-    {
-      "role": "host",
-      "text": "我觉得8月会是分水岭，端侧模型、Agent浏览器、具身智能三条线同时加速，谁先把\"调用成本\"打下来，谁就能吃到红利。"
+      "text": "OK，那咱们下期可以专门做一期Agent专题，深度拆解Cloudflare、阿里、Mistral这三家到底怎么卷的，敬请期待！"
     }
   ]
 }
