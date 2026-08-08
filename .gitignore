@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 项目
+.env
+data/*.db
+data/*.db-journal
+output/*.mp3
+output/*.wav
+output/tts_segments/
+output/bgm/
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp

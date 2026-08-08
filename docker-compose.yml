@@ -1,0 +1,24 @@
+version: "3.9"
+
+services:
+  podcast-agent:
+    build: .
+    container_name: podcast-agent
+    ports:
+      - "8765:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./output:/app/output
+    restart: unless-stopped
+
+  # 可选: redis 用于多 worker 任务协调 (v2 阶段再加)
+  # redis:
+  #   image: redis:7-alpine
+  #   volumes:
+  #     - redis-data:/data
+  #   restart: unless-stopped
+
+# volumes:
+#   redis-data:
