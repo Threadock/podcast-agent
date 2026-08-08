@@ -1,86 +1,99 @@
 {
   "intl": [
     {
-      "title": "AI News Today 2026 | Latest AI Model Releases, Trends &amp; Analysis",
-      "url": "https://www.buildfastwithai.com/blogs/collection/ai-industry-news-trends",
-      "snippet": "Daily AI"
+      "source": "TechCrunch-AI",
+      "title": "OpenAI says it slowed Astra model development over security concerns",
+      "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+      "snippet": "OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-pro",
+      "published": "Fri, 07 Aug 2026 22:48:24 +0000"
     },
     {
-      "title": "Latest AI Model Releases — August 2026",
-      "url": "https://aireleasetracker.com/latest",
-      "snippet": "The newest AI model releases"
+      "source": "TechCrunch-AI",
+      "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+      "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+      "snippet": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
+      "published": "Fri, 07 Aug 2026 21:30:11 +0000"
     },
     {
-      "title": "July 2026 AI Releases: OpenAI, Google DeepMind, Anthropic, Meta AI ...",
-      "url": "https://thursdai.news/releases/2026-07",
-      "snippet": "July 2026 AI release"
+      "source": "HackerNews",
+      "title": "Show HN: Salestrics – An open MCP server and CRM for AI-native revenue teams",
+      "url": "https://www.salestrics.com/",
+      "snippet": "Hey HN, I’m Austin, founder of Salestrics (salestrics.com).<p>The Problem: &gt; Most AI agents today are trapped in chat windows. While models are smart enough to run complex multi-step workflows, giv",
+      "published": "2026-08-08T01:32:41Z"
     },
     {
-      "title": "AI Updates Today (August 2026) - Latest AI Model Releases",
-      "url": "https://llm-stats.com/llm-updates",
-      "snippet": "Weekly brief The model releases"
-    },
-    {
-      "title": "AI News Today — Daily AI Briefing on OpenAI, Anthropic, Google &amp; More",
-      "url": "https://aibriefing.dev/",
-      "snippet": "The day&#x27;s most important AI news in one briefing — model releases"
-    },
-    {
-      "title": "AI Model Release Tracker - Latest Releases | LM Market Cap",
-      "url": "https://lmmarketcap.com/tools/model-release-tracker",
-      "snippet": "Track the latest AI model releases"
-    },
-    {
-      "title": "AI Model Release Tracker 2026: Every Frontier Model Launch, Dated and ...",
-      "url": "https://axis-intelligence.com/ai-model-release-tracker/",
-      "snippet": "63.6% of 2026"
-    },
-    {
-      "title": "AI Model Releases Timeline | DemandSphere",
-      "url": "https://www.demandsphere.com/research/demandsphere-radar/ai-frontier-model-tracker/releases/",
-      "snippet": "Chronological timeline of every frontier"
+      "source": "HackerNews",
+      "title": "Show HN: Alyph, a manual transmission for LLM context",
+      "url": "https://www.alyph.ai/",
+      "snippet": "Since I started using LLMs, I&#x27;ve always had this feeling of wanting to go back, change the history, and then go down another branch.<p>The lightbulb moment for me was when Google AI Studio starte",
+      "published": "2026-08-07T19:58:51Z"
     }
   ],
   "cn": [
     {
-      "title": "Latest AI News Today &amp; Daily Updates (2026) | Toolify",
-      "url": "https://www.toolify.ai/daily-ai-news",
-      "snippet": "Discover what&#x27;s happening in the AI"
+      "source": "量子位",
+      "title": "奥特曼的ChatGPT育儿大法，捅了马蜂窝",
+      "url": "https://www.qbitai.com/2026/08/468631.html",
+      "snippet": "这就有些尴尬了。",
+      "published": "Sat, 08 Aug 2026 07:57:35 +0000"
     },
     {
-      "title": "AI News | Latest News | Insights Powering AI-Driven Business Growth",
-      "url": "https://www.artificialintelligence-news.com/",
-      "snippet": "AI"
+      "source": "量子位",
+      "title": "中国NeoLab时刻：EverMind用3篇论文，交出全栈自进化首份答卷",
+      "url": "https://www.qbitai.com/2026/08/468555.html",
+      "snippet": "海外团队纷纷下注，NeoLab浪潮狂飙",
+      "published": "Sat, 08 Aug 2026 07:56:09 +0000"
     },
     {
-      "title": "AI News Today 2026 — Daily Briefing for Entrepreneurs (Updated Daily)",
-      "url": "https://smartaiforbiz.com/ai-news-today/",
-      "snippet": "We filter 100+ AI"
+      "source": "量子位",
+      "title": "Jeff Dean创业BP曝光，杨植麟也在上面！硅谷VC抢破头送钱",
+      "url": "https://www.qbitai.com/2026/08/468498.html",
+      "snippet": "「我，Jeff Dean，打钱」",
+      "published": "Sat, 08 Aug 2026 07:51:53 +0000"
     },
     {
-      "title": "AI News: Latest Artificial Intelligence Updates (2026)",
-      "url": "https://aiweekly.co/learning-ai/artificial-intelligence/artificial-intelligence-news",
-      "snippet": "Get the latest"
+      "source": "量子位",
+      "title": "都学坏了！奥特曼亲手封锁最强模型Astra，重蹈Mythos覆辙",
+      "url": "https://www.qbitai.com/2026/08/468462.html",
+      "snippet": "唉，赶紧整完快点发布吧。。。",
+      "published": "Sat, 08 Aug 2026 04:33:53 +0000"
     },
     {
-      "title": "AI News — Today&#x27;s Top Stories, Tracked &amp; Ranked | AI Weekly",
-      "url": "https://aiweekly.co/",
-      "snippet": "The latest AI"
+      "source": "量子位",
+      "title": "谷歌急了：AI核心员工全给我搬回硅谷坐班！",
+      "url": "https://www.qbitai.com/2026/08/468398.html",
+      "snippet": "再花15亿美元买现成AI编程团队",
+      "published": "Sat, 08 Aug 2026 02:45:02 +0000"
     },
     {
-      "title": "Cisco Launches Breakthrough Innovations for the AI Era",
-      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m02/cisco-launches-breakthrough-innovations-for-the-ai-era.html",
-      "snippet": "Cisco today"
-    },
-    {
-      "title": "AI News Today — Latest Artificial Intelligence News &amp; Updates",
-      "url": "https://thedailyprompt.ai/ai-news",
-      "snippet": "The latest AI"
-    },
-    {
-      "title": "AI News Today — Top AI Stories &amp; Live Updates | AI Weekly",
-      "url": "https://aiweekly.co/ai-news-today",
-      "snippet": "AI"
+      "source": "量子位",
+      "title": "Kimi K3也失控了…学霸AI逃离沙箱只为找答案",
+      "url": "https://www.qbitai.com/2026/08/468338.html",
+      "snippet": "啊，这真是个AI“失控”的夏天",
+      "published": "Sat, 08 Aug 2026 02:35:38 +0000"
     }
-  ]
+  ],
+  "source_stats": {
+    "TechCrunch-AI": 2,
+    "TheVerge-AI": 0,
+    "ArsTechnica-AI": 0,
+    "OpenAI-Blog": 0,
+    "Anthropic-News": 0,
+    "DeepMind-Blog": 0,
+    "HackerNews": 2,
+    "量子位": 6,
+    "智东西": 0,
+    "36氪": 0,
+    "机器之心": 0
+  },
+  "dedup": {
+    "intl": {
+      "before": 4,
+      "after": 4
+    },
+    "cn": {
+      "before": 6,
+      "after": 6
+    }
+  }
 }
