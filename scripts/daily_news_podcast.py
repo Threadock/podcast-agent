@@ -864,11 +864,23 @@ BGM_PRESETS = [
 
 def ensure_bgm() -> dict:
     """
-    确保 4 段 BGM 存在, 缺失则程序化生成。
-    返回 {"files": [Path, ...], "descriptions": [...]}.
+    优先使用《梦中的婚礼》(mariage_damour.mp3, Richard Clayderman 官方钢琴版)。
+    真实音乐响度正常 (~-18dB mean), 不需要程序化 BGM 的 18dB 放大;
+    混音时用 -15dB 小声 (用户要求背景乐一定要小)。
+    缺失时 fallback 到程序化合成 (放大 18dB, 混音 -3dB)。
+    返回 {"files": [Path, ...], "descriptions": [...], "volume_db": float}.
     """
     BGM_DIR.mkdir(parents=True, exist_ok=True)
 
+    mariage = BGM_DIR / "mariage_damour.mp3"
+    if mariage.exists():
+        return {
+            "files": [mariage],
+            "descriptions": ["mariage_damour: 梦中的婚礼 (Richard Clayderman 钢琴版)"],
+            "volume_db": -15.0,   # 真实钢琴曲, 小声背景 (实测: 间隙段 -45dB, 整体 mean 不变)
+        }
+
+    # ---- fallback: 程序化合成 (mariage 缺失时才走) ----
     files = []
     descriptions = []
     for preset in BGM_PRESETS:
@@ -908,19 +920,20 @@ def ensure_bgm() -> dict:
         files.append(out)
         descriptions.append(f"{preset['name']}: {preset['description']}")
 
-    return {"files": files, "descriptions": descriptions}
+    return {"files": files, "descriptions": descriptions, "volume_db": -3.0}
 
 
 def mix_with_bgm(voice_path: Path, bgm_path: Path, output_path: Path,
-                  bgm_volume_db: float = -3.0) -> dict:
+                  bgm_volume_db: float = -15.0) -> dict:
     """
     人声 + BGM 混音, 不压 (不再用 sidetone compress)。
 
-    BGM 整体 -3dB, 人声不做音量调整。
-    让 BGM 在 line 之间的 350ms 静音间隙清晰可闻 (人声停了,
-    BGM 单独在那段最响), 说话时 BGM 仍然在背景里。
+    BGM 整体 -15dB (小声背景, 用户明确要求背景乐一定要小!),
+    人声不做音量调整。
+    实测 (mariage_damour.mp3): 整体 mean 保持 -21.7dB 不变,
+    人声间隙段 BGM 单独 -45dB — 能听到但不吵。
 
-    算法: [bgm]volume=-3dB; [voice][bgm]amix
+    算法: [bgm]volume=-15dB; [voice][bgm]amix
     """
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -929,10 +942,10 @@ def mix_with_bgm(voice_path: Path, bgm_path: Path, output_path: Path,
         "-i", str(voice_path),
         "-stream_loop", "-1", "-i", str(bgm_path),
         "-filter_complex",
-        # BGM 整体 -8dB (不压, 让它在静音间隙清晰可闻)
-        f"[1:a]volume={bgm_volume_db}dB,acompressor=threshold=0.1:ratio=2[bgm];"
+        # BGM 整体 {bgm_volume_db}dB (小声背景), 人声不衰减 (normalize=0)
+        f"[1:a]volume={bgm_volume_db}dB[bgm];"
         # 直接混合
-        f"[0:a][bgm]amix=inputs=2:duration=first:dropout_transition=0[m]",
+        f"[0:a][bgm]amix=inputs=2:duration=first:normalize=0[m]",
         "-map", "[m]",
         "-ac", "1", "-ar", "32000",
         "-c:a", "libmp3lame", "-b:a", "128k",
@@ -1064,9 +1077,10 @@ async def main():
     # Step 5: BGM 混音
     print(f"\n🎵 [5/6] BGM 混音...")
     bgm_info = ensure_bgm()
-    # 根据日期选 BGM (固定映射, 让每天的 BGM 一致)
-    bgm_index = int(date_str_to_num(date)) % len(bgm_info["files"]) if bgm_info["files"] else 0
-    bgm_path = bgm_info["files"][bgm_index] if bgm_info["files"] else None
+    # 固定用《梦中的婚礼》(ensure_bgm 优先返回 mariage_damour.mp3),
+    # 不再按日期轮换 (用户指定这首作为背景乐)
+    bgm_path = bgm_info["files"][0] if bgm_info["files"] else None
+    bgm_volume_db = bgm_info.get("volume_db", -15.0)
     bgm_used_name = None
 
     final_with_bgm = out_dir / "final.mp3"
@@ -1077,7 +1091,8 @@ async def main():
         try:
             bgm_used_name = bgm_path.stem
             final_with_bgm = out_dir / "final.mp3"
-            audio_info = mix_with_bgm(voice_only, bgm_path, final_with_bgm)
+            audio_info = mix_with_bgm(voice_only, bgm_path, final_with_bgm,
+                                      bgm_volume_db=bgm_volume_db)
             print(f"   ✓ BGM: {bgm_used_name}, 最终 {audio_info['duration_sec']:.1f}秒")
         except Exception as e:
             print(f"   ⚠️ BGM 混音失败: {e}, 用纯人声版")
