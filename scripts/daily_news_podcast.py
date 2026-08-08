@@ -50,9 +50,14 @@ def today_str() -> str:
 
 
 def date_str_to_num(date_str: str) -> int:
-    """YYYY-MM-DD -> 整数 hash (用于固定 BGM 映射)"""
-    parts = date_str.split("-")
-    return int(parts[0]) * 10000 + int(parts[1]) * 100 + int(parts[2])
+    """YYYY-MM-DD -> 连续天数 (用于固定 BGM 映射)。
+
+    用 toordinal 而不是 YYYYMMDD 整数: 后者跨月时跳变 (8/31→9/1 增量 69),
+    会导致 51 首音乐库取模后轮换不均匀 (实测 51 天只覆盖 33 首)。
+    toordinal 严格每天 +1, 51 天完整轮换 51 首。
+    """
+    y, m, d = map(int, date_str.split("-"))
+    return datetime(y, m, d).toordinal()
 
 
 def now_str() -> str:
@@ -688,239 +693,21 @@ def git_push(date: str, summary: dict, push_log: Path) -> bool:
 # ============ Step 4.5: BGM 模块 ============
 BGM_DIR = PROJECT_ROOT / "assets" / "bgm"
 
-# 10 段程序化合成的 BGM (ffmpeg sine + noise + filter 链)
-# 风格覆盖: lo-fi / ambient / jazz / electronic / focus
-BGM_PRESETS = [
-    # ===== Lo-Fi 系列 (3 段) =====
-    {
-        "name": "lofi_chill_60bpm",
-        "description": "Lo-Fi chill 60 BPM - 温暖的钢琴循环 + lo-fi 鼓点",
-        "filter_complex": (
-            "[0:a]volume=0.3[beat];"
-            "sine=frequency=80:duration={dur}[bass];"
-            "[bass]volume=0.4[bs];"
-            "anoisesrc=color=brown:duration={dur}:amplitude=0.04[noise];"
-            "[noise]highpass=f=200[hp];"
-            "[beat][bs][hp]amix=inputs=3:normalize=0[mixed];"
-            "[mixed]highpass=f=80,lowpass=f=8000,aecho=0.8:0.9:1000:0.3[out]"
-        ),
-        "duration": 300,
-    },
-    {
-        "name": "lofi_study_70bpm",
-        "description": "Lo-Fi study 70 BPM - 慢节奏 + 钢琴琶音",
-        "filter_complex": (
-            "sine=frequency=65:duration={dur}[b];"
-            "[b]volume=0.4[bs];"
-            "sine=frequency=330:duration={dur}[p];"
-            "[p]volume=0.2,tremolo=f=2:d=0.6[p2];"
-            "anoisesrc=color=pink:duration={dur}:amplitude=0.03[n];"
-            "[n]highpass=f=300[n2];"
-            "[bs][p2][n2]amix=inputs=3:normalize=0[m];"
-            "[m]lowpass=f=6000,aecho=0.7:0.85:800:0.3[out]"
-        ),
-        "duration": 300,
-    },
-    {
-        "name": "lofi_sunset_80bpm",
-        "description": "Lo-Fi sunset 80 BPM - 慵懒吉他感 + 雨声",
-        "filter_complex": (
-            "sine=frequency=98:duration={dur}[b];"
-            "[b]volume=0.35,tremolo=f=3:d=0.7[bs];"
-            "sine=frequency=440:duration={dur}[g];"
-            "[g]volume=0.15,tremolo=f=4:d=0.5[g2];"
-            "anoisesrc=color=white:duration={dur}:amplitude=0.02[n];"
-            "[n]highpass=f=500[n2];"
-            "[bs][g2][n2]amix=inputs=3:normalize=0[m];"
-            "[m]lowpass=f=8000,aecho=0.8:0.9:1200:0.4[out]"
-        ),
-        "duration": 300,
-    },
-    # ===== Ambient 系列 (3 段) =====
-    {
-        "name": "ambient_pad_70bpm",
-        "description": "Ambient pad 70 BPM - drone + 慢琶音",
-        "filter_complex": (
-            "sine=frequency=174:duration={dur}[s1];"
-            "sine=frequency=261:duration={dur}[s2];"
-            "[s1][s2]amix=inputs=2:normalize=0[pad];"
-            "[pad]volume=0.25,lowpass=f=2000[pad2];"
-            "sine=frequency=440:duration={dur}[arp];"
-            "[arp]volume=0.15,tremolo=f=0.5:d=0.7[arp2];"
-            "[pad2][arp2]amix=inputs=2:normalize=0[m];"
-            "[m]aecho=0.7:0.8:1500:0.4,lowpass=f=6000[out]"
-        ),
-        "duration": 300,
-    },
-    {
-        "name": "ambient_drone_50bpm",
-        "description": "Ambient drone 50 BPM - 极慢 drone 适合长播客",
-        "filter_complex": (
-            "sine=frequency=110:duration={dur}[d1];"
-            "sine=frequency=165:duration={dur}[d2];"
-            "sine=frequency=220:duration={dur}[d3];"
-            "[d1][d2][d3]amix=inputs=3:normalize=0[d];"
-            "[d]volume=0.3,lowpass=f=1500[d2];"
-            "sine=frequency=523:duration={dur}[s];"
-            "[s]volume=0.08,tremolo=f=0.3:d=0.8[s2];"
-            "[d2][s2]amix=inputs=2:normalize=0[m];"
-            "[m]aecho=0.8:0.9:2000:0.5,lowpass=f=5000[out]"
-        ),
-        "duration": 300,
-    },
-    {
-        "name": "ambient_space_60bpm",
-        "description": "Ambient space 60 BPM - 太空感 + 钟声",
-        "filter_complex": (
-            "sine=frequency=220:duration={dur}[d];"
-            "[d]volume=0.3,lowpass=f=1500[d2];"
-            "sine=frequency=880:duration={dur}[b1];"
-            "sine=frequency=1320:duration={dur}[b2];"
-            "[b1]volume=0.05,tremolo=f=0.2:d=0.9[b1p];"
-            "[b2]volume=0.04,tremolo=f=0.15:d=0.9[b2p];"
-            "[d2][b1p][b2p]amix=inputs=3:normalize=0[m];"
-            "[m]aecho=0.9:0.95:3000:0.6,lowpass=f=8000[out]"
-        ),
-        "duration": 300,
-    },
-    # ===== Jazz / Acoustic (2 段) =====
-    {
-        "name": "coffee_shop_jazz",
-        "description": "Coffee shop jazz - 慵懒的钢琴/吉他感",
-        "filter_complex": (
-            "sine=frequency=98:duration={dur}[b];"
-            "[b]volume=0.3,tremolo=f=3:d=0.6[bs];"
-            "sine=frequency=392:duration={dur}[p];"
-            "[p]volume=0.15,tremolo=f=1.5:d=0.4[p2];"
-            "sine=frequency=1318:duration={dur}[sp];"
-            "[sp]volume=0.06[sp2];"
-            "[bs][p2][sp2]amix=inputs=3:normalize=0[m];"
-            "[m]lowpass=f=12000,aecho=0.8:0.9:500:0.2[out]"
-        ),
-        "duration": 300,
-    },
-    {
-        "name": "smooth_jazz_90bpm",
-        "description": "Smooth jazz 90 BPM - 复古萨克斯感",
-        "filter_complex": (
-            "sine=frequency=82:duration={dur}[b];"
-            "[b]volume=0.35,tremolo=f=2:d=0.5[bs];"
-            "sine=frequency=466:duration={dur}[s];"
-            "[s]volume=0.12,tremolo=f=3:d=0.6[s2];"
-            "sine=frequency=1109:duration={dur}[h];"
-            "[h]volume=0.04[h2];"
-            "[bs][s2][h2]amix=inputs=3:normalize=0[m];"
-            "[m]lowpass=f=14000,aecho=0.7:0.85:600:0.3[out]"
-        ),
-        "duration": 300,
-    },
-    # ===== Electronic 系列 (2 段) =====
-    {
-        "name": "soft_electronic_90bpm",
-        "description": "Soft electronic 90 BPM - 轻快 synth",
-        "filter_complex": (
-            "sine=frequency=110:duration={dur}[b];"
-            "[b]volume=0.35[bs];"
-            "sine=frequency=60:duration={dur}[k];"
-            "[k]volume=0.5,tremolo=f=2:d=0.9[k2];"
-            "sine=frequency=523:duration={dur}[l];"
-            "[l]volume=0.15,tremolo=f=4:d=0.5[l2];"
-            "[bs][k2][l2]amix=inputs=3:normalize=0[m];"
-            "[m]lowpass=f=10000[out]"
-        ),
-        "duration": 300,
-    },
-    {
-        "name": "synthwave_100bpm",
-        "description": "Synthwave 100 BPM - 复古电子 + drive (高能量版)",
-        "filter_complex": (
-            # 低音 - 用 saw 模拟 (用多个 sine 叠加)
-            "sine=frequency=73:duration={dur}[b1];"
-            "sine=frequency=146:duration={dur}[b2];"
-            # 加重低音能量
-            "[b1]volume=0.6,acompressor=threshold=0.5:ratio=4[b1c];"
-            "[b2]volume=0.5,acompressor=threshold=0.5:ratio=4[b2c];"
-            "[b1c][b2c]amix=inputs=2:normalize=0[bs];"
-            # kick 鼓点
-            "sine=frequency=55:duration={dur}[k];"
-            "[k]volume=0.7,tremolo=f=2:d=0.85[k2];"
-            # 主旋律 synth
-            "sine=frequency=587:duration={dur}[l];"
-            "[l]volume=0.4,tremolo=f=3:d=0.6[l2];"
-            # 和声高音
-            "sine=frequency=1760:duration={dur}[h];"
-            "[h]volume=0.15[h2];"
-            # 噪声鼓 (snare/hi-hat)
-            "anoisesrc=color=white:duration={dur}:amplitude=0.05[n];"
-            "[n]highpass=f=4000[n2];"
-            "[n2]tremolo=f=4:d=0.7[n3];"
-            "[bs][k2][l2][h2][n3]amix=inputs=5:normalize=0[m];"
-            "[m]lowpass=f=14000,aecho=0.7:0.85:400:0.25,acompressor=threshold=0.3:ratio=3[out]"
-        ),
-        "duration": 300,
-    },
-]
+# 经典音乐库: mariage_damour.mp3 + 50 首经典轻音乐 (全部真实音乐, 响度正常 ~-18dB mean,
+# 不需要程序化 BGM 的 18dB 放大)。按日期轮换, 每天换一首。
 
 
 def ensure_bgm() -> dict:
     """
-    优先使用《梦中的婚礼》(mariage_damour.mp3, Richard Clayderman 官方钢琴版)。
-    真实音乐响度正常 (~-18dB mean), 不需要程序化 BGM 的 18dB 放大;
-    混音时用 -15dB 小声 (用户要求背景乐一定要小)。
-    缺失时 fallback 到程序化合成 (放大 18dB, 混音 -3dB)。
+    扫描 assets/bgm/*.mp3 经典音乐库。
     返回 {"files": [Path, ...], "descriptions": [...], "volume_db": float}.
+    volume_db 统一 -15dB: 用户明确要求背景乐一定要小 (实测间隙段 -45dB, 整体 mean 不变)。
     """
     BGM_DIR.mkdir(parents=True, exist_ok=True)
+    files = sorted(BGM_DIR.glob("*.mp3"))
+    descriptions = [f.stem for f in files]
+    return {"files": files, "descriptions": descriptions, "volume_db": -15.0}
 
-    mariage = BGM_DIR / "mariage_damour.mp3"
-    if mariage.exists():
-        return {
-            "files": [mariage],
-            "descriptions": ["mariage_damour: 梦中的婚礼 (Richard Clayderman 钢琴版)"],
-            "volume_db": -15.0,   # 真实钢琴曲, 小声背景 (实测: 间隙段 -45dB, 整体 mean 不变)
-        }
-
-    # ---- fallback: 程序化合成 (mariage 缺失时才走) ----
-    files = []
-    descriptions = []
-    for preset in BGM_PRESETS:
-        out = BGM_DIR / f"{preset['name']}.mp3"
-        if not out.exists():
-            print(f"  🎵 生成 BGM: {preset['name']} ({preset['description']})")
-            dur = preset["duration"]
-            fc = preset["filter_complex"].format(dur=dur)
-            cmd = [
-                "ffmpeg", "-y",
-                "-f", "lavfi", "-i", f"anullsrc=r=32000:cl=mono",
-                "-filter_complex", fc,
-                "-map", "[out]",
-                "-t", str(dur),
-                "-acodec", "libmp3lame", "-b:a", "96k",
-                "-ar", "32000", "-ac", "1",
-                str(out),
-            ]
-            r = subprocess.run(cmd, capture_output=True, text=True)
-            if r.returncode != 0:
-                print(f"  ⚠️ 生成 {preset['name']} 失败: {r.stderr[-200:]}")
-                continue
-
-            # 关键: 放大 BGM 音量 (程序化合成太安静, mean ~ -30dB,
-            # 直接 amplify +20dB 提到 ~ -10dB 才能在混音中可闻)
-            norm_path = out.with_suffix(".norm.mp3")
-            r2 = subprocess.run([
-                "ffmpeg", "-y", "-i", str(out),
-                "-af", "volume=18dB,alimiter=limit=0.95",
-                "-ac", "1", "-ar", "32000",
-                "-acodec", "libmp3lame", "-b:a", "128k",
-                str(norm_path),
-            ], capture_output=True, text=True)
-            if r2.returncode == 0:
-                norm_path.replace(out)
-                print(f"     🔊 放大 18dB: {preset['name']}")
-        files.append(out)
-        descriptions.append(f"{preset['name']}: {preset['description']}")
-
-    return {"files": files, "descriptions": descriptions, "volume_db": -3.0}
 
 
 def mix_with_bgm(voice_path: Path, bgm_path: Path, output_path: Path,
@@ -1077,9 +864,9 @@ async def main():
     # Step 5: BGM 混音
     print(f"\n🎵 [5/6] BGM 混音...")
     bgm_info = ensure_bgm()
-    # 固定用《梦中的婚礼》(ensure_bgm 优先返回 mariage_damour.mp3),
-    # 不再按日期轮换 (用户指定这首作为背景乐)
-    bgm_path = bgm_info["files"][0] if bgm_info["files"] else None
+    # 按日期轮换经典音乐库 (51 首, 每天换一首, 固定映射保证同日一致)
+    bgm_index = int(date_str_to_num(date)) % len(bgm_info["files"]) if bgm_info["files"] else 0
+    bgm_path = bgm_info["files"][bgm_index] if bgm_info["files"] else None
     bgm_volume_db = bgm_info.get("volume_db", -15.0)
     bgm_used_name = None
 
