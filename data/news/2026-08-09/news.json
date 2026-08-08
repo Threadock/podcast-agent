@@ -1,18 +1,46 @@
 {
   "intl": [
     {
-      "source": "TechCrunch-AI",
-      "title": "OpenAI says it slowed Astra model development over security concerns",
-      "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
-      "snippet": "OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-pro",
-      "published": "Fri, 07 Aug 2026 22:48:24 +0000"
+      "source": "MarkTechPost",
+      "title": "Designing Scalable Interactive Visualizations with Reflex XY: Composition, Million-Point Rendering, Streaming, Custom Marks, and Export",
+      "url": "https://www.marktechpost.com/2026/08/08/designing-scalable-interactive-visualizations-with-reflex-xy-composition-million-point-rendering-streaming-custom-marks-and-export/",
+      "snippet": "<p>Dive into the advanced visualization capabilities of the Reflex XY Python library. This tutorial guides you through building high-performance, interactive charts—from handling million-point dataset",
+      "published": "Sat, 08 Aug 2026 09:42:18 +0000"
     },
     {
-      "source": "TechCrunch-AI",
-      "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
-      "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
-      "snippet": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
-      "published": "Fri, 07 Aug 2026 21:30:11 +0000"
+      "source": "MarkTechPost",
+      "title": "Mistral AI Releases Shieldstral 1.0 3B: An Open-Weights Policy-Adaptive Multimodal Safety Classifier Matching Models 7× Its Size",
+      "url": "https://www.marktechpost.com/2026/08/07/mistral-ai-releases-shieldstral-1-0-3b/",
+      "snippet": "<p>Mistral AI has released Shieldstral 1.0 3B, an open-weights, policy-adaptive multimodal safety classifier that frames content moderation as a single yes/no question instead of a fixed harm taxonomy",
+      "published": "Sat, 08 Aug 2026 04:36:26 +0000"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Tencent Cloud Open-Sources TencentDB Agent Memory v2.0: A Team-Level Memory Hub for AI Coding Agents",
+      "url": "https://www.marktechpost.com/2026/08/07/tencent-cloud-open-sources-tencentdb-agent-memory-v2-0/",
+      "snippet": "<p>Tencent Cloud has open-sourced TencentDB Agent Memory v2.0, a team-level memory hub that turns conversations, documents and code into four governed, reusable assets — Chat Memory, Skill, LLM-Wiki a",
+      "published": "Fri, 07 Aug 2026 21:52:48 +0000"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Building a Multimodal RAG Pipeline with NVIDIA NeMo Retriever, Hosted NIMs, LanceDB, Reranking, and Grounded Generation",
+      "url": "https://www.marktechpost.com/2026/08/07/building-a-multimodal-rag-pipeline-with-nvidia-nemo-retriever-hosted-nims-lancedb-reranking-and-grounded-generation/",
+      "snippet": "<p>In this tutorial, we build an advanced multimodal retrieval-augmented generation pipeline with NVIDIA NeMo Retriever. We begin by configuring a Python 3.12 environment, installing the required pack",
+      "published": "Fri, 07 Aug 2026 21:13:38 +0000"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "NVIDIA AI Releases NOOA: An Object-Oriented Python Framework That Turns an AI Agent Into a Single Python Class",
+      "url": "https://www.marktechpost.com/2026/08/07/nvidia-ai-releases-nooa-an-object-oriented-python-framework/",
+      "snippet": "<p>NVIDIA Labs has open-sourced NOOA (NVIDIA Object-Oriented Agents), a model-agnostic Python framework for building AI agents. Agent development today is split across prompt templates, tool schemas, ",
+      "published": "Fri, 07 Aug 2026 20:42:02 +0000"
+    },
+    {
+      "source": "HuggingFace-Blog",
+      "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+      "url": "https://huggingface.co/blog/allenai/tutormoments",
+      "snippet": "",
+      "published": "Fri, 07 Aug 2026 17:53:32 GMT"
     },
     {
       "source": "HackerNews",
@@ -27,6 +55,27 @@
       "url": "https://www.alyph.ai/",
       "snippet": "Since I started using LLMs, I&#x27;ve always had this feeling of wanting to go back, change the history, and then go down another branch.<p>The lightbulb moment for me was when Google AI Studio starte",
       "published": "2026-08-07T19:58:51Z"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
+      "snippet": "It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His comments follow the producer Medasin's videos claiming that an AI",
+      "published": "2026-08-07T16:01:51-04:00"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Watching Roku’s AI channel is like eating from a trough",
+      "url": "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
+      "snippet": "The appeal of free ad-supported streaming television (FAST) channels has always been the way they make it easier to (re)discover classic films and series. But Roku's latest experiment in the FAST spac",
+      "published": "2026-08-07T14:59:46-04:00"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+      "snippet": "OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows i",
+      "published": "2026-08-07T14:40:34-04:00"
     }
   ],
   "cn": [
@@ -74,22 +123,23 @@
     }
   ],
   "source_stats": {
-    "TechCrunch-AI": 2,
-    "TheVerge-AI": 0,
-    "ArsTechnica-AI": 0,
-    "OpenAI-Blog": 0,
-    "Anthropic-News": 0,
-    "DeepMind-Blog": 0,
+    "OpenAI-News": 0,
+    "Google-AI-Blog": 0,
+    "TheVerge-AI": 3,
+    "TechReview-AI": 0,
+    "LastWeekInAI": 0,
+    "MarkTechPost": 5,
+    "SebastianRaschka": 0,
+    "TheGradient": 0,
+    "HuggingFace-Blog": 1,
     "HackerNews": 2,
     "量子位": 6,
-    "智东西": 0,
-    "36氪": 0,
-    "机器之心": 0
+    "雷锋网": 0
   },
   "dedup": {
     "intl": {
-      "before": 4,
-      "after": 4
+      "before": 11,
+      "after": 11
     },
     "cn": {
       "before": 6,

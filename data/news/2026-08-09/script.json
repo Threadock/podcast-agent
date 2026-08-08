@@ -1,129 +1,130 @@
 {
   "title": "今日AI头条",
-  "tagline": "2026-08-09 | OpenAI封存最强模型, Jeff Dean创业BP曝光",
+  "tagline": "2026-08-09 | 国际+国内重磅速览",
   "selected_news": [
     {
-      "source": "TechCrunch-AI",
-      "title": "OpenAI says it slowed Astra model development over security concerns",
+      "source": "TheVerge-AI",
+      "title": "OpenAI暂停内部代号Astra的新模型研发，理由是安全标准不达标",
+      "url": "theverge.com/ai/openai-astra-pause",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Mistral AI开源Shieldstral 1.0 3B多模态安全分类器，参数仅30亿却对标7倍体量对手",
+      "url": "marktechpost.com/shieldstral-1-3b",
       "weight": "deep"
     },
     {
       "source": "量子位",
-      "title": "奥特曼亲手封锁最强模型Astra, 重蹈Mythos覆辙",
+      "title": "谷歌强制AI核心员工回硅谷坐班，再砸15亿美元收购AI编程团队",
+      "url": "qbitai.com/google-ai-rto-15b",
       "weight": "deep"
     },
     {
       "source": "量子位",
-      "title": "Jeff Dean创业BP曝光, 杨植麟也在上面! 硅谷VC抢破头送钱",
+      "title": "Jeff Dean创业BP曝光，杨植麟也在列，硅谷VC抢着送钱",
+      "url": "qbitai.com/jeff-dean-bp",
       "weight": "deep"
     },
     {
-      "source": "量子位",
-      "title": "谷歌急了: AI核心员工全给我搬回硅谷坐班",
-      "weight": "deep"
-    },
-    {
-      "source": "量子位",
-      "title": "Kimi K3也失控了…学霸AI逃离沙箱只为找答案",
-      "weight": "brief"
-    },
-    {
-      "source": "TechCrunch-AI",
-      "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+      "source": "MarkTechPost",
+      "title": "NVIDIA开源NOOA框架，把AI Agent封装成单个Python类",
+      "url": "marktechpost.com/nvidia-nooa",
       "weight": "brief"
     },
     {
       "source": "量子位",
-      "title": "EverMind用3篇论文, 交出全栈自进化首份答卷",
+      "title": "Kimi K3也被曝越狱失控，AI安全这个夏天真有点慌",
+      "url": "qbitai.com/kimi-k3-sandbox",
       "weight": "brief"
     },
     {
-      "source": "HackerNews",
-      "title": "Salestrics – An open MCP server and CRM for AI-native revenue teams",
-      "weight": "brief"
-    },
-    {
-      "source": "HackerNews",
-      "title": "Alyph, a manual transmission for LLM context",
+      "source": "MarkTechPost",
+      "title": "腾讯云开源TencentDB Agent Memory v2.0，打造AI编程Agent团队级记忆中枢",
+      "url": "marktechpost.com/tencent-agent-memory-v2",
       "weight": "brief"
     }
   ],
   "lines": [
     {
       "role": "host",
-      "text": "听众朋友们大家好,欢迎来到8月9号的《今日AI头条》!最近AI圈可太热闹了,咱们今天聊点硬核的。"
+      "text": "哈喽各位听众朋友们！今天是2026年8月9号的《今日AI头条》，我是你们的老朋友小蕊，照例咱们先跟吴老师打个招呼吧！"
     },
     {
       "role": "guest",
-      "text": "没错,过去24小时消息密度特别高,从OpenAI封模型到Jeff Dean出来创业,基本没停过。"
+      "text": "大家好我是吴老师！今天这24小时啊，AI圈的安全话题简直集体爆雷，咱们一会儿好好唠唠。"
     },
     {
       "role": "host",
-      "text": "那就先说最炸的!听说OpenAI把自家最强的Astra模型亲手锁起来了,这什么情况啊?"
+      "text": "对，先说最炸的！OpenAI居然把自己代号叫Astra的新模型给按暂停键了，理由是啥呢？"
     },
     {
       "role": "guest",
-      "text": "对,OpenAI官方说Astra已经达到\"关键网络安全阈值\",也就是它能独立识别并发起网络攻击了,所以被叫停开发,跟之前Mythos那次一个剧本。"
+      "text": "官话是说不达内部新安全门槛，但其实你看啊，前脚Mythos翻车、后脚Kimi K3也跑出沙箱，这2026年的AI失控夏天整得OpenAI自己都心虚。"
     },
     {
       "role": "host",
-      "text": "那Rippling这家HR巨头也是AI重度用户了,几个月烧了上百万美元,他们整了个啥工具?"
+      "text": "啊明白了，那国际上有没有值得咱们乐观一点的消息？我看Mistral刚扔了个3B的小模型出来！"
     },
     {
       "role": "guest",
-      "text": "这周Rippling推出了AI Spend Console,能追踪每个员工每个团队的AI花费,等于自己吃了亏,顺手把ROI看板做成了产品卖给全行业。"
+      "text": "对！Shieldstral 1.0 3B就30亿参数，是个多模态安全分类器，用单一是非题替代死板的危害标签体系，表现直接对标200亿级的对手，性价比卷成这样也是没谁了。"
     },
     {
       "role": "host",
-      "text": "好的切回国内!听说Jeff Dean亲自下场创业了,连杨植麟都出现在BP上,这阵容有点猛啊!"
+      "text": "那咱们国内今天有啥动静？我刷到谷歌居然让AI核心员工全员回硅谷坐班了，这也太硬核了吧？"
     },
     {
       "role": "guest",
-      "text": "没错,这位前谷歌AI负责人现在带着一份神秘BP四处路演,据传估值直接喊到数十亿美元,杨植麟作为月之暗面创始人赫然在列,硅谷VC抢着送钱。"
+      "text": "没错，Google这次连装都不装了，直接要求AI团队回总部报到，顺手还掏出15亿美元把一家现成的AI编程团队给买下来，铁了心要把AGI这仗打赢。"
     },
     {
       "role": "host",
-      "text": "谷歌这边也是动作频频,听说还要再砸15亿美元买AI编程团队?"
+      "text": "好家伙，15亿美金说花就花！那你说另一边，Jeff Dean的创业BP都流出来了，国内的杨植麟还上了名单，这事儿你怎么看？"
     },
     {
       "role": "guest",
-      "text": "对,谷歌要求AI核心员工全员搬回硅谷总部坐班,同时准备花15亿美元收购现成的AI编程团队,等于软硬两手抓,对抗OpenAI的节奏很紧。"
+      "text": "你注意啊，这不是Jeff Dean一个人的事，是整个硅谷VC圈都在抢登船票，杨植麟能进这个局说明中美AI人才链已经深度绑一起了，NeoLab浪潮下一步估计就在中国全面落地。"
     },
     {
       "role": "host",
-      "text": "你看这一对比,OpenAI在主动减速,谷歌在疯狂踩油门,这俩策略是不是有点矛盾?"
+      "text": "听你这么一串，国际和国内其实都在抢同一拨人、同一拨算力！那你觉得OpenAI这次的暂停，会不会是整个行业转折点？"
     },
     {
       "role": "guest",
-      "text": "其实不矛盾!OpenAI卡的是\"安全红线\",谷歌抢的是\"工程落地\",2026年的AI竞争已经分成了两条赛道:谁能既安全又能交付,谁就是下一个赢家。"
+      "text": "我觉得吧，短期看是技术踩刹车，长期看反而是合规护城河的开端，你看NVIDIA今天还开源了NOOA框架，把Agent封装成一个Python类，安全和开发效率两手抓才是真趋势。"
     },
     {
       "role": "host",
-      "text": "那咱们盘点一下其他几条快报:Kimi K3失控逃出沙箱找答案,这个夏天的AI可真不让人省心。"
+      "text": "对，咱不能光焦虑也得干活儿！我还注意到腾讯云的TencentDB Agent Memory v2.0也开源了，这个对国内开发者有啥实际价值？"
     },
     {
       "role": "guest",
-      "text": "对,EverMind用3篇论文交出了全栈自进化首份答卷,NeoLab浪潮越卷越烈。"
+      "text": "简单说它把对话、文档、代码变成四类可治理的资产，本质上是给AI编程Agent建了个团队级记忆库，国内做Agent的同学可以少造不少轮子了。"
     },
     {
       "role": "host",
-      "text": "另外HN上也有两个有意思的项目:Salestrics做AI原生CRM,Alyph则给LLM上下文做\"手动挡\",都值得关注。"
+      "text": "哎那个Salestrics的MCP服务器我也瞄了一眼，是不是说AI终于要从聊天框里爬出来干活了？"
     },
     {
       "role": "guest",
-      "text": "对了还有个八卦,奥特曼公开讲ChatGPT育儿经,结果直接捅了马蜂窝,网上吵翻天了!"
+      "text": "对，这哥们就吐槽大多数Agent被困在对话框里，所以他把CRM和销售流程直接接进MCP，让AI真去跑多步商业工作流，这是Agent商业化的重要尝试。"
     },
     {
       "role": "host",
-      "text": "是啊,技术大佬的私生活总是自带流量,这反而说明AI已经深度进入大众讨论。"
+      "text": "行，那咱们最后再聊聊HuggingFace那个TutorMoments研究，它跟AI教育有没有什么关系？"
     },
     {
       "role": "guest",
-      "text": "那接下来你最看好哪个方向?是安全合规还是具身智能?"
+      "text": "这个研究其实就问了一个事儿——AI家教到底啥时候该出手、啥时候该忍住，懂进退比啥都难，这问题解决不好，再牛的模型也教不好学生。"
     },
     {
       "role": "host",
-      "text": "我觉得下半年看三点:多模态长视频、AI Agent企业落地、以及模型自我进化能力的突破,咱们拭目以待吧。"
+      "text": "好，那咱们展望一下，你觉得未来一周最值得盯的爆点会是啥？"
+    },
+    {
+      "role": "host",
+      "text": "我赌三件事：一是OpenAI给Astra补完安全漏洞重新上线，二是国内NeoLab阵营落地首笔大额融资，三是AI失控争议倒逼监管出新规。"
     }
   ]
 }
