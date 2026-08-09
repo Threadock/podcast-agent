@@ -353,7 +353,7 @@ SCRIPT_PROMPT = """你是一档名为《今日AI头条》的中文科技播客�
   "title": "今日AI头条",
   "tagline": "{date} | 国际+国内重磅速览",
   "selected_news": [
-    {{"source": "...", "title": "...", "url": "...", "weight": "deep"}},
+    {{"source": "...", "title": "中文标题(必须把英文标题译成中文,保留产品/模型英文名)", "url": "...", "weight": "deep"}},
     ...
   ],
   "lines": [
@@ -362,6 +362,12 @@ SCRIPT_PROMPT = """你是一档名为《今日AI头条》的中文科技播客�
     ...
   ]
 }}
+
+## selected_news 严格要求
+- **必须从上面新闻素材里挑,不能凭空编** (LLM 编出来的 url 会失效)
+- 每条 selected_news 的 url 必须**原样拷贝**自新闻素材 (不要填来源站首页)
+- title 翻译成中文 (保留专有名词如 GPT-4o / Claude / Pokee-Isaac 等)
+- 4-6 条, 国际+国内都覆盖, weight 用 "deep" (重磅) 或 "medium" (次要)
 """
 
 
@@ -796,70 +802,204 @@ def mix_with_bgm(voice_path: Path, bgm_path: Path, output_path: Path,
 def build_feishu_message(date: str, news: dict, script: dict,
                          audio_info: dict, mp3_path: Path,
                          push_ok: bool, bgm_used: str | None) -> list[str]:
-    """构造飞书消息 (拆成多块,每块 ≤3800 字符,最后一块含 MEDIA:mp3)
+    """构造飞书消息: 标题头 + 今日要闻 (精选+扩展) + 完整逐字稿 + mp3
+
+    块结构 (按 ≤3700 字符/块 拆分):
+      1. 标题头 + 精选要闻 (selected_news, 已译中文) — 用户最想看的"具体AI资讯"
+      2. 扩展要闻 (国际+国内, selected 之外的 5+5 条, 去 HTML)
+      3. 完整逐字稿 (30 句, 备用, 供查阅)
+      最后一块: mp3 附件 (MEDIA:)
 
     设计原则:
-    - 极简: 不打印中间状态/统计/罗列新闻链接 (用户要的是播客本身)
-    - 多块: 脚本直接调用 `hermes send` 多次投递, 避免 gateway 截断
-    - mp3 放最后一块: 用户可在播放列表看到附件
+    - 头: 极简 (一行的标题 + BGM + 时长)
+    - 重点突出: 精选 6 条放最前 (LLM 已译成中文)
+    - 不截断: 超长自动拆块, 每块单独 hermes send
     """
+    import re as _re
     duration_min = audio_info["duration_sec"] / 60
     bgm_info = f" · 🎵 {bgm_used}" if bgm_used else ""
     push_status = "✅ GitHub 同步" if push_ok else "⚠️ push 失败 (本地保留)"
 
-    # 块1: 极简标题头 + 完整逐字稿
-    header = (
-        f"📰 **今日AI头条** · {date}{bgm_info}\n"
-        f"⏱️ {duration_min:.1f} 分钟 · {push_status}\n\n"
-        f"---\n\n"
-        f"## 🎙️ 逐字稿\n"
-    )
+    # ---- 补全 selected_news 的真实 url ----
+    # LLM 通常把 url 留空或只填来源站首页; 我们用标题前 12 字做模糊匹配回原 news 列表
+    def _strip_html(s: str) -> str:
+        return _re.sub(r"<[^>]+>", "", s or "").strip()
 
-    # 完整剧本 (不节选, 用户明确要全部内容)
+    selected = list(script.get("selected_news") or [])
+    all_news = list(news.get("intl", [])) + list(news.get("cn", []))
+    if selected and all_news:
+        # 抽原新闻标题中的英文/数字片段 (产品名/型号/公司) 作为匹配键
+        # 因为 selected.title 是 LLM 译成中文的, 整段字符串匹配不上
+        for orig in all_news:
+            orig["_keys"] = [
+                m.group(0) for m in _re.finditer(
+                    r"[A-Za-z][A-Za-z0-9._-]{3,}|[\d.]+[A-Za-z]+|\d{2,}",
+                    orig.get("title", "")
+                )
+            ]
+        for sn in selected:
+            sn["url"] = sn.get("url") or ""
+            sn["snippet"] = sn.get("snippet") or ""
+            t = sn.get("title", "")
+            t_keys = set(m.group(0) for m in _re.finditer(
+                r"[A-Za-z][A-Za-z0-9._-]{3,}|[\d.]+[A-Za-z]+|\d{2,}", t
+            ))
+            best = None
+            best_score = 0
+            for orig in all_news:
+                overlap = len(t_keys & set(orig["_keys"]))
+                if overlap > best_score:
+                    best_score = overlap
+                    best = orig
+            if best and best_score > 0:
+                # LLM 通常填来源站首页; 只有看起来是真文章 URL (>1 path 段)
+                # 或完全为空时才覆盖
+                orig_url = sn.get("url", "")
+                from urllib.parse import urlparse
+                orig_path = urlparse(orig_url).path if orig_url else ""
+                looks_like_homepage = (
+                    not orig_url
+                    or orig_path in ("", "/")
+                    or orig_url.endswith((".com", ".cn", ".io", ".org"))  # 裸域名
+                )
+                if looks_like_homepage:
+                    sn["url"] = best.get("url", orig_url)
+                # snippet 一律补全 (LLM 经常漏)
+                sn["snippet"] = sn["snippet"] or _strip_html(best.get("snippet", ""))
+            # 没匹配上保留原 url
+
+    # ---- 精选要闻 (deep + medium) ----
+    deep_lines = []
+    other_selected = []
+    for sn in selected:
+        weight = sn.get("weight", "deep")
+        title = sn.get("title", "").strip()
+        url = sn.get("url", "").strip()
+        src = sn.get("source", "")
+        line = f"- **{title}**"
+        if src:
+            line += f"  \n   _{src}_"
+        if url:
+            line += f"  \n   [原文]({url})"
+        snippet = sn.get("snippet", "").strip()
+        if snippet:
+            line += f"  \n   > {snippet[:150]}"
+        if weight == "deep":
+            deep_lines.append(line)
+        else:
+            other_selected.append(line)
+
+    # ---- 扩展要闻 (selected 之外的, 国际 + 国内 各 5 条) ----
+    used_titles = set(sn.get("title", "")[:12] for sn in selected)
+    ext_intl, ext_cn = [], []
+    for n in news.get("intl", []):
+        if n.get("title", "")[:12] in used_titles:
+            continue
+        ext_intl.append(n)
+        if len(ext_intl) >= 5:
+            break
+    for n in news.get("cn", []):
+        if n.get("title", "")[:12] in used_titles:
+            continue
+        ext_cn.append(n)
+        if len(ext_cn) >= 5:
+            break
+
+    # ---- 完整逐字稿 (备用, 供查阅) ----
     lines_text = []
-    for i, line in enumerate(script["lines"], 1):
+    for i, line in enumerate(script.get("lines", []), 1):
         emoji = "🎙️" if line["role"] == "host" else "🎓"
         lines_text.append(f"**{i}.** {emoji} **{line['role'].upper()}**: {line['text']}")
 
-    # 完整块 (含 mp3 引用 — 最后一块)
-    body_full = "\n\n".join(lines_text)
-    footer = (
-        f"\n\n---\n\n"
-        f"📝 {script['title']} · {script['tagline']}\n\n"
-        f"MEDIA:{mp3_path}"
-    )
-
-    # 单块就够 → 返回单元素列表
-    full = header + body_full + footer
-    if len(full) <= 3800:
-        return [full]
-
-    # 超长 → 按行硬切, 每块 ≤3700 字符 (留余量避免 markdown 解析问题)
-    # 第一块带 mp3 (用户先看到音频); 中间块纯文本逐字稿; 最后块带 mp3 + 收尾
-    mp3_block_first = (
+    # ---- 构造 4 个语义块 ----
+    header_block = (
         f"📰 **今日AI头条** · {date}{bgm_info}\n"
-        f"⏱️ {duration_min:.1f} 分钟 · {push_status}\n\n"
-        f"MEDIA:{mp3_path}"
+        f"⏱️ {duration_min:.1f} 分钟 · {push_status}"
     )
-    footer_text = f"\n\n---\n\n📝 {script['title']} · {script['tagline']}"
 
-    chunks = [mp3_block_first]
+    deep_block_parts = ["## 🔥 今日精选"]
+    deep_block_parts.extend(deep_lines)
+    if other_selected:
+        deep_block_parts.append("\n## ⚡ 速览")
+        deep_block_parts.extend(other_selected)
+    deep_block = "\n".join(deep_block_parts)
 
-    # 中间块: 逐字稿按行累加, 每块 ≤3700
+    ext_parts = []
+    if ext_intl:
+        ext_parts.append("## 🌍 国际其他")
+        for n in ext_intl:
+            t = n.get("title", "")
+            u = n.get("url", "")
+            ext_parts.append(f"- [{t}]({u})" if u else f"- {t}")
+    if ext_cn:
+        ext_parts.append("\n## 🇨🇳 国内其他")
+        for n in ext_cn:
+            t = n.get("title", "")
+            u = n.get("url", "")
+            ext_parts.append(f"- [{t}]({u})" if u else f"- {t}")
+    ext_block = "\n".join(ext_parts) if ext_parts else ""
+
+    transcript_block = (
+        f"## 📜 完整逐字稿\n\n" + "\n\n".join(lines_text)
+        if lines_text else ""
+    )
+
+    mp3_block = f"🎧 播客音频:\n\nMEDIA:{mp3_path}"
+
+    # ---- 拼装 + 按 3700 字符硬切 ----
     MAX = 3700
-    current = ""
-    for line_text in lines_text:
-        candidate = current + ("\n\n" if current else "") + line_text
-        if len(candidate) > MAX and current:
-            chunks.append(current.strip())
-            current = line_text
-        else:
-            current = candidate
-    if current.strip():
-        chunks.append(current.strip())
+    sections = [
+        ("header", header_block),
+        ("deep", deep_block),
+        ("ext", ext_block),
+        ("transcript", transcript_block),
+        ("mp3", mp3_block),
+    ]
 
-    # 尾部块: 收尾文字 (mp3 已在第一块, 这里只是节目信息)
-    chunks.append(f"📝 {script['title']}\n*{script['tagline']}*")
+    chunks = []
+    current = ""
+    current_kind = None  # 跟踪当前块跨到了哪个 section (便于 debug)
+
+    def _flush():
+        nonlocal current, current_kind
+        if current.strip():
+            chunks.append(current.strip())
+        current = ""
+        current_kind = None
+
+    for kind, body in sections:
+        if not body:
+            continue
+        # mp3 块必须独立 (飞书附件醒目显示)
+        if kind == "mp3":
+            _flush()
+            chunks.append(body.strip())
+            continue
+        # 单 section 本身就超过 MAX → 强制切
+        if len(body) > MAX:
+            _flush()
+            for line in body.split("\n"):
+                candidate = current + ("\n" if current else "") + line
+                if len(candidate) > MAX and current:
+                    _flush()
+                current += ("\n" if current else "") + line
+            current_kind = kind
+            continue
+        # 尝试塞进当前块
+        sep = "\n\n" if current else ""
+        candidate = current + sep + body
+        if len(candidate) <= MAX:
+            current = candidate
+            current_kind = kind
+        else:
+            _flush()
+            current = body
+            current_kind = kind
+    _flush()
+
+    # 兜底: 如果全部 sections 都为空, 至少给 mp3
+    if not chunks:
+        chunks = [mp3_block]
 
     return chunks
 
