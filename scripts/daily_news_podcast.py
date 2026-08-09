@@ -327,6 +327,17 @@ SCRIPT_PROMPT = """你是一档名为《今日AI头条》的中文科技播客�
 5. **必须有具体数字**: 年份、模型名、性能、价格、参数量、用户数
 6. **国际+国内都覆盖**: 至少 2 条国际 + 2 条国内
 7. **结尾必须是 host**, 包含"订阅/点赞/小铃铛/下期预告"
+8. **【严格语言】全篇中文,绝不出现英文**:
+   - 英文模型/公司/产品名必须翻译或中文化,例如:
+     GPT-4o→"GPT-4o"可保留,但配套文字必须中文 ("OpenAI 的 GPT-4o" ✅, "OpenAI released GPT-4o" ❌)
+     Claude →"Claude"可保留,搭配"Anthropic 的 Claude"
+     ChatGPT →"ChatGPT"可保留
+     Anthropic/OpenAI/Google/Microsoft/Meta → "Anthropic"/"OpenAI"/"谷歌"/"微软"/"Meta" ✅
+   - 动词必须中文: released→发布/推出, achieved→实现/达到, surpassed→超越
+   - 句子必须是中文语法,不允许 "X is Y" 这种英文结构
+   - **唯一允许的英文**: TTS 读不出的极少见专有名词 (一个人名/产品代号);
+     常见词必须中文 ("release/launch/announce"→发布/推出/宣布)
+   - host 和 guest 全程说中文,口语化,绝不夹英文长句
 
 ## 结构模板 (30 句)
 - 句1-2: 开场寒暄 (host 问, guest 应)
@@ -447,6 +458,34 @@ async def generate_script(news: dict[str, list[dict]], date: str) -> dict[str, A
     if not script.get("tagline"):
         script["tagline"] = f"{date} | 国际+国内 AI 重磅速览"
 
+    # ---- 兜底: LLM 仍可能漏出英文,这里做机械修正 ----
+    # 常见英文专名/动词强制中文化 (LLM 没遵守时补救)
+    EN_TO_ZH = {
+        # 公司
+        "Anthropic released": "Anthropic 发布了",
+        "OpenAI released": "OpenAI 发布了",
+        "Google released": "谷歌发布了",
+        "Microsoft released": "微软发布了",
+        "Meta released": "Meta 发布了",
+        "released": "发布",
+        "launched": "推出",
+        "announced": "宣布",
+        "introduced": "推出",
+        "unveiled": "发布",
+        "achieves": "实现",
+        "achieved": "实现",
+        "surpasses": "超越",
+        "surpassed": "超越",
+        "reports": "报告显示",
+        "reported": "报告",
+    }
+    for line in script["lines"]:
+        text = line["text"]
+        for en, zh in EN_TO_ZH.items():
+            if en in text and not text.startswith("#"):
+                text = text.replace(en, zh)
+        line["text"] = text
+
     return script
 
 
@@ -497,10 +536,6 @@ async def synthesize_tts_async(script: dict, out_dir: Path) -> list[Path]:
                     output_path=mp3_path,
                 )
                 tts_segments.append(mp3_path)
-                if i % 5 == 0 or i == len(script["lines"]) - 1:
-                    print(f"     [{i+1}/{len(script['lines'])}] {role:5s} {voice:20s} "
-                          f"{result['audio_size_bytes']/1024:6.1f}KB "
-                          f"{result['duration_ms']:5d}ms")
                 break  # 成功, 退出重试循环
             except Exception as e:
                 if attempt < MAX_RETRIES and ("rate limit" in str(e).lower() or "1002" in str(e)):
@@ -760,77 +795,78 @@ def mix_with_bgm(voice_path: Path, bgm_path: Path, output_path: Path,
 # ============ Step 7: 发飞书 (返回消息体, 由 cron 投递) ============
 def build_feishu_message(date: str, news: dict, script: dict,
                          audio_info: dict, mp3_path: Path,
-                         push_ok: bool, bgm_used: str | None) -> str:
-    """构造飞书消息 (含文本+mp3, MEDIA: 标记由 hermes gateway 自动转换)"""
+                         push_ok: bool, bgm_used: str | None) -> list[str]:
+    """构造飞书消息 (拆成多块,每块 ≤3800 字符,最后一块含 MEDIA:mp3)
 
-    # 国际 + 国内各 8 条 (比之前 5+5 多)
-    lines_summary = []
-    for n in news["intl"][:8]:
-        lines_summary.append(f"🌍 [{n['title']}]({n['url']})")
-    for n in news["cn"][:8]:
-        lines_summary.append(f"🇨🇳 [{n['title']}]({n['url']})")
+    设计原则:
+    - 极简: 不打印中间状态/统计/罗列新闻链接 (用户要的是播客本身)
+    - 多块: 脚本直接调用 `hermes send` 多次投递, 避免 gateway 截断
+    - mp3 放最后一块: 用户可在播放列表看到附件
+    """
+    duration_min = audio_info["duration_sec"] / 60
+    bgm_info = f" · 🎵 {bgm_used}" if bgm_used else ""
+    push_status = "✅ GitHub 同步" if push_ok else "⚠️ push 失败 (本地保留)"
 
-    push_status = "✅ 已同步到 GitHub" if push_ok else "⚠️ GitHub push 失败 (数据在本地)"
-    bgm_info = f"\n🎵 **BGM**: {bgm_used}" if bgm_used else ""
+    # 块1: 极简标题头 + 完整逐字稿
+    header = (
+        f"📰 **今日AI头条** · {date}{bgm_info}\n"
+        f"⏱️ {duration_min:.1f} 分钟 · {push_status}\n\n"
+        f"---\n\n"
+        f"## 🎙️ 逐字稿\n"
+    )
 
-    # 节目统计
-    n_lines = len(script["lines"])
-    n_host = sum(1 for l in script["lines"] if l["role"] == "host")
-    n_guest = sum(1 for l in script["lines"] if l["role"] == "guest")
+    # 完整剧本 (不节选, 用户明确要全部内容)
+    lines_text = []
+    for i, line in enumerate(script["lines"], 1):
+        emoji = "🎙️" if line["role"] == "host" else "🎓"
+        lines_text.append(f"**{i}.** {emoji} **{line['role'].upper()}**: {line['text']}")
 
-    # 剧本节选 (前 4 句 + 后 2 句)
-    transcript_excerpt = ""
-    if "lines" in script:
-        first_lines = script["lines"][:3]
-        last_lines = script["lines"][-2:]
-        transcript_excerpt = "\n## 🎙️ 本期节选\n"
-        for line in first_lines:
-            emoji = "🎙️" if line["role"] == "host" else "🎓"
-            transcript_excerpt += f"\n> {emoji} **{line['role'].upper()}**: {line['text']}"
-        transcript_excerpt += "\n\n*... (更多精彩内容请收听本期播客) ...*\n"
-        for line in last_lines:
-            emoji = "🎙️" if line["role"] == "host" else "🎓"
-            transcript_excerpt += f"\n> {emoji} **{line['role'].upper()}**: {line['text']}"
+    # 完整块 (含 mp3 引用 — 最后一块)
+    body_full = "\n\n".join(lines_text)
+    footer = (
+        f"\n\n---\n\n"
+        f"📝 {script['title']} · {script['tagline']}\n\n"
+        f"MEDIA:{mp3_path}"
+    )
 
-    msg = f"""📰 **今日AI头条** · {date}
-{now_str()}
+    # 单块就够 → 返回单元素列表
+    full = header + body_full + footer
+    if len(full) <= 3800:
+        return [full]
 
-🎧 **播客**: 双角色 1男1女 (host={HOST_VOICE} + guest={GUEST_VOICE}){bgm_info}
-⏱️ **时长**: {audio_info['duration_sec']:.0f}秒 ({audio_info['duration_sec']/60:.1f}分钟)
-💾 **文件**: {mp3_path.stat().st_size/1024:.0f} KB
-🎙️ **剧本**: {n_lines} 句 (host {n_host} + guest {n_guest}) | 1.25× 速度
-{push_status}
+    # 超长 → 按行硬切, 每块 ≤3700 字符 (留余量避免 markdown 解析问题)
+    # 第一块带 mp3 (用户先看到音频); 中间块纯文本逐字稿; 最后块带 mp3 + 收尾
+    mp3_block_first = (
+        f"📰 **今日AI头条** · {date}{bgm_info}\n"
+        f"⏱️ {duration_min:.1f} 分钟 · {push_status}\n\n"
+        f"MEDIA:{mp3_path}"
+    )
+    footer_text = f"\n\n---\n\n📝 {script['title']} · {script['tagline']}"
 
----
+    chunks = [mp3_block_first]
 
-## 🔥 今日要闻 ({len(news['intl']) + len(news['cn'])}条)
+    # 中间块: 逐字稿按行累加, 每块 ≤3700
+    MAX = 3700
+    current = ""
+    for line_text in lines_text:
+        candidate = current + ("\n\n" if current else "") + line_text
+        if len(candidate) > MAX and current:
+            chunks.append(current.strip())
+            current = line_text
+        else:
+            current = candidate
+    if current.strip():
+        chunks.append(current.strip())
 
-{chr(10).join(lines_summary)}
+    # 尾部块: 收尾文字 (mp3 已在第一块, 这里只是节目信息)
+    chunks.append(f"📝 {script['title']}\n*{script['tagline']}*")
 
-{transcript_excerpt}
-
----
-
-## 📝 节目: {script['title']}
-*{script['tagline']}*
-
-完整逐字稿 + 全部新闻链接见 GitHub:
-`data/news/{date}/`
-
----
-
-MEDIA:{mp3_path}
-"""
-    return msg
+    return chunks
 
 
 # ============ 主流程 ============
 async def main():
     date = today_str()
-    print(f"\n{'='*60}")
-    print(f"📰 Daily AI News Podcast · {date}")
-    print(f"⏰ {now_str()}")
-    print(f"{'='*60}\n")
 
     # 准备目录
     out_dir = DATA_DIR / date
@@ -839,30 +875,20 @@ async def main():
     tts_dir.mkdir(exist_ok=True)
 
     # Step 1: 拉新闻
-    print("📡 [1/5] 拉取新闻...")
     news = fetch_news()
-    print(f"   🌍 国际: {len(news['intl'])} 条")
-    print(f"   🇨🇳 国内: {len(news['cn'])} 条")
 
     # Step 2: LLM 编剧
-    print(f"\n📝 [2/5] LLM 编剧...")
     script = await generate_script(news, date)
     chars = sum(len(l["text"]) for l in script["lines"])
-    print(f"   ✓ {script['title']}, {len(script['lines'])} 句, {chars} 字符")
 
     # Step 3: TTS 合成
-    print(f"\n🎙️ [3/5] TTS 合成 (host={HOST_VOICE}, guest={GUEST_VOICE})...")
     segments = await synthesize_tts_async(script, tts_dir)
-    print(f"   ✓ {len(segments)} 句")
 
     # Step 4: 拼接
-    print(f"\n🎵 [4/6] 拼接...")
     final_mp3 = out_dir / "final.mp3"
     audio_info = concat_audio(segments, final_mp3)
-    print(f"   ✓ {audio_info['duration_sec']:.1f}秒, {audio_info['size_bytes']/1024:.0f}KB")
 
     # Step 5: BGM 混音
-    print(f"\n🎵 [5/6] BGM 混音...")
     bgm_info = ensure_bgm()
     # 按日期轮换经典音乐库 (51 首, 每天换一首, 固定映射保证同日一致)
     bgm_index = int(date_str_to_num(date)) % len(bgm_info["files"]) if bgm_info["files"] else 0
@@ -880,34 +906,37 @@ async def main():
             final_with_bgm = out_dir / "final.mp3"
             audio_info = mix_with_bgm(voice_only, bgm_path, final_with_bgm,
                                       bgm_volume_db=bgm_volume_db)
-            print(f"   ✓ BGM: {bgm_used_name}, 最终 {audio_info['duration_sec']:.1f}秒")
         except Exception as e:
-            print(f"   ⚠️ BGM 混音失败: {e}, 用纯人声版")
             voice_only.replace(final_with_bgm)
     else:
-        print("   ⚠️ 没有可用 BGM, 跳过")
+        final_with_bgm = out_dir / "final.mp3"
+        voice_only.replace(final_with_bgm)
 
     # Step 6: 写文本 + git push
-    print(f"\n📄 [6/6] 写文本 + git push...")
     push_log = out_dir / "push.log"
     summary = write_text_outputs(date, news, script, audio_info, out_dir, bgm_used_name)
     push_ok = git_push(date, summary, push_log)
-    print(f"   {'✅' if push_ok else '⚠️'} push: {push_ok}")
 
     # Step 7: 发飞书
-    msg = build_feishu_message(date, news, script, audio_info, final_with_bgm, push_ok, bgm_used_name)
-    print(f"\n{'='*60}")
-    print("📤 飞书消息 (含 MEDIA: mp3):")
-    print(f"{'='*60}\n{msg[:1500]}\n[...截断]\n")
-
-    # cron 投递: 把消息写到固定文件, 让 cron runner 读
+    # 生成飞书消息 (多块)
+    msg_blocks = build_feishu_message(date, news, script, audio_info,
+                                       final_with_bgm, push_ok, bgm_used_name)
+    # 写到本地文件 (备查)
     msg_file = out_dir / "feishu_message.md"
-    msg_file.write_text(msg, encoding="utf-8")
+    msg_file.write_text("\n\n===== BLOCK =====\n\n".join(msg_blocks),
+                         encoding="utf-8")
+
+    # 直接调 hermes send 投递多块到飞书 DM (绕过 gateway 4000 字符截断)
+    import subprocess as _sp
+    feishu_target = "feishu:oc_c7abfd100eb35b6f3f95363a2c951207"
+    for i, block in enumerate(msg_blocks, 1):
+        _sp.run(["hermes", "send", "-t", feishu_target, "-q", block],
+                 check=False)
 
     # 退出码: 任何步骤失败都非零
     if not segments:
         sys.exit(2)
-    print(f"\n✅ 完成! 退出码 0")
+    # 静默 stdout (cron no_agent: 空 stdout = 静默, 不重复投递)
 
 
 if __name__ == "__main__":
