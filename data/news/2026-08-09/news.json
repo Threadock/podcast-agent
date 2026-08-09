@@ -2,10 +2,10 @@
   "intl": [
     {
       "source": "MarkTechPost",
-      "title": "Cloudflare Introduces Kitesurf: An Agent-First Web Browser That Runs Entirely in V8 Isolates on Cloudflare Workers",
-      "url": "https://www.marktechpost.com/2026/08/06/cloudflare-introduces-kitesurf-an-agent-first-web-browser-that-runs-entirely-in-v8-isolates-on-cloudflare-workers/",
-      "snippet": "<p>Cloudflare has released Kitesurf, a stateless web browser built specifically for AI agents that runs entirely in V8 isolates on Cloudflare Workers, with no Chromium underneath. The browser drops hu",
-      "published": "Thu, 06 Aug 2026 19:35:32 +0000"
+      "title": "Meet Shepherd: An Open-Source Python Substrate That Lets Meta-Agents Fork, Replay, and Revert Any Agent Run",
+      "url": "https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run/",
+      "snippet": "<p>Long agent runs accumulate state that no transcript records — edited files, a live dev server, installed packages, a warm prompt cache. When an agent misreads a traceback at step 10 and rewrites a ",
+      "published": "Sat, 08 Aug 2026 20:54:49 +0000"
     },
     {
       "source": "MarkTechPost",
@@ -85,6 +85,13 @@
       "published": "Fri, 07 Aug 2026 03:42:27 +0000"
     },
     {
+      "source": "TheVerge-AI",
+      "title": "An Amazon data center could have the worst polluting power plant in the country",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
+      "snippet": "To power its new West Texas data center, Amazon is investing in the construction of a new power plant that could be one of the largest single producers of greenhouse gases in the US, according to the ",
+      "published": "2026-08-08T13:53:34-04:00"
+    },
+    {
       "source": "HackerNews",
       "title": "Show HN: Salestrics – An open MCP server and CRM for AI-native revenue teams",
       "url": "https://www.salestrics.com/",
@@ -97,50 +104,22 @@
       "url": "https://www.alyph.ai/",
       "snippet": "Since I started using LLMs, I&#x27;ve always had this feeling of wanting to go back, change the history, and then go down another branch.<p>The lightbulb moment for me was when Google AI Studio starte",
       "published": "2026-08-07T19:58:51Z"
-    },
-    {
-      "source": "TheVerge-AI",
-      "title": "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
-      "snippet": "It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His comments follow the producer Medasin's videos claiming that an AI",
-      "published": "2026-08-07T16:01:51-04:00"
     }
   ],
   "cn": [
     {
-      "source": "199IT",
-      "title": "世界银行：2025年商业就绪度报告",
-      "url": "http://www.199it.com/archives/1836573.html",
-      "snippet": "报告数据显示，未来十年全球预计将新增约12亿劳动年龄人口，而2025年全球GDP增速预计仅约2.3%，供需失衡风险正在扩大。",
-      "published": "Thu, 06 Aug 2026 22:00:46 +0000"
+      "source": "钛媒体",
+      "title": "Cambricon Turns a Profit Surge into an Inventory Test",
+      "url": "https://www.tmtpost.com/8096505.html",
+      "snippet": "First-half revenue nearly doubled to about 6 billion yuan and net profit more than doubled, yet a sharp rise in unfinished inventory means the second half will be judged by how quickly those materials",
+      "published": "Sun, 09 Aug 2026 07:37:03 +0800"
     },
     {
-      "source": "199IT",
-      "title": "SensorTower：2026年动作和策略游戏应用报告",
-      "url": "http://www.199it.com/archives/1827335.html",
-      "snippet": "Steam领衔增长，移动端聚焦变现\n\nSteam上的动作和策略类游戏的下载量和收入均出现同比大幅增长，证明市场对优质游戏仍有巨大需求。“战地6”、“ClairObscur：Expedition33”和“ARCRaiders”等热门游戏表明，个人电脑和游戏机能够实现移动端无法实现的技术密集型体验。",
-      "published": "Thu, 06 Aug 2026 21:30:21 +0000"
-    },
-    {
-      "source": "199IT",
-      "title": "Brand Finance：2026年全球B2B品牌价值",
-      "url": "http://www.199it.com/archives/1827399.html",
-      "snippet": "品牌强度的财务影响既具有可衡量性，也具有重要意义。BrandFinance对全球超过1000个受评B2B品牌的分析显示，以品牌评级表示的品牌强度与债务成本之间存在清晰、单调的关系。强势品牌受益于较低的借贷成本，低端品牌和顶级品牌之间的债务风险溢价相差60个基点。在规模效应下，这意味着每年可节省数千万美元。",
-      "published": "Thu, 06 Aug 2026 21:00:17 +0000"
-    },
-    {
-      "source": "199IT",
-      "title": "世界经济论坛：体育惠及人类与地球",
-      "url": "http://www.199it.com/archives/1836574.html",
-      "snippet": "2025年全球体育相关收入约为2.3万亿美元，预计2030年将增长至3.7万亿美元，复合增速约10%，远高于过去十年7%的水平，并在2050年达到8.8万亿美元规模。",
-      "published": "Thu, 06 Aug 2026 20:00:48 +0000"
-    },
-    {
-      "source": "199IT",
-      "title": "Crunchbase：2026年第一季度北美风险投资额达2526亿美元",
-      "url": "http://www.199it.com/archives/1822841.html",
-      "snippet": "根据Crunchbase的数据，美国和加拿大公司在种子轮至成长型投资轮次中获得了惊人的2526亿美元。这是上一季度融资总额的三倍多，也是有史以来最大的单季度总额。",
-      "published": "Thu, 06 Aug 2026 18:00:18 +0000"
+      "source": "掘金",
+      "title": "Rust Borrow借用详解：不转移所有权访问数据",
+      "url": "https://juejin.cn/post/7671572326106153006",
+      "snippet": "中文通常称为“借用”。 前面我们已经知道，String、Vec等非Copy类型传递给另一个变量或函数时，通常会发生所有权移动： 调用print_name(name)后，name的所有权进入函数，后面不",
+      "published": "Sat, 08 Aug 2026 23:49:11 GMT"
     },
     {
       "source": "钛媒体",
@@ -211,6 +190,27 @@
       "url": "https://juejin.cn/post/7671566723838115878",
       "snippet": "这篇文章记录 PennyScribe 从 Qwen ASR、Vast.ai GPU 调度到正式上线的开发过程，以及我对 AI Agent 时代产品设计的新思考。",
       "published": "Sat, 08 Aug 2026 15:50:01 GMT"
+    },
+    {
+      "source": "掘金",
+      "title": "Milvus内部机制浅入浅出",
+      "url": "https://juejin.cn/post/7671219839776653322",
+      "snippet": "Milvus是目前最常用的向量数据库之一，本文粗浅介绍其内部查询、存储机制。本文所介绍内容基于Milvus 2.6.x。",
+      "published": "Sat, 08 Aug 2026 15:42:09 GMT"
+    },
+    {
+      "source": "掘金",
+      "title": "Rust Copy详解：隐式复制与轻量数据类型",
+      "url": "https://juejin.cn/post/7671467814255738931",
+      "snippet": "显式创建一个值的副本。 对于String、Vec、HashMap等拥有堆数据的类型，clone()通常会复制底层数据，因此可能产生额外的内存分配和性能开销。 本篇继续学习Rust所有权体系中的另一个重",
+      "published": "Sat, 08 Aug 2026 15:34:17 GMT"
+    },
+    {
+      "source": "掘金",
+      "title": "React 受控组件与非受控组件：从一个输入框讲清表单数据流",
+      "url": "https://juejin.cn/post/7671299466397761570",
+      "snippet": "输入框能正常提交，并不代表表单的数据流已经清楚。本文从两个可运行示例出发，对比 React 受控与非受控组件，并继续拆解多字段更新、实时校验、默认值、文件输入和常见模式切换问题。",
+      "published": "Sat, 08 Aug 2026 15:33:21 GMT"
     }
   ],
   "source_stats": {
@@ -224,21 +224,21 @@
     "TheGradient": 0,
     "HuggingFace-Blog": 1,
     "HackerNews": 2,
-    "ArXiv-cs.AI": 9,
+    "ArXiv-cs.AI": 0,
     "量子位": 10,
     "雷锋网": 10,
     "钛媒体": 15,
     "掘金": 15,
-    "199IT": 5
+    "199IT": 0
   },
   "dedup": {
     "intl": {
-      "before": 28,
-      "after": 28
+      "before": 19,
+      "after": 19
     },
     "cn": {
-      "before": 55,
-      "after": 55
+      "before": 50,
+      "after": 50
     }
   }
 }
