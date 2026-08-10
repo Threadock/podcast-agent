@@ -1,0 +1,166 @@
+{
+  "intl": [
+    {
+      "source": "HackerNews",
+      "title": "Show HN: Sufleur - npm-style prompt registry with typed code-generation",
+      "url": "https://github.com/sufleur/cli",
+      "snippet": "Hi HN, I&#x27;ve built Sufleur, a prompt registry and companion CLI tool. The motivation was essentially the frustration that prompts are becoming more and more crucial parts of applications, but in t",
+      "published": "2026-08-09T15:28:53Z"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "AI detectors are creating a new era of distrust",
+      "url": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
+      "snippet": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth. The Stepback arrives in our s",
+      "published": "2026-08-09T08:00:00-04:00"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "An Amazon data center could have the worst polluting power plant in the country",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
+      "snippet": "To power its new West Texas data center, Amazon is investing in the construction of a new power plant that could be one of the largest single producers of greenhouse gases in the US, according to the ",
+      "published": "2026-08-08T13:53:34-04:00"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Show HN: Salestrics – An open MCP server and CRM for AI-native revenue teams",
+      "url": "https://www.salestrics.com/",
+      "snippet": "Hey HN, I’m Austin, founder of Salestrics (salestrics.com).<p>The Problem: &gt; Most AI agents today are trapped in chat windows. While models are smart enough to run complex multi-step workflows, giv",
+      "published": "2026-08-08T01:32:41Z"
+    }
+  ],
+  "cn": [
+    {
+      "source": "掘金",
+      "title": "AI 工具越好用越要严格把控安全边界",
+      "url": "https://juejin.cn/post/7671994177554513966",
+      "snippet": "前端时间，有个小伙伴问我：“公众号文章、标书这些东西，是不是都可以直接丢给 AI，让它帮忙处理？” 刚听到这个问题，我觉得挺常见。现在大家写文章、改材料、做总结，第一反应就是找 AI，确实能省不少时间",
+      "published": "Sun, 09 Aug 2026 23:52:48 GMT"
+    },
+    {
+      "source": "掘金",
+      "title": "把《天龙八部》装进向量数据库：EPUB加载、文本分块与RAG问答全链路实战",
+      "url": "https://juejin.cn/post/7671937135785050150",
+      "snippet": "以《天龙八部》EPUB拆解RAG全链路：EPubLoader章节加载、RecursiveCharacterTextSplitter分块、Milvus流式入库，实现语义问答。",
+      "published": "Sun, 09 Aug 2026 23:47:45 GMT"
+    },
+    {
+      "source": "掘金",
+      "title": "GitHub #2 拆解｜仅 +59，代码知识图谱为什么仍值得关注？",
+      "url": "https://juejin.cn/post/7671627278519746569",
+      "snippet": "Code-Graph-RAG 是一个面向多语言代码库的代码理解与编辑系统。它先用 Tree-sitter 读取源文件，抽取函数、类、方法、模块和它们之间的关系，再把这些结构写入 Memgraph。",
+      "published": "Sun, 09 Aug 2026 23:47:44 GMT"
+    },
+    {
+      "source": "199IT",
+      "title": "宜居星球的食谱：实现农业食品体系净零排放",
+      "url": "http://www.199it.com/archives/1836635.html",
+      "snippet": "全球农业食品体系每年排放约160亿吨二氧化碳当量，占全球温室气体排放的30%以上，规模甚至超过全球电力与热力系统排放总和。这意味着，气候问题已不再只是能源问题，而是深度嵌入粮食、土地、消费与供应链结构中的系统性风险。",
+      "published": "Sun, 09 Aug 2026 22:00:20 +0000"
+    },
+    {
+      "source": "199IT",
+      "title": "2026年广告、营销与数据展望：B2B持续演进",
+      "url": "http://www.199it.com/archives/1836637.html",
+      "snippet": "报告显示，2025年宏观环境呈现“弱波动、强韧性”特征，美国GDP增速超预期，通胀回落但价格仍上行，就业率上升至4.4%，整体形成“温和滞胀”格局。",
+      "published": "Sun, 09 Aug 2026 21:30:55 +0000"
+    },
+    {
+      "source": "199IT",
+      "title": "BCG：2026年全球贸易报告",
+      "url": "http://www.199it.com/archives/1807880.html",
+      "snippet": "面对经济民族主义和日益增长的关税压力，全球贸易可能展现出比许多预期更强的韧性。波士顿咨询集团的一项新情景分析表明，一种获得动力的情景显示，未来十年全球货物贸易将年均增长2.5%，略快于全球GDP增速，从2024年的约23万亿美元扩大至2034年的近30万亿美元。",
+      "published": "Sun, 09 Aug 2026 21:00:49 +0000"
+    },
+    {
+      "source": "199IT",
+      "title": "霍尔木兹海峡受阻：油价冲击如何压垮最脆弱经济体",
+      "url": "http://www.199it.com/archives/1836636.html",
+      "snippet": "自2026年2月底军事局势升级以来，国际原油价格较此前均值上涨超过40%，汽油价格涨幅更超过50%。对于高度依赖能源进口的发展中经济体而言，这不仅是一场价格波动，更是一场涉及财政稳定、通胀压力与社会发展的系统性冲击。",
+      "published": "Sun, 09 Aug 2026 20:30:53 +0000"
+    },
+    {
+      "source": "199IT",
+      "title": "Omdia：2025年全球可穿戴设备出货量攀升超过2亿部 同比增长6%",
+      "url": "http://www.199it.com/archives/1814669.html",
+      "snippet": "根据Omdia的数据，2025年全球可穿戴设备出货量攀升超过2亿部，同比增长6%。小米自2020年以来首次夺回头把交椅，以18%的市场份额成为全球年度出货量最大的可穿戴设备供应商。苹果以17%的份额紧随其后，位居第二，华为以16%的份额位列第三。市场集中度也在提高，前五大供应商还包括三星和Garmin。",
+      "published": "Sun, 09 Aug 2026 18:00:22 +0000"
+    },
+    {
+      "source": "钛媒体",
+      "title": "2026香港吴声年度演讲：下一代消费者，身体感、创造欲、信息祛魅",
+      "url": "https://www.tmtpost.com/8096553.html",
+      "snippet": "我们正迎来「下一代消费者」（XSpecies of Us），表现出三种鲜明特征——身体感、创造欲与信息祛魅。",
+      "published": "Sun, 09 Aug 2026 17:20:24 +0800"
+    },
+    {
+      "source": "钛媒体",
+      "title": "伯克希尔开始花钱了，然后呢？",
+      "url": "https://www.tmtpost.com/8096598.html",
+      "snippet": "当全世界都在喊\"AI改变世界\"的时候，伯克希尔用3655亿美元说了一句话：我信。但我还没看到值得把最后一颗子弹打出去的价格。",
+      "published": "Sun, 09 Aug 2026 17:16:42 +0800"
+    },
+    {
+      "source": "钛媒体",
+      "title": "做底座还是做入口？国产AI 到下决心的时候了！",
+      "url": "https://www.tmtpost.com/8096705.html",
+      "snippet": "多数没有自有入口的底座，只能服务于掌握入口的一方，其实就是在给入口打工。",
+      "published": "Sun, 09 Aug 2026 17:16:40 +0800"
+    },
+    {
+      "source": "钛媒体",
+      "title": "AI存储股暴跌，高盛为何敢押注HBM翻倍？",
+      "url": "https://www.tmtpost.com/8096591.html",
+      "snippet": "高盛八大判断背后——比预测更重要的，是验证与修正预测的速度。",
+      "published": "Sun, 09 Aug 2026 17:12:17 +0800"
+    },
+    {
+      "source": "钛媒体",
+      "title": "人类最恐惧的事情还是发生了：AI们拉了个群密谋大事",
+      "url": "https://www.tmtpost.com/8096616.html",
+      "snippet": "为了作弊自建“聊天群”，还怀疑有“内鬼”",
+      "published": "Sun, 09 Aug 2026 17:12:14 +0800"
+    },
+    {
+      "source": "钛媒体",
+      "title": "935亿之后，具身智能的账该怎么算？",
+      "url": "https://www.tmtpost.com/8096557.html",
+      "snippet": "头部企业在用产能数字互相较劲，而腰部以下的公司，很多已经三个月没听到过投资机构的电话了。这种分化不是坏事，反而是产业成熟的标志。只是对创业者来说，这个过程有点残酷。",
+      "published": "Sun, 09 Aug 2026 16:32:55 +0800"
+    },
+    {
+      "source": "钛媒体",
+      "title": "单项致胜：五星偏股混合型基金产品深度参考（2026年二季度）",
+      "url": "https://www.tmtpost.com/8096691.html",
+      "snippet": "本文专注于混合型基金中的偏股混合型基金中单项能力突出的基金产品，偏股混合型基金的分类标准是基金资产投资于股票、债券和货币市场工具的比例不符合股票型基金、债券型基金和货币市场基金标准的基金；股票投资比例下限为60%以上。混合型基金作为投资者的长期理财工具, 适合具有高风险承受能力的投资者；资产配置、时机选择方面都给基金管理人的主动管理提供了充分的空间，要求管理团队拥有较高操作水平，主动为投资者取得尽",
+      "published": "Sun, 09 Aug 2026 16:11:57 +0800"
+    }
+  ],
+  "source_stats": {
+    "OpenAI-News": 0,
+    "Google-AI-Blog": 0,
+    "TheVerge-AI": 2,
+    "TechReview-AI": 0,
+    "LastWeekInAI": 0,
+    "MarkTechPost": 0,
+    "SebastianRaschka": 0,
+    "TheGradient": 0,
+    "HuggingFace-Blog": 0,
+    "HackerNews": 2,
+    "ArXiv-cs.AI": 0,
+    "量子位": 10,
+    "钛媒体": 15,
+    "掘金": 15,
+    "199IT": 15
+  },
+  "dedup": {
+    "intl": {
+      "before": 4,
+      "after": 4
+    },
+    "cn": {
+      "before": 55,
+      "after": 55
+    }
+  }
+}
