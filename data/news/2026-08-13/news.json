@@ -243,6 +243,14 @@
       "weight": 7
     },
     {
+      "source": "掘金",
+      "title": "给 Claude 一个链接，它真的读了原文吗",
+      "url": "https://juejin.cn/post/7673061397313486858",
+      "snippet": "Claude Code 的 WebFetch 会把网页转成 Markdown，再交给一个小而快的模型按问题处理。大多数情况下，主对话里的 Claude 收到的是这个模型生成的回答，不是未经处理的网页。",
+      "published": "Thu, 13 Aug 2026 01:52:15 GMT",
+      "weight": 6
+    },
+    {
       "source": "InfoQ中文",
       "title": "小扎万字长文炮轰闭源：蒸馏无罪，Meta 正式重回开源模型路线",
       "url": "https://www.infoq.cn/article/9sy33cA91Fp8z5mlOvNu?utm_source=rss&utm_medium=article",
@@ -308,7 +316,7 @@
     },
     {
       "source": "36氪",
-      "title": "36氪首发 | 顺为、宁德时代系联手押注，这家公司要把全球最小丝杠量产千万根",
+      "title": "36氪首发 | 顺为、望千联手押注，这家公司要把全球最小丝杠量产千万根",
       "url": "https://36kr.com/p/3937262359100805?f=rss",
       "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260813/v2_99c734bcaf84486587a08808aca71cb0@6221844_oswg98699oswg1280oswg1280_img_jpg?x-oss-process=image/quality,q_100/format,jpg/i",
       "published": "2026-08-13 09:10:39  +0800",
@@ -350,7 +358,7 @@
       "source": "36氪",
       "title": "Champion签约BTS成员金泰亨，百丽与Authentic重做中国生意｜最前线",
       "url": "https://36kr.com/p/3935279124004230?f=rss",
-      "snippet": "<p>Champion正在为自己在中国市场的新阶段寻找新的增长抓手。</p>\n  <p>8月10日，拥有百年历史的美国运动生活方式品牌Champion宣布与BTS成员V（金泰亨）达成全球合作。V将领衔品牌全新“True Champion”企划，与Romeo Beckham、SOFI TUKKER、Kyle Kuzma等来自体育、音乐和文化领域的人物共同亮相2026��冬品牌企划。该企划已经于8月1",
+      "snippet": "<p>Champion正在为自己在中国市场的新阶段寻找新的增长抓手。</p>\n  <p>8月10日，拥有百年历史的美国运动生活方式品牌Champion宣布与BTS成员V（金泰亨）达成全球合作。V将领衔品牌全新“True Champion”企划，与Romeo Beckham、SOFI TUKKER、Kyle Kuzma等来自体育、音乐和文化领域的人物共同亮相2026秋冬品牌企划。该企划已经于8月10",
       "published": "2026-08-12 10:29:05  +0800",
       "weight": 1
     },
@@ -392,14 +400,6 @@
       "url": "https://36kr.com/newsflashes/3937278802721924?f=rss",
       "snippet": "36氪获悉，A股三大指数集体高开，沪指高开0.27%，深成指高开0.85%，创业板指高开1.52%；光模块、覆铜板概念领涨，中际旭创、天孚通信涨超4%，工业富联、新易盛涨超3%；油气、煤炭板块跌幅居前，大有能源跌超3%，中国海油跌超1%。",
       "published": "2026-08-13 09:27:06  +0800",
-      "weight": 1
-    },
-    {
-      "source": "36氪",
-      "title": "央行今日7天期逆回购操作量为零",
-      "url": "https://36kr.com/newsflashes/3937281617099908?f=rss",
-      "snippet": "36氪获悉，央行今日7天期逆回购操作量为零，今日净回笼10亿元。",
-      "published": "2026-08-13 09:29:58  +0800",
       "weight": 1
     }
   ],

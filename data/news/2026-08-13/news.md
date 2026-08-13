@@ -48,6 +48,7 @@
 - **[DeepSeek招土木工程师；腾讯参投！林俊旸深夜官宣新公司：做下一代AI智能体；宇树科技中签号出炉：共19414个丨雷峰早报](https://www.leiphone.com/category/zaobao/H8yaCINLCnx3D30o.html)** _雷锋网_ — <section></section><section><section><section><section><section><section><section></section><section><section style="text-align: center;"><span style="font-size: 24px;"><strong>要闻提示</strong></span></s
 - **[美的作为独家家电伙伴接入千问App，阿里系多元场景服务即将全面打通](https://www.leiphone.com/category/smarthome/UPJ3O4bqnuSpOiK1.html)** _雷锋网_ — <p>8月10日，美的作为独家家电合作伙伴，通过A2A（Agent-to-Agent）协议接入千问App。用户绑定美的小美AI Agent后，可在千问App内实现全品牌产品咨询、家庭环境监测、设备能耗查询、耗材与维保管理等一站式服务。</p><p style="text-align: center;"><img src="https://static.leiphone.com/uploads/ne
 - **[豆包收12%佣金，第一批做GEO的酒店偷偷笑了](https://www.tmtpost.com/8099531.html)** _钛媒体_ — 越早入局新获客渠道的酒店，越早获利。
+- **[给 Claude 一个链接，它真的读了原文吗](https://juejin.cn/post/7673061397313486858)** _掘金_ — Claude Code 的 WebFetch 会把网页转成 Markdown，再交给一个小而快的模型按问题处理。大多数情况下，主对话里的 Claude 收到的是这个模型生成的回答，不是未经处理的网页。
 - **[小扎万字长文炮轰闭源：蒸馏无罪，Meta 正式重回开源模型路线](https://www.infoq.cn/article/9sy33cA91Fp8z5mlOvNu?utm_source=rss&utm_medium=article)** _InfoQ中文_ — <div align="right"><a href="https://www.infoq.cn/article/9sy33cA91Fp8z5mlOvNu?utm_source=rss&amp;utm_medium=article">点击查看原文></a></div>
 - **[Anthropic CEO整天神神叨叨，投资人受不了了](https://www.qbitai.com/2026/08/471162.html)** _量子位_ — Dario能不能少吓唬点人…
 - **[36氪首发 | 航天老兵做太空轨道转移飞行器，完成近亿元A轮融资](https://36kr.com/p/3935991981555075?f=rss)** _36氪_ — <p>作者&nbsp;|&nbsp;乔钰杰</p>
@@ -66,13 +67,13 @@
   <p>三星电子
 - **[不做更好的大模型，林俊旸的 Pragmatik，凭什么值 20 亿美元](https://www.tmtpost.com/8101590.html)** _钛媒体_ — 一个横跨“数字+物理”的宏大定位。
 - **[桥介数物完成新一轮亿级融资，加速落地通用机器人操作系统](https://www.leiphone.com/category/industrynews/lrwCyiLDozDxFo2b.html)** _雷锋网_ — <p>近日，通用机器人操作系统研发商桥介数物（BridgeDP Robotics）宣布完成 Pre-A+++ 轮融资。本轮融资由中国移动链长基金领投，老股东复星创富、深创投追加投资，融资规模达亿元级。</p><p>桥介数物表示，本次融资将主要用于四个方向：RoboCraft AI 通用机器人运动能力开发平台的生态建设、跨本体全身运动数据工厂产能提升、运动控制模型持续迭代，以及海外技术服务体系布局与
-- **[36氪首发 | 顺为、宁德时代系联手押注，这家公司要把全球最小丝杠量产千万根](https://36kr.com/p/3937262359100805?f=rss)** _36氪_ — <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260813/v2_99c734bcaf84486587a08808aca71cb0@6221844_oswg98699oswg1280oswg1280_img_jpg?x-oss-process=image/quality,q_100/format,jpg/i
+- **[36氪首发 | 顺为、望千联手押注，这家公司要把全球最小丝杠量产千万根](https://36kr.com/p/3937262359100805?f=rss)** _36氪_ — <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260813/v2_99c734bcaf84486587a08808aca71cb0@6221844_oswg98699oswg1280oswg1280_img_jpg?x-oss-process=image/quality,q_100/format,jpg/i
 - **[独家解读丨对手买「法拉利」，AMD为何给自己添了一辆「拖拉机」？](https://www.leiphone.com/category/chips/FFL2K4o5EltbstrF.html)** _雷锋网_ — <section><section><section><section><section style="text-align: center;"><img class="rich_pages wxw-img js_insertlocalimg" src="https://static.leiphone.com/uploads/new/images/20260812/6a7c0975e976d.pn
 - **[独家丨大疆安克高管刘力源进军宠物机器人，元禾领投天使](https://www.leiphone.com/category/weiwu/P3QjuKBAMqtTeGNM.html)** _雷锋网_ — <section style="margin-bottom: 16px;"><span><img alt="图片" class="rich_pages wxw-img" src="https://static.leiphone.com/6a6c4981e5bcb.jpg?imageMogr2/quality/90" /></span></section><section style="margin
 - **[4S店集体“爆改”：卖车亏百万，如今改卖服装、烧烤与人形机器人](https://www.tmtpost.com/8099407.html)** _钛媒体_ — 2026年，与汽车毫不相干的业态，相继钻入曾经只属于汽车的空间。
 - **[独家｜华为云加码AI办公：OfficeClaw升级为OfficeAce，瞄准企业Agent入口](https://www.tmtpost.com/8100764.html)** _钛媒体_ — AI办公市场正在经历一轮重新布局。
 - **[Champion签约BTS成员金泰亨，百丽与Authentic重做中国生意｜最前线](https://36kr.com/p/3935279124004230?f=rss)** _36氪_ — <p>Champion正在为自己在中国市场的新阶段寻找新的增长抓手。</p>
-  <p>8月10日，拥有百年历史的美国运动生活方式品牌Champion宣布与BTS成员V（金泰亨）达成全球合作。V将领衔品牌全新“True Champion”企划，与Romeo Beckham、SOFI TUKKER、Kyle Kuzma等来自体育、音乐和文化领域的人物共同亮相2026��冬品牌企划。该企划已经于8月1
+  <p>8月10日，拥有百年历史的美国运动生活方式品牌Champion宣布与BTS成员V（金泰亨）达成全球合作。V将领衔品牌全新“True Champion”企划，与Romeo Beckham、SOFI TUKKER、Kyle Kuzma等来自体育、音乐和文化领域的人物共同亮相2026秋冬品牌企划。该企划已经于8月10
 - **[除了甄子丹，《影之刃零》新PV还曝光了这些......](https://36kr.com/p/3936372691696770?f=rss)** _36氪_ — <p>文 | 二几</p>
   <p>8月12日，备受期待的暗黑武侠动作冒险游戏《影之刃零》开启全球预售，发布长达11分钟的实机预告。游戏定价与《黑神话：悟空》齐平，数字标准版268元，数字豪华版328元。</p>
   <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260812/v2_f8acb3cd2c7
@@ -86,4 +87,3 @@
   <p>作为一款带有“十年之作”意味的产品，X6承接了影石过去十年在全景影像上的技术迭代与经验积累。相较此前几代主要围绕画质、便携性和全景拍摄体验展开升级，X6除了继续提升画质
 - **[恒指开盘跌0.6%，恒生科技指数跌0.29%](https://36kr.com/newsflashes/3937274766392706?f=rss)** _36氪_ — 36氪获悉，恒指开盘跌0.6%，恒生科技指数跌0.29%；半导体、CPO板块领涨，优博控股涨超10%，澜起科技、剑桥科技涨超4%，中际旭创涨超3%；汽车、科技板块跌幅居前，文远知行跌近10%，腾讯控股跌超3%。
 - **[A股三大指数集体高开，光模块概念领涨](https://36kr.com/newsflashes/3937278802721924?f=rss)** _36氪_ — 36氪获悉，A股三大指数集体高开，沪指高开0.27%，深成指高开0.85%，创业板指高开1.52%；光模块、覆铜板概念领涨，中际旭创、天孚通信涨超4%，工业富联、新易盛涨超3%；油气、煤炭板块跌幅居前，大有能源跌超3%，中国海油跌超1%。
-- **[央行今日7天期逆回购操作量为零](https://36kr.com/newsflashes/3937281617099908?f=rss)** _36氪_ — 36氪获悉，央行今日7天期逆回购操作量为零，今日净回笼10亿元。
