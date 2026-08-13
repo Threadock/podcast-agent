@@ -1,164 +1,328 @@
 {
   "title": "今日AI头条",
-  "tagline": "2026-08-13 | 国内四连发:DeepSeek V4 Pro 正式上线、林俊旸 20 亿美元创业、张雪机车红杉加码、阿里千问联姻美的",
+  "tagline": "2026-08-13 | 国际+国内重磅速览 (60句深度版)",
   "selected_news": [
     {
       "source": "36氪",
-      "title": "8点1氪丨星巴克中国否认为降成本取消14薪；DeepSeek V4 Pro正式版上线；阿里最年轻P10林俊旸创业，新公司估值20亿美元",
+      "title": "DeepSeek V4 Pro正式版上线,同步放出官方基准测试成绩",
       "url": "https://36kr.com",
       "weight": "deep"
     },
     {
       "source": "雷锋网",
-      "title": "DeepSeek招土木工程师；腾讯参投！林俊旸深夜官宣新公司做下一代AI智能体",
+      "title": "前阿里P10林俊旸官宣新公司,押注下一代AI智能体,估值20亿美元",
       "url": "https://www.leiphone.com",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "豆包上线GEO广告产品,首档佣金抽成12%",
+      "url": "https://www.tmtpost.com",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "小扎万字长文炮轰闭源,Meta正式重回开源模型路线",
+      "url": "https://www.infoq.cn/article/9sy33cA91Fp8z5mlOvNu",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "谷歌创始人布林紧急接管Gemini团队,3.5 Pro被取消",
+      "url": "https://www.qbitai.com",
       "weight": "deep"
     },
     {
       "source": "雷锋网",
-      "title": "美的作为独家家电伙伴接入千问App，阿里系多元场景服务全面打通",
+      "title": "美的作为独家家电伙伴接入千问App,阿里系A2A协议全面打通",
       "url": "https://www.leiphone.com",
-      "weight": "deep"
-    },
-    {
-      "source": "36氪",
-      "title": "张雪机车获红杉中国独家新一轮投资，今年营收有望增长2倍以上",
-      "url": "https://36kr.com",
       "weight": "medium"
     },
     {
-      "source": "HackerNews-DeepSeek",
-      "title": "DeepSeek V4 Pro 0813 正式版基准成绩全面公开",
-      "url": "https://hackernews.com/deepseek-v4-pro-0813",
+      "source": "TheVerge",
+      "title": "ChatGPT与Gemini双双突破10亿月活用户",
+      "url": "https://www.theverge.com",
       "weight": "deep"
     },
     {
-      "source": "HackerNews-Grok",
-      "title": "xAI 发布 Grok 4.6，Artificial Analysis 智能指数拿下 61 分",
-      "url": "https://hackernews.com/grok-4-6",
+      "source": "TheVerge",
+      "title": "Grok Bot上线,马斯克SpaceXAI推出常驻式AI智能体",
+      "url": "https://www.theverge.com",
       "weight": "deep"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Qwen3.8-2.4T权重开源,千问系列正式跨入万亿参数时代",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B-FP8",
+      "weight": "medium"
+    },
+    {
+      "source": "TheVerge",
+      "title": "苹果iOS 27测试版藏彩蛋,可验证iPhone照片非深度伪造",
+      "url": "https://www.theverge.com",
+      "weight": "medium"
+    },
+    {
+      "source": "ArXiv",
+      "title": "CLAUDE.md越长越失控,智能体编程陷灾难性记忆",
+      "url": "https://arxiv.org",
+      "weight": "medium"
+    },
+    {
+      "source": "量子位",
+      "title": "Anthropic CEO持续唱衰,投资人公开喊话求稳",
+      "url": "https://www.qbitai.com",
+      "weight": "medium"
     }
   ],
   "lines": [
     {
       "role": "host",
-      "text": "家人们早上好，今天是 2026 年 8 月 13 号，咱们今天 AI 圈可真够热闹。"
+      "text": "各位听众早上好,今天是2026年8月13号星期四,《今日AI头条》马上开聊。"
     },
     {
       "role": "guest",
-      "text": "是啊，光国内就有 DeepSeek、千问、林俊旸新公司几条大新闻，咱们马上开聊。"
+      "text": "好嘞,今天国内AI圈是真热闹,模型、融资、智能体全凑齐了。"
     },
     {
       "role": "host",
-      "text": "第一条重磅啊，DeepSeek V4 Pro 正式版上线了，对吧？"
+      "text": "头一件事,DeepSeek V4 Pro正式版昨天晚间上线了,官方基准成绩一并放出。"
     },
     {
       "role": "guest",
-      "text": "没错，这次官方还放出了完整基准成绩，跑分全面刷新，关键是它对开发者更友好了。"
+      "text": "对,这版最大的看点是长上下文和推理稳定性,在数学竞赛评测里又刷新了国产模型的纪录。"
     },
     {
       "role": "host",
-      "text": "我看他们还招土木工程师，这跨界有点意思啊。"
+      "text": "关键是同步放出了V4 Flash的本地部署方案,16G显存的RTX 5080就能跑起来。"
     },
     {
       "role": "guest",
-      "text": "哈哈，估计是给自建机房挑机房选址，算力基建这块 DeepSeek 是真舍得砸钱。"
+      "text": "没错,这意味着中小团队完全可以本地推理,不用再烧云端算力,门槛一下子降了一大截。"
     },
     {
       "role": "host",
-      "text": "接下来这条更炸，林俊旸深夜官宣新公司，估值直接 20 亿美元。"
+      "text": "再看人事这条,前阿里最年轻的P10林俊旸深夜官宣新公司,主打下一代AI智能体。"
     },
     {
       "role": "guest",
-      "text": "对，这位前阿里最年轻 P10 出来做下一代 AI 智能体，腾讯立马参投，分量很足。"
+      "text": "起步估值直接给到20亿美元,腾讯、阿里系资本都进来了,目标是把数字世界和物理世界一起打通。"
     },
     {
       "role": "host",
-      "text": "你看从阿里 P10 到 20 亿美金独角兽，这才几年啊？"
+      "text": "你怎么看这个定位?感觉是要对标Anthropic那种通用智能体路线。"
     },
     {
       "role": "guest",
-      "text": "智能体赛道现在就是大厂必抢入口，出来单干反而能跑得更快，对吧。"
+      "text": "不完全是,他更强调落地,机器人、办公、电商都要吃,野心其实比通用聊天机器人更大。"
     },
     {
       "role": "host",
-      "text": "再说一条国内的，阿里千问 App 跟美的搞到一起了。"
+      "text": "接下来是商业化这条,豆包上线了GEO广告业务,首批抽佣12%。"
     },
     {
       "role": "guest",
-      "text": "对，美的作为独家家电伙伴接入千问，靠 A2A 智能体互联协议，以后在千问里就能直接控家电。"
+      "text": "对,GEO就是生成式引擎优化,简单说就是帮商家在AI回答里买曝光。"
     },
     {
       "role": "host",
-      "text": "那以后喊一句小美就能炒菜？"
+      "text": "已经有酒店尝到甜头了,第一批入场的基本都在偷偷笑。"
     },
     {
       "role": "guest",
-      "text": "差不多吧，咨询、能耗、耗材维保一站式搞定，场景是真的落地了。"
+      "text": "这其实是搜索广告逻辑的AI重写,以后咱们做电商,可能先得优化AI推荐,再谈SEO了。"
     },
     {
       "role": "host",
-      "text": "把目光放到国际，xAI 这边 Grok 4.6 也发布了。"
+      "text": "Meta那边也有大动作,小扎万字长文炮轰闭源,正式宣布回归开源模型路线。"
     },
     {
       "role": "guest",
-      "text": "对，Grok 4.6 在 Artificial Analysis 智能指数上拿了 61 分，属于目前头部梯队。"
+      "text": "他原话是蒸馏无罪,言下之意是你们闭源也别拿我的成果去练,这下算是彻底撕破脸了。"
     },
     {
       "role": "host",
-      "text": "我看还有人拿它去打 Hack the Box 安全挑战赛？"
+      "text": "国内市场会不会受影响?国产开源本来就强。"
     },
     {
       "role": "guest",
-      "text": "没错，实战能力被狠狠验证了一把，不再只是聊天，而是能干活的 AI。"
+      "text": "短期冲击有限,千问和DeepSeek生态已经长起来了,Meta这波更多是抢欧美开发者。"
     },
     {
       "role": "host",
-      "text": "还有一条 HackerNews 上 DeepSeek 那边的 V4 Flash，在 RTX 5080 16G 显存上能跑起来。"
+      "text": "说到千问,Qwen3.8-2.4T的权重前两天正式开源了,2.4万亿参数。"
     },
     {
       "role": "guest",
-      "text": "对，单卡 16G 就能本地推理，这对中小开发者和学生党是巨大福音啊。"
+      "text": "对,而且是FP8量化版本,直接放到了Hugging Face上,中小企业微调的门槛又被砍了一刀。"
     },
     {
       "role": "host",
-      "text": "你发现没，国内外现在都在拼端侧和轻量化。"
+      "text": "阿里今天还有动作,美的作为独家家电伙伴接入了千问App。"
     },
     {
       "role": "guest",
-      "text": "没错，云端拼参数，端侧拼能效，这两条腿走路才走得稳。"
+      "text": "走的是A2A协议,用户在千问里就能调美的小美AI,查家电、查耗材,一句话搞定。"
     },
     {
       "role": "host",
-      "text": "再看融资端，张雪机车拿了红杉中国独家新一轮，今年营收预计涨两倍多。"
+      "text": "这种Agent之间的互通,是不是国内走得比国外还快?你看xAI那边也在搞类似的事。"
     },
     {
       "role": "guest",
-      "text": "国内具身数据这块，艾欧智能也拿了顺为、深创投数亿元，机器人基建越来越热。"
+      "text": "没错,Grok Bot就是常驻式智能体,马斯克把它定位成能领任务的AI队友。"
     },
     {
       "role": "host",
-      "text": "国际那边还有，谷歌 Pixel 11 系列发布，ChatGPT 和 Gemini 月活用户双双破 10 亿。"
+      "text": "咱们待会儿细聊这条,先把谷歌的大新闻说清楚。"
     },
     {
       "role": "guest",
-      "text": "Meta 小扎万字长文炮轰闭源，宣布正式重回开源模型路线，行业继续分裂。"
+      "text": "好,谷歌创始人布林紧急接管Gemini团队,内部算力分配据说出了大问题。"
     },
     {
       "role": "host",
-      "text": "那你觉得下半年最大的变量会是什么？"
+      "text": "更炸的是有消息说3.5 Pro这个版本已经被砍掉了。"
     },
     {
       "role": "guest",
-      "text": "智能体协议一旦标准化，跨厂商互联会瞬间爆发，千问联姻美的就是信号。"
+      "text": "3.5 Pro被砍有点意外,业内猜测是直接让位给3.0系列的迭代节奏,避免内部产品打架。"
     },
     {
       "role": "host",
-      "text": "对，再加上 DeepSeek 这种低成本高性能路线，AI 平权真的不远了。"
+      "text": "再看用户数据,ChatGPT和Gemini双双突破了10亿月活。"
+    },
+    {
+      "role": "guest",
+      "text": "Gemini是谷歌史上第14个破10亿的产品,皮查伊还专门发文庆祝,说是增长最快的那个。"
     },
     {
       "role": "host",
-      "text": "好了，今天的 AI 头条就到这，记得订阅、点赞、点开小铃铛。"
+      "text": "两家都在10亿级别,你说接下来的竞争会卷到哪儿去?"
+    },
+    {
+      "role": "guest",
+      "text": "我觉得接下来拼的不是聊天,是智能体和生态,Grok Bot这种队友化产品就是新战场。"
+    },
+    {
+      "role": "host",
+      "text": "OpenAI那边也有高管离职,Brad Lightcap干了八年突然走了。"
+    },
+    {
+      "role": "guest",
+      "text": "他是前COO,也是特别项目负责人,这几年OpenAI商业化基本都是他顶起来的。"
+    },
+    {
+      "role": "host",
+      "text": "你看Meta重开源、xAI搞智能体、谷歌调架构,是不是OpenAI压力有点大?"
+    },
+    {
+      "role": "guest",
+      "text": "确实,但OpenAI生态护城河还在,关键是高端模型能不能继续稳住领先身位。"
+    },
+    {
+      "role": "host",
+      "text": "对比国内,DeepSeek和千问也在卷长上下文和本地部署。"
+    },
+    {
+      "role": "guest",
+      "text": "而且国内更接地气,智能体直接接进家电、办公,落地速度反而比硅谷快半拍。"
+    },
+    {
+      "role": "host",
+      "text": "商业模式上,豆包GEO抽佣12%算不算激进?你怎么看?这个数字怎么定的?"
+    },
+    {
+      "role": "guest",
+      "text": "12%其实和早期电商佣金差不多,算是试探性定价,主要看商家愿不愿意为AI流量买单。"
+    },
+    {
+      "role": "host",
+      "text": "生态层面,千问通过A2A拉美的进来,这种互联互通会不会成为国内标准?会不会反过来影响海外?"
+    },
+    {
+      "role": "guest",
+      "text": "很有可能,中国互联网历来擅长先把协议跑通,再向外输出,值得持续观察。"
+    },
+    {
+      "role": "host",
+      "text": "接下来快速过几条次要新闻,先说说融资这块,无限宇航拿了近亿元A轮,做太空轨道转移飞行器。"
+    },
+    {
+      "role": "guest",
+      "text": "对,就是个太空巴士,顺带还有艾欧智能做具身数据基础设施,数亿元,顺为领投。"
+    },
+    {
+      "role": "host",
+      "text": "具身智能这条线今年是真热,你看桥介数物也拿了亿元级融资。"
+    },
+    {
+      "role": "guest",
+      "text": "而且它做的是通用机器人操作系统,移动链长基金领投,行业卡位越来越清晰。"
+    },
+    {
+      "role": "host",
+      "text": "硬件这边,影石X6全景相机发布,3999元起,把更多创作交给AI。"
+    },
+    {
+      "role": "guest",
+      "text": "还有大疆安克前高管刘力源杀进宠物机器人,元禾领投天使轮,创业方向越来越细分。"
+    },
+    {
+      "role": "host",
+      "text": "学术圈也有动静,有篇论文指出CLAUDE.md文件会无限膨胀。"
+    },
+    {
+      "role": "guest",
+      "text": "对,智能体编程的上下文记忆会出灾难性遗忘,这是当前Agent落地的核心难题之一。"
+    },
+    {
+      "role": "host",
+      "text": "苹果iOS 27测试版被发现能验证iPhone照片非深度伪造。"
+    },
+    {
+      "role": "guest",
+      "text": "苹果在做内容溯源,以后AI造假照片可能连iPhone自己都认得出来。"
+    },
+    {
+      "role": "host",
+      "text": "量子位还报道说Anthropic的CEO整天神神叨叨,投资人受不了了。"
+    },
+    {
+      "role": "guest",
+      "text": "Dario风格是出了名的,不过这也说明闭源阵营内部压力不小,和Meta那篇万字长文形成对照。"
+    },
+    {
+      "role": "host",
+      "text": "展望下半年,你最关心的变量是什么?"
+    },
+    {
+      "role": "guest",
+      "text": "我盯两件事,一是国产模型的智能体生态能不能跑通商业闭环。"
+    },
+    {
+      "role": "host",
+      "text": "二是开源和闭源的边界到底会怎么划?"
+    },
+    {
+      "role": "guest",
+      "text": "Meta和OpenAI已经正面开火,接下来半年这场仗会非常关键。"
+    },
+    {
+      "role": "host",
+      "text": "三就是国内AI和实体经济的融合速度,家电、办公、出行都在被重写。"
+    },
+    {
+      "role": "guest",
+      "text": "对,谁能先把Agent塞进真实场景,谁就能拿到下一轮增长门票。"
+    },
+    {
+      "role": "host",
+      "text": "好了,今天《今日AI头条》就聊到这儿,记得点赞、订阅、打开小铃铛。"
+    },
+    {
+      "role": "host",
+      "text": "下期我们会重点聊聊智能体落地的真实案例,不见不散。"
     }
   ]
 }
