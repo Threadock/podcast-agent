@@ -3,42 +3,58 @@
 > 每日 8:00 自动汇总国际 + 国内 AI 新闻 (24h 内)
 
 
-**抓取统计**: OpenAI-News=4, Google-AI-Blog=1, TheVerge-AI=10, TechReview-AI=1, HuggingFace-Blog=3, HackerNews=2, ArXiv-cs.AI=15, 量子位=10, 雷锋网=15, 钛媒体=15, 掘金=15, 199IT=15
+**抓取统计**: OpenAI-News=4, Google-AI-Blog=1, TheVerge-AI=10, TechReview-AI=1, HuggingFace-Blog=3, HackerNews=2, HackerNews-DeepSeek=8, HackerNews-Kimi=8, HackerNews-Qwen=8, HackerNews-Grok=8, HackerNews-xAI=8, ArXiv-cs.AI=15, 量子位=10, 雷锋网=15, 钛媒体=15, 36氪=15, InfoQ中文=15, 掘金=15, 199IT=15
 
-**去重**: 国际 36→36, 国内 70→70
+**去重**: 国际 76→62, 国内 100→99
 
 ## 🌍 国际
 
-- **[Scaling AI agents with trustworthy data](https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/)** _TechReview-AI_ — Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work
-- **[Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis](https://huggingface.co/blog/allenai/olmoearth-embeddings)** _HuggingFace-Blog_ — 
-- **[LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge](https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b)** _HuggingFace-Blog_ — 
-- **[From assistance to execution: How enterprises put AI to work](https://openai.com/index/how-enterprises-put-ai-to-work)** _OpenAI-News_ — OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.
-- **[How RingCentral builds AI-native work from engineering to ops](https://openai.com/index/ringcentral)** _OpenAI-News_ — See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.
-- **[AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.](https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/)** _Google-AI-Blog_ — AMIE promotional video
-- **[Thinking of ACE? We Can Do It with Fewer Tokens](https://huggingface.co/blog/ibm-research/altk-evolve-sldd)** _HuggingFace-Blog_ — 
-- **[Testing ads in ChatGPT](https://openai.com/index/testing-ads-in-chatgpt)** _OpenAI-News_ — OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.
-- **[Daybreak models are now available on AWS](https://openai.com/index/daybreak-models-are-now-available-on-aws)** _OpenAI-News_ — OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.
-- **[Show HN: Tried some experiments with architecture for Long term memory for LLM](https://github.com/faisalhussain-devs/MindCache/tree/collapsed_tree)** _HackerNews_ — The main ideas that survived the experimentation are:<p>using four memory types — user, knowledge, episodic, and decision memories, each with different lifecycles, different roles and different token 
-- **[Show HN: FEDERaiDE, a TUI harness with P2P multi-agent routing and built in IDE](https://federaide.rocklab.in)** _HackerNews_ — Hi!<p>Federaide is a general purpose multi-agent harness that runs in your terminal. It is meant for recreational programming and automating your scripts. The agents are just named instances of langua
-- **[Twitch streamers can now opt out from training Amazon’s AI](https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai)** _TheVerge-AI_ — Twitch users can now opt out of allowing their content to be used to train Amazon's generative AI models. Opting out means that "your streams, VODs, clips, stream chats, and pictures and text on your 
-- **[Guitar company D’Addario admits that AI music was used in a promotional video](https://www.theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno)** _TheVerge-AI_ — After weeks of controversy and speculation, music company D'Addario has admitted that AI, specifically Suno, was used as part of a recent promotional video. For nearly two weeks, the company has denie
-- **[Google’s Pixel Watch 5 dives deeper into AI and health](https://www.theverge.com/tech/978094/pixel-watch-5-hands-on-made-by-google-gemini-wearables-smartwatch)** _TheVerge-AI_ — The $399 Google Pixel Watch 5 isn't about the hardware. Sure, there's a new satin pyrite case finish, a few new strap colors, and a Steph Curry Special Edition. Under the hood, there's a slightly fast
-- **[Of course the ChatGPT dog cancer vaccine spawned a startup](https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee)** _TheVerge-AI_ — Remember that much-hyped story about an Australian tech entrepreneur using ChatGPT, Grok, and other AI tools to craft a personalized cancer vaccine for his dog? Well, surprise: He's launched a startup
+- **[Running DeepSeek V4 Flash on an RTX 5080 with 16GB VRAM Under Linux/WSL2 via DS4](https://github.com/peppe200175/ds4_RTX_5080_cuda)** _HackerNews-DeepSeek_ — 
+- **[DeepSeek V4 Pro 0813](https://openrouter.ai/deepseek/deepseek-v4-pro-0813)** _HackerNews-DeepSeek_ — 
+- **[DeepSeek just dropped official V4 Pro GA benchmarks](https://twitter.com/i/status/2087567308596404601)** _HackerNews-DeepSeek_ — 
+- **[Show HN: Cc-probeline – Claude Code status line with Fable limits and turn costs](https://github.com/labzink/cc-probeline)** _HackerNews-Kimi_ — 
+- **[Grok 4.6](https://x.ai/news/grok-4-6)** _HackerNews-Grok_ — 
+- **[Grok 4.6 (High) Intelligence, Performance and Price Analysis](https://artificialanalysis.ai/models/grok-4-6)** _HackerNews-Grok_ — 
+- **[Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index](https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis)** _HackerNews-Grok_ — 
+- **[Solving Hack the Box Challenges with Grok 4.6](https://theaq.blog/2026/08/12/solving-htb-challenges-with-x-ai-grok-4.6.html)** _HackerNews-xAI_ — 
+- **[DeepSeek: What They Invented](https://claude.ai/public/artifacts/807b5183-4704-4e63-b132-98379d1a9c80)** _HackerNews-DeepSeek_ — 
+- **[Qwen 3.8-27B goes openweight in 2 days](https://huggingface.co/Qwen/Qwen3.8-27B)** _HackerNews-Qwen_ — 
+- **[Qwen3.8 Weights Released](https://modelscope.cn/models/Qwen/Qwen3.8-2.4T-A95B)** _HackerNews-Qwen_ — 
+- **[Qwen3.8-2.4T](https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B)** _HackerNews-Qwen_ — <a href="https:&#x2F;&#x2F;huggingface.co&#x2F;Qwen&#x2F;Qwen3.8-2.4T-A95B-FP8" rel="nofollow">https:&#x2F;&#x2F;huggingface.co&#x2F;Qwen&#x2F;Qwen3.8-2.4T-A95B-FP8</a>
+- **[Made by Google 2026: all the Pixel news and announcements](https://www.theverge.com/tech/977561/made-by-google-2026-pixel-11-news)** _TheVerge-AI_ — On August 12, 2026, Google revealed a bunch of new Pixel devices. The colorful Pixel 11 lineup comes with upgraded cameras and performance, with the Pro models offering a built-in LED ring that lights
+- **[Another OpenAI executive takes off](https://www.theverge.com/ai-artificial-intelligence/978048/brad-lightcap-openai-executive-departure)** _TheVerge-AI_ — Brad Lightcap, OpenAI's special projects lead and the company's former COO, announced his departure after an eight-year stint at the AI lab. In an internal memo he later posted to X, Lightcap told col
+- **[ChatGPT and Gemini both just passed 1 billion users](https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users)** _TheVerge-AI_ — For the 14th time, a Google product has hit 1 billion users. Google CEO Sundar Pichai posted on X that a billion people are using Gemini every month, and that Gemini is Google's fastest-growing produc
 
 ## 🇨🇳 国内
 
-- **[流程定义设计：一份 LogicFlow JSON 全解](https://juejin.cn/post/7673092180174045224)** _掘金_ — 一份 LogicFlow JSON 如何把画图变成跑流程？从节点、边、条件表达式逐层解剖，结合 pro 站 9 个真实业务场景，看 4 种 JSON 模式如何组合出全部审批链路。
-- **[用两行 JSON 替换你的 ILM 策略：数据流生命周期新增冻结层支持](https://juejin.cn/post/7673223160648859694)** _掘金_ — 作者：来自 Elastic Jon Avezbaki 在 Elasticsearch 9.5 中，数据流生命周期中的 frozen_after 会自动将索引迁移到 对象存储 上的可搜索快照中，同时保持
-- **[Rust 生命周期案例详解：从编译错误到真实业务场景](https://juejin.cn/post/7673034930629492763)** _掘金_ — > 《Rust编程实战》系列第39篇 > 前两篇文章中，我们分别学习了Rust生命周期基础和生命周期详细语法，已经知道`'a`并不是让数据活得更久，而是用于描述引用之间的有效范围关系。 > 但生命周期
-- **[uni-app 跨端布局与适配技术指南](https://juejin.cn/post/7672977477317279786)** _掘金_ — > **核心目标**：解决“碎片化”屏幕尺寸问题。 > **适用人群**：iOS/Android/鸿蒙原生开发者、前端工程师。 > **核心价值**：理解 uni-app 如何通过单位转换和
-- **[uni-app 三方库与插件管理体系全解析：从原生开发者视角彻底讲透](https://juejin.cn/post/7673009882847232019)** _掘金_ — > **作者视角：** 本文面向从 iOS/Android/鸿蒙原生开发转型 uni-app 跨端开发的工程师。你习惯了 CocoaPods、Gradle、OHPM 那套成熟的包管理体系，来到 un
-- **[12亿青年步入劳动年龄：全球就业进入历史性大考](http://www.199it.com/archives/1837170.html)** _199IT_ — 2025年至2035年间，将有约12亿青年进入劳动年龄人口，创下全球历史最高纪录。然而，在全球潜在经济增长持续放缓的大背景下，到2035年预计仅有超过4亿人能够实现就业，约3亿青年将既未就业、也未接受教育或培训（NEET），全球就业供需缺口正快速扩大。这意味着，人口优势能否真正转化为经济增长动力，将成为未来全球发展的核心命题。
-- **[这个暑假44.5万台相机被买走：云台和运动相机占9成，全景相机不到3%](https://www.leiphone.com/category/industrynews/L0bv9LKbH7XX0x3y.html)** _雷锋网_ — <p>这个暑假，越来越多人出门旅行，包里都会多装一台手持相机。洛图科技（RUNTO）最新报告显示，2026年暑期出行季（7月13日至8月9日），中国手持影像设备线上（含京东、天猫、抖音）卖出了44.5万台，销售额达13.3亿元——一台趁手的拍摄设备，正在成为这届年轻人规划出游的&quot;标配&quot;。</p><p>&nbsp;那大家都在买什么？数据显示，最受欢迎的是手持云台相机，份额从今年年
-- **[工作中的AI：战略比工具更重要](http://www.199it.com/archives/1834490.html)** _199IT_ — 数据显示，74%的基层员工已成为AI高频使用者，较2025年提升23个百分点，管理层和企业领导层的使用率分别达到88%和93%，AI应用已突破过去主要集中于管理层的“硅天花板”，进入全面普及阶段。
-- **[代理式AI重塑旅游业：从智能助手迈向自主决策](http://www.199it.com/archives/1786338.html)** _199IT_ — 报告显示，自ChatGPT于2022年推出后，两个月内用户突破1亿，全球企业部署生成式AI的比例已达到78%，但超过80%的企业仍未实现显著盈利贡献。
-- **[CX Network：2026年亚太地区客户体验报告](http://www.199it.com/archives/1828976.html)** _199IT_ — 35%的企业计划优先投资Agentic AI，28%计划加大客户服务自动化建设，20%将预算投入数据分析能力，18%投入CRM系统。同时，49%的企业预计2026年CX预算继续增长，仅11%预计下降。
-- **[主业失血、解禁临门，君逸数码算力转型“三箭齐发”，时机值得细看](https://www.tmtpost.com/8101147.html)** _钛媒体_ — 解禁大潮“撞车”算力转型，实控人的心思你别猜
-- **[独家｜华为云加码AI办公：OfficeClaw升级为OfficeAce，瞄准企业Agent入口](https://www.tmtpost.com/8100764.html)** _钛媒体_ — AI办公市场正在经历一轮重新布局。
-- **[张一鸣的「慢」，和整个行业的「快」](https://www.tmtpost.com/8100294.html)** _钛媒体_ — 大模型的虚火还在烧。
-- **[AI重演1873年：老百姓正悄悄成为算力的接盘者](https://www.tmtpost.com/8100186.html)** _钛媒体_ — 历史不会重演，但接盘的总是同一个角色。
+- **[8点1氪丨星巴克中国否认为降成本取消14薪；DeepSeek V4 Pro正式版上线；“阿里最年轻P10”林俊旸创业，新公司估值20亿美元](https://36kr.com/p/3937187153132680?f=rss)** _36氪_ — <h2><strong>今日热点导览</strong></h2>
+  <p>国际能源署：霍尔木兹海峡持续关闭冲击全球石油市场</p>
+  <p>Anthropic将在AI生成文本中嵌入隐形水印</p>
+  <p>C919完成首次国际商业航线飞行</p>
+  <p>三星在半导体研发中引入Claude模型</p>
+  <p>段永平大幅加仓泡泡玛特</p>
+  <h2><strong>TOP 3大新闻<
+- **[谷歌创始人布林紧急接管Gemini团队，但“3.5 Pro已被取消”](https://www.qbitai.com/2026/08/470576.html)** _量子位_ — 谷歌算力分配内耗严重
+- **[DeepSeek招土木工程师；腾讯参投！林俊旸深夜官宣新公司：做下一代AI智能体；宇树科技中签号出炉：共19414个丨雷峰早报](https://www.leiphone.com/category/zaobao/H8yaCINLCnx3D30o.html)** _雷锋网_ — <section></section><section><section><section><section><section><section><section></section><section><section style="text-align: center;"><span style="font-size: 24px;"><strong>要闻提示</strong></span></s
+- **[美的作为独家家电伙伴接入千问App，阿里系多元场景服务即将全面打通](https://www.leiphone.com/category/smarthome/UPJ3O4bqnuSpOiK1.html)** _雷锋网_ — <p>8月10日，美的作为独家家电合作伙伴，通过A2A（Agent-to-Agent）协议接入千问App。用户绑定美的小美AI Agent后，可在千问App内实现全品牌产品咨询、家庭环境监测、设备能耗查询、耗材与维保管理等一站式服务。</p><p style="text-align: center;"><img src="https://static.leiphone.com/uploads/ne
 - **[豆包收12%佣金，第一批做GEO的酒店偷偷笑了](https://www.tmtpost.com/8099531.html)** _钛媒体_ — 越早入局新获客渠道的酒店，越早获利。
+- **[小扎万字长文炮轰闭源：蒸馏无罪，Meta 正式重回开源模型路线](https://www.infoq.cn/article/9sy33cA91Fp8z5mlOvNu?utm_source=rss&utm_medium=article)** _InfoQ中文_ — <div align="right"><a href="https://www.infoq.cn/article/9sy33cA91Fp8z5mlOvNu?utm_source=rss&amp;utm_medium=article">点击查看原文></a></div>
+- **[Anthropic CEO整天神神叨叨，投资人受不了了](https://www.qbitai.com/2026/08/471162.html)** _量子位_ — Dario能不能少吓唬点人…
+- **[36氪首发 | 航天老兵做太空轨道转移飞行器，完成近亿元A轮融资](https://36kr.com/p/3935991981555075?f=rss)** _36氪_ — <p>作者&nbsp;|&nbsp;乔钰杰</p>
+  <p>编辑&nbsp;|&nbsp;袁斯来</p>
+  <p>硬氪获悉，近日，北京无限宇航科技有限公司宣布完成近亿元 A 轮融资。本轮融资由鼎峰科创领投，云鼎资本、泰亚投资跟投，老股东深担创投、松禾创投、守仁共创持续加注。</p>
+  <p>本轮资金将主要用于“太空巴士”系列轨道转移飞行器（OTV）的首飞验证、后续型号研制、工程化迭代及规模化
+- **[36氪首发 | 腾讯、百度背景团队做具身数据基础设施，再获顺为等数亿元融资](https://36kr.com/p/3935994997407107?f=rss)** _36氪_ — <p>作者&nbsp;|&nbsp;乔钰杰</p>
+  <p>编辑&nbsp;|&nbsp;袁斯来</p>
+  <p>硬氪获悉，机器人与具身智能数据基础设施企业艾欧智能（IO-AI Tech）宣布完成数亿元融资。本轮融资由顺为资本、松禾资本、深创投联合投资，并获得头部机器人本体企业战略投资。</p>
+  <p>艾欧智能成立于2023年，是一家专注于机器人与具身智能数据基础设施的科技公司，致力于搭建
+- **[25岁，2亿估值，Funloom AI用AI原生RPG重构游戏创作流程](https://36kr.com/p/3936164243914115?f=rss)** _36氪_ — <p>前不久的ChinaJoy大会期间，AI互动内容共创平台Funloom AI又有了新动态：在文游基础上，他们在新版本中引入了互动影游和RPG两种新玩法。</p>
+  <p>这事乍一看让人有些意外，甚至如果对比传统文游平台，Funloom AI的操作不异于一次转型，毕竟产品形态变化，往往意味着用户的生产关系也将发生改变，甚至直接影响到产品本身。</p>
+  <p>但这事放在Funloom AI身
+- **[氪星晚报｜英特尔增发200亿美元前据悉曾寻求美政府批准；前7个月我国期货市场累计成交额同比增长38.43%；连续两个月突破100万辆，我国汽车出口延续强劲增长态势](https://36kr.com/p/3936291241901444?f=rss)** _36氪_ — <h2><strong>大公司：</strong></h2>
+  <p><a href="https://36kr.com/newsflashes/3936243741539463" rel="noopener noreferrer" target="_blank"><strong>三星、SK海力士最快本月底公布股东回报，总额或超200万亿韩元</strong></a></p>
+  <p>三星电子
+- **[桥介数物完成新一轮亿级融资，加速落地通用机器人操作系统](https://www.leiphone.com/category/industrynews/lrwCyiLDozDxFo2b.html)** _雷锋网_ — <p>近日，通用机器人操作系统研发商桥介数物（BridgeDP Robotics）宣布完成 Pre-A+++ 轮融资。本轮融资由中国移动链长基金领投，老股东复星创富、深创投追加投资，融资规模达亿元级。</p><p>桥介数物表示，本次融资将主要用于四个方向：RoboCraft AI 通用机器人运动能力开发平台的生态建设、跨本体全身运动数据工厂产能提升、运动控制模型持续迭代，以及海外技术服务体系布局与
+- **[36氪首发 | 顺为、宁德时代系联手押注，这家公司要把全球最小丝杠量产千万根](https://36kr.com/p/3937262359100805?f=rss)** _36氪_ — <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260813/v2_99c734bcaf84486587a08808aca71cb0@6221844_oswg98699oswg1280oswg1280_img_jpg?x-oss-process=image/quality,q_100/format,jpg/i
+- **[独家解读丨对手买「法拉利」，AMD为何给自己添了一辆「拖拉机」？](https://www.leiphone.com/category/chips/FFL2K4o5EltbstrF.html)** _雷锋网_ — <section><section><section><section><section style="text-align: center;"><img class="rich_pages wxw-img js_insertlocalimg" src="https://static.leiphone.com/uploads/new/images/20260812/6a7c0975e976d.pn
+- **[独家丨大疆安克高管刘力源进军宠物机器人，元禾领投天使](https://www.leiphone.com/category/weiwu/P3QjuKBAMqtTeGNM.html)** _雷锋网_ — <section style="margin-bottom: 16px;"><span><img alt="图片" class="rich_pages wxw-img" src="https://static.leiphone.com/6a6c4981e5bcb.jpg?imageMogr2/quality/90" /></span></section><section style="margin
