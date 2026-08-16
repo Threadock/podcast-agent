@@ -1,0 +1,441 @@
+{
+  "intl": [
+    {
+      "source": "HackerNews-xAI",
+      "title": "DeepSeek Harness Plugin and Agent Profile Package Index",
+      "url": "https://dsh-index.xlings.org",
+      "snippet": "",
+      "published": "2026-08-14T03:05:29Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek Harness developer preview: Everything is a plugin",
+      "url": "https://www.deepseek.com/harness/en/",
+      "snippet": "",
+      "published": "2026-08-14T08:32:08Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Announcement on DeepSeek V4 API New Pricing",
+      "url": "https://cdn.deepseek.com/emails/v4-new-pricing-en.PNG",
+      "snippet": "",
+      "published": "2026-08-14T09:44:14Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek V4 Flash 0731 latency numbers from nine providers",
+      "url": "https://oskrim.github.io/engineering/2026/08/14/deepseek-v4-flash-providers.html",
+      "snippet": "",
+      "published": "2026-08-14T12:42:37Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek V4 Pro goes GA: 1.6T MoE flagship exits preview",
+      "url": "https://ainexusdaily.vercel.app",
+      "snippet": "",
+      "published": "2026-08-14T20:56:10Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek V4 Flash at 278 tok/s, full precision, no quantization",
+      "url": "https://runinfra.ai/inference-api/deepseek-v4-flash",
+      "snippet": "",
+      "published": "2026-08-15T13:26:44Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek peak/off-peak pricing update",
+      "url": "https://api-docs.deepseek.com/news/news260813/",
+      "snippet": "",
+      "published": "2026-08-14T09:55:33Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen 3.8 27B",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "snippet": "",
+      "published": "2026-08-14T15:00:00Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen3.8-27B is now available on Hugging Face",
+      "url": "https://huggingface.co/collections/Qwen/qwen38",
+      "snippet": "",
+      "published": "2026-08-14T15:01:57Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Unsloth - Qwen3.8 - How to Run Locally",
+      "url": "https://unsloth.ai/docs/models/qwen3.8",
+      "snippet": "",
+      "published": "2026-08-14T15:03:16Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Unsloth Qwen3.8-27B GGUF files",
+      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+      "snippet": "",
+      "published": "2026-08-14T15:04:17Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen3.8-27B – Release Day Demos",
+      "url": "https://loktar00.github.io/qwen3-8-27b-demos/",
+      "snippet": "",
+      "published": "2026-08-15T14:27:29Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek Harness Desktop Version",
+      "url": "https://github.com/hairyf/deepseek-harness-desktop",
+      "snippet": "",
+      "published": "2026-08-15T16:28:27Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Kimi Work attaches raw agent sessions to feedback reports",
+      "url": "https://news.ycombinator.com/item?id=49313711",
+      "snippet": "I reverse engineered the latest Kimi Work desktop app just for fun, I know I&#x27;m a nerd.<p>Anyway, I found something a bit concerning: when you send a feedback report, it attaches the 5 latest sess",
+      "published": "2026-08-15T19:50:46Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Hacking xAI for unreleased models and confidential documents",
+      "url": "https://schizo.org/blog/hacking-xai",
+      "snippet": "",
+      "published": "2026-08-14T01:29:53Z",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "You can now turn off Google Gemini&#8217;s visible watermarks",
+      "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+      "snippet": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new \"Media watermark\" setting in Gemini and Google's",
+      "published": "2026-08-14T12:39:32-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Show HN: Lots of Agents – Infinite Logged in Grok Bots on One Mac",
+      "url": "https://github.com/carllippert/lots_of_agents",
+      "snippet": "Need more Grok bots in my life but they don&#x27;t have an account switcher. Build an app cloner for mac so you can have N Grok bots at once. Threw in Cursor etc too since I&#x27;ve used other solutio",
+      "published": "2026-08-15T15:23:17Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Show HN: Open-source Grok Bot alternative",
+      "url": "https://github.com/madebywelch/guaca",
+      "snippet": "When Grok bot came out, the only way to use it was with a $200 Cursor subscription. I burned through almost 50% of my usage in 3 hours. That&#x27;s not sustainable, so I figured I&#x27;d build my own ",
+      "published": "2026-08-15T21:03:51Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Show HN: RAGless – similar to RAG, but $0 LLM API costs at runtime",
+      "url": "https://github.com/EmilResearch/RAGless",
+      "snippet": "",
+      "published": "2026-08-14T09:51:11Z",
+      "weight": 5
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Apple trained its own AI model for China with help from Alibaba",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
+      "snippet": "Apple has reportedly trained a custom AI model for the China market alongside domestic tech giant Alibaba, a rare cross-border partnership that cuts across growing tensions between Beijing and Washing",
+      "published": "2026-08-14T05:21:17-04:00",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Eclipse: The Xiaomi 17 Ultra Confuses the Moon and the Sun",
+      "url": "https://www.frandroid.com/marques/xiaomi/3211257_photo-de-leclipse-on-a-perce-a-jour-la-petite-triche-du-xiaomi-17-ultra-qui-confond-la-lune-et-le-soleil",
+      "snippet": "",
+      "published": "2026-08-14T07:03:56Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Bootloader Unlock – Xiaomi MTK (HyperOS/MIUI14): No Mi Unlock Tool or 168h Wait",
+      "url": "https://xdaforums.com/t/guide-bootloader-unlock-xiaomi-mtk-hyperos-miui14-no-mi-unlock-tool-no-168h-wait-rpmb-bypass.4784527/",
+      "snippet": "",
+      "published": "2026-08-14T07:45:10Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "For the love of god stop using CPU limits in Kubernetes",
+      "url": "https://github.com/inevolin/k8s-cpu-limits-analyzed",
+      "snippet": "",
+      "published": "2026-08-14T10:41:21Z",
+      "weight": 1
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Mark Zuckerberg has an Instagzam",
+      "url": "https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast",
+      "snippet": "Instagram's wordmark is iconic. Well, was iconic. Apparently Instagram thought it looked old, so the company rolled out a new one this week. It doesn't look like the old Instagram wordmark. It doesn't",
+      "published": "2026-08-14T12:54:16-04:00",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Wasi-sh, run limited shell scripts on the browser",
+      "url": "https://github.com/alganet/wasi-sh",
+      "snippet": "",
+      "published": "2026-08-14T13:13:47Z",
+      "weight": 1
+    }
+  ],
+  "cn": [
+    {
+      "source": "量子位",
+      "title": "源神启动！一张消费级显卡跑“Opus级”Agent，Qwen3.8-27B多项榜单反超Claude",
+      "url": "https://www.qbitai.com/2026/08/473669.html",
+      "snippet": "推理能力还能自定义",
+      "published": "Sat, 15 Aug 2026 06:05:31 +0000",
+      "weight": 10
+    },
+    {
+      "source": "36氪",
+      "title": "氪星晚报｜五粮液出手稳价；谷歌推出Gemini 3.7 Flash模型；7月贷款利率保持低位水平",
+      "url": "https://36kr.com/p/3939192336465028?f=rss",
+      "snippet": "<h2><strong>大公司：</strong></h2>\n  <p><a href=\"https://www.36kr.com/newsflashes/3939141879627139\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>特斯拉SpaceX合并传闻再起，马斯克薪酬激励或高达8240亿美元</strong></a></p>\n  <",
+      "published": "2026-08-14 21:02:49  +0800",
+      "weight": 9
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Gemini 3.7 Flash 突袭：性能逼近旗舰、价格打“骨折”！！DeepMind新帅重画性价比斩杀线",
+      "url": "https://www.infoq.cn/article/plZY01etBHv3ETOYG0af?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/plZY01etBHv3ETOYG0af?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Sat, 15 Aug 2026 00:01:01 GMT",
+      "weight": 9
+    },
+    {
+      "source": "36氪",
+      "title": "独家 | 腾讯混元徐灿转岗微信WeLM，微信AI进入加速阶段",
+      "url": "https://36kr.com/p/3939234424700041?f=rss",
+      "snippet": "<p>&nbsp;</p>\n  <p>文 | 李炤锋</p>\n  <p>编辑 | 张雨忻</p>\n  <p>智能涌现从相关人士处获悉，混元资深研究员徐灿在近期加入腾讯WeLM团队，从事大模型研发相关工作。</p>\n  <p>多名知情人士透露，在姚顺雨接手腾讯大语言模型研发前，徐灿在混元LLM体系中担任后训练一个方向上的负责人。值得一提的是，<strong>这次转岗发生在微信持续强化自研大模型和Ag",
+      "published": "2026-08-14 18:50:14  +0800",
+      "weight": 7
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "DeepSeek + Pi 王炸组合跑赢 Claude Code？Pi创始人：这套组合我早押中了",
+      "url": "https://www.infoq.cn/article/XpFUaftcEE3iLgGzYGZi?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/XpFUaftcEE3iLgGzYGZi?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Fri, 14 Aug 2026 14:34:30 GMT",
+      "weight": 7
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "DeepSeek 把 Harness 开源了：模型、工具、Agent Loop 全是插件",
+      "url": "https://www.infoq.cn/article/de9AljWc4ejW2KAyW8dD?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/de9AljWc4ejW2KAyW8dD?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Fri, 14 Aug 2026 14:38:24 GMT",
+      "weight": 7
+    },
+    {
+      "source": "量子位",
+      "title": "刚刚，Qwen3.8-27B 开源了！家用显卡也能跑",
+      "url": "https://www.qbitai.com/2026/08/473379.html",
+      "snippet": "所有人都可免费下载部署及商用。",
+      "published": "Fri, 14 Aug 2026 15:41:12 +0000",
+      "weight": 7
+    },
+    {
+      "source": "雷锋网",
+      "title": "阿里开源Qwen3.8，千问大模型全球下载超30亿次",
+      "url": "https://www.leiphone.com/category/industrynews/GJAhmR3wyL91CzjO.html",
+      "snippet": "<p>8月14日晚，阿里千问正式开源Qwen3.8系列模型，所有开发者、科研机构和企业均可自由下载、部署和使用。全新开源的Qwen3.8-27B，系原生多模态稠密（Dense）模型，仅270亿参数规模，整体水平便超越了Qwen3.7-Plus，在编程及办公的真实场景中表现出色。新模型响应速度快，完成质量高，部署便捷，量化后在“消费级”显卡上即可流畅运行，是最受全球AI社区期待的开源模型。Qwen3",
+      "published": "Fri, 14 Aug 2026 23:08:00 +0800",
+      "weight": 7
+    },
+    {
+      "source": "量子位",
+      "title": "DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了",
+      "url": "https://www.qbitai.com/2026/08/473597.html",
+      "snippet": "大家已经给DeepSeek装上了啥",
+      "published": "Sat, 15 Aug 2026 05:53:01 +0000",
+      "weight": 7
+    },
+    {
+      "source": "掘金",
+      "title": "给 DeepSeek Harness 装个\"应用商店\"：一条命令，595 个插件随你逛",
+      "url": "https://juejin.cn/post/7673978658780332083",
+      "snippet": "给 DeepSeek Harness 装个\"应用商店\"：一条命令，595 个插件随你逛 　　你有没有过这样的时刻：想让 AI 助手多一个能力，比如换个皮肤、加个记忆、接个数据库，结果翻遍 GitHub",
+      "published": "Sat, 15 Aug 2026 15:22:22 GMT",
+      "weight": 7
+    },
+    {
+      "source": "钛媒体",
+      "title": "DeepSeek故意做了一个难用的Agent？",
+      "url": "https://www.tmtpost.com/8104384.html",
+      "snippet": "DeepSeek Harness可能压根没把普通用户当第一批用户。",
+      "published": "Sat, 15 Aug 2026 15:24:00 +0800",
+      "weight": 7
+    },
+    {
+      "source": "掘金",
+      "title": "我按下“发送”之后：DeepSeek Harness 如何把一次请求变成 1,177 个增量片段",
+      "url": "https://juejin.cn/post/7673875524200300590",
+      "snippet": "基于真实 DeepSeek Harness 请求，结合页面、Session 日志与源码，拆解 POST、模型 SSE、WebSocket 三段链路，以及 1,177 个增量的记录、广播、渲染与恢复。",
+      "published": "Sat, 15 Aug 2026 15:47:42 GMT",
+      "weight": 7
+    },
+    {
+      "source": "掘金",
+      "title": "DeepSeek Harness 开始",
+      "url": "https://juejin.cn/post/7673939406470987810",
+      "snippet": "DeepSeek Harness（dsh）是由 DeepSeek AI 开发的开源 agent harness（智能体框架）。 它采用一切皆插件的架构，并由 Cordis 驱动。有兴趣一起开始学一下么",
+      "published": "Sun, 16 Aug 2026 00:07:17 GMT",
+      "weight": 7
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Claude Code没有“魔法”",
+      "url": "https://www.infoq.cn/article/aVJlp0XApUkyu6CNLOkL?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/aVJlp0XApUkyu6CNLOkL?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Fri, 14 Aug 2026 14:44:32 GMT",
+      "weight": 6
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Zig 创始人直言，Bun 靠 Claude 生成的 Rust 重构版是“没人把关的烂代码”",
+      "url": "https://www.infoq.cn/article/5JAOs4xARzjGb5sj2LxG?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/5JAOs4xARzjGb5sj2LxG?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Fri, 14 Aug 2026 14:54:05 GMT",
+      "weight": 6
+    },
+    {
+      "source": "量子位",
+      "title": "7亿年薪留不住！余家辉离职Meta创业",
+      "url": "https://www.qbitai.com/2026/08/473261.html",
+      "snippet": "真就只待了一年",
+      "published": "Fri, 14 Aug 2026 14:59:25 +0000",
+      "weight": 6
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "AI 圈上演神级互撕！Codex、Claude Code 两位负责人公开对喷",
+      "url": "https://www.infoq.cn/article/YWXm26HRwC9ySEGZ9Lpp?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/YWXm26HRwC9ySEGZ9Lpp?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Fri, 14 Aug 2026 23:41:55 GMT",
+      "weight": 6
+    },
+    {
+      "source": "掘金",
+      "title": "深度解读 Anthropic 多智能体报告：更强的模型 ≠ 更好的协调",
+      "url": "https://juejin.cn/post/7673873492522172470",
+      "snippet": "这篇《Patterns and problems in emerging multiagent systems》来自 Anthropic 前沿红队（Frontier Red Team），它不是搭建教程",
+      "published": "Sat, 15 Aug 2026 15:40:42 GMT",
+      "weight": 6
+    },
+    {
+      "source": "钛媒体",
+      "title": "营收飙升 14 倍，Anthropic 冲刺 2 万亿美元 IPO，但估值泡沫隐现",
+      "url": "https://www.tmtpost.com/8104597.html",
+      "snippet": "第二季度营收突破110亿美元、首现调整后营业利润，Claude母公司有望改写史上最大IPO纪录——但2万亿估值仍缺利润背书",
+      "published": "Sat, 15 Aug 2026 20:04:21 +0800",
+      "weight": 6
+    },
+    {
+      "source": "36氪",
+      "title": "上市前夜 | 希音SHEIN的11年融资故事，和一个鲜少提及的棘轮",
+      "url": "https://36kr.com/p/3938898614877317?f=rss",
+      "snippet": "<p>本文约4600字，建议阅读10分钟</p>\n  <p>作者&nbsp;|&nbsp;彭孝秋</p>\n  <blockquote>\n   <p><strong>编者按：</strong>《上市前夜》栏目聚焦企业冲刺资本市场的关键时刻。每一份招股书里，都藏着一家企业上市前的野心、周期与隐忧。这是第十期——<strong>SHEIN</strong>。</p>\n  </blockquote>\n  ",
+      "published": "2026-08-14 12:55:49  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "阿里灵犀再传15亿美元出售，或许这就是中国游戏行业的现实",
+      "url": "https://36kr.com/p/3939187139935369?f=rss",
+      "snippet": "<p>灵犀互娱这次真的要易主了？</p>\n  <p>据彭博社报道称，亚洲私股权公司信宸资本接近达成收购阿里巴巴集团控股有限公司视频游戏业务的交易。知情人士表示，信宸资本成为了灵犀互娱最有可能的买家，其出价高于包括电子游戏制造商在内的其他竞购方。据他们透露，此次交易对这家工作室的估值可能超过15亿美元。</p>\n  <p class=\"image-wrapper\"><img src=\"https:/",
+      "published": "2026-08-14 17:54:02  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "中科大孵化，国内唯一通用光量子计算整机企业完成超亿融资丨36氪首发",
+      "url": "https://36kr.com/p/3940103536491910?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260815/v2_ee2f8844c28f4632a64237e645a545ed@6221844_oswg638507oswg3264oswg1301_img_jpg?x-oss-process=image/quality,q_90/format,jpg/i",
+      "published": "2026-08-15 09:20:56  +0800",
+      "weight": 5
+    },
+    {
+      "source": "雷锋网",
+      "title": "3D存算一体芯片领军企业谦合益邦完成超20亿元B轮融资",
+      "url": "https://www.leiphone.com/category/industrynews/Edo1aa9elrarVNM5.html",
+      "snippet": "<p>近日，3D存算一体芯片领军企业谦合益邦宣布完成超20亿元B轮融资。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260814/6a7e9aae57e6d.png?imageView2/2/w/740\" /></p><p>在我国加快推进集成电路产业高质量",
+      "published": "Fri, 14 Aug 2026 12:35:00 +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "「意图经济」爆火背后：年轻人想做旅行里的甩手掌柜",
+      "url": "https://36kr.com/p/3939439529622917?f=rss",
+      "snippet": "<p>你有没有过这种情况，旅行还没开始，人已经开始累了。</p>\n  <p>打开小红书搜目的地，划到手指发酸，几十条笔记刷下来，内容长得越来越像。同一个机位、同一句“绝美出片”、同一份“三天两夜特种兵攻略”。</p>\n  <p>想比个价，得在5、6个APP间来回横跳。攻略攒了一堆，可这些内容分散在图片、视频、长文里，没有一个能直接拿来用，<strong>最后还得打开备忘录，一条一条手动敲：Day1",
+      "published": "2026-08-14 22:08:10  +0800",
+      "weight": 4
+    },
+    {
+      "source": "36氪",
+      "title": "上市前夜 | 京东方之父二次创业冲港股，三年亏掉49亿元",
+      "url": "https://36kr.com/p/3938895009234050?f=rss",
+      "snippet": "<p>本文约5200字，建议阅读11分钟</p>\n  <p>作者&nbsp;|&nbsp;彭孝秋</p>\n  <blockquote>\n   <p><strong>编者按：</strong>《上市前夜》栏目聚焦企业冲刺资本市场的关键时刻。每一份招股书里，都藏着一家企业上市前的野心、周期与隐忧。这是第九期——<strong>奕斯伟计算</strong>。</p>\n  </blockquote>\n  ",
+      "published": "2026-08-14 12:52:49  +0800",
+      "weight": 1
+    }
+  ],
+  "source_stats": {
+    "OpenAI-News": 0,
+    "Google-AI-Blog": 0,
+    "TheVerge-AI": 4,
+    "TechReview-AI": 0,
+    "LastWeekInAI": 0,
+    "MarkTechPost": 0,
+    "SebastianRaschka": 1,
+    "TheGradient": 0,
+    "HuggingFace-Blog": 0,
+    "HackerNews": 1,
+    "HackerNews-DeepSeek": 8,
+    "HackerNews-Kimi": 8,
+    "HackerNews-Qwen": 8,
+    "HackerNews-Grok": 8,
+    "HackerNews-xAI": 8,
+    "ArXiv-cs.AI": 0,
+    "量子位": 10,
+    "雷锋网": 12,
+    "钛媒体": 15,
+    "36氪": 15,
+    "InfoQ中文": 15,
+    "掘金": 15,
+    "199IT": 0
+  },
+  "dedup": {
+    "intl": {
+      "before": 46,
+      "after": 39
+    },
+    "cn": {
+      "before": 82,
+      "after": 82
+    }
+  }
+}

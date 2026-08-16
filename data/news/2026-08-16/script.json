@@ -1,0 +1,308 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-08-16 | 国内重磅领跑,国际大厂跟进 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "量子位",
+      "title": "Qwen3.8-27B开源,一张消费级显卡就能跑,反超Claude",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "DeepSeek把Harness整套开源,模型、工具、Agent循环全是插件",
+      "url": "https://www.infoq.cn/article/de9AljWc4ejW2KAyW8dD",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "DeepSeek Harness插件一夜刷爆GitHub:长期记忆、电子宠物、4399小游戏都来了",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "DeepSeek联手Pi,组合拳跑赢Claude Code",
+      "url": "https://www.infoq.cn/article/XpFUaftcEE3iLgGzYGZi",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Gemini 3.7 Flash突袭,性能逼近旗舰、价格直接打骨折",
+      "url": "https://www.infoq.cn/article/plZY01etBHv3ETOYG0af",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "七亿年薪留不住,余家辉离职Meta去创业",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "谷歌Gemini现在可以关掉可见水印了",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "苹果联手阿里为中国市场专门训练AI模型",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Kimi Work桌面版被曝:反馈工单里夹带最近五次完整会话",
+      "url": "https://news.ycombinator.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "Anthropic营收一个季度暴涨14倍,冲刺两万亿IPO",
+      "url": "https://www.tmtpost.com/",
+      "weight": "deep"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "听众朋友大家好,今天是2026年8月16号,《今日AI头条》准时上线。"
+    },
+    {
+      "role": "guest",
+      "text": "今天国内这边动静最大,DeepSeek和千问接连放大招。"
+    },
+    {
+      "role": "host",
+      "text": "先说千问,昨晚阿里正式开源了Qwen3.8-27B,对吧?"
+    },
+    {
+      "role": "guest",
+      "text": "对,这是一个270亿参数的稠密多模态模型,整体水平已经超过了上一代的Qwen3.7-Plus。"
+    },
+    {
+      "role": "host",
+      "text": "关键它量化完,一张消费级显卡就能跑得起来?"
+    },
+    {
+      "role": "guest",
+      "text": "没错,官方还放话,千问全系列全球下载量已经突破30亿次,这生态属实吓人。"
+    },
+    {
+      "role": "host",
+      "text": "更狠的是,量子位直接说它多项榜单反超了Claude。"
+    },
+    {
+      "role": "guest",
+      "text": "所以你看,现在开源阵营也能正面硬刚闭源旗舰了,这才是真正的变量。"
+    },
+    {
+      "role": "host",
+      "text": "行,DeepSeek这边动静更夸张,Harness整套直接开源了?"
+    },
+    {
+      "role": "guest",
+      "text": "对,模型、工具、Agent循环,清一色全是插件架构,官方想做的就是个底座。"
+    },
+    {
+      "role": "host",
+      "text": "那社区响应也太快了吧,GitHub一晚上就被刷屏了?"
+    },
+    {
+      "role": "guest",
+      "text": "可不是,长期记忆、电子宠物、甚至4399小游戏都被网友打包成插件挂上去了。"
+    },
+    {
+      "role": "host",
+      "text": "感觉DeepSeek这步棋,是想把生态彻底让给开发者啊。"
+    },
+    {
+      "role": "guest",
+      "text": "对,比起卷模型本身,他们更想当规则制定者,这条路其实更长期。"
+    },
+    {
+      "role": "host",
+      "text": "还有一条,DeepSeek联手Pi,组合跑赢了Claude Code?"
+    },
+    {
+      "role": "guest",
+      "text": "Pi创始人还挺得意,说这套组合他早押中了,明显是来抢Agent市场的。"
+    },
+    {
+      "role": "host",
+      "text": "所以国内这边,千问拼开源生态,DeepSeek拼Agent框架?"
+    },
+    {
+      "role": "guest",
+      "text": "没错,两条路线其实不冲突,合起来正好卡住开发者入口。"
+    },
+    {
+      "role": "host",
+      "text": "对了,余佳辉从Meta离职这事你怎么看?"
+    },
+    {
+      "role": "guest",
+      "text": "七亿年薪只待了一年,说明顶级人才更想要自己的舞台,大厂光环在褪色。"
+    },
+    {
+      "role": "host",
+      "text": "行,接下来把目光切到海外,谷歌这次出了个Gemini 3.7 Flash。\"生\"},\n    {\"role\": \"guest\", \"text\": \"对,DeepMind新帅上任后第一把火,性能逼近旗舰,价格直接打到骨折。\"},\n    {\"role\": \"host\", \"text\": \"听起来这是在重画性价比那条斩杀线啊?\"},\n    {\"role\": \"guest\", \"text\": \"没错,Fast模型一旦够用,谁还愿意为Pro多付钱呢,策略很凶。\"},\n    {\"role\": \"host\", \"text\": \"水印这事也更新了,谷歌Gemini现在能关可见水印了?\"},\n    {\"role\": \"guest\", \"text\": \"对,图片、视频、音乐的可见水印都可以关,平台规则在悄悄松绑。\"},\n    {\"role\": \"host\", \"text\": \"那这条对内容创作者来说,是好消息还是坏消息?\"},\n    {\"role\": \"guest\", \"text\": \"短期看是方便了创作,长期看AI内容的信任标识会更模糊。\"},\n    {\"role\": \"host\", \"text\": \"另一条大新闻,苹果居然找阿里合作,给中国专门训练AI模型?\"},\n    {\"role\": \"guest\", \"text\": \"对,在中美关系这么紧的背景下,这种跨海合作本身就是个强信号。\"},\n    {\"role\": \"host\", \"text\": \"感觉苹果也是被中国市场的合规逼得没办法啊?\"},\n    {\"role\": \"guest\", \"text\": \"没错,本土化这条路绕不开,阿里就是那个最优解。\"},\n    {\"role\": \"host\", \"text\": \"Kimi Work桌面版这事有点吓人,反馈工单里竟然夹带了原始会话?\"},\n    {\"role\": \"guest\", \"text\": \"对,有工程师逆向发现,反馈里附带了最近五次完整原始会话,这隐私边界踩得有点过。\"},\n    {\"role\": \"host\", \"text\": \"这类问题在大模型产品里其实挺常见吧?\"},\n    {\"role\": \"guest\", \"text\": \"对,尤其Agent越来越深,数据和行为的边界越来越难画清楚。\"},\n    {\"role\": \"host\", \"text\": \"最后说商业这条线,Anthropic这个季度营收涨了14倍?\"},\n    {\"role\": \"guest\", \"text\": \"对,直接冲到了110亿美元,还出现了首次调整后营业利润,准备冲刺IPO。\"},\n    {\"role\": \"host\", \"text\": \"估值都喊到两万亿了,这泡沫会不会有点大?\"},\n    {\"role\": \"guest\", \"text\": \"确实有讨论,但增长曲线摆在那,资本愿意先信一把。\"},\n    {\"role\": \"host\", \"text\": \"那咱们做个小结,国内DeepSeek和千问是开源Agent框架对吧?\"},\n    {\"role\": \"guest\", \"text\": \"对,千问打轻量开源生态,DeepSeek打Agent插件底座,两条线并行。\"},\n    {\"role\": \"host\", \"text\": \"海外那边,谷歌在重画性价比,Anthropic在冲刺IPO?\"},\n    {\"role\": \"guest\", \"text\": \"没错,一个卷价格,一个卷商业化,正好两条增长路径。\"},\n    {\"role\": \"host\", \"text\": \"这两条路径,你觉得谁更可能跑出来?\"},\n    {\"role\": \"guest\", \"text\": \"短期看闭源商业化更稳,长期开源生态的天花板更高。\"},\n    {\"role\": \"host\", \"text\": \"再加上苹果和阿里这种跨海合作,地缘变量也在加码?\"},\n    {\"role\": \"guest\", \"text\": \"对,本土化合规已经不是可选项,而是必选项了。\"},\n    {\"role\": \"host\", \"text\": \"还有Kimi这种隐私争议,Agent时代的合规问题会越来越尖锐?\"},\n    {\"role\": \"guest\", \"text\": \"没错,未来一年谁先把数据边界画清楚,谁就能拿到信任红利。\"},\n    {\"role\": \"host\", \"text\": \"行,接下来速览几条其他要闻,快快过一遍。\"},\n    {\"role\": \"guest\", \"text\": \"马斯克的SpaceX和特斯拉合并传闻再起,薪酬激励或高达8240亿美元。\"},\n    {\"role\": \"host\", \"text\": \"腾讯混元资深研究员徐灿转岗微信WeLM,微信AI进入加速阶段。\"},\n    {\"role\": \"guest\", \"text\": \"Codex和Claude Code两位负责人公开互怼,AI圈上演神级口水战。\"},\n    {\"role\": \"host\", \"text\": \"Zig创始人直言Bun用Claude生成的Rust重构版是没人把关的烂代码。\"},\n    {\"role\": \"guest\", \"text\": \"阿里灵犀互娱再传15亿美元出售,信宸资本成最可能买家。\"},\n    {\"role\": \"host\", \"text\": \"3D存算一体芯片企业谦合益邦完成超20亿元B轮融资。\"},\n    {\"role\": \"guest\", \"text\": \"中科大孵化的国内唯一通用光量子计算整机企业完成超亿元融资。\"},\n    {\"role\": \"host\", \"text\": \"Instagram换新字标,扎克伯格亲自下场发图纪念。\"},\n    {\"role\": \"guest\", \"text\": \"接下来展望一下,开源Agent生态会不会成为下一波开发者红利?\"},\n    {\"role\": \"host\", \"text\": \"我觉得会,DeepSeek Harness这种架构就是开放底座的雏形。\"},\n    {\"role\": \"guest\", \"text\": \"对,以后谁掌握插件标准,谁就能掌握Agent时代的话语权。\"},\n    {\"role\": \"host\", \"text\": \"那Anthropic冲刺两万亿估值,会不会倒逼国内大模型加速商业化?\"},\n    {\"role\": \"guest\", \"text\": \"肯定会,资本市场一旦认这个价,国内同行压力会非常大。\"},\n    {\"role\": \"host\", \"text\": \"最后,跨海合作和地缘合规会不会成为下一年的关键变量?\"},\n    {\"role\": \"guest\", \"text\": \"绝对是的,合规能力会直接影响产品能不能上市。\"},\n    {\"role\": \"host\", \"text\": \"好的,本期《今日AI头条》就到这里,记得订阅、点赞、点亮小铃铛,我们下期再见。\"}"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    }
+  ]
+}
