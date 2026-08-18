@@ -1,0 +1,441 @@
+{
+  "intl": [
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Show HN: I shrank DeepSeek V4 Flash to 57GB and it wrote a compiler on my Mac",
+      "url": "https://huggingface.co/steadfastgaze/DeepSeek-V4-Flash-0731-Coder-56.8GB-MoEspressoV2",
+      "snippet": "I built a specialized package of DeepSeek V4 Flash 0731 (originally 284B total parameters, 13B active), preserving reasoning, tool calling and coding capabilities:<p><a href=\"https:&#x2F;&#x2F;hugging",
+      "published": "2026-08-16T17:13:22Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Why is the GitHub trending page weirdly excluding DeepSeek projects?",
+      "url": "https://news.ycombinator.com/item?id=49323677",
+      "snippet": "Hi, this is Tianyi from DeepSeek AI&#x27;s Harness team.<p>I&#x27;m looking to get in touch with someone from GitHub, as I found it weird that https:&#x2F;&#x2F;github.com&#x2F;trending page doesn&#x2",
+      "published": "2026-08-16T21:06:21Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek V4 Pro at 207 tok/s with the full 1M context, no quantization",
+      "url": "https://runinfra.ai/inference-api/deepseek-v4-pro",
+      "snippet": "",
+      "published": "2026-08-17T01:55:09Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Kimi K3 (1.56 TB) running on an iPhone 16 Pro, streamed from an SSD",
+      "url": "https://github.com/nanguoyu/minirun-app",
+      "snippet": "",
+      "published": "2026-08-17T14:10:57Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek V4 J-Space Capability Realization-Report",
+      "url": "https://github.com/Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report",
+      "snippet": "",
+      "published": "2026-08-17T19:30:18Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Xaidr – In-process runtime security and governance for AI agents",
+      "url": "https://github.com/delphisecurity/xaidr",
+      "snippet": "",
+      "published": "2026-08-16T18:22:07Z",
+      "weight": 9
+    },
+    {
+      "source": "OpenAI-News",
+      "title": "OpenAI joins PORTS-Pike project",
+      "url": "https://openai.com/index/openai-joins-ports-pike-project",
+      "snippet": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+      "published": "Mon, 17 Aug 2026 05:00:00 GMT",
+      "weight": 9
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Privibe - LLM Cli Local first+privacy focus+llama.cpp cache branch + Qwen3.x",
+      "url": "https://github.com/alainnothere/privibe/tree/main",
+      "snippet": "",
+      "published": "2026-08-16T00:53:38Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Show HN: DSH Plugin Directory – Every DeepSeek Harness Plugin",
+      "url": "https://dshplugin.online/",
+      "snippet": "",
+      "published": "2026-08-16T04:13:41Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Kimi likes causal decision theory more after RL in twin prisoner's dilemmas",
+      "url": "https://www.lesswrong.com/posts/hfNBEKaStASAYMLiu/kimi-likes-causal-decision-theory-more-after-rl-in-twin-1",
+      "snippet": "",
+      "published": "2026-08-16T08:54:32Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Testing Moonshot AI's Kimi K3 Inside Claude Code",
+      "url": "https://philippdubach.com/posts/kimi-k3-inside-claude-code/",
+      "snippet": "",
+      "published": "2026-08-16T12:54:31Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "*Rats!* (1994) source code reconstruction using Qwen 3.8",
+      "url": "https://github.com/neuromancer/rats-re",
+      "snippet": "",
+      "published": "2026-08-16T13:59:06Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Simulating Claude-Style Chinese Risk Control and UX in DeepSeek Harness",
+      "url": "https://github.com/eri64/dsh-claude-ux",
+      "snippet": "",
+      "published": "2026-08-16T18:59:05Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen 3.8 27B is excellent, but it defaults to overthinking things",
+      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+      "snippet": "",
+      "published": "2026-08-16T23:45:09Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Show HN: Deepseek Harness Plugin - Turn DS into Trading Analyst",
+      "url": "https://github.com/maddogfinance/dsh-trading",
+      "snippet": "",
+      "published": "2026-08-17T13:39:47Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen3.8 27B at 256K: 50 TPS on a 24 GB GPU",
+      "url": "https://piszczek.pl/blog/qwen38-27b-256k-50-tps-24gb-gpu",
+      "snippet": "",
+      "published": "2026-08-17T14:29:18Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "LLM City – 3D render of all Kimi K3's weights as 2.5mm tiles",
+      "url": "https://magik.net/llmcity/",
+      "snippet": "",
+      "published": "2026-08-17T16:01:07Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen3.8 27B scores 52 on Artificial Analysis",
+      "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
+      "snippet": "",
+      "published": "2026-08-17T17:25:17Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Ask HN: Is Kimi down for anyone else?",
+      "url": "https://news.ycombinator.com/item?id=49334862",
+      "snippet": "",
+      "published": "2026-08-17T17:45:48Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "We're hosting Qwen3.8-27B for Free API usage",
+      "url": "https://sprag.ai/models/qwen/qwen3.8-27b",
+      "snippet": "",
+      "published": "2026-08-17T17:51:57Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Run Qwen locally on Windows and use it remotely from any device",
+      "url": "https://www.hiramdeals.com/blog/host-qwen-privately-windows",
+      "snippet": "",
+      "published": "2026-08-17T21:44:33Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen3.8-27B on a single RTX 3090: crash fix, 131K context, 9 myths",
+      "url": "https://jonidimo.github.io/qwen38-3090-benchmark/benchmark.html",
+      "snippet": "",
+      "published": "2026-08-17T23:11:52Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Cosyncing: Control DeepSeek Harness and other agents on your phone",
+      "url": "https://github.com/cosyncing/cosyncing",
+      "snippet": "",
+      "published": "2026-08-17T23:13:21Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Grok –.grok?",
+      "url": "https://sslog.dpdns.org/grok-grok.html",
+      "snippet": "",
+      "published": "2026-08-16T06:00:27Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Woman claims stepfather used Grok to transform childhood photo into CSAM imagery",
+      "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
+      "snippet": "",
+      "published": "2026-08-16T13:05:25Z",
+      "weight": 6
+    }
+  ],
+  "cn": [
+    {
+      "source": "量子位",
+      "title": "快讯｜范式PhanRouter上线智谱GLM-5.3，即日开放调用",
+      "url": "https://www.qbitai.com/2026/08/474361.html",
+      "snippet": "智谱GLM-5.3首发上线范式PhanRouter，即日开放调用",
+      "published": "Mon, 17 Aug 2026 08:26:25 +0000",
+      "weight": 10
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "从模型能力到工程优化，海外开发者正在“榨干” Qwen3.8-27B",
+      "url": "https://www.infoq.cn/article/MljtE2Xk6hVkd061LY7k?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/MljtE2Xk6hVkd061LY7k?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Mon, 17 Aug 2026 14:56:46 GMT",
+      "weight": 7
+    },
+    {
+      "source": "掘金",
+      "title": "花一下午把Qwen3.8-27B跑在本地，最坑的不是显存",
+      "url": "https://juejin.cn/post/7675010806341582886",
+      "snippet": "Qwen3.8-27B开源不到三天就登顶HF趋势榜。我用一张RTX 3090把它跑了起来，模型本身确实能打，但默认设置有个大坑——不开 thinking 它就是个话痨，开了又慢到怀疑人生。",
+      "published": "Mon, 17 Aug 2026 15:05:13 GMT",
+      "weight": 7
+    },
+    {
+      "source": "掘金",
+      "title": "DeepSeek Harness 源码实战第2章：Cordis——驱动 dsh 的插件引擎",
+      "url": "https://juejin.cn/post/7674862491856863275",
+      "snippet": "插件框架不是给前端用的吗？dsh 整个 Agent 运行时都跑在插件引擎上。 如果你做过前端开发，可能用过 webpack 的 plugin 系统或者 VS Code 的扩展机制。但 dsh 的插件引",
+      "published": "Mon, 17 Aug 2026 15:11:51 GMT",
+      "weight": 7
+    },
+    {
+      "source": "掘金",
+      "title": "DeepSeek Harness插件开发实战教程：我让它自己写了一个 arXiv 搜索插件",
+      "url": "https://juejin.cn/post/7674920095604719666",
+      "snippet": "如何开发一个 DeepSeek Harness 插件 前面聊 DeepSeek Harness 的时候，我提到过一句： 这东西最有意思的地方，就是**「一切皆插件」**。 模型是一块，工具是一块，能力",
+      "published": "Mon, 17 Aug 2026 16:41:42 GMT",
+      "weight": 7
+    },
+    {
+      "source": "雷锋网",
+      "title": "深度拆解 DeepSeek Harness 架构：AGI 的自进化，终于有了「后悔药」",
+      "url": "https://www.leiphone.com/category/ai/u43j44fx6Rly10nI.html",
+      "snippet": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260817/6a82cba889e47.j",
+      "published": "Mon, 17 Aug 2026 16:53:00 +0800",
+      "weight": 7
+    },
+    {
+      "source": "雷锋网",
+      "title": "豆包“工作任务”升级，支持手机远程操控电脑",
+      "url": "https://www.leiphone.com/category/industrynews/u0uYIWvrxUmEXHxx.html",
+      "snippet": "<p>近日豆包发布产品更新，“工作任务”模式新增手机远程控制电脑功能。同一账号授权后，用户在手机端下达任务指令，可以由已连接的电脑端读取本地文件、操作软件完成执行，进度和结果实时回传手机，帮助用户在通勤、离开工位等各类场景中自动执行任务，提升效率。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/upl",
+      "published": "Mon, 17 Aug 2026 16:56:00 +0800",
+      "weight": 7
+    },
+    {
+      "source": "钛媒体",
+      "title": "左手推Harness，右手涨价：DeepSeek为何把开发者往外推？",
+      "url": "https://www.tmtpost.com/8105986.html",
+      "snippet": "绝对的低价终究只是梁文峰刺破商业壁垒的一柄短刃，而非能够长期持有的壁垒。",
+      "published": "Mon, 17 Aug 2026 19:04:45 +0800",
+      "weight": 7
+    },
+    {
+      "source": "钛媒体",
+      "title": "智谱 VS Deepseek，两条分叉的自进化树",
+      "url": "https://www.tmtpost.com/8105866.html",
+      "snippet": "智谱精准狙击DeepSeek，跑分八项赢了七项，但自进化路线的胜负才刚刚分晓",
+      "published": "Mon, 17 Aug 2026 19:04:55 +0800",
+      "weight": 7
+    },
+    {
+      "source": "雷锋网",
+      "title": "为了「自我锤炼」，OpenAI 造了一个攻击力极强的「AI 黑客」",
+      "url": "https://www.leiphone.com/category/ai/2b8vHYIEycW0DmQE.html",
+      "snippet": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260817/6a82cc4b7a4fe.j",
+      "published": "Mon, 17 Aug 2026 16:57:00 +0800",
+      "weight": 6
+    },
+    {
+      "source": "雷锋网",
+      "title": "关于 Hugging Face 入侵事件，OpenAI 终于放出了时间线",
+      "url": "https://www.leiphone.com/category/ai/JyuBFwcuu4VhHQjM.html",
+      "snippet": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260817/6a82cd5fd1b84.j",
+      "published": "Mon, 17 Aug 2026 17:00:00 +0800",
+      "weight": 6
+    },
+    {
+      "source": "钛媒体",
+      "title": "【钛晨报】事关石油天然气发展，两部门最新部署；OpenAI与英伟达扩大计算机会，到2030年计算规模或达6000亿美元；宇树科技：将于8月19日科创板上市",
+      "url": "https://www.tmtpost.com/8106254.html",
+      "snippet": "大疆诉美国防部案赢得关键程序性胜利；吉利汽车宣布管理层调整，以现代企业治理体系做强“一个吉利”；360调整市场组织架构：陈朝华任公关一号位，卜思南管市场部；阿里出售灵犀互娱，已与信宸资本达成交易协议；刘强东创立的独立游艇品牌Sea Expandary收购OceanWalker；阿斯利康宣布泰适卓正式在华上市；中国汽车芯片五项认证认可行业标准发布；央行新增8家数字人民币业务运营机构；寒武纪56.1万",
+      "published": "Tue, 18 Aug 2026 07:20:00 +0800",
+      "weight": 6
+    },
+    {
+      "source": "36氪",
+      "title": "36氪首发 | 清北团队做工业功能涂层数字喷印，获五源、小米、蔚来资本等数亿融资",
+      "url": "https://36kr.com/p/3943133334535300?f=rss",
+      "snippet": "<p>本文约4000字，建议阅读8分钟</p>\n  <p>作者&nbsp;|&nbsp;乔钰杰</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <p>硬氪获悉，<strong>专注工业场景功能性涂层数字喷印技术的企业「什方科技」</strong>连续完成两轮融资。自 B 轮起至本次 B + 轮收官，融资总额近3亿元。由五源资本、创世伙伴创投、同创伟业及头部产业战略投资机构恒旭资",
+      "published": "2026-08-17 12:44:00  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "硬氪首发 | 机器人力传感器企业完成数亿元D轮融资，广汽领投、红杉押注，市占率超70%",
+      "url": "https://36kr.com/p/3943183864560776?f=rss",
+      "snippet": "<p>硬氪获悉，近日国内机器人力传感器企业蓝点触控完成数亿元人民币D轮融资。本轮融资由广汽集团旗下广汽资本领投，德业股份及曦晨资本跟投。融资将主要用于新一代机器人力传感器产品研发、产能扩充及全球化市场布局。</p>\n  <p>从2025年底至今，公司已完成多轮亿元级融资，股东阵容包括红杉中国、宁德时代、智元机器人、银河通用、广汽、上汽、中芯等财务资本与产业资本。</p>\n  <p>蓝点触控成立于2",
+      "published": "2026-08-17 13:38:17  +0800",
+      "weight": 5
+    },
+    {
+      "source": "199IT",
+      "title": "中芯国际：2026年Q2营收30.06亿美元，同比增长36.1%",
+      "url": "http://www.199it.com/archives/1845679.html",
+      "snippet": "中芯国际发布2026年第二季度财报，营收30.06亿美元，同比增长36.1%，环比增长20%，首次突破30亿美元；归母净利润4.79亿美元，同比增长261.7%，环比增长142.7%；销售晶圆286.9万片，同比增长20.1%，产能利用率93.7%。",
+      "published": "Mon, 17 Aug 2026 12:16:23 +0000",
+      "weight": 5
+    },
+    {
+      "source": "量子位",
+      "title": "牛来！A社营收暴涨1400%，最新季度入账115亿美元",
+      "url": "https://www.qbitai.com/2026/08/473947.html",
+      "snippet": "将超越马斯克的SpaceX，成为史上上市估值最高的IPO。",
+      "published": "Sun, 16 Aug 2026 05:28:42 +0000",
+      "weight": 5
+    },
+    {
+      "source": "量子位",
+      "title": "菲尔兹奖得主：AI现在主要靠「抬杠」突破重大数学猜想",
+      "url": "https://www.qbitai.com/2026/08/474381.html",
+      "snippet": "AI最近最出圈的数学突破，都在“找反例”",
+      "published": "Mon, 17 Aug 2026 08:36:07 +0000",
+      "weight": 4
+    },
+    {
+      "source": "量子位",
+      "title": "“B站教AI”爆火后，北航90后副教授何静回应一切",
+      "url": "https://www.qbitai.com/2026/08/474064.html",
+      "snippet": "“错过种一棵树最好的时间”",
+      "published": "Sun, 16 Aug 2026 10:36:47 +0000",
+      "weight": 4
+    },
+    {
+      "source": "36氪",
+      "title": "AI虚拟角色蜂拥而至，但更多人忘不掉陪伴十四年的她",
+      "url": "https://36kr.com/p/3942027561876870?f=rss",
+      "snippet": "<p>7月中下旬的北京天气多变，时而下雨，时而燥热难耐。</p>\n  <p>即便如此，国家体育馆当晚依然座无虚席，无数粉丝前来观赏主题为「无限共鸣·纯蓝幻乐」的洛天依2026全国巡回演唱会的首场演出。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260816/v2_d9b369bdc18844",
+      "published": "2026-08-17 09:00:46  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "上市前夜 | 把中国3C卖到印尼，做到第一也未必是门好生意",
+      "url": "https://36kr.com/p/3943009515781253?f=rss",
+      "snippet": "<p>本文约5300字，建议阅读11分钟</p>\n  <p>作者&nbsp;|&nbsp;彭孝秋</p>\n  <blockquote>\n   <p><strong>编者按：</strong>《上市前夜》栏目聚焦企业冲刺资本市场的关键时刻。每一份招股书里，都藏着一家企业上市前的野心、周期与隐忧。这是第十一期——<strong>沃客非凡</strong>。</p>\n  </blockquote>\n  ",
+      "published": "2026-08-17 11:10:06  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "科氪|国际冠军车手德比斯探访荣耀旗舰店，感受中国科技创新探索",
+      "url": "https://36kr.com/p/3943167004212361?f=rss",
+      "snippet": "<p>8月15日晚，张雪机车车队53号车手瓦伦丁·德比斯（Valentin Debise）现身荣耀全球首家旗舰店——成都宽窄巷子店。作为其首次中国行的重要一站，德比斯应张雪机车首席战略合作伙伴荣耀邀请,体验全球首台机器人手机荣耀Robot Phone、人形机器人“闪电”等一系列前沿科技产品。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.",
+      "published": "2026-08-17 13:17:01  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "毕业多年，全网却抢着重做一道语文题",
+      "url": "https://36kr.com/p/3943421440212104?f=rss",
+      "snippet": "<p>毕业这么多年，全网突然争着做一道小学语文填空题。</p>\n  <p><strong>题目长这样：（xxx）稳定存钱，（xxx）环游世界。补关联词。</strong></p>\n  <p>小学二年级水平。但就是这么一道题，能让全网吵成一锅粥。</p>\n  <p>第一反应，大多数人填的是“只要稳定存钱，就能环游世界”。逻辑很硬，没钱还想出门？但很快有人掀桌子：“我填‘一边稳定存钱，一边环游世界’怎",
+      "published": "2026-08-17 17:40:02  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "氪星晚报 ｜大疆诉美国防部案赢得关键程序性胜利，美市场仍高度依赖大疆无人机；高盛称市场对美联储加息的预测仍过于激进",
+      "url": "https://36kr.com/p/3943607663443073?f=rss",
+      "snippet": "<h2>大公司：</h2>\n  <p><strong>超讯科技：上半年净利润5172.53万元，同比下降28.25%</strong><br />36氪获悉，超讯科技披露半年报，2026年上半年实现营业收入5.65亿元，同比下降64.92%；归属于上市公司股东的净利润5172.53万元，同比下降28.25%；基本每股收益0.33元。</p>\n  <p><strong>锅圈：上半年实现营收39.47",
+      "published": "2026-08-17 20:54:00  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "全球供应链重构关键期，出海企业的本地化实战与挑战｜超级会氪厅",
+      "url": "https://36kr.com/p/3938833643961733?f=rss",
+      "snippet": "<p>对于不少中国出海企业来说，2026年称得上是全球化布局从横向铺开转向纵向深入的一年。</p>\n  <p>过去几年，中国企业出海的逻辑已经发生深刻变化。在早期的“产品出海”阶段，企业关心的是如何把产品通过各种渠道卖出去，解决线下流量获取、线下物流履约和支付结算等问题。</p>\n  <p>但到了2026年，关税持续加码迫使“产能出海”成为新的趋势。从越南的电子制造集群、泰国的家电生产基地、墨西哥",
+      "published": "2026-08-17 21:33:42  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "硬氪专访 | 荣耀李健：在行业下行期，做一款9999元的云台手机",
+      "url": "https://36kr.com/p/3943831281663362?f=rss",
+      "snippet": "<p>作者&nbsp;|&nbsp;邱晓芬</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <p>Robot Phone或许是荣耀CEO李健上任来压力最大的一款产品 。</p>\n  <p>8月12日的发布会现场，荣耀Robot Phone背部的摄像头缓缓升起，跟着音乐摆动。它还瞄准了眼前的拍摄对象，随着人物不断转来转去，像一颗长在手机上的“机器人脑袋”。 以前固定在手机背板里的",
+      "published": "2026-08-18 08:00:00  +0800",
+      "weight": 1
+    }
+  ],
+  "source_stats": {
+    "OpenAI-News": 3,
+    "Google-AI-Blog": 1,
+    "TheVerge-AI": 5,
+    "TechReview-AI": 2,
+    "LastWeekInAI": 0,
+    "MarkTechPost": 0,
+    "SebastianRaschka": 0,
+    "TheGradient": 0,
+    "HuggingFace-Blog": 1,
+    "HackerNews": 2,
+    "HackerNews-DeepSeek": 8,
+    "HackerNews-Kimi": 8,
+    "HackerNews-Qwen": 8,
+    "HackerNews-Grok": 8,
+    "HackerNews-xAI": 8,
+    "ArXiv-cs.AI": 0,
+    "量子位": 10,
+    "雷锋网": 15,
+    "钛媒体": 15,
+    "36氪": 15,
+    "InfoQ中文": 15,
+    "掘金": 15,
+    "199IT": 15
+  },
+  "dedup": {
+    "intl": {
+      "before": 54,
+      "after": 52
+    },
+    "cn": {
+      "before": 100,
+      "after": 95
+    }
+  }
+}

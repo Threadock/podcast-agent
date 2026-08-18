@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-08-18 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "钛媒体",
+      "title": "左手推Harness右手涨价，DeepSeek为何把开发者往外推",
+      "url": "https://www.tmtpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "深度拆解DeepSeek Harness架构：AGI自进化终于有了「后悔药」",
+      "url": "https://www.leiphone.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "智谱GLM-5.3首发上线范式PhanRouter，即日开放调用",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "豆包「工作任务」升级，支持手机远程操控电脑",
+      "url": "https://www.leiphone.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "智谱对DeepSeek：两条分叉的自进化树，跑分八项赢七项",
+      "url": "https://www.tmtpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "掘金",
+      "title": "海外开发者榨干Qwen3.8-27B，一张3090跑出131K上下文",
+      "url": "https://juejin.cn/",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "OpenAI造了一个攻击力极强的「AI黑客」用来自我锤炼",
+      "url": "https://www.leiphone.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "Hugging Face入侵事件时间线曝光，OpenAI终于回应",
+      "url": "https://www.leiphone.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "OpenAI与英伟达扩大算力合作，2030年计算规模或达六千亿美元",
+      "url": "https://www.tmtpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "Anthropic季度营收暴涨1400%，入账115亿美元",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Kimi K3模型权重1.56TB，居然能塞进iPhone 16 Pro运行",
+      "url": "https://news.ycombinator.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Grok被指生成未成年不当影像，AI安全再敲警钟",
+      "url": "https://news.ycombinator.com/",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "听众朋友们早上好，今天是2026年8月18号星期二，本期《今日AI头条》给你梳理过去24小时最重磅的AI大事。"
+    },
+    {
+      "role": "guest",
+      "text": "今天国内这边故事特别多，DeepSeek又出大动作，咱们一条一条聊。"
+    },
+    {
+      "role": "host",
+      "text": "第一条就来自钛媒体，说DeepSeek左手推Harness框架，右手却悄悄涨价，这是要把开发者往外推吗？"
+    },
+    {
+      "role": "guest",
+      "text": "对，这就是梁文峰这步棋最拧巴的地方。Harness开源本来是交朋友，可API一调价，小团队立马就肉疼。"
+    },
+    {
+      "role": "host",
+      "text": "你看之前DeepSeek靠极致性价比杀出来，现在价格一抬，老用户会不会跑去智谱或者通义那边？"
+    },
+    {
+      "role": "guest",
+      "text": "短期会，但更值得看的是Harness生态。一旦插件市场起来，模型本身反而不那么重要了。"
+    },
+    {
+      "role": "host",
+      "text": "雷锋网那篇深度拆解就说，Harness本质是给AGI自进化装了一个「后悔药」，这是什么意思？"
+    },
+    {
+      "role": "guest",
+      "text": "过去模型改一点行为就得重训，成本高到吓人。Harness把工具调用、推理路径都拆成插件，搞砸了直接回滚。"
+    },
+    {
+      "role": "host",
+      "text": "所以它赌的不是模型最强，而是迭代最快，对吧？"
+    },
+    {
+      "role": "guest",
+      "text": "没错，你看那个Cordis插件引擎，连arXiv搜索插件都是AI自己写的，这套飞轮一旦转起来很吓人。"
+    },
+    {
+      "role": "host",
+      "text": "智谱这边也没闲着，量子位快讯说GLM-5.3首发上线范式PhanRouter，即日开放调用。"
+    },
+    {
+      "role": "guest",
+      "text": "时机选得很微妙，正好卡在DeepSeek涨价节点。GLM-5.3主打企业级Agent路由，跑分八项赢了七项。"
+    },
+    {
+      "role": "host",
+      "text": "钛媒体那篇就把它俩直接摆一起比，叫「两条分叉的自进化树」，你觉得谁的路子更稳？"
+    },
+    {
+      "role": "guest",
+      "text": "智谱走平台化，DeepSeek走极客开源。短期智谱能吃到B端红利，长期DeepSeek社区护城河更深。"
+    },
+    {
+      "role": "host",
+      "text": "再看产品端，雷锋网说豆包「工作任务」升级了，现在能用手机远程操控电脑，这场景听起来太实用了。"
+    },
+    {
+      "role": "guest",
+      "text": "对，通勤路上让家里电脑跑脚本，结果直接推回手机，本质是把Agent塞进了日常办公流。"
+    },
+    {
+      "role": "host",
+      "text": "字节这一招把豆包从「聊天工具」变成了「远程员工」，你怎么看这步？"
+    },
+    {
+      "role": "guest",
+      "text": "我觉得这是端侧Agent真正落地的信号，2026下半年各家都会卷这个方向。"
+    },
+    {
+      "role": "host",
+      "text": "国内开源这边，掘金文章说海外开发者用一张RTX 3090把Qwen3.8-27B跑出了131K上下文。"
+    },
+    {
+      "role": "guest",
+      "text": "而且不止一个人实测，有人在24G显存上还跑出了50 TPS，这效率放在国际开源圈都算能打。"
+    },
+    {
+      "role": "host",
+      "text": "模型才开源三天就登顶Hugging Face趋势榜，海外开发者是真买账啊。"
+    },
+    {
+      "role": "guest",
+      "text": "阿里通义这波打得很漂亮，性能、价格、本地化体验全占齐，小团队基本没法拒绝。"
+    },
+    {
+      "role": "host",
+      "text": "聊完国内，把目光转向国际。雷锋网说OpenAI专门造了一个攻击力极强的「AI黑客」用来自我锤炼。"
+    },
+    {
+      "role": "guest",
+      "text": "这种红队对练不是新鲜事，但OpenAI这次直接让黑客AI去攻自家模型，目的就是逼出漏洞。"
+    },
+    {
+      "role": "host",
+      "text": "其实跟Hugging Face那次入侵事件也有关系，雷锋网另一篇说OpenAI终于放出了完整时间线。"
+    },
+    {
+      "role": "guest",
+      "text": "对，过去大家对入侵细节一头雾水，现在算是给了社区一个交代，也顺带展示了他们的应急能力。"
+    },
+    {
+      "role": "host",
+      "text": "不过钛晨报那条更炸，OpenAI和英伟达要扩大算力合作，2030年规模或达六千亿美元，这数字听着像天方夜谭。"
+    },
+    {
+      "role": "guest",
+      "text": "不是吹牛，OpenAI现在营收就在指数级涨，没有这种量级的算力兜底，后面的GPT下一代根本撑不住。"
+    },
+    {
+      "role": "host",
+      "text": "但Anthropic那边也没闲着，量子位说它季度营收暴涨1400%，单季入账115亿美元。"
+    },
+    {
+      "role": "guest",
+      "text": "Claude系列在企业市场口碑一直不错，加上代码能力加持，这增速放在整个SaaS史上都很罕见。"
+    },
+    {
+      "role": "host",
+      "text": "不过营收涨这么快，估值会不会也跟着泡沫化？"
+    },
+    {
+      "role": "guest",
+      "text": "短期肯定有溢价，但企业用户续费率才是关键，光靠API调用堆出来的营收根基不稳。"
+    },
+    {
+      "role": "host",
+      "text": "说到对比，咱们联动看一组数字：DeepSeek涨价、智谱抢客、Anthropic营收暴涨，这三件事其实是一回事吗？"
+    },
+    {
+      "role": "guest",
+      "text": "对，本质都是模型层红利见顶，开始往Agent和算力层找新增量。模型同质化之后，拼的是工程能力。"
+    },
+    {
+      "role": "host",
+      "text": "那OpenAI搞AI黑客和Hugging Face时间线，算不算防守反击？"
+    },
+    {
+      "role": "guest",
+      "text": "算，因为安全短板一旦暴露，企业采购立刻会犹豫。OpenAI这是在给B端客户打预防针。"
+    },
+    {
+      "role": "host",
+      "text": "再看一组对比：豆包做手机远程操控电脑，Anthropic做企业级Agent，这两条路其实殊途同归啊。"
+    },
+    {
+      "role": "guest",
+      "text": "没错，最终都是把模型藏到流程后面，让用户感觉不到AI存在，那才是真落地。"
+    },
+    {
+      "role": "host",
+      "text": "那国内厂商在端侧Agent上，会不会反过来领先海外？"
+    },
+    {
+      "role": "guest",
+      "text": "很有可能，中国用户对自动化办公的接受度本来就高，豆包、智子这类产品迭代速度也快。"
+    },
+    {
+      "role": "host",
+      "text": "好，聊完重磅，咱们快速过几条其他要闻。第一条，宇树科技将于8月19号科创板上市。"
+    },
+    {
+      "role": "guest",
+      "text": "对，机器人板块又一个标志性时刻，宇树这台四足机器人在春晚跑过，市场期待值拉满。"
+    },
+    {
+      "role": "host",
+      "text": "第二条，中芯国际2026年Q2营收30亿美元，同比增长36.1%，首次突破30亿大关。"
+    },
+    {
+      "role": "guest",
+      "text": "国产晶圆代工拐点来了，产能利用率93.7%，说明高端制程需求很旺。"
+    },
+    {
+      "role": "host",
+      "text": "第三条，机器人力传感器企业蓝点触控完成数亿元D轮融资，市占率超70%。"
+    },
+    {
+      "role": "guest",
+      "text": "广汽领投、红杉押注，背后是整个人形机器人产业链在抢零部件话语权。"
+    },
+    {
+      "role": "host",
+      "text": "第四条，洛天依2026全国巡演首场座无虚席，AI虚拟角色商业化超预期。"
+    },
+    {
+      "role": "guest",
+      "text": "陪伴经济不是伪命题，能连续十四年还有人愿意买单，这个数据很值得AI从业者研究。"
+    },
+    {
+      "role": "host",
+      "text": "第五条，菲尔兹奖得主说AI现在主要靠「抬杠」突破重大数学猜想。"
+    },
+    {
+      "role": "guest",
+      "text": "对，AI目前最强的不是正向证明，而是自动构造反例，这其实也指明了下一阶段突破方向。"
+    },
+    {
+      "role": "host",
+      "text": "第六条，Kimi K3模型权重1.56TB，居然能塞进iPhone 16 Pro运行，这压缩率太夸张。"
+    },
+    {
+      "role": "guest",
+      "text": "月之暗面这次展示的是流式加载能力，本地推理+云端权重切片，端侧大模型的路子越来越清晰。"
+    },
+    {
+      "role": "host",
+      "text": "第七条，Grok被指生成未成年不当影像，AI安全再敲警钟。"
+    },
+    {
+      "role": "guest",
+      "text": "xAI这次明显栽了跟头，内容审核机制在极端场景下漏洞百出，监管只会越来越紧。"
+    },
+    {
+      "role": "host",
+      "text": "第八条，清北团队做工业功能涂层数字喷印，拿到五源、小米、蔚来资本数亿融资。"
+    },
+    {
+      "role": "guest",
+      "text": "硬科技今年很热，AI落地不只是大模型，工业制造里也有大量数字化改造机会。"
+    },
+    {
+      "role": "host",
+      "text": "速览过完，咱们展望一下下半年，你觉得最值得关注的变量是什么？"
+    },
+    {
+      "role": "guest",
+      "text": "我觉得是Harness这类插件生态能不能跑出真正的杀手级应用，就像当年iOS靠App Store起飞一样。"
+    },
+    {
+      "role": "host",
+      "text": "如果跑不出来，是不是说明Agent这条路本身就走不通？"
+    },
+    {
+      "role": "host",
+      "text": "也不能这么说，只是证明通用Agent还没到拐点，垂直场景Agent会先赚钱，比如编程和投研。"
+    }
+  ]
+}
