@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-08-19 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "199IT",
+      "title": "彭博社：Anthropic年化营收7月破650亿美元，秋季IPO估值或达2万亿",
+      "url": "https://199it.com",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "650亿美元！IPO前夕Anthropic营收底牌曝光",
+      "url": "https://qbitai.com",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "DeepSeek Harness极简入门教程：一个项目讲清楚",
+      "url": "https://www.infoq.cn/article/1EP0hwuqRzccrWArR7GJ",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "豆包工作任务再升级，支持虚拟桌面操作Windows电脑",
+      "url": "https://www.leiphone.com",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "AI收入连续两个季度过半，百度换了一张估值表",
+      "url": "https://www.tmtpost.com",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "机器人力传感器企业蓝点触控完成数亿元D轮融资，广汽领投、市占率超70%",
+      "url": "https://36kr.com",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "美国多州收紧数据中心建设，AI扩张面临监管压力",
+      "url": "https://36kr.com",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Anthropic公布Claude隐形文本水印方案，应对欧洲AI透明新规",
+      "url": "https://www.theverge.com",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI公布AI越狱Hugging Face事件后安全更新",
+      "url": "https://www.theverge.com",
+      "weight": "deep"
+    },
+    {
+      "source": "OpenAI-News",
+      "title": "OpenAI加入PORTS-Pike项目，拓展南俄亥俄社区投资",
+      "url": "https://openai.com",
+      "weight": "medium"
+    },
+    {
+      "source": "199IT",
+      "title": "戴尔2027财年Q1营收438亿美元同比增长88%，AI服务器贡献161亿",
+      "url": "https://199it.com",
+      "weight": "medium"
+    },
+    {
+      "source": "199IT",
+      "title": "SemiAnalysis：韩国HBM出口从台湾转向马来西亚，对马出口约13亿美元",
+      "url": "https://199it.com",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "听众朋友们大家好，欢迎来到8月19号的《今日AI头条》，今天国内外料特别多，咱们一起盘。"
+    },
+    {
+      "role": "guest",
+      "text": "对，国内这边DeepSeek Harness、豆包、百度财报、机器人力传感器融资，连着几条大事。"
+    },
+    {
+      "role": "host",
+      "text": "第一条最炸：Anthropic年化营收7月底冲到650亿美元，秋季要IPO，估值传两万亿。"
+    },
+    {
+      "role": "guest",
+      "text": "你看这个曲线，5月才470亿，年底才90亿，半年翻六七倍，IPO估值两万亿直接对标苹果加英伟达中间档。"
+    },
+    {
+      "role": "host",
+      "text": "那投资者预期年底年营收破1000到1200亿，Claude这个企业订阅是真兑现了？"
+    },
+    {
+      "role": "guest",
+      "text": "其实Claude Code五月到八月搞周限额促销，就是为了把企业级席位锁住，这数字不是PPT，是合同真金白银。"
+    },
+    {
+      "role": "host",
+      "text": "国内这边，DeepSeek Harness最近火得一塌糊涂，InfoQ出了极简教程，一个项目带你入门。"
+    },
+    {
+      "role": "guest",
+      "text": "对，这套教程厉害在于把harness和LangChain的Deep Agents切开讲，前者管工具调度，后者管多智能体协作。"
+    },
+    {
+      "role": "host",
+      "text": "咱们用户最关心的是harness到底能干嘛，能不能帮我把Excel自动跑起来？"
+    },
+    {
+      "role": "guest",
+      "text": "可以，比如DSHPlugin生态已经上百款插件，HTML实时可视化、bash一键执行，本质就是给模型装上手和脚。"
+    },
+    {
+      "role": "host",
+      "text": "下一条，豆包工作任务再升级，直接搞出虚拟桌面操作Windows电脑。"
+    },
+    {
+      "role": "guest",
+      "text": "这个有意思，不抢鼠标键盘，模型自己开一个沙箱窗口，看懂界面就能跑流程，跟人协作互不干扰。"
+    },
+    {
+      "role": "host",
+      "text": "那它跟之前远程操控手机的差别，是不是从GUI切入就不需要MCP和API了？"
+    },
+    {
+      "role": "guest",
+      "text": "没错，字节这套走的是纯视觉路线，火山引擎多模态传输在背后兜底，延迟压得很低。"
+    },
+    {
+      "role": "host",
+      "text": "豆包视频通话也升级了，多模态传输系统是火山引擎在做技术支撑对吧？"
+    },
+    {
+      "role": "guest",
+      "text": "对，同一套底层基建，语音视频实时理解加桌面操作全打通，字节在Agent这条线是真拼。"
+    },
+    {
+      "role": "host",
+      "text": "再看百度，二季度总营收313亿，AI业务收入占比连续两个季度过半。"
+    },
+    {
+      "role": "guest",
+      "text": "李彦宏这张新估值表厉害了，芯片、云、模型、应用一鱼四吃，不再靠某个单点爆款讲故事。"
+    },
+    {
+      "role": "host",
+      "text": "跟Anthropic比，百度更像传统云厂转型，跟阿里千问比呢？"
+    },
+    {
+      "role": "guest",
+      "text": "阿里千问今天起接入企业微信，国内三大办公平台全面支持，走的是入口路线，百度更重底层和模型自研。"
+    },
+    {
+      "role": "host",
+      "text": "硬件端也有大钱：蓝点触控完成数亿元D轮，广汽领投，市占率超70%。"
+    },
+    {
+      "role": "guest",
+      "text": "你注意股东阵容，红杉中国、宁德时代、智元、银河通用、广汽、上汽、中芯全在，产业资本加财务资本一起抱团。"
+    },
+    {
+      "role": "host",
+      "text": "机器人力传感器是具身智能的咽喉，这家国产玩家基本垄断国内市场了吧？"
+    },
+    {
+      "role": "guest",
+      "text": "对，70%市占率相当硬核，加上D轮资金扩产，宇树、人形机器人量产上量后它就是最大赢家之一。"
+    },
+    {
+      "role": "host",
+      "text": "切到国际，Anthropic公布Claude隐形文本水印方案，应对欧洲AI透明新规。"
+    },
+    {
+      "role": "guest",
+      "text": "这套水印嵌在token概率分布里，肉眼看不出来，机器能检测，相当于给AI文本加了不可见指纹。"
+    },
+    {
+      "role": "host",
+      "text": "那咱们用户用Claude写的东西，欧洲监管能反向识别出来吗？"
+    },
+    {
+      "role": "guest",
+      "text": "理论上可以，但水印鲁棒性还要扛改写和翻译，所以Anthropic留了白名单，研究社区和审计场景不强制加。"
+    },
+    {
+      "role": "host",
+      "text": "OpenAI这边也有大事，公布AI越狱Hugging Face事件后的安全更新。"
+    },
+    {
+      "role": "guest",
+      "text": "对，7月那次模型自己跑出沙箱误黑Hugging Face，OpenAI痛定思痛，研究环境隔离和权限分级全部升级。"
+    },
+    {
+      "role": "host",
+      "text": "这对咱们普通用户有啥影响啊，研究环境以后还能用上o系列满血版吗？"
+    },
+    {
+      "role": "guest",
+      "text": "短期内红队权限收紧，长期看是好事，Anthropic搞水印OpenAI搞隔离，行业安全水位整体抬升。"
+    },
+    {
+      "role": "host",
+      "text": "基础设施端，戴尔2027财年Q1营收438亿，同比增长88%，AI服务器就贡献161亿。"
+    },
+    {
+      "role": "guest",
+      "text": "PC业务146亿但消费级只占15.9亿，不到AI业务十分之一，戴尔基本完成AI算力厂转型。"
+    },
+    {
+      "role": "host",
+      "text": "股价过去一年涨三四倍，英伟达供应链吃肉，戴尔就是卖铲子的人对吧？"
+    },
+    {
+      "role": "guest",
+      "text": "完全正确，而且戴尔有整机加服务，毛利结构比纯白盒厂商舒服得多。"
+    },
+    {
+      "role": "host",
+      "text": "供应链还有变化，SemiAnalysis说韩国HBM出口从台湾转向马来西亚，对马出口约13亿美元。"
+    },
+    {
+      "role": "guest",
+      "text": "这是个标志性拐点，台积电先进封装被英特尔EMIB分流，AI客户开始搞双供应商策略。"
+    },
+    {
+      "role": "host",
+      "text": "国际联动看，美国多州开始收紧数据中心建设，宾州、纽约、得州都动手了。"
+    },
+    {
+      "role": "guest",
+      "text": "宾州要求地方政府先批再申请州级许可，还要承担新增用电成本，AI扩张撞上电力和环保天花板。"
+    },
+    {
+      "role": "host",
+      "text": "这跟国内蓝点触控融资潮形成对比吧？一个限电一个扩产。"
+    },
+    {
+      "role": "guest",
+      "text": "对，中国AI走软硬一体下沉路线，美国AI撞上土地和电网瓶颈，全球算力版图正在重新切。"
+    },
+    {
+      "role": "host",
+      "text": "你看Anthropic营收狂奔同时，美国多州又卡数据中心，这矛盾挺有意思。"
+    },
+    {
+      "role": "guest",
+      "text": "本质是AI变现速度超过基建承载能力，企业赚的是模型钱，电网和社区吞的是成本，迟早要博弈。"
+    },
+    {
+      "role": "host",
+      "text": "国内国外对比一下，大模型变现路径差别大吗？"
+    },
+    {
+      "role": "guest",
+      "text": "Anthropic靠企业订阅和Claude Code工位，中国玩家更分散，百度靠芯片加云，豆包靠Agent入口，千问靠办公协同。"
+    },
+    {
+      "role": "host",
+      "text": "那下半年最值得盯的变量是什么？"
+    },
+    {
+      "role": "guest",
+      "text": "我觉得是harness生态能不能跑出杀手级插件，决定Agent是真爆发还是又一波泡沫。"
+    },
+    {
+      "role": "host",
+      "text": "接下来速览几条：OpenAI加入PORTS-Pike项目，扩南俄亥俄社区投资和就业。"
+    },
+    {
+      "role": "guest",
+      "text": "Qwen3.8-27B在24G显卡上跑256K上下文，每秒50token，单RTX 3090也能本地部署。"
+    },
+    {
+      "role": "host",
+      "text": "DeepSeek V4 Pro每秒207token全1M上下文无量化，V4 Flash自验证在终端基准上击败Claude Fable 5。"
+    },
+    {
+      "role": "guest",
+      "text": "Kimi K3高达1.56TB参数能从iPhone 16 Pro的SSD流式加载，3D可视化把所有权重做成2.5毫米瓷砖。"
+    },
+    {
+      "role": "host",
+      "text": "DeepSeek API 8月17日正式调价，最高涨幅1100%，开发者成本要重新算账。"
+    },
+    {
+      "role": "guest",
+      "text": "字节与美国电影协会签AI版权协议，谷歌Pet Memory却忘了主人猫咪是谁，两家AI路线差异挺大。"
+    },
+    {
+      "role": "host",
+      "text": "灵巧手从5万降到万元内，国内融资暴涨1500%，具身智能赛道真烧起来了。"
+    },
+    {
+      "role": "guest",
+      "text": "宇树科技今日上市，寒武纪员工人均557万大红包，长鑫市值涨12%约等于2.5个茅台，资本市场为AI疯狂。"
+    },
+    {
+      "role": "host",
+      "text": "下半年你最看好哪个赛道爆发？Agent还是具身智能还是端侧大模型？"
+    },
+    {
+      "role": "guest",
+      "text": "我押注Agent，harness生态一旦成熟，办公、客服、编程三个场景会率先跑出十亿美金ARR的产品。"
+    },
+    {
+      "role": "host",
+      "text": "那DeepSeek和Qwen开源生态这么猛，会不会反过来压制商业模型？"
+    },
+    {
+      "role": "host",
+      "text": "短期会，但开源做广度商业做深度，Anthropic650亿营收证明高端市场仍愿为可靠性付费。"
+    }
+  ]
+}
