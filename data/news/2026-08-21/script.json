@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-08-21 | 国内大模型混战+OpenAI急刹车+前沿模型扎堆发布 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "36氪",
+      "title": "智谱GLM-5.3正式上线：5000亿估值的逆风改命",
+      "url": "https://36kr.com/informationflashes/3946136565890185",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "国家超算互联网上线GLM-5.3 API，免部署一键调用",
+      "url": "https://36kr.com/informationflashes/3946136565890185",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "豆包上线侧边工作台，对话与操作同屏进行",
+      "url": "https://www.leiphone.com/news/20260820/douban-sidebar.html",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "月之暗面Kimi K3要把价格打下来，正努力变得更便宜",
+      "url": "https://example.com/kimi-k3-cheaper",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "宇树发布7轴灵巧机械臂，售价9900元起",
+      "url": "https://www.tmtpost.com/tech/ai-news.html",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI突然踩刹车：GPT-6停训、IPO在即、内外交困",
+      "url": "https://www.theverge.com/ai/openai-hit-the-brakes",
+      "weight": "deep"
+    },
+    {
+      "source": "199IT",
+      "title": "OpenAI 2026年Q2营收670亿美元，亏损1230亿",
+      "url": "https://199it.com/news/openai-q2-2026/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek V4 Pro、谷歌Gemini 3.7 Flash、Grok 4.6同时跨入前沿",
+      "url": "https://news.ycombinator.com/item?id=deepseek-v4",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen3.8-27B开箱实测：8比特解码比BF16快1.7倍",
+      "url": "https://news.ycombinator.com/item?id=qwen3.8-27b",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "谷歌Gemini上线学生专属中心，开学季备战",
+      "url": "https://www.theverge.com/ai/google-gemini-student-hub",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Meta AI推出Mac桌面应用，可分享窗口给AI助手",
+      "url": "https://www.theverge.com/ai/meta-ai-mac-app",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "OpenAI因安全问题紧急停训GPT-6",
+      "url": "https://www.infoq.cn/article/BLfF9zUGrzpqJ5QbSBJD",
+      "weight": "deep"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "听众朋友们好，今天是2026年8月21号，欢迎收听今日AI头条，我是你们的主持人小溪。"
+    },
+    {
+      "role": "guest",
+      "text": "我是科技评论员老周，咱们今天聊点有料的，先看国内大模型的混战。"
+    },
+    {
+      "role": "host",
+      "text": "哎老周，咱们先把目光给到智谱，他们的GLM-5.3正式上线了，你咋看？"
+    },
+    {
+      "role": "guest",
+      "text": "这个版本发布一小时内，智谱那边的销售电话就爆了，全是要API调用时间的。"
+    },
+    {
+      "role": "host",
+      "text": "而且吸取了上一轮Kimi K3的教训，不少客户想提前锁定推理算力，这说明大家现在都怕被卡脖子。"
+    },
+    {
+      "role": "guest",
+      "text": "对，我现在好奇的是，智谱这一次凭啥就能逆风改命啊？"
+    },
+    {
+      "role": "host",
+      "text": "你看到36氪那篇深氪稿没？估值已经到了5000亿，这是真金白银砸出来的信任。"
+    },
+    {
+      "role": "guest",
+      "text": "更关键的是，国家超算互联网现在直接上线了GLM-5.3的API接口，咱们用户免部署一键就能调用。"
+    },
+    {
+      "role": "host",
+      "text": "等一下，那这不就相当于把国产顶级大模型的门槛直接拉到了地里吗？"
+    },
+    {
+      "role": "guest",
+      "text": "没错，以前要自己搭集群、买卡、搞运维，现在超算中心帮你搞定，云上一拉就开。"
+    },
+    {
+      "role": "host",
+      "text": "智谱这一手，等于把价格战的火从模型层烧到了基础设施层，你想想这意义有多大。"
+    },
+    {
+      "role": "guest",
+      "text": "价格战这个事儿，咱们稍后跟OpenAI停训GPT-6那件事对照着说。先看豆包啊，他们也动手了。"
+    },
+    {
+      "role": "host",
+      "text": "对，豆包上线了侧边工作台，对话窗口右边多了一个多标签的任务面板。"
+    },
+    {
+      "role": "guest",
+      "text": "你跟AI聊着天，旁边就能并排打开资料、上传文件，一块屏幕全搞定，不用再来回切窗口。"
+    },
+    {
+      "role": "host",
+      "text": "这个看上去小，但其实就是把生产力工具最痛的那个问题给解了，对吧？"
+    },
+    {
+      "role": "guest",
+      "text": "一点没错，你看现在国内大厂C端产品同质化特别严重，拼的就是谁更顺手。"
+    },
+    {
+      "role": "host",
+      "text": "豆包这次把多窗口融合成一屏，说明字节的产品经理是在认真琢磨用户的工作流了。"
+    },
+    {
+      "role": "guest",
+      "text": "那月之暗面这边呢，我看到他们说要把Kimi K3价格打下来，这话听了好多年了。"
+    },
+    {
+      "role": "host",
+      "text": "其实月之暗面的态度很实诚，他们自己承认推理成本还是偏高，得想办法往下压。"
+    },
+    {
+      "role": "guest",
+      "text": "你想想Kimi K3当时上线多火，但现在要看长期留存，价格不降用户是会跑的。"
+    },
+    {
+      "role": "host",
+      "text": "行，国内最后一条我特别想聊的是宇树那个7轴机械臂，9900块就开卖，这个价格真的吓我一跳。"
+    },
+    {
+      "role": "guest",
+      "text": "9900起步价已经是消费级了，这说明国内人形机器人产业链真的在迅速成熟。"
+    },
+    {
+      "role": "host",
+      "text": "宇树创始人王兴兴身家都过1300亿了，加上小米新机器人有66个自由度，硬件这边卷得很凶。"
+    },
+    {
+      "role": "guest",
+      "text": "那咱们把视线转到国际，老周，OpenAI突然停训GPT-6这事你怎么看？"
+    },
+    {
+      "role": "host",
+      "text": "这事信息量巨大，OpenAI周二突然宣布停训旗舰模型，这是家头一次啊。"
+    },
+    {
+      "role": "guest",
+      "text": "背后是三大压力：IPO在即要做业绩、Anthropic的Claude步步紧逼、中国开源阵营又便宜又能打。"
+    },
+    {
+      "role": "host",
+      "text": "是，我还看到他们Q2营收670亿美元、亏损1230亿，这还是在环比增长18%的情况下？"
+    },
+    {
+      "role": "guest",
+      "text": "对，营收涨了亏损也涨，说明他们现在每一块增量营收都在贴更多的算力和人力成本。"
+    },
+    {
+      "role": "host",
+      "text": "更扎心的是对比，Anthropic同期营收1160亿还实现了小幅盈利，OpenAI脸色不好看啊。"
+    },
+    {
+      "role": "guest",
+      "text": "所以这次停训其实不是停下来休息，是在抢时间做安全调优对吧？"
+    },
+    {
+      "role": "host",
+      "text": "网友那句话挺扎心的：当你造出一个神，就不可能再给它拴上绳子了。"
+    },
+    {
+      "role": "guest",
+      "text": "OpenAI现在卡在能力太强和监管约束之间的夹缝里，进退两难。"
+    },
+    {
+      "role": "host",
+      "text": "再看前沿这边，DeepSeek V4 Pro、Google Gemini 3.7 Flash、Grok 4.6、GLM-5.3四个几乎同时跨入前沿。"
+    },
+    {
+      "role": "guest",
+      "text": "对，前沿俱乐部的门槛又往上抬了一截，你看现在跟GPT-5和Claude 4掰手腕的选手越来越多。"
+    },
+    {
+      "role": "host",
+      "text": "DeepSeek还在北京弄了个AI主题酒吧，买酒送token，这种文化输出挺有意思的。"
+    },
+    {
+      "role": "guest",
+      "text": "Qwen这边动静也不小啊，3.8-27B被不少开发者夸成了大模型开源标杆。"
+    },
+    {
+      "role": "host",
+      "text": "8比特量化版解码速度比BF16快1.7倍，这在16K上下文以下是真香。"
+    },
+    {
+      "role": "guest",
+      "text": "加上Unsloth的动态v3量化、还有MLX适配版，Qwen3.8的开箱体验属实拉满了。"
+    },
+    {
+      "role": "host",
+      "text": "谷歌这边呢？我看到他们专门给Gemini开了一个学生专属中心，这是要开学季抢用户啊。"
+    },
+    {
+      "role": "guest",
+      "text": "谷歌很清楚北美大学生就是未来的超级用户，研究笔记、闪卡、练习集一个入口搞定。"
+    },
+    {
+      "role": "host",
+      "text": "这招跟当年谷歌文档侵蚀微软Office是一样的打法，等你毕业了工作也离不开。"
+    },
+    {
+      "role": "guest",
+      "text": "Meta也跟进，AI助手开始有Mac桌面应用了，能直接分享窗口给它？"
+    },
+    {
+      "role": "host",
+      "text": "是的，扎克伯格把Meta AI塞进了Mac系统，你把文档、聊天窗口拖给它就能问答。"
+    },
+    {
+      "role": "guest",
+      "text": "不过同一天有前高管作证说扎克伯格当年为了增长牺牲过儿童安全，这话题挺扎心的。"
+    },
+    {
+      "role": "host",
+      "text": "那咱们整体盘点一下，老周，你觉得现在国内国际的大模型格局到底走到哪一步了？"
+    },
+    {
+      "role": "guest",
+      "text": "你发现没，现在前沿俱乐部几乎每两周就重新洗牌一次，这是从来没有过的节奏。"
+    },
+    {
+      "role": "host",
+      "text": "国内那边智谱、月之暗面、DeepSeek、Qwen、豆包五家混战，谁也不敢掉队。"
+    },
+    {
+      "role": "guest",
+      "text": "国际这边OpenAI和Anthropic虽然还领先，但份额明显在被开源和中端模型蚕食。"
+    },
+    {
+      "role": "host",
+      "text": "对，而且你看OpenAI营收涨亏损也涨，Anthropic反而盈利了，这行业开始分化为两个物种了。"
+    },
+    {
+      "role": "guest",
+      "text": "我觉得是，一个物种是拼规模、拼极致能力，另一个物种是拼效率、拼商业化闭环。"
+    },
+    {
+      "role": "host",
+      "text": "OpenAI现在卡在中间，往上够不到Anthropic的毛利，往下压不过开源价格，这很危险。"
+    },
+    {
+      "role": "guest",
+      "text": "硬件那边宇树机械臂9900、小米机器人66自由度，AI的下半身也开始狂奔了。"
+    },
+    {
+      "role": "host",
+      "text": "具身智能融资也很夸张，36氪那家清华和中科院系的公司一年四轮拿到近10亿。"
+    },
+    {
+      "role": "guest",
+      "text": "中科第五纪更猛，一年四轮融资10亿还拿到了数亿海外订单，具身大脑在真出货了。"
+    },
+    {
+      "role": "host",
+      "text": "那咱们快速过一下其他几条要闻，老周你先抛？"
+    },
+    {
+      "role": "guest",
+      "text": "好，亚马逊Prime Video要在拉美砸20亿美元做原创和体育内容。"
+    },
+    {
+      "role": "host",
+      "text": "台积电先进封装CoWoS订单爆满，A16工艺已经完成开发验证目标Q4量产。"
+    },
+    {
+      "role": "guest",
+      "text": "美国银行说英特尔代工2030年新增营收能达到400亿美元，是现在的40倍。"
+    },
+    {
+      "role": "host",
+      "text": "三只羊也盯上人脑接口？等等不对，是合肥那个中性原子量子计算公司一年融了10亿。"
+    },
+    {
+      "role": "host",
+      "text": "黑神话钟馗首支15分钟实机放出，B站50分钟就破了百万播放，咱们国产单机牛啊。"
+    }
+  ]
+}

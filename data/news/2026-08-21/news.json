@@ -1,0 +1,440 @@
+{
+  "intl": [
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Evaluating DeepSeek V4 Pro 0813 on Hack the Box Challenges",
+      "url": "https://theaq.blog/2026/08/18/evaluating-deepseek-deepseek-v4-pro-0813-on-hack-the-box-challenges.html",
+      "snippet": "",
+      "published": "2026-08-20T03:21:28Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Gemini 3.7 Flash, Grok 4.6, GLM-5.3 and DeepSeek V4 Pro joined the frontier",
+      "url": "https://quesma.com/blog/baba-is-aug-2026/",
+      "snippet": "",
+      "published": "2026-08-20T16:57:19Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "\"the mandate\" a short fiction by Grok 4.6 on technological singularity",
+      "url": "https://www.echohive.ai/the-mandate-singularity-fiction",
+      "snippet": "",
+      "published": "2026-08-19T02:37:50Z",
+      "weight": 9
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen3.8-27B make medium the default effort level instead of xhigh",
+      "url": "https://github.com/alainnothere/llama.cpp/blob/disk-cache-eviction/models/templates/Qwen3.8-27B-medium-default.jinja",
+      "snippet": "",
+      "published": "2026-08-19T01:44:38Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Tiny Qwen personal-style resampler",
+      "url": "https://github.com/PaulBellette/qwen_paul_resampler",
+      "snippet": "",
+      "published": "2026-08-19T10:09:36Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Show HN: 8-bit Qwen3.8-27B decodes 1.7x faster than BF16, slower at 16K context",
+      "url": "https://github.com/promptdriven/pdd/tree/main/research/omlx-qwen38-quantization",
+      "snippet": "",
+      "published": "2026-08-19T15:42:17Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Unsloth releases Dynamic v3 quantizations of Qwen3.8-27B",
+      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF/discussions/74",
+      "snippet": "",
+      "published": "2026-08-19T17:59:25Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Run GLM-OCR, DeepSeek-OCR-2, Dots.mocr with an OpenAI Compatible API",
+      "url": "https://www.vlm.run/product/gateway",
+      "snippet": "",
+      "published": "2026-08-19T18:49:17Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Show HN: LLM-as-a-Verifier Plugin for DeepSeek Harness",
+      "url": "https://github.com/uson1x/dsh-plugin-llm-verifier",
+      "snippet": "",
+      "published": "2026-08-19T19:25:27Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen3.8-27B-Uncensored-MLX",
+      "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX",
+      "snippet": "",
+      "published": "2026-08-19T21:36:33Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Comparing Qwen3.8 Max and Fable 5 on UI",
+      "url": "https://blog.kilo.ai/p/qwen38-max-just-passed-claude-fable",
+      "snippet": "",
+      "published": "2026-08-20T02:47:37Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen 3.8 27B is a great open model",
+      "url": "https://williamcallahan.com/blog/qwen-3-8-27b-is-a-great-open-model",
+      "snippet": "",
+      "published": "2026-08-20T07:48:22Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "At Beijing AI-themed bar, DeepSeek tokens come with the pints",
+      "url": "https://www.reuters.com/world/asia-pacific/beijing-ai-themed-bar-deepseek-tokens-come-with-pints-2026-08-17/",
+      "snippet": "",
+      "published": "2026-08-20T08:51:39Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "We're trying to make Kimi K3 cheaper",
+      "url": "https://packs.relace.ai/",
+      "snippet": "",
+      "published": "2026-08-20T17:18:36Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen3.8 Fetches Weird URLs",
+      "url": "https://news.ycombinator.com/item?id=49379079",
+      "snippet": "I am working on opencode with the last qwen3.8-27B from unsloth (with dynamic 3.0 quants).<p>while checking documentation for a rust project, instead of fetching the url it had listed in its own reaso",
+      "published": "2026-08-20T19:32:51Z",
+      "weight": 7
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Meta AI is getting a Mac app",
+      "url": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
+      "snippet": "Meta is launching a new Mac app dedicated to its AI chatbot. In an announcement on Wednesday, Meta says you can share your window with its AI chatbot, which can provide suggestions, answer questions, ",
+      "published": "2026-08-19T13:00:00-04:00",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI hit the brakes. Now what?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+      "snippet": "With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast. Instead, it hit the brakes. On Tuesday, the ",
+      "published": "2026-08-19T13:10:09-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Show HN: Budget Guard – a hard daily cap for your OpenAI/Anthropic bill",
+      "url": "https://github.com/kimbeomgyu/budget-guard",
+      "snippet": "",
+      "published": "2026-08-19T13:41:15Z",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Google Gemini is getting a dedicated student hub",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
+      "snippet": "As we're gearing up for back-to-school season, Google is rolling out a new dedicated student hub in Gemini. It's a one-stop repository for collecting research in a study notebook, creating flashcards,",
+      "published": "2026-08-19T15:00:00-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Show HN: Open Bot – an open-source Grok Bot that works with any agent harness",
+      "url": "https://github.com/copilotkit/openbot",
+      "snippet": "",
+      "published": "2026-08-19T18:45:48Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Zuckerberg encouraged growth over child safety, ex-Meta executive testifies",
+      "url": "https://www.reuters.com/legal/litigation/former-meta-engineer-resumes-testimony-landmark-trial-over-social-medias-harm-2026-08-19/",
+      "snippet": "",
+      "published": "2026-08-20T03:31:56Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Owner of grok.bot asks xAI for $1M",
+      "url": "https://grok.bot/",
+      "snippet": "",
+      "published": "2026-08-20T05:41:55Z",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "It’s Greg Brockman’s OpenAI now",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+      "snippet": "OpenAI has had a hell of a year. The company spent months battling former cofounder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Apple, and faced wides",
+      "published": "2026-08-20T11:45:55-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Sokoban via Grok App Builder",
+      "url": "https://sokoban.grok.me/",
+      "snippet": "",
+      "published": "2026-08-20T13:13:59Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Grok exfiltrates user data when malicious instructions are encrypted",
+      "url": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
+      "snippet": "",
+      "published": "2026-08-20T16:07:06Z",
+      "weight": 6
+    }
+  ],
+  "cn": [
+    {
+      "source": "雷锋网",
+      "title": "豆包上线侧边工作台，支持对话与操作同屏进行",
+      "url": "https://www.leiphone.com/category/industrynews/NUnI2tLusJdGxAar.html",
+      "snippet": "<p>近日，豆包围绕生产力场景发布多项更新，“工作任务模式”界面也进行了升级。“对话”页面右侧新增了侧边工作台，以多标签形式统一承载任务相关资源，让 AI 对话与实际操作可以同屏完成，无需在多个窗口间频繁切换。</p><p><img src=\"https://static.leiphone.com/uploads/new/images/20260820/6a86d32fd2c12.png?imag",
+      "published": "Thu, 20 Aug 2026 18:13:00 +0800",
+      "weight": 10
+    },
+    {
+      "source": "36氪",
+      "title": "一个扭转命运的决定：5000 亿智谱如何「逆风改命」|深氪",
+      "url": "https://36kr.com/p/3947451908357257?f=rss",
+      "snippet": "<p><strong>文 | 周鑫雨 张雨忻</strong></p>\n  <p><strong>编辑 | 张雨忻 杨轩</strong></p>\n  <p>GLM 5.3 发布后不到一小时，智谱一名销售的电话和微信都爆了：十几个来询问 API 上线时间的，以及吸取了 Kimi K3 教训，想提前锁定智谱推理算力的客户也不少。这种状况一直持续了整个周末。</p>\n  <p>8 月 14 日下午，智",
+      "published": "2026-08-20 15:12:42  +0800",
+      "weight": 7
+    },
+    {
+      "source": "199IT",
+      "title": "OpenAI：2026年Q2营收670亿美元，环比增长18%",
+      "url": "http://www.199it.com/archives/1846582.html",
+      "snippet": "OpenAI向投资者披露，2026年Q2营收670亿美元，环比增长18%；营业亏损从930亿美元扩大至1230亿美元。同期Anthropic营收1160亿美元，翻倍以上增长并实现小幅盈利。两家公司业绩分化，反映AI行业竞争格局变化。",
+      "published": "Thu, 20 Aug 2026 12:18:28 +0000",
+      "weight": 6
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "OpenAI 因安全问题突然停训GPT-6！网友：当你造出一个神，就不可能再给它拴上绳子",
+      "url": "https://www.infoq.cn/article/BLfF9zUGrzpqJ5QbSBJD?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/BLfF9zUGrzpqJ5QbSBJD?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Wed, 19 Aug 2026 20:14:12 GMT",
+      "weight": 6
+    },
+    {
+      "source": "36氪",
+      "title": "一年四轮融资近10亿，这家中性原子量子公司具备超千比特规模整机交付能力丨36氪首发",
+      "url": "https://36kr.com/p/3946560900185480?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260819/v2_3c726701ef7048efa7f322ebfb369576@6221844_oswg1050279oswg1019oswg1127_img_png?x-oss-process=image/quality,q_90/format,jpg/",
+      "published": "2026-08-20 10:00:00  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "硬氪独家 | 清华，中科院具身大脑企业融资10亿，已获得数亿海外订单",
+      "url": "https://36kr.com/p/3947288204770693?f=rss",
+      "snippet": "<p>硬氪获悉，近日具身智能企业中科第五纪连续完成A1轮、A2轮融资，总融资金额超过十亿元。其中A1轮由锡高投、中国银行旗下中银AIC基金、三锋投资联合投资；A2轮由芯能创投、中银AIC基金、中山创投、鸿瑞达投资、博彦科技、金创投(浙江省新能源汽车子基金)联合投资。</p>\n  <p>中科第五纪成立于2024年，成立不到两年时间已完成数十亿融资。第五纪是一家头部的“具身大脑”公司，围绕具身操作大模",
+      "published": "2026-08-20 11:10:00  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "亚马逊Prime Video拟在拉美投资20亿美元",
+      "url": "https://36kr.com/newsflashes/3948524618481026?f=rss",
+      "snippet": "当地时间8月20日，亚马逊旗下Prime Video宣布，将在2027年至2030年期间向拉丁美洲投资20亿美元，该投资将涵盖墨西哥、巴西、阿根廷、哥伦比亚和智利等国的原创节目、本地制作及引进内容，以及体育赛事直播权。（界面）",
+      "published": "2026-08-21 08:29:52  +0800",
+      "weight": 5
+    },
+    {
+      "source": "199IT",
+      "title": "美国银行：Intel芯片代工业务2030年新增营收400亿美元，约为目前40倍",
+      "url": "http://www.199it.com/archives/1846590.html",
+      "snippet": "美国银行研究显示，Intel未来有望拿下3800亿美元芯片代工市场10%份额及200亿美元先进封装市场30%份额，2030年新增营收将达400亿美元，约为目前11亿美元的40倍。Intel近期已融资200亿美元，为扩产储备资金。",
+      "published": "Thu, 20 Aug 2026 12:17:54 +0000",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "氪星晚报｜台积电先进封装CoWoS产能供不应求，订单爆满；小米新一代人形机器人剧透：双足、1.7米左右、全身66个自由度；《全民医疗保障“十五五”规划》发布",
+      "url": "https://36kr.com/p/3946071336287361?f=rss",
+      "snippet": "<h2><strong>大公司：</strong></h2>\n  <p><a href=\"https://36kr.com/newsflashes/3946136565890185\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>消息称三星电子目标今年9月率先完成1d nm DRAM内存研发</strong></a></p>\n  <p>据The",
+      "published": "2026-08-19 20:08:59  +0800",
+      "weight": 4
+    },
+    {
+      "source": "雷锋网",
+      "title": "跨境圈爆火的 AI，潜入了淘宝商家的后台",
+      "url": "https://www.leiphone.com/category/smartretailing/0w2SDhpkUaCdV6GK.html",
+      "snippet": "<p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260820/6a86bf77bb498.jpg?imageView2/2/w/740\" /></p><p>近几年，随着国内竞争加剧和全托管等新模式带动，越来越多内贸商家开始出海寻找新的生意机会。与此同时，很多从海外市场",
+      "published": "Thu, 20 Aug 2026 16:53:00 +0800",
+      "weight": 4
+    },
+    {
+      "source": "雷锋网",
+      "title": "独家丨拓竹百人团队操刀激光雕刻机，C 端打法杀入 xTool 腹地",
+      "url": "https://www.leiphone.com/category/weiwu/CHFOUkfAFyhUEByQ.html",
+      "snippet": "<section style=\"margin-bottom: 16px;\"><span><img alt=\"图片\" class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/6a6c4981e5bcb.jpg?imageMogr2/quality/90\" /></span></section><section style=\"margin",
+      "published": "Thu, 20 Aug 2026 18:46:00 +0800",
+      "weight": 4
+    },
+    {
+      "source": "36氪",
+      "title": "8点1氪丨买火车票放零食被要求让座，12306回应；宇树科技上市庆功照流出；章子怡套现3个亿",
+      "url": "https://36kr.com/p/3947086287158404?f=rss",
+      "snippet": "<h2>今日热点导览</h2>\n  <ul>\n   <li>智谱：GLM-5.3 API即日起正式上线</li>\n   <li>宇树创始人王兴兴身家超1300亿</li>\n   <li>2026七夕档票房破亿</li>\n   <li>迪士尼与旗下美国广播公司起诉美联邦通讯委员会</li>\n   <li>比尔盖茨名下豪华度假村因维护不善面临1亿美元索赔</li>\n  </ul>\n  <h2>TOP ",
+      "published": "2026-08-20 07:48:59  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "AI席卷一切，但游戏行业的巨变才刚刚开始",
+      "url": "https://36kr.com/p/3946527216958851?f=rss",
+      "snippet": "<p>文丨刘士武</p>\n  <p>每年暑期，都是游戏展会扎堆的日子，其中最受人关注的便是连续举办二十余年的ChinaJoy。</p>\n  <p>这几年的游戏圈有两个大趋势，一个是国游的崛起，尤其是独游和3A级大作，另一个则是AI技术迅速深入游戏开发甚至体验的各个流程。对于ChinaJoy来说，游戏内容本身的进步是长期趋势，但技术爆发带来的变化却在近两年时间里如潮水席卷而来。</p>\n  <p>去",
+      "published": "2026-08-20 09:00:28  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "15分钟超长实机发布，《黑神话：钟馗》更近一步了",
+      "url": "https://36kr.com/p/3947276220988808?f=rss",
+      "snippet": "<p>文丨刘士武</p>\n  <p>8月20日恰逢《黑神话：悟空》上线两周年，所有人都在等着游戏科学新作《黑神话：钟馗》的新情报。</p>\n  <p>上午10点，游戏科学正式放出了《黑神话：钟馗》的首支15分钟实机演示，首次展示主角战斗与部分剧情片段，迅速冲上微博热搜和B站热搜。截至发稿，实机演示在B站播放量已近百万（上线约50分钟）。</p>\n  <p class=\"image-wrapper\"",
+      "published": "2026-08-20 10:58:39  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "最前线｜拓竹启动消费级UV打印机项目，已开放首批研发岗位",
+      "url": "https://36kr.com/p/3947546313374851?f=rss",
+      "snippet": "<p>文｜张子怡</p>\n  <p>编辑｜袁斯来</p>\n  <p>36氪获悉，拓竹科技已启动消费级UV打印机项目，首批研发岗位近期已上线招聘。</p>\n  <p>8月19日，拓竹科技确认，公司已经启动消费级UV打印机项目。接近拓竹的知情人士称，目前项目已规划十余个岗位方向，覆盖喷头驱动、波形与墨路、材料验证以及软件协同等研发环节。</p>\n  <p>目前，拓竹官网已经开放UV打印技术专家、FPG",
+      "published": "2026-08-20 15:32:13  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "斗鱼26年Q2财报发布：总收入9.81亿元，毛利润同比增长12%",
+      "url": "https://36kr.com/p/3947666391301504?f=rss",
+      "snippet": "<p>8月20日，斗鱼发布2026年第二季度未经审计财务报告。</p>\n  <p>本季度斗鱼总收入9.81亿元，环比增长19.4%，受本季度内容投入阶段性增长影响，第二季度GAAP净亏损为7235万元，调整后净亏损为1345万元。依托收入结构及运营成本效率提升，毛利润为1.59亿元，同比增长12%，毛利率为16.2%，同比、环比均有所改善。创新业务、广告及其他收入为4.78亿元，占总收入48.7%",
+      "published": "2026-08-20 18:18:10  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "8点1氪丨许家印被判处无期徒刑；宇树大跌，中签者说幸亏全卖了；云南已规定感染艾滋病要告知配偶",
+      "url": "https://36kr.com/p/3948502822550665?f=rss",
+      "snippet": "<h2>今日热点导览</h2>\n  <ul>\n   <li>免部署一键调用，国家超算互联网上线GLM-5.3 API</li>\n   <li>商务部回应美征收无人机关税问题</li>\n   <li>上海市调整商业性个人住房贷款最低首付比例政策</li>\n   <li>台积电A16工艺完成开发验证，目标Q4量产</li>\n   <li>“大空头”伯里唱空英伟达，力挺AI芯片新秀Etched</li>",
+      "published": "2026-08-21 07:44:54  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "低利率叠加高波动，多资产多策略配置成破局关键",
+      "url": "https://36kr.com/newsflashes/3948519715093635?f=rss",
+      "snippet": "当前，债券收益率中枢处于低位，传统固收资产票息空间收窄。同时，全球股市结构分化加剧，债券市场对通胀、财政和货币政策变化更为敏感，原油、黄金、有色金属等商品价格波动也有所放大。不同市场之间的联动增强，使单纯依靠股债搭配获取稳健回报的难度上升。多位受访人士认为，面对收益中枢下移和不确定性上升，投资者需要适当降低对单一资产的收益预期，从传统股债组合逐步转向多资产、多策略配置，通过拓宽收益来源、强化风险预",
+      "published": "2026-08-21 08:20:52  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "英国银行业巨头联名致信警告，不要进一步提高税收",
+      "url": "https://36kr.com/newsflashes/3948521855106435?f=rss",
+      "snippet": "英国金融协会（UK Finance）已告知财政大臣约翰·希利，其秋季预算案中提高行业税的举措可能会损害英国的国际竞争力。（天空新闻） 报告并援引该组织周四发出的一封信函。该行业协会的成员包括巴克莱银行、汇丰银行、劳埃德银行集团和国民西敏寺银行集团。（新浪财经）",
+      "published": "2026-08-21 08:23:04  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "股票私募仓位指数维持高位，大型机构加仓意愿强烈",
+      "url": "https://36kr.com/newsflashes/3948522445241735?f=rss",
+      "snippet": "近期，股票私募仓位指数持续稳居年内高点。最新数据显示，截至2026年8月14日，股票私募仓位指数为83.97%，较前一统计周（8月3日至8月7日）微升0.09个百分点，且该指数已连续第七周维持在83%以上的年内高位，反映出私募机构整体持股意愿较强。（证券日报）",
+      "published": "2026-08-21 08:25:38  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "银河证券：超节点重塑网络架构，关注国内交换机+交换芯片领域龙头",
+      "url": "https://36kr.com/newsflashes/3948524180225416?f=rss",
+      "snippet": "36氪获悉，银河证券研报认为，AI时代算力集群的前后端网络组网均拉动大量交换机需求，1.6T端口交换机有望在2027年开始放量，WAIC 2026超节点成为绝对主角，内部互联带宽快速演进，端口速率每迭代一次，单台交换机价值量便有所提升，支撑盈利能力。同时Scale-Up交换机对时延的要求自μs级压缩至百ns级，设计难度与验证周期远超传统产品，赋予存量玩家持续的议价能力，倒逼产业链“卡脖子”环节——",
+      "published": "2026-08-21 08:27:20  +0800",
+      "weight": 1
+    },
+    {
+      "source": "掘金",
+      "title": "LLM 请求重试耗尽之后：Dead Letter Queue 工程实践",
+      "url": "https://juejin.cn/post/7676110932376289299",
+      "snippet": "--- 凌晨两点，我们的报告生成任务静静地失败了。 用户是付费客户，任务是生成一份 20 页的行业分析报告。任务进入队列，调用 LLM API，第一次超时——重试；第二次 503——重试；第三次 rate limit——重试三次全部超时。",
+      "published": "Fri, 21 Aug 2026 00:18:38 GMT",
+      "weight": 1
+    },
+    {
+      "source": "钛媒体",
+      "title": "【钛晨报】事关外卖骑手等劳动权益保障，工会工作“十五五”规划发布；宇树发布仿生7轴灵巧机械臂，售价9900元起；台积电1.6nm级A16工艺完成开发验证，目标Q4量产",
+      "url": "https://www.tmtpost.com/8111046.html",
+      "snippet": "阿里巴巴：2027财年第一季度营收2,689.5亿元，同比增长9%；网易Q2净收入301亿元，营业利润121亿元；台积电1.6nm级A16工艺完成开发验证，目标Q4量产；奇瑞汽车：上半年实现收入1432.80亿元，同比增长1.2%；谷歌旗下Waymo为其无人出租车自研定制芯片；三星晶圆代工技术蓝图调整，1.4纳米延后至2029年量产；《2026年人形机器人产业发展报告》8月20日发布；国家药监局批",
+      "published": "Fri, 21 Aug 2026 07:20:00 +0800",
+      "weight": 1
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "随着 AI 生成的代码日益增多，GitHub Code Quality 聚焦可维护性",
+      "url": "https://www.infoq.cn/article/ELr08T70hyUzfUolgw5g?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/ELr08T70hyUzfUolgw5g?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Thu, 20 Aug 2026 09:16:00 GMT",
+      "weight": 1
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "蚂蚁 AI 驱动的生产级软件交付基建和实践｜AICon深圳",
+      "url": "https://www.infoq.cn/article/FjAtSWXLEfY3Iu4ThvJM?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/FjAtSWXLEfY3Iu4ThvJM?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Thu, 20 Aug 2026 10:00:00 GMT",
+      "weight": 1
+    }
+  ],
+  "source_stats": {
+    "OpenAI-News": 4,
+    "Google-AI-Blog": 1,
+    "TheVerge-AI": 8,
+    "TechReview-AI": 2,
+    "LastWeekInAI": 0,
+    "MarkTechPost": 0,
+    "SebastianRaschka": 0,
+    "TheGradient": 0,
+    "HuggingFace-Blog": 1,
+    "HackerNews": 4,
+    "HackerNews-DeepSeek": 5,
+    "HackerNews-Kimi": 8,
+    "HackerNews-Qwen": 8,
+    "HackerNews-Grok": 8,
+    "HackerNews-xAI": 8,
+    "ArXiv-cs.AI": 15,
+    "雷锋网": 15,
+    "钛媒体": 15,
+    "36氪": 15,
+    "InfoQ中文": 15,
+    "掘金": 15,
+    "199IT": 15
+  },
+  "dedup": {
+    "intl": {
+      "before": 72,
+      "after": 69
+    },
+    "cn": {
+      "before": 90,
+      "after": 89
+    }
+  }
+}
