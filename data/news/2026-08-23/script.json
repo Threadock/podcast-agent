@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-08-23 | 视频生成炸场,可灵核心出走,Claude收紧到公共互联网 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "InfoQ中文",
+      "title": "视频生成迎来\"Claude Code时刻\",MiniMax Design杀入Adobe和Canva腹地",
+      "url": "https://www.infoq.cn/article/7FAcAhVUw89VJNwuOwrc?utm_source=rss&utm_medium=article",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "可灵核心技术骨干王鑫涛离职",
+      "url": "https://www.leiphone.com",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "DeepSeek发布多模态模型,\"小鲸鱼\"长出了眼睛",
+      "url": "https://www.infoq.cn/article/jlTfe57D4r0Juzpz8Fk5?utm_source=rss&utm_medium=article",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "神秘\"Ox Alpha\"突袭OpenRouter,性能超过Fable 5,全网盲猜智谱或小米",
+      "url": "https://www.infoq.cn/article/3MNJh5F34GSsRQJJWJzY?utm_source=rss&utm_medium=article",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "阿里再调业务架构:电商合并、云芯片整合、千问分拆为独立子公司",
+      "url": "https://www.tmtpost.com",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "科大讯飞:今年全球1024开发者节将推出全新主力通用大模型",
+      "url": "https://36kr.com/newsflashes",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "OpenAI之后又是Anthropic,Claude将攻击延伸至公共互联网",
+      "url": "https://www.infoq.cn/article/9FZ8z60yB4tS4WQEP4dw?utm_source=rss&utm_medium=article",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge",
+      "title": "多位头部YouTube创作者因接AI商单遭粉丝反噬",
+      "url": "https://www.theverge.com/ai",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews",
+      "title": "DeepSeek V4-Flash Vision多模态版本在单张MI300X上的实测表现",
+      "url": "https://news.ycombinator.com",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Grok发送乱码回复,Grok Bot与Grok Build要做App杀手",
+      "url": "https://news.ycombinator.com",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "撞名Anthropic的\"外挂\"刷屏:号称DeepSeek V4-Pro碾压Fable 5但无人复现",
+      "url": "https://www.infoq.cn/article/MKDQBpGhC5Uu3pB4kMbC?utm_source=rss&utm_medium=article",
+      "weight": "medium"
+    },
+    {
+      "source": "36氪",
+      "title": "雷鸟iO AI眼镜发布,首发1996元起,主打全天候主动式AI",
+      "url": "https://36kr.com",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "听众朋友们早上好,今天是2026年8月23号星期日,今日AI头条,咱们用六分钟把过去二十四小时国内外最炸的AI新闻扫一遍。"
+    },
+    {
+      "role": "guest",
+      "text": "对,今天国内这边,视频生成、可灵人事、DeepSeek多模态、千问分拆,动静都不小;国外那边,Claude和Grok也没闲着。"
+    },
+    {
+      "role": "host",
+      "text": "先说最炸的,今天第一条,国内视频生成直接被叫做\"Claude Code时刻\"了。"
+    },
+    {
+      "role": "guest",
+      "text": "你看到这条了吧,MiniMax Design这次直接对标Adobe和Canva,口号是让小白也能一句话出片子。"
+    },
+    {
+      "role": "host",
+      "text": "对,关键是它把时间轴、镜头语言、分镜都做了Agent化,不用你再一条条手搓。"
+    },
+    {
+      "role": "guest",
+      "text": "我觉得这是视频版的\"vibe coding\",以前得会剪映,现在写一句\"帮我做个赛博朋克风的咖啡广告\"就能出成片,门槛直接砍到地板。"
+    },
+    {
+      "role": "host",
+      "text": "那会不会让剪映和Premere的创作者失业啊?"
+    },
+    {
+      "role": "guest",
+      "text": "短期不会,但中间层的\"接活剪辑师\"压力会非常大,头部创作者反而会因为工具放大产能,赚得更多。"
+    },
+    {
+      "role": "host",
+      "text": "接下来这条,可灵的雷直接爆了,核心技术骨干王鑫涛博士离职了。"
+    },
+    {
+      "role": "guest",
+      "text": "对,这位是汤晓鸥的学生,Real-ESRGAN和GFPGAN这些明星开源项目的主要作者。"
+    },
+    {
+      "role": "host",
+      "text": "他2024年才加入快手可灵团队,这才两年多就走,时机挺敏感的。"
+    },
+    {
+      "role": "guest",
+      "text": "对,可灵现在正是Sora 2和Veo 3面前压力最大的时候,核心视觉生成负责人出走的信号,值得快手高层警惕。"
+    },
+    {
+      "role": "host",
+      "text": "第三条,DeepSeek放了大招,发了一个多模态模型,官方说\"小鲸鱼长出了眼睛\"。"
+    },
+    {
+      "role": "guest",
+      "text": "对,这是DeepSeek-v4-flash-vision-exp版本,能在单张MI300X上跑,官方还出了实测帖。"
+    },
+    {
+      "role": "host",
+      "text": "我看Hacker News上有人测,在64GB显存的单卡上推理速度还挺能打。"
+    },
+    {
+      "role": "guest",
+      "text": "这意味着中小企业可以私有部署一个会\"看图\"的DeepSeek了,不用再走云端,合规和成本都更友好。"
+    },
+    {
+      "role": "host",
+      "text": "但说实话,多模态这条线,GPT-4o和Gemini早就跑前面了,DeepSeek现在算补课还是后发制人?"
+    },
+    {
+      "role": "guest",
+      "text": "后发制人,你看它选的\"小模型+多模态\"路线,就是要在成本和可部署性上拉开身位,跟千问3 4B教新领域那条路是同一个思路。"
+    },
+    {
+      "role": "host",
+      "text": "第四条,OpenRouter上突然冒出来一个叫\"Ox Alpha\"的神秘模型,跑分直接超过了Fable 5。"
+    },
+    {
+      "role": "guest",
+      "text": "对,大家现在在盲猜是智谱还是小米,因为名字里的\"Ox\"和智谱的GLM系列对不上,但和小米的\"MiMo\"系列气质挺像。"
+    },
+    {
+      "role": "host",
+      "text": "而且有个细节,撞名Anthropic的那个\"外挂\"插件,也说DeepSeek V4-Pro能碾压Fable 5。"
+    },
+    {
+      "role": "guest",
+      "text": "对,这个InfoQ已经测了,根本复现不了,而且Token开销反而翻倍,基本可以判定是营销炒作。"
+    },
+    {
+      "role": "host",
+      "text": "第五条,阿里今天动了组织架构,电商合并,云芯片整合,千问分拆成独立子公司。"
+    },
+    {
+      "role": "guest",
+      "text": "对,这一步棋很关键,意味着通义千问要走自负盈亏的路,要单独去融资,甚至可能为未来独立上市铺路。"
+    },
+    {
+      "role": "host",
+      "text": "另外36氪也提到,科大讯飞要在今年1024开发者节上发全新主力通用大模型,看来下半年国产大模型要集体冲刺。"
+    },
+    {
+      "role": "guest",
+      "text": "对,讯飞一向是教育、医疗这些垂直场景见长,这次发通用大模型,是要正面硬刚DeepSeek和通义千问的节奏。"
+    },
+    {
+      "role": "host",
+      "text": "好,切到国外,第一条:Claude的安全策略又升级了,这次直接延伸到公共互联网。"
+    },
+    {
+      "role": "guest",
+      "text": "对,以前Claude是检测到你电脑上的恶意软件才拦截,现在是只要看到你访问的公网链接有问题,也会报警甚至拒绝回答。"
+    },
+    {
+      "role": "host",
+      "text": "这不是把Claude当保镖用了吗?用户能接受吗?"
+    },
+    {
+      "role": "guest",
+      "text": "短期内会有抱怨,但企业市场反而欢迎,因为等于给员工加了一层\"零信任\"网关。"
+    },
+    {
+      "role": "host",
+      "text": "第二条,YouTube头部创作者翻车了,Matti Haapoja和Sam Kold这些人接了AI平台的商单。"
+    },
+    {
+      "role": "guest",
+      "text": "对,粉丝发现他们用AI工具批量做内容,直接反噬,掉粉严重,TheVerge的标题很狠,叫\"facing backlash\"。"
+    },
+    {
+      "role": "host",
+      "text": "这其实是一个信号,观众对AI内容从好奇变成了反感。"
+    },
+    {
+      "role": "guest",
+      "text": "没错,以前是\"AI做的算你厉害\",现在是\"AI做的你糊弄我\",情绪反转非常快。"
+    },
+    {
+      "role": "host",
+      "text": "第三条,Grok那边也出状况了,有用户反映Grok发乱码回复。"
+    },
+    {
+      "role": "guest",
+      "text": "对,而且Hacker News上有个帖子直接说,Grok Bot和Grok Build要做App和操作系统的\"终结者\"。"
+    },
+    {
+      "role": "host",
+      "text": "这个判断其实有点过,但方向是对的:对话就是新的入口,App形态确实在被解构。"
+    },
+    {
+      "role": "guest",
+      "text": "其实你看,国内国外节奏挺同步的,都在抢\"对话即服务\"这个赛道。"
+    },
+    {
+      "role": "host",
+      "text": "对,国内是千问、DeepSeek、可灵在卷,国外是Claude、Grok、ChatGPT在卷,但打的方向都是Agent化。"
+    },
+    {
+      "role": "guest",
+      "text": "还有一个细节可以串起来:DeepSeek那个\"撞名Anthropic的外挂\"为啥会刷屏?"
+    },
+    {
+      "role": "host",
+      "text": "因为大家都想跑赢Fable 5,Fable是Anthropic最新一代,基本上是行业标杆,所以能不能碾压Fable,就成了一种新的话术货币。"
+    },
+    {
+      "role": "guest",
+      "text": "而且你看,智谱或者小米的Ox Alpha也是打Fable 5,Claude自己也在卷Fable 5,整个行业被锚定了。"
+    },
+    {
+      "role": "host",
+      "text": "对,这就是典型的\"锚定效应\",所有人都在跟同一个假想敌较劲,反而让真正的差异化变少了。"
+    },
+    {
+      "role": "guest",
+      "text": "再把视野拉远一点,今天钛媒体还提到一个数据,说AI基建潮可能埋下三万亿美元的隐形债务。"
+    },
+    {
+      "role": "host",
+      "text": "对,这个数字挺吓人,逻辑是数据中心大规模举债,但真实需求跟不上,现金流撑不住本息。"
+    },
+    {
+      "role": "guest",
+      "text": "那你觉得,这一波AI泡沫会不会重演2000年互联网泡沫?"
+    },
+    {
+      "role": "host",
+      "text": "不会完全一样,但一定会有一轮出清,没找到应用场景的算力中心,会先倒下。"
+    },
+    {
+      "role": "guest",
+      "text": "说到应用,今天国内还有几件事值得提一下:雷鸟发了iO AI眼镜,首发1996元起,主打全天候主动式AI。"
+    },
+    {
+      "role": "host",
+      "text": "对,这是国内AR眼镜里少有的把重量和续航都做到位的,能不能复现Meta眼镜的销量,得看生态。"
+    },
+    {
+      "role": "guest",
+      "text": "百度智能云这边,2026年Q1增速达到了79%,在中国头部云里排第一。"
+    },
+    {
+      "role": "host",
+      "text": "对,百度是吃到了开源大模型的福利,千帆平台接了很多企业的私有化部署需求。"
+    },
+    {
+      "role": "guest",
+      "text": "还有一条,Meta开源了一个支持本地运行、视觉和工具调用的智能体模型。"
+    },
+    {
+      "role": "host",
+      "text": "对,这意味着智能体框架在往\"端侧跑\"走,以后你的笔记本上就能跑一个会看屏幕、会点鼠标的Agent。"
+    },
+    {
+      "role": "guest",
+      "text": "另外,可灵那边虽然人走了,但伽利略机器人在WRC上发了\"陆行具身系统\"。"
+    },
+    {
+      "role": "host",
+      "text": "对,这是把轮式、足式机器人的底层控制打通了,具身智能这块,国内热度一直没断。"
+    },
+    {
+      "role": "guest",
+      "text": "天行探索完成了数千万天使+轮融资,做卫星互联网和数据服务。"
+    },
+    {
+      "role": "host",
+      "text": "对,这个赛道其实是\"天基大模型\"的基础设施,以后边缘算力上天,卫星就是节点。"
+    },
+    {
+      "role": "guest",
+      "text": "还有一条容易被忽略的,Hacker News上有人展示了Qwen 3 4B被训练去学新领域,效果还不错。"
+    },
+    {
+      "role": "host",
+      "text": "对,这说明小模型+领域微调的范式,正在成为企业落地的主流,不用再死磕千亿参数。"
+    },
+    {
+      "role": "host",
+      "text": "最后一个,材料AI公司材科源图三个月连融两轮,AI全链路赋能材料研发。"
+    }
+  ]
+}
