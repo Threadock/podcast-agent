@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-08-24 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "36氪",
+      "title": "阿里巴巴拟配售800亿港元新股,全部投入AI建设",
+      "url": "https://36kr.com",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "豆包将推WorkBuddy类产品,飞书十年积累正在组件化",
+      "url": "https://www.tmtpost.com",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "DeepSeek调整峰谷计费,周末全天按低谷价格计费",
+      "url": "https://36kr.com",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "伯南克加盟Anthropic:这位前美联储主席守得住AI的门吗",
+      "url": "https://www.tmtpost.com",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "雷鸟iO AI眼镜正式发布,首发1996元起",
+      "url": "https://36kr.com",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "三大运营商半年报:算力与Token经营成转型主引擎",
+      "url": "https://36kr.com",
+      "weight": "medium"
+    },
+    {
+      "source": "36氪",
+      "title": "腾讯正式上线AI应用生成平台\"吐司\":一句话生成App",
+      "url": "https://36kr.com",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Gemini 3.7 Flash、Grok 4.6、GLM-5.3、DeepSeek V4 Pro集体跻身第一梯队",
+      "url": "https://news.ycombinator.com",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Anthropic IPO文件将把\"AI舆论反弹\"列为风险因素",
+      "url": "https://news.ycombinator.com",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Grok Bot与Grok Build:让App和操作系统都变得多余",
+      "url": "https://news.ycombinator.com",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "匿名大模型被扒出智谱血缘,有人怀疑Cursor用开源GLM训练",
+      "url": "https://www.qbitai.com",
+      "weight": "medium"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Sebastian Raschka深度解析:Claude如何给AI文本加水印",
+      "url": "https://sebastianraschka.com",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "大家好,欢迎来到《今日AI头条》,今天是2026年8月24号,咱们一起看看这24小时全球AI圈发生了啥。"
+    },
+    {
+      "role": "guest",
+      "text": "没错,今天重磅不少,咱们先从国内聊起。"
+    },
+    {
+      "role": "host",
+      "text": "第一条就炸了,阿里宣布配售800亿港元新股,全部砸进AI建设,你怎么看这个动作?"
+    },
+    {
+      "role": "guest",
+      "text": "你看啊,800亿港元换成美元大概100亿出头,这笔钱对任何一家国内大厂都不是小数目,而且明确点名AI。"
+    },
+    {
+      "role": "host",
+      "text": "关键在于配售消息刚出,据说就已经超额认购,说明资本市场对国内AI叙事依然买单,这是给整个行业定调。"
+    },
+    {
+      "role": "guest",
+      "text": "对吧,而且这个时间点卡得很微妙,DeepSeek刚调完价格,阿里这边弹药立刻跟上。"
+    },
+    {
+      "role": "host",
+      "text": "对,更微妙的是这次配售正好赶上阿里刚发的财报,2027财年Q1营收2690亿,基本面稳得住,所以敢伸手。"
+    },
+    {
+      "role": "guest",
+      "text": "第二条重磅,豆包团队最快下周推一款对标腾讯WorkBuddy的办公类产品,飞书十年积累要被组件化了。"
+    },
+    {
+      "role": "host",
+      "text": "这件事很有意思,字节跳动的打法一向是抄作业抄得快,但这次是要从C端切企业办公市场。"
+    },
+    {
+      "role": "guest",
+      "text": "你想想,飞书打磨了十年才攒下的协作、文档、审批能力,字节想靠豆包AI直接重新封装。"
+    },
+    {
+      "role": "host",
+      "text": "那不就是用AI把传统SaaS重新做一遍吗?"
+    },
+    {
+      "role": "guest",
+      "text": "对,本质就是AI原生办公套件,把交互从点击变成对话,把工作流变成Agent自动跑。"
+    },
+    {
+      "role": "host",
+      "text": "不过企业市场光有AI不够,权限管理、合规审计、数据隔离这些脏活累活,字节还得补课。"
+    },
+    {
+      "role": "guest",
+      "text": "第三条,DeepSeek官方确认调整峰谷计费,8月23号起周末全天按低谷时段价格走。"
+    },
+    {
+      "role": "host",
+      "text": "这是DeepSeek第二次调价,之前是给一些企业发了函,把价格涨了一波。"
+    },
+    {
+      "role": "guest",
+      "text": "你看啊,表面看是给开发者让利,但其实是把价格杠杆从时段切到了工作日。"
+    },
+    {
+      "role": "host",
+      "text": "这背后的意思是什么?"
+    },
+    {
+      "role": "guest",
+      "text": "意思是DeepSeek想用价格引导开发者把非实时任务排到周末跑,平滑它的算力曲线,变相降成本。"
+    },
+    {
+      "role": "host",
+      "text": "第四条人事大新闻,前美联储主席伯南克加盟Anthropic,你怎么看这个信号?"
+    },
+    {
+      "role": "guest",
+      "text": "伯南克是2008年金融危机时救火的那个掌门人,他来Anthropic不是来写代码的。"
+    },
+    {
+      "role": "host",
+      "text": "钛媒体那篇分析说得挺到位,他的象征价值远大于实质价值,更像IPO前的合规道具。"
+    },
+    {
+      "role": "guest",
+      "text": "就是说Anthropic要在资本市场讲一个\"我们懂系统性风险\"的故事?"
+    },
+    {
+      "role": "host",
+      "text": "没错,而且Anthropic还同步在挖谷歌定制芯片项目的创始人,准备自己搞自研半导体,这是技术+资本两手抓。"
+    },
+    {
+      "role": "guest",
+      "text": "第五条,雷鸟创新发布雷鸟iO系列AI眼镜,首发价1996元起,主打\"会思考的眼镜\"。"
+    },
+    {
+      "role": "host",
+      "text": "1996这个定价卡得很巧,刚好压到两千元心理线以下,瞄准的是尝鲜型消费者。"
+    },
+    {
+      "role": "guest",
+      "text": "它最大的卖点不是显示,是全天候主动式AI,号称行业首款\"人类增强AI\",听着挺玄乎。"
+    },
+    {
+      "role": "host",
+      "text": "那和Meta-Ray-Ban那种眼镜有什么本质区别?"
+    },
+    {
+      "role": "guest",
+      "text": "区别在于雷鸟强调\"增强\",就是主动给知识、记忆、表达做加法,不只是被动回答问题。"
+    },
+    {
+      "role": "host",
+      "text": "好,国内聊完,咱们把目光切到国际,第一件大事:Gemini 3.7 Flash、Grok 4.6、GLM-5.3、DeepSeek V4 Pro集体跻身第一梯队。"
+    },
+    {
+      "role": "guest",
+      "text": "你看这个榜单,等于四家厂商在同一个时间窗口集中发力,前沿模型门槛被迅速拉平。"
+    },
+    {
+      "role": "host",
+      "text": "这意味着什么?意味着GPT-4o那种单家独大的时代结束了,模型竞争进入集团军作战。"
+    },
+    {
+      "role": "guest",
+      "text": "GLM是智谱的吧,DeepSeek V4 Pro也来了,加上Gemini和Grok,中美前沿差距在缩小?"
+    },
+    {
+      "role": "host",
+      "text": "对,尤其DeepSeek V4 Pro,意味着顶级开源模型已经能在很多任务上接近闭源天花板,这是质变。"
+    },
+    {
+      "role": "guest",
+      "text": "第二条,Anthropic的IPO文件里要把\"AI舆论反弹\"列为风险因素,这事你怎么看?"
+    },
+    {
+      "role": "host",
+      "text": "这其实是Anthropic第一次正面承认AI引发的舆论反弹可能影响上市估值。"
+    },
+    {
+      "role": "guest",
+      "text": "你想啊,以前大家讲AI都是增长故事,现在得给投资人打预防针,行业风向确实变了。"
+    },
+    {
+      "role": "host",
+      "text": "第三条,马斯克那边有声音说Grok Bot和Grok Build会让App甚至操作系统都变得多余。"
+    },
+    {
+      "role": "guest",
+      "text": "这个判断有点激进,但方向没错,Grok Build本质上是想把整个桌面变成AI可调用的工具集合。"
+    },
+    {
+      "role": "host",
+      "text": "你看啊,从这个开发者社区的项目就能看出来,已经有人在做让Grok Bot把任务下发给Claude或Codex命令行工具。"
+    },
+    {
+      "role": "guest",
+      "text": "也就是说Agent之间互相调度,这不就是\"AI版RPC\"吗?"
+    },
+    {
+      "role": "host",
+      "text": "对,未来可能是几个顶级Agent互相拆活,每个App退化成被调用的函数,操作系统变成Agent协调器。"
+    },
+    {
+      "role": "guest",
+      "text": "好,国内外都聊完了,咱们做几个横向对比。第一,中美AI打法上,你看到最明显的差异是什么?"
+    },
+    {
+      "role": "host",
+      "text": "美国那边是堆闭源模型+超级融资,中国这边是开源打天下+价格战,DeepSeek就是典型代表。"
+    },
+    {
+      "role": "guest",
+      "text": "但有意思的是,Anthropic开始找伯南克讲合规故事,DeepSeek开始玩峰谷电价,大家都在向对方学。"
+    },
+    {
+      "role": "host",
+      "text": "第二,模型层面,Gemini 3.7 Flash、Grok 4.6、GLM-5.3、DeepSeek V4 Pro四家并起,说明啥?"
+    },
+    {
+      "role": "guest",
+      "text": "说明模型层的护城河在变浅,光靠一个模型打天下越来越难,后面拼的是应用、Agent、生态。"
+    },
+    {
+      "role": "host",
+      "text": "第三,资本层面,阿里配售800亿港元、软银要发1万亿日元债券,全球AI烧钱还在加速?"
+    },
+    {
+      "role": "guest",
+      "text": "对,而且这次是中日美三个市场同步加码,说明AI基建不是泡沫叙事,而是被真金白银押注。"
+    },
+    {
+      "role": "host",
+      "text": "你看英伟达AI服务器都要涨价15%,1GW数据中心成本激增50亿美元,硬件成本压力已经传导到终端了。"
+    },
+    {
+      "role": "guest",
+      "text": "第四,生态层面,豆包对标飞书、腾讯推出吐司一句话生成App,国内AI应用落地节奏加快了?"
+    },
+    {
+      "role": "host",
+      "text": "没错,从模型竞争切到应用竞争,中国厂商的速度优势就出来了,这轮AI应用可能中国先跑出来。"
+    },
+    {
+      "role": "guest",
+      "text": "好,接下来咱们速览几条其他要闻。第一条,腾讯正式上线AI应用生成平台吐司,一句话能生成App还直接上架商店。"
+    },
+    {
+      "role": "host",
+      "text": "这是腾讯版的vibe coding,野心不小,直接打通从生成到分发的全链路。"
+    },
+    {
+      "role": "guest",
+      "text": "第二条,三大运营商半年报出炉,AIDC智算服务和Token经营成转型主引擎。"
+    },
+    {
+      "role": "host",
+      "text": "运营商正在从管道工变身算力商,这是国内AI基础设施最重要的供给侧变化之一。"
+    },
+    {
+      "role": "guest",
+      "text": "第三条,量子位扒出某匿名大模型和智谱有血缘,还有人怀疑Cursor拿开源GLM训练。"
+    },
+    {
+      "role": "host",
+      "text": "开源模型被\"白嫖\"这事越来越普遍,智谱们该认真想想License和追溯机制了。"
+    },
+    {
+      "role": "guest",
+      "text": "第四条,Sebastian Raschka用48分钟视频深度拆解Claude的AI文本水印技术。"
+    },
+    {
+      "role": "host",
+      "text": "水印检测和去除之间的攻防会越来越激烈,这关系到未来AI内容的可信度。"
+    },
+    {
+      "role": "host",
+      "text": "第五条,匿名牛来大模型被扒出智谱血缘,Cursor也被怀疑拿开源GLM训练。"
+    }
+  ]
+}
