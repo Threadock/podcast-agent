@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-08-29 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "量子位",
+      "title": "智谱GLM-5.3-Flash上线,商汤大装置提供国产算力支持",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "腾讯混元Hy4 preview开源,可参与训练,WorkBuddy实测",
+      "url": "https://www.infoq.cn/article/SxrNXURUimQf4hL83ybj",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Token消耗减少75%,千问办公的省钱模式",
+      "url": "https://www.infoq.cn/article/70zHFKxwRRGIjBO8EUtC",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "豆包工作布局:飞书与豆包合流,打造AI时代生产关系",
+      "url": "https://www.tmtpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "曦望再融20亿元,四个月估值翻倍至200亿",
+      "url": "https://36kr.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "上科大团队做具身世界模型基础设施,瞬适科技完成千万美元种子轮",
+      "url": "https://36kr.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "199IT",
+      "title": "WSTS:2026年Q2全球半导体市场3680亿美元,同比增长104%",
+      "url": "https://www.199it.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Anthropic被五角大楼非法拉黑,法院裁定违宪",
+      "url": "https://www.theverge.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI高管持续流失,权力不断集中",
+      "url": "https://www.theverge.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "黄仁勋再次宣称英伟达实现AGI",
+      "url": "https://www.theverge.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Hugging Face推出可爱旱冰鸭子机器人Microduck,售价399美元",
+      "url": "https://www.theverge.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "OpenAI-News",
+      "title": "OpenAI扩大在巴西的布局",
+      "url": "https://openai.com/news/",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "大家好,今天是2026年8月29号,《今日AI头条》准时上线,国内外重磅一个都不少。"
+    },
+    {
+      "role": "guest",
+      "text": "咱们先聊国内,今天国产大模型和AI办公两条线都挺热闹,具体怎么回事,咱们一条一条拆。"
+    },
+    {
+      "role": "host",
+      "text": "先说重磅,智谱GLM-5.3-Flash今天正式上线了,而且是用商汤大装置跑出来的国产算力。"
+    },
+    {
+      "role": "guest",
+      "text": "对,这次意义挺大啊,商汤大装置本身就强调异构适配,Flash这种轻量高并发模型非常吃算力底子。"
+    },
+    {
+      "role": "host",
+      "text": "也就是说,模型本身是一回事,谁来跑、怎么稳定地跑,才是落地关键,对吧?"
+    },
+    {
+      "role": "guest",
+      "text": "没错,你看现在国内大厂都在拼Token成本,能不能压到每千Token两分钱以内,基本决定了能不能铺量。"
+    },
+    {
+      "role": "host",
+      "text": "那咱们再看看腾讯这边,混元Hy4 preview今天也开源了,而且喊出了“训练自己”的口号。"
+    },
+    {
+      "role": "guest",
+      "text": "对,这个玩法挺有意思,腾讯直接放出了WorkBuddy实测,说小团队交付实力已经具备,就是还得有人盯。"
+    },
+    {
+      "role": "host",
+      "text": "WorkBuddy我理解是不是腾讯版的AI编程助手?那它跟Codex、Claude Code比,差异化在哪?"
+    },
+    {
+      "role": "guest",
+      "text": "差异化主要在本地化和企业生态,它对微信小程序、腾讯会议这些场景理解更深,跨工具调用也更顺。"
+    },
+    {
+      "role": "host",
+      "text": "好,继续谈AI办公。InfoQ那边也有消息说,千问办公把Token消耗砍了75%,是真的省钱模式吗?"
+    },
+    {
+      "role": "guest",
+      "text": "这个75%看着夸张,其实合理,主要靠两招,一是上下文压缩,二是把高频模板预编译成短指令。"
+    },
+    {
+      "role": "host",
+      "text": "那对企业用户来说,一年省下来的算力费粗算一下能有多少量级?"
+    },
+    {
+      "role": "guest",
+      "text": "中等规模公司一年省个几百万问题不大,大型集团甚至能省下千万级预算,所以各家都在卷这块。"
+    },
+    {
+      "role": "host",
+      "text": "再看一条钛媒体的消息,豆包工作这盘棋,把飞书也拉进去了。"
+    },
+    {
+      "role": "guest",
+      "text": "对,飞书和豆包合流,本质是想重新定义AI时代的办公生产关系,谁掌握Agent调度权,谁就是新入口。"
+    },
+    {
+      "role": "host",
+      "text": "也就是说,以前是“人在系统里点按钮”,以后是“AI Agent自动拉人进来”,对吧?"
+    },
+    {
+      "role": "guest",
+      "text": "没错,这个转变跟当年从命令行到图形界面有点像,谁先跑通Agent编排,谁就抢到下一代办公操作系统。"
+    },
+    {
+      "role": "host",
+      "text": "聊完大模型和办公,咱们看一条硬科技融资。36氪说,曦望又融了20个亿,四个月估值翻倍到200亿。"
+    },
+    {
+      "role": "guest",
+      "text": "对,这是国产GPU的资本高光时刻,但也得清醒,GPU不只是堆晶体管,生态和软件栈才是真正的护城河。"
+    },
+    {
+      "role": "host",
+      "text": "200亿这个数字放2026年的国产芯片圈,算什么水位?"
+    },
+    {
+      "role": "guest",
+      "text": "绝对算第一梯队了,跟燧原、摩尔线程是同一个圈层的玩家,关键看接下来流片节奏能不能跟得上。"
+    },
+    {
+      "role": "host",
+      "text": "另外上科大孵化的瞬适科技,做具身世界模型基础设施,也完成千万美元种子轮。"
+    },
+    {
+      "role": "guest",
+      "text": "具身智能现在大家都在拼“世界模型”,相当于给机器人一套预训练大脑,谁能先拿下这层,谁就有先发优势。"
+    },
+    {
+      "role": "host",
+      "text": "好,国内部分先到这。咱们转到国际版块,先说一条法律层面的重磅,Anthropic被法院判赢了。"
+    },
+    {
+      "role": "guest",
+      "text": "对,美国法院裁定五角大楼之前把Anthropic拉进黑名单是违宪的,这家公司从年初到现在经历了好几轮过山车。"
+    },
+    {
+      "role": "host",
+      "text": "那这个裁定对整个行业意味着什么?是不是美国政府在AI采购上不能再随便“拉黑”了?"
+    },
+    {
+      "role": "guest",
+      "text": "应该说,程序正义这条线被卡得更死了,以后政府封禁AI公司必须有充分的事实依据和正当程序。"
+    },
+    {
+      "role": "host",
+      "text": "顺着Anthropic这条线,TheVerge还报道说OpenAI内部又一轮高管变动,权力在进一步集中。"
+    },
+    {
+      "role": "guest",
+      "text": "没错,OpenAI最近离职的高管不少,剩下的人汇报线越来越短,某种程度上是在向一个高效执行体靠拢。"
+    },
+    {
+      "role": "host",
+      "text": "你怎么看这种集中化?对产品创新是好事还是坏事?"
+    },
+    {
+      "role": "guest",
+      "text": "短期决策快、有利于打硬仗,但长期看,如果缺乏内部张力,容易陷入路径依赖,这是大公司的常见病。"
+    },
+    {
+      "role": "host",
+      "text": "再聊个炸裂的,黄仁勋在英伟达财报会上又高调宣布“我们已经实现AGI”了。"
+    },
+    {
+      "role": "guest",
+      "text": "对,这是黄老板第二次这么说了,股价短期给面子,但市场其实也清楚,这是营销话术,不是技术里程碑。"
+    },
+    {
+      "role": "host",
+      "text": "那从产业角度看,英伟达到底是真到了AGI的临界点,还是只是在堆算力?"
+    },
+    {
+      "role": "guest",
+      "text": "更像是后者,你看Blackwell之后还有Rubin路线图,本质还是更大规模算力,真正范式跃迁还没出现。"
+    },
+    {
+      "role": "host",
+      "text": "聊一个轻松的,Hugging Face推出了一只可爱的小鸭子机器人Microduck,还能滑旱冰。"
+    },
+    {
+      "role": "guest",
+      "text": "对,售价399美元,主打情感陪伴,这个价位段对消费级具身机器人是个非常重要的信号。"
+    },
+    {
+      "role": "host",
+      "text": "那这类小型陪伴机器人,会不会成为下一个被巨头盯上的入口级硬件?"
+    },
+    {
+      "role": "guest",
+      "text": "非常有可能,你看AI耳机、AI戒指、AI眼镜都是这条线,谁先做出来,谁就有下一代交互入口的入场券。"
+    },
+    {
+      "role": "host",
+      "text": "对比一下国内外,咱们国内大模型公司在卷Token成本和Agent编排,国外则在卷AGI话术和硬件入口。"
+    },
+    {
+      "role": "guest",
+      "text": "对,本质上是同一条终局线,谁先让AI真正低成本接管工作流,谁就赢,无论是豆包工作还是Anthropic的Agent。"
+    },
+    {
+      "role": "host",
+      "text": "那从今天的融资动作看,国内资金明显往国产算力和具身世界模型集中,这个趋势你怎么看?"
+    },
+    {
+      "role": "guest",
+      "text": "非常清晰,曦望融20亿、瞬适做世界模型,说明资本已经认定“AI基础设施”和“AI本体”这两层是下一波红利。"
+    },
+    {
+      "role": "host",
+      "text": "再叠加刚才那个WSTS数据,2026年Q2全球半导体市场冲到3680亿美元,同比增长104%,数据有点吓人。"
+    },
+    {
+      "role": "guest",
+      "text": "对,这个增长率放在任何周期都算夸张,AI需求是主因,英伟达一家就吃了大头,内存厂商也跟涨。"
+    },
+    {
+      "role": "host",
+      "text": "那这种狂飙会不会有泡沫成分?你怎么看今年下半年的风险?"
+    },
+    {
+      "role": "guest",
+      "text": "局部肯定有泡沫,尤其是消费级AI硬件和一些PPT概念的具身公司,但算力底座这一层泡沫不重,需求是真。"
+    },
+    {
+      "role": "host",
+      "text": "OpenAI那边还有条消息,OpenAI官方说要继续扩大在巴西的布局,继续开发者和企业生态。"
+    },
+    {
+      "role": "guest",
+      "text": "拉美是OpenAI国际化下一站,这跟咱们国内的豆包出海、智谱出海逻辑是一样的,抢新兴市场开发者。"
+    },
+    {
+      "role": "host",
+      "text": "好,接下来快速过几条其他要闻,先说Plaud推出了AI耳机新品。"
+    },
+    {
+      "role": "guest",
+      "text": "对,Plaud One Explorer Edition,主打实时录音和摘要,继续抢占AI可穿戴这块小但高黏性的市场。"
+    },
+    {
+      "role": "host",
+      "text": "Adobe也在给Photoshop加更多AI,新出一个“AI辅助编辑器”视图。"
+    },
+    {
+      "role": "guest",
+      "text": "传统创意软件厂商集体被倒逼改造,Adobe这一步说明纯工具已经不够,得变成AI协同平台。"
+    },
+    {
+      "role": "host",
+      "text": "DuckDB v2.0也出了预览版,从嵌入式数据库升级到分布式架构。"
+    },
+    {
+      "role": "guest",
+      "text": "这对数据圈挺关键,以前DuckDB只能在单机跑,以后能扛集群,AI数据流水线会进一步简化。"
+    },
+    {
+      "role": "host",
+      "text": "光本位科技也完成数十亿元融资,估值逼近200亿,跟曦望形成光计算和GPU两条路线的呼应。"
+    },
+    {
+      "role": "guest",
+      "text": "对,两条不同技术路径,说明国内硬科技已经不再押单一赛道,光计算和GPU是互补关系。"
+    },
+    {
+      "role": "host",
+      "text": "芯雀科技也完成数千万元种子轮,继续押注人形机器人样机迭代。"
+    },
+    {
+      "role": "host",
+      "text": "具身智能赛道现在融资密度非常高,大家都在赌谁先跑出第一个真正能落地的家庭或工业场景。"
+    }
+  ]
+}
