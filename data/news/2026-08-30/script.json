@@ -1,0 +1,314 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-08-30 | 国内六连发+国际四连击,Claude与Grok同日上演冰火两重天",
+  "selected_news": [
+    {
+      "source": "InfoQ中文",
+      "title": "腾讯混元 Hy4 preview 开源,小型团队也能交付复杂项目",
+      "url": "https://www.infoq.cn/article/SxrNXURUimQf4hL83ybj?utm_source=rss&utm_medium=article",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "千问办公自研路由:Token 消耗暴降 75%,重新定义企业省钱模式",
+      "url": "https://www.infoq.cn/article/70zHFKxwRRGIjBO8EUtC?utm_source=rss&utm_medium=article",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "腾讯混元 127 天追赶战:从实战中来,到实战中去",
+      "url": "https://www.tmtpost.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "量子位",
+      "title": "Claude 开始训练 Claude:4 美元一小时跑赢 150 美元人类研究员",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "上科大系「瞬适科技」完成千万美元种子轮,押注具身世界模型基础设施",
+      "url": "https://36kr.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "DuckDB v2.0 预览:从嵌入式数据库迈向分布式架构",
+      "url": "https://www.infoq.cn/article/9YLW3ZxLvrqxOVzSh9Y1?utm_source=rss&utm_medium=article",
+      "weight": "medium"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "法院裁决:特朗普政府将 Anthropic 非法列入黑名单,违宪",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "索尼音乐、华纳查佩尔联合起诉 Anthropic,索赔数万首版权作品",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Metis 上线:把 DeepSeek 推到 Opus 级编码水平,SWE-Bench 拿下 82%",
+      "url": "https://news.ycombinator.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen3.8 27B 全民本地化:从 Mac Studio 到奔腾机,1-bit 量化崩盘 4-bit 坚挺",
+      "url": "https://news.ycombinator.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "xAI 涉嫌用儿童色情训练 Grok,马斯克反诉自家用户",
+      "url": "https://news.ycombinator.com/",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "听众朋友早上好,今天是 2026 年 8 月 30 号,星期日,《今日AI头条》准时上线。"
+    },
+    {
+      "role": "guest",
+      "text": "今天国内大厂全在秀肌肉,国外 Anthropic 和 xAI 却同时摊上大事,咱们一锅端了。"
+    },
+    {
+      "role": "host",
+      "text": "先看国内!腾讯混元 Hy4 preview 开源,你怎么看这个动作?"
+    },
+    {
+      "role": "guest",
+      "text": "Hy4 preview 这次主打\"训练自己\",WorkBuddy 实测下来,小团队终于有交付力了。"
+    },
+    {
+      "role": "host",
+      "text": "之前咱们一直吐槽国产模型跑分强、上线弱,这次能落地吗?"
+    },
+    {
+      "role": "guest",
+      "text": "文章里有一句很扎心——\"还得有人盯\"。模型能写代码,但工程化兜底还得靠人。"
+    },
+    {
+      "role": "host",
+      "text": "那对企业来说,Hy4 preview 的真正卖点是啥?"
+    },
+    {
+      "role": "guest",
+      "text": "开源加可控,大厂不用再担心数据出境,中小企业也能私有化部署,这才是真刚需。"
+    },
+    {
+      "role": "host",
+      "text": "说到省钱,千问办公直接砍掉 75% Token 消耗,这数字有点猛啊。"
+    },
+    {
+      "role": "guest",
+      "text": "对,人家是自研路由,把大小模型混部,简单任务走小模型,复杂任务才上 Qwen3.8。"
+    },
+    {
+      "role": "host",
+      "text": "这个思路和国外 Leanroute 把 Claude Code 切到 DeepSeek 是一回事吧?"
+    },
+    {
+      "role": "guest",
+      "text": "完全一致,本质都是让模型分层,把每一块钱的算力花在刀刃上。"
+    },
+    {
+      "role": "host",
+      "text": "钛媒体复盘了混元 127 天的追赶战,这速度你怎么看?"
+    },
+    {
+      "role": "guest",
+      "text": "127 天走完别人一年的路,关键是腾讯把推荐和广告场景全切自家模型,场景驱动迭代。"
+    },
+    {
+      "role": "host",
+      "text": "那国内大模型格局是不是已经从\"五虎\"变成\"三国杀\"了?"
+    },
+    {
+      "role": "guest",
+      "text": "更像是\"二超多强\",字节豆包和阿里 Qwen 守头部,DeepSeek 和智谱攻长尾。"
+    },
+    {
+      "role": "host",
+      "text": "量子位这条更炸——Claude 开始训练 Claude,4 美元一小时跑赢 150 美元的人类研究员。"
+    },
+    {
+      "role": "guest",
+      "text": "这就是\"自进化\"范式,AI 不再靠人类标注,而是用 AI 反馈强化学习,RLAIF 你听过吧?"
+    },
+    {
+      "role": "host",
+      "text": "那 4 美元对 150 美元,差 37 倍,真的不会把人类研究员卷失业?"
+    },
+    {
+      "role": "guest",
+      "text": "短期不会,但低端标注员肯定先被替代,这跟当年 Photoshop 干掉美工一个道理。"
+    },
+    {
+      "role": "host",
+      "text": "上科大系「瞬适科技」拿千万美元种子轮,押注具身世界模型基础设施。"
+    },
+    {
+      "role": "guest",
+      "text": "具身智能终于有人做\"基建\"了,以前大家都卷机器人本体,数据才是真正门槛。"
+    },
+    {
+      "role": "host",
+      "text": "同期 DuckDB v2.0 也要从嵌入式走向分布式,这对 Agent 时代意味着啥?"
+    },
+    {
+      "role": "guest",
+      "text": "Agent 越来越像小型数据分析师,本地能跑分布式查询,延迟和成本都压得住。"
+    },
+    {
+      "role": "host",
+      "text": "国内聊完了,切国际!Anthropic 这两天是冰火两重天啊。"
+    },
+    {
+      "role": "guest",
+      "text": "对,先说好消息——法院判定特朗普政府把 Anthropic 拉黑违宪,这是大胜利。"
+    },
+    {
+      "role": "host",
+      "text": "国防部为啥要把 Anthropic 列黑名单?"
+    },
+    {
+      "role": "guest",
+      "text": "据说和 Claude 的安全立场有关,五角大楼嫌它\"太讲规矩\",这事闹了好几个月。"
+    },
+    {
+      "role": "host",
+      "text": "那坏消息呢?索尼、华纳同时起诉 Anthropic 侵权?"
+    },
+    {
+      "role": "guest",
+      "text": "对,索赔\"数万首\"版权作品,这案子判罚金额可能破纪录,版权战线彻底升级。"
+    },
+    {
+      "role": "host",
+      "text": "同一天 xAI 也炸锅——被指控用儿童色情训练 Grok,马斯克还反诉用户。"
+    },
+    {
+      "role": "guest",
+      "text": "这事如果坐实,Grok 不只是法律风险,整个开源生态都会被欧美监管盯死。"
+    },
+    {
+      "role": "host",
+      "text": "马斯克说 Grok 政治倾向是\"湾区政治观\"的函数,这种解释你买账吗?"
+    },
+    {
+      "role": "guest",
+      "text": "技术上是,训练数据决定一切;但伦理上,这是把责任甩给工程师和旧金山。"
+    },
+    {
+      "role": "host",
+      "text": "再聊点技术向的——DeepSeek 这两天被 HackerNews 刷屏了。"
+    },
+    {
+      "role": "guest",
+      "text": "Metis 这个 Agent 框架把 DeepSeek 推到 Opus 级编码,SWE-Bench 直接 82%。"
+    },
+    {
+      "role": "host",
+      "text": "82% 是个什么水平?"
+    },
+    {
+      "role": "guest",
+      "text": "之前 Sonnet 大概 65% 左右,Metis 加持下 DeepSeek 已经摸到 GPT 系列天花板。"
+    },
+    {
+      "role": "host",
+      "text": "那 Qwen3.8 27B 怎么到处刷屏?连 13 年前的奔腾机都能跑?"
+    },
+    {
+      "role": "guest",
+      "text": "对,从 Mac Studio 到 Radeon R9700 再到奔腾,本地化部署已经被 Qwen 玩成全民运动了。"
+    },
+    {
+      "role": "host",
+      "text": "Qwen3.8 27B 量化测试里,4-bit 稳 1-bit 崩,这给开发者啥启示?"
+    },
+    {
+      "role": "guest",
+      "text": "4-bit 是当前甜点,1-bit 看似极致压缩但任务能力直接归零,别贪便宜。"
+    },
+    {
+      "role": "host",
+      "text": "你看国内国际其实是同一个故事的两面,你怎么串起来?"
+    },
+    {
+      "role": "guest",
+      "text": "国内卷\"降本+落地\",国际卷\"合规+伦理\",但底层都是同一个变量——算力性价比。"
+    },
+    {
+      "role": "host",
+      "text": "对,千问砍 75% Token、Claude 4 美元一小时、Qwen 1-bit 崩盘,全是围绕算力。"
+    },
+    {
+      "role": "guest",
+      "text": "没错,而且中美正在走两条路——美国靠 GPU 集群堆参数,中国靠算法+路由压成本。"
+    },
+    {
+      "role": "host",
+      "text": "那 DeepSeek 和 Qwen 这波攻势,会不会让 OpenAI 感受到压力?"
+    },
+    {
+      "role": "guest",
+      "text": "模型能力上已经不输,但生态绑定还差一截,Cursor 这次被迫换供应商就是信号。"
+    },
+    {
+      "role": "host",
+      "text": "Anthropic 同时打赢政府和被起诉,是不是说明它正在变成靶子?"
+    },
+    {
+      "role": "guest",
+      "text": "太对了,头部模型既是金矿又是雷区,版权方、政府、用户全在盯着它。"
+    },
+    {
+      "role": "host",
+      "text": "Claude 训练 Claude 这种自进化路线,国内大厂会不会跟进?"
+    },
+    {
+      "role": "guest",
+      "text": "半年内必有团队试水,但国内合规压力大,数据来源问题先得解决。"
+    },
+    {
+      "role": "host",
+      "text": "好,接下来速览其他要闻——快手投 5 亿现金加 500 亿流量扶持专业创作者。"
+    },
+    {
+      "role": "guest",
+      "text": "阿里吴泳铭入选《时代》AI 百大人物,与李飞飞同登封面,华人面孔顶半边天。"
+    },
+    {
+      "role": "host",
+      "text": "Anthropic 首款在物理世界运行的 AI 工具问世,机器人赛道要变天。"
+    },
+    {
+      "role": "guest",
+      "text": "茶百道上半年营收 26.55 亿、净利润 3.45 亿,凭荔枝冰奶一款单品卖了 1700 万杯。"
+    },
+    {
+      "role": "host",
+      "text": "苹果折叠屏均价或破 1.7 万,折叠机进入奢侈品时代。"
+    },
+    {
+      "role": "guest",
+      "text": "俄罗斯开始量产星链干扰器「波穹保护」,太空战已经真打到轨道上了。"
+    },
+    {
+      "role": "host",
+      "text": "全国科技馆暑期接待超 3000 万人次,科普正在从看热闹变深度探究。"
+    },
+    {
+      "role": "host",
+      "text": "碧桂园上半年营收 441 亿,虽然还亏但减亏 16.3%,地产总算看到点曙光。"
+    }
+  ]
+}
