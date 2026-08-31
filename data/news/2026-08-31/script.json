@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-08-31 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "36氪",
+      "title": "苹果折叠屏平均售价或达1.7万元；阿里吴泳铭入选《时代》AI百大人物；索尼华纳起诉Anthropic",
+      "url": "https://36kr.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "掘金",
+      "title": "豆包工作Agent正式发布：多端同步、云电脑、Skill调用、Seedance创作",
+      "url": "https://juejin.cn/",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "Claude开始训练Claude：4美元一小时，跑赢150美元人类研究员",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "AI影视公司折叠完成数百万美元种子轮融资，爱诗科技投资",
+      "url": "https://36kr.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "钛媒体",
+      "title": "OpenAI将终止向Cursor提供模型服务，马斯克回应；AI公司每赚100美元近40美元流向云巨头",
+      "url": "https://www.tmtpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "199IT",
+      "title": "NVIDIA 2027财年Q2营收962亿美元同比增106%；Q3指引1080亿美元超预期",
+      "url": "https://www.199it.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "拿下中石油体系超百台订单，特危化场景巡操一体机器人",
+      "url": "https://36kr.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "36氪",
+      "title": "大型科技公司因持有AI企业股权获利1600亿美元账面收益",
+      "url": "https://36kr.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Show HN：Metis——把DeepSeek推到Opus级别编码能力的智能体框架，得分82%",
+      "url": "https://news.ycombinator.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Qwen3.8 27B在Mac Pro 32GB上的任务实测",
+      "url": "https://news.ycombinator.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Grok正式推出Linux版本机器人客户端",
+      "url": "https://news.ycombinator.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "TheVerge",
+      "title": "索尼音乐出版与华纳查普尔起诉Anthropic，指控其使用数万件受版权保护的作品",
+      "url": "https://www.theverge.com/",
+      "weight": "deep"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "大家好，欢迎来到《今日AI头条》，今天是2026年8月31号，咱们今天聊点硬核的。"
+    },
+    {
+      "role": "guest",
+      "text": "对，今天国内和国外都炸了不少，咱们先说国内的爆点。"
+    },
+    {
+      "role": "host",
+      "text": "字节的豆包工作Agent正式发布了，你知道吗？这个直接打到办公场景里面去了。"
+    },
+    {
+      "role": "guest",
+      "text": "没错，这次主打的是多端同步、云电脑，加上Skill调用，还能接Seedance做创作。"
+    },
+    {
+      "role": "host",
+      "text": "咱们拆开看啊，Skill调用这个其实就有点像给Agent配了一堆工具箱。"
+    },
+    {
+      "role": "guest",
+      "text": "对，你想啊，它不是单纯聊天了，而是能把表格、文档、视频生成串起来干活。"
+    },
+    {
+      "role": "host",
+      "text": "云电脑这个思路也挺狠，相当于把算力打包塞进Agent里面了。"
+    },
+    {
+      "role": "guest",
+      "text": "那其实这就是字节在Agent时代抢办公入口的动作，对吧？"
+    },
+    {
+      "role": "host",
+      "text": "完全正确，你看阿里有钉钉，字节就用豆包Agent去卡位，赛道越来越挤。"
+    },
+    {
+      "role": "guest",
+      "text": "第二件事更劲爆，Claude居然开始训练Claude了。"
+    },
+    {
+      "role": "host",
+      "text": "量子位那边的数据是什么情况来着？"
+    },
+    {
+      "role": "guest",
+      "text": "每小时成本才4美元，但跑出来效果超过了每小时150美元的人类研究员。"
+    },
+    {
+      "role": "host",
+      "text": "我的天，这成本差将近40倍啊，AI自进化真的来了。"
+    },
+    {
+      "role": "guest",
+      "text": "其实这个信号很明确，Anthropic已经在押注AI自我改进了，数据飞轮越转越快。"
+    },
+    {
+      "role": "host",
+      "text": "再说一条国内的钱的事，AI影视公司折叠刚拿了数百万美元种子轮。"
+    },
+    {
+      "role": "guest",
+      "text": "不是做AI短剧的吧？我看36氪说他们做中长番和动画电影。"
+    },
+    {
+      "role": "host",
+      "text": "对，这个很关键，避开短剧红海，去做精品内容，爱诗科技眼光挺毒的。"
+    },
+    {
+      "role": "guest",
+      "text": "不过你要注意，AI影视最大的问题还是IP和版权，这块迟早是雷。"
+    },
+    {
+      "role": "host",
+      "text": "对啊，你看紧接着国际那边就出大事了，索尼和华纳直接把Anthropic告了。"
+    },
+    {
+      "role": "guest",
+      "text": "没错，数万件受版权保护的作品，要求巨额赔偿，AI公司版权这仗早晚要打。"
+    },
+    {
+      "role": "host",
+      "text": "而且他们不光告，还说Anthropic是公然窃取知识产权，这个定性非常狠。"
+    },
+    {
+      "role": "guest",
+      "text": "其实这事和折叠那个AI影视是一体两面，内容方和模型方迟早要算清账。"
+    },
+    {
+      "role": "host",
+      "text": "对，而且你看钛媒体那边还有一条，OpenAI要终止给Cursor供模型了。"
+    },
+    {
+      "role": "guest",
+      "text": "等一下，Cursor不是之前一直被传要被收购吗？这事儿到底怎么回事？"
+    },
+    {
+      "role": "host",
+      "text": "就是说OpenAI自己要做编码工具了，那Cursor这种中间层就没存在必要了。"
+    },
+    {
+      "role": "guest",
+      "text": "马斯克还补了一刀，说以后要么Anthropic要么xAI，Cursor这种会被夹在中间。"
+    },
+    {
+      "role": "host",
+      "text": "这就说明啊，模型厂商和应用厂商的边界正在消失，全栈化是大趋势。"
+    },
+    {
+      "role": "guest",
+      "text": "其实你看Qwen3.8 27B就很有意思，27B的体量塞进Mac Pro 32GB居然能跑得动。"
+    },
+    {
+      "role": "host",
+      "text": "等等，27B跑在32G内存的Mac上？这量化得压成什么样啊？"
+    },
+    {
+      "role": "guest",
+      "text": "4-bit量化还行，1-bit就直接崩了，HackerNews上有人专门测过。"
+    },
+    {
+      "role": "host",
+      "text": "而且27B能干很多活了，什么SQL生成、复古游戏复活都能上，本地模型真起来了。"
+    },
+    {
+      "role": "guest",
+      "text": "那这不就和DeepSeek那个Metis框架连起来了吗？"
+    },
+    {
+      "role": "host",
+      "text": "对啊，Metis直接把DeepSeek推到Opus级编码能力，得分82%，很猛。"
+    },
+    {
+      "role": "guest",
+      "text": "你看一个走本地化、一个走智能体框架，DeepSeek的生态在快速长出来。"
+    },
+    {
+      "role": "host",
+      "text": "还有一个爆点我必须说，NVIDIA发财报了，2027财年Q2营收962亿美元。"
+    },
+    {
+      "role": "guest",
+      "text": "同比增长106%，净利润596.9亿，而且Q3指引直接干到1080亿。"
+    },
+    {
+      "role": "host",
+      "text": "我的天，分析师还说2029财年营收能破1万亿美元，这是什么概念？"
+    },
+    {
+      "role": "guest",
+      "text": "就是AI算力这条线还在疯狂扩张，老黄赚麻了。"
+    },
+    {
+      "role": "host",
+      "text": "不过你要注意，钛媒体有个数字更吓人，AI公司每赚100美元有近40美元流向云巨头。"
+    },
+    {
+      "role": "guest",
+      "text": "那就是说大家其实都在给亚马逊、微软这些云厂打工，对吧？"
+    },
+    {
+      "role": "host",
+      "text": "完全正确，AI表面光鲜，但利润大头被算力上游吃掉了，这个结构性问题很要命。"
+    },
+    {
+      "role": "guest",
+      "text": "而且你看36氪还说，科技巨头从AI股权里就赚了1600亿美元账面收益。"
+    },
+    {
+      "role": "host",
+      "text": "对，这个是虚的，纸面富贵，AI泡沫论就是这么来的。"
+    },
+    {
+      "role": "guest",
+      "text": "但你再看国内，特危化场景的巡操一体机器人已经拿下中石油超百台订单了。"
+    },
+    {
+      "role": "host",
+      "text": "AI不光在云上跑，已经下到化工厂、油田这种脏活累活里面去了。"
+    },
+    {
+      "role": "guest",
+      "text": "没错，这才是AI真正落地的样子，软硬一体比纯软件值钱多了。"
+    },
+    {
+      "role": "host",
+      "text": "国内国外一对比你看，中国AI在应用层使劲，海外在算力和模型层使劲。"
+    },
+    {
+      "role": "guest",
+      "text": "其实还有个反差，TheVerge说Grok的训练数据里面有问题，甚至涉及未成年人内容。"
+    },
+    {
+      "role": "host",
+      "text": "对，已经被起诉了，xAI的合规短板彻底暴露。"
+    },
+    {
+      "role": "guest",
+      "text": "马斯克还嘴硬说Grok的政治倾向是受旧金山湾区影响，这话一出舆论更炸。"
+    },
+    {
+      "role": "host",
+      "text": "好了，咱们快速过一下今天的其他要闻。"
+    },
+    {
+      "role": "guest",
+      "text": "阿里吴泳铭入选《时代》AI百大人物，和李飞飞一起上了封面。"
+    },
+    {
+      "role": "host",
+      "text": "Anthropic推出了首款能在物理世界运行的AI工具，具身智能来了。"
+    },
+    {
+      "role": "guest",
+      "text": "小米发布了大模型专用AI加速芯片玄戒O100，开始卷芯片了。"
+    },
+    {
+      "role": "host",
+      "text": "比尔·盖茨说中美需要合作应对AI风险，老爷子这话说得挺中肯。"
+    },
+    {
+      "role": "guest",
+      "text": "OpenClaw项目红过后迅速退潮，Harness框架上位了。"
+    },
+    {
+      "role": "host",
+      "text": "英特尔锐炫Pro B70显卡靠32G大显存搞定了AI漫剧创作。"
+    },
+    {
+      "role": "guest",
+      "text": "a16z成立了11亿美元基金，瞄准芯片、内存和机器人赛道。"
+    },
+    {
+      "role": "host",
+      "text": "国家数据局表态，要研究词元增值订阅和按效付费的商业模式。"
+    },
+    {
+      "role": "host",
+      "text": "其实看下来，未来最大的变量还是AI Agent能不能真正接管办公场景。"
+    }
+  ]
+}
