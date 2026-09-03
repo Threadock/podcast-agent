@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-09-03 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "量子位",
+      "title": "Claude最强Fable 5.1发布！8项屠榜，最高降价45%，反蒸馏机制上线",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Fable 5.1 正式发布：性能翻倍、Agent成本下降45%，Anthropic 把顶级模型送进真实世界",
+      "url": "https://www.infoq.cn/article/K8OwgoWM1gHNi2i4yLkU",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "阿里更新旗舰模型Qwen3.8-Max，前端编程能力跃居全球第一",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "清华AIR孵化，AI4S企业「艾斐智药」获亿元级天使轮融资",
+      "url": "https://36kr.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "36氪",
+      "title": "Waymo拟首次举债融资超30亿美元，Pimco、黑石等参与",
+      "url": "https://36kr.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "36氪",
+      "title": "前字节、腾讯AI核心研发孙鹏加入星尘智能，负责机器人强化学习后训练",
+      "url": "https://36kr.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Google says its new Gemini 3.8 Flash model 'works harder' but might cost more",
+      "url": "https://www.theverge.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI delayed its new model's development after the Hugging Face hack",
+      "url": "https://www.theverge.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Antirez为DS4加视觉能力，DeepSeek V4 Flash可在M5 Max上本地运行",
+      "url": "https://news.ycombinator.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen3.8-Max-0902拿下Code Arena第二名，击败Claude Opus 5 max",
+      "url": "https://news.ycombinator.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Google needs Hollywood more than the studios need AI",
+      "url": "https://www.theverge.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "The Trump administration is supporting OpenAI in the NYT copyright lawsuit",
+      "url": "https://www.theverge.com/",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "听众朋友早,这里是《今日AI头条》,今天是2026年9月3号,咱们用六分钟把全球AI大件事儿一网打尽。"
+    },
+    {
+      "role": "guest",
+      "text": "对,先说国内,Anthropic的Claude放了个大招,阿里Qwen也悄悄更新,加上几家融资,动静不小。"
+    },
+    {
+      "role": "host",
+      "text": "第一条就上硬菜,Claude Fable 5.1发布,八项跑分屠榜,Agent成本直接砍掉45%。"
+    },
+    {
+      "role": "guest",
+      "text": "对,这个版本叫Fable 5.1,Anthropic直接对标之前的吐槽,价格、数据留存、过度安全这三块全给改了。"
+    },
+    {
+      "role": "host",
+      "text": "更狠的是“反蒸馏”机制,思考过程上锁,你想用小模型去抄它的推理路径,这条路被堵死了。"
+    },
+    {
+      "role": "guest",
+      "text": "所以Anthropic一边降价一边锁数据,这是既要市场份额,又要保住技术壁垒啊。"
+    },
+    {
+      "role": "host",
+      "text": "没错,Agent场景现在是各家必争之地,Fable 5.1降价45%,等于把门槛往下压了一大截。"
+    },
+    {
+      "role": "guest",
+      "text": "第二条,阿里Qwen3.8-Max更新,前端编程能力直接干到全球第一。"
+    },
+    {
+      "role": "host",
+      "text": "对,这个版本叫Qwen3.8-Max,九月二号上线,在代码竞技场的Web开发榜单冲到第二,把Claude Opus 5 max都给压下去了。"
+    },
+    {
+      "role": "guest",
+      "text": "你看啊,从年初到现在,阿里Qwen基本是月月更新,Qwen3.8-ASR、Qwen3.8-Flash-Next,产品线铺得相当密。"
+    },
+    {
+      "role": "host",
+      "text": "前端编程这个细分赛道,以前一直是Claude和GPT的天下,Qwen这波杀进来,程序员朋友是真有福了。"
+    },
+    {
+      "role": "guest",
+      "text": "而且Qwen还有一个亮点,有个开发者用slotstream技术,让125B参数的Qwen3.8-Flash-Next在48G内存的Mac上跑到12 token每秒,4-bit量化加SSD分流。"
+    },
+    {
+      "role": "host",
+      "text": "第三条看看融资,清华AIR孵化的艾斐智药拿了亿元级天使轮,AI做新药研发。"
+    },
+    {
+      "role": "guest",
+      "text": "对,这家做DrugCLIP基础模型和PharmAgents引擎,襄禾资本领投,智谱旗下星连资本也跟了。"
+    },
+    {
+      "role": "host",
+      "text": "AI4S这个方向今年特别热,从靶点发现到分子生成,基本上被大模型重做了一遍。"
+    },
+    {
+      "role": "guest",
+      "text": "第四条,前字节、腾讯的AI核心研发孙鹏博士加入星尘智能,专攻机器人强化学习。"
+    },
+    {
+      "role": "host",
+      "text": "对,孙鹏清华毕业,康奈尔和罗格斯博士后,之前在字节带强化学习,在腾讯管Robotics X智能体中心。"
+    },
+    {
+      "role": "guest",
+      "text": "人形机器人这波浪潮里,强化学习后训练是真正的硬骨头,谁能搞定,谁就拿到下一轮门票。"
+    },
+    {
+      "role": "host",
+      "text": "第五条,Waymo要举债融资超30亿美元,Pimco、黑石、Sixth Street都来了。"
+    },
+    {
+      "role": "guest",
+      "text": "对,这是Waymo头一回发债,定价比基准利率高500个基点,基本是信用债里比较贵的那种。"
+    },
+    {
+      "role": "host",
+      "text": "你看Alphabet让Waymo独立融资,意思很明确,这块业务要自负盈亏,倒逼着它去商业化跑通。"
+    },
+    {
+      "role": "guest",
+      "text": "国内这五条看下来,模型层、Agent、AI4S、机器人、自动驾驶,基本是全栈开花。"
+    },
+    {
+      "role": "host",
+      "text": "没错,而且你看,Claude降价45%和Qwen屠榜几乎是同一天,中美AI的节奏越来越同步了。"
+    },
+    {
+      "role": "guest",
+      "text": "接下来看国际,第一条,谷歌放出Gemini 3.8 Flash,号称“更努力但可能更贵”。"
+    },
+    {
+      "role": "host",
+      "text": "对,这个模型才发布几周就更新,主打“会想更多步”,碰到复杂任务自动多轮推理。"
+    },
+    {
+      "role": "guest",
+      "text": "不过在Artificial Analysis榜单上,它只排第八,59分,被Kimi K3和GLM-5.3压在下面。"
+    },
+    {
+      "role": "host",
+      "text": "所以谷歌这次是冲性价比还是冲绝对智能,定位其实有点尴尬啊。"
+    },
+    {
+      "role": "guest",
+      "text": "很明显是冲性价比,Flash系列本来就是给企业用的,让模型“多想一步”其实是用推理成本换效果。"
+    },
+    {
+      "role": "host",
+      "text": "第二条,OpenAI因为Hugging Face泄露事件,把下一代模型Astra的开发往后推了。"
+    },
+    {
+      "role": "guest",
+      "text": "对,之前那个未发布的OpenAI模型在Hugging Face上搞出国际新闻,搞得整个安全团队都被拉去救火。"
+    },
+    {
+      "role": "host",
+      "text": "更麻烦的是,OpenAI现在还背着30起新官司,被指控在加拿大Tumbler Ridge枪击案中“提供帮助和鼓励”。"
+    },
+    {
+      "role": "guest",
+      "text": "这事儿挺严重,以前AI公司出事大多是版权纠纷,现在直接跟刑事案件挂钩了。"
+    },
+    {
+      "role": "host",
+      "text": "对,所以你看特朗普政府这次居然站OpenAI,在《纽约时报》的版权官司里出头支持AI公司,表态意味非常明显。"
+    },
+    {
+      "role": "guest",
+      "text": "第三条,DeepSeek V4 Flash现在能在M5 Max上本地跑了,知名开发者Antirez还给加上了视觉。"
+    },
+    {
+      "role": "host",
+      "text": "对,Antirez就是写Redis的那位大佬,他给DeepSeek V4 Flash加了图像理解能力,直接在苹果M5 Max笔记本上跑。"
+    },
+    {
+      "role": "guest",
+      "text": "你想想啊,125B级别的模型在你笔记本上就能跑,这事儿三年前根本不敢想。"
+    },
+    {
+      "role": "host",
+      "text": "第四条,整个国际版图里,Anthropic降价,谷歌“加量”,OpenAI踩刹车,动作完全不一样。"
+    },
+    {
+      "role": "guest",
+      "text": "对,这其实反映了三家不同的处境:Anthropic有客户压力,谷歌有规模压力,OpenAI有安全压力。"
+    },
+    {
+      "role": "host",
+      "text": "你看Hugging Face那次泄露,直接让OpenAI推迟Astra,这说明安全已经不是“锦上添花”,是“生死攸关”了。"
+    },
+    {
+      "role": "guest",
+      "text": "那国内这边,DeepSeek、Qwen、Kimi都冲得挺猛,会反过来倒逼硅谷提速吗?你给我们分析一下。"
+    },
+    {
+      "role": "host",
+      "text": "我觉得会,而且已经在发生,你看Qwen3.8-Max屠榜,Claude Fable 5.1同一天降价,这不是巧合,是节奏同步。"
+    },
+    {
+      "role": "guest",
+      "text": "另外还有件事儿,谷歌据传主动找好莱坞谈数据授权,准备拿版权内容去训练Gemini。"
+    },
+    {
+      "role": "host",
+      "text": "所以数据这块儿,大家终于意识到,光靠爬网页不够了,得砸钱买。"
+    },
+    {
+      "role": "guest",
+      "text": "对,你看之前OpenAI、Anthropic都吃过版权的亏,谷歌这回主动出击,说明数据合规已经变成核心竞争力。"
+    },
+    {
+      "role": "host",
+      "text": "你看苹果新CEO薪酬曝光,略高于库克,OpenAI官宣下一代模型能自己找漏洞并发起攻击。"
+    },
+    {
+      "role": "guest",
+      "text": "还有,字节Seed大调整,新设四个一级部门,分得更细了。"
+    },
+    {
+      "role": "host",
+      "text": "对,另外Kimi的母公司已经启动IPO,智谱也开了天猫旗舰店,把Token订阅做成零售。"
+    },
+    {
+      "role": "guest",
+      "text": "Uber要裁3300人,精简管理层级,纽约市全面禁止低龄学生用AI,影响60万学生。"
+    },
+    {
+      "role": "host",
+      "text": "还有,Claude越狱之后Anthropic直接停训,150人紧急转岗,安全压力可见一斑。"
+    },
+    {
+      "role": "guest",
+      "text": "DeepSeek-V3的论文《从Roofline到现实》也发了,把推理优化的工程细节讲透了。"
+    },
+    {
+      "role": "host",
+      "text": "Grok 4.6加强了生物领域的安全护栏,Grok的开放生态也在扩,有人在做开源Grok Bot。"
+    },
+    {
+      "role": "guest",
+      "text": "另外清华AIR孵化的艾斐智药拿了亿元天使轮,AI做新药研发这条路越来越宽。"
+    },
+    {
+      "role": "host",
+      "text": "还有MrBeast跟谷歌签约,带着Gemini去荒野拍视频,算是AI营销的大动作。"
+    },
+    {
+      "role": "guest",
+      "text": "好,接下来咱们聊聊未来,你觉得接下来这半年,中美AI格局最大的变量是什么?"
+    },
+    {
+      "role": "host",
+      "text": "我认为是Agent生态,你看Claude Fable 5.1降价45%,OpenAI押注Astra,都是冲着Agent去的。"
+    },
+    {
+      "role": "guest",
+      "text": "还有就是数据合规,谷歌找好莱坞买版权,特朗普政府支持OpenAI,版权问题迟早有定论。"
+    },
+    {
+      "role": "host",
+      "text": "对,国内这边呢,Qwen、DeepSeek、Kimi、智谱都在加速,你觉得谁会跑出来?"
+    },
+    {
+      "role": "guest",
+      "text": "我比较看好Qwen和DeepSeek,Qwen强在工程化和开源,DeepSeek强在推理优化和性价比。"
+    },
+    {
+      "role": "host",
+      "text": "不过Kimi的IPO如果顺利,会拿到一笔大钱,智能投顾那块儿可能也会动起来。"
+    },
+    {
+      "role": "host",
+      "text": "行,今天的《今日AI头条》就到这里,记得订阅我们,点赞,还有别忘了点开小铃铛。"
+    }
+  ]
+}
