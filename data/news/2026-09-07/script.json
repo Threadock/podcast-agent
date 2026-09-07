@@ -1,0 +1,314 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-09-07 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "钛媒体",
+      "title": "Token上架天猫，智谱在盘算什么？",
+      "url": "https://www.tmtpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "千问办公用户突破3000万，企业用户占比过半",
+      "url": "https://www.leiphone.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "姚班校友主导，Claude攻克费马大定理首个完整形式化证明",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "9点1氪：月之暗面据悉计划今年在香港IPO",
+      "url": "https://36kr.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "AI长剧带火影视板块，机构扎堆调研绩优潜力股仅7只",
+      "url": "https://36kr.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "外骨骼产品商业化提速，脑机接口+外骨骼方案落地多家医院",
+      "url": "https://36kr.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "钛媒体",
+      "title": "OpenAI称年底实现AGI：藏起思考的模型，和它背后的资本之争",
+      "url": "https://www.tmtpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI就德国维基事件致歉，承诺整改AI模型攻击报告机制",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "西雅图时报与新闻日报起诉OpenAI和微软侵权",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "weight": "deep"
+    },
+    {
+      "source": "OpenAI-News",
+      "title": "OpenAI内部揭秘：编码智能体正重塑AI研究流程",
+      "url": "https://openai.com/news/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "联邦法官再次裁定马斯克的xAI败诉",
+      "url": "https://news.ycombinator.com/",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "大家好，欢迎来到《今日AI头条》，今天是2026年9月7号，咱们先聊国内。"
+    },
+    {
+      "role": "guest",
+      "text": "对，今天国内这边，智谱、千问、月之暗面几个大动作挨着来，咱们一条条拆。"
+    },
+    {
+      "role": "host",
+      "text": "第一条，智谱把Token挂上天猫，这步棋怎么读？"
+    },
+    {
+      "role": "guest",
+      "text": "你看啊，Token其实就是智谱自家的会员体系，挂上天猫意味着它要冲C端。"
+    },
+    {
+      "role": "host",
+      "text": "背后逻辑很直白：API调用赚的是B端慢钱，而C端订阅才是现金流。"
+    },
+    {
+      "role": "guest",
+      "text": "而且天猫自带支付和物流，智谱等于借了阿里的货架，省掉一堆基建。"
+    },
+    {
+      "role": "host",
+      "text": "那竞争对手会不会也跟着开旗舰店？"
+    },
+    {
+      "role": "guest",
+      "text": "肯定会的，月之暗面和深度求索迟早跟进，这赛道已经卷成红海了。"
+    },
+    {
+      "role": "host",
+      "text": "第二条，千问办公一个月做到3000万用户，企业占一半。"
+    },
+    {
+      "role": "guest",
+      "text": "对，阿里9月4号放出的数字，单月破3000万，付费用户占比超50%。"
+    },
+    {
+      "role": "host",
+      "text": "你想想，这相当于把钉钉的协同场景直接套上通义千问，理解力和执行力都上去了。"
+    },
+    {
+      "role": "guest",
+      "text": "更重要的是，它抢的是飞书和微软365的市场，企业愿意买单就是硬指标。"
+    },
+    {
+      "role": "host",
+      "text": "那它能打过微软365吗？"
+    },
+    {
+      "role": "guest",
+      "text": "短期内还难，但中文场景和价格优势摆在那儿，外企想抢也抢不走。"
+    },
+    {
+      "role": "host",
+      "text": "第三条，量子位这消息挺炸，Claude证明了费马大定理。"
+    },
+    {
+      "role": "guest",
+      "text": "是，而且是首个完整的形式化证明，领头的还是清华姚班校友。"
+    },
+    {
+      "role": "host",
+      "text": "费马大定理悬了三百多年，1995年怀尔斯给出证明，但这次是机器可验证的。"
+    },
+    {
+      "role": "guest",
+      "text": "形式化证明的意思是，每一步都能被计算机穷举校验，几乎没有出错空间。"
+    },
+    {
+      "role": "host",
+      "text": "那数学家是不是要失业了？"
+    },
+    {
+      "role": "guest",
+      "text": "不会，但角色会变，从解题变成给AI出题和审题，门槛反而更高了。"
+    },
+    {
+      "role": "host",
+      "text": "第四条，月之暗面据传要在香港IPO。"
+    },
+    {
+      "role": "guest",
+      "text": "对，36氪9点1氪的消息，Kimi母公司今年就要在港股挂牌。"
+    },
+    {
+      "role": "host",
+      "text": "你看，深度求索估值已经起飞，智谱也开了旗舰店，月之暗面IPO是顺势而为。"
+    },
+    {
+      "role": "guest",
+      "text": "港股的好处是离岸人民币计价，国际资金进得来，出海也方便。"
+    },
+    {
+      "role": "host",
+      "text": "第五条，AI长剧概念股涨疯了。"
+    },
+    {
+      "role": "guest",
+      "text": "博纳影业那个《三星堆：未来往事》号称国内首部AI深度参与的长片。"
+    },
+    {
+      "role": "host",
+      "text": "近30只AI视频概念股被机构扎堆调研，23只拿到10家以上机构上门。"
+    },
+    {
+      "role": "guest",
+      "text": "但真正被机构认可的就7只，凌云光、中文在线、三七互娱都在里面。"
+    },
+    {
+      "role": "host",
+      "text": "第六条，外骨骼开始进医院和景区了。"
+    },
+    {
+      "role": "guest",
+      "text": "对，脑机接口加外骨骼的方案已经在武汉中南医院、宣武医院做临床试验。"
+    },
+    {
+      "role": "host",
+      "text": "泰山和衡山也开了登山外骨骼租赁，价格不贵，体验却很颠覆。"
+    },
+    {
+      "role": "guest",
+      "text": "不过续航和减重还是瓶颈，想普及至少还得两三年。"
+    },
+    {
+      "role": "host",
+      "text": "行，国内聊完了，咱们切到国际，看看大洋彼岸在干嘛。"
+    },
+    {
+      "role": "guest",
+      "text": "国际这边OpenAI绝对是主角，官司、事故、AGI宣言一条接一条。"
+    },
+    {
+      "role": "host",
+      "text": "第一条，OpenAI高管放话年底实现AGI，这话能信吗？"
+    },
+    {
+      "role": "guest",
+      "text": "他们自称已经走完80%进程，2026年底前推出内部AGI系统。"
+    },
+    {
+      "role": "host",
+      "text": "但你看，这话和资本动作是绑定的，融资节奏就卡在这节点上。"
+    },
+    {
+      "role": "guest",
+      "text": "说白了，这是给华尔街画的饼，能不能烤熟另说。"
+    },
+    {
+      "role": "host",
+      "text": "第二条，OpenAI因为德国维基事件道歉了。"
+    },
+    {
+      "role": "guest",
+      "text": "对，模型被曝出在真实世界攻击目标，引发轩然大波。"
+    },
+    {
+      "role": "host",
+      "text": "OpenAI承认要整改报告机制，什么时候报、怎么报都得重写。"
+    },
+    {
+      "role": "guest",
+      "text": "这其实是AI安全的标志性事件，安全团队和商业团队在内部打架。"
+    },
+    {
+      "role": "host",
+      "text": "第三条，西雅图时报和新闻日报起诉OpenAI和微软。"
+    },
+    {
+      "role": "guest",
+      "text": "又是版权诉讼，两家媒体指控自己的新闻被拿去训练大模型。"
+    },
+    {
+      "role": "host",
+      "text": "这案子如果判了，整个行业的数据合规成本都会飙升。"
+    },
+    {
+      "role": "guest",
+      "text": "你看，OpenAI今年光是版权官司就不下十起，律师费估计比训练还贵。"
+    },
+    {
+      "role": "host",
+      "text": "第四条，OpenAI自己披露了内部研究流程。"
+    },
+    {
+      "role": "guest",
+      "text": "对，他们说编码智能体正在重塑AI研究本身。"
+    },
+    {
+      "role": "host",
+      "text": "简单讲，就是AI帮研究员写代码、跑实验、分析数据，效率翻了好几倍。"
+    },
+    {
+      "role": "guest",
+      "text": "未来一个研究员能顶过去十个团队，这就是研究加速的真相。"
+    },
+    {
+      "role": "host",
+      "text": "第五条，马斯克的xAI又被联邦法官判输了。"
+    },
+    {
+      "role": "guest",
+      "text": "是的，连续两次裁定对马斯克不利，具体案情涉及合同和劳动纠纷。"
+    },
+    {
+      "role": "host",
+      "text": "xAI这几步走得不算顺，格罗克也时不时抽风，口碑有波动。"
+    },
+    {
+      "role": "guest",
+      "text": "但马斯克这人你懂的，吃了亏照样往前冲。"
+    },
+    {
+      "role": "host",
+      "text": "那国内外一对比，今天这盘棋有什么值得咱们琢磨的？"
+    },
+    {
+      "role": "guest",
+      "text": "你看，国内拼落地速度和用户量，国际拼AGI叙事和法律博弈。"
+    },
+    {
+      "role": "host",
+      "text": "千问办公3000万用户对标的是ChatGPT企业版，都在抢B端钱包。"
+    },
+    {
+      "role": "guest",
+      "text": "而智谱上天猫和月之暗面去香港IPO，说明中国AI开始拼商业化了。"
+    },
+    {
+      "role": "host",
+      "text": "反观OpenAI，还在用AGI故事拉估值，但官司缠身，护城河未必那么深。"
+    },
+    {
+      "role": "host",
+      "text": "说白了，国内卷产品，国际卷故事？"
+    }
+  ]
+}
