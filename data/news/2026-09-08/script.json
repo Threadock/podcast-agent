@@ -1,0 +1,314 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-09-08 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "36氪",
+      "title": "豆包手机9月16日正式发布",
+      "url": "https://www.36kr.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "菲尔兹奖得主入局大模型！4B手机Qwen+云端GLM刷爆ARC-AGI 3",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "传DeepSeek将采购16万颗华为AI芯片",
+      "url": "https://www.leiphone.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "千问办公推出业内首个“多人工作台”，3000万用户企业占比过半",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "王兴兴上市后首次公开演讲：机器人真正爆发要等两个「80%时刻」",
+      "url": "https://www.leiphone.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "最高法发文明确“AI换脸拟声”等案件裁判规则",
+      "url": "https://www.36kr.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek V4 推出非高峰时段五折新定价，14家供应商全网比价出炉",
+      "url": "https://news.ycombinator.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen 3.8 27B 登陆浏览器标签页，实现点对点大模型推理",
+      "url": "https://news.ycombinator.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "OpenAI-News",
+      "title": "OpenAI 内部揭秘：编程智能体正在重塑AI研究节奏",
+      "url": "https://openai.com/news/",
+      "weight": "deep"
+    },
+    {
+      "source": "LastWeekInAI",
+      "title": "GPT-6 Astra 亮相，Anthropic 推出Claude Fable 5.1价格直降45%",
+      "url": "https://lastweekin.ai/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "《西雅图时报》与《新闻日报》联手起诉OpenAI和微软侵权",
+      "url": "https://www.theverge.com/",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "大家好，欢迎收听9月8号的《今日AI头条》，今天国内国外大模型、智能体、机器人都有猛料，咱们一块儿盘。"
+    },
+    {
+      "role": "guest",
+      "text": "好嘞，先看国内——大模型、办公、机器人三线并进，绝对是干货满满的一期。"
+    },
+    {
+      "role": "host",
+      "text": "第一条，豆包手机官宣9月16号正式发布，这事儿你咋看？"
+    },
+    {
+      "role": "guest",
+      "text": "其实不意外，豆包一直在推AI硬件落地，手机是大模型最天然的入口，等于把端侧推理摆到台面上。"
+    },
+    {
+      "role": "host",
+      "text": "对吧，端侧跑模型对芯片和内存要求都不低，豆包这次硬件会怎么搭？"
+    },
+    {
+      "role": "guest",
+      "text": "你看国内几家都在抢端侧，豆包要是把模型压到几B的级别直接跑在手机上，体验会有质的飞跃。"
+    },
+    {
+      "role": "host",
+      "text": "第二条，菲尔兹奖得主下场做大模型，4B手机Qwen配上云端GLM，直接刷爆ARC-AGI 3榜单。"
+    },
+    {
+      "role": "guest",
+      "text": "这事儿有意思啊，菲尔兹奖得主搞数学基础研究，跨过来做大模型，本来ARC-AGI 3就是考抽象推理的。"
+    },
+    {
+      "role": "host",
+      "text": "他们强调在两个模型之间找数学共同基础非常困难，等于给多模型协作打了个新范式。"
+    },
+    {
+      "role": "guest",
+      "text": "所以这次是手机端4B的Qwen加上云端GLM联手，4B能扛住这种推理题吗？"
+    },
+    {
+      "role": "host",
+      "text": "关键不是单模型多猛，而是端云协同，端上做初筛、云上做深推，效率会拉高很多。"
+    },
+    {
+      "role": "guest",
+      "text": "第三条重磅，传DeepSeek要采购16万颗华为AI芯片，国产算力这步棋够大啊。"
+    },
+    {
+      "role": "host",
+      "text": "16万颗可不是小数目，加上DeepSeek本身模型效率就高，相当于把算力杠杆又拧紧了一圈。"
+    },
+    {
+      "role": "guest",
+      "text": "这事儿背后是国产替代的强信号，华为昇腾生态终于跑出大客户了，影响会扩散到整个供应链。"
+    },
+    {
+      "role": "host",
+      "text": "对吧，等于DeepSeek不光卷模型，还顺手把国产AI芯片的池子给撑大了。"
+    },
+    {
+      "role": "guest",
+      "text": "没错，你看华泰证券的研报也提到，AI算力正在从单点加速器往光模块、先进封装这些系统环节延伸。"
+    },
+    {
+      "role": "host",
+      "text": "第四条，阿里千问办公推出业内首个“多人工作台”，上线满月用户突破3000万，企业占比过半。"
+    },
+    {
+      "role": "guest",
+      "text": "这数字挺吓人，一个月3000万，而且一半是企业，说明Agent这把火真的烧到B端了。"
+    },
+    {
+      "role": "host",
+      "text": "“多人工作台”本质是把Agent从单人工具升级成团队协作中枢，对标的是飞书和钉钉的智能化层。"
+    },
+    {
+      "role": "guest",
+      "text": "所以阿里这次不是抢聊天框，而是直接把AI塞进办公流，对吧？"
+    },
+    {
+      "role": "host",
+      "text": "对，你看IDC八月份那份Data Agent报告，把阿里云、火山引擎、腾讯云、星环科技全卷进去了，行业标准在重新画。"
+    },
+    {
+      "role": "guest",
+      "text": "第五条，王兴兴上市后头一回公开演讲，说机器人真正爆发要等两个「80%时刻」。"
+    },
+    {
+      "role": "host",
+      "text": "王兴兴这观点挺克制，他说的两个80%，一个是场景覆盖80%，一个是单机成本降到现有方案的20%。"
+    },
+    {
+      "role": "guest",
+      "text": "你想想，现在人形机器人炫技的多、真干活儿的少，他这判断等于给行业泼了一盆冷水，但也是清醒剂。"
+    },
+    {
+      "role": "host",
+      "text": "第六条，最高法发文明确“AI换脸拟声”等案件裁判规则，这事儿对行业有啥影响？"
+    },
+    {
+      "role": "guest",
+      "text": "影响可大了，相当于给AI内容侵权划了红线，创作者能告、平台也得担责，合规成本要往上涨。"
+    },
+    {
+      "role": "host",
+      "text": "你看后面要聊的OpenAI侵权案，也是同一个大趋势，全球都在给AI版权纠纷定规矩。"
+    },
+    {
+      "role": "guest",
+      "text": "行，那咱们把目光切到国外，先看DeepSeek V4 Flash的新动作。"
+    },
+    {
+      "role": "host",
+      "text": "DeepSeek V4 Flash搞了非高峰时段五折，14家供应商的价格、速度、缓存策略全被扒出来了。"
+    },
+    {
+      "role": "guest",
+      "text": "等于把整个推理服务市场的底牌亮了一遍，价格战已经打到分钟级别了。"
+    },
+    {
+      "role": "host",
+      "text": "对开发者来说，这种透明比价其实是个好事，能少踩坑对吧？"
+    },
+    {
+      "role": "guest",
+      "text": "没错，模型越来越像水电，按量计费、按峰谷定价，以后挑供应商就跟挑云服务一样挑。"
+    },
+    {
+      "role": "host",
+      "text": "下一条，Qwen 3.8 27B直接在浏览器标签页里跑点对点推理，这事儿听着挺玄。"
+    },
+    {
+      "role": "guest",
+      "text": "其实原理不玄，就是把浏览器当推理节点，多个标签页之间用WebRTC互相分担计算。"
+    },
+    {
+      "role": "host",
+      "text": "27B能跑起来，说明WebAssembly和量化技术真的成熟了，端侧推理的天花板又被掀开一块。"
+    },
+    {
+      "role": "guest",
+      "text": "那以后是不是连服务器都不用买，几台电脑拼一拼就能跑大模型？"
+    },
+    {
+      "role": "host",
+      "text": "小型团队和边缘场景完全可以这么想，但真正生产环境还是得靠云，端云协同才是终局。"
+    },
+    {
+      "role": "guest",
+      "text": "再看重磅，OpenAI内部发了篇博客，讲编程智能体怎么重塑AI研究流程。"
+    },
+    {
+      "role": "host",
+      "text": "这篇博客核心数据是，编码智能体让实验迭代速度、任务复杂度、研究加速度全拉起来了。"
+    },
+    {
+      "role": "guest",
+      "text": "等于说OpenAI自己在用Agent搞研究，这是个很强的自我循环，越用越强。"
+    },
+    {
+      "role": "host",
+      "text": "那是不是以后研究员的核心技能就从写代码变成指挥Agent写代码了？"
+    },
+    {
+      "role": "guest",
+      "text": "对，研究员会变成“Agent指挥家”，谁能把任务拆得清楚、谁来定标准，谁就吃香。"
+    },
+    {
+      "role": "host",
+      "text": "GPT-6 Astra和Claude Fable 5.1也同期登场了，听说Fable 5.1降价45%。"
+    },
+    {
+      "role": "guest",
+      "text": "Fable 5.1主打Agent工作流，定价直接砍45%，等于Anthropic在用价格抢B端Agent市场。"
+    },
+    {
+      "role": "host",
+      "text": "GPT-6 Astra则是把多模态和实时交互再往前推，OpenAI和Anthropic这一轮对撞，火药味很浓。"
+    },
+    {
+      "role": "guest",
+      "text": "国内国外一对比，其实可以发现几个有趣的联动点。"
+    },
+    {
+      "role": "host",
+      "text": "第一个联动，DeepSeek买华为芯片和阿里千问做办公，本质都是把AI从实验室拽进生产场景。"
+    },
+    {
+      "role": "guest",
+      "text": "国际这边Qwen 3.8和OpenAI的Agent博客也是同一个逻辑，都在拼落地。"
+    },
+    {
+      "role": "host",
+      "text": "第二个联动呢？"
+    },
+    {
+      "role": "guest",
+      "text": "第二个联动是版权治理，国内最高法出新规，国外《西雅图时报》和《新闻日报》直接起诉OpenAI和微软。"
+    },
+    {
+      "role": "host",
+      "text": "你看全球都在补AI版权的课，这块儿未来三年会是法律科技的新蓝海。"
+    },
+    {
+      "role": "guest",
+      "text": "第三个联动是端侧硬件，豆包手机、Qwen 27B、华为芯片全指向一件事。"
+    },
+    {
+      "role": "host",
+      "text": "对，就是算力下沉，端云一体的架构正在变成大模型的标配，谁先把这条路走通谁就赢。"
+    },
+    {
+      "role": "guest",
+      "text": "行，咱们快速过几条其他要闻，第一条，xAI又被联邦法官判了一次不利。"
+    },
+    {
+      "role": "host",
+      "text": "马斯克这阵子在法庭上不太顺，xAI的案子已经是第二次被驳了，监管压力越来越大。"
+    },
+    {
+      "role": "guest",
+      "text": "第二条，美国陆军要砸4.65亿美元采购反无人机激光武器，叫“Group 3杀手”。"
+    },
+    {
+      "role": "host",
+      "text": "金额不小啊，说明AI和自动化的结合体正在被大规模军用，AI国防化这事儿值得警惕。"
+    },
+    {
+      "role": "guest",
+      "text": "第三条，华为Mate XT 2折叠屏来了，配隐私屏和麒麟9050 Pro芯片。"
+    },
+    {
+      "role": "host",
+      "text": "麒麟9050 Pro这名字听着就硬核，国产折叠屏硬件这条路越走越深，对标的就是苹果和三星。"
+    },
+    {
+      "role": "host",
+      "text": "第四条，小米18 Fold对标Galaxy Z Fold 8和即将发布的折叠iPhone。"
+    }
+  ]
+}
