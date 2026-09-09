@@ -1,0 +1,308 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-09-09 | 国产模型集体亮剑,巨头生态战升级(60句深度版)",
+  "selected_news": [
+    {
+      "source": "雷锋网",
+      "title": "硅谷独角兽Perplexity转投阿里千问:基于Qwen3.8打造本地Agent",
+      "url": "https://www.leiphone.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "DeepSeek扩招150人,AI研究岗却一个没设",
+      "url": "https://36kr.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "小米王乃岩离职创业,押注物理AI",
+      "url": "https://36kr.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "菲尔兹奖得主入局大模型!4B手机Qwen+云端GLM刷爆ARC-AGI 3",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "北大系初创元空智能联手惠普:首款可断网科研模型Boxer发布",
+      "url": "https://36kr.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "Runway ARR突破2亿美元:视频热潮转向世界模型",
+      "url": "https://www.tmtpost.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Meta押注AI助手Muse,要在智能体赛道追赶",
+      "url": "https://www.theverge.com/ai",
+      "weight": "deep"
+    },
+    {
+      "source": "OpenAI-News",
+      "title": "OpenAI宣布破解九十年数学难题,数学界争议四起",
+      "url": "https://openai.com/news/",
+      "weight": "deep"
+    },
+    {
+      "source": "LastWeekInAI",
+      "title": "GPT-6 Astra登场:Anthropic推出Claude Fable 5.1,智能体场景降价45%",
+      "url": "https://lastweekin.ai/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "DeepMind发布人类基因组AI图谱,有望加速新药研发",
+      "url": "https://www.theverge.com/ai",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "听众朋友们早上好,今天是2026年9月9号,咱们一起看看今天AI圈有啥大事。"
+    },
+    {
+      "role": "guest",
+      "text": "没错,今天国内国外都有重磅,咱们先从国内的几条说起。"
+    },
+    {
+      "role": "host",
+      "text": "第一条就够炸,硅谷独角兽Perplexity竟然转投阿里千问了!你听说了吗?"
+    },
+    {
+      "role": "guest",
+      "text": "对,基于Qwen3.8-27B打造了本地Agent,跑在英伟达DGX Spark上,优化了PPLX 27B系列算法。"
+    },
+    {
+      "role": "host",
+      "text": "那这不是说,美国公司都开始用咱们国产的开源模型了吗?"
+    },
+    {
+      "role": "guest",
+      "text": "没错,这就说明Qwen3.8在国际开发者眼里是真的香,生态壁垒正在被国产打破。"
+    },
+    {
+      "role": "host",
+      "text": "接下来这条更值得玩味,DeepSeek一下子扩招150个人,结果一个AI研究岗都没设。"
+    },
+    {
+      "role": "guest",
+      "text": "你看,这就透露出一个信号,现在大模型公司拼的不光是研究,更是工程和落地能力。"
+    },
+    {
+      "role": "host",
+      "text": "那工程岗招这么多,是要干嘛呢?"
+    },
+    {
+      "role": "guest",
+      "text": "肯定是铺Agent、做To B产品,你想想V4系列刚降价50%,得有人把它卖出去啊。"
+    },
+    {
+      "role": "host",
+      "text": "小米那边的王乃岩离职创业了,方向还选了物理AI,这个你咋看?"
+    },
+    {
+      "role": "guest",
+      "text": "物理AI现在是大热门,从机器人到自动驾驶,小米自己也憋大招,他出来单干很正常。"
+    },
+    {
+      "role": "host",
+      "text": "他会不会反过来变成小米在物理AI赛道上的竞争对手啊?"
+    },
+    {
+      "role": "guest",
+      "text": "那必须的,人才流动就是这样,你看小鹏、华为现在都在抢物理AI团队,早就打成一片了。"
+    },
+    {
+      "role": "host",
+      "text": "对了,菲尔兹奖得主都下场做大模型了,4B手机Qwen加上云端GLM,刷爆ARC-AGI 3!"
+    },
+    {
+      "role": "guest",
+      "text": "这事儿有意思,数学家最较真,说两个模型之间找数学共同基础非常难,居然真给跑通了。"
+    },
+    {
+      "role": "host",
+      "text": "那是不是说,小模型加云端大模型这套打法,要变成新的标准配置了?"
+    },
+    {
+      "role": "guest",
+      "text": "我看是,你看苹果、高通现在都在端侧模型上加码,这条路走对了。"
+    },
+    {
+      "role": "host",
+      "text": "还有一条,北大系初创元空智能跟惠普合作,搞了个能断网跑科研的模型Boxer。"
+    },
+    {
+      "role": "guest",
+      "text": "断网这件事太关键了,科研数据涉密,上云风险太大,端侧模型刚好解决这个痛点。"
+    },
+    {
+      "role": "host",
+      "text": "那元空智能是不是也算找到了一个差异化路子?"
+    },
+    {
+      "role": "guest",
+      "text": "没错,不跟云端巨头正面刚,专攻科研和办公场景,这种细分市场反而容易活下来。"
+    },
+    {
+      "role": "host",
+      "text": "国内这边还有件大事,Runway这家公司的ARR突破2亿美元了,视频热潮转向世界模型。"
+    },
+    {
+      "role": "guest",
+      "text": "一个季度就净增4000多万美元,人均52万美金的营收,这种速度在AI公司里相当炸裂。"
+    },
+    {
+      "role": "host",
+      "text": "好,咱们把目光转向国外,Meta这次又放大招了,推出个人AI助手Muse。"
+    },
+    {
+      "role": "guest",
+      "text": "你还记得去年Meta推的那些模型吧,Muse定位是让任何人都能用上AI,主打大众市场。"
+    },
+    {
+      "role": "host",
+      "text": "那这不就是跟ChatGPT、Claude抢饭碗吗?"
+    },
+    {
+      "role": "guest",
+      "text": "对,但Meta手里有Facebook和Instagram,流量入口在那儿摆着,确实有底气。"
+    },
+    {
+      "role": "host",
+      "text": "接下来这条可就更有戏剧性了,OpenAI宣布破解了一个九十年没解决的数学难题。"
+    },
+    {
+      "role": "guest",
+      "text": "数学界瞬间炸锅,有人说这是AI的里程碑,也有人说解法不严谨,争议很大。"
+    },
+    {
+      "role": "host",
+      "text": "那你觉得AI搞科研这条路,到底是真突破还是炒作?"
+    },
+    {
+      "role": "guest",
+      "text": "我觉得是阶段性突破,工具确实厉害了,但离真正的AGI还远,黄仁勋说AGI已到来有点太乐观。"
+    },
+    {
+      "role": "host",
+      "text": "OpenAI还在推GPT-6 Astra,Anthropic也搞了个Claude Fable 5.1,智能体场景降价45%。"
+    },
+    {
+      "role": "guest",
+      "text": "你看价格战打到智能体了,这说明Agent是真火了,大家都想先抢开发者。"
+    },
+    {
+      "role": "host",
+      "text": "那Anthropic降这么多,会不会把OpenAI也卷进来?"
+    },
+    {
+      "role": "guest",
+      "text": "肯定会,你看Anthropic把价格降下来,OpenAI就得跟,不然开发者就用脚投票了。"
+    },
+    {
+      "role": "host",
+      "text": "DeepMind那边也有动作,发了个人类基因组AI图谱,要加速新药研发。"
+    },
+    {
+      "role": "guest",
+      "text": "这事儿听着玄乎,但其实意义很大,过去研究基因靠实验,现在AI能直接给假设。"
+    },
+    {
+      "role": "host",
+      "text": "那这个跟咱们国内做的基因研究,差距有多大呢?"
+    },
+    {
+      "role": "guest",
+      "text": "咱们华大、百度都在做,但DeepMind这次是端到端的图谱,工程化程度更高,值得对标。"
+    },
+    {
+      "role": "host",
+      "text": "聊完了这些,咱们来做个联动分析,你看国产模型这次是不是真的在国际化了?"
+    },
+    {
+      "role": "guest",
+      "text": "对,Perplexity都用上Qwen了,加上DeepSeek、Kimi在国外也火,出海是真起来了。"
+    },
+    {
+      "role": "host",
+      "text": "那跟OpenAI、Anthropic相比,咱们的优势在哪?"
+    },
+    {
+      "role": "guest",
+      "text": "便宜、开放、可定制,你看Claude Fable都降价45%了,不就是被国产卷出来的吗。"
+    },
+    {
+      "role": "host",
+      "text": "不过也有短板吧,比如高端人才和算力?"
+    },
+    {
+      "role": "guest",
+      "text": "确实,你看王乃岩这种人才都跑出去创业了,顶尖数学家菲尔兹奖得主也在做模型,人才战白热化。"
+    },
+    {
+      "role": "host",
+      "text": "还有一个事儿,Anthropic最近被指控订阅套路,用户都告到法院了。"
+    },
+    {
+      "role": "guest",
+      "text": "这事儿有意思,你说AI公司为了冲ARR,到底该不该牺牲用户体验?这是个矛盾。"
+    },
+    {
+      "role": "host",
+      "text": "那你觉得商业模式会不会出现新变化?"
+    },
+    {
+      "role": "guest",
+      "text": "肯定的,你看Runway人均52万美金的营收,说明To B还是赚钱的,光靠订阅太单薄。"
+    },
+    {
+      "role": "host",
+      "text": "接下来咱们速览几条其他要闻,先说国内的,理想汽车引入第三家电池供应商中创新航。"
+    },
+    {
+      "role": "guest",
+      "text": "钠电池企业最近出海很猛,中科海钠、宁德时代都签了大单,海外市场打得很凶。"
+    },
+    {
+      "role": "host",
+      "text": "特斯拉等十几个品牌最近都在降价促销,专家说不是价格战。"
+    },
+    {
+      "role": "guest",
+      "text": "中国游戏市场2025年规模冲到518亿美元,预计2026年再涨4%,小游戏最火。"
+    },
+    {
+      "role": "host",
+      "text": "深度智控刚完成B+轮数亿元融资,宁德时代和沙特阿美都投了。"
+    },
+    {
+      "role": "guest",
+      "text": "鸿蒙Mate XT 2首发麒麟9050 Pro芯片,三折叠手机越来越卷了。"
+    },
+    {
+      "role": "host",
+      "text": "国外这边,HackerNews上Kimi K3模型2.8T参数在MacBook上跑到1 token/s,四个SSD拼出来的。"
+    },
+    {
+      "role": "guest",
+      "text": "OpenAI开始支持新闻业,从课堂到编辑部全链条合作,这是要搞内容生态啊。"
+    },
+    {
+      "role": "host",
+      "text": "下面咱们展望一下未来,你最看好哪个赛道?"
+    },
+    {
+      "role": "host",
+      "text": "物理AI和Agent,你看小米、Meta都在押注,To C入口会慢慢统一。"
+    }
+  ]
+}
