@@ -1,0 +1,441 @@
+{
+  "intl": [
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek launching v4.1 flash cheaper and more capable than v4 pro",
+      "url": "https://news.ycombinator.com/item?id=49624603",
+      "snippet": "DSeek plans to officially release the V4.1 Flash model around September 10, 2026 (Beijing Time). After extensive internal and external testing, V4.1 Flash has comprehensively surpassed V4 Pro across a",
+      "published": "2026-09-09T11:19:26Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
+      "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
+      "snippet": "",
+      "published": "2026-09-09T17:24:28Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek-v4.1-Exp",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "snippet": "",
+      "published": "2026-09-10T05:57:51Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek v4.1 Flash",
+      "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+      "snippet": "<a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;deepseek-ai&#x2F;DeepSeek-V4.1-Flash\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;deepseek-ai&#x2F;DeepSeek-V4.1-Flash</a>",
+      "published": "2026-09-10T06:11:05Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "(Tech Report) DeepSeek-v4.1-Flash: Pushing Limits of KV Cache Compression [pdf]",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/resolve/main/DeepSeek_V41_Tech_Report.pdf",
+      "snippet": "",
+      "published": "2026-09-10T06:13:07Z",
+      "weight": 10
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "DeepSeek AI Released DeepSeek-V4.1-Flash with 1M Context, FP4 KV Cache, and Cross-Layer Attention Reuse",
+      "url": "https://www.marktechpost.com/2026/09/10/deepseek-ai-released-deepseek-v4-1-flash-with-1m-context-fp4-kv-cache-and-cross-layer-attention-reuse/",
+      "snippet": "<p>Long-horizon agents have turned LLM serving into an input-heavy workload. Repeated prefills and million-token contexts leave KV caches that strain HBM, SSD capacity, and bandwidth. DeepSeek AI buil",
+      "published": "Thu, 10 Sep 2026 07:31:01 +0000",
+      "weight": 10
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Mathematicians want proof OpenAI didn’t use their work",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
+      "snippet": "Another researcher is challenging OpenAI about the data driving its increasingly impressive array of mathematical discoveries. Just days after a bitter row erupted over whether the company's models be",
+      "published": "2026-09-10T07:00:57-04:00",
+      "weight": 9
+    },
+    {
+      "source": "LastWeekInAI",
+      "title": "LWiAI Podcast #256 - Fable 5.1, Astra Tease, Gemini 3.8 Flash",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-256-fable-51-astra",
+      "snippet": "Anthropic launches Claude Fable 5.1, OpenAI Is About (already has) to Release Its First AI Model With &#8216;Critical&#8217; Cyber Abilities, OpenAI&#8217;s rogue AI model incident was worse than we t",
+      "published": "Wed, 09 Sep 2026 08:01:40 GMT",
+      "weight": 9
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Google Open-Sources Mantis: A Modular Skills Toolkit That Lets Coding Agents Find, Reproduce and Patch Vulnerabilities",
+      "url": "https://www.marktechpost.com/2026/09/09/google-open-sources-mantis-a-modular-skills-toolkit-that-lets-coding-agents-find-reproduce-and-patch-vulnerabilities/",
+      "snippet": "<p>Google has open-sourced Mantis, a stack-agnostic toolkit of security review skills for AI coding agents. It runs the full vulnerability lifecycle: sweep the code, filter false positives, reproduce ",
+      "published": "Wed, 09 Sep 2026 22:58:29 +0000",
+      "weight": 9
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Busabase for DeepSeek Harness: An Agent database that runs apps and skills",
+      "url": "https://github.com/busabase/busabase-dsh-plugin",
+      "snippet": "",
+      "published": "2026-09-10T02:12:21Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
+      "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
+      "snippet": "",
+      "published": "2026-09-10T21:02:18Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Show HN: Grok CLI – Grok-native agentic coding harness",
+      "url": "https://github.com/abhayKashyap03/grok-cli",
+      "snippet": "",
+      "published": "2026-09-09T04:20:49Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "How I advertise malicious software on Google Ads",
+      "url": "https://xlii.space/eng/malicious-software-on-google-ads/",
+      "snippet": "",
+      "published": "2026-09-09T11:43:21Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Show HN: Type.com: Multiplayer Codex/Claude in the cloud for non-tech use cases",
+      "url": "https://news.ycombinator.com/item?id=49626148",
+      "snippet": "Hey HN, I&#x27;m Komran, the CTO and cofounder of type.com. We&#x27;re launching today. I&#x27;ve been describing type as &quot;the IDE for non technical people.&quot; It allows you to build really co",
+      "published": "2026-09-09T13:24:02Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Show HN: GBDL – one Markdown+YAML file to save a multi-agent Grok Bot setup",
+      "url": "https://github.com/jcpsimmons/gbdl",
+      "snippet": "",
+      "published": "2026-09-09T16:14:48Z",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI’s sly mathematical breakthrough sends a chill through academia",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes",
+      "snippet": "OpenAI's announcement Tuesday that it has solved one of mathematics' legendary Millennium Prize problems should have been a moment of triumph. The result is both an undeniable achievement and a striki",
+      "published": "2026-09-09T17:16:34-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments",
+      "url": "https://github.com/OtoDock/oto-dock",
+      "snippet": "Hi HN, I am Dimitris. \nThis is a company OS that I built and use to run my business and anyone can install it and self host it for free. Think of it as Claude Code, Cowork and the cloud sessions in on",
+      "published": "2026-09-09T17:57:55Z",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Meta’s Muse AI works and creeps me out",
+      "url": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on",
+      "snippet": "Meta has launched its new Muse assistant, marking the company's first real foray into AI-powered productivity tools. The company says its AI agent can \"take the busywork off your plate\" by helping you",
+      "published": "2026-09-10T11:00:00-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Grok Bot Galaxy",
+      "url": "https://x.ai/galaxy",
+      "snippet": "",
+      "published": "2026-09-10T20:34:35Z",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "OpenAI Launches the Agents API in Public Beta, Putting the Codex Harness Behind One API Call",
+      "url": "https://www.marktechpost.com/2026/09/10/openai-launches-the-agents-api-in-public-beta-putting-the-codex-harness-behind-one-api-call/",
+      "snippet": "<p>OpenAI has released the Agents API in public beta. It gives developers the same harness and infrastructure that run Codex. OpenAI hosts and maintains the harness. Developers run the agent&#8217;s c",
+      "published": "Thu, 10 Sep 2026 21:21:58 +0000",
+      "weight": 6
+    },
+    {
+      "source": "TechReview-AI",
+      "title": "What OpenAI’s latest controversy tells us about the future of math",
+      "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+      "snippet": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most importan",
+      "published": "Wed, 09 Sep 2026 03:10:08 +0000",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Meta Introduces Muse, a Personal AI Agent That Runs on Its Own Dedicated Secure Cloud Computer",
+      "url": "https://www.marktechpost.com/2026/09/08/meta-introduces-muse-a-personal-ai-agent-that-runs-on-its-own-dedicated-secure-cloud-computer/",
+      "snippet": "<p>Today, Meta has introduced Muse, a personal AI agent that takes actions rather than just answering questions. Muse can send emails, book travel, negotiate bills, and pursue long term goals. It keep",
+      "published": "Wed, 09 Sep 2026 04:38:13 +0000",
+      "weight": 6
+    },
+    {
+      "source": "OpenAI-News",
+      "title": "Paul Christiano joins OpenAI Foundation Board",
+      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "snippet": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "published": "Wed, 09 Sep 2026 17:00:00 GMT",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Xapien raises $56M Series B for AI background checks and due diligence",
+      "url": "https://axios.com/pro/all-deals/2026/09/10/due-diligence-ai-xapien-56-million",
+      "snippet": "",
+      "published": "2026-09-10T23:15:53Z",
+      "weight": 5
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Electronic shelf labels likely to cost jobs and drive up grocery prices",
+      "url": "https://www.theguardian.com/us-news/2026/sep/09/electronic-shelf-labels-grocery",
+      "snippet": "",
+      "published": "2026-09-09T13:48:11Z",
+      "weight": 1
+    }
+  ],
+  "cn": [
+    {
+      "source": "36氪",
+      "title": "8点1氪丨苹果发布首款折叠屏iPhone Duo：售价15999元起；支付宝账户被哈啰打车盗刷6551元，哈啰客服称最多赔200；DeepSeek备战科创板IPO",
+      "url": "https://36kr.com/p/3976825296597507?f=rss",
+      "snippet": "<h2>今日热点导览</h2>\n  <p>阿里称无招回归阿里千问办公消息不实</p>\n  <p>沐曦股份：9月17日起1397万股限售股上市流通</p>\n  <p>娃哈哈集团成被执行人</p>\n  <p>理想汽车引入第三家电池供应商，中创新航上车理想i6</p>\n  <p>OpenAI称破解千禧年大奖难题&nbsp;</p>\n  <h2>TOP3大新闻</h2>\n  <p><strong>苹果发布",
+      "published": "2026-09-10 07:58:59  +0800",
+      "weight": 10
+    },
+    {
+      "source": "钛媒体",
+      "title": "【钛晨报】证监会发声，事关“十五五”资本市场工作；DeepSeek V4.1 Flash模型正式发布；马斯克旗下The Boring Company完成30亿美元D轮融资，估值达230亿美元",
+      "url": "https://www.tmtpost.com/8135740.html",
+      "snippet": "高德回应“扫雷榜”传闻：正式发布“避雷指南1.0”；A股龙头进入苹果首款折叠屏手机iPhone Duo供应链；HD现代重工将投资8336亿韩元建设新发动机工厂；星巴克拟斥资10亿美元改造多达9000家门店；《金融强国建设“十五五”规划》正式出台；国务院办公厅印发《关于加强中小企业回款难问题治理有关工作的通知》；农业农村部：到2030年，畜牧业高质量发展迈上新台阶；打破国外长期垄断，中国小型液质联用",
+      "published": "Fri, 11 Sep 2026 07:20:00 +0800",
+      "weight": 10
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "参数几乎翻倍，推理反而更省：DeepSeek V4.1-Flash 重构 KV Cache",
+      "url": "https://www.infoq.cn/article/sbaJrAa8VTIRKIPCpKlo?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/sbaJrAa8VTIRKIPCpKlo?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Thu, 10 Sep 2026 17:06:25 GMT",
+      "weight": 10
+    },
+    {
+      "source": "雷锋网",
+      "title": "深度解读 DeepSeek V4.1 Flash 全新架构，如何成为显存杀手",
+      "url": "https://www.leiphone.com/category/yanxishe/U8PtVze3OZTTnJc4.html",
+      "snippet": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260910/6aa28d30125d2.j",
+      "published": "Thu, 10 Sep 2026 19:00:00 +0800",
+      "weight": 10
+    },
+    {
+      "source": "36氪",
+      "title": "OpenAI宣布暂停ChatGPT Pro 200美元套餐新增订阅，已订用户不受影响",
+      "url": "https://36kr.com/newsflashes/3978274201975558?f=rss",
+      "snippet": "OpenAI宣布自2026年9月10日起，暂停ChatGPT Pro 200美元套餐（Pro 20X）的新用户注册与套餐升级。已有的ChatGPT Pro 200美元订阅，以及新增或存量的ChatGPT Pro 100美元订阅，不受本次暂停措施影响。（财联社）",
+      "published": "2026-09-11 08:29:47  +0800",
+      "weight": 9
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Google 发布 BeyondCorp 继任者，但普通企业真的学得来吗？",
+      "url": "https://www.infoq.cn/article/V2IvFxuSsxAY3zLVtzga?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/V2IvFxuSsxAY3zLVtzga?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Thu, 10 Sep 2026 16:06:00 GMT",
+      "weight": 9
+    },
+    {
+      "source": "掘金",
+      "title": "DeepSeek Harness 系列（02）：万物皆插件——Cordis 核心设计深度解读",
+      "url": "https://juejin.cn/post/7683539970712731702",
+      "snippet": "dsh 的所有能力都建立在 Cordis 插件框架之上。这篇文章结合真实源码，深度解读 Cordis 五个核心机制：Plugin、Context、Service、Event、Effect",
+      "published": "Thu, 10 Sep 2026 12:54:41 GMT",
+      "weight": 7
+    },
+    {
+      "source": "掘金",
+      "title": "Agent 编排 Agent：DeepSeek Harness 的子代理与工作流系统有多强",
+      "url": "https://juejin.cn/post/7683752183521067048",
+      "snippet": "第14章：子代理与工作流编排——agent 如何编排 agent 一个 agent 能写代码、能跑命令。但如果任务太大——「重构这个模块」「同时修 10 个文件」——单个 agent 的上下文窗口会爆",
+      "published": "Thu, 10 Sep 2026 12:55:13 GMT",
+      "weight": 7
+    },
+    {
+      "source": "掘金",
+      "title": "玩遍各种 Agent 后，我反而开始认真研究豆包和飞书",
+      "url": "https://juejin.cn/post/7683813142959472640",
+      "snippet": "最近我突然开始认真研究豆包和飞书了，这件事情放在我自己身上其实还有点反差，因为过去很长一段时间我都在折腾各种国外的 Agent，Claude Code、Codex、各种 Vibe Coding 工具，",
+      "published": "Thu, 10 Sep 2026 15:38:52 GMT",
+      "weight": 7
+    },
+    {
+      "source": "钛媒体",
+      "title": "智谱“既要又要”",
+      "url": "https://www.tmtpost.com/8134990.html",
+      "snippet": "离“中国版Anthropic”还有多远？",
+      "published": "Thu, 10 Sep 2026 18:50:03 +0800",
+      "weight": 7
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Meta Muse突袭：人手一台AI虚拟机，全天候干活！扎克伯格想让 AI 自己“挣回饭钱”",
+      "url": "https://www.infoq.cn/article/NSFJ4JFUjL6KaYUDV5Wv?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/NSFJ4JFUjL6KaYUDV5Wv?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Thu, 10 Sep 2026 11:03:21 GMT",
+      "weight": 6
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "OpenAI抄袭、威胁数学家？“AI攻克千禧难题”秀，终成 OpenAI 和 Anthropic 的大战",
+      "url": "https://www.infoq.cn/article/Yv5sAmejcLyOYSSRdwI2?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/Yv5sAmejcLyOYSSRdwI2?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Thu, 10 Sep 2026 11:22:49 GMT",
+      "weight": 6
+    },
+    {
+      "source": "掘金",
+      "title": "anthropics/skills：高关注度“官方技能”项目，应该怎样读",
+      "url": "https://juejin.cn/post/7684019310343258175",
+      "snippet": "# anthropics/skills：高关注度“官方技能”项目，应该怎样读 AI 开发工具正在从“会回答问题”走向“能完成一类工作”。当人们讨论智能体能力扩展时，常会提到工具调用、工作流、上下文和",
+      "published": "Thu, 10 Sep 2026 22:07:11 GMT",
+      "weight": 6
+    },
+    {
+      "source": "36氪",
+      "title": "成立不到一年，AI潮玩品牌「IPTAG」完成千万级战略融资｜36氪首发",
+      "url": "https://36kr.com/p/3977219182342401?f=rss",
+      "snippet": "<p>文｜李小霞</p>\n  <p>36氪获悉，AI潮玩与高端收藏卡品牌IPTAG宣布已完成千万级战略融资，由高投集团策源资本旗下成都策源高都共创股权投资基金（简称“策源高都基金”）独家投资。</p>\n  <p>本轮融资主要用于AI技术研发、优质IP合作拓展、产品体验升级以及渠道与供应链建设。</p>\n  <p>据悉，本轮投资方成都策源高都基金，是成都高新区与都江堰市携手打造的首支跨区域产业基金，",
+      "published": "2026-09-10 14:37:02  +0800",
+      "weight": 5
+    },
+    {
+      "source": "199IT",
+      "title": "德勤：2026年全球并购趋势脉搏调查",
+      "url": "http://www.199it.com/archives/1838514.html",
+      "snippet": "调查显示，尽管市场波动继续对并购活动产生不利影响，但大胆的交易者仍有大量潜在机会实现价值。探索更新的并购趋势数据，包括美国大型交易、中端市场机会，以及关于一些企业和私募股权投资者正在使用的跨境并购策略的新见解。",
+      "published": "Thu, 10 Sep 2026 20:00:21 +0000",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "一年卖出数十万台E-bike后，这家公司要做AI移动出行｜36氪首发",
+      "url": "https://36kr.com/p/3976975660511751?f=rss",
+      "snippet": "<p>作者&nbsp;|&nbsp;张子怡</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <p>硬氪获悉，智能轻出行企业大鱼智行近期完成近亿元Pre-B轮融资，本轮由同鑫资本领投，多家机构跟投。融资资金将主要用于新品研发、智能化技术升级、全球品牌建设及供应链能力提升。</p>\n  <p>成立十年来，大鱼智行的主要产品为E-bike。过去两年，大鱼智行开始朝智能轻出行、户外智能",
+      "published": "2026-09-10 10:29:19  +0800",
+      "weight": 4
+    },
+    {
+      "source": "钛媒体",
+      "title": "独家｜荣耀退股进入实际退款阶段，已有离职员工收到“回头钱”",
+      "url": "https://www.tmtpost.com/8135022.html",
+      "snippet": "五年过去，荣耀仍处于上市辅导阶段，而这批最早参与“荣耀IPO故事”的人，选择把钱拿回来。",
+      "published": "Thu, 10 Sep 2026 17:05:21 +0800",
+      "weight": 4
+    },
+    {
+      "source": "钛媒体",
+      "title": "一支笔、一只狗、一套能力：京东的AI硬件爆款方法论",
+      "url": "https://www.tmtpost.com/8135125.html",
+      "snippet": "线上的入口早已成型，物理世界的入口，京东正打算一支笔、一盏灯、一台烤箱、一架轮椅地去攒。",
+      "published": "Thu, 10 Sep 2026 17:56:29 +0800",
+      "weight": 4
+    },
+    {
+      "source": "36氪",
+      "title": "「山系机能风」过气了，但萨洛蒙CEO说他们的增长才刚开始｜New Look 专访",
+      "url": "https://36kr.com/p/3976156078699012?f=rss",
+      "snippet": "<p>文｜贺哲馨</p>\n  <p>编辑｜乔芊</p>\n  <p>2016年，一副跑鞋模具差点被送进焚化炉。</p>\n  <p>它属于萨洛蒙的XT-6，一款为在严苛环境跑完超长距离而设计的越野跑鞋。拦下这副模具的是Jean-Philippe Lalonde，一个曾经负责始祖鸟高端时尚线的法国人。他觉得这款鞋型“极富潜力”——把比赛配色的红黑白换成低饱和或运动色，就能衍生出无穷组合。从这副没被烧掉的",
+      "published": "2026-09-10 10:52:44  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "海底捞减持背后，“离岸富豪”排队补税",
+      "url": "https://36kr.com/p/3977186183655680?f=rss",
+      "snippet": "<p><strong>作者 |&nbsp;谢芸子</strong></p>\n  <p><strong>编辑 | 张帆</strong></p>\n  <p>海底捞的股价异动让市场惊讶。</p>\n  <p>9月9日，海底捞早盘一度跌超10%，盘中最多跌超12%至10港元，创下2022年3月以来新低。直接原因，是一笔创始人家族罕见的大宗交易。</p>\n  <p>据当日收盘后的海底捞公告，董事会获控股股东",
+      "published": "2026-09-10 14:31:27  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "硬氪直击IFA——AI硬件不再只会回答问题",
+      "url": "https://36kr.com/p/3975817977868549?f=rss",
+      "snippet": "<p>如果说过去两年的消费电子展，所有产品都急着证明自己“接入了AI”，那么到了IFA 2026，一个变化正在发生：AI不再只是被塞进电视、冰箱和电脑里的附加功能，而是开始成为硬件运行的底层逻辑。</p>\n  <p>9月4日至8日，IFA 2026在德国柏林举行。根据官方数据，本届展会聚集超过1900个品牌，机器人、人工智能、智能家居乃至飞行汽车都成为展示重点。</p>\n  <p>但比新品数量更值",
+      "published": "2026-09-10 16:06:24  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "苹果新CEO上任第一枪：15999元起的折叠屏，要把高端市场吃干抹净",
+      "url": "https://36kr.com/p/3977379721818626?f=rss",
+      "snippet": "<p><strong>文｜</strong>肖漫</p>\n  <p><strong>编辑｜</strong>袁斯来</p>\n  <p>9月10日凌晨，苹果举办了近年来最特别的一次iPhone发布会。</p>\n  <p>8月末，蒂姆库克卸任CEO，结束了苹果又一段辉煌时代。</p>\n  <p>低调的硬件工程师John Ternus（约翰·特努斯）正式接任一把手位置。而这次，是他第一场重大新品发布会。",
+      "published": "2026-09-10 17:22:03  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "一年融3轮，哈工程海洋工程团队「工至海洋」打造深海机器人，已获亿元意向订单 | 水下项目",
+      "url": "https://36kr.com/p/3977372742250756?f=rss",
+      "snippet": "<p>1854年，一个叫菲尔德的年轻人决定用海底电缆横贯大西洋。经过数次失败，几乎所有股东要求终止计划后，1858年8月，电缆终于铺通，英国女王的声音通过电缆传到美国，人类第一次以分钟为单位，跨越大洋传递信息。</p>\n  <p>169年后的今天，全球海底光缆的总长度已经超过140万公里，承载95%以上的跨洲数据传输，但人类对海缆的日常维护能力还停留在“石器时代”。</p>\n  <p>“全球所有海",
+      "published": "2026-09-10 17:47:32  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "36氪正在寻找值得报道的创业项目，有项目的朋友可以来试试",
+      "url": "https://36kr.com/p/3977421065466121?f=rss",
+      "snippet": "<p><strong>如果你正在创业，或者手上正在做一个项目，可能会遇到一个挺现实的问题：</strong></p>\n  <p><strong>项目做了很久，但真正知道的人并不多？</strong></p>\n  <p>产品上线了，有了第一批用户；<br />业务开始跑起来了，也有了客户和营收；<br />团队每天都在忙着做产品、拓市场、找合作……</p>\n  <p>但出了自己的圈子之后，可能还是没",
+      "published": "2026-09-10 18:17:32  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "8点1氪丨英伟达被调查；罗永浩连用7个“抄的”吐槽苹果折叠屏；欧洲央行将三大关键利率上调25个基点",
+      "url": "https://36kr.com/p/3978247601601280?f=rss",
+      "snippet": "<h2>今日热点导览</h2>\n  <p>DeepSeek V4.1 Flash模型正式发布</p>\n  <p>298项重要国家标准发布，涉及AI、半导体等</p>\n  <p>苹果回应下架iPhone 17 Pro</p>\n  <p>功率半导体大厂，宣布涨价</p>\n  <p>OpenAI限制Adobe及其他竞争对手在ChatGPT投放广告&nbsp;</p>\n  <h2>TOP3大新闻</h2>",
+      "published": "2026-09-11 08:05:26  +0800",
+      "weight": 1
+    }
+  ],
+  "source_stats": {
+    "OpenAI-News": 9,
+    "Google-AI-Blog": 3,
+    "TheVerge-AI": 10,
+    "TechReview-AI": 2,
+    "LastWeekInAI": 1,
+    "MarkTechPost": 8,
+    "SebastianRaschka": 1,
+    "TheGradient": 0,
+    "HuggingFace-Blog": 2,
+    "HackerNews": 3,
+    "HackerNews-DeepSeek": 8,
+    "HackerNews-Kimi": 8,
+    "HackerNews-Qwen": 8,
+    "HackerNews-Grok": 8,
+    "HackerNews-xAI": 8,
+    "ArXiv-cs.AI": 15,
+    "量子位": 10,
+    "雷锋网": 15,
+    "钛媒体": 15,
+    "36氪": 15,
+    "InfoQ中文": 15,
+    "掘金": 15,
+    "199IT": 15
+  },
+  "dedup": {
+    "intl": {
+      "before": 94,
+      "after": 90
+    },
+    "cn": {
+      "before": 100,
+      "after": 99
+    }
+  }
+}
