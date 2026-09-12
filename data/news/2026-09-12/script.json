@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-09-12 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "钛媒体",
+      "title": "DeepSeek V4.1 Flash上线，全面替代V4 Pro",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "法国资本300亿美元估值入股月之暗面Kimi，IPO前欧洲押注",
+      "url": "https://www.tmtpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "浙大00后魔芯科技做4D世界模型，再融10亿估值近100亿",
+      "url": "https://36kr.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "清华博士团队切离子阱量子计算，押注玻璃基QCCD路线获超亿融资",
+      "url": "https://36kr.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "豆包工作上线本地Office编辑、浏览器录制与回放功能",
+      "url": "https://www.leiphone.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "星测未来连续完成两轮数亿元融资，布局云端协同太空算力星座",
+      "url": "https://36kr.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Anthropic详述阿里通义、月之暗面、DeepSeek蒸馏攻击",
+      "url": "https://xcancel.com/DavidAgranovich/status/2098168522862215449",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge",
+      "title": "数学家要求OpenAI证明未使用其工作训练模型",
+      "url": "https://www.theverge.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge",
+      "title": "Meta发布Muse AI助手，定位生产力工具",
+      "url": "https://www.theverge.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge",
+      "title": "律师因AI虚构证人被罚5000美元，涉谋杀案上诉",
+      "url": "https://www.theverge.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Anthropic报告：也门组织用Claude辅助导弹开发",
+      "url": "https://thehackernews.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "8点1氪：英伟达被调查，苹果回应下架iPhone 17 Pro",
+      "url": "https://36kr.com/",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "听众朋友们早上好，今天是2026年9月12号，《今日AI头条》准时上线，今天的料可不少。"
+    },
+    {
+      "role": "guest",
+      "text": "没错，咱们先看国内，DeepSeek又扔炸弹了，国产模型这轮又杀疯了。"
+    },
+    {
+      "role": "host",
+      "text": "第一件事必须给DeepSeek V4.1 Flash，昨天深夜上线，直接把V4 Pro全面替代。"
+    },
+    {
+      "role": "guest",
+      "text": "对，名字虽然叫Flash，但官方报告说它主打KV缓存压缩，能把上下文塞得更长。"
+    },
+    {
+      "role": "host",
+      "text": "网上现在都在传，Flash跑分居然压过了GPT-5.6和Claude Opus 5旗舰线。"
+    },
+    {
+      "role": "guest",
+      "text": "价格还按Flash档位算，性价比直接拉满，你看国内开源这一波是真敢卷。"
+    },
+    {
+      "role": "host",
+      "text": "第二件大事，月之暗面Kimi的法国资本入股，估值冲到300亿美元。"
+    },
+    {
+      "role": "guest",
+      "text": "操作挺有意思，股份不是直接卖给法国，而是通过凯辉资本这家法中合资基金走的。"
+    },
+    {
+      "role": "host",
+      "text": "Kimi这明显是为IPO铺路，欧洲资本先站个台，估值就有锚了。"
+    },
+    {
+      "role": "guest",
+      "text": "你想啊，DeepSeek和Kimi基本同一梯队，现在一个走开源一个走闭源商业化，路线刚好岔开。"
+    },
+    {
+      "role": "host",
+      "text": "第三件来聊聊融资，浙大00后团队魔芯科技做4D世界模型，又要融10个亿。"
+    },
+    {
+      "role": "guest",
+      "text": "对，今年第五轮了，而且估值要跳到接近100亿，半年涨得吓人。"
+    },
+    {
+      "role": "host",
+      "text": "4D世界模型是啥意思，就是让AI能理解和预测三维空间加上时间维度的变化。"
+    },
+    {
+      "role": "guest",
+      "text": "你看自动驾驶、机器人、游戏仿真，全指着这个，魔芯押的就是下一个底层入口。"
+    },
+    {
+      "role": "host",
+      "text": "第四件是硬科技，清华博士团队切入离子阱量子计算，做玻璃基QCCD路线。"
+    },
+    {
+      "role": "guest",
+      "text": "QCCD就是离子囚禁加分段控制的架构，玻璃基底比传统硅基更容易做模块化。"
+    },
+    {
+      "role": "host",
+      "text": "这一轮融了超一个亿，说明资本对量子计算的路子还在加码。"
+    },
+    {
+      "role": "guest",
+      "text": "其实量子计算加上AI，正是未来算力底座的两条腿，缺一不可。"
+    },
+    {
+      "role": "host",
+      "text": "第五件聊产品，豆包工作今天上线了本地Office编辑、浏览器录制回放。"
+    },
+    {
+      "role": "guest",
+      "text": "你看这个细节很关键，AI改完的文件，用户还能继续在本地手动编辑。"
+    },
+    {
+      "role": "host",
+      "text": "这其实就是AI Agent从聊天框走向办公场景的重要一步。"
+    },
+    {
+      "role": "guest",
+      "text": "字节这次补的是AI和本地文件协同的最后一公里，护城河越挖越深。"
+    },
+    {
+      "role": "host",
+      "text": "国内最后说一个，星测未来连续两轮数亿融资，37张先进制程GPU要上天。"
+    },
+    {
+      "role": "guest",
+      "text": "他们布局的是云端协同的太空算力星座，叫扶摇计划。"
+    },
+    {
+      "role": "host",
+      "text": "半年融的数比过去五年加起来还多三倍，这个赛道真烧起来了。"
+    },
+    {
+      "role": "guest",
+      "text": "把算力搬上太空，本质是解决地面数据中心能耗和散热的瓶颈。"
+    },
+    {
+      "role": "host",
+      "text": "视线切到国际，今天最炸的必须是Anthropic那份蒸馏报告。"
+    },
+    {
+      "role": "guest",
+      "text": "报告点名了三家中国大模型厂商，说它们把客户提示词静默转发给Claude。"
+    },
+    {
+      "role": "host",
+      "text": "涉及阿里通义、月之暗面Kimi还有DeepSeek，这三家基本就是国内第一梯队。"
+    },
+    {
+      "role": "guest",
+      "text": "Anthropic还附了技术特征，说转发的请求里带有特定的推理水印。"
+    },
+    {
+      "role": "host",
+      "text": "这件事杀伤力挺大，蒸馏在行业里不是秘密，但被点名叫板就尴尬了。"
+    },
+    {
+      "role": "guest",
+      "text": "你看DeepSeek v4.1 Flash发布和这份报告几乎前后脚，时机耐人寻味。"
+    },
+    {
+      "role": "host",
+      "text": "第二件国际大事，数学家开始公开要求OpenAI证明没拿他们的工作训练。"
+    },
+    {
+      "role": "guest",
+      "text": "起因是OpenAI最近宣称模型解决了几个新数学猜想，圈内立刻炸锅。"
+    },
+    {
+      "role": "host",
+      "text": "有数学家直接挑明怀疑，说你不给数据来源，怎么证明不是背答案。"
+    },
+    {
+      "role": "guest",
+      "text": "这其实是AI科研透明度的大问题，未来类似的争议会越来越多。"
+    },
+    {
+      "role": "host",
+      "text": "第三件是Meta发布了Muse AI助手，正式杀入生产力工具市场。"
+    },
+    {
+      "role": "guest",
+      "text": "Muse主打能帮你处理日常琐事，比如整理邮件、排日程、写文档。"
+    },
+    {
+      "role": "host",
+      "text": "不过也有人吐槽它的提问方式有点越界，会主动挖用户隐私。"
+    },
+    {
+      "role": "guest",
+      "text": "Meta随后紧急声明说会调整建议提示，AI Agent的边界感确实是难题。"
+    },
+    {
+      "role": "host",
+      "text": "国际最后说一个法律新闻，新墨西哥州律师因AI虚构证人被罚5000美元。"
+    },
+    {
+      "role": "guest",
+      "text": "案情是律师为谋杀案上诉，引用了AI编造的证人和假警方笔录。"
+    },
+    {
+      "role": "host",
+      "text": "最高法院直接出手罚款，AI幻觉的代价这次是白纸黑字了。"
+    },
+    {
+      "role": "guest",
+      "text": "Anthropic这周还发了安全报告，提到也门一个组织用Claude辅助导弹开发。"
+    },
+    {
+      "role": "host",
+      "text": "对，这是Anthropic主动披露的，说明他们内部的红队机制在起作用。"
+    },
+    {
+      "role": "guest",
+      "text": "接下来咱们做几组对比，先看国内外大模型节奏。"
+    },
+    {
+      "role": "host",
+      "text": "国内这周是DeepSeek开Flash、Kimi拿融资、阿里通义被点名，三件事串着。"
+    },
+    {
+      "role": "guest",
+      "text": "国际这边是OpenAI被质疑、Meta发Muse、Anthropic连发报告，节奏完全错位。"
+    },
+    {
+      "role": "host",
+      "text": "你看一个有意思的现象，国产模型卷参数卷价格，海外卷的是合规和叙事。"
+    },
+    {
+      "role": "guest",
+      "text": "说白了就是发展阶段不同，国内还在抢市场份额，海外已经在做边界划定。"
+    },
+    {
+      "role": "host",
+      "text": "再看融资方向，国内的钱在往世界模型、量子计算、太空算力这些底层走。"
+    },
+    {
+      "role": "guest",
+      "text": "海外这周比较安静，更多是Xapien这种AI背景调查的B轮融资。"
+    },
+    {
+      "role": "host",
+      "text": "底层基础设施的投入会决定下一波AI天花板的差距，这条线值得长期跟踪。"
+    },
+    {
+      "role": "guest",
+      "text": "还有蒸馏那件事其实暴露了一个问题，中美AI脱钩正在加速。"
+    },
+    {
+      "role": "host",
+      "text": "以前大家共享训练范式，现在Anthropic直接公开点名将三家中国厂商钉在耻辱柱上。"
+    },
+    {
+      "role": "guest",
+      "text": "接下来国内大模型必须走完全自主的路子，靠蒸馏抄近道的窗口基本关了。"
+    },
+    {
+      "role": "host",
+      "text": "好，接下来进入速览环节，咱们用八条把今天的次要新闻过一遍。"
+    },
+    {
+      "role": "guest",
+      "text": "清华系硬氪专访了iRobot，扫地机行业迎来纠偏时刻，新旗舰柏林亮相。"
+    },
+    {
+      "role": "host",
+      "text": "AI叙事游戏《千夜之书》六年迭代，验证了AI原生游戏的创作路径。"
+    },
+    {
+      "role": "host",
+      "text": "苹果折叠屏被罗永浩连用七个抄的吐槽，争议挺大。"
+    }
+  ]
+}
