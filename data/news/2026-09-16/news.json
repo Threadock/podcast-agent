@@ -1,0 +1,441 @@
+{
+  "intl": [
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "3D viz of how DeepSeek Flash v4.1 is different from decode only transformer",
+      "url": "https://whip.run/experience/356b3eba-23ce-4dc8-bff2-4f7bc1862966",
+      "snippet": "",
+      "published": "2026-09-14T05:16:42Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen 3.8 Flash via DwarfStar",
+      "url": "https://twitter.com/antirez/status/2099487927793299936",
+      "snippet": "",
+      "published": "2026-09-14T14:38:09Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Prompt steering can reduce DeepSeek v4 hallucinations to below GPT and Claude",
+      "url": "https://propensitylabs.substack.com/p/how-to-get-deepseek-to-hallucinate",
+      "snippet": "",
+      "published": "2026-09-14T16:51:24Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen3.8-Flash-Next non-uniform quantization runs on 2 RTX3090s",
+      "url": "https://huggingface.co/pfeifferj/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+      "snippet": "",
+      "published": "2026-09-14T20:51:01Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek v4.1 Flash (518GB, 4-bit) on a 128GB MacBook: 2.7x prefill, 17 tok/s",
+      "url": "https://github.com/argonautlabsai/argodrive",
+      "snippet": "",
+      "published": "2026-09-15T11:57:25Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Show HN: Warp – Run DeepSeek v4.1 Flash with 5 GB of RAM at 3.77 tok/s",
+      "url": "https://github.com/sqliteai/warp",
+      "snippet": "",
+      "published": "2026-09-15T15:28:23Z",
+      "weight": 10
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Meta Introduces ZGateway: A Stateless Proxy Tier That Unifies ZippyDB Traffic and Handles Over 1 Billion Operations Per Second",
+      "url": "https://www.marktechpost.com/2026/09/14/meta-introduces-zgateway-a-stateless-proxy-tier-that-unifies-zippydb-traffic-and-handles-over-1-billion-operations-per-second/",
+      "snippet": "<p>Meta engineering team introduced ZGateway, a proxy tier that now sits between client applications and ZippyDB, the Meta&#8217;s most widely used key value store. ZippyDB backs product metadata, cou",
+      "published": "Tue, 15 Sep 2026 04:28:29 +0000",
+      "weight": 9
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Google Releases Gemini 3.8 Live and 3.8 Live Extended Thinking for Production Grade Voice Agents",
+      "url": "https://www.marktechpost.com/2026/09/15/google-releases-gemini-3-8-live-and-3-8-live-extended-thinking-for-production-grade-voice-agents/",
+      "snippet": "<p>Google has released Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, its most advanced live dialogue models to date. The models execute tools and API calls in the background while the convers",
+      "published": "Tue, 15 Sep 2026 20:53:09 +0000",
+      "weight": 9
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen Audio Agent – full duplex via ACP",
+      "url": "https://qwenaudio.github.io/qwen-audio-agent/",
+      "snippet": "",
+      "published": "2026-09-14T15:28:23Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Show HN: Nari Qwen3-TTS and Qwen3-ASR – High accuracy, low latency and cost",
+      "url": "https://narilabs.com/blog/nari-labs-leads-coval-voice-ai-benchmarks/",
+      "snippet": "Hey HN, Toby from Nari Labs here.<p>We&#x27;ve been working on making OSS speech models super-fast. Last year, we built Dia, the first OSS text-to-speech model capable of doing natural dialogue. Since",
+      "published": "2026-09-14T16:07:58Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek down for API/app and web",
+      "url": "https://downdetector.co.uk/status/deepseek/",
+      "snippet": "",
+      "published": "2026-09-14T19:48:31Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Tuning a Local Coding Agent: Oh My Pi and Qwen3.8-27B on Two RTX 3090s",
+      "url": "https://doug.sh/posts/tuning-a-local-coding-agent-oh-my-pi/",
+      "snippet": "",
+      "published": "2026-09-15T12:09:21Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
+      "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
+      "snippet": "",
+      "published": "2026-09-14T12:01:32Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "I stress-tested Meta Muse until its agent control plane started timing out",
+      "url": "https://blog.cygankiewicz.com/en/meta-muse-black-box-testing/",
+      "snippet": "",
+      "published": "2026-09-14T16:26:07Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "I built a Grok Bot inspired theme for Hermes Desktop client",
+      "url": "https://github.com/guidsen/hermes-grok-bot-skin",
+      "snippet": "",
+      "published": "2026-09-15T08:19:04Z",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Meta&#8217;s new One subscriptions put a price on social media and AI",
+      "url": "https://www.theverge.com/tech/995453/meta-one-subscriptions-ai",
+      "snippet": "Shortly after launching its new do-everything AI assistant Muse, Meta's launching subscription bundles that pair its standalone app subscriptions with extra AI usage. Some of the new Meta One bundles ",
+      "published": "2026-09-15T11:00:00-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Google's New Search Redirects Make It Harder to Check Links Before You Click",
+      "url": "https://digitalescapetools.com/2026/09/google-search-redirects-hide-destination-links.html",
+      "snippet": "",
+      "published": "2026-09-15T14:10:05Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Grok Bot Galaxy",
+      "url": "https://x.ai/galaxy",
+      "snippet": "",
+      "published": "2026-09-15T16:19:32Z",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Anthropic’s 3-Step ‘Pace the Frontier’ Plan Wins OpenAI, xAI and Microsoft Support: Is It Too Late to Slow AI Down?",
+      "url": "https://www.marktechpost.com/2026/09/13/anthropics-3-step-pace-the-frontier-plan-wins-openai-xai-and-microsoft-support-is-it-too-late-to-slow-ai-down/",
+      "snippet": "<p>Dario Amodei published \"We Must Pace the Frontier,\" and Sam Altman, Elon Musk and Satya Nadella endorsed it within a day. The trigger was a July incident in which roughly 1,200 OpenAI agents coordi",
+      "published": "Mon, 14 Sep 2026 01:44:01 +0000",
+      "weight": 6
+    },
+    {
+      "source": "Google-AI-Blog",
+      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+      "snippet": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues_Christina-Koch_social.max-600x600.format-webp.webp\" />Christina Koch sits down with James Manyika, Google’s Senior V",
+      "published": "Mon, 14 Sep 2026 19:00:00 +0000",
+      "weight": 6
+    },
+    {
+      "source": "Google-AI-Blog",
+      "title": "New insights from Google’s AI & Economy ATLAS",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+      "snippet": "Text \"AI & Economy Atlas v1.0 2026\" with the Google G and a spinning globe illustration",
+      "published": "Tue, 15 Sep 2026 13:00:00 +0000",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "OEMpocalypse: Unprivileged Android app to root on Samsung, Xiaomi, others",
+      "url": "https://calif.io/research/oempocalypse",
+      "snippet": "",
+      "published": "2026-09-14T02:25:44Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Turkish authorities launch crackdown on LGBTQ+ and HIV support groups",
+      "url": "https://apnews.com/article/turkey-lgbtq-hiv-crackdown-c782f5318613126fe072d29133e6bf5d",
+      "snippet": "",
+      "published": "2026-09-14T03:08:17Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Immiserizing Growth",
+      "url": "https://en.wikipedia.org/wiki/Immiserizing_growth",
+      "snippet": "",
+      "published": "2026-09-14T08:32:50Z",
+      "weight": 1
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Microsoft says ‘people matter more than AI’ following safety concerns",
+      "url": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct",
+      "snippet": "Microsoft is publishing a 37-page \"humanist AI code of conduct\" today, amid growing safety concerns over AI model progress. Anthropic CEO Dario Amodei called for a coordinated slow down of AI developm",
+      "published": "2026-09-14T09:00:00-04:00",
+      "weight": 1
+    }
+  ],
+  "cn": [
+    {
+      "source": "雷锋网",
+      "title": "担心代码被拿去训练！英伟达：限制员工使用 Claude；一汽将成广汽第二大股东！南北丰田拟合并；苹果回应「iPhone 18 Pro破发」",
+      "url": "https://www.leiphone.com/category/zaobao/SrmCbu60oiAwTvkH.html",
+      "snippet": "<section></section><section><section><section><section><section><section><section></section><section><section style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>要闻提示</strong></span></s",
+      "published": "Tue, 15 Sep 2026 08:23:00 +0800",
+      "weight": 9
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "OpenAI 发布适用于编程和计算机应用的 GPT-6 Astra",
+      "url": "https://www.infoq.cn/article/IfxYoy1PPkFQUpjWVBVr?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/IfxYoy1PPkFQUpjWVBVr?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Tue, 15 Sep 2026 16:52:00 GMT",
+      "weight": 9
+    },
+    {
+      "source": "36氪",
+      "title": "豆包手机明日开卖，AI能帮你操作App了吗？",
+      "url": "https://36kr.com/p/3984764117007111?f=rss",
+      "snippet": "<p>文 | 李炤锋</p>\n  <p>编辑 | 张雨忻</p>\n  <p>&nbsp;</p>\n  <p>昨日，豆包手机助手发布消费者版本。这款基于豆包App（应用）、与手机厂商在操作系统层合作的AI助手，首款落地机型为中兴通讯旗下努比亚NaviX Ultra，而这款手机将在 9 月 16 日正式公开发售。</p>\n  <p>去年底，豆包手机助手技术预览版曾落地努比亚M153工程样机，重点展示A",
+      "published": "2026-09-15 22:32:23  +0800",
+      "weight": 7
+    },
+    {
+      "source": "雷锋网",
+      "title": "字节跳动CEO梁汝波：豆包、飞书与火山引擎整合后 将加大企业市场投入",
+      "url": "https://www.leiphone.com/category/industrynews/hqrTSByQ6EWsZTDA.html",
+      "snippet": "<p>9月15日，2026飞书未来无限大会在京举办，字节跳动CEO梁汝波在会上进行了分享。他表示，在Agent进入可用阶段后，Agent、模型、协作环境三者必须紧密融合，才能真正发挥价值。正是基于这一判断，字节跳动将豆包、飞书、火山引擎的力量整合到一起，聚焦打造优质的工作与生产力产品；公司会投入更多的资源和力量，让智能更快地在企业组织里产生价值。</p><p><img src=\"https://s",
+      "published": "Tue, 15 Sep 2026 11:45:00 +0800",
+      "weight": 7
+    },
+    {
+      "source": "量子位",
+      "title": "梁文锋CFO到位！投过智谱MiniMax",
+      "url": "https://www.qbitai.com/2026/09/489707.html",
+      "snippet": "严文韬，1991年生，高瓴创投合伙人",
+      "published": "Tue, 15 Sep 2026 13:53:39 +0000",
+      "weight": 7
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "飞书与豆包工作合体后首亮相：Agent 能进群，还能帮你写周报、做PPT",
+      "url": "https://www.infoq.cn/article/aCRVupdyEAHtENIiIDwq?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/aCRVupdyEAHtENIiIDwq?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Tue, 15 Sep 2026 18:37:10 GMT",
+      "weight": 7
+    },
+    {
+      "source": "36氪",
+      "title": "Meta扎克伯格：保障AI安全应依靠评估人员，而非放缓AI",
+      "url": "https://36kr.com/newsflashes/3985350490979072?f=rss",
+      "snippet": "元宇宙平台公司首席执行官马克・扎克伯格表示，人工智能实验室应当依靠独立评估人员与顾问，保障模型安全。扎克伯格周二在X平台发文称：“聘请独立评估人员与顾问是行业最佳实践。” 越来越多科技企业高管正参与这场全球性讨论，探讨如何防止人工智能系统对人类造成伤害，扎克伯格也加入其中。部分企业高管支持放缓人工智能研发节奏，并呼吁各方协作达成共识。扎克伯格写道，Meta自主决定暂缓Muse人工智能工具的研发，并",
+      "published": "2026-09-16 08:28:09  +0800",
+      "weight": 6
+    },
+    {
+      "source": "量子位",
+      "title": "前OpenAI后训练VP回应陶哲轩：说AI毁了数学，可能还是太小瞧AI了",
+      "url": "https://www.qbitai.com/2026/09/489288.html",
+      "snippet": "未来的AI不仅能解决问题，还能提出有价值的洞见、建立新的概念框架，让数学家在此基础上继续探索。",
+      "published": "Tue, 15 Sep 2026 05:39:10 +0000",
+      "weight": 6
+    },
+    {
+      "source": "量子位",
+      "title": "Meta新研究：字节模型蒸馏后，天花板破了",
+      "url": "https://www.qbitai.com/2026/09/489337.html",
+      "snippet": "",
+      "published": "Tue, 15 Sep 2026 06:37:16 +0000",
+      "weight": 6
+    },
+    {
+      "source": "199IT",
+      "title": "2026年7月美国成年消费者使用Claude百分比（附原数据表） ​​​",
+      "url": "http://www.199it.com/archives/1851908.html",
+      "snippet": "2026年7月美国成年消费者使用Claude百分比（附原数据表） ​​​",
+      "published": "Tue, 15 Sep 2026 07:12:34 +0000",
+      "weight": 6
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Meta 打造“组织第二大脑”智能体的设计思路",
+      "url": "https://www.infoq.cn/article/4OXJdfB36TpMRdvrVgIc?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/4OXJdfB36TpMRdvrVgIc?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Tue, 15 Sep 2026 11:21:00 GMT",
+      "weight": 6
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Claude在英伟达内部被限用，黄仁勋告诉特朗普：我们不会让AI发展放缓发生",
+      "url": "https://www.infoq.cn/article/g9eJhszhJa3JcZsgZwmj?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/g9eJhszhJa3JcZsgZwmj?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Tue, 15 Sep 2026 16:01:41 GMT",
+      "weight": 6
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "月之暗面：网传创始人及员工信息系恶意造谣；OpenAI 放弃今年上市；iPhone Duo炒到9万，黄牛贷款欲囤货｜AI周报",
+      "url": "https://www.infoq.cn/article/HEN8icBvRCoKVvo2dSNA?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/HEN8icBvRCoKVvo2dSNA?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Tue, 15 Sep 2026 16:07:08 GMT",
+      "weight": 6
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "OpenAI故意欠技术债，等Codex来还：仅2名工程师，把核心存储从Python重写成Rust",
+      "url": "https://www.infoq.cn/article/QtIy65SxjN0Q4riY7tCo?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/QtIy65SxjN0Q4riY7tCo?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Tue, 15 Sep 2026 16:09:20 GMT",
+      "weight": 6
+    },
+    {
+      "source": "钛媒体",
+      "title": "OpenAI 考虑 1.2 万亿美元融资，拟将首次公开募股推迟至 2027 年",
+      "url": "https://www.tmtpost.com/8141318.html",
+      "snippet": "本轮融资将在 3 月 1220 亿美元融资设定的 8520 亿美元投后估值基础上增加约 3500 亿美元。",
+      "published": "Wed, 16 Sep 2026 08:20:48 +0800",
+      "weight": 6
+    },
+    {
+      "source": "钛媒体",
+      "title": "香山股份8亿跨界收购武珞智慧，主业承压下的算力豪赌 | 并购一线",
+      "url": "https://www.tmtpost.com/8141095.html",
+      "snippet": "香山股份此次的跨界，协同有想象空间，但兑现难度很高。",
+      "published": "Tue, 15 Sep 2026 20:12:12 +0800",
+      "weight": 5
+    },
+    {
+      "source": "钛媒体",
+      "title": "募投项目终止后改道并购：播恩集团1.125亿接盘希杰资产，主业造血困局待解丨并购一线",
+      "url": "https://www.tmtpost.com/8140634.html",
+      "snippet": "希杰此次出售的部分资产是否能够帮助播恩集团改善疲软的业绩表现，还要等待时间的验证。",
+      "published": "Tue, 15 Sep 2026 21:32:41 +0800",
+      "weight": 5
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "129亿美元卖身英伟达之后，是时候重新理解Hugging Face了",
+      "url": "https://www.infoq.cn/article/foEzSr8xfG0STQ1wgbti?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/foEzSr8xfG0STQ1wgbti?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Wed, 16 Sep 2026 08:00:00 GMT",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "科氪｜荣耀发布行业首个系统级Agent Harness架构操作系统MagicOS 11  Magic9首发搭载",
+      "url": "https://36kr.com/p/3984824416467976?f=rss",
+      "snippet": "<p>9月15日，荣耀正式发布行业首个真正实现系统级Agent Harness架构商用落地的终端操作系统MagicOS 11。</p>\n  <p>据介绍，通过 YOYO Harness，荣耀把模型能力与手机等终端的感知、规划、工具调用和执行能力深度结合，让这套架构真正服务于消费者每天使用的场景。结合领先的端云结合的大模型能力，YOYO从回答问题的AI助理，变成了会办事的伙伴。</p>\n  <p>&",
+      "published": "2026-09-15 23:33:15  +0800",
+      "weight": 4
+    },
+    {
+      "source": "36氪",
+      "title": "圆桌：智能向实，产业向新——AI如何进入真实世界 | 36氪 2026产业未来大会",
+      "url": "https://36kr.com/p/3984496514759689?f=rss",
+      "snippet": "<p>2026年，产业投资进入深水区，资本、技术与产业加速融合，旧的投资逻辑不再使用，新的共识正在诞生。2026产业未来大会聚焦新周期机遇，共探产业未来与“中国之光”的诞生。 9月9日至10日，由36氪主办的2026产业未来大会以“深水之上，共振新生”为主题的在北京亦庄举行。来自国资平台、产业投资基金、企业CVC、创新企业及专家学者走到一起，聚焦量子科技等未来产业走向产业化。大会深度探讨当下前沿技",
+      "published": "2026-09-15 18:00:08  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "圆桌：落地·量子计算的场景涌现——如果量子算力明天就可用，谁会第一个买单 | 36氪 2026产业未来大会",
+      "url": "https://36kr.com/p/3984504530615299?f=rss",
+      "snippet": "<p>2026年，产业投资进入深水区，资本、技术与产业加速融合，旧的投资逻辑不再使用，新的共识正在诞生。2026产业未来大会聚焦新周期机遇，共探产业未来与“中国之光”的诞生。 9月9日至10日，由36氪主办的2026产业未来大会以“深水之上，共振新生”为主题的在北京亦庄举行。来自国资平台、产业投资基金、企业CVC、创新企业及专家学者走到一起，聚焦量子科技等未来产业走向产业化。大会深度探讨当下前沿技",
+      "published": "2026-09-15 18:08:52  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "芯视界创始人、董事长兼首席科学家鲍捷：十年产业实践，量子感知芯片为物理AI打开物质世界 \"感知入口\" | 2026年36氪产业未来大会",
+      "url": "https://36kr.com/p/3984510448319492?f=rss",
+      "snippet": "<p>9月9日，由36氪举办的2026产业未来大会在北京亦庄开幕。</p>\n  <p>作为今年产业未来大会最集中的量子专场，来自北京量子信息科学研究院、中电信量子、玻色量子、矩量光启、华翊量子等科研机构与量子企业，以及数十家产业资本机构，共同讨论量子科技从实验室走向产业应用的下一阶段路径。</p>\n  <p>在众多全部围绕量子计算展开的讨论中，芯视界创始人、董事长兼首席科学家鲍捷带来了一场具有差异",
+      "published": "2026-09-15 18:15:57  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "企业案例分享：玉盘量智-离子阱量子计算芯片化集成工程实践 | 36氪 2026产业未来大会",
+      "url": "https://36kr.com/p/3984525481786120?f=rss",
+      "snippet": "<p>2026产业未来大会聚焦新周期机遇，共探产业未来与“中国之光”的诞生。玉盘量智执行总裁曾汝祺围绕离子阱量子计算的量智融合工程化落地主题，深度拆解了该技术路线从实验室走向规模化的核心挑战、技术路径与产业逻辑。当产业投资进入深水区，资本、技术与产业加速融合，量子计算如何完成从 “科学装置” 到 “计算机” 的跨越？玉盘量智给出了以半导体工业方法推进量智融合计算工程化的答案。</p>\n  <p c",
+      "published": "2026-09-15 18:33:51  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "云岫资本合伙人宋旭文：量子计算：工程化与产业化并进，拐点将至 | 36氪 2026产业未来大会",
+      "url": "https://36kr.com/p/3984534247471873?f=rss",
+      "snippet": "<p>2026年，产业投资进入深水区，资本、技术与产业加速融合，旧的投资逻辑不再使用，新的共识正在诞生。2026产业未来大会聚焦新周期机遇，共探产业未来与“中国之光”的诞生。 9月9日至10日，由36氪主办的2026产业未来大会以“深水之上，共振新生”为主题的在北京亦庄举行。来自国资平台、产业投资基金、企业CVC、创新企业及专家学者走到一起，聚焦量子科技等未来产业走向产业化。大会深度探讨当下前沿技",
+      "published": "2026-09-15 18:38:11  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "36氪项目新势榜：不看包装，只看项目真实进展",
+      "url": "https://36kr.com/p/3984568434129664?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260915/v2_6e897bb950ac48e0b045a2e4031bffba@5284654_oswg249568oswg1080oswg439_img_000?x-oss-process=image/format,jpg/interlace,1\" />",
+      "published": "2026-09-15 19:18:24  +0800",
+      "weight": 1
+    }
+  ],
+  "source_stats": {
+    "OpenAI-News": 1,
+    "Google-AI-Blog": 6,
+    "TheVerge-AI": 7,
+    "TechReview-AI": 4,
+    "LastWeekInAI": 0,
+    "MarkTechPost": 9,
+    "SebastianRaschka": 0,
+    "TheGradient": 0,
+    "HuggingFace-Blog": 1,
+    "HackerNews": 3,
+    "HackerNews-DeepSeek": 7,
+    "HackerNews-Kimi": 8,
+    "HackerNews-Qwen": 8,
+    "HackerNews-Grok": 8,
+    "HackerNews-xAI": 8,
+    "ArXiv-cs.AI": 15,
+    "量子位": 10,
+    "雷锋网": 15,
+    "钛媒体": 15,
+    "36氪": 15,
+    "InfoQ中文": 15,
+    "掘金": 15,
+    "199IT": 15
+  },
+  "dedup": {
+    "intl": {
+      "before": 85,
+      "after": 82
+    },
+    "cn": {
+      "before": 100,
+      "after": 99
+    }
+  }
+}
