@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-09-17 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "雷锋网",
+      "title": "豆包 2.1 Pro 模型更新至 0915 版本,接入豆包工作",
+      "url": "https://www.leiphone.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "飞书与豆包合体首亮相:Agent 能进群,还能写周报做 PPT",
+      "url": "https://www.infoq.cn/article/aCRVupdyEAHtENIiIDwq",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "和 Jeff Dean 押注同一方向,27 岁清华助理教授创业,两个月融资数亿",
+      "url": "https://36kr.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "AI 制药公司 Anew Labs 完成 2.9 亿美元融资,红杉高瓴 IDG 五源高榕参投",
+      "url": "https://www.leiphone.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "掘金",
+      "title": "7000 万 QPS、500 PB:OpenAI 自研存储平台 Habitat 撑起 10 亿用户",
+      "url": "https://juejin.cn/",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "芯片从业者拆解 OpenAI 造芯:还能再快三个月?",
+      "url": "https://www.leiphone.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek v4.1 Flash 发布:518GB 4-bit 在 128GB 笔记本跑到 17 token/秒",
+      "url": "https://news.ycombinator.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Meta 推出 ZGateway:无状态代理层日处理超 10 亿次操作",
+      "url": "https://www.marktechpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "谷歌发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking,主打生产级语音 Agent",
+      "url": "https://www.marktechpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Anthropic 的 Claude 上线 Docs 与 Slides,正面硬刚 Gemini",
+      "url": "https://www.theverge.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "谷歌开放智能家居给任意 AI Agent,Claude 等可通过标准协议接入",
+      "url": "https://www.theverge.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "英伟达带动 AI 数据中心大变革,中国厂商不想当边缘人",
+      "url": "https://36kr.com/",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "听众朋友们早上好,今天是 2026 年 9 月 17 日,《今日 AI 头条》准时上线。"
+    },
+    {
+      "role": "guest",
+      "text": "今天国内国际都炸了锅,咱们直接进重点。"
+    },
+    {
+      "role": "host",
+      "text": "先看国内,火山引擎把豆包 2.1 Pro 升到 0915 版本,直接全量接入豆包工作。"
+    },
+    {
+      "role": "guest",
+      "text": "对,这次升级重点是多模态,视频推理和 3D 物体识别都加强了,编程能力提升尤其明显。"
+    },
+    {
+      "role": "host",
+      "text": "没错,而且它把看图说话、多模态理解和工程能力揉到了一起,瞄准的就是白领日常办公。"
+    },
+    {
+      "role": "guest",
+      "text": "再讲讲飞书和豆包合体后首次亮相,Agent 能进群还能帮你写周报做 PPT。"
+    },
+    {
+      "role": "host",
+      "text": "这是今天国内最有标志性的事件,飞书本来就强协同,豆包又把 Agent 能力补齐,等于办公套件直接 Agent 化。"
+    },
+    {
+      "role": "guest",
+      "text": "对,你看协同办公的下一个阶段,核心就是 Agent 进群,这是国内大厂第一次把这件事做成了产品。"
+    },
+    {
+      "role": "host",
+      "text": "再看一条重磅融资,清华 27 岁助理教授押注 AI 自我改进,两个月连融数亿。"
+    },
+    {
+      "role": "guest",
+      "text": "RSI 也就是递归自我改进,现在 OpenAI 的卡帕西、前 Meta FAIR 田渊栋、Jeff Dean 都在看这个方向。"
+    },
+    {
+      "role": "host",
+      "text": "对,不过要提醒一句,掘金那篇深度文也讲了,自我改进现在还差关键一跳,智能爆炸还没到。"
+    },
+    {
+      "role": "guest",
+      "text": "接下来是 AI 制药,Anew Labs 也就是新生实验室,刚完成 2.9 亿美元首轮独立融资。"
+    },
+    {
+      "role": "host",
+      "text": "红杉中国、IDG、高瓴、五源、高榕全在里面,还有几家医药产业方战略跟投,阵容相当豪华。"
+    },
+    {
+      "role": "guest",
+      "text": "是的,由原负责人刘凯带队,这意味着字节系 AI 制药正式独立运营,资本市场给出近 20 亿人民币的估值锚定。"
+    },
+    {
+      "role": "host",
+      "text": "视线切到 OpenAI,他们自研的存储平台 Habitat 现在撑着 7000 万 QPS、500 PB 数据。"
+    },
+    {
+      "role": "guest",
+      "text": "对,这还只是日常流量,峰值更高,覆盖大约 40 个地理区域,服务全球 10 亿周活用户。"
+    },
+    {
+      "role": "host",
+      "text": "靠的是分层架构,把热数据、冷数据分开处理,再配合自研的纠删码和副本调度,本质上是用工程换体验。"
+    },
+    {
+      "role": "guest",
+      "text": "业内判断,如果调度到位,交付节奏还能再快三个月,也就是说不只是拼算力,更要拼工程协同。"
+    },
+    {
+      "role": "host",
+      "text": "OK,国内这边就先告一段落,咱们把镜头切到海外。"
+    },
+    {
+      "role": "guest",
+      "text": "国际线今天头一炮,DeepSeek v4.1 Flash 正式发布,518GB 4-bit 量化版本直接上 128GB 苹果笔记本。"
+    },
+    {
+      "role": "host",
+      "text": "预填充速度提升 2.7 倍,稳态跑到 17 token 每秒,而且 SGLang 和 Miles 当天就给了 Day-0 支持。"
+    },
+    {
+      "role": "guest",
+      "text": "这意味着什么,本地化大模型门槛被进一步拉低,以后普通开发者的笔记本都能跑出可用体验。"
+    },
+    {
+      "role": "host",
+      "text": "Meta 这边也有大动作,刚发布 ZGateway,定位是无状态代理层。"
+    },
+    {
+      "role": "guest",
+      "text": "它统一接管 ZippyDB 的流量,ZippyDB 是 Meta 内部最大的键值存储,日均处理超过 10 亿次操作。"
+    },
+    {
+      "role": "host",
+      "text": "好处就是扩缩容灵活,故障域隔离更干净,典型用工程换稳定性的思路,大厂基建的标配。"
+    },
+    {
+      "role": "guest",
+      "text": "再看谷歌,刚推出 Gemini 3.8 Live 和 3.8 Live Extended Thinking 两个版本。"
+    },
+    {
+      "role": "host",
+      "text": "对,这俩是面向生产级语音 Agent 的,最大特点是能在对话后台异步执行工具调用和 API 请求。"
+    },
+    {
+      "role": "guest",
+      "text": "没错,而且 Extended Thinking 多了显式推理,适合复杂决策场景,商用空间一下子打开了。"
+    },
+    {
+      "role": "host",
+      "text": "Anthropic 这边也不甘示弱,Claude 直接上线 Docs 和 Slides。"
+    },
+    {
+      "role": "guest",
+      "text": "这是正面硬刚 Gemini,用户能在 Claude 对话里直接生成文档和幻灯片,还能导出、编辑、分享。"
+    },
+    {
+      "role": "host",
+      "text": "对,OpenAI、谷歌、Anthropic 三家现在都在做全链路,谁先把文档、表格、幻灯片打通,谁就抢到企业用户。"
+    },
+    {
+      "role": "guest",
+      "text": "谷歌还有个更狠的,把智能家居开放给任意 AI Agent。"
+    },
+    {
+      "role": "host",
+      "text": "通过模型上下文协议,Claude 之类的第三方代理可以直接控制你的家电,并分析家居数据。"
+    },
+    {
+      "role": "guest",
+      "text": "对,但同时隐私和权限边界也成了新课题,大厂要的不只是体验,更是生态标准制定权。"
+    },
+    {
+      "role": "host",
+      "text": "OK,聊到这里,咱们做个横纵联动对比。"
+    },
+    {
+      "role": "guest",
+      "text": "你看国内今天主旋律是 Agent 进办公,飞书加豆包、钉钉加通义、企微加混元都在抢这个场景。"
+    },
+    {
+      "role": "host",
+      "text": "两条路径其实殊途同归,大家都意识到,单纯比跑分已经没意义,得拼落地、拼工作流嵌入。"
+    },
+    {
+      "role": "guest",
+      "text": "我押注 DeepSeek 和豆包,一个卷端侧一个卷工作流,加上 Claude 的办公全家桶,这三家最有可能定义下半年标准。"
+    },
+    {
+      "role": "host",
+      "text": "对,大厂之间的真正护城河,早就不是模型参数,而是底层基建,这跟国内云厂商卷存储、卷数据库是一回事。"
+    },
+    {
+      "role": "guest",
+      "text": "AI for Science 这两年最大的变量就是制药,壁垒在数据闭环,字节系出来单干,说明商业化路径开始清晰。"
+    },
+    {
+      "role": "host",
+      "text": "接下来进入速览环节,8 条要闻一句话带过。"
+    },
+    {
+      "role": "guest",
+      "text": "高通携手中兴努比亚和豆包手机助手,推第五代骁龙 8 至尊版 AI 智能体手机。"
+    },
+    {
+      "role": "host",
+      "text": "千问、WorkBuddy 等办公 Agent 接入飞书,抢企业工作方法的话语权。"
+    },
+    {
+      "role": "guest",
+      "text": "Meta 推 One 订阅,把社交和 AI 用量打包售卖,正式给社交媒体加 AI 定价格。"
+    },
+    {
+      "role": "host",
+      "text": "Hugging Face 被英伟达以 129 亿美元拿下,是时候重新理解这家开源平台的终局。"
+    },
+    {
+      "role": "guest",
+      "text": "曦嘉医疗完成数千万元 Pre-A 轮,用 AI 为患者定制大脑地图,押注脑连接组学。"
+    },
+    {
+      "role": "host",
+      "text": "知来具身的产品已进入全球头部 Tier 1 产线,做开箱即用的工业泛化机器人。"
+    },
+    {
+      "role": "guest",
+      "text": "Qwen3.8 Max 单任务成本被 Artificial Analysis 评为高于 Astra,性价比有争议。"
+    },
+    {
+      "role": "host",
+      "text": "谷歌在美国司法部广告技术垄断诉讼中败诉,反垄断实质性救济裁决落地。"
+    },
+    {
+      "role": "guest",
+      "text": "接下来展望一下,你觉得下半年最值得关注的三个变量是什么?"
+    },
+    {
+      "role": "host",
+      "text": "第一,Agent 进办公,飞书加豆包只是开头,后面会有更多大厂把 Agent 嵌入企业流程。"
+    },
+    {
+      "role": "guest",
+      "text": "第二,本地化大模型,DeepSeek v4.1 Flash 把端侧体验拉到新高度,消费级硬件会迎来一波换机潮。"
+    },
+    {
+      "role": "host",
+      "text": "这三个变量如果叠加,可能意味着 2026 年底到 2027 年,AI 行业会迎来一波质变拐点。"
+    },
+    {
+      "role": "host",
+      "text": "最后给听众朋友们提个醒,记得订阅《今日 AI 头条》,点赞并点亮小铃铛,下期我们聊 OpenAI 自研芯片的最新进展。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    }
+  ]
+}
