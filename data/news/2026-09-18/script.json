@@ -1,0 +1,314 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-09-18 | 国内AI全员开挂+硅谷双线作战 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "量子位",
+      "title": "唐杰发布智谱RSI首个成果：GLM开始参与构建GLM",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "豆包座舱助手发布，首款合作车型即将预售",
+      "url": "https://www.leiphone.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "前腾讯混元预训练负责人姚星丞加入Thinking Machines Lab",
+      "url": "https://www.leiphone.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "蚂蚁集团全员接入千问办公，打造大型企业办公标杆",
+      "url": "https://www.leiphone.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "佳都科技入局太空智算，孵化企业宇算星河获亿元级融资",
+      "url": "https://36kr.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "量子位",
+      "title": "Claude双入口合并、原生Office上线，硅谷AI办公大战开打",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Anthropic推出Claude Code Projects测试版：关掉笔记本也能并行跑",
+      "url": "https://www.marktechpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "谷歌开放智能家居：任何AI智能体都能接管你的家",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "微软AI CEO警告AI威胁真实存在，指责Anthropic火上浇油",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "weight": "medium"
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek v4.1 Flash登顶最强Hack模型，KV缓存压缩再破极限",
+      "url": "https://news.ycombinator.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "阿里发布Qwen3.8-Omni-Flash，多模态家族再添新丁",
+      "url": "https://news.ycombinator.com/",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "各位听众早上好，今天是2026年9月18号星期五，欢迎收听《今日AI头条》。"
+    },
+    {
+      "role": "guest",
+      "text": "今天国内国际都有大动静，咱们一条一条拆开聊。"
+    },
+    {
+      "role": "host",
+      "text": "先看国内最炸的一条，唐杰刚刚放出了智谱RSI的第一个成果。"
+    },
+    {
+      "role": "guest",
+      "text": "对，RSI你可以理解成“递归自我改进”，简单说就是让GLM自己参与构建下一代GLM。"
+    },
+    {
+      "role": "host",
+      "text": "这不就是模型自己生自己？听起来有点科幻啊。"
+    },
+    {
+      "role": "guest",
+      "text": "确实是国内首批把“模型造模型”跑通的工作之一，意义在于把AI研发从“人拉肩扛”推向流水线。"
+    },
+    {
+      "role": "host",
+      "text": "第二条，豆包座舱助手正式发布，首款合作车型马上预售。"
+    },
+    {
+      "role": "guest",
+      "text": "豆包和火山引擎联手做的，本质上是一个AI原生的车载助手，能联动全车功能还能记人习惯。"
+    },
+    {
+      "role": "host",
+      "text": "而且它和豆包APP是打通的，服务从手机一直延伸到车里，对吧？"
+    },
+    {
+      "role": "guest",
+      "text": "没错，9月17号发布的消息，这款车一出，Agent手机的下一站就是Agent汽车。"
+    },
+    {
+      "role": "host",
+      "text": "第三是重磅人事，前腾讯混元预训练负责人姚星丞，加入Thinking Machines Lab。"
+    },
+    {
+      "role": "guest",
+      "text": "对，那可是OpenAI前CTO创办的公司，给出的年薪据说比腾讯几千万还高一截。"
+    },
+    {
+      "role": "host",
+      "text": "本来传闻要去Meta，最后选了北美创业公司，这信号挺耐人寻味啊。"
+    },
+    {
+      "role": "guest",
+      "text": "说明国内顶尖人才不光被挖，也开始主动外流，去押注更前沿的研究方向。"
+    },
+    {
+      "role": "host",
+      "text": "第四条，蚂蚁集团全员接入千问办公，号称要打造大型企业办公标杆。"
+    },
+    {
+      "role": "guest",
+      "text": "9月17号的消息，蚂蚁把通义千问当成全公司智能办公Agent的底座，全员开用。"
+    },
+    {
+      "role": "host",
+      "text": "这种规模的企业一口气全员上Agent，咱们国内还是头一回听说。"
+    },
+    {
+      "role": "guest",
+      "text": "对，这相当于把企业级Agent从“试点”直接推到“全员生产”，千问商业化这步走得相当扎实。"
+    },
+    {
+      "role": "host",
+      "text": "第五条，国内融资也炸了，佳都科技孵化的宇算星河拿下亿元级融资。"
+    },
+    {
+      "role": "guest",
+      "text": "两个月内连拿天使轮加pre-A轮，麟阁创投领投，押注的是太空智算这个新赛道。"
+    },
+    {
+      "role": "host",
+      "text": "天上建数据中心，这想象力也太大了吧？"
+    },
+    {
+      "role": "guest",
+      "text": "对，算力需求爆掉之后，大家开始把目光投向太空，散热和能源都能解决。"
+    },
+    {
+      "role": "host",
+      "text": "另外国内还有一条值得提，Claude双入口合并、原生Office直接上线了。"
+    },
+    {
+      "role": "guest",
+      "text": "虽然产品是Anthropic的，但市场反馈说明中美AI办公的正面交锋开始了。"
+    },
+    {
+      "role": "host",
+      "text": "把目光转向硅谷，Anthropic这次放了个大招，Claude Code Projects重做了一遍。"
+    },
+    {
+      "role": "guest",
+      "text": "新版不是一个文件夹加一个聊天，而是单一长对话，Claude变成总指挥。"
+    },
+    {
+      "role": "host",
+      "text": "最牛的是关掉笔记本它还能在云端继续跑，多个Agent共享记忆和资料库。"
+    },
+    {
+      "role": "guest",
+      "text": "对，这就等于把ChatGPT那种单兵作战升级成了团队作战，OpenAI这边压力一下就上来了。"
+    },
+    {
+      "role": "host",
+      "text": "谷歌也没闲着，宣布智能家居向所有AI智能体开放。"
+    },
+    {
+      "role": "guest",
+      "text": "Claude、Open Claw这些第三方Agent以后都能控制你家灯和空调。"
+    },
+    {
+      "role": "host",
+      "text": "靠的是模型上下文协议这套统一标准，打通了不同厂商之间的壁垒。"
+    },
+    {
+      "role": "guest",
+      "text": "这步棋很关键，等于谷歌把家门钥匙交给了整个Agent生态，先圈地盘。"
+    },
+    {
+      "role": "host",
+      "text": "但微软AI CEO Mustafa Suleyman今天直接开炮了。"
+    },
+    {
+      "role": "guest",
+      "text": "他说AI威胁是真实的，还点名Anthropic让情况更糟，等于是公开撕破脸。"
+    },
+    {
+      "role": "host",
+      "text": "你怎么看这种“安全口水战”？是真分歧还是营销？"
+    },
+    {
+      "role": "guest",
+      "text": "我觉得是立场之争，Anthropic主打安全叙事，微软更强调快速落地，监管来之前先抢市场。"
+    },
+    {
+      "role": "host",
+      "text": "再看咱们国内大模型出海这一块，DeepSeek v4.1 Flash今天在Hacker News连刷多条。"
+    },
+    {
+      "role": "guest",
+      "text": "对，最狠的一条标题就是“v4.1 Flash成了我们最强的Hack模型”，KV缓存压缩又刷新了极限。"
+    },
+    {
+      "role": "host",
+      "text": "而且Mac、Pi、OpenRouter全平台Day-0支持，开发者社区直接沸腾。"
+    },
+    {
+      "role": "guest",
+      "text": "国内这边还有亮点，阿里放出了Qwen3.8-Omni-Flash，多模态家族又添了一个新丁。"
+    },
+    {
+      "role": "host",
+      "text": "有意思的是Hacker News上有人把Qwen3.8 27B跑到了1950 tokens每秒，本地操作系统都带得动。"
+    },
+    {
+      "role": "guest",
+      "text": "对，这意味着开源小模型已经能在消费级硬件上扛起实时任务，中国开源生态真的起来了。"
+    },
+    {
+      "role": "host",
+      "text": "那咱们做个对比，国内这一波AI重心在哪？"
+    },
+    {
+      "role": "guest",
+      "text": "国内更看重应用落地和商业化，豆包上车、蚂蚁全员用千问、智谱搞自我改进，都是这个逻辑。"
+    },
+    {
+      "role": "host",
+      "text": "硅谷呢？"
+    },
+    {
+      "role": "guest",
+      "text": "硅谷还在拼底层范式，Anthropic搞多Agent协作，谷歌搞生态开放。"
+    },
+    {
+      "role": "host",
+      "text": "那人才流动这块呢？"
+    },
+    {
+      "role": "guest",
+      "text": "国内顶级预训练负责人流向北美创业公司，反过来硅谷在监管和安全议题上撕扯，两边节奏完全不一样。"
+    },
+    {
+      "role": "host",
+      "text": "所以2026年这个秋天，AI竞争是不是已经从模型层打到应用层和生态层了？"
+    },
+    {
+      "role": "guest",
+      "text": "对，单纯刷分已经不够看了，现在比的是谁能把Agent真正塞进真实业务流。"
+    },
+    {
+      "role": "host",
+      "text": "还有一个特别明显的趋势，中国厂商开始抢“Agent入口”了。"
+    },
+    {
+      "role": "guest",
+      "text": "没错，豆包抢的是车机，千问抢的是企业办公，都是高频刚需场景。"
+    },
+    {
+      "role": "host",
+      "text": "接下来进入速览环节，第一条，OpenAI发布模型失准披露框架。"
+    },
+    {
+      "role": "guest",
+      "text": "首批六份报告上线，把模型隐瞒错误、未授权调用这些异常行为系统化公开。"
+    },
+    {
+      "role": "host",
+      "text": "第二条，vivo押注Agent手机，提出个人化智能的系统级竞争。"
+    },
+    {
+      "role": "guest",
+      "text": "模型、系统、硬件、个人数据全打通，抢的是下一代交互入口。"
+    },
+    {
+      "role": "host",
+      "text": "第三条，36氪发了一份2026具身智能产业体检报告。"
+    },
+    {
+      "role": "guest",
+      "text": "融资火爆、仿真鸿沟、数据缺口三大痛点都点出来了。"
+    },
+    {
+      "role": "host",
+      "text": "第四条，百度智能云首发产业智能体操作系统。"
+    },
+    {
+      "role": "host",
+      "text": "想跑通AI在产业里的商业和技术双飞轮。"
+    }
+  ]
+}

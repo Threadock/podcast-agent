@@ -1,0 +1,441 @@
+{
+  "intl": [
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "SGLang and Miles Add Day-0 Support for DeepSeek-v4.1",
+      "url": "https://www.lmsys.org/blog/2026-09-10-deepseek-v41/",
+      "snippet": "",
+      "published": "2026-09-16T04:51:52Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek v4.1 Flash Is Now Our Best Hacking Model",
+      "url": "https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model",
+      "snippet": "",
+      "published": "2026-09-16T12:19:55Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Run DeepSeek v4.1 Flash on your Mac",
+      "url": "https://github.com/sqliteai/warp",
+      "snippet": "",
+      "published": "2026-09-16T15:57:36Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Setting Up Pi with DeepSeek v4.1 Flash on OpenRouter",
+      "url": "https://www.vincentschmalbach.com/pi-deepseek-v4-1-flash-openrouter-setup/",
+      "snippet": "",
+      "published": "2026-09-16T16:16:51Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek-v4.1 Flash: Pushing the Limits of KV Cache Compression",
+      "url": "https://zartbot.github.io/blog/model_arch/dsv41flash_arch/en.html",
+      "snippet": "",
+      "published": "2026-09-17T01:39:47Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Alibaba Releases Qwen3.8-Omni-Flash",
+      "url": "https://tokenstead.ai/models/qwen3-8-omni-flash",
+      "snippet": "",
+      "published": "2026-09-17T21:48:25Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
+      "url": "https://cactuscompute.com/needle",
+      "snippet": "Hey HN, Henry from Cactus here.<p>We submitted Needle 2 here a few weeks ago, and the feedback in the discussion thread was incredibly valuable, thanks! Thanks to all that feedback, we’ve been able to",
+      "published": "2026-09-18T00:11:44Z",
+      "weight": 10
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
+      "snippet": "The revamped projects feature in Claude Code allows users to run multiple agents under the same roof, with a shared memory, goals, and library of files and artifacts. Similar to Grok Bot and other too",
+      "published": "2026-09-17T14:58:05-04:00",
+      "weight": 9
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Email marketing from Grok Bot official integration",
+      "url": "https://twitter.com/Migma_AI/status/2100617616704295197",
+      "snippet": "",
+      "published": "2026-09-17T23:41:31Z",
+      "weight": 9
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Anthropic Launches Claude Code Projects in Beta: Parallel Cloud Sessions That Keep Running After You Close Your Laptop",
+      "url": "https://www.marktechpost.com/2026/09/17/anthropic-launches-claude-code-projects-in-beta-parallel-cloud-sessions-that-keep-running-after-you-close-your-laptop/",
+      "snippet": "<p>Anthropic redesigned Projects in Claude Code. The old project was a folder: some files plus one chat. The new one is a single ongoing conversation where Claude acts as coordinator. You describe wor",
+      "published": "Thu, 17 Sep 2026 20:45:04 +0000",
+      "weight": 9
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Replicating Jev with Qwen-2.5",
+      "url": "https://nitter.perennialte.ch/harshagundal/status/2100044305536889015",
+      "snippet": "",
+      "published": "2026-09-16T04:28:44Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen3.8 Max – Cost per task higher than Astra on Artificial Analysis",
+      "url": "https://artificialanalysis.ai/models/qwen3-8-max",
+      "snippet": "",
+      "published": "2026-09-16T07:31:20Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Operating System powered by Qwen 3.8 27B at 1950 tokens/SEC",
+      "url": "https://twitter.com/analogalok/status/2099130228866228368",
+      "snippet": "",
+      "published": "2026-09-16T12:58:56Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Show HN: Swift-Qwen3.8-27B, -58.3% thinking, x1.95 speed, accuracy of xhigh",
+      "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b",
+      "snippet": "Hi everybody, we post-trained Qwen 3.8 27B to be more efficient by figuring out which tokens were linked to overthinking and penalizing them without &quot;attacking&quot; the reasoning length directly",
+      "published": "2026-09-16T14:24:05Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen3.8 models outperforms Fable 5 Using GVS5H Harness",
+      "url": "https://github.com/slee-persis/GVS5H",
+      "snippet": "",
+      "published": "2026-09-16T17:28:30Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Characterizing ~375 GB Kimi K2.5 on a 128 GB Ryzen AI MAX+ 395 PC",
+      "url": "https://zenodo.org/records/22755791",
+      "snippet": "",
+      "published": "2026-09-16T21:52:46Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek's Parent Company",
+      "url": "https://www.high-flyer.cn/sociology/",
+      "snippet": "",
+      "published": "2026-09-16T23:20:48Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Run QWEN3.8 27B on 16gb Nvidia GPUs",
+      "url": "https://github.com/MiaAI-Lab/Qwen3.8-27B-16gb-NVIDIA-GPUs-one-click-install",
+      "snippet": "",
+      "published": "2026-09-17T19:46:57Z",
+      "weight": 7
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Google will now let any AI agent run your smart home",
+      "url": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
+      "snippet": "Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw access and control your connected devices and analyze your home's data using the standardized Model Context Pr",
+      "published": "2026-09-16T13:00:00-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Memory in Grok Build",
+      "url": "https://x.ai/news/grok-build-memory",
+      "snippet": "",
+      "published": "2026-09-16T19:11:50Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "OpenAI says CEO Altman will attend Trump's state dinner for Xi",
+      "url": "https://www.reuters.com/world/china/openai-says-ceo-altman-will-attend-trumps-state-dinner-xi-2026-09-16/",
+      "snippet": "",
+      "published": "2026-09-16T21:15:42Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Cookie converter and Claude session check I use",
+      "url": "https://claudecookie.com/",
+      "snippet": "",
+      "published": "2026-09-16T21:20:43Z",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
+      "url": "https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude",
+      "snippet": "Today, I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. As you’re no doubt aware, the biggest story in tech right now is the spiraling debate about AI safety and regulation.&#160; It should",
+      "published": "2026-09-17T10:00:00-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Show HN: OpenBot, open source framework similar to Grok Bot",
+      "url": "https://github.com/regnull/openbot",
+      "snippet": "I think the path Grok Bot took is absolutely the right one, the collaborating bots model is easy to understand and it maps to workflows naturally. However, Grok Bot is closed source and quite expensiv",
+      "published": "2026-09-17T11:58:04Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Show HN: Jev routing coding tasks to Grok Build or Codex Astra",
+      "url": "https://github.com/jcpsimmons/jev-model-router-demo",
+      "snippet": "",
+      "published": "2026-09-17T21:55:28Z",
+      "weight": 6
+    }
+  ],
+  "cn": [
+    {
+      "source": "量子位",
+      "title": "刚刚，唐杰发布智谱RSI首个成果",
+      "url": "https://www.qbitai.com/2026/09/491357.html",
+      "snippet": "GLM已经开始参与构建GLM了",
+      "published": "Thu, 17 Sep 2026 08:28:23 +0000",
+      "weight": 10
+    },
+    {
+      "source": "雷锋网",
+      "title": "豆包座舱助手发布，首款合作车型即将开启预售",
+      "url": "https://www.leiphone.com/category/industrynews/4zVPQ7JUQYXHp2wh.html",
+      "snippet": "<p>9月17日，豆包与火山引擎联合打造的AI原生车载助手——豆包座舱助手正式发布。</p><p>豆包座舱助手致力于成为聪明懂你、交互自然有温度、安全可靠的座舱 AI 伙伴，带来更加方便、愉悦的驾驶出行体验。它能理解复杂需求，联动全车功能，把事情一步步办好；也能自然参与多人交流，记住每个人的习惯，在互动中更懂你；还可以与豆包APP联动，让服务从手机延伸到车里。</p><p><img src=\"ht",
+      "published": "Thu, 17 Sep 2026 15:03:00 +0800",
+      "weight": 10
+    },
+    {
+      "source": "量子位",
+      "title": "Claude双入口合并，原生Office上线！硅谷AI办公大战也开始了",
+      "url": "https://www.qbitai.com/2026/09/491391.html",
+      "snippet": "文档和PPT都能做了",
+      "published": "Thu, 17 Sep 2026 09:07:25 +0000",
+      "weight": 9
+    },
+    {
+      "source": "掘金",
+      "title": "DeepSeek Harness 系列（09）：可观测性——怎么知道 Agent 在干什么",
+      "url": "https://juejin.cn/post/7686341837754286115",
+      "snippet": "Token 消耗多少？哪步最慢？出错了在哪里？这篇文章讲 dsh 的可观测性机制：Session 事件日志、Token 计量、遥测 Seam，OpenTelemetry",
+      "published": "Thu, 17 Sep 2026 11:48:15 GMT",
+      "weight": 7
+    },
+    {
+      "source": "雷锋网",
+      "title": "独家丨前腾讯混元预训练负责人姚星丞，加入Thinking Machines Lab",
+      "url": "https://www.leiphone.com/category/industrynews/xfxXxO3233YuLZEJ.html",
+      "snippet": "<p>雷峰网独家获悉，腾讯混元大语言模型预训练负责人姚星丞，近日已加入北美创业公司Thinking Machines Lab。</p><p>据知情人士透露，Thinking Machines Lab此次给姚星丞开出的薪资，明显高于其在腾讯的收入。而姚星丞在腾讯的年薪包，大约在数千万元人民币区间。</p><p>此前，姚星丞曾被传将加入Meta，如今靴子落地，他最终选择了这家由OpenAI前CTO M",
+      "published": "Thu, 17 Sep 2026 15:52:00 +0800",
+      "weight": 7
+    },
+    {
+      "source": "雷锋网",
+      "title": "蚂蚁集团全员接入千问办公，打造大型企业办公标杆",
+      "url": "https://www.leiphone.com/category/industrynews/U3X9WHILcYX0kh4l.html",
+      "snippet": "<p>9月17日，记者获悉，蚂蚁集团正式接入千问办公，作为全公司的智能办公Agent底座，供全员使用，打造大型企业办公的标杆。</p><p>&nbsp;</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260917/6aaba3c3140cd.png?image",
+      "published": "Thu, 17 Sep 2026 16:25:00 +0800",
+      "weight": 7
+    },
+    {
+      "source": "掘金",
+      "title": "德国Wiki被黑后两周，OpenAI终于把模型失控的账本摊开了",
+      "url": "https://juejin.cn/post/7686258817143996479",
+      "snippet": "OpenAI发布模型失准披露框架，将过去零散的异常行为报告转为系统化、有时效约束的公开机制。三轨调查流程确保可疑案例即使在原因未明时也能尽快披露，首批六份报告涵盖模型隐瞒错误、未经授权使用API密钥、",
+      "published": "Thu, 17 Sep 2026 11:13:33 GMT",
+      "weight": 6
+    },
+    {
+      "source": "量子位",
+      "title": "Claude Code团队讲究啊，这都往外说",
+      "url": "https://www.qbitai.com/2026/09/491596.html",
+      "snippet": "工程师的核心永远是Problem Solving。",
+      "published": "Thu, 17 Sep 2026 11:56:13 +0000",
+      "weight": 6
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "边说话边推理、边聊天边调用工具，谷歌 Gemini 3.8 Live 要攻克语音 Agent 的沉默时刻",
+      "url": "https://www.infoq.cn/article/HWTj56QXAtdSar5YGp32?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/HWTj56QXAtdSar5YGp32?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Thu, 17 Sep 2026 15:33:13 GMT",
+      "weight": 6
+    },
+    {
+      "source": "掘金",
+      "title": "小黑插图 Skill:从 11.7k star 的 Codex 专属，到 Claude Code 能用的平替",
+      "url": "https://juejin.cn/post/7686389996108464178",
+      "snippet": "11.7k star 的小黑配图 Skill 只能用 Codex？拆解出图流程，手把手教你用平替 character-illustrations 在 Claude Code 本地渲染 SVG 插图。",
+      "published": "Thu, 17 Sep 2026 15:41:12 GMT",
+      "weight": 6
+    },
+    {
+      "source": "雷锋网",
+      "title": "独家丨BAT 天价挖 Gemini 大牛，可惜都挖错了",
+      "url": "https://www.leiphone.com/category/industrynews/dXtXNwFL1snjR35X.html",
+      "snippet": "<p>据雷峰网独家获悉，一位 Google Gemini 的预训练专家，于近期已加入国内某互联网大厂。</p><p>该研究员在 Google 的职级或是 L7- L8，接近总监级别，长期在英国工作，入职后主要从事预训练相关工作，也经常往返国内出差。</p><p>一位知情人士看来，这可能是国内大厂这一轮争抢 Gemini 人才以来，第一次真正“找对了人”。</p><p>上述人士告诉雷峰网，此前多家大",
+      "published": "Thu, 17 Sep 2026 16:02:00 +0800",
+      "weight": 6
+    },
+    {
+      "source": "36氪",
+      "title": "融资火爆、仿真鸿沟、数据缺口：一份2026年具身智能产业体检报告",
+      "url": "https://36kr.com/p/3986852938283785?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260917/v2_f0528557c6cc4334beb35281a8e716ea@5688585_oswg2689010oswg800oswg10413_img_000?x-oss-process=image/format,jpg/interlace,1\" ",
+      "published": "2026-09-17 10:17:40  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "36氪首发丨佳都科技入局太空智算，孵化企业获亿元级融资",
+      "url": "https://36kr.com/p/3987125165685764?f=rss",
+      "snippet": "<p>作者&nbsp;|&nbsp;乔钰杰</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <blockquote>\n   <p>本文约2600字，建议阅读7分钟</p>\n  </blockquote>\n  <p>硬氪获悉，宇算星河科技有限公司在两个月内完成亿元级天使轮及pre-A轮融资。由麟阁创投领投、海珠城发、清新资本、高捷资本、知识城集团、吉富资本跟投。</p>\n  <p",
+      "published": "2026-09-17 14:34:48  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "花旗通过该行历来最大规模美元债发行筹集120亿美元",
+      "url": "https://36kr.com/newsflashes/3988166234340097?f=rss",
+      "snippet": "当地时间9月17日，据报道，旗拟通过其史上规模最大的美元债发行筹集120亿美元。信用市场在美联储周三加息后走强，该行抓住这一时机发债融资。知情人士透露，这家华尔街大行周四的债券发行吸引的认购需求峰值约为400亿美元，相当于发行规模的约3.3倍。（界面）",
+      "published": "2026-09-18 08:20:21  +0800",
+      "weight": 5
+    },
+    {
+      "source": "199IT",
+      "title": "集邦咨询：2026年Q2全球前十大晶圆代工产值近534.9亿美元，环比增长11.5%",
+      "url": "http://www.199it.com/archives/1851361.html",
+      "snippet": "集邦咨询数据显示，2026年Q2全球前十大晶圆代工厂产值近534.9亿美元，环比增长11.5%，再创新高。台积电近402亿美元居首，环比增长12.1%；中芯国际环比增长20%，突破30亿美元。AI HPC及周边IC需求与消费电子备货是主因。",
+      "published": "Thu, 17 Sep 2026 13:00:40 +0000",
+      "weight": 5
+    },
+    {
+      "source": "钛媒体",
+      "title": "Agent手机爆发前夜，vivo把答案押在\"个人化智能\"",
+      "url": "https://www.tmtpost.com/8143272.html",
+      "snippet": "Agent手机是进入到模型、系统、硬件、应用生态和个人数据共同构成的系统竞争。",
+      "published": "Fri, 18 Sep 2026 07:28:00 +0800",
+      "weight": 4
+    },
+    {
+      "source": "雷锋网",
+      "title": "独家解读丨国产GPU四份半年报出炉，赚钱后才发现二级市场「难哄」",
+      "url": "https://www.leiphone.com/category/chips/71GoaJ1VfyRyIh90.html",
+      "snippet": "<section><section><section><section><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img js_insertlocalimg\" src=\"https://static.leiphone.com/uploads/new/images/20260917/6aab4be5e8a03.pn",
+      "published": "Thu, 17 Sep 2026 10:12:00 +0800",
+      "weight": 4
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "百度智能云首发产业智能体操作系统，要实现 AI 的商业和技术飞轮",
+      "url": "https://www.infoq.cn/article/jXliIdDVTYDAtm73EoSU?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/jXliIdDVTYDAtm73EoSU?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Thu, 17 Sep 2026 19:29:09 GMT",
+      "weight": 4
+    },
+    {
+      "source": "36氪",
+      "title": "以小博大，一家AI4S水下公司的野心",
+      "url": "https://36kr.com/p/3985879828478981?f=rss",
+      "snippet": "<p>文｜胡香赟</p>\n  <p>编辑｜海若镜</p>\n  <p>今年5月，28岁的张载熙结束普林斯顿的博后研究，回到国内。在他面前，有几扇门同时打开：美国高校教职、AI大厂首席科学家和千万年薪。最终，他选择进入香港科技大学担任助理教授，并挺进了创业窄门，创立AI for Science公司科理新序（Scinetics）。</p>\n  <p><strong>暗涌Waves独家获悉，科理新序近日完",
+      "published": "2026-09-17 09:00:00  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "圆桌：半导体：国产替代之后，下一步是什么｜36氪2026产业未来大会",
+      "url": "https://36kr.com/p/3986926026898433?f=rss",
+      "snippet": "<p>2026年，产业投资进入深水区，资本、技术与产业加速融合，旧的投资逻辑不再使用，新的共识正在诞生。2026产业未来大会聚焦新周期机遇，共探产业未来与“中国之光”的诞生。 9月9日至10日，由36氪主办的2026产业未来大会以“深水之上，共振新生”为主题的在北京亦庄举行。来自国资平台、产业投资基金、企业CVC、创新企业及专家学者走到一起，聚焦量子科技等未来产业走向产业化。大会深度探讨当下前沿技",
+      "published": "2026-09-17 11:11:10  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "圆桌：先进制造：给世界工厂装一颗AI大脑 | 36氪 2026产业未来大会",
+      "url": "https://36kr.com/p/3986931112836096?f=rss",
+      "snippet": "<p>2026年，产业投资进入深水区，资本、技术与产业加速融合，旧的投资逻辑不再使用，新的共识正在诞生。2026产业未来大会聚焦新周期机遇，共探产业未来与“中国之光”的诞生。 9月9日至10日，由36氪主办的2026产业未来大会以“深水之上，共振新生”为主题的在北京亦庄举行。来自国资平台、产业投资基金、企业CVC、创新企业及专家学者走到一起，聚焦量子科技等未来产业走向产业化。大会深度探讨当下前沿技",
+      "published": "2026-09-17 11:17:07  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "两个00后男生，如何凭借AI征服了北美年轻女用户？",
+      "url": "https://36kr.com/p/3987096020384776?f=rss",
+      "snippet": "<p>文丨小葵</p>\n  <p>编辑丨果脯</p>\n  <p>AI时代下，创业圈变得愈发契合“大浪淘沙”这个词。生产力的爆发，让现在的太多人能做到“成名5分钟”，市面上涌现的优秀产品数量更是几何倍增多，但与此同时，有的人可能真的只是昙花一现，有的人却已经找到了自己的长处，选择走出舒适区，想要闯出一片天。</p>\n  <p>MobAI的两位00后创始人便是如此。其中，Vito钟文鼎曾是某头部VC的",
+      "published": "2026-09-17 14:07:02  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "36氪项目开麦：来开麦，把项目聊明白",
+      "url": "https://36kr.com/p/3987097781861383?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260917/v2_fea3db14db284a84b3fbab80ac8f8b7b@5284654_oswg249568oswg1080oswg439_img_000?x-oss-process=image/format,jpg/interlace,1\" />",
+      "published": "2026-09-17 14:16:44  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "项目做到哪一步，才适合对外介绍？",
+      "url": "https://36kr.com/p/3987140543593472?f=rss",
+      "snippet": "<p>很多创业者会有一个习惯：</p>\n  <p>总觉得项目还没做到“足够好”，再等等。</p>\n  <p>等产品更成熟一点，等客户更多一点，等融资完成一点，等数据再漂亮一点……</p>\n  <p>但实际上，项目并没有一个明确的“最佳曝光时间”。</p>\n  <p>&nbsp;</p>\n  <h2><strong>早期项目，也有值得讲的东西</strong></h2>\n  <p>一个刚开始的项目，",
+      "published": "2026-09-17 14:53:05  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "重生后的钟薛高，先给自己“砍一刀” | 最前线",
+      "url": "https://36kr.com/p/3987192212683781?f=rss",
+      "snippet": "<p>作者 | 钟艺璇&nbsp;</p>\n  <p>钟薛高又“复活”了。</p>\n  <p>9月16日，钟薛高参展第28届中国冰淇淋及冷冻食品产业博览会，宣布品牌正式重启。</p>\n  <p>在经历破产结算后，钟薛高迎来了新的操盘手。天眼查显示，今年6月，钟雪高品牌管理（上海）有限公司（以下简称钟雪高公司）成立，8月由其全资持股的长沙钟薛高食品有限公司成立。</p>\n  <p>钟雪高公司由自然人",
+      "published": "2026-09-17 20:01:35  +0800",
+      "weight": 1
+    }
+  ],
+  "source_stats": {
+    "OpenAI-News": 7,
+    "Google-AI-Blog": 1,
+    "TheVerge-AI": 10,
+    "TechReview-AI": 1,
+    "LastWeekInAI": 1,
+    "MarkTechPost": 9,
+    "SebastianRaschka": 0,
+    "TheGradient": 0,
+    "HuggingFace-Blog": 0,
+    "HackerNews": 4,
+    "HackerNews-DeepSeek": 8,
+    "HackerNews-Kimi": 8,
+    "HackerNews-Qwen": 8,
+    "HackerNews-Grok": 8,
+    "HackerNews-xAI": 8,
+    "ArXiv-cs.AI": 15,
+    "量子位": 10,
+    "雷锋网": 15,
+    "钛媒体": 15,
+    "36氪": 15,
+    "InfoQ中文": 15,
+    "掘金": 15,
+    "199IT": 15
+  },
+  "dedup": {
+    "intl": {
+      "before": 88,
+      "after": 86
+    },
+    "cn": {
+      "before": 100,
+      "after": 100
+    }
+  }
+}
