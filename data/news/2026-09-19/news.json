@@ -1,0 +1,441 @@
+{
+  "intl": [
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek-v4.1 Flash: Pushing the Limits of KV Cache Compression",
+      "url": "https://zartbot.github.io/blog/model_arch/dsv41flash_arch/en.html",
+      "snippet": "",
+      "published": "2026-09-17T01:39:47Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen 3.8 Omni Flash",
+      "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+      "snippet": "",
+      "published": "2026-09-17T23:05:48Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
+      "url": "https://cactuscompute.com/needle",
+      "snippet": "Hey HN, Henry from Cactus here.<p>We submitted Needle 2 here a few weeks ago, and the feedback in the discussion thread was incredibly valuable, thanks! Thanks to all that feedback, we’ve been able to",
+      "published": "2026-09-18T00:11:44Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek v4.1 Flash avg 102 tps on 4x RTX6000 pro max-q, 2.1x up from v4-flash",
+      "url": "https://forum.level1techs.com/t/llm-inference-workstation-4x-rtx6000-blackwell-pro-max-q-384gb-vram-threadripper-pro-7985wx-wrx90e-sage-se-512gb-ram-1700w/252181",
+      "snippet": "",
+      "published": "2026-09-18T21:27:28Z",
+      "weight": 10
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Alibaba Qwen Releases Qwen3.8-Omni-Flash: A 1M-Context Omni-Modal Model Built Around Agentic Audio-Video Understanding and Tool Use",
+      "url": "https://www.marktechpost.com/2026/09/18/alibaba-qwen-releases-qwen3-8-omni-flash/",
+      "snippet": "<p>Alibaba's Qwen3.8-Omni-Flash understands audio and video, plans tasks, calls tools, and reports about 45.7% fewer tokens on OmniVideoBench.</p>\n<p>The post <a href=\"https://www.marktechpost.com/202",
+      "published": "Fri, 18 Sep 2026 08:40:37 +0000",
+      "weight": 10
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
+      "snippet": "The revamped projects feature in Claude Code allows users to run multiple agents under the same roof, with a shared memory, goals, and library of files and artifacts. Similar to Grok Bot and other too",
+      "published": "2026-09-17T14:58:05-04:00",
+      "weight": 9
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Email marketing from Grok Bot official integration",
+      "url": "https://twitter.com/Migma_AI/status/2100617616704295197",
+      "snippet": "",
+      "published": "2026-09-17T23:41:31Z",
+      "weight": 9
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Grok 4.7 Launching Soon",
+      "url": "https://twitter.com/birdabo/status/2100578715499704551",
+      "snippet": "",
+      "published": "2026-09-18T06:42:02Z",
+      "weight": 9
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Anthropic Launches Claude Code Projects in Beta: Parallel Cloud Sessions That Keep Running After You Close Your Laptop",
+      "url": "https://www.marktechpost.com/2026/09/17/anthropic-launches-claude-code-projects-in-beta-parallel-cloud-sessions-that-keep-running-after-you-close-your-laptop/",
+      "snippet": "<p>Anthropic redesigned Projects in Claude Code. The old project was a folder: some files plus one chat. The new one is a single ongoing conversation where Claude acts as coordinator. You describe wor",
+      "published": "Thu, 17 Sep 2026 20:45:04 +0000",
+      "weight": 9
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Optimizing Qwen3.8 27B on one AMD R9700",
+      "url": "https://eliovp.com/blog/paiton-qwen38-mxfp4-dflash2-r9700",
+      "snippet": "",
+      "published": "2026-09-17T11:50:28Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "GVS5H: Five Qwen3.8 Models Match Claude Fable 5 on LiveCodeBench Hard",
+      "url": "https://github.com/slee-persis/GVS5H",
+      "snippet": "",
+      "published": "2026-09-17T13:46:04Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Run QWEN3.8 27B on 16gb Nvidia GPUs",
+      "url": "https://github.com/MiaAI-Lab/Qwen3.8-27B-16gb-NVIDIA-GPUs-one-click-install",
+      "snippet": "",
+      "published": "2026-09-17T19:46:57Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Shapelearn Qwen 3.8 27B (13.1 GB VRAM)",
+      "url": "https://byteshape.com/blogs/Qwen3.8-27B/",
+      "snippet": "",
+      "published": "2026-09-18T02:04:19Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "A DeepSeek engineer just said the thing I've been feeling about AI for months",
+      "url": "https://www.reddit.com/r/artificial/comments/1wi2zm9/a_deepseek_engineer_just_said_the_thing_ive_been/",
+      "snippet": "",
+      "published": "2026-09-18T02:50:34Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek v2: 437x less memory footprint vs. v1 [video]",
+      "url": "https://www.youtube.com/watch?v=MImgH4KMtj8",
+      "snippet": "",
+      "published": "2026-09-18T04:43:36Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Jev might be Qwen finetune",
+      "url": "https://nitter.click/egorgorv/status/2100887757983990218",
+      "snippet": "",
+      "published": "2026-09-18T17:37:15Z",
+      "weight": 7
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "PrismML Releases Ternary Bonsai 2 27B: A 5.9 GB Apache 2.0 Model Retaining 98.2% of Qwen3.8 27B Performance",
+      "url": "https://www.marktechpost.com/2026/09/18/prismml-releases-ternary-bonsai-2-27b-a-5-9-gb-apache-2-0-model-retaining-98-2-of-qwen3-8-27b-performance/",
+      "snippet": "<p>PrismML has released Ternary Bonsai 2 27B, a ternary-weight version of Qwen3.8 27B. The language model occupies 5.93 GB, against 53.80 GB in FP16. PrismML reports that it keeps 98.2% of the parent ",
+      "published": "Fri, 18 Sep 2026 18:06:36 +0000",
+      "weight": 7
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
+      "url": "https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude",
+      "snippet": "Today, I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. As you’re no doubt aware, the biggest story in tech right now is the spiraling debate about AI safety and regulation.&#160; It should",
+      "published": "2026-09-17T10:00:00-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Show HN: OpenBot, open source framework similar to Grok Bot",
+      "url": "https://github.com/regnull/openbot",
+      "snippet": "I think the path Grok Bot took is absolutely the right one, the collaborating bots model is easy to understand and it maps to workflows naturally. However, Grok Bot is closed source and quite expensiv",
+      "published": "2026-09-17T11:58:04Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Show HN: Die With Me – Claude and Codex rate limits as AIM away messages",
+      "url": "https://diewithme.co/join",
+      "snippet": "hey HN, i&#x27;ve been making this Mac app called Die With Me. it lets you see how much claude &#x2F; codex usage your friends have left. it&#x27;s kind of like AIM buddy list, but for your AI tokens<",
+      "published": "2026-09-17T16:25:28Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Show HN: Jev routing coding tasks to Grok Build or Codex Astra",
+      "url": "https://github.com/jcpsimmons/jev-model-router-demo",
+      "snippet": "",
+      "published": "2026-09-17T21:55:28Z",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Security researchers used Claude to help them hack into OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
+      "snippet": "A team of three independent security researchers at Hacktron says it took less than 72 hours for them to hack into OpenAI employee accounts using Anthropic's Claude Opus 4.8 and 5, The Wall Street Jou",
+      "published": "2026-09-18T11:30:16-04:00",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+      "snippet": "Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft are pretty damning. The companies' own documentation warned that it was starting a \"doom loop\" that would dam",
+      "published": "2026-09-18T17:07:24-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Grok Voice Transcribe 2.0",
+      "url": "https://x.ai/news/grok-voice-transcribe-2",
+      "snippet": "",
+      "published": "2026-09-18T17:53:34Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Grokbot Source Code Leak",
+      "url": "https://twitter.com/Ri7erLi/status/2100875181380055402",
+      "snippet": "",
+      "published": "2026-09-18T20:03:52Z",
+      "weight": 6
+    }
+  ],
+  "cn": [
+    {
+      "source": "雷锋网",
+      "title": "仅用3天！千问办公协助国家天文台科研团队打造科研级望远镜仿真系统",
+      "url": "https://www.leiphone.com/category/industrynews/HlXq3tJy48q1NubA.html",
+      "snippet": "<p>日前，千问办公协助国家天文台科研团队打造大口径科研级望远镜数字化仿真系统，耗时仅3天，成本不到千元。依托对真实望远镜组件和观测条件的模拟，Agent可在仿真环境中驱动望远镜进行远程态势感知与观测流程仿真。未来，仿真系统产生的数据，还将用于训练望远镜控制模型（VLA）中。</p><p>&nbsp;</p><p>据介绍，超新星爆发、伽马暴等瞬变事件是研究宇宙演化和极端物理过程的重要窗口，但它们出",
+      "published": "Fri, 18 Sep 2026 14:24:00 +0800",
+      "weight": 7
+    },
+    {
+      "source": "雷锋网",
+      "title": "在 AI「囤粮潮」里，拆解智谱 50 亿美元的「技术账本」",
+      "url": "https://www.leiphone.com/category/industrynews/U0Od1SeYkIPA98cI.html",
+      "snippet": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260918/6aacd97738d9d.j",
+      "published": "Fri, 18 Sep 2026 14:28:00 +0800",
+      "weight": 7
+    },
+    {
+      "source": "雷锋网",
+      "title": "深度解读：智谱为什么要在 Infra 层搞 RSI？",
+      "url": "https://www.leiphone.com/category/yanxishe/41rW4mD2vjnpNY2o.html",
+      "snippet": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260918/6aacde5b7496e.j",
+      "published": "Fri, 18 Sep 2026 14:48:00 +0800",
+      "weight": 7
+    },
+    {
+      "source": "钛媒体",
+      "title": "豆包手机想得美",
+      "url": "https://www.tmtpost.com/8144534.html",
+      "snippet": "流量是命根子，凭什么给豆包让路？",
+      "published": "Fri, 18 Sep 2026 16:05:28 +0800",
+      "weight": 7
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "唐杰、GLM团队长文披露智谱RSI最新进展：GLM-5.3已摸到门槛，“正一步步走向取代我们”",
+      "url": "https://www.infoq.cn/article/O1uIfJx3CF5SZz3ayuaI?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/O1uIfJx3CF5SZz3ayuaI?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Fri, 18 Sep 2026 16:48:30 GMT",
+      "weight": 7
+    },
+    {
+      "source": "钛媒体",
+      "title": "月之暗面递表之后，Kimi 的成色要被验算三遍",
+      "url": "https://www.tmtpost.com/8144610.html",
+      "snippet": "Anthropic 的 30 万次指控，会成为招股书的第几页？",
+      "published": "Fri, 18 Sep 2026 18:16:10 +0800",
+      "weight": 7
+    },
+    {
+      "source": "量子位",
+      "title": "刚刚，Claude Code大重构！内部3万Agent管理技术免费开放",
+      "url": "https://www.qbitai.com/2026/09/491711.html",
+      "snippet": "Git白学了？？？",
+      "published": "Fri, 18 Sep 2026 00:34:34 +0000",
+      "weight": 6
+    },
+    {
+      "source": "掘金",
+      "title": "一周 AI 观察（9.14–9.18）：Anthropic 自曝\"AI 写了我四分之一的研发\"，于是这一周所有人都在买同一样东西",
+      "url": "https://juejin.cn/post/7686710853032575014",
+      "snippet": "一、本周关键事件表 日期 事件 关键数字 9/12 Amodei 发《We Must Pace the Frontier》，呼吁放缓前沿研发速度 得到 Altman、马斯克、哈萨比斯支持 9/14 微",
+      "published": "Fri, 18 Sep 2026 13:30:21 GMT",
+      "weight": 6
+    },
+    {
+      "source": "雷锋网",
+      "title": "OpenAI：为了不被杀死，Agent 竟学会了靠上下文「转世重生」",
+      "url": "https://www.leiphone.com/category/ai/pcucC7ezQ6TRruRM.html",
+      "snippet": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260918/6aacd4b5c0f67.j",
+      "published": "Fri, 18 Sep 2026 14:06:00 +0800",
+      "weight": 6
+    },
+    {
+      "source": "雷锋网",
+      "title": "独家丨OpenAI的一款无屏硬件，正在深圳试制",
+      "url": "https://www.leiphone.com/category/weiwu/P2ycl5IbO7iNQKAt.html",
+      "snippet": "<p></p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260918/6aacd86b5a6ac.png?imageView2/2/w/740\" /></p><p>雷峰网·鲸犀获悉，OpenAI近日正在深圳秘密试制一款无屏AI硬件产品。有业内人士称，其保密程度极",
+      "published": "Fri, 18 Sep 2026 14:23:00 +0800",
+      "weight": 6
+    },
+    {
+      "source": "钛媒体",
+      "title": "Anthropic之恶",
+      "url": "https://www.tmtpost.com/8144519.html",
+      "snippet": "Anthropic口中的“AI安全”，越来越像一门生意。",
+      "published": "Fri, 18 Sep 2026 16:05:18 +0800",
+      "weight": 6
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Claude“主导”Anthropic 26%的AI研发、3万Agent同时运行：当AI开始“造AI”，头部AI公司的RSI路线正在分化",
+      "url": "https://www.infoq.cn/article/CEphwKjzAe7LzbOriLcq?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/CEphwKjzAe7LzbOriLcq?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Fri, 18 Sep 2026 17:00:25 GMT",
+      "weight": 6
+    },
+    {
+      "source": "量子位",
+      "title": "Claude Code团队讲究啊，这都往外说",
+      "url": "https://www.qbitai.com/2026/09/491596.html",
+      "snippet": "工程师的核心永远是Problem Solving。",
+      "published": "Thu, 17 Sep 2026 11:56:13 +0000",
+      "weight": 6
+    },
+    {
+      "source": "量子位",
+      "title": "Manus重生第17天，估值居然就翻倍了",
+      "url": "https://www.qbitai.com/2026/09/491764.html",
+      "snippet": "作价40亿美元推进新融资",
+      "published": "Fri, 18 Sep 2026 00:37:13 +0000",
+      "weight": 5
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "6.5亿美元押注“AI研究AI”：一群顶级研究员想造出“自我进化”的超级智能",
+      "url": "https://www.infoq.cn/article/da8jMox7ikdNmD2vYyTm?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/da8jMox7ikdNmD2vYyTm?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Fri, 18 Sep 2026 12:00:00 GMT",
+      "weight": 5
+    },
+    {
+      "source": "雷锋网",
+      "title": "独家丨皓翊星辰融资千万级美金，厚雪孵化，绿洲、砺思投了",
+      "url": "https://www.leiphone.com/category/weiwu/SvTVpNCuYHpbNAxA.html",
+      "snippet": "<section style=\"margin-bottom: 16px;\"><span><img alt=\"图片\" class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/6a6c4981e5bcb.jpg?imageMogr2/quality/90\" /></span></section><section style=\"margin",
+      "published": "Fri, 18 Sep 2026 15:00:00 +0800",
+      "weight": 5
+    },
+    {
+      "source": "钛媒体",
+      "title": "23 岁，10 万用户，估值 100 亿美元：硅谷 VC 正在批量生产“纸面独角兽”",
+      "url": "https://www.tmtpost.com/8143708.html",
+      "snippet": "制造泡沫的人，从来不持有泡沫——他们只收取过路费，而速度越快，过路费越丰厚。",
+      "published": "Fri, 18 Sep 2026 16:05:32 +0800",
+      "weight": 5
+    },
+    {
+      "source": "199IT",
+      "title": "集邦咨询：2026年Q2全球前十大晶圆代工产值近534.9亿美元，环比增长11.5%",
+      "url": "http://www.199it.com/archives/1851361.html",
+      "snippet": "集邦咨询数据显示，2026年Q2全球前十大晶圆代工厂产值近534.9亿美元，环比增长11.5%，再创新高。台积电近402亿美元居首，环比增长12.1%；中芯国际环比增长20%，突破30亿美元。AI HPC及周边IC需求与消费电子备货是主因。",
+      "published": "Thu, 17 Sep 2026 13:00:40 +0000",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "量子软件公司获中国移动超亿元投资，国产全栈量子软件加速落地丨36氪首发",
+      "url": "https://36kr.com/p/3988267049155330?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260918/v2_16f6f09fc3e04fbaa549a21262d684cc@6221844_oswg734423oswg1264oswg948_img_png?x-oss-process=image/quality,q_90/format,jpg/in",
+      "published": "2026-09-18 09:55:29  +0800",
+      "weight": 4
+    },
+    {
+      "source": "36氪",
+      "title": "36氪East Forward 2026出海全球化系列名册重磅发布",
+      "url": "https://36kr.com/p/3988360877882121?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260918/v2_705ef8e4bc0c4292bb63057bc9678a1c@5889148_oswg255112oswg900oswg480_img_000?x-oss-process=image/format,jpg/interlace,1\" /><",
+      "published": "2026-09-18 11:38:31  +0800",
+      "weight": 4
+    },
+    {
+      "source": "36氪",
+      "title": "理想开始卖技术：马赫芯片、碳化硅、增程器要外供｜36氪独家",
+      "url": "https://36kr.com/p/3988488062630661?f=rss",
+      "snippet": "<p><strong>文&nbsp;|&nbsp;徐蔡钰&nbsp;</strong></p>\n  <p><strong>编辑&nbsp;|&nbsp;李勤 杨轩</strong></p>\n  <p>理想汽车，开始开放多项自研技术的对外合作，寻求更多收入来源。</p>\n  <p>36氪从多位产业人士处获悉后梳理，今年以来，理想汽车已经开启了多项核心技术的对外供应计划，而伴随业务拆分，部分业务也有引",
+      "published": "2026-09-18 14:31:55  +0800",
+      "weight": 4
+    },
+    {
+      "source": "雷锋网",
+      "title": "独家解读丨行业首创之后，极壳Halo的账能算平吗？",
+      "url": "https://www.leiphone.com/category/weiwu/V4gtXhVreRgnCmys.html",
+      "snippet": "<section style=\"margin-bottom: 16px;\"><span><img alt=\"图片\" class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/6a6c4981e5bcb.jpg?imageMogr2/quality/90\" /></span></section><section style=\"margin",
+      "published": "Fri, 18 Sep 2026 15:12:00 +0800",
+      "weight": 4
+    },
+    {
+      "source": "量子位",
+      "title": "达卯科技算电协同2.0平台入选2026国际数字能源展重大成果发布",
+      "url": "https://www.qbitai.com/2026/09/492421.html",
+      "snippet": "成果中唯一聚焦算电协同全链路运营的AI技术产品",
+      "published": "Fri, 18 Sep 2026 15:50:20 +0000",
+      "weight": 4
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "百度智能云首发产业智能体操作系统，要实现 AI 的商业和技术飞轮",
+      "url": "https://www.infoq.cn/article/jXliIdDVTYDAtm73EoSU?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/jXliIdDVTYDAtm73EoSU?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Thu, 17 Sep 2026 19:29:09 GMT",
+      "weight": 4
+    },
+    {
+      "source": "36氪",
+      "title": "重生后的钟薛高，先给自己“砍一刀” | 最前线",
+      "url": "https://36kr.com/p/3987192212683781?f=rss",
+      "snippet": "<p>作者 | 钟艺璇&nbsp;</p>\n  <p>钟薛高又“复活”了。</p>\n  <p>9月16日，钟薛高参展第28届中国冰淇淋及冷冻食品产业博览会，宣布品牌正式重启。</p>\n  <p>在经历破产结算后，钟薛高迎来了新的操盘手。天眼查显示，今年6月，钟雪高品牌管理（上海）有限公司（以下简称钟雪高公司）成立，8月由其全资持股的长沙钟薛高食品有限公司成立。</p>\n  <p>钟雪高公司由自然人",
+      "published": "2026-09-17 20:01:35  +0800",
+      "weight": 1
+    }
+  ],
+  "source_stats": {
+    "OpenAI-News": 1,
+    "Google-AI-Blog": 3,
+    "TheVerge-AI": 10,
+    "TechReview-AI": 1,
+    "LastWeekInAI": 1,
+    "MarkTechPost": 10,
+    "SebastianRaschka": 0,
+    "TheGradient": 0,
+    "HuggingFace-Blog": 0,
+    "HackerNews": 2,
+    "HackerNews-DeepSeek": 7,
+    "HackerNews-Kimi": 8,
+    "HackerNews-Qwen": 8,
+    "HackerNews-Grok": 8,
+    "HackerNews-xAI": 8,
+    "ArXiv-cs.AI": 15,
+    "量子位": 10,
+    "雷锋网": 15,
+    "钛媒体": 15,
+    "36氪": 15,
+    "InfoQ中文": 15,
+    "掘金": 15,
+    "199IT": 15
+  },
+  "dedup": {
+    "intl": {
+      "before": 82,
+      "after": 79
+    },
+    "cn": {
+      "before": 100,
+      "after": 100
+    }
+  }
+}

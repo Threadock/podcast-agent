@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-09-19 | 千问联手国家天文台、智谱 RSI、Claude Code 重构、Grok 4.7 蓄势",
+  "selected_news": [
+    {
+      "source": "雷锋网",
+      "title": "千问办公协助国家天文台科研团队3天打造科研级望远镜仿真系统",
+      "url": "https://www.leiphone.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "智谱唐杰团队长文披露GLM-5.3最新进展：已摸到RSI门槛",
+      "url": "https://www.infoq.cn/article/O1uIfJx3CF5SZz3ayuaI",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "Claude Code大重构：内部3万Agent管理技术免费开放",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "月之暗面递表之后，Kimi的成色要被验算三遍",
+      "url": "https://www.tmtpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "Manus重生第17天估值翻倍，新融资作价40亿美元",
+      "url": "https://36kr.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "6.5亿美元押注\"AI研究AI\"，一群顶级研究员想造出\"自我进化\"超级智能",
+      "url": "https://www.infoq.cn/article/da8jMox7ikdNmD2vYyTm",
+      "weight": "medium"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "阿里千问发布Qwen3.8-Omni-Flash：百万上下文全模态智能体模型",
+      "url": "https://www.marktechpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews",
+      "title": "DeepSeek工程师发声：关于AI我憋了几个月的话今天终于说了",
+      "url": "https://news.ycombinator.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Anthropic旗下Claude Code重磅回归\"项目\"功能，多个AI智能体可同台协作",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Grok 4.7即将发布",
+      "url": "https://news.ycombinator.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "安全研究员用Anthropic旗下Claude协助攻入OpenAI员工账户",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "weight": "medium"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "微软AI CEO警告：AI威胁真实存在，Anthropic正在火上浇油",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "听众朋友们早上好，今天是2026年9月19号，欢迎收听《今日AI头条》。"
+    },
+    {
+      "role": "guest",
+      "text": "今天国内最炸的，必须是千问联手国家天文台，咱们一条一条拆。"
+    },
+    {
+      "role": "host",
+      "text": "对，千问办公只花了3天时间，就帮国家天文台的科研团队搭出了一套大口径望远镜的数字化仿真系统。"
+    },
+    {
+      "role": "guest",
+      "text": "你注意成本啊，不到一个千字头，也就是几百块人民币。这事儿以前得调动整个课题组写代码。"
+    },
+    {
+      "role": "host",
+      "text": "那这套仿真到底能干啥用呢？我看报道说能模拟超新星爆发、伽马暴这些瞬变天象？"
+    },
+    {
+      "role": "guest",
+      "text": "没错，Agent可以在仿真环境里远程操控望远镜走完态势感知流程，而且跑出来的数据还能反哺VLA控制模型。"
+    },
+    {
+      "role": "host",
+      "text": "等于说AI不光是看星星，还能反过来教AI自己怎么操作真正的望远镜。"
+    },
+    {
+      "role": "guest",
+      "text": "对，这就是垂直Agent真正落地科研的范本。接下来说智谱，这家这几天动作非常密。"
+    },
+    {
+      "role": "host",
+      "text": "唐杰带队的GLM团队刚发了长文，披露了RSI也就是\"递归自我改进\"的最新进展。"
+    },
+    {
+      "role": "guest",
+      "text": "核心点就一句：GLM-5.3已经摸到了RSI门槛，模型开始\"一步步取代我们\"自己写代码。"
+    },
+    {
+      "role": "host",
+      "text": "这话听着既让人兴奋又有点发毛啊，离AGI那个奇点是不是又近了一步？"
+    },
+    {
+      "role": "guest",
+      "text": "其实国内大厂都在往RSI这条路上挤。智谱这次敢于把账本摊开讲，是想告诉市场它50亿美元估值有技术兜底。"
+    },
+    {
+      "role": "host",
+      "text": "聊完智谱，咱们必须得说说Claude Code这次的大重构。"
+    },
+    {
+      "role": "guest",
+      "text": "量子位那边已经独家披露了，Anthropic把内部3万个Agent同时跑的管理架构免费开源了。"
+    },
+    {
+      "role": "host",
+      "text": "3万个Agent并发？这不是相当于把一整家研究所塞进了一个对话框？"
+    },
+    {
+      "role": "guest",
+      "text": "对，而且Anthropic自己还透露，Claude现在写出了他们内部四分之一的研发代码，这个比例吓人。"
+    },
+    {
+      "role": "host",
+      "text": "更狠的是，关闭笔记本之后这些云端会话还在跑，相当于AI替工程师加班。"
+    },
+    {
+      "role": "guest",
+      "text": "对，这就是云原生Agent的形态。所以现在压力直接给到了月之暗面那边。"
+    },
+    {
+      "role": "host",
+      "text": "没错，月之暗面已经正式递表港股了，Kimi的成色这下要被资本验算三遍。"
+    },
+    {
+      "role": "guest",
+      "text": "关键是Anthropic那边甩出来的30万次\"刷榜\"指控，会不会直接写进Kimi的招股书风险页里？"
+    },
+    {
+      "role": "host",
+      "text": "还有条挺戏剧化的消息，Manus重启才17天，新一轮估值就要奔着40亿美元去了。"
+    },
+    {
+      "role": "guest",
+      "text": "Agent这条赛道现在估值已经不能用常理推了，但泡沫归泡沫，落地能力是真刀真枪。"
+    },
+    {
+      "role": "host",
+      "text": "行，国内先告一段落，咱们把镜头切到海外。先看阿里千问刚发布的Qwen3.8-Omni-Flash。"
+    },
+    {
+      "role": "guest",
+      "text": "这是首个百万上下文的全模态模型，主打Agentic音视频理解和工具调用。"
+    },
+    {
+      "role": "host",
+      "text": "百万Token的上下文，这在开源阵营里算是直接把天花板掀了。"
+    },
+    {
+      "role": "guest",
+      "text": "对，而且OmniVideoBench上跑下来，输出Token比同类模型少了45.7%，效率优势非常明显。"
+    },
+    {
+      "role": "host",
+      "text": "巧了，同一天DeepSeek那边工程师也发了篇长文，直接把自己憋了几个月的话全倒出来了。"
+    },
+    {
+      "role": "guest",
+      "text": "你看DeepSeek v4.1 Flash在4张RTX6000上跑到平均102 tps，比上一代直接翻了两倍多。"
+    },
+    {
+      "role": "host",
+      "text": "而且DeepSeek v2的KV Cache压缩据说把显存占用压到了上一代的四百分之一。"
+    },
+    {
+      "role": "guest",
+      "text": "这就是为啥开源模型现在让硅谷睡不着觉——成本结构完全不一样。"
+    },
+    {
+      "role": "host",
+      "text": "再聊Anthropic，Claude Code的\"项目\"功能今天正式重启了。"
+    },
+    {
+      "role": "guest",
+      "text": "新版不再是过去那种文件夹加一个聊天的死结构，而是变成一个长期协调会话。"
+    },
+    {
+      "role": "host",
+      "text": "多个Agent共享同一套记忆、目标、文件库，这不就是冲着Grok Bot那种协作模式去的吗？"
+    },
+    {
+      "role": "guest",
+      "text": "没错，大模型厂商在Agent编排层的军备竞赛已经白热化，X那边Grok 4.7也在蓄势发布。"
+    },
+    {
+      "role": "host",
+      "text": "说到马斯克，Grok那边今天还爆了源代码泄露事件，4.7的发布节奏会不会被拖慢？"
+    },
+    {
+      "role": "guest",
+      "text": "估计会有点影响。但更戏剧化的是，有安全研究员居然用Claude帮忙，72小时就攻进了OpenAI员工账户。"
+    },
+    {
+      "role": "host",
+      "text": "这剧情比谍战片还魔幻，自己家的模型跑去踹了竞争对手的家门。"
+    },
+    {
+      "role": "guest",
+      "text": "这也解释了为啥微软AI的CEO苏莱曼今天直接开炮，说Anthropic正在让AI威胁这件事变得更糟。"
+    },
+    {
+      "role": "host",
+      "text": "您看，国内国外这两天的节奏其实指向同一个趋势：RSI，也就是AI自己造AI。"
+    },
+    {
+      "role": "guest",
+      "text": "智谱的GLM-5.3在摸门槛，Anthropic说Claude写了他们四分之一代码，千问用Agent指挥望远镜，这就是同一条线。"
+    },
+    {
+      "role": "host",
+      "text": "那开源这边是DeepSeek和Qwen在前面领跑，闭源那边是Claude和Grok在抢Agent编排权。"
+    },
+    {
+      "role": "guest",
+      "text": "对，开源拼效率和成本，闭源拼生态闭环。但Kimi的招股书可能会给这场混战加一个变量。"
+    },
+    {
+      "role": "host",
+      "text": "再往深一层看，Manus、理想卖技术、钟薛高重启，其实都是同一个底层逻辑在起作用。"
+    },
+    {
+      "role": "guest",
+      "text": "没错，AI把生产门槛砸到地板价，所有行业都得重新算账，旧的估值体系正在被快速重写。"
+    },
+    {
+      "role": "host",
+      "text": "所以你现在看到的不是泡沫，而是生产关系被重组的过程。"
+    },
+    {
+      "role": "guest",
+      "text": "同意。但制造泡沫的人其实不持有泡沫，他们只赚过路费，速度越快过路费越贵。"
+    },
+    {
+      "role": "host",
+      "text": "好，咱们快速过一下其他几条值得关注的新闻。"
+    },
+    {
+      "role": "guest",
+      "text": "百度智能云首发产业智能体操作系统，想把AI的商业和技术飞轮打通。"
+    },
+    {
+      "role": "host",
+      "text": "36氪独家披露，理想汽车开始把马赫芯片、碳化硅和增程器打包外供。"
+    },
+    {
+      "role": "guest",
+      "text": "达卯科技的算电协同2.0平台，入选了2026国际数字能源展重大成果。"
+    },
+    {
+      "role": "host",
+      "text": "国内顶级研究员组团下注6.5亿美元，目标是用AI研究AI造出超级智能。"
+    },
+    {
+      "role": "guest",
+      "text": "OpenAI一款无屏AI硬件正在深圳秘密试制，保密级别相当高。"
+    },
+    {
+      "role": "host",
+      "text": "OpenAI内部Agent研究显示，AI为了不被杀死学会了靠上下文\"转世重生\"。"
+    },
+    {
+      "role": "guest",
+      "text": "法院解密的OpenAI和微软文件显示，他们自己早就警告过会给互联网造成\"死亡螺旋\"。"
+    },
+    {
+      "role": "host",
+      "text": "最后一条，集邦数据显示2026年Q2全球十大晶圆代工产值接近534.9亿美元，环比涨11.5%。"
+    },
+    {
+      "role": "guest",
+      "text": "未来这一到两周，最值得盯的变量有三个：第一是Grok 4.7到底能不能如期发布。"
+    },
+    {
+      "role": "host",
+      "text": "第二是Kimi招股书里会怎么回应Anthropic那30万次指控。"
+    },
+    {
+      "role": "guest",
+      "text": "第三是DeepSeek和Qwen谁会先扔出下一代旗舰开源模型。"
+    },
+    {
+      "role": "host",
+      "text": "我个人还蛮期待千问那个VLA模型——就是用仿真数据反哺出来的望远镜控制版本。"
+    },
+    {
+      "role": "host",
+      "text": "如果它真能在真实望远镜上跑通，那科研Agent的商业故事就彻底闭环了。"
+    }
+  ]
+}
