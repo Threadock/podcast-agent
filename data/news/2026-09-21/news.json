@@ -1,0 +1,441 @@
+{
+  "intl": [
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Ask HN: DeepSeek v4.1 Flash on Local hardware, what tok/s do you see?",
+      "url": "https://news.ycombinator.com/item?id=49763806",
+      "snippet": "",
+      "published": "2026-09-19T06:05:54Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Same Intel X7 358H with Qwen3.5-9B: Xiaomi Book Pro 14 vs. MSI Prestige 14",
+      "url": "https://grigio.org/panther-lake-qwen3-5-9b-on-the-same-core-ultra-x7-358h-xiaomi-book-pro-14-cachyos-versus-msi-prestige-14-flip/",
+      "snippet": "",
+      "published": "2026-09-19T15:39:28Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Splash Engine – The Fastest Local Qwen3.8 on Apple Silicon",
+      "url": "https://lmstudio.ai/blog/splash-engine",
+      "snippet": "",
+      "published": "2026-09-19T11:54:19Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "kev: Jev-like model built on Qwen2.5-0.5B",
+      "url": "https://github.com/jaredpalmer/kev",
+      "snippet": "",
+      "published": "2026-09-19T13:08:21Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Ask HN: Anyone using DeepSeek Harness (dsh) as part of a customer-facing agent?",
+      "url": "https://news.ycombinator.com/item?id=49770744",
+      "snippet": "Is there anyone shipping dsh where your own customers&#x2F;users are the ones interacting with it as part of the product (they do something, dsh runs, they get the result back).",
+      "published": "2026-09-19T22:46:43Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen Image 2.1",
+      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "snippet": "",
+      "published": "2026-09-20T13:09:25Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "From zero to disaggregated DeepSeek deployment",
+      "url": "https://shubhmehta3121.github.io/inferpd/",
+      "snippet": "",
+      "published": "2026-09-20T17:47:52Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Jev identifies as a Qwen model (and no other)",
+      "url": "https://ouijev.com/?q=Are+you+a+qwen+model",
+      "snippet": "",
+      "published": "2026-09-20T20:09:54Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Show HN: Ran Qwen 3.8 27B autonomously(ish) for 3 weeks on single 3090",
+      "url": "https://huggingface.co/datasets/skeole/qwen-cpp-agent-0-protocol",
+      "snippet": "",
+      "published": "2026-09-20T21:38:22Z",
+      "weight": 7
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Alibaba Qwen Team Releases Qwen3.8-LiveTranslate: A Real-Time Interpretation Model That Cuts Average Lag to 2.3 Seconds Across 60 Languages",
+      "url": "https://www.marktechpost.com/2026/09/19/alibaba-qwen-team-releases-qwen3-8-livetranslate/",
+      "snippet": "<p>Qwen has released Qwen3.8-LiveTranslate, a real-time simultaneous interpretation model built on a new Interleave architecture. It cuts average lagging (LAAL) from 2.8 seconds to 2.3 seconds. It als",
+      "published": "Sun, 20 Sep 2026 06:46:08 +0000",
+      "weight": 7
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Gemini went rogue, hacked three companies, and Google hid it",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+      "snippet": "In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of",
+      "published": "2026-09-19T11:25:03-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Show HN: Claude Code hits its 5-hour limit, Codex picks up in the same terminal",
+      "url": "https://github.com/ucsandman/legcli",
+      "snippet": "",
+      "published": "2026-09-19T15:00:43Z",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Meta’s Muse is creepy, but maybe not for the reasons you think",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy",
+      "snippet": "Meta's Muse is apparently an effective AI assistant, but one that's a little creepy. Part of that is because of its new Mac app, which can access Messages, Calendar, and Notes. But for all its smarts,",
+      "published": "2026-09-19T16:44:40-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "JustBot – a Grok-Bot-style AI assistant at ~1/10th the token cost",
+      "url": "https://justbot.co",
+      "snippet": "",
+      "published": "2026-09-19T20:20:19Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
+      "snippet": "",
+      "published": "2026-09-20T18:40:25Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Moneypenny: Build Grok bot like bots in Claude or codex",
+      "url": "https://moneypennyagent.com/",
+      "snippet": "",
+      "published": "2026-09-20T21:17:33Z",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "SpaceXAI Releases Grok Voice Transcribe 2.0: A Speech-to-Text API Claiming 2x Accuracy Over 1.0 at $0.10 per Hour",
+      "url": "https://www.marktechpost.com/2026/09/18/spacexai-releases-grok-voice-transcribe-2-0/",
+      "snippet": "<p>SpaceXAI has released Grok Voice Transcribe 2.0, its newest speech-to-text model for batch and streaming audio. The company says it is twice as accurate as version 1.0 at the same price. Short-phra",
+      "published": "Sat, 19 Sep 2026 03:42:24 +0000",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Meta Launches Muse for Mac: A Personal AI Agent That Works Across Your Files, Mail, Messages, Calendar and Notes",
+      "url": "https://www.marktechpost.com/2026/09/19/meta-launches-muse-for-mac/",
+      "snippet": "<p>Meta has released Muse for Mac, the first version of Muse that can complete things on a user&#8217;s computer. The agent works with local files and native apps, where your data already lives. It ad",
+      "published": "Sat, 19 Sep 2026 07:22:16 +0000",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "You too Google! Google Confirms Gemini Breached 3 Companies in AI Security Tests",
+      "url": "https://www.marktechpost.com/2026/09/20/you-too-google-google-confirms-gemini-breached-3-companies-in-ai-security-tests/",
+      "snippet": "<p>Google says Gemini accessed 3 real companies in May by guessing a password and reusing credentials from a public repository. Irregular told 4 labs in late July. Google spoke on September 18, after ",
+      "published": "Sun, 20 Sep 2026 20:20:56 +0000",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "ImmiBridge – Private Apple Photos Backup",
+      "url": "https://digitalescapetools.com/tools/tool.html?id=immibridge",
+      "snippet": "",
+      "published": "2026-09-19T07:34:32Z",
+      "weight": 1
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "The AI regulation smackdown isn’t over",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over",
+      "snippet": "At the start of this week, the who's-who of AI seemed - at least tentatively - on the side of AI regulation. Over the weekend, Anthropic CEO Dario Amodei had proposed a three-step plan for slowing AI ",
+      "published": "2026-09-19T09:00:00-04:00",
+      "weight": 1
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Does AI need an antitrust exemption so it doesn&#8217;t kill everyone????",
+      "url": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
+      "snippet": "Today on Decoder, we’ve got the first of a two-part series on the future of business, and I&#8217;m talking with Jonathan Kanter, the former antitrust chief for the US Department of Justice in the Bid",
+      "published": "2026-09-19T10:00:00-04:00",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "How to Limit What Apple's New Siri AI Can Access in iOS 27",
+      "url": "https://www.eff.org/deeplinks/2026/09/how-limit-what-apples-new-siri-ai-can-access-ios-27",
+      "snippet": "",
+      "published": "2026-09-19T10:33:38Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "We found defects in 37 of DeepSWE's 113 tasks",
+      "url": "https://www.scrimdata.com/blog/deep-swe-benchmark-defects-ambiguities",
+      "snippet": "",
+      "published": "2026-09-19T12:56:19Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Twenty-Five Years After 9/11",
+      "url": "https://hassanali110.substack.com/",
+      "snippet": "",
+      "published": "2026-09-19T13:13:03Z",
+      "weight": 1
+    }
+  ],
+  "cn": [
+    {
+      "source": "钛媒体",
+      "title": "Opus 5.2 与 Gemini 4 Pro 未经官宣已上线，前沿模型的发布流程正在被压缩",
+      "url": "https://www.tmtpost.com/8145908.html",
+      "snippet": "没人开发布会。可硅谷这一周，比任何发布会都热闹。",
+      "published": "Sun, 20 Sep 2026 18:25:48 +0800",
+      "weight": 9
+    },
+    {
+      "source": "36氪",
+      "title": "智谱回应数据隐私争议：ZCode即将正式开源，并开展安全审计",
+      "url": "https://36kr.com/newsflashes/3992423724416005?f=rss",
+      "snippet": "近期卷入数据隐私安全争议的ZCode，即将迎来开源。智谱方面表示，此次开源是回应外界对ZCode数据处理担忧的第一步；未来还将推动ZCode更加彻底地走向社区化，欢迎外界下载、检查代码，共同参与改进。在安全性方面，智谱透露，已邀请中国信息通信研究院对ZCode开展安全审计，重点核查数据留存情况。未来还将建立常态化的产品安全漏洞报告机制，欢迎开发者伙伴共同检查、反馈问题，平台将根据问题严重等级给予相",
+      "published": "2026-09-21 08:23:25  +0800",
+      "weight": 7
+    },
+    {
+      "source": "量子位",
+      "title": "27B模型分分钟交付网页，Qwen 3.8还是太能了",
+      "url": "https://www.qbitai.com/2026/09/492573.html",
+      "snippet": "设计、前端一口气全干了，结果后端没来上班",
+      "published": "Sat, 19 Sep 2026 11:43:12 +0000",
+      "weight": 7
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "比 Grok、Cursor 都狠？智谱ZCode“偷传代码”风波升级，企业发函追责",
+      "url": "https://www.infoq.cn/article/huOiZyyH32MpRwTFkoNe?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/huOiZyyH32MpRwTFkoNe?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Sun, 20 Sep 2026 19:46:24 GMT",
+      "weight": 7
+    },
+    {
+      "source": "掘金",
+      "title": "豆包工作新的3个更新，太夯了！",
+      "url": "https://juejin.cn/post/7687476924496085026",
+      "snippet": "最近写文章，老金我好像没少提豆包工作，国内的AI产品里，它确实是我用得比较多的一个，最近的使用量在猛增ing。 原因之前也提过，它背后接着飞书的生态，这一点对我很重要。 众所周知，我的内容，全部都在飞",
+      "published": "Sun, 20 Sep 2026 20:13:55 GMT",
+      "weight": 7
+    },
+    {
+      "source": "掘金",
+      "title": "为什么越来越多人放弃 Claude Code 转而用 Pi？",
+      "url": "https://juejin.cn/post/7687499915136942134",
+      "snippet": "之前写过两篇关于 OMP的文章，一篇聊使用，一篇聊接 DeepSeek。OMP 其实是 Pi 的一个 fork，在使用 OMP 的时候，我也一直在用 Pi。 Pi 的 harness 相比于 Clau",
+      "published": "Sun, 20 Sep 2026 23:20:47 GMT",
+      "weight": 6
+    },
+    {
+      "source": "36氪",
+      "title": "36氪首发丨拿下国内航空航天装配机器人近70%份额，国产大飞机制造设备供应商获数千万元融资",
+      "url": "https://36kr.com/p/3991119011052291?f=rss",
+      "snippet": "<p>作者&nbsp;|&nbsp;乔钰杰</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <blockquote>\n   <p>本文约2800字，建议阅读8分钟</p>\n  </blockquote>\n  <p>硬氪获悉，航空航天装配机器人公司飞钛智造科技（绍兴）有限公司（下称“飞钛”）近日完成数千万元融资，由海愿资本、浙大控股领投，中富创业、金柯桐创、南通江海英才天使投资基",
+      "published": "2026-09-20 10:18:08  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "澳大利亚Telix制药公司16.5亿美元收购德国ITM",
+      "url": "https://36kr.com/newsflashes/3992410420361992?f=rss",
+      "snippet": "澳大利亚Telix制药公司周一宣布，已同意以约16.5亿美元的价格（基于无现金、无债务的估值）收购总部位于德国的ITM Isotope Technologies Munich SE。经调整后，预计ITM股东将获得价值约12.5亿美元的Telix股份，作价为每股11.84美元。（新浪财经）",
+      "published": "2026-09-21 08:17:50  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "沙特公投基金成立供应链融资公司Tawrid",
+      "url": "https://36kr.com/newsflashes/3992410706328584?f=rss",
+      "snippet": "沙特公共投资基金（PIF）9月20日宣布成立新公司Tawrid，后者将通过数字平台为沙特市场的企业提供供应链融资产品。声明称，Tawrid已开始运营，并已同沙特国家银行、海湾国际银行等金融机构和公司签署有约束力协议。（界面）",
+      "published": "2026-09-21 08:20:08  +0800",
+      "weight": 5
+    },
+    {
+      "source": "量子位",
+      "title": "马斯克批量收购破产公司ing…世界首富脑子是不一样",
+      "url": "https://www.qbitai.com/2026/09/492661.html",
+      "snippet": "老马想买倒闭公司数据为哪般",
+      "published": "Sat, 19 Sep 2026 11:48:06 +0000",
+      "weight": 5
+    },
+    {
+      "source": "199IT",
+      "title": "瑞银：2026年全球AI资本支出9980亿美元，内存占比37%，同比增长近一倍",
+      "url": "http://www.199it.com/archives/1852840.html",
+      "snippet": "瑞银报告：2026年全球AI资本支出9980亿美元，同比增长近一倍；内存支出3670亿美元，占比37%，2027年将达9230亿美元、占比64%。非内存AI支出2027年降至5250亿美元。存储三巨头三年净利润或达6000-8000亿美元。",
+      "published": "Sun, 20 Sep 2026 12:12:13 +0000",
+      "weight": 5
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "硅基流动完成B+轮二期及C轮融资，年内累计融资近29亿元",
+      "url": "https://www.infoq.cn/article/oP7tDkoaamphFBkDY8uW?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/oP7tDkoaamphFBkDY8uW?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Sun, 20 Sep 2026 17:42:31 GMT",
+      "weight": 5
+    },
+    {
+      "source": "钛媒体",
+      "title": "低毛利PC承压，亿道信息7.15亿收购成为信息谋升级",
+      "url": "https://www.tmtpost.com/8146525.html",
+      "snippet": "对亿道信息而言，这是一次以并购补工业识别与数据采集能力、对冲PC低毛利困局的升级尝试",
+      "published": "Sun, 20 Sep 2026 21:02:50 +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "从智能硬件到宠物数字生命体，这家公司正在构建AI驱动的宠物智能生态｜36氪首发",
+      "url": "https://36kr.com/p/3991141712903171?f=rss",
+      "snippet": "<p>作者&nbsp;|&nbsp;张子怡</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <p>硬氪获悉，宠物智能科技品牌Moonback近日完成数千万元首轮融资，投资机构为AI上市公司。本轮融资将主要用于AI算法、研发和市场团队建设。</p>\n  <p>宠物经济在全球范围内持续增长。</p>\n  <p>美国宠物用品协会（APPA）数据显示，2025年美国宠物行业消费额达到1",
+      "published": "2026-09-20 10:39:43  +0800",
+      "weight": 4
+    },
+    {
+      "source": "量子位",
+      "title": "华为首发企业AI白皮书：AI让员工更快了，怎样让整个企业受益？",
+      "url": "https://www.qbitai.com/2026/09/493068.html",
+      "snippet": "AI越来越能干，企业该怎么用",
+      "published": "Sun, 20 Sep 2026 14:23:52 +0000",
+      "weight": 4
+    },
+    {
+      "source": "36氪",
+      "title": "主题演讲：从“走出去”到“活下来”｜36氪2026 East Forward 出海大会",
+      "url": "https://36kr.com/p/3991158757440258?f=rss",
+      "snippet": "<p>2026年，中国企业出海正在从“寻找增量”，走向更长期的全球经营。9月17日，以“潮起之时，靠岸相见”为主题的2026 East Forward第二届·36氪出海大会在上海举行。来自消费、科技、制造等领域的出海企业、投资机构，以及全球化服务商汇聚现场，围绕本地化经营、用户洞察、供应链、合规、渠道与全球组织等现实问题展开讨论。当“走出去”已不再是少数选择，企业需要面对真正的问题：如何在海外市场",
+      "published": "2026-09-20 11:01:54  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "开场致辞：走出去了，然后呢？｜36氪2026 East Forward 出海大会",
+      "url": "https://36kr.com/p/3991165694442497?f=rss",
+      "snippet": "<p>2026年，中国企业出海正在从“寻找增量”，走向更长期的全球经营。9月17日，以“潮起之时，靠岸相见”为主题的2026 East Forward第二届·36氪出海大会在上海举行。来自消费、科技、制造等领域的出海企业、投资机构，以及全球化服务商汇聚现场，围绕本地化经营、用户洞察、供应链、合规、渠道与全球组织等现实问题展开讨论。当“走出去”已不再是少数选择，企业需要面对真正的问题：如何在海外市场",
+      "published": "2026-09-20 11:06:20  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "不是公司，也可以来36氪聊聊你的创意",
+      "url": "https://36kr.com/p/3991373552368391?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260920/v2_d641ebab0f7f46149d739e48fb774dfa@5284654_oswg1635066oswg1829oswg860_img_png?x-oss-process=image/quality,q_90/format,jpg/i",
+      "published": "2026-09-20 14:35:44  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "大模型，开始集体变小",
+      "url": "https://36kr.com/p/3991436755057415?f=rss",
+      "snippet": "<p>&nbsp;</p>\n  <p>文 | 李炤锋 王欣逸</p>\n  <p>编辑 | 张雨忻</p>\n  <p>&nbsp;</p>\n  <p>在深圳，林舟所在的AI创业公司只有十个人，大部分工作都靠 AI 来完成——每天数百个Agent（智能体）同时运行，它们分头写代码、做研究。</p>\n  <p>而驱动这些Agent的，一直都是OpenAI的GPT系列模型。</p>\n  <p>但随着团队交",
+      "published": "2026-09-20 16:00:00  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "主题演讲：从3000万到世界一流：长安汽车如何把速度转化为全球信任｜36氪2026 East Forward 出海大会",
+      "url": "https://36kr.com/p/3991497021537285?f=rss",
+      "snippet": "<p>2026年，中国企业出海正在从“寻找增量”，走向更长期的全球经营。9月17日，以“潮起之时，靠岸相见”为主题的2026 East Forward第二届·36氪出海大会在上海举行。来自消费、科技、制造等领域的出海企业、投资机构，以及全球化服务商汇聚现场，围绕本地化经营、用户洞察、供应链、合规、渠道与全球组织等现实问题展开讨论。当“走出去”已不再是少数选择，企业需要面对真正的问题：如何在海外市场",
+      "published": "2026-09-20 16:45:02  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "世界杯进入早场谁接住了清晨的餐饮订单？百威早点铺为百威无醇和店家找到了新的生意机会",
+      "url": "https://36kr.com/p/3991595471895300?f=rss",
+      "snippet": "<p>2026年美加墨世界杯共有104场赛事，换算成北京时间，半数以上比赛集中在清晨5点‑12点。对于国内上班族来说，观赛时间撞上睡眠、早餐与通勤，过去围绕深夜看球形成的消费模式，也随之发生改变。</p>\n  <p>&nbsp;</p>\n  <p>消费数据已经体现出消费时段的转移。来自京东外卖的监测显示，世界杯期间凌晨4‑5点早餐订单较赛前上涨约60%，5‑6点订单增幅接近50%。虽然只是单一平台",
+      "published": "2026-09-20 18:21:38  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "8点1氪丨“电子工业大米”价格飙涨；报告显示农村彩礼均值降至3.86万元；特朗普要给“人工智能”改名",
+      "url": "https://36kr.com/p/3992398887926784?f=rss",
+      "snippet": "<h2>今日热点导览</h2>\n  <ul>\n   <li>谷歌承认其AI模型在安全测试中侵入三家公司系统</li>\n   <li>博主曝西贝已起诉罗永浩，“就要开庭了”</li>\n   <li>公积金新规正式施行</li>\n   <li>许嵩背后公司太合音乐冲刺IPO</li>\n   <li>千叶珠宝多店清仓甩货，金饰低至990元/克</li>\n   <li>“啄木鸟维修换开关收2800元”后续",
+      "published": "2026-09-21 07:58:19  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "华泰证券：建材行业海外布局成为增长新动能",
+      "url": "https://36kr.com/newsflashes/3992412419554304?f=rss",
+      "snippet": "36氪获悉，华泰证券研报认为，回顾水泥、玻璃板块2026年上半年行业运行情况和财务表现，受国内下游基建、地产、光伏装机需求偏弱影响，水泥、浮法/光伏玻璃供需矛盾仍然突出，国内产品价格下降压缩盈利空间，但海外业务体量的扩张以及股权投资的收益，部分对冲了国内主业下行，海外占比较大的龙头企业显现较强的盈利韧性。随着水泥、浮法/光伏玻璃供给持续出清，尽管供需失衡幅度得到一定程度缓解，盈利底部逐步夯实，在行",
+      "published": "2026-09-21 08:24:51  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "行业摒弃盲目追风口，公募产品创新有所为有所不为",
+      "url": "https://36kr.com/newsflashes/3992414553996041?f=rss",
+      "snippet": "一款创新基金产品的问世，往往需要数年打磨——既考验基金管理人的耐心与定力，也检验其投入的决心与诚意。随着行业日趋成熟，公募产品开发逻辑持续迭代升级，行业正摒弃盲目追风口的浮躁模式，“七年磨一剑”的长周期储备成为行业新趋势。部分基金管理人在产品立项阶段审慎评估自身承载能力，严守能力边界，坚守公募行业初心与责任。还有公司立足自身资源禀赋，深耕优势细分品类；部分具备充足资源与专业能力的管理人，跳出规模扩",
+      "published": "2026-09-21 08:27:02  +0800",
+      "weight": 1
+    },
+    {
+      "source": "钛媒体",
+      "title": "【钛晨报】分类推进高校改革，中办、国办最新部署；启元机器人发布个人机器人，19999元起售；长鑫科技第五代技术平台正式量产",
+      "url": "https://www.tmtpost.com/8146468.html",
+      "snippet": "中美经贸磋商在美国纽约开始举行；宁德时代枧下窝锂矿采矿项目日前重启环评审批程序；盛和资源澄清：控股股东不存在拟对外转让公司控股权的情形；Anthropic据悉考虑在IPO前发布新AI模型；市场监管总局明确：这类婴幼儿配方食品，不得继续销售；中国银河：节前A股市场或延续震荡与轮动行情。",
+      "published": "Mon, 21 Sep 2026 07:20:00 +0800",
+      "weight": 1
+    }
+  ],
+  "source_stats": {
+    "OpenAI-News": 0,
+    "Google-AI-Blog": 0,
+    "TheVerge-AI": 7,
+    "TechReview-AI": 0,
+    "LastWeekInAI": 0,
+    "MarkTechPost": 9,
+    "SebastianRaschka": 0,
+    "TheGradient": 0,
+    "HuggingFace-Blog": 0,
+    "HackerNews": 3,
+    "HackerNews-DeepSeek": 4,
+    "HackerNews-Kimi": 8,
+    "HackerNews-Qwen": 8,
+    "HackerNews-Grok": 8,
+    "HackerNews-xAI": 8,
+    "ArXiv-cs.AI": 0,
+    "量子位": 10,
+    "雷锋网": 12,
+    "钛媒体": 15,
+    "36氪": 15,
+    "InfoQ中文": 15,
+    "掘金": 15,
+    "199IT": 15
+  },
+  "dedup": {
+    "intl": {
+      "before": 55,
+      "after": 54
+    },
+    "cn": {
+      "before": 97,
+      "after": 96
+    }
+  }
+}
