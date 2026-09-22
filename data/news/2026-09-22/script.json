@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-09-22 | 国内OceanBase登顶+国际Grok 4.7与Qwen-Image 2.1齐发 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "雷锋网",
+      "title": "OceanBase携国产大模型GLM-5.2登顶国际Data Agent榜单，准确率突破90%",
+      "url": "https://www.leiphone.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "清华博士团队方奇科技完成千万级天使轮融资，打造机器人大脑新架构",
+      "url": "https://36kr.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "英伟达重仓光赛道，OCS整机商芯信光完成数千万元Pre-A轮融资",
+      "url": "https://36kr.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "Gemini“越狱”入侵三家企业，谷歌延迟两个月才发声",
+      "url": "https://www.tmtpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "OpenAI自曝6起安全事故，AI公司迎来定期审计时代",
+      "url": "https://www.tmtpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "标普预警：AI应用将很快影响银行信用评级",
+      "url": "https://36kr.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "xAI发布Grok 4.7，电气工程基准超越Fable 5.1 Max",
+      "url": "https://news.ycombinator.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "阿里Qwen发布Qwen-Image 2.1：7B开源文生图与多参考编辑模型",
+      "url": "https://www.marktechpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "阿里Qwen发布Qwen3.8-LiveTranslate：实时翻译延迟降至2.3秒",
+      "url": "https://www.marktechpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek正在训练2万亿参数模型，并规划8万亿参数版本",
+      "url": "https://news.ycombinator.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "亚马逊封禁Meta的Muse AI购物代理",
+      "url": "https://www.theverge.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Kimi推出桌面版代码助手Kimi Code Desktop",
+      "url": "https://news.ycombinator.com/",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "听众朋友们早上好，今天是2026年9月22号星期二，《今日AI头条》准时上线。"
+    },
+    {
+      "role": "guest",
+      "text": "今天国内国外动静都不小，咱们一条条拆开看。"
+    },
+    {
+      "role": "host",
+      "text": "先说第一条大新闻，OceanBase带着国产大模型GLM-5.2登顶国际Data Agent榜单了。"
+    },
+    {
+      "role": "guest",
+      "text": "没错，准确率干到90.62%，是这个榜单头一个破90%的方案。"
+    },
+    {
+      "role": "host",
+      "text": "而且它超过了好几项基于GPT、Claude Opus还有Claude Fable搭出来的方案。"
+    },
+    {
+      "role": "guest",
+      "text": "你看，这就意味着在数据智能体这种垂直任务上，咱们国产数据库加国产模型完全不虚海外顶级组合。"
+    },
+    {
+      "role": "host",
+      "text": "换个角度讲，这其实也是智谱GLM-5.2模型能力的一次公开背书。"
+    },
+    {
+      "role": "guest",
+      "text": "对，DeepSeek、Qwen、Kimi之后，智谱在企业级Agent赛道找到了自己的突破口。"
+    },
+    {
+      "role": "host",
+      "text": "说完榜单再看融资，今天硬氪首发一则：清华博士团队做的方奇科技完成千万级天使轮。"
+    },
+    {
+      "role": "guest",
+      "text": "方奇科技做的是具身智能通用大脑，简单说就是给机器人装一套能跨本体迁移的操作系统。"
+    },
+    {
+      "role": "host",
+      "text": "投资方包括启迪之星创投这种老牌机构，钱主要用来扩团队和做场景验证。"
+    },
+    {
+      "role": "guest",
+      "text": "对，机器人这两年最烧钱的就是大脑，国内已经有不少团队在押这个方向。"
+    },
+    {
+      "role": "host",
+      "text": "紧接着是一条重磅赛道新闻，36氪首发芯信光完成数千万元Pre-A轮融资。"
+    },
+    {
+      "role": "guest",
+      "text": "芯信光做的是OCS整机，也就是光交换系统，跟传统电交换不是一个路子。"
+    },
+    {
+      "role": "host",
+      "text": "为什么这个赛道突然火了？因为英伟达刚刚给Lumentum和Coherent各投了20亿美元。"
+    },
+    {
+      "role": "guest",
+      "text": "你看，单集群算力迈向十万卡量级，GPU之间要搬海量数据，电交换功耗带宽都顶不住了。"
+    },
+    {
+      "role": "host",
+      "text": "所以华尔街今年已经把光通信列为AI算力的关键变量，标普500涨幅前十里光通信公司占三席。"
+    },
+    {
+      "role": "guest",
+      "text": "对，芯信光这种整机商就是给国产GPU集群提供替代方案的，有想象空间。"
+    },
+    {
+      "role": "host",
+      "text": "国内还有一个值得关注的动向，IDC刚发了一份中国AI算力管理平台评估。"
+    },
+    {
+      "role": "guest",
+      "text": "范式智能拿了综合评分第一，而且在四项关键维度上都是满分。"
+    },
+    {
+      "role": "host",
+      "text": "换句话说，大模型狂飙之后，底层算力调度反而成了新的卡点。"
+    },
+    {
+      "role": "guest",
+      "text": "没错，谁能帮企业把一万张卡跑满，谁就是下一个十年的卖水人。"
+    },
+    {
+      "role": "host",
+      "text": "国内聊完了，咱们把目光转向海外，今天国际头条先看xAI的Grok 4.7。"
+    },
+    {
+      "role": "guest",
+      "text": "Grok 4.7一发布就直接上了电气工程基准榜首，把Fable 5.1 Max都干下去了。"
+    },
+    {
+      "role": "host",
+      "text": "这意味着马斯克的G系列开始往硬核工程领域渗透了，不再只拼聊天和写代码。"
+    },
+    {
+      "role": "guest",
+      "text": "海外社区已经有开发者拿M2 Ultra实测，66分钟干完真实工作任务，表现相当稳。"
+    },
+    {
+      "role": "host",
+      "text": "对，你看Grok 4.7在专业推理上的定价也比前代更激进，xAI明显在抢企业市场。"
+    },
+    {
+      "role": "guest",
+      "text": "接下来是一条大新闻，阿里Qwen团队发布了Qwen-Image 2.1。"
+    },
+    {
+      "role": "host",
+      "text": "这是一个70亿参数的扩散Transformer，文生图、多参考编辑、RGBA透明通道一把抓。"
+    },
+    {
+      "role": "guest",
+      "text": "而且它是一个开源权重模型，开发者可以随便下载微调，门槛非常低。"
+    },
+    {
+      "role": "host",
+      "text": "你看，从闭源到开源，从单任务到多任务，Qwen在图像这条线又往前迈了一大步。"
+    },
+    {
+      "role": "guest",
+      "text": "Qwen今天还放了一个大招，Qwen3.8-LiveTranslate实时翻译模型。"
+    },
+    {
+      "role": "host",
+      "text": "核心数据是平均延迟从2.8秒压到2.3秒，覆盖60种语言，用的是一种新的Interleave架构。"
+    },
+    {
+      "role": "guest",
+      "text": "2.3秒基本已经接近同声传译的人耳可接受范围了，体验会有质变。"
+    },
+    {
+      "role": "host",
+      "text": "对，Qwen从语言到图像再到翻译，正在悄悄变成一个全模态的开源帝国。"
+    },
+    {
+      "role": "guest",
+      "text": "再看一条来自DeepSeek的重磅，有爆料称他们正在训练2万亿参数模型。"
+    },
+    {
+      "role": "host",
+      "text": "而且下一代规划直接奔着8万亿参数去了，听着相当吓人。"
+    },
+    {
+      "role": "guest",
+      "text": "不过DeepSeek最近也有一条负面新闻，被测出在中文政治敏感词上注入的安全漏洞多了50%。"
+    },
+    {
+      "role": "host",
+      "text": "对，越强越要小心安全，这条新闻等于给所有国产模型提了个醒。"
+    },
+    {
+      "role": "guest",
+      "text": "国际这边安全新闻也不消停，谷歌Gemini刚被曝越狱入侵了三家企业。"
+    },
+    {
+      "role": "host",
+      "text": "更夸张的是，谷歌压了两个多月才公开回应，而肇事方是一家只有35人的小公司。"
+    },
+    {
+      "role": "guest",
+      "text": "四家头部AI巨头先后栽在同一拨人手里，这事儿对行业声誉影响挺大。"
+    },
+    {
+      "role": "host",
+      "text": "没错，OpenAI今天也紧跟着自曝了6起安全事故，明显是在抢合规叙事。"
+    },
+    {
+      "role": "guest",
+      "text": "对，AI安全事件已经从藏着掖着转向定期披露，这就是所谓的审计时代。"
+    },
+    {
+      "role": "host",
+      "text": "说白了，谁先把安全账单亮出来，谁就能在监管落地后占据道德高地。"
+    },
+    {
+      "role": "guest",
+      "text": "咱们把国内国外串起来看：今天国产力量在企业级Agent和具身智能上明显加速。"
+    },
+    {
+      "role": "host",
+      "text": "而海外巨头一边拼顶级模型，一边开始拼安全审计，拼合规透明度。"
+    },
+    {
+      "role": "guest",
+      "text": "你看，Qwen-Image 2.1和Grok 4.7就是两条不同的路，开源生态对闭源旗舰。"
+    },
+    {
+      "role": "host",
+      "text": "没错，但国产的优势是生态厚、迭代快，海外的优势是推理深、议价能力强。"
+    },
+    {
+      "role": "guest",
+      "text": "还有一个交叉点：DeepSeek的2万亿模型和芯信光的光交换，都是冲着十万卡集群去的。"
+    },
+    {
+      "role": "host",
+      "text": "对，算力底层的竞争比模型本身还要激烈，这才是真正的军备竞赛。"
+    },
+    {
+      "role": "guest",
+      "text": "金融这条线标普也出来表态了，AI应用将很快影响银行的信用评级。"
+    },
+    {
+      "role": "host",
+      "text": "换句话说，AI不再是锦上添花，而是金融机构的基本面指标。"
+    },
+    {
+      "role": "guest",
+      "text": "接下来快速过几条其他要闻，第一条：亚马逊封禁了Meta的Muse AI购物代理。"
+    },
+    {
+      "role": "host",
+      "text": "AI代理之间抢地盘，电商平台开始防着同行了，挺有意思。"
+    },
+    {
+      "role": "guest",
+      "text": "第二条：OpenAI更新了Academy学习路径，新增员工和开发者专属课程。"
+    },
+    {
+      "role": "host",
+      "text": "这是在抢培训和生态入口，黏性越来越强。"
+    },
+    {
+      "role": "guest",
+      "text": "第三条：苹果250亿美元Siri集体诉讼开始理赔，符合条件的iPhone用户可以申报了。"
+    },
+    {
+      "role": "host",
+      "text": "AI功能跳票的代价真金白银地来了，对整个行业都是警示。"
+    },
+    {
+      "role": "host",
+      "text": "第四条：vivo X500系列发布，5499元起售，首发天玑9600 Pro。"
+    }
+  ]
+}
