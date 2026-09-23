@@ -1,0 +1,441 @@
+{
+  "intl": [
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek injects 50% more security bugs prompted with Chinese political triggers",
+      "url": "https://venturebeat.com/security/deepseek-injects-50-more-security-bugs-when-prompted-with-chinese-political",
+      "snippet": "",
+      "published": "2026-09-21T11:29:01Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Deterministic Kittens: Fun with Qwen-Image-2.1 on an M2 MacBook Pro",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmb2ug/deterministic_kittens_fun_with_qwen_image_21_on/",
+      "snippet": "",
+      "published": "2026-09-21T12:16:23Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen3.8-Flash-Next on a 64 GB M2 Ultra: A 66-Minute Real Work Run",
+      "url": "https://b1tank.github.io/writing/my-real-world-qwen38-flash-next-agent-run/",
+      "snippet": "",
+      "published": "2026-09-21T17:19:39Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Agents on Rails: Maximum Effort and DeepSeek 4.1 Flash",
+      "url": "https://rubyonrails.org/2026/9/21/agents-on-rails-maximum-effort-and-deepseek-4-1-flash",
+      "snippet": "",
+      "published": "2026-09-22T01:30:04Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Grok 4.7",
+      "url": "https://x.ai/news/grok-4-7",
+      "snippet": "",
+      "published": "2026-09-21T15:50:15Z",
+      "weight": 9
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Grok 4.7 is here with Electrical engineering benchmark which beats fable 5.1 max",
+      "url": "https://twitter.com/hive_echo/status/2102072241420898708",
+      "snippet": "",
+      "published": "2026-09-21T16:28:26Z",
+      "weight": 9
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Grok 4.7 Intelligence, Performance and Price Analysis",
+      "url": "https://artificialanalysis.ai/models/grok-4-7",
+      "snippet": "",
+      "published": "2026-09-21T16:36:00Z",
+      "weight": 9
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
+      "snippet": "Anthropic says its new Claude Opus 5.5 model comes with stronger safeguards in the wake of recent rogue AI hacking incidents. In an announcement on Tuesday, Anthropic says Opus 5.5 comes with improvem",
+      "published": "2026-09-22T12:30:00-04:00",
+      "weight": 9
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Grok 4.7 from xAI, added to Personality Bench",
+      "url": "https://persona.earthpilot.ai/models/x-ai/grok-4.7",
+      "snippet": "",
+      "published": "2026-09-22T15:23:09Z",
+      "weight": 9
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Grok 4.7 Scores 46 on AI Intelligence Index, Puts SpaceXAI in Top 4 Labs",
+      "url": "https://artificialanalysis.ai/articles/benchmarking-grok-4-7",
+      "snippet": "",
+      "published": "2026-09-22T17:12:58Z",
+      "weight": 9
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
+      "url": "https://github.com/jaredpalmer/kev/tree/main",
+      "snippet": "",
+      "published": "2026-09-21T07:11:55Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Show HN: Using Qwen to track under-covered news",
+      "url": "https://pressaudit.org/f/findings/underreported-in-the-us",
+      "snippet": "I&#x27;m helping launch this non-profit site which uses Qwen 3-32b to process thousands of news articles and analyze them by region, public interest, partisan lean, etc. This &quot;Underreported in th",
+      "published": "2026-09-21T08:09:35Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Kimi Code Desktop",
+      "url": "https://www.kimi.com/code/docs/en/kimi-code-desktop/getting-started.html",
+      "snippet": "",
+      "published": "2026-09-21T12:56:02Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek is training a 2T-parameter model and plans to build an 8T-parameter one",
+      "url": "https://twitter.com/wallstengine/status/2101982843656388644",
+      "snippet": "",
+      "published": "2026-09-21T13:06:29Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Unattended 24hr Full-Stack Build: Qwen 3.8 27B on a Single RTX 5090",
+      "url": "https://github.com/anglepoiselife/Self-Directed-Agent/blob/main/INTRODUCTION.md",
+      "snippet": "",
+      "published": "2026-09-21T22:20:06Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Complex KDA:Understanding and Enhancing the Expressivity of Kimi Delta Attention",
+      "url": "https://arxiv.org/abs/2609.24797",
+      "snippet": "",
+      "published": "2026-09-22T06:47:44Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen Book",
+      "url": "https://www.qianwenai.com/product/qwenbook",
+      "snippet": "",
+      "published": "2026-09-22T12:15:47Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek Elastic Compute:A Sandbox Infrastructure for Effective Agentic Training",
+      "url": "https://arxiv.org/abs/2609.22978",
+      "snippet": "",
+      "published": "2026-09-22T19:14:41Z",
+      "weight": 7
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Amazon blocks Meta’s Muse AI agent",
+      "url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+      "snippet": "Meta's Muse AI agent has been blocked from shopping Amazon on behalf of its users, GeekWire reports. A popup message started appearing on Sunday for Muse users saying that \"continued access by an unau",
+      "published": "2026-09-21T05:21:47-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Show HN: Nanosamur.ai – Ollama for Voice Models (STT)",
+      "url": "https://github.com/nanosamurai/nanosamurai",
+      "snippet": "nanosamur.ai is a speech-to-tech platform that supports different models for realtime, semi-realtime, and batch transcription and provides a unified stack for robust speech processing, agentic workflo",
+      "published": "2026-09-21T14:17:22Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Outages across API, Grok.com, and Grok Build – API (us-east-1.api.x.ai) Status",
+      "url": "https://status.x.ai/api-us-east-1/INC578e0bc8",
+      "snippet": "",
+      "published": "2026-09-22T01:28:42Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "OpenAI president and MAGA Inc. donor to attend Trump-Xi state dinner",
+      "url": "https://www.politico.com/news/2026/09/21/openai-maga-donor-trump-xi-dinner-01086456",
+      "snippet": "",
+      "published": "2026-09-22T02:52:33Z",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Meta patches Muse exploit that let attackers control the AI agent",
+      "url": "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent",
+      "snippet": "Meta has issued a patch for its Muse macOS app following the discovery of a zero-day vulnerability that could allow someone to take control of the AI agent. The bug found by security researcher Patric",
+      "published": "2026-09-22T07:53:58-04:00",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
+      "snippet": "Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a pipeline for young people to build or join a Silicon Valley startup. The \"Horowitz Andreessen Academy\" will lau",
+      "published": "2026-09-22T12:34:08-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Errand – open-source Grok Bot and Muse alternative, built in a week",
+      "url": "https://runta.com/blog/building-errand-in-one-week/",
+      "snippet": "",
+      "published": "2026-09-22T15:36:03Z",
+      "weight": 6
+    }
+  ],
+  "cn": [
+    {
+      "source": "雷锋网",
+      "title": "《AGI市场观察》发布：四款国产模型周用量破10万亿tokens，DeepSeek与混元占比近半",
+      "url": "https://www.leiphone.com/category/industrynews/IRBkL55eFXZRCHiy.html",
+      "snippet": "<p>日前，智能经济30人论坛AGI测评中心发布最新一期《AGI市场观察》（2026年9月12日-18日）。报告以OpenRouter词元消耗数据、各厂商官方披露价格及Arena基准测评为基础，对国产大语言模型做周度量化追踪，本期围绕用量、份额、集中度、价格与性价比等方面给出观察。</p><p>数据显示，深度求索于9月10日下调DeepSeek V4 Flash及V4.1 Flash定价，后者周用",
+      "published": "Tue, 22 Sep 2026 19:25:00 +0800",
+      "weight": 10
+    },
+    {
+      "source": "钛媒体",
+      "title": "【钛晨报】事关轻工纺织产业发展，三部门最新部署；阿里试水千问平板，与字节押注不同的AI终端；“2026中国民营企业500强”发布",
+      "url": "https://www.tmtpost.com/8149326.html",
+      "snippet": "速卖通上线潜力市场智能经营Agent，AI托管200多个国家地区；腾讯混元图像3.5预览版发布，腾讯云API定价0.15元/张；特斯拉宣布部分Model 3/Y车型将搭载其自研音响算法；英伟达支持的AI制药公司Iambic提交美国IPO申请；苹果新款Mac mini和Mac Studio今日上市；国家发改委：将加快推动《中华人民共和国卫星导航条例》出台实施；国家发改委发布36个项目，拟引入民间投资",
+      "published": "Wed, 23 Sep 2026 07:20:00 +0800",
+      "weight": 10
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "阿里吴泳铭：千问将训练5-10万亿参数规模的新模型",
+      "url": "https://www.infoq.cn/article/L9QQKUgo3DEjschVRKD9?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/L9QQKUgo3DEjschVRKD9?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Tue, 22 Sep 2026 10:48:37 GMT",
+      "weight": 7
+    },
+    {
+      "source": "雷锋网",
+      "title": "千问新一代AI硬件云栖大会首次集中亮相，10月13日现货发售",
+      "url": "https://www.leiphone.com/category/industrynews/sUhCMujTu7xyY00e.html",
+      "snippet": "<p>9月22日，新一代全系列千问 AI 硬件在云栖大会首次集中亮相，包含千问AI眼镜N1、N1 Pro及千问AI耳夹式耳机。三款新品当天同步开启线上预约，并将于10月13日现货发售。</p><p>&nbsp;</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/202",
+      "published": "Tue, 22 Sep 2026 12:25:00 +0800",
+      "weight": 7
+    },
+    {
+      "source": "雷锋网",
+      "title": "做每个人的专属AI助理，千问加速打造Personal Agent",
+      "url": "https://www.leiphone.com/category/industrynews/4V3AYUarwL4RCE5O.html",
+      "snippet": "<p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260922/6ab23ed7d2a82.png?imageView2/2/w/740\" /></p><p>9月22日，在2026年云栖大会上，千问宣布将加速打造 Personal Agent。千问产品负责人郑嗣寿表示，",
+      "published": "Tue, 22 Sep 2026 16:40:00 +0800",
+      "weight": 7
+    },
+    {
+      "source": "雷锋网",
+      "title": "一张硬件卡片，一场上下文之争：千问办公押注企业Agent",
+      "url": "https://www.leiphone.com/category/weiwu/DHnalKdgCUg8xEpC.html",
+      "snippet": "<section><section><section><section><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img js_insertlocalimg\" src=\"https://static.leiphone.com/uploads/new/images/20260922/6ab291a3e8e6d.pn",
+      "published": "Tue, 22 Sep 2026 22:42:00 +0800",
+      "weight": 7
+    },
+    {
+      "source": "量子位",
+      "title": "WebArena作者Shuyan Zhou入职Meta超级智能实验室",
+      "url": "https://www.qbitai.com/2026/09/493653.html",
+      "snippet": "梦想是做能帮妈妈订机票的AI浏览器。",
+      "published": "Tue, 22 Sep 2026 11:58:53 +0000",
+      "weight": 6
+    },
+    {
+      "source": "掘金",
+      "title": "给你的 Claude Code\\Codex 等 AI Coding Agent 装个桌宠吧",
+      "url": "https://juejin.cn/post/7688209623505469478",
+      "snippet": "用 clawd-on-desk 给 Claude Code、Codex 等 AI Agent 装个桌宠：关联 Agent、导入 Codex Pet 包换成小八形象，还能自定义任务完成与权限提示音。",
+      "published": "Tue, 22 Sep 2026 14:32:02 GMT",
+      "weight": 6
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Meta 开源 Astryx：面向 Agent 的 React 设计系统",
+      "url": "https://www.infoq.cn/article/He6bUhlNIuPEa99GGRYC?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/He6bUhlNIuPEa99GGRYC?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Tue, 22 Sep 2026 15:12:00 GMT",
+      "weight": 6
+    },
+    {
+      "source": "36氪",
+      "title": "港科大团队推冷原子系统标准化方案，获量旋科技等两轮数千万融资丨36氪首发",
+      "url": "https://36kr.com/p/3993888512801792?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260922/v2_bada1adfba17418ca93e83bbfe970b54@6221844_oswg731065oswg1267oswg844_img_png?x-oss-process=image/quality,q_90/format,jpg/in",
+      "published": "2026-09-22 09:13:56  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "36氪首发丨高瓴投过的飞控与显示系统供应商再获超五千万元融资，半年内连融三轮",
+      "url": "https://36kr.com/p/3993975293836292?f=rss",
+      "snippet": "<p>作者&nbsp;|&nbsp;乔钰杰</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <blockquote>\n   <p>本文约2500字，建议阅读5分钟</p>\n  </blockquote>\n  <p>硬氪获悉，高安全等级飞控与显示系统供应商深圳市庆为航空科技有限公司（简称“庆为航空”）近日完成超5000万元新一轮融资，由中信建投资本、光谷科创投、江西金控资本联合投",
+      "published": "2026-09-22 10:42:52  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "海外龙头开启涨价模式，融资加仓MLCC概念股",
+      "url": "https://36kr.com/newsflashes/3995239153619076?f=rss",
+      "snippet": "近期，全球MLCC（多层陶瓷电容器）龙头陆续上调产品报价，核心驱动力来自算力产业链对高容量型号的强劲拉动。数据显示AI服务器与高速光模块对MLCC用量呈指数级提升，行业结构性缺口持续扩大；伴随本土厂商产能释放、产品升级，MLCC产业链有望迎来业绩兑现期。下半年以来，融资客加仓多只MLCC概念股。截至9月21日，斯迪克、风华高科、双星新材、昀冢科技等4股融资净买入额超过5000万元，依次为10.82",
+      "published": "2026-09-23 08:29:17  +0800",
+      "weight": 5
+    },
+    {
+      "source": "钛媒体",
+      "title": "主业承压加快布局电解液添加剂，奥克股份拟收购祺添新材控制权 ｜并购一线",
+      "url": "https://www.tmtpost.com/8148800.html",
+      "snippet": "对于奥克股份而言，这笔交易的核心逻辑是在传统主业承压之际，通过并购补充添加剂产品、产能和客户资源，加快拓展电解液添加剂业务。",
+      "published": "Tue, 22 Sep 2026 18:50:31 +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "高端产品缺货严重，华强北MLCC商家爆单",
+      "url": "https://36kr.com/newsflashes/3995234051035008?f=rss",
+      "snippet": "“现在主要是拿不到货”，“原厂需求太旺盛了，直接多数签了长协，没什么货出来”，“AI类、有的高端MLCC（多层陶瓷电容器）确实价格波动比较大，缺货严重”。“中国电子第一街”深圳华强电子世界一层是国内MLCC现货集散地之一，在这里，聚集着全球主要MLCC品牌柜台，普通料、高容、AI服务器规格MLCC都能找到。对于后续MLCC产品会否涨价，业内普遍认为，AI类产品在未来较长一段时间内会持续缺货，价格看",
+      "published": "2026-09-23 08:22:05  +0800",
+      "weight": 4
+    },
+    {
+      "source": "量子位",
+      "title": "别让一部片子倒在交付前：SkyProduction 抢先首发短剧质检",
+      "url": "https://www.qbitai.com/2026/09/494043.html",
+      "snippet": "上传成片和字幕，系统自动从字幕、音画、内容底线三个维度逐集跑一遍，输出可下载、可回填的质检报告。",
+      "published": "Tue, 22 Sep 2026 10:01:53 +0000",
+      "weight": 4
+    },
+    {
+      "source": "雷锋网",
+      "title": "WorkRally 首发接入Hy Image3.5 preview，为专业影视创作开放两周免费体验",
+      "url": "https://www.leiphone.com/category/industrynews/hbyvT21PED8pXEkO.html",
+      "snippet": "<p>9 月 22 日，腾讯混元正式发布 Hy Image3.5 preview。腾讯视频专业影视智能平台 WorkRally 首发接入该模型，即日起两周内向平台创作者免费开放，覆盖剧集分镜、影视物料、角色与场景设定等专业创作场景。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new",
+      "published": "Tue, 22 Sep 2026 14:05:00 +0800",
+      "weight": 4
+    },
+    {
+      "source": "量子位",
+      "title": "直播预告：未来两三年，哪些工业AI场景会率先爆发？",
+      "url": "https://www.qbitai.com/2026/09/494420.html",
+      "snippet": "从真实工厂到产品复制，再到生态和下一批机会，两位嘉宾会把工业AI从「能用」走向「规模化」的关键问题一层层拆开。",
+      "published": "Tue, 22 Sep 2026 14:28:59 +0000",
+      "weight": 4
+    },
+    {
+      "source": "雷锋网",
+      "title": "阿里云加速构建Agentic Cloud：推出AgentCore、新一代CPFS等重磅新品",
+      "url": "https://www.leiphone.com/category/industrynews/HNWVHr1WinHMKzsN.html",
+      "snippet": "<p>9月22日，2026杭州云栖大会上，阿里云CTO李飞飞系统性阐述了Agentic Cloud 战略布局，阿里云将Model、Harness、Context作为核心构建场景，推出全新的云上算力底座和Agent 构建治理平台AgentCore、Agent Sandbox、新一代高性能存储CPFS等一系列新品，让 AI 真正进入生产流程、走向规模化价值创造。</p><p style=\"text-a",
+      "published": "Tue, 22 Sep 2026 17:38:00 +0800",
+      "weight": 4
+    },
+    {
+      "source": "36氪",
+      "title": "AI长剧首次上星，股价连续涨停，芒果TV“用内容做AI”的AIGC逆向实验｜专访",
+      "url": "https://36kr.com/p/3993401668909827?f=rss",
+      "snippet": "<p>文｜李小霞 兰杰</p>\n  <p>编辑｜乔芊</p>\n  <p>8月31日，神话题材季播剧《后西游记》第一季“花果山篇”正式在湖南卫视与芒果TV双平台播出。</p>\n  <p>该剧由芒果TV出品、AIGC创新内容中心制作、伯璟文化承制，是“广电 21 条”发布后首部采用“边审边播”模式的剧集，也是AI长剧首次上星。</p>\n  <p>受此利好，芒果超媒股价连续两日涨停。</p>\n  <p>",
+      "published": "2026-09-22 08:30:00  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "营收数亿后，这家硬件公司又用世界模型做了个AI高尔夫训练助手｜Insight全球",
+      "url": "https://36kr.com/p/3992495927393026?f=rss",
+      "snippet": "<p>作者&nbsp;|&nbsp;黄楠</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <blockquote>\n   <p><strong>编者按：</strong>当出海越来越成为一家中国公司核心战略时，如何征战全球市场就成为一个极其专业的话题。在全球化的演变中，已有不少中国品牌站立潮头。鉴于此，硬氪特推出「Insight全球」专栏，从品牌成长与变迁，探索中国品牌出海的前",
+      "published": "2026-09-22 10:00:00  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "圆桌：产业资本的新航线：出海下半场，钱该投向哪里｜36氪2026 East Forward 出海大会",
+      "url": "https://36kr.com/p/3994057351953411?f=rss",
+      "snippet": "<p>2026年，中国企业出海正在从“寻找增量”，走向更长期的全球经营。9月17日，以“潮起之时，靠岸相见”为主题的2026 East Forward第二届·36氪出海大会在上海举行。来自消费、科技、制造等领域的出海企业、投资机构，以及全球化服务商汇聚现场，围绕本地化经营、用户洞察、供应链、合规、渠道与全球组织等现实问题展开讨论。当“走出去”已不再是少数选择，企业需要面对真正的问题：如何在海外市场",
+      "published": "2026-09-22 12:08:01  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "2026中国汽车产品质量表现研究结果发布，新车首次质量问题时间缩短｜最前线",
+      "url": "https://36kr.com/p/3994227352402695?f=rss",
+      "snippet": "<p>9月16日，车质网、凯睿赛驰咨询联合主办的2026年中国汽车产品质量表现研究结果发布暨颁奖典礼在北京举行。发布会现场，两组数据被反复提及：一组是持续攀升的投诉量，另一组是不断缩短的新车首次质量问题时间。两组数据指向同一个结论：汽车行业的迭代速度正在透支传统品控体系的冗余度。&nbsp;</p>\n  <p>车质网董事长唐卫国在现场披露了一组数据：2026年1—8月，车质网受理有效投诉量近18万",
+      "published": "2026-09-22 14:59:04  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "圆桌：速度与人心：AI让内容无限生成，\"打动人心\"归谁管｜36氪2026 East Forward 出海大会",
+      "url": "https://36kr.com/p/3994215677590279?f=rss",
+      "snippet": "<p>2026年，中国企业出海正在从“寻找增量”，走向更长期的全球经营。9月17日，以“潮起之时，靠岸相见”为主题的2026 East Forward第二届·36氪出海大会在上海举行。来自消费、科技、制造等领域的出海企业、投资机构，以及全球化服务商汇聚现场，围绕本地化经营、用户洞察、供应链、合规、渠道与全球组织等现实问题展开讨论。当“走出去”已不再是少数选择，企业需要面对真正的问题：如何在海外市场",
+      "published": "2026-09-22 15:04:40  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "欣旺达动力发布智能闪充电池系统解决方案，峰值倍率达到15C｜最前线",
+      "url": "https://36kr.com/p/3994148400200706?f=rss",
+      "snippet": "<p>9月17日，在山东枣庄举办的2026新能源电池产业发展大会上，欣旺达动力正式发布智能闪充电池系统解决方案。</p>\n  <p>据欣旺达官方，新系统支持700km+续航，-20℃低温续航达成率90%以上，电芯能量密度达190Wh/kg，系统体积利用率不低于80%。欣旺达实测，常温下5分钟充电可从10%达70%，9分钟可达97%，充电1分钟即可增加100公里续航；在-30℃低温环境下，12分钟可",
+      "published": "2026-09-22 15:09:35  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "2026 East Forward出海大会：全球化到达下一站，中国企业如何走得更远",
+      "url": "https://36kr.com/p/3994316084214534?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260922/v2_095a79a0b8f84838987f5d6050deaf66@6301044_oswg370065oswg1125oswg633_img_jpg?x-oss-process=image/quality,q_100/format,jpg/i",
+      "published": "2026-09-22 16:33:06  +0800",
+      "weight": 1
+    }
+  ],
+  "source_stats": {
+    "OpenAI-News": 8,
+    "Google-AI-Blog": 0,
+    "TheVerge-AI": 10,
+    "TechReview-AI": 6,
+    "LastWeekInAI": 0,
+    "MarkTechPost": 0,
+    "SebastianRaschka": 0,
+    "TheGradient": 0,
+    "HuggingFace-Blog": 4,
+    "HackerNews": 3,
+    "HackerNews-DeepSeek": 7,
+    "HackerNews-Kimi": 8,
+    "HackerNews-Qwen": 8,
+    "HackerNews-Grok": 8,
+    "HackerNews-xAI": 8,
+    "ArXiv-cs.AI": 15,
+    "量子位": 10,
+    "雷锋网": 15,
+    "钛媒体": 15,
+    "36氪": 15,
+    "InfoQ中文": 15,
+    "掘金": 15,
+    "199IT": 15
+  },
+  "dedup": {
+    "intl": {
+      "before": 85,
+      "after": 80
+    },
+    "cn": {
+      "before": 100,
+      "after": 98
+    }
+  }
+}
