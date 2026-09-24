@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-09-24 | 双线齐发:豆包DeepSeekQwen全员迭代,MetaConnect放大招(60句深度版)",
+  "selected_news": [
+    {
+      "source": "36氪",
+      "title": "Meta发布仅约100克VR眼镜,售价1299.99美元",
+      "url": "https://36kr.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Meta Connect 2026:Muse智能体登陆智能眼镜,独立硬件Muse Charm亮相",
+      "url": "https://www.theverge.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Anthropic生物实验室重大突破:Claude自主发现类Crispr级酶系统",
+      "url": "https://www.theverge.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "GPT-6 Sol与Claude Opus 5.5同日发布:Opus单任务成本低80%",
+      "url": "https://36kr.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Claude Opus 5.5实测:一天迁移68万行代码",
+      "url": "https://www.infoq.cn/",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "Qwen一号位定了:刘大一恒接棒,与稚晖君同届天才少年",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "DeepSeek新论文公开Agent训练:梁文锋署名,每秒5000+沙盒",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "千问办公接入阿里云上的Salesforce,抢企业AI入口",
+      "url": "https://www.leiphone.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "豆包工作功能更新:新增目标模式与计划模式",
+      "url": "https://www.leiphone.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "字节AI制药公司Anew Labs独立融资2.9亿美元",
+      "url": "https://36kr.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "钛媒体",
+      "title": "DeepSeek迎新高管:高瓴创投原合伙人严文韬正式入职",
+      "url": "https://www.tmtpost.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "xAI的Grok 4.7登AI智能指数46分,SpaceXAI跻身全球前四",
+      "url": "https://news.ycombinator.com/",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "各位听众早上好,今天是2026年9月24号,星期四,《今日AI头条》准时上线。"
+    },
+    {
+      "role": "guest",
+      "text": "咱们今天直接进入主题吧,国内这一夜动静可真不小。"
+    },
+    {
+      "role": "host",
+      "text": "先说最热的。DeepSeek发了篇新论文,把Agent训练那层窗户纸捅破了。"
+    },
+    {
+      "role": "guest",
+      "text": "对,这篇叫《DeepSeek弹性算力:面向Agent训练的高效沙盒底座》,梁文锋亲自署名。"
+    },
+    {
+      "role": "host",
+      "text": "最炸的数字是啥?每秒能起5000多个沙盒?这也太夸张了吧。"
+    },
+    {
+      "role": "guest",
+      "text": "一点不夸张,就是5000+。你看传统沙盒一秒撑死几十个,这下直接两个数量级跃升。"
+    },
+    {
+      "role": "host",
+      "text": "说白了,Agent要大规模强化学习,瓶颈从来不是模型,而是配套沙盒,这篇正好补上。"
+    },
+    {
+      "role": "guest",
+      "text": "那对咱们普通开发者有啥实际意义啊?我咋感觉离我还挺远的。"
+    },
+    {
+      "role": "host",
+      "text": "意义大了去了,以后Agent长任务训练成本会断崖式下降,产品化速度会快很多。"
+    },
+    {
+      "role": "guest",
+      "text": "你看配合Qwen那边的新动作,就能看出端倪了。"
+    },
+    {
+      "role": "host",
+      "text": "Qwen有啥动静?听说还换了掌门人?稚晖君同届的那个?。"
+    },
+    {
+      "role": "guest",
+      "text": "对,刘大一恒接了Qwen的一号位,跟稚晖君同届的清华天才少年,这人事变动就是制高点。"
+    },
+    {
+      "role": "host",
+      "text": "同步发力的还有《千问办公接入阿里云上的Salesforce》,直接把企业级AI入口抢了。"
+    },
+    {
+      "role": "guest",
+      "text": "那千问办公跟Salesforce怎么联动的?有点跨界混搭的感觉。"
+    },
+    {
+      "role": "host",
+      "text": "你看千问办公管上下文理解和任务执行,Salesforce管客户和销售商机,两边一打通就是闭环。"
+    },
+    {
+      "role": "guest",
+      "text": "对企业来说,以后查商机、维护客户、推进流程,在一个对话框里就能搞定。"
+    },
+    {
+      "role": "host",
+      "text": "字节那边也没闲着吧?豆包工作是不是也升级了?。"
+    },
+    {
+      "role": "guest",
+      "text": "豆包工作新上了目标模式和计划模式,这俩模式瞄准的就是任务跑偏的老毛病。"
+    },
+    {
+      "role": "host",
+      "text": "目标模式交付前会逐项核查验收,计划模式先让你审计划再动手,长程任务稳多了。"
+    },
+    {
+      "role": "guest",
+      "text": "感觉国内大厂今年都在拼Agent落地啊,跟去年卷参数完全是两码事了。"
+    },
+    {
+      "role": "host",
+      "text": "没错,2026年大家突然发现,参数再大也架不住跑不动业务,得先能干活才行。"
+    },
+    {
+      "role": "guest",
+      "text": "这股风一吹,咱们国内大模型公司基本都转向Agent基础设施这个赛道了。"
+    },
+    {
+      "role": "host",
+      "text": "那把视线切到海外,昨天那边可是大新闻连环炸。"
+    },
+    {
+      "role": "guest",
+      "text": "最劲爆的就是OpenAI和Anthropic撞档了,同一天凌晨发新模型,火药味十足。"
+    },
+    {
+      "role": "host",
+      "text": "等等,这俩不是友商吗?咋还同一天开发布会呢?。"
+    },
+    {
+      "role": "guest",
+      "text": "这就是营销心理学啊,故意撞档抢注意力,大家只会记住两个名字一起上热搜。"
+    },
+    {
+      "role": "host",
+      "text": "GPT-6 Sol和Claude Opus 5.5,对标意味非常明显,OpenAI憋了半年憋出的大招。"
+    },
+    {
+      "role": "guest",
+      "text": "那性能到底咋样?我看报道说Opus 5.5成本直接砍了80%?。"
+    },
+    {
+      "role": "host",
+      "text": "单任务成本比GPT-6 Astra便宜80%,而且实测一天迁移了68万行代码,这效率太恐怖。"
+    },
+    {
+      "role": "guest",
+      "text": "你看这数字摆出来,基本就是冲着抢OpenAI企业客户去的,价格战正式开打。"
+    },
+    {
+      "role": "host",
+      "text": "那Anthropic除了发模型还有啥动作?我看他家生物实验室也上头条了。"
+    },
+    {
+      "role": "guest",
+      "text": "对,Anthropic那个新搞的生物实验室,放出了一个大新闻:Claude自主发现了一种新酶。"
+    },
+    {
+      "role": "host",
+      "text": "而且这个酶跟Crispr基因编辑底层机制是同一级别,这可是实打实的科学突破啊。"
+    },
+    {
+      "role": "guest",
+      "text": "等等,Claude自己发现的?不是人辅助的?这事儿有点超出我想象。"
+    },
+    {
+      "role": "host",
+      "text": "是Claude自主跑的实验,Anthropic说这只是他们实验室首个成果,后面还会有。"
+    },
+    {
+      "role": "guest",
+      "text": "这事意义在于,AI第一次在湿实验里拿出了诺奖级的东西,影响远超模型本身。"
+    },
+    {
+      "role": "host",
+      "text": "那咱们再看看Meta,昨天Meta Connect 2026开了吧?听说又发了一堆新品。"
+    },
+    {
+      "role": "guest",
+      "text": "Meta Connect今年主打AI硬件,先是发了款VR眼镜,重量约100克,售价1299.99美元。"
+    },
+    {
+      "role": "host",
+      "text": "你看5K微型OLED加高通新款Snapdragon Reality Elite,还内置了Meta AI,挺能打。"
+    },
+    {
+      "role": "guest",
+      "text": "100克真挺轻的,不过这价格也够买个高端手机了,值不值啊?。"
+    },
+    {
+      "role": "host",
+      "text": "值不值看场景,主打影视体育办公游戏虚拟现实,相当于苹果Vision Pro的轻量版。"
+    },
+    {
+      "role": "guest",
+      "text": "关键还有配套硬件Muse Charm,这是个独立的AI智能体挂件,现场还演示了视频通话。"
+    },
+    {
+      "role": "host",
+      "text": "你看Meta这是要把Muse智能体塞进眼镜里,生态闭环一下就完整了。"
+    },
+    {
+      "role": "guest",
+      "text": "那xAI那边呢?马斯克又有啥新动作?。"
+    },
+    {
+      "role": "host",
+      "text": "Grok 4.7在AI智能指数上拿到了46分,把SpaceXAI送进了全球前四,进步挺猛。"
+    },
+    {
+      "role": "guest",
+      "text": "马斯克还放话,二十年后全球可能有1000亿台人形机器人,这数字听着就上头。"
+    },
+    {
+      "role": "host",
+      "text": "对比国内,DeepSeek走Agent训练底座,Qwen走企业级落地,豆包走任务模式细分。"
+    },
+    {
+      "role": "guest",
+      "text": "海外呢,OpenAI和Anthropic拼模型,Meta拼硬件生态,xAI拼评分和机器人。"
+    },
+    {
+      "role": "host",
+      "text": "你看路径完全不一样,但都殊途同归往通用智能体方向走,这个趋势太明显了。"
+    },
+    {
+      "role": "guest",
+      "text": "还有一个细节,字节AI制药子公司Anew Labs独立融资了2.9亿美元,赛道也热起来了。"
+    },
+    {
+      "role": "host",
+      "text": "对,我看报道说Anthropic也在旧金山湾区建了湿实验室,科技巨头都盯上这块了。"
+    },
+    {
+      "role": "guest",
+      "text": "没错,AI制药从拼模型转向拼闭环,谁能跑通实验室到临床,谁就能拿到下一波红利。"
+    },
+    {
+      "role": "host",
+      "text": "另外DeepSeek还迎来新高管,原高瓴创投合伙人严文韬正式入职,资本市场信号很强。"
+    },
+    {
+      "role": "guest",
+      "text": "那咱们快速过几条其他要闻,先说硬件这块:宾利首款纯电SUV Torcal正式亮相。"
+    },
+    {
+      "role": "host",
+      "text": "对,大众旗下的宾利也下场了,豪华品牌电动化进入新阶段,值得关注。"
+    },
+    {
+      "role": "guest",
+      "text": "再看液冷产业,中信证券说2026年是订单业绩集中兑现的转折之年。"
+    },
+    {
+      "role": "host",
+      "text": "英伟达Rubin、谷歌TPU、AMD Helios都切到100%全液冷,赛道确定性强。"
+    },
+    {
+      "role": "guest",
+      "text": "出海方面,36氪的East Forward出海大会刚在上海落幕,主题是潮起之时。"
+    },
+    {
+      "role": "host",
+      "text": "对,跨境电商逻辑从买流量转向攒信任,本地化和合规成了必修课。"
+    },
+    {
+      "role": "host",
+      "text": "最后两条,智源系创业者做了个叫Mind Lab的后训练平台,主打开源迭代。"
+    }
+  ]
+}
