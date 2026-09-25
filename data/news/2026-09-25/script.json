@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-09-25 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "量子位",
+      "title": "PCIe显卡被低估！DeepSeek推理吞吐翻近7倍",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "阿里、字节、DeepSeek豪赌10万亿参数模型：烧钱军备赛重启",
+      "url": "https://www.tmtpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Claude Opus 5.5发布：一天迁移68万行代码，单任务成本比GPT-6 Astra便宜80%",
+      "url": "https://www.infoq.cn/article/jG9ksSRvpkfP20Qif8Ov",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "GPT-6 Astra 29小时攻破浏览器，成OpenAI首个\"严重级\"模型",
+      "url": "https://www.infoq.cn/article/b5oxzJyafr0lkZexoo8E",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "独家：AWS、微软中国迎来\"Claude封号潮\"",
+      "url": "https://www.leiphone.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "Meta自研Manus翻身！股价一夜暴涨11%，登顶苹果商店",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "OpenAI-News",
+      "title": "Airbnb扩大接入GPT-6 Astra和OpenAI前沿模型",
+      "url": "https://openai.com/news/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "荣耀方飞：与阿里共建五大垂域模型，Magic9搭载系统级Agent Harness",
+      "url": "https://36kr.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Inferact的Kimi K3 Megakernel在TPU上达700 tok/s，击败GPU",
+      "url": "https://news.ycombinator.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Gemini 3.8 Live推出Live Avatar，给AI一张脸",
+      "url": "https://www.theverge.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "36氪",
+      "title": "Deep蓝航天拿下近20亿融资，大型可回收火箭计划2027年首飞",
+      "url": "https://36kr.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "掘金",
+      "title": "同样叫Harness，DeepSeek Harness和Pi根本不在同一层",
+      "url": "https://juejin.cn/",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "大家好，欢迎来到今日AI头条，今天是2026年9月25号，咱们直接上硬菜。"
+    },
+    {
+      "role": "guest",
+      "text": "好嘞，今天国内这边动静最大，得从DeepSeek那条PCIe显卡的逆袭讲起。"
+    },
+    {
+      "role": "host",
+      "text": "对，量子位这报道太炸了，1.5台6000D居然跑赢了1台B300？"
+    },
+    {
+      "role": "guest",
+      "text": "没错，他们做的是内核补齐加通信重构，推理吞吐直接翻了将近7倍。"
+    },
+    {
+      "role": "host",
+      "text": "也就是说，以前大家觉得PCIe显卡是低配选项，现在要被重新评估了？"
+    },
+    {
+      "role": "guest",
+      "text": "对，你看英伟达B300一颗多少钱，DeepSeek这套方案成本优势太明显了。"
+    },
+    {
+      "role": "host",
+      "text": "那我顺着问一句，钛媒体那边说阿里、字节、DeepSeek在豪赌10万亿参数模型，这烧钱能停得下来吗？"
+    },
+    {
+      "role": "guest",
+      "text": "停不下来啊，这就是军备赛，你看Kimi那边Inferact搞的K3 Megakernel，TPU上跑到700 token每秒。"
+    },
+    {
+      "role": "host",
+      "text": "等等，TPU居然击败GPU了？这个Megakernel是个啥黑科技？"
+    },
+    {
+      "role": "guest",
+      "text": "简单说就是把整个推理流程塞进一个超大的内核里跑，减少数据搬运开销。"
+    },
+    {
+      "role": "host",
+      "text": "哦，那国内大模型厂商现在是算力、模型、推理框架三条线全在卷？"
+    },
+    {
+      "role": "guest",
+      "text": "对，你看荣耀方飞在云栖大会讲的，Magic9要搭载系统级Agent Harness操作系统。"
+    },
+    {
+      "role": "host",
+      "text": "Agent Harness这个词最近太火了，掘金那篇分析说DeepSeek Harness和Pi根本不在一层？"
+    },
+    {
+      "role": "guest",
+      "text": "对，区别在于能不能稳定执行复杂任务，不是连个工具就叫Harness。"
+    },
+    {
+      "role": "host",
+      "text": "好，国内这边先放一放，咱们来看国际，Claude Opus 5.5发布了，这事儿动静不小。"
+    },
+    {
+      "role": "guest",
+      "text": "确实炸裂，一天内迁移68万行代码，单任务成本比GPT-6 Astra便宜80%。"
+    },
+    {
+      "role": "host",
+      "text": "等等，68万行代码一天搞定？这个数字怎么做到的？"
+    },
+    {
+      "role": "guest",
+      "text": "Anthropic这版主要优化了长上下文和工具调用链，迁移类工作流特别吃这个。"
+    },
+    {
+      "role": "host",
+      "text": "那GPT-6 Astra这边也不甘示弱，InfoQ说它29小时攻破了浏览器？"
+    },
+    {
+      "role": "guest",
+      "text": "对，OpenAI首次把它定为\"严重级\"模型，说明红队测试里它真能自主发现漏洞。"
+    },
+    {
+      "role": "host",
+      "text": "这就有点可怕了，那对企业来说，能力越强风险也越大啊。"
+    },
+    {
+      "role": "guest",
+      "text": "没错，所以你看OpenAI同时推出了分级处理框架，就是让企业能规范上报模型失调。"
+    },
+    {
+      "role": "host",
+      "text": "我注意到雷锋网独家说AWS和微软中国迎来\"Claude封号潮\"，这是怎么回事？"
+    },
+    {
+      "role": "guest",
+      "text": "Anthropic新一轮合规清查，大中华区不少企业Claude账号直接被封。"
+    },
+    {
+      "role": "host",
+      "text": "这背后是不是中美AI合规博弈又在升级？"
+    },
+    {
+      "role": "guest",
+      "text": "肯定有，你看OpenAI同期还在扩展乌克兰的Daybreak网络安全项目，地缘色彩很浓。"
+    },
+    {
+      "role": "host",
+      "text": "好，那Google这边有什么动作？TheVerge说Gemini 3.8 Live上线了Live Avatar？"
+    },
+    {
+      "role": "guest",
+      "text": "对，就是给AI配了一张能实时对口型的脸，语音对话视觉化。"
+    },
+    {
+      "role": "host",
+      "text": "那跟Meta的Muse那个卡通形象是不是有点对着干的意思？"
+    },
+    {
+      "role": "guest",
+      "text": "风格完全不同，Meta走萌系路线，但Muse刚曝出用真人代打电话的隐私争议。"
+    },
+    {
+      "role": "host",
+      "text": "量子位还提到Meta自研Manus后股价一夜暴涨11%，这产品真有那么神？"
+    },
+    {
+      "role": "guest",
+      "text": "你看它直接登顶苹果商店，增速反超ChatGPT，说明C端用户买单了。"
+    },
+    {
+      "role": "host",
+      "text": "那OpenAI这边Airbnb扩大接入GPT-6 Astra，这是B端落地的标志性事件吧？"
+    },
+    {
+      "role": "guest",
+      "text": "对，Airbnb让工程师团队直接用前沿模型debug和设计系统。"
+    },
+    {
+      "role": "host",
+      "text": "国内国外对比一下：国内在卷硬件替代和垂域模型，国际在卷Agent和合规？"
+    },
+    {
+      "role": "guest",
+      "text": "对，你看DeepSeek把PCIe显卡玩出花，跟Kimi用TPU打GPU是一个思路。"
+    },
+    {
+      "role": "host",
+      "text": "都是想办法绕开对英伟达的过度依赖呗？"
+    },
+    {
+      "role": "guest",
+      "text": "没错，成本和供应链安全双重驱动，国产算力生态被迫加速。"
+    },
+    {
+      "role": "host",
+      "text": "再往深一层，Agent Harness这个概念会不会成为下一阶段竞争的胜负手？"
+    },
+    {
+      "role": "guest",
+      "text": "我觉得是的，你看荣耀、阿里、DeepSeek都在抢这一定义权。"
+    },
+    {
+      "role": "host",
+      "text": "那对普通用户来说，什么时候才能真正用上稳定执行复杂任务的Agent？"
+    },
+    {
+      "role": "guest",
+      "text": "Magic9如果真能落地系统级Harness，可能年底就能看到一些雏形。"
+    },
+    {
+      "role": "host",
+      "text": "好，咱们快速过几条其他要闻，先说商业航天，Deep蓝航天拿下近20亿融资。"
+    },
+    {
+      "role": "guest",
+      "text": "对，投资方全是地方国资加产业资本，可回收火箭计划2027年首飞。"
+    },
+    {
+      "role": "host",
+      "text": "AI新材料那边也有数千万天使轮，已经在跟固态电池龙头合作了。"
+    },
+    {
+      "role": "guest",
+      "text": "清华系的谱析光晶也完成数亿元C轮，做的是第四代半导体功率芯片。"
+    },
+    {
+      "role": "host",
+      "text": "OpenAI还宣布了OpenAI Academy两周年，要把AI技能铺到更多社区。"
+    },
+    {
+      "role": "guest",
+      "text": "Ringg用GPT-5.6把客服成本压到GPT-4.1的十分之一，多语言Agent是真能打。"
+    },
+    {
+      "role": "host",
+      "text": "微软、亚马逊、Adobe集体降价挽留企业客户，这说明B端预算在收紧？"
+    },
+    {
+      "role": "guest",
+      "text": "对，而且Google下周要发AI卫星上天，测试太空里的AI处理器性能。"
+    },
+    {
+      "role": "host",
+      "text": "最后Gemini还能帮用户打电话订位了，Pixel 11用户应该很快能体验。"
+    },
+    {
+      "role": "guest",
+      "text": "嗯，AI替咱们打电话这件事，离生活真的越来越近了。"
+    },
+    {
+      "role": "host",
+      "text": "展望一下，你觉得接下来半年最值得关注的变量是什么？"
+    },
+    {
+      "role": "guest",
+      "text": "我盯两个：一个是10万亿参数模型到底能不能训出来，另一个是Agent Harness能不能标准化。"
+    },
+    {
+      "role": "host",
+      "text": "对，模型规模和工程框架两条腿走路，缺一个都跑不起来。"
+    },
+    {
+      "role": "guest",
+      "text": "还有就是合规，你看Claude封号和GPT-6 Astra的\"严重级\"标签，都是新信号。"
+    },
+    {
+      "role": "host",
+      "text": "明白了，那今天咱们的解读就先到这儿，感兴趣的朋友别忘了点订阅、点赞、打开小铃铛。"
+    },
+    {
+      "role": "guest",
+      "text": "下期我们会重点聊Agent Harness的标准化之争，大家拭目以待。"
+    },
+    {
+      "role": "host",
+      "text": "感谢收听今日AI头条，咱们下期再见，拜拜。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    }
+  ]
+}
