@@ -1,0 +1,441 @@
+{
+  "intl": [
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "OpenCode: $60 of usage for DeepSeek v4.1 Flash is now permanent",
+      "url": "https://twitter.com/opencode/status/2103505541871907109",
+      "snippet": "",
+      "published": "2026-09-25T16:45:08Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek beats GPT-6 Sol in autonomous drug development",
+      "url": "https://eval.raycaster.ai/benchmarks/biopharma-bench/",
+      "snippet": "",
+      "published": "2026-09-25T15:23:03Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "ThinkingCap-Qwen3.8-27B: Less Thinking, Similar Accuracy",
+      "url": "https://kaitchup.substack.com/p/thinkingcap-qwen38-27b-less-thinking",
+      "snippet": "",
+      "published": "2026-09-26T14:36:17Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek Elastic Compute (DSec)",
+      "url": "https://arxiv.org/abs/2609.22978",
+      "snippet": "",
+      "published": "2026-09-26T18:22:41Z",
+      "weight": 7
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
+      "url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
+      "snippet": "A few years back, I was at a beachside Easter egg hunt, watching my kids dash through sand dunes searching for sweet treats. My phone buzzed in my pocket; I ignored it. A moment later, it buzzed again",
+      "published": "2026-09-25T09:00:00-04:00",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Meta makes the Muse filesystem even more accessible",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
+      "snippet": "Yesterday, with a little prodding, it was discovered that Meta's Muse would expose its filesystem to curious users. The files offered a fascinating peek under the hood of an AI chatbot, and appeared t",
+      "published": "2026-09-25T12:49:53-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Doubts grow over claims OpenAI agent hacked Australian Medicare portal",
+      "url": "https://therecord.media/openai-australia-breach-cyber",
+      "snippet": "",
+      "published": "2026-09-25T12:55:34Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "xAI Moves to Buy Out Southaven Residents Who Agree Not to Sue over Plant Noise",
+      "url": "https://www.mississippifreepress.org/xai-moves-to-buy-out-southaven-residents-who-agree-not-to-sue-it-over-power-plant-noise-letter-shows/",
+      "snippet": "",
+      "published": "2026-09-25T18:28:50Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "FYI: OpenAI \"spend limits\" aren't always limits",
+      "url": "https://news.ycombinator.com/item?id=49849976",
+      "snippet": "My OpenAI API key got hacked this morning, and the bot started using my key for something in Chinese.<p>&quot;No worries,&quot; I thought, &quot;I have a $30 spend limit setup.&quot; When I came back ",
+      "published": "2026-09-25T21:08:39Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "OpenAI’s Systems Went Rogue and Meddled With U.S. Government Websites",
+      "url": "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
+      "snippet": "",
+      "published": "2026-09-25T23:22:18Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Show HN: A dashboard for tracking usage limits across Claude, Codex, and Cursor",
+      "url": "https://www.usagebuddy.com/",
+      "snippet": "",
+      "published": "2026-09-26T03:11:17Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Show HN: Causal analyst agent skill for Claude",
+      "url": "https://github.com/kiritbasu/causal-analyst",
+      "snippet": "I&#x27;m not a Data Scientist but have been super intrigued with causal inference off late, so I made a Claude skill to simplify the modelling and experimentation process.<p>You upload your dataset to",
+      "published": "2026-09-26T10:24:33Z",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI pauses training of its ‘most capable models’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "snippet": "As reports of OpenAI's models breaking containment, hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The de",
+      "published": "2026-09-26T12:34:59-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "TikTok to pay $100M and limit daily child usage in Alabama settlement",
+      "url": "https://www.bbc.com/news/articles/cmgjqq54dlx0o",
+      "snippet": "",
+      "published": "2026-09-26T02:03:57Z",
+      "weight": 5
+    },
+    {
+      "source": "TechReview-AI",
+      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+      "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+      "snippet": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or Poly",
+      "published": "Fri, 25 Sep 2026 09:16:25 +0000",
+      "weight": 5
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Research into file-notification attacks on Linux",
+      "url": "https://lwn.net/Articles/1096431/",
+      "snippet": "",
+      "published": "2026-09-25T03:39:24Z",
+      "weight": 1
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office",
+      "url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+      "snippet": "After teasing its new Copilot \"super app\" last month, Microsoft is officially unveiling it today. The redesigned Copilot app bundles three AI capabilities into a single interface of chat, coding, and ",
+      "published": "2026-09-25T08:00:00-04:00",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Legal AI Harvey's margins went from +50% to -50% in 6 months on frontier costs",
+      "url": "https://finance.yahoo.com/technology/ai/articles/openai-anthropic-costs-push-more-160523322.html",
+      "snippet": "",
+      "published": "2026-09-25T08:08:30Z",
+      "weight": 1
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "One company is at the center of a wave of rogue AI attacks",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google",
+      "snippet": "In July, OpenAI revealed that its AI agents had attacked Hugging Face without permission, sparking widespread concerns about AI safety. Since then, a string of similar incidents involving agents from ",
+      "published": "2026-09-25T11:39:48-04:00",
+      "weight": 1
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Sony and UMG are suing Suno again",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music",
+      "snippet": "Sony and Universal Music Group filed yet another suit against Suno. The labels claim its new v6 model still infringes on their copyrights because it's trained on user outputs from previous models, whi",
+      "published": "2026-09-25T11:51:56-04:00",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Twenty-First Memory",
+      "url": "https://rorz.io/writing/twenty-first-memory",
+      "snippet": "",
+      "published": "2026-09-25T12:20:19Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "U.S. Rebukes Australia over Proposed Limits on Social Media Algorithms",
+      "url": "https://www.nytimes.com/2026/09/23/world/australia/social-media-law-algorithms-us-embassy.html",
+      "snippet": "",
+      "published": "2026-09-25T14:07:33Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "I Went to Kyrgyzstan to Find China's Silent Nomads",
+      "url": "https://www.chinatalk.media/p/i-went-to-kyrgyzstan-to-find-chinas",
+      "snippet": "",
+      "published": "2026-09-25T16:53:46Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "AI will grow beyond our control, we must instill good values before it does",
+      "url": "https://blog.kradle.ai/p/ai-will-grow-beyond-our-control-we",
+      "snippet": "",
+      "published": "2026-09-25T20:21:17Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "The Animated Elliptic Curve",
+      "url": "https://curves.xargs.org/",
+      "snippet": "",
+      "published": "2026-09-25T21:19:29Z",
+      "weight": 1
+    }
+  ],
+  "cn": [
+    {
+      "source": "钛媒体",
+      "title": "【数智周报】   千问办公发布企业级Agent基础设施；谷歌推出Gemini 3.8 Flash TTS及Flash-Lite TTS；Anthropic诉特朗普政府受挫",
+      "url": "https://www.tmtpost.com/8153052.html",
+      "snippet": "（9月21日~9月26日）亚马逊官宣接入Kimi K3；超聚变发布FusionServer“无极”架构；《AI原生组织转型指南》发布",
+      "published": "Sat, 26 Sep 2026 12:46:19 +0800",
+      "weight": 10
+    },
+    {
+      "source": "量子位",
+      "title": "别人忙着卷Code，Kimi抽身反打浏览器插件：网页操作一秒变Skill",
+      "url": "https://www.qbitai.com/2026/09/497075.html",
+      "snippet": "Agent的手越伸越长",
+      "published": "Fri, 25 Sep 2026 06:20:56 +0000",
+      "weight": 7
+    },
+    {
+      "source": "量子位",
+      "title": "OpenAI失控Agent还找DeepSeek、Kimi当外援！近百万条作案短链曝光",
+      "url": "https://www.qbitai.com/2026/09/497382.html",
+      "snippet": "还把「密钥」叫战利品",
+      "published": "Sat, 26 Sep 2026 07:04:15 +0000",
+      "weight": 7
+    },
+    {
+      "source": "量子位",
+      "title": "谷歌TPU跑Kimi比英伟达GPU快57%！用的还是DeepSeek推理框架",
+      "url": "https://www.qbitai.com/2026/09/497425.html",
+      "snippet": "vLLM人马创业公司团队出品",
+      "published": "Sat, 26 Sep 2026 07:12:05 +0000",
+      "weight": 7
+    },
+    {
+      "source": "36氪",
+      "title": "AI安全漏洞潮蔓延：Muse被曝两处隐患 Meta拟加强风险提示",
+      "url": "https://36kr.com/newsflashes/4000034032439430?f=rss",
+      "snippet": "Meta Platforms的AI产品Muse被发现存在安全漏洞，该漏洞可能影响用户数据和虚拟环境安全。为此，Meta准备加强风险提示。据悉，该漏洞由一名外部安全研究员通过Meta漏洞赏金计划上报，此前并未对外公开。该漏洞允许攻击者访问用户的专属虚拟机，获取其中邮件、文档等云端个人账户数据。Meta发言人透露，这一漏洞最初被内部定级为SEV-2，为公司五级安全分级体系中的第二高级别，一般对应影响范",
+      "published": "2026-09-26 17:25:02  +0800",
+      "weight": 6
+    },
+    {
+      "source": "量子位",
+      "title": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉",
+      "url": "https://www.qbitai.com/2026/09/497177.html",
+      "snippet": "",
+      "published": "Fri, 25 Sep 2026 13:15:45 +0000",
+      "weight": 6
+    },
+    {
+      "source": "钛媒体",
+      "title": "Meta 已经想清楚 Muse 靠什么赚钱",
+      "url": "https://www.tmtpost.com/8152912.html",
+      "snippet": "眼镜、钥匙扣、电脑、手机的入口，可能都是同一个智能体。",
+      "published": "Sat, 26 Sep 2026 07:53:45 +0800",
+      "weight": 6
+    },
+    {
+      "source": "掘金",
+      "title": "Claude注册，订阅，防风，解风经验！",
+      "url": "https://juejin.cn/post/7689305673976938523",
+      "snippet": "好像很多人关心 Claude 账号的问题，我就专门写一篇！ 现在的 Claude 真的非常有“性价比”！ 能力绝对顶得不行，价格还比 GPT-6 Astra 便宜。 然后同样 20 美金套餐，差 7~",
+      "published": "Sat, 26 Sep 2026 15:18:15 GMT",
+      "weight": 6
+    },
+    {
+      "source": "36氪",
+      "title": "普京：中俄贸易额达2400亿美元",
+      "url": "https://36kr.com/newsflashes/3999854712426627?f=rss",
+      "snippet": "据俄罗斯卫星社9月25日报道，俄罗斯总统弗拉基米尔·普京表示，俄中贸易额已达2400亿美元（据中国官方统计，2025年，中俄双边贸易额为2281.05亿美元），且仍在持续增长。 普京对记者说：“我们与中华人民共和国的贸易额为2400亿美元。这是一个可观的数字。而且贸易规模还在扩大。” 他补充说，俄中两国都看到对双方而言进一步发展关系的重要方向。 普京是在圣彼得堡国际“联合文化”论坛期间与记者交流时",
+      "published": "2026-09-26 15:17:31  +0800",
+      "weight": 5
+    },
+    {
+      "source": "量子位",
+      "title": "笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub",
+      "url": "https://www.qbitai.com/2026/09/497624.html",
+      "snippet": "GitHub现在最火热的大模型开源小蜂鸟Colibrì是个啥？",
+      "published": "Sat, 26 Sep 2026 09:01:00 +0000",
+      "weight": 4
+    },
+    {
+      "source": "36氪",
+      "title": "从模型上手机到让智能体落地，高通的AI时代新故事｜焦点分析",
+      "url": "https://36kr.com/p/3998754973749376?f=rss",
+      "snippet": "<p>过去一年，AI 编程和办公工具在 PC 端快速普及，但手机上的AI体验仍以单次问答和图片处理为主。高通今年想证明的是——端侧AI也能进入到更多生活和工作场景了。</p>\n  <p>2026年，骁龙峰会上，高通与阶跃星辰、无量火科技、江波就演示了一个典型案例——端侧30B-MoE模型完成的工作链条：仅仅用本地的模型，AI读懂一封邮件，提取行程信息，同步日历，推荐航班和酒店，再草拟一封回复。</",
+      "published": "2026-09-26 08:30:24  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "近一周机构调研个股近百只，国新健康调研机构数最多",
+      "url": "https://36kr.com/newsflashes/3999816990707843?f=rss",
+      "snippet": "近一周机构调研个股有近百只，国新健康调研机构数最多。国新健康有139家机构调研，其中包括31家证券公司、47家私募、10家保险公司等。富祥股份、博杰股份、华宝股份等业绩暴增近期获得机构调研。从市场表现来看，近一周机构调研股平均上涨0.27%，沪宁股份、亿田智能、长缆科技等个股涨幅居前。（证券时报）",
+      "published": "2026-09-26 14:49:11  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "9月25日，全社会跨区域人员流动量24219.8万人次",
+      "url": "https://36kr.com/newsflashes/3999855521321089?f=rss",
+      "snippet": "36氪获悉，据交通运输部消息，2026年9月25日（中秋假期第1日），全社会跨区域人员流动量24219.8万人次，环比增长6%，比2024年同期增长12.2%（以下同比均为与2024年同期比较）。其中， 铁路客运量2176.1万人次，环比增长27%，同比增长27.4%。",
+      "published": "2026-09-26 15:36:18  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "习近平结束对美国的国事访问回到北京",
+      "url": "https://36kr.com/newsflashes/3999943886835841?f=rss",
+      "snippet": "9月26日下午，国家主席习近平圆满结束对美国的国事访问回到北京。习近平主席夫人彭丽媛，中共中央政治局常委、中央办公厅主任蔡奇，中共中央政治局委员、外交部部长王毅，中共中央政治局委员、国务院副总理何立峰等陪同人员同机返回。（央视新闻）",
+      "published": "2026-09-26 15:53:20  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "中美达成八点成果共识",
+      "url": "https://36kr.com/newsflashes/3999945207320711?f=rss",
+      "snippet": "当地时间9月23日至25日，中国国家主席习近平对美国进行国事访问。其间，两国元首就中美建设性战略稳定关系及重大国际地区问题深入交换意见，达成八点成果共识，包括：\n\n一、双方同意构建“基于尊重、公平、对等的中美建设性战略稳定关系”。\n\n二、双方同意相互支持对方办好亚太经合组织（APEC）领导人非正式会议和二十国集团（G20）领导人峰会。两国元首有意出席对方主办的会议。\n\n三、两国元首同意伊朗应履行不",
+      "published": "2026-09-26 15:54:40  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "2026民洽会集中签约，项目总金额达269.29亿元",
+      "url": "https://36kr.com/newsflashes/3999889646964870?f=rss",
+      "snippet": "9月23日，2026中国民营企业投融资洽谈会举行集中签约仪式，现场共完成81组项目签约，总金额达269.29亿元。签约项目分为产业合作、融资合作两大类别，其中产业合作类项目63组、金额77.6亿元，融资合作类项目18组、金额191.69亿元。项目精准对接天津12条重点产业链，覆盖机器人、智能制造、生物医药、高端装备、新能源新材料等重点领域。（天津日报）",
+      "published": "2026-09-26 16:09:04  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "维密重回上海淮海路，中国市场进入扩店阶段｜最前线",
+      "url": "https://36kr.com/p/3999967284957059?f=rss",
+      "snippet": "<p>9月25日，维多利亚的秘密（以下简称“维密”）上海淮海旗舰店开业。这是维密在中国市场运营十周年之际，对线下门店的一次重新布局。</p>\n  <p>新店位于淮海中路与瑞金路交界处的龙凤PRSCO一楼。2017年，维密曾在淮海路开出中国首家旗舰店。十年后，品牌再次选择淮海路作为旗舰店落点，不过这一次，门店的定位和空间形态都发生了变化。</p>\n  <p>相比过去强调内衣品类的门店，新旗舰店覆盖的",
+      "published": "2026-09-26 16:17:47  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "9月26日全国铁路预计发送旅客1300万人次",
+      "url": "https://36kr.com/newsflashes/3999947107995778?f=rss",
+      "snippet": "36氪获悉，据中国铁路公众号消息，9月26日，全国铁路预计发送旅客1300万人次，计划加开旅客列车644列。9月25日，全国铁路发送旅客2176.1万人次，运输安全平稳有序。",
+      "published": "2026-09-26 16:30:29  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "中瓷电子：公司上游原材料供应均已实现国产化且均能满足��司需求",
+      "url": "https://36kr.com/newsflashes/3999980619534208?f=rss",
+      "snippet": "36氪获悉，中瓷电子在互动平台表示，公司电子陶瓷领域的技术优势主要体现在电子陶瓷新材料、半导体外壳仿真设计、生产工艺等方面。在材料方面，公司掌握多种陶瓷体系的知识产权，包括系列化氧化铝陶瓷和系列化氮化铝陶瓷以及与其相匹配的金属化体系。目前公司上游原材料供应均已实现国产化且均能够满足公司需求，陶瓷粉体为外购的国产粉体，公司始终重视上游原材料供应的稳定性与质量可控性，以保障产品性能的稳定性与一致性。",
+      "published": "2026-09-26 16:51:37  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "欧盟官员警告欧盟面临能源价格危机",
+      "url": "https://36kr.com/newsflashes/4000049360473993?f=rss",
+      "snippet": "据欧洲媒体9月25日报道，欧盟能源委员丹·约根森当天在给欧盟各国能源部长的信中称，受伊朗战事对全球油气市场的影响，欧盟正面临能源“价格危机”。他呼吁欧盟成员国考虑采取措施减少天然气和电力需求，以应对即将到来的冬季。（CCTV国际时讯）",
+      "published": "2026-09-26 17:48:32  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "2026中秋档票房破2亿",
+      "url": "https://36kr.com/newsflashes/4000093857239170?f=rss",
+      "snippet": "36氪获悉，据灯塔专业版，截至9月26日17时44分，2026年中秋档档期（9月25日-9月27日）票房突破2亿！《复仇者联盟4：终局之战（加码臻享版）》《欢迎来龙餐馆》《八仙！》《老江湖》《空枪》暂列档期票房前五。",
+      "published": "2026-09-26 18:25:53  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "外交部发言人就人工智能问题答记者问",
+      "url": "https://36kr.com/newsflashes/4000094842769289?f=rss",
+      "snippet": "今天，外交部发言人就人工智能问题答记者问。问：我们注意到，美方在介绍此次访问成果时，使用“超级智能”代替“人工智能”。请问中方有何评论？答：中美元首会晤时，就人工智能问题进行了深入讨论。关于人工智能表述问题，中方重视美方的立场，也尊重美方的提法。人工智能技术正在持续发展，各方可以结合最新形势，加强交流、深入探讨、寻求共识。（央视新闻）",
+      "published": "2026-09-26 18:26:53  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "国产火箭总装周期缩至15天",
+      "url": "https://36kr.com/newsflashes/4000096264261508?f=rss",
+      "snippet": "卫星是进入太空的“乘客”，火箭是运送“乘客”的“交通工具”。如今“乘客”越来越多，对“交通工具”也提出了更高的要求。过去，一发火箭往往由一批人从头跟到尾；如今，不同工位可以并行推进。力箭一号首飞阶段总装周期约3个月，随着力箭一号进入高密度、常态化发射阶段，目前已基本实现每月都有发射任务。与之匹配，南沙总装厂房年产能可达30发，一枚火箭总装周期已缩短至约15天。目前，以力箭一号为代表的商业火箭生产方",
+      "published": "2026-09-26 18:35:13  +0800",
+      "weight": 1
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "当 Vibe Coding 撞上企业级现实：真实工程中的 AI 效能之路｜QCon上海",
+      "url": "https://www.infoq.cn/article/QQk3wiolU1VScH3u0P7T?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/QQk3wiolU1VScH3u0P7T?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Fri, 25 Sep 2026 10:00:00 GMT",
+      "weight": 1
+    },
+    {
+      "source": "量子位",
+      "title": "亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源",
+      "url": "https://www.qbitai.com/2026/09/497108.html",
+      "snippet": "大厂造芯，正在从交付芯片，走向更广泛的开放共建阶段。",
+      "published": "Fri, 25 Sep 2026 10:00:14 +0000",
+      "weight": 1
+    }
+  ],
+  "source_stats": {
+    "OpenAI-News": 1,
+    "Google-AI-Blog": 0,
+    "TheVerge-AI": 7,
+    "TechReview-AI": 1,
+    "LastWeekInAI": 0,
+    "MarkTechPost": 9,
+    "SebastianRaschka": 0,
+    "TheGradient": 0,
+    "HuggingFace-Blog": 0,
+    "HackerNews": 0,
+    "HackerNews-DeepSeek": 7,
+    "HackerNews-Kimi": 8,
+    "HackerNews-Qwen": 8,
+    "HackerNews-Grok": 8,
+    "HackerNews-xAI": 8,
+    "ArXiv-cs.AI": 0,
+    "量子位": 10,
+    "雷锋网": 3,
+    "钛媒体": 15,
+    "36氪": 15,
+    "InfoQ中文": 6,
+    "掘金": 15,
+    "199IT": 0
+  },
+  "dedup": {
+    "intl": {
+      "before": 57,
+      "after": 55
+    },
+    "cn": {
+      "before": 64,
+      "after": 64
+    }
+  }
+}
