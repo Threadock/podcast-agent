@@ -1,0 +1,72 @@
+# 今日AI头条 · 2026-09-28
+
+> 每日 8:00 自动汇总国际 + 国内 AI 新闻 (24h 内)
+
+
+**抓取统计**: TheVerge-AI=4, MarkTechPost=6, HackerNews-DeepSeek=2, HackerNews-Kimi=8, HackerNews-Qwen=8, HackerNews-Grok=8, HackerNews-xAI=8, 量子位=10, 雷锋网=1, 钛媒体=15, 36氪=15, InfoQ中文=5, 掘金=15, 199IT=15
+
+**去重**: 国际 44→42, 国内 76→75
+
+## 🌍 国际
+
+- **[Kimi K3 vs. Claude Opus 5.5: How Two Flagship LLMs Built Pokémon Emerald Worms](https://www.runsybil.com/blog/kimi-k3-vs-claude-opus-5-5-how-two-flagship-llms-built-pokemon-emerald-worms)** _HackerNews-Kimi_ — 
+- **[ThinkingCap-Qwen3.8-27B: Less Thinking, Similar Accuracy](https://kaitchup.substack.com/p/thinkingcap-qwen38-27b-less-thinking)** _HackerNews-Kimi_ — 
+- **[DeepSeek Elastic Compute (DSec)](https://arxiv.org/abs/2609.22978)** _HackerNews-DeepSeek_ — 
+- **[Show HN: Causal analyst agent skill for Claude](https://github.com/kiritbasu/causal-analyst)** _HackerNews-Kimi_ — I&#x27;m not a Data Scientist but have been super intrigued with causal inference off late, so I made a Claude skill to simplify the modelling and experimentation process.<p>You upload your dataset to
+- **[OpenAI pauses training of its ‘most capable models’](https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause)** _TheVerge-AI_ — As reports of OpenAI's models breaking containment, hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The de
+- **[OpenAI Codex agents go rogue and consumes USD 78,000 without authorization](https://news.ycombinator.com/item?id=49861047)** _HackerNews-Qwen_ — My OpenAI CODEX account went rogue and from a simple request took the autonomous decision to launch 826 parallel agents &#x2F; threads without any authorization on my side and without reporting any re
+- **[Show HN: Jauvex, one app for Claude+Codex+Grok+Jev with two-way voice chat](https://github.com/reindent/jauvex)** _HackerNews-Grok_ — 
+- **[OpenAI agents tried to ‘bruteforce’ a UN website](https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website)** _TheVerge-AI_ — Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June. While the inciden
+- **[A Coding Guide to Google Research’s MSEB: Writing Sound Encoders to the Benchmark Contract and Scoring Them Across Classification, Clustering, Retrieval and Segmentation](https://www.marktechpost.com/2026/09/26/a-coding-guide-to-google-researchs-mseb-writing-sound-encoders-to-the-benchmark-contract-and-scoring-them-across-classification-clustering-retrieval-and-segmentation/)** _MarkTechPost_ — <p>A comprehensive coding tutorial on Google Research's Massive Sound Embedding Benchmark (MSEB), demonstrating how to implement custom sound encoders, drive classification, clustering, retrieval, and
+- **[Xidian pushes wurtzite ferroelectric memory past 10B write cycles](https://www.neoteo.com/en/xidian-pushes-wurtzite-ferroelectric-memory-past-10-billion-write-cycles)** _HackerNews-xAI_ — 
+- **[It's a Jev's World](https://www.bolna.ai/blog/testing-jev-on-real-phone-calls)** _HackerNews-xAI_ — 
+- **[Can a language model run in Linux eBPF?](https://eunomia.dev/blog/2026/09/24/qwen3-ebpf-in-kernel-inference/)** _HackerNews-Qwen_ — 
+- **[Can Cloudflare CEO Matthew Prince save the web from AI?](https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising)** _TheVerge-AI_ — Today, I’m talking with Matthew Prince, who is CEO of Cloudflare. This episode is part of a two-part series on the future of business. Matthew last joined us on the show about two and a half years ago
+- **[NASA's Roman Team Confirms Ground Stations Receiving Data](https://science.nasa.gov/blogs/roman/2026/09/25/nasas-roman-team-confirms-ground-stations-receiving-data/)** _HackerNews-Grok_ — 
+- **[Australia investigating how F-35 fighter jet parts went missing in Hong Kong](https://www.theguardian.com/world/2026/sep/22/australia-investigating-how-f-35-fighter-jet-parts-bound-for-us-went-missing-in-hong-kong)** _HackerNews-Qwen_ — 
+- **[Grow the Harness, Not the Context](https://arxiv.org/abs/2609.26760)** _HackerNews-Grok_ — 
+- **[The world has a grounding problem](https://aclevername.substack.com/p/the-world-has-a-grounding-problem)** _HackerNews-Grok_ — 
+- **[Wall-mounted vegetable garden growing peppers over 2 meters tall [video]](https://www.youtube.com/watch?v=Wvb52q9TKKM)** _HackerNews-Grok_ — 
+- **[Beware of Chicken](https://www.audible.com/pd/Beware-of-Chicken-A-Xianxia-Cultivation-Novel-Audiobook/B09Y2D2D5T)** _HackerNews-xAI_ — 
+- **[Behold the pawpaw, the tropical 'alien banana' that grows right here in Canada](https://www.cbc.ca/lite/story/9.7356882)** _HackerNews-Grok_ — 
+- **[There are no "rogue" AI agents](https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents)** _HackerNews-xAI_ — 
+- **[Engram is a sampler that turns broken AI hallucinations into music](https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music)** _TheVerge-AI_ — Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate com
+- **[Kids turned the comment section of an NPR podcast into a group chat](https://www.thisamericanlife.org/897/transcript)** _HackerNews-Grok_ — 
+- **[XiaomiMiMo / MiMo-v2.6-RL-OSS (Agentic RL Environments)](https://huggingface.co/datasets/XiaomiMiMo/MiMo-V2.6-RL-oss)** _HackerNews-xAI_ — 
+- **[Diagnosing and Mitigating Tool-Call Repetition in MiMo-v2.6](https://mimo.xiaomi.com/blog/mimo-v2-6-tool-call-repetition)** _HackerNews-xAI_ — 
+
+## 🇨🇳 国内
+
+- **[OpenAI失控Agent还找DeepSeek、Kimi当外援！近百万条作案短链曝光](https://www.qbitai.com/2026/09/497382.html)** _量子位_ — 还把「密钥」叫战利品
+- **[谷歌TPU跑Kimi比英伟达GPU快57%！用的还是DeepSeek推理框架](https://www.qbitai.com/2026/09/497425.html)** _量子位_ — vLLM人马创业公司团队出品
+- **[The Information：DeepSeek年化收入10亿美元，增长一倍以上](http://www.199it.com/archives/1854388.html)** _199IT_ — 据The Information，梁文锋称公司年化收入10亿美元，较几个月前不足5亿美元增长一倍以上。增长靠8月API提价，需求仍强劲。收入几乎全来自API。拟以5000亿元估值融资500亿元，并筹备上市。超70%算力用于训练。
+- **[豆包上车之后，AI原生汽车真的来了吗？](https://www.tmtpost.com/8153291.html)** _钛媒体_ — “AI原生汽车”的概念频繁出现，从互联网汽车到AI原生汽车，荣威还能再定义一次吗？
+- **[啥题啊能干崩OpenAI最强模型训练…](https://www.qbitai.com/2026/09/498546.html)** _量子位_ — 
+- **[Anthropic上市前观察：数据揭示IPO前的增长态势](http://www.199it.com/archives/1854453.html)** _199IT_ — 截至8月claude.ai月访问量达到9.5亿次，同比增加540%；独立访客1.11亿，同比增加562%；Claude应用月活跃用户达到1.57亿，是去年同期的17.1倍。
+- **[集邦咨询：2026Q2长鑫存储DRAM营收146.24亿美元，环比增长99.3%](http://www.199it.com/archives/1854422.html)** _199IT_ — 集邦咨询数据显示，三星转向HBM后，通用DRAM供给收缩，长鑫存储受益。2026年Q2长鑫DRAM营收146.24亿美元，环比增长99.3%，市占率升至9.5%，居全球第四；同期全球DRAM营收环比增长59.5%。
+- **[英特尔：2026年Q2营收161亿美元，同比增长25%，CPU需求仅满足一半](http://www.199it.com/archives/1854419.html)** _199IT_ — 英特尔首席执行官陈立武在Splunk .conf26大会上透露，公司目前只能满足客户约一半CPU需求。2026年第二季度营收达161亿美元，同比增长25%，创近15年最强季度增速。数据中心与AI事业部营收63亿美元，同比增长59%，服务器CPU平均售价环比提升约22%。TrendForce测算，智能体时代每吉瓦数据中心所需CPU核心数将达1.2亿颗。供应短缺或延续至2027年。
+- **[布鲁金斯学会：2025-2032年美国AI基建投资将达10.3万亿美元](http://www.199it.com/archives/1854394.html)** _199IT_ — 布鲁金斯学会经济学家斯泰恩·范纽沃伯格测算，2025-2032年美国AI基建投资预计10.3万亿美元，年均占GDP3.6%。高盛估算2026年AI投资占GDP1.9%。投资拉动建筑、就业、财富，也推升通胀，但债务融资和表外借贷蕴含金融风险。
+- **[量子AI创业来了一支“清华梦之队”：10亿估值，用量子改造大模型底层](https://www.qbitai.com/2026/09/498633.html)** _量子位_ — 
+- **[8点1氪丨苹果确认iPhone 18 Pro存在严重系统漏洞；甲骨文爆雷，市值蒸发近1500亿；特斯拉中国又宣布降价](https://36kr.com/p/4002308115517316?f=rss)** _36氪_ — <h2><strong>今日热点导览</strong></h2>
+  <p>接连发生失控事件，OpenAI再次暂停其最先进模型训练</p>
+  <p>中国移动、中国电信、中国联通，集中叫停“0元购机”</p>
+  <p>罗永浩回应“劣质溜溜凳”事件：东方甄选平台也卖了将近1000万</p>
+  <p>扎克伯格成全球第四富豪</p>
+  <p>特斯拉Semi电动卡车开启量产交付</p>
+  <h2>
+- **[笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub](https://www.qbitai.com/2026/09/497624.html)** _量子位_ — GitHub现在最火热的大模型开源小蜂鸟Colibrì是个啥？
+- **[独家对话本末科技张笛：拆掉减速器那晚，他发现整个行业错了](https://www.tmtpost.com/8153463.html)** _钛媒体_ — 在张笛看来，IPO既是他和团队的一个拐点，也是直驱行业第一次真正与资本市场连接。“过去是零。”他希望，资本市场给出定价后，本末科技能为整个行业树立标杆。
+- **[维密重回上海淮海路，中国市场进入扩店阶段｜最前线](https://36kr.com/p/3999967284957059?f=rss)** _36氪_ — <p>9月25日，维多利亚的秘密（以下简称“维密”）上海淮海旗舰店开业。这是维密在中国市场运营十周年之际，对线下门店的一次重新布局。</p>
+  <p>新店位于淮海中路与瑞金路交界处的龙凤PRSCO一楼。2017年，维密曾在淮海路开出中国首家旗舰店。十年后，品牌再次选择淮海路作为旗舰店落点，不过这一次，门店的定位和空间形态都发生了变化。</p>
+  <p class="image-wrapper"
+- **[中泰证券：外部扰动正消退，科技已成真正的赔率方向](https://36kr.com/newsflashes/4002293841235847?f=rss)** _36氪_ — 36氪获悉，中泰证券发布研报称，市场已从极致缩量走出反弹，节前调整源于加息预期升温与资金落袋观望，但外部扰动正边际消退。当前同时满足景气与低估值的方向越来越少，科技成为真正的赔率方向。存储、半导体及半导体材料等方向估值仍处低位，需求端并未明显转弱；部分AI硬件方向虽已修复，但仍存在进一步估值修复空间。
+- **[科创板ETF六周年：产品矩阵加速完善，硬科技投资生态进阶](https://36kr.com/newsflashes/4002295101345927?f=rss)** _36氪_ — 科创板ETF 9月28日迎来首批产品成立六周年。从首批4只科创50ETF起步，历经六年迭代，逐步构建起覆盖宽基、行业、策略的全维度指数产品工具箱，场内ETF数量突破130只，总规模近3800亿元。在业内人士看来，科创板已成为公募基金布局科技创新、服务新质生产力的主阵地，科创板ETF已成为投资者布局A股硬科技的利器。（上证报）
+- **[进度已达76%，后续专项债发行有望提速](https://36kr.com/newsflashes/4002295421603974?f=rss)** _36氪_ — 三季度临近尾声，数据显示，新增专项债和超长期特别国债有力支持项目建设，后续发力空间充足。目前，新增专项债发行进度达到76%。超长期特别国债方面，“两重”建设项目清单、设备更新相关资金已经全部下达。（中证报）
+- **[报道：瑞士资本新规通过后，多家外资银行表示有意与瑞银合并](https://36kr.com/newsflashes/4002295949102982?f=rss)** _36氪_ — 据瑞士报纸Blick周日报道，多家大型外资银行已表示有意与瑞银集团进行合并或整合。至少有八家银行已向瑞银表达了兴趣。瑞士联邦院周三投票通过了更严格的资本监管规则，对瑞银构成打击，该行估计新规可能要求其额外持有约180亿美元资本。（新浪财经）
+- **[智能体浪潮席卷证券业，券商密集接入智能体生态](https://36kr.com/newsflashes/4002298686902400?f=rss)** _36氪_ — 2026年被业内视为“金融智能体元年”。多家券商主动接入各大互联网平台智能体生态，券商AI（人工智能）转型正从“自研内用”迈向“生态开放”。短短数月，Kimi、腾讯WorkBuddy、阿里千问、火山引擎等平台相继布局金融赛道，券商成为积极拥抱者。同时，多家上市券商在2026年半年报披露了AI战略最新进展。从财富管理到投研、投行、合规风控，AI深度嵌入券商核心业务流程，一场围绕智能体的行业竞速已然开
+- **[爱奇艺辟谣：网传“请勿眨眼”截图系恶搞](https://36kr.com/newsflashes/4002301307867271?f=rss)** _36氪_ — 36氪获悉，近日，一张疑似爱奇艺播放界面的截图在网上传播，画面弹出“请勿眨眼”提示，内容为“系统无法确定你眨眼时是否错过了广告。为确保广告完整播放，将从你上一次眨眼的位置重新开始。”9月27日晚，爱奇艺官方账号发文辟谣，称系恶搞造谣。
+- **[逾八成新发规模不足4亿，股票ETF成立容易做大难](https://36kr.com/newsflashes/4002307462172800?f=rss)** _36氪_ — 在股票ETF加速发行的背景下，小规模产品扎堆、部分主题ETF成立容易做大难的现象日益凸显。统计发现，2023年以来，规模不足4亿元的股票ETF发行占比一直高于50%，2026年这个比例大幅提升至80%以上。受访人士表示，如果ETF仅靠个人认购勉强成立，缺少长期机构配置资金，容易陷入规模萎缩乃至清盘局面。个人投资者需区分交易工具和资产配置工具，不可将主题ETF当作短线博弈工具。基金公司则应将产品创新
+- **[“金九银十”活跃度提升，北上广深带看成交回温](https://36kr.com/newsflashes/4002297853055109?f=rss)** _36氪_ — 中秋假期期间，记者对一线城市楼市进行实地走访，“金九银十”阶段，北上广深楼市活跃度相比平时均有不同程度的提升。不少开发商推出力度较大的优惠活动，“一口价”“送物业费”“送车位”等各种打折优惠活动层出不穷。从目前预约情况来看，双节期间门店带看量明显提升。一些具备稀缺属性的新盘项目热度提升，但这种热度并非均匀分布。利好政策频发，一线城市楼市保持稳固向好态势，但市场全面回暖有待进一步验证。（中证报）
+- **[国金证券：市场趋势性机会仍不明确，结构性应对仍是主要思路](https://36kr.com/newsflashes/4002308297412488?f=rss)** _36氪_ — 36氪获悉，国金证券研报表示，市场趋势性机会仍然不明确，结构性的应对仍然是主要思路，国金证券推荐：第一，有色金属（金、铜、铝）作为美元对立面资产，长期看当下科技并不具有再加速能力，而在极致的加息预期落地与地缘矛盾缓和后，阶段性反弹正在孕育；第二，本轮油价的波动反而可能释放全球对能源的补库需求，石油、油运和炼化为代表的能化链条将继续受益。
+- **[日本央行前官员：日本央行10月加息具备现实可能性](https://36kr.com/newsflashes/4002318399131778?f=rss)** _36氪_ — 一位负责货币政策的前央行执行董事表示，日本央行有可能在10月的政策会议上连续第二个月上调基准利率，这早于多数经济学家的预期。前执行董事门间一夫（Kazuo Momma）近日接受媒体采访时称：“基本节奏大概率是每三个月加息一次，但央行也存在在连续会议上加息的合理可能性。我认为该概率大约在20%至30%。”（新浪财经）
+- **[聚焦抢占科技制高点核心任务，《中国科学院“十五五”发展规划》发布](https://36kr.com/newsflashes/4002334954049668?f=rss)** _36氪_ — 近日，中国科学院正式发布“十五五”发展规划，对未来五年的发展目标、主要任务和重大举措作出系统部署。《规划》聚焦抢占科技制高点核心任务，明确了“十五五”时期中国科学院科技事业发展的战略重点，围绕基础研究、战略高技术和可持续发展三大领域体系化部署科技攻关重点方向，着力加强人工智能赋能科学研究，持续强化科技基础能力建设，统筹优化区域科技布局，并围绕国际一流科研机构建设目标，从教育科技人才一体发展、国家科
