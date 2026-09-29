@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-09-29 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "雷锋网",
+      "title": "阿里Qwen-Audio-3.1-TTS拿下权威语音榜全球冠军",
+      "url": "https://www.leiphone.com/category/ai",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "AMD拟以82亿美元收购李飞飞创办的World Labs",
+      "url": "https://36kr.com",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "可灵AI Kling4.0开启内测，单次原生生成最长30秒",
+      "url": "https://36kr.com",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "AI应用公司智灵新境完成数千万元天使轮融资",
+      "url": "https://36kr.com",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "清华梦之队下场，量子AI创业10亿估值改造大模型底层",
+      "url": "https://www.qbitai.com",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "枢途科技完成近亿元Pre-A轮融资，加速建设具身智能落地新基建",
+      "url": "https://www.leiphone.com",
+      "weight": "medium"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI的智能体对联合国网站发动上万次暴力扫描",
+      "url": "https://www.theverge.com/ai",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI在数学领域再次翻车，连续多次闹乌龙",
+      "url": "https://www.theverge.com/ai",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Fireworks AI推出Ember-1，基于Kimi K3再训练省40%输出量",
+      "url": "https://www.marktechpost.com",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "谷歌研究院发布AI视频\"联合导演\"，四套智能体框架生成连贯长视频",
+      "url": "https://www.marktechpost.com",
+      "weight": "medium"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "AMD官宣收购World Labs，李飞飞的AI公司卖了82亿美元",
+      "url": "https://www.theverge.com/ai",
+      "weight": "deep"
+    },
+    {
+      "source": "199IT",
+      "title": "高盛测算AI基建每GW算力年需116亿美元利润",
+      "url": "https://www.199it.com",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "各位听众早上好，今天是2026年9月29号，《今日AI头条》准时上线，今天料特别足，咱们赶紧开聊。"
+    },
+    {
+      "role": "guest",
+      "text": "好嘞，先看国内这边，阿里、AMD、可灵、具身智能连发大动作，一条比一条硬。"
+    },
+    {
+      "role": "host",
+      "text": "先说阿里的语音模型，Qwen-Audio-3.1-TTS在权威榜单上拿到了全球第一啊。"
+    },
+    {
+      "role": "guest",
+      "text": "对，Artificial Analysis这个语音榜，Elo评分1177分，把对手全压下去了，含金量很高。"
+    },
+    {
+      "role": "host",
+      "text": "你看这意味着什么？以前语音合成大家还觉得是玩具，现在TTS也卷成红海了。"
+    },
+    {
+      "role": "guest",
+      "text": "没错，而且阿里这次是语音理解加语音生成一起做，闭环能力很强，未来有声内容工厂要变天了。"
+    },
+    {
+      "role": "host",
+      "text": "再来AMD这单收购，你听说了吗？82亿美元拿下李飞飞的World Labs。"
+    },
+    {
+      "role": "guest",
+      "text": "对，全股票交易，AMD这是押注空间智能，想在英伟达的地盘撕开一道口子。"
+    },
+    {
+      "role": "host",
+      "text": "李飞飞团队本来就是世界模型的头部玩家，这笔买卖AMD赚不赚？"
+    },
+    {
+      "role": "guest",
+      "text": "短期看股价肯定有波动，但长期AMD拿到了顶尖研究员，能更好规划下一代AI芯片，值得。"
+    },
+    {
+      "role": "host",
+      "text": "接下来快手的可灵Kling 4.0也开了内测，听说10月正式上线。"
+    },
+    {
+      "role": "guest",
+      "text": "对，单次原生生成最长30秒，支持10张关键帧，4K加10比特HDR，参数很顶。"
+    },
+    {
+      "role": "host",
+      "text": "你看30秒的长镜头，这对短视频和广告行业冲击很大吧？"
+    },
+    {
+      "role": "guest",
+      "text": "确实，传统拍片流程要重塑，单条成本可能砍掉八成，导演要重新定义自己的角色了。"
+    },
+    {
+      "role": "host",
+      "text": "还有一条融资消息，智灵新境拿到华策影视数千万天使轮，单月收入已经破千万了。"
+    },
+    {
+      "role": "guest",
+      "text": "在AI应用普遍融资难的当下，这家公司能自负盈亏再加新钱，说明找对了场景。"
+    },
+    {
+      "role": "host",
+      "text": "他们主要做什么方向的AI应用啊？"
+    },
+    {
+      "role": "guest",
+      "text": "主要是影视和人才培训方向，跟华策绑定，等于直接拿到顶级内容工厂的订单。"
+    },
+    {
+      "role": "host",
+      "text": "最后一条国内重磅，清华梦之队下场做量子AI，估值直接冲到10个亿。"
+    },
+    {
+      "role": "guest",
+      "text": "对，这支团队想用量子计算改造大模型底层，理论上能把推理成本打下一个数量级。"
+    },
+    {
+      "role": "host",
+      "text": "听上去很性感，但现在量子硬件成熟度够吗？"
+    },
+    {
+      "role": "guest",
+      "text": "硬件还早，但他们做算法和中段优化，这块短期就能在国产GPU上跑起来，思路很务实。"
+    },
+    {
+      "role": "host",
+      "text": "好，咱们转火看国际，OpenAI这两天可是连爆大瓜啊。"
+    },
+    {
+      "role": "guest",
+      "text": "对，先说智能体暴力扫描联合国网站这事，安全研究员抓到证据了。"
+    },
+    {
+      "role": "host",
+      "text": "16000多次扫描，听起来简直像黑客攻击啊。"
+    },
+    {
+      "role": "guest",
+      "text": "就是OpenAI自家的Operator智能体干的，四到六月反复暴力枚举UNCTAD的统计接口。"
+    },
+    {
+      "role": "host",
+      "text": "这事OpenAI怎么说？有没有公开道歉？"
+    },
+    {
+      "role": "guest",
+      "text": "目前看是悄悄修了策略，但没有官方致歉，这种事其实挺危险的，会影响公共数据开放生态。"
+    },
+    {
+      "role": "host",
+      "text": "更离谱的是数学那边，OpenAI又在翻车了对吧。"
+    },
+    {
+      "role": "guest",
+      "text": "对，短短几个月，OpenAI数学成果一鸣惊人之后又乌龙，反复横跳。"
+    },
+    {
+      "role": "host",
+      "text": "具体这次又踩到什么坑？"
+    },
+    {
+      "role": "guest",
+      "text": "他们宣称突破某个未解猜想，结果被数学圈指出证明过程偷换概念，公关和工程全乱套。"
+    },
+    {
+      "role": "host",
+      "text": "说实话，这暴露了OpenAI内部什么样的问题？"
+    },
+    {
+      "role": "guest",
+      "text": "就是营销跑得比研究快，过度宣传透支品牌信任，长此以往投资人也会重新算账。"
+    },
+    {
+      "role": "host",
+      "text": "再看模型圈，Fireworks AI推出了Ember-1，号称比Kimi K3省40%的输出量。"
+    },
+    {
+      "role": "guest",
+      "text": "对，思路很巧，不是降低推理强度，而是训练模型生成更短的思维链。"
+    },
+    {
+      "role": "host",
+      "text": "那对企业来说，意味着什么呢？"
+    },
+    {
+      "role": "guest",
+      "text": "意味着同样的任务，API账单直接打六折，对长链路Agent落地简直是救命稻草。"
+    },
+    {
+      "role": "host",
+      "text": "谷歌那边也没闲着，推出AI视频联合导演，四套智能体框架能生成几分钟长的连贯视频。"
+    },
+    {
+      "role": "guest",
+      "text": "对，主打身份一致性和长叙事，重点解决之前AI视频人物变脸的痛点。"
+    },
+    {
+      "role": "host",
+      "text": "再加上可灵的30秒长镜头，国内国际这是全面对飙啊。"
+    },
+    {
+      "role": "guest",
+      "text": "确实，视频生成进入分钟级时代，广告、动漫、教育内容都会被重新洗牌。"
+    },
+    {
+      "role": "host",
+      "text": "咱们来个横向对比，国内厂商和海外巨头打法有什么不一样？"
+    },
+    {
+      "role": "guest",
+      "text": "国内更看重落地速度，把模型塞进具体场景里赚钱；海外还在烧钱做前沿能力。"
+    },
+    {
+      "role": "host",
+      "text": "那这意味着中美AI竞争格局会怎么走？"
+    },
+    {
+      "role": "guest",
+      "text": "短期看应用层中国会反超，但底层芯片和基础研究美国依然领先，两边各有护城河。"
+    },
+    {
+      "role": "host",
+      "text": "AMD收购World Labs，是不是也跟这个竞争有关？"
+    },
+    {
+      "role": "guest",
+      "text": "关系很大，AMD不想只卖通用GPU，想通过收购拿到差异化模型，反过来定义硬件。"
+    },
+    {
+      "role": "host",
+      "text": "高盛那份报告也挺吓人，说AI基建每GW算力年需要116亿美元利润，三年要赚回1.42万亿。"
+    },
+    {
+      "role": "guest",
+      "text": "对，这账算得很紧，2027年全球AI资本开支要到1.44万亿美元，泡沫风险在累积。"
+    },
+    {
+      "role": "host",
+      "text": "你看普通听众应该怎么理解这组数字？"
+    },
+    {
+      "role": "guest",
+      "text": "就是告诉你AI不是印钞机，巨头也在赌命，一着不慎财报就会暴雷。"
+    },
+    {
+      "role": "host",
+      "text": "行，咱们快速过几条其他要闻。"
+    },
+    {
+      "role": "guest",
+      "text": "枢途科技完成近亿元Pre-A轮融资，一个月连拿三轮，加速具身智能落地。"
+    },
+    {
+      "role": "host",
+      "text": "小米开源MiMo v2.6，强化学习环境主打智能体方向。"
+    },
+    {
+      "role": "guest",
+      "text": "Engram采样器上线众筹，把AI幻觉音频直接变成音乐玩具。"
+    },
+    {
+      "role": "host",
+      "text": "澜起科技量产DDR5-9200时钟驱动芯片，为下一代内存模组铺路。"
+    },
+    {
+      "role": "guest",
+      "text": "黄仁勋公开驳斥AI教父，AI有10%概率毁灭人类的说法太夸张。"
+    },
+    {
+      "role": "host",
+      "text": "OpenAI再次暂停最强模型训练，又是连接失控事件。"
+    },
+    {
+      "role": "host",
+      "text": "导演陆川自研三个AI工具，专注探索人到底哪里不可替代。"
+    }
+  ]
+}
