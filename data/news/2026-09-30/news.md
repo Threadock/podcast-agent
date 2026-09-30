@@ -1,0 +1,85 @@
+# 今日AI头条 · 2026-09-30
+
+> 每日 8:00 自动汇总国际 + 国内 AI 新闻 (24h 内)
+
+
+**抓取统计**: OpenAI-News=6, Google-AI-Blog=1, TheVerge-AI=10, TechReview-AI=4, MarkTechPost=10, SebastianRaschka=1, HuggingFace-Blog=3, HackerNews=3, HackerNews-DeepSeek=6, HackerNews-Kimi=8, HackerNews-Qwen=8, HackerNews-Grok=8, HackerNews-xAI=8, ArXiv-cs.AI=15, 量子位=8, 雷锋网=15, 钛媒体=15, 36氪=15, InfoQ中文=15, 掘金=15, 199IT=15
+
+**去重**: 国际 91→90, 国内 98→98
+
+## 🌍 国际
+
+- **[Opus 5.5 vs. GPT-6 in pi-agent: reasoning efforts and DeepSeek, GLM, Qwen](https://ibragim.dev/leaderboard/)** _HackerNews-DeepSeek_ — 
+- **[Strata: Qwen3.8-Flash-Next (125B Moe) on a 8GB+ Nvidia GPU](https://github.com/Niko1221/Strata)** _HackerNews-Qwen_ — 
+- **[Qwen3.8-Flash-Next Is on TensorFold with Speed Boosts](https://x.com/i/trending/2104894082678214786)** _HackerNews-Qwen_ — 
+- **[Fine-tuning Qwen3.5-4B to replace Gemini Flash-Lite in a RAG pipeline](https://duane.sh/a/fine-tuning-qwen-local-minutes)** _HackerNews-Qwen_ — 
+- **[DeepSeek Harness Desktop App Ready in Preview](https://www.deepseek.com/en/harness/)** _HackerNews-DeepSeek_ — 
+- **[Extrinsic World Modeling with Opus, Astra and Grok](https://all3d.ai/research/grok-spatial-reasoning)** _HackerNews-Grok_ — 
+- **[Protesters gather at OpenAI’s DevDay](https://www.theverge.com/ai-artificial-intelligence/1002201/openai-sam-altman-openai-devday-protests-ice-data-centers)** _TheVerge-AI_ — On Tuesday, OpenAI's annual DevDay event began with protests, flyers, and chants. "Sam Altman, get off it, put people over profit," said a group of protesters marching in a circle in front of a series
+- **[Tell HN: OpenAI's New Pro 500 subscription, reduced Pro 200 usage](https://news.ycombinator.com/item?id=49901067)** _HackerNews-Kimi_ — As a Pro subscriber, I&#x27;ve just received the following email from OpenAI:<p>Hi [FirstName],<p>We’re introducing dots for all Pro customers, a new Pro 500 tier that includes our highest usage limit
+- **[The Lenfest Institute grows landmark program with expanded OpenAI support](https://openai.com/index/lenfest-ai-collaborative-expansion)** _OpenAI-News_ — OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.
+- **[Anthropic Releases Claude Sonnet 5.5: 70.6% on Terminal-Bench 4.0 at the Same $2/$10 Price](https://www.marktechpost.com/2026/09/28/anthropic-releases-claude-sonnet-5-5-70-6-on-terminal-bench-4-0-at-the-same-2-10-price/)** _MarkTechPost_ — <p>Anthropic has released Claude Sonnet 5.5, the second model in its Claude 5.5 family. It scores 70.6% on Terminal-Bench 4.0 and lands within 2 points of Opus 5.5 on GDPval-AA. It also generates outp
+- **[Google Research Open-Sources RRSI: AI Agents That Improve Their Own Harness Without Overfitting](https://www.marktechpost.com/2026/09/29/google-research-open-sources-rrsi-ai-agents-that-improve-their-own-harness-without-overfitting/)** _MarkTechPost_ — <p>Google Cloud AI Research has open-sourced RRSI, a framework that lets LLM agents rewrite their own prompts, tools and memory while model weights stay frozen. It adds a leakage critic, a noise floor
+- **[Wire mainland DeepSeek into a SE Asia trade chatbot](https://api.realitypatch.net)** _HackerNews-DeepSeek_ — 
+- **[Show HN: Moe Routing Atlas – which experts fire in Qwen3.5/3.6 35B-A3B](https://gslaller.github.io/moe_analysis.html)** _HackerNews-Qwen_ — Did some work on visualising the firing pattern of MoE (Mixture of Experts) modules for two Qwen models. There are some other interesting statistics, such as router entropy, expert reuse from the prev
+- **[Baseten x OpenAI: Use open models like GLM 5.3 and Kimi K3 natively in Codex](https://twitter.com/philipkiely/status/2105000178709360963)** _HackerNews-Kimi_ — 
+- **[Fireworks AI Releases Ember-1: A Post-Trained Kimi K3 That Uses About 40% Fewer Tokens](https://www.marktechpost.com/2026/09/28/fireworks-ai-releases-ember-1-a-post-trained-kimi-k3-that-uses-about-40-fewer-tokens/)** _MarkTechPost_ — <p>Fireworks AI has released Ember-1, a post-trained Kimi K3 that learns to produce shorter reasoning traces instead of lowering reasoning effort. Fireworks reports about 40% fewer tokens, with output
+- **[Alibaba Qwen Releases Qwen-Audio-3.1-Realtime: A Full-Duplex Voice Model Trained to Think, Act, and Decide When to Speak](https://www.marktechpost.com/2026/09/28/alibaba-qwen-releases-qwen-audio-3-1-realtime-a-full-duplex-voice-model-trained-to-think-act-and-decide-when-to-speak/)** _MarkTechPost_ — <p>Alibaba's Qwen team released Qwen-Audio-3.1-Realtime, a full-duplex voice model trained to reason, call tools and decide when to speak. On a τ-Voice adaptation, task success rises to 82.0% from 78.
+- **[Grok TiddlyWiki, the definitive TiddlyWiki learning resource](https://groktiddlywiki.com/read/)** _HackerNews-Grok_ — 
+- **[Show HN: Jauvex 1.2, two-way voice chat harness for Claude+Codex+Grok+Jev](https://github.com/reindent/jauvex)** _HackerNews-Grok_ — 
+- **[Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing](https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat)** _TheVerge-AI_ — As Anthropic gears up for its greatly anticipated public debut, a preview of the company's IPO filing reportedly details its mounting losses, leadership proposals to retain power, and how its AI devel
+- **[Meta&#8217;s Muse AI sent a YouTuber’s address to a stranger](https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns)** _TheVerge-AI_ — Tech YouTuber Matt Robb says that Muse gave out his home address to a total stranger this weekend, after authorizing the bot to handle his Facebook Marketplace account. That's despite Meta placing gre
+- **[OpenAI DevDay 2026: The biggest news and announcements](https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements)** _TheVerge-AI_ — It&#8217;s OpenAI’s turn in the fall tech events calendar. The company is hosting its annual DevDay on September 29th in San Francisco, and during a live keynote featuring CEO Sam Altman, it revealed 
+- **[OpenAI launches Dots, its Muse competitor](https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor)** _TheVerge-AI_ — OpenAI is responding to Meta's buzzy Muse AI with agentic helpers of its own: Dots. During its DevDay keynote on Tuesday, OpenAI announced that Dots will serve as always-on AI assistants that can "do 
+- **[Grok is obsessed with our docs. Just not the parts we built for it](https://handsontable.com/blog/grok-is-obsessed-with-our-docs)** _HackerNews-Grok_ — 
+- **[Elon Musk&#8217;s AI-powered Grokipedia is updating again](https://www.theverge.com/tech/1002448/elon-musk-grokipedia-ai-updating-again)** _TheVerge-AI_ — Grokipedia, the AI-powered online encyclopedia from SpaceXAI, appears to be updating articles once again after a months-long pause. In August, Lawfare reported that articles on Grokipedia hadn't revie
+- **[Dot.com Is Grokbot](https://twitter.com/elie2222/status/2104984753472516595)** _HackerNews-Grok_ — 
+
+## 🇨🇳 国内
+
+- **[OpenAI因新模型太强叫停发布](https://www.qbitai.com/2026/09/499140.html)** _量子位_ — AGI计划暂停。
+- **[Anthropic：招股书警示AI生存风险，去年营收近46亿美元，同比增长12倍](http://www.199it.com/archives/1854716.html)** _199IT_ — Anthropic的IPO招股书警示AI生存风险，估值近1万亿美元，计划秋季纳斯达克上市。去年营收近46亿美元，同比增长12倍，但亏损超80亿美元；今年Q2营收115亿美元。未来几年基础设施支出5180亿美元。
+- **[Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？](https://www.infoq.cn/article/PSvHjyoJTC9bSLWYxpfF?utm_source=rss&utm_medium=article)** _InfoQ中文_ — <div align="right"><a href="https://www.infoq.cn/article/PSvHjyoJTC9bSLWYxpfF?utm_source=rss&amp;utm_medium=article">点击查看原文></a></div>
+- **[风险篇幅接近业务两倍，Anthropic招股书在测试什么](https://www.tmtpost.com/8156087.html)** _钛媒体_ — 克制的AI回报。
+- **[OpenAI光速上新GPT-6.1 Sol！一晚上25项更新，都在这里了](https://www.qbitai.com/2026/09/499246.html)** _量子位_ — 今年devday牙膏挤爆
+- **[斯坦福博士后做柔性触觉传感器，再获亿元级融资｜硬氪首发](https://36kr.com/p/4001313474645888?f=rss)** _36氪_ — <p>作者｜黄楠</p>
+  <p>编辑｜袁斯来</p>
+  <p>硬氪获悉，途见科技（北京）有限公司（以下简称“途见科技”）近日完成亿元级Pre-A++轮融资，由顺禧资本所管理北京市人工智能产业投资基金和北京市新材料产业投资基金联合领投。资金将重点用于底层核心技术研发、自动化产线建设和工艺迭代，并完善具身智能数据采集工具与消费级终端的供应链配套，加快技术成果向终端产品转化。</p>
+  <p>自
+- **[8点1氪丨10月1日起将对居民购房实施贷款贴息；AMD回应收购李飞飞公司；网红超长蛋挞全是皮没蛋液？鲍师傅回应](https://36kr.com/p/4005136008761217?f=rss)** _36氪_ — <h2><strong>今日热点导览</strong></h2>
+  <p>OpenAI推出全天候自主智能体Dots、GPT-6.1 Sol模型</p>
+  <p>长鑫科技宣布349亿元投资，官宣投建两大新项目</p>
+  <p>央行：下调抵押补充贷款（PSL）利率0.25个百分点</p>
+  <p>美光财报前夕，超级多头重申2000美元目标价</p>
+  <p>英伟达追加创纪录1500亿美元股票
+- **[李飞飞创业公司被苏姿丰550亿收购！世界模型最大交易落地](https://www.qbitai.com/2026/09/499098.html)** _量子位_ — 李飞飞将入职AMD首席科学家
+- **[成立一年完成5轮融资，诺因智能再获数亿元，累计超10亿元](https://www.qbitai.com/2026/09/499135.html)** _量子位_ — 诺因从Demo走向家庭
+- **[82 亿美元、全股票交易：AMD 收购 World Labs，李飞飞直接向苏姿丰汇报](https://www.infoq.cn/article/KaaKQS6x5KiSlHa5UVVz?utm_source=rss&utm_medium=article)** _InfoQ中文_ — <div align="right"><a href="https://www.infoq.cn/article/KaaKQS6x5KiSlHa5UVVz?utm_source=rss&amp;utm_medium=article">点击查看原文></a></div>
+- **[82亿美元，硅谷上演顶级版“Girls help girls”](https://www.tmtpost.com/8155853.html)** _钛媒体_ — 苏姿丰与李飞飞“会师”。
+- **[【钛晨报】重大利好！央行“四箭齐发”，房贷贴息政策落地；中行回应万事达信用卡遭盗刷；英伟达欲拉保险公司入场，为AI芯片融资风险兜底](https://www.tmtpost.com/8156446.html)** _钛媒体_ — 2家A股公司今起停牌；DeepSeek Harness v0.2预览版正式发布；比亚迪选举王传福为第九届董事会董事长；荣耀Magic9全系列获“首批AI智能体手机”入网认证；中国气象局监测11月前后将形成超强厄尔尼诺事件；中美俄元首将于深圳APEC期间会晤？外交部回应。
+- **[独家丨上汽集团高层换防：俞经民升职，尚界一把手换人](https://www.leiphone.com/category/transportation/bWrgjxkra1ZlhtEB.html)** _雷锋网_ — <section><section><section><section><section style="text-align: center;"><img class="rich_pages wxw-img js_insertlocalimg" src="https://static.leiphone.com/uploads/new/images/20260928/6aba676856606.pn
+- **[精准揪出RL训练数据Bug，Prompt直出小游戏，IQuest-Q1夯爆了！](https://www.qbitai.com/2026/09/499188.html)** _量子位_ — 
+- **[S创上海2026圆满落幕：站在时代中央，做全球创新的“超级连接器”](https://36kr.com/p/4003936207982726?f=rss)** _36氪_ — <h2>S-Tron Shanghai 2026 Wraps Up: Standing at the Forefront of Times as a Global Innovation “Super Connector”</h2>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260929/v2_19d
+- **[圆桌：「具身智能」 打通技术到场景的最后一公里｜36氪 2026 产业未来大会](https://36kr.com/p/4003813673865351?f=rss)** _36氪_ — <p>2026年，产业投资进入深水区，资本、技术与产业加速融合，旧的投资逻辑不再使用，新的共识正在诞生。2026产业未来大会聚焦新周期机遇，共探产业未来与“中国之光”的诞生。 9月9日至10日，由36氪主办的2026产业未来大会以“深水之上，共振新生”为主题的在北京亦庄举行。来自国资平台、产业投资基金、企业CVC、创新企业及专家学者走到一起，聚焦量子科技等未来产业走向产业化。大会深度探讨当下前沿技
+- **[科氪 | 当智能穿戴从监测走向预警，安顿的长期价值正在显现](https://36kr.com/p/4004009029537929?f=rss)** _36氪_ — <p>2026年9月22日，安顿官方公众号宣布，品牌荣获<strong>抖音电商数码智配行业“卓越品牌奖”</strong>。此前，安顿已披露生命预警表中秋礼盒装登上抖音商城“智能手表爆款榜”TOP1，并蝉联榜首4天。从品牌奖项到商品榜单，安顿近期的市场表现，让其围绕健康预警构建的产品与服务组合受到关注。</p>
+  <p>据企业提供的京东榜单资料，在2026年9月14日至20日的“高端健康手表”
+- **[从欧洲到大湾区：香港如何打造全球硬科技人才的"超级通道"](https://36kr.com/p/3995406571933824?f=rss)** _36氪_ — <p>九月上旬，Aleksandr Gorbunov 从德国远赴中国香港，参与大湾区考察之旅。访问行程第三天，他在前海与机械人互动，又搭乘无人驾驶出租车穿梭深圳街道，近距离体验大湾区前沿科技的落地应用。</p>
+  <p>三个月前，他还在德国慕尼黑的会场里，为一座从未到访的城市设计创科解决方案。九月，他已踏上行程，用五天时间走过香港、前海与南沙。</p>
+  <p>这是香港人才服务办公室（香港人才
+- **[了不起的OPC，你在用AI做什么？](https://36kr.com/p/4003934076456836?f=rss)** _36氪_ — <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20260929/v2_4109f823954240c397fb1eca70ef7352@5284654_oswg488992oswg1053oswg495_img_png?x-oss-process=image/quality,q_100/format,jpg/i
+- **[腾讯 Marvis做 Agent 的不同选择：把用户的电脑“管理起来”](https://36kr.com/p/4004514681016456?f=rss)** _36氪_ — <p>&nbsp;</p>
+  <p>文｜李炤锋 &nbsp;&nbsp;</p>
+  <p>编辑 | 张雨忻</p>
+  <p>近日，腾讯推出新版 Marvis，将这款以“小黑马”为形象的个人 Agent 定位升级为“AI 管家”。智能涌现了解到，截至本月，Marvis 的日活跃用户数比 5 月上线时增长近四倍。</p>
+  <p>Marvis 源自做应用分发的腾讯应用宝团队。今年 5 月上线时
+- **[Manus 回来了，可Agent 的战场已经挤满对手](https://36kr.com/p/4004527155171460?f=rss)** _36氪_ — <p>&nbsp;</p>
+  <p>文｜李炤锋</p>
+  <p>编辑 ｜ 张雨忻</p>
+  <p>2025 年3月6日，Manus 上线那天，办公室里一群工程师看着一张 Manus生成的NBA 球员象限图，觉得十分亮眼——图上排着球员头像，基于得分和投篮次数分布。创始人肖弘后来回忆，让他们意外的不是象限图有多难画，而是过去得由人一步步完成的活，现在只需交代要求，Agent 就能一路做到交付。
+- **[地卫二启动“太空之弦”千星蓝图，2028年对标SpaceX Starmind计划](https://36kr.com/p/4005156110389120?f=rss)** _36氪_ — <p>2026年9月，中国商业航天进入一个密集爆发期，多家公司完成数亿元融资，还在一个月内完成至少10次航天发射，将44颗卫星送入轨道。</p>
+  <p>资本热度和密集发射共同指向一个趋势：商业航天正在从技术验证期转向规模化部署。但卫星发得越多，也越逼近“天感地算”路径的极限，进一步推动行业对太空计算的关注和布局。</p>
+  <p>9月25日，“太空之弦”计算星座计划启动仪式在杭州举行。按照现
+- **[宝马计划到2050年实现100%可再生能源电动](https://36kr.com/newsflashes/4005143672590472?f=rss)** _36氪_ — 宝马计划到2050年实现100%可再生能源电动，届时将实现净零碳。该公司到2030年将实现至少25%的（材料）回收，每辆车的能耗将降低25%。（财联社）
+- **[芝加哥联储行长：美联储可能需要对持续的供应冲击做出回应](https://36kr.com/newsflashes/4005146329730944?f=rss)** _36氪_ — 芝加哥联储行长奥斯坦·古尔斯比再次表示，美联储可能需要对无法自行消退的供应冲击作出回应。古尔斯比周二在一个活动上表示：“我认为，我们必须考虑对这些持续性冲击作出回应。企业利润率仍处于高位，但正在收窄。”（新浪财经）
+- **[苹果支付据悉将在印度上线，初期接入Axis银行信用卡](https://36kr.com/newsflashes/4005147046105219?f=rss)** _36氪_ — 据报道，苹果支付（Apple Pay）将于当地时间周三在印度上线，首批支持Axis银行发行的Visa和Mastercard信用卡。由于印度数字支付市场已由统一支付接口（UPI）占据主导，Apple Pay在印度的初期推广预计较为有限。（界面）
