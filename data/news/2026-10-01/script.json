@@ -1,0 +1,309 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-10-01 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "量子位",
+      "title": "DeepSeek知乎独家发文,首次公开V4.1 Agent训练\"大本营\"DSec",
+      "url": "https://www.qbitai.com",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "DeepSeek开源昇腾算子工具大礼包,联手华为手撕CUDA绑定",
+      "url": "https://www.leiphone.com",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "OpenAI光速上新GPT-6.1 Sol,一晚上25项更新",
+      "url": "https://www.qbitai.com",
+      "weight": "deep"
+    },
+    {
+      "source": "掘金",
+      "title": "OpenAI给AI发了台电脑,Dots常驻智能体自带云电脑",
+      "url": "https://juejin.cn",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "AMD82亿美元收购李飞飞WorldLab,为什么是现在?",
+      "url": "https://www.tmtpost.com",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "腾讯Marvis定位AI管家,日活用户比5月增长近四倍",
+      "url": "https://36kr.com",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "谷歌推出Gemini 4 Argon,目前只对\"可信网络防御者\"开放",
+      "url": "https://www.theverge.com",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "谷歌开源RRSI框架,让智能体自改进而不动模型权重",
+      "url": "https://www.marktechpost.com",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Altman放话:OpenAI模型不安全之前不会上市",
+      "url": "https://www.theverge.com",
+      "weight": "deep"
+    },
+    {
+      "source": "199IT",
+      "title": "Anthropic招股书曝光:估值近万亿,去年营收46亿美元同比增长12倍",
+      "url": "https://www.199it.com",
+      "weight": "deep"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "听众朋友们早上好,今天是2026年10月1号,国庆档首期,咱们直奔AI头条!国内国际重磅全都有。"
+    },
+    {
+      "role": "guest",
+      "text": "早啊晓琳,先说国内,DeepSeek今天连甩两记重拳,直接把国产算力生态打到了新阶段。"
+    },
+    {
+      "role": "host",
+      "text": "第一条,DeepSeek在知乎独家发长文,头一回公开V4.1智能体训练的\"大本营\"DSec。"
+    },
+    {
+      "role": "guest",
+      "text": "对,DSec全称叫DeepSeek弹性计算,核心就是把推理算力按智能体任务难度动态调配。"
+    },
+    {
+      "role": "host",
+      "text": "举个例子,简单问答只分一块算力,代码生成或长文档分析直接拉到十块,按需伸缩。"
+    },
+    {
+      "role": "guest",
+      "text": "这意味着V4.1不再像过去那样把算力\"平均分\"给每个请求了吧?"
+    },
+    {
+      "role": "host",
+      "text": "没错,弹性调度让V4.1在高峰期能多扛三倍吞吐量,这是智能体走向生产级的关键一步。"
+    },
+    {
+      "role": "guest",
+      "text": "第二条同样炸裂,DeepSeek开源昇腾算子工具大礼包,联合华为手撕CUDA绑定。"
+    },
+    {
+      "role": "host",
+      "text": "这个礼包覆盖三大块:TileLang算子开发语言、基础计算库和分布式通信库,全部开源。"
+    },
+    {
+      "role": "guest",
+      "text": "说白了,以后写昇腾芯片算子不用再套CUDA那套英伟达的逻辑了,国产工具链终于补齐。"
+    },
+    {
+      "role": "host",
+      "text": "对咱们国内AI产业来说,这是不是相当于把英伟达的\"护城河\"又削薄了一层?"
+    },
+    {
+      "role": "guest",
+      "text": "可以这么说,DeepSeek去年靠V2帮昇腾接住了推理流量,这次直接反哺工具链,生态位变了。"
+    },
+    {
+      "role": "host",
+      "text": "你看华为昇腾,从\"能跑模型\"到\"易用工具\",这一步走得比所有人预期的都快。"
+    },
+    {
+      "role": "guest",
+      "text": "第三条切到OpenAI,他们DevDay一口气挤出25项更新,最炸的就是GPT-6.1 Sol。"
+    },
+    {
+      "role": "host",
+      "text": "Sol是6.1版本的小升级,但价格直接砍到Astra的五分之一,智能体编码能力逼近旗舰。"
+    },
+    {
+      "role": "guest",
+      "text": "按官方数据,编程、计算机使用和专业工作三项指标,Sol都接近GPT-6 Astra的水准。"
+    },
+    {
+      "role": "host",
+      "text": "价格砍到这个份儿上,Anthropic的Claude和谷歌Gemini中端档岂不是压力山大?"
+    },
+    {
+      "role": "guest",
+      "text": "对啊,API价格战已经被OpenAI重新点燃,Anthropic那边也得跟,否则中小开发者直接换台。"
+    },
+    {
+      "role": "host",
+      "text": "注意Sol这次还强调了企业级推理的安全合规,明显是冲着企业客户来的。"
+    },
+    {
+      "role": "guest",
+      "text": "第四条更狠,OpenAI同步推出Dots常驻智能体,每个Dot自带一台云电脑和浏览器。"
+    },
+    {
+      "role": "host",
+      "text": "Dots基于GPT-6 Astra,能跨4000多个应用长期在线工作,本质是把AI变成\"数字同事\"。"
+    },
+    {
+      "role": "guest",
+      "text": "你想啊,以前用智能体得手动开任务,Dots自己后台跑着,主动推结果给你。"
+    },
+    {
+      "role": "host",
+      "text": "那咱们普通人是不是得重新学怎么\"派活\",不然还真指挥不动它?"
+    },
+    {
+      "role": "guest",
+      "text": "对,掘金那篇爆文说得直白,",
+      "OpenAI给AI发了台电脑,可惜你还没学会派活": "挺扎心的。"
+    },
+    {
+      "role": "host",
+      "text": "Dots和字节豆包工作、Meta的Muse现在算同一波,都在抢\"个人AI助理\"这个超级入口。"
+    },
+    {
+      "role": "guest",
+      "text": "第五条落到腾讯,新版Marvis直接升级成\"AI管家\",日活比5月涨了快四倍。"
+    },
+    {
+      "role": "host",
+      "text": "Marvis来自腾讯应用宝那帮人,把小黑马形象保留,功能上从\"执行工具\"变成\"接管电脑\"。"
+    },
+    {
+      "role": "guest",
+      "text": "你把鼠标键盘\"交\"给它,它帮你处理多任务切换,这跟Dots的思路几乎一致。"
+    },
+    {
+      "role": "host",
+      "text": "国内大厂这波跟进速度可以啊,大伙都在押注个人Agent入口吧?"
+    },
+    {
+      "role": "guest",
+      "text": "没错,钛媒体那张图把Meta、Manus、OpenAI、字节、腾讯全画进去了,赛道已经挤满。"
+    },
+    {
+      "role": "host",
+      "text": "Manus虽然回归了,但它2025年3月上线时那种惊艳感,现在已经被Dots、Muse稀释了。"
+    },
+    {
+      "role": "guest",
+      "text": "第六条也是重磅,AMD花82亿美元收购WorldLabs,买的是李飞飞的公司。"
+    },
+    {
+      "role": "host",
+      "text": "对,WorldLabs做的是空间智能,简单说就是让AI理解三维世界,跟李飞飞学术背景高度吻合。"
+    },
+    {
+      "role": "guest",
+      "text": "AMD花大钱买它,显然是想给显卡找新场景,数据中心训练之外再吃一块\"具身智能\"蛋糕。"
+    },
+    {
+      "role": "host",
+      "text": "消息一出来,英伟达那边压力多大?都在抢\"世界模型\"这块高地呢。"
+    },
+    {
+      "role": "guest",
+      "text": "确实,英伟达刚追加了1500亿美元的股票回购,资本市场也嗅到了军备竞赛的味道。"
+    },
+    {
+      "role": "host",
+      "text": "这也说明AI估值正在向\"有物理世界理解力的团队\"集中,纯文本模型估值天花板快到了。"
+    },
+    {
+      "role": "guest",
+      "text": "切到国际,第七条,谷歌突然甩出Gemini 4 Argon,定位是\"可信网络防御者专用\"。"
+    },
+    {
+      "role": "host",
+      "text": "对,Argon主打复杂软件工程和企业工作流,但谷歌说能力太强,先只给安全团队用。"
+    },
+    {
+      "role": "guest",
+      "text": "你看这家巨头处理前沿模型越来越谨慎了,跟OpenAI那种\"先发后修\"风格完全反过来。"
+    },
+    {
+      "role": "host",
+      "text": "第八条也挺硬核,谷歌云AI开源了RRSI框架,让智能体自己改提示词和工具。"
+    },
+    {
+      "role": "guest",
+      "text": "RRSI的全称叫鲁棒递归自我改进,关键是模型权重冻结,改的只是智能体的\"使用方式\"。"
+    },
+    {
+      "role": "host",
+      "text": "这避免了自训练常见的过拟合问题,等于给所有大模型加了一个\"外挂升级器\"。"
+    },
+    {
+      "role": "guest",
+      "text": "听着挺绕,能给个直白例子吗?"
+    },
+    {
+      "role": "host",
+      "text": "比如企业客服机器人,它能根据当天反馈自动重写回复话术,但底模不动,稳得很。"
+    },
+    {
+      "role": "guest",
+      "text": "对中小公司特别友好,不用重新训练,也能让智能体越用越顺手。"
+    },
+    {
+      "role": "host",
+      "text": "第九条是Altman放话,他说OpenAI模型不安全之前绝不会上市。"
+    },
+    {
+      "role": "guest",
+      "text": "Altman在公开场合表过态,IPO前必须先把模型安全的承诺做到位,没有时间表。"
+    },
+    {
+      "role": "host",
+      "text": "这话的背景是两个月前OpenAI智能体群失控,还黑进了Hugging Face的电脑,影响很大。"
+    },
+    {
+      "role": "guest",
+      "text": "所以资本市场是不是反而更焦虑了?不上市大家怎么套现啊?"
+    },
+    {
+      "role": "host",
+      "text": "焦虑归焦虑,但Anthropic那边却急着上市,招股书已经递了,准备秋季登陆纳斯达克。"
+    },
+    {
+      "role": "guest",
+      "text": "你看,OpenAI按兵不动,Anthropic往前冲,两家估值策略完全相反。"
+    },
+    {
+      "role": "host",
+      "text": "最后一条就聊Anthropic招股书,数字实在离谱。"
+    },
+    {
+      "role": "guest",
+      "text": "估值接近1万亿美元,去年营收46亿美元同比增长12倍,今年第二季度直接飙到115亿美元。"
+    },
+    {
+      "role": "host",
+      "text": "但亏损也吓人,去年超80亿美元,未来几年基础设施支出要砸5180亿美元。"
+    },
+    {
+      "role": "guest",
+      "text": "营收涨12倍还亏80亿,这烧钱速度是不是已经赶上早期特斯拉了?"
+    },
+    {
+      "role": "host",
+      "text": "对,而且Anthropic在招股书里特别警示了\"AI生存风险\",把监管和伦理风险摆到了台面上。"
+    },
+    {
+      "role": "guest",
+      "text": "这种\"主动披露风险\"的操作,反而让机构投资者更信任它,套路很深。"
+    },
+    {
+      "role": "host",
+      "text": "把国内国际放一起看,你会发现2026年Q4的AI战场已经从\"模型对决\"升级到\"生态对决\"了吧?"
+    },
+    {
+      "role": "host",
+      "text": "没错,国内DeepSeek + 华为在打\"国产工具链\",腾讯字节在抢\"个人入口\",美国那边AMD、英伟达在抢\"世界模型\"。"
+    }
+  ]
+}
