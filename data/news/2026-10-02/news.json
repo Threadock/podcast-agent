@@ -1,0 +1,441 @@
+{
+  "intl": [
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek, Huawei partner on chip programming tools to reduce reliance on Nvidia",
+      "url": "https://www.reuters.com/world/asia-pacific/deepseek-partners-with-huawei-develop-chip-programming-tools-reducing-reliance-2026-09-30/",
+      "snippet": "",
+      "published": "2026-09-30T07:11:16Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Halogen – Fastest Way to Run Qwen3.8-Flash-Next on AMD Strix Halo",
+      "url": "https://github.com/peonist-ai/halogen-flash-server",
+      "snippet": "",
+      "published": "2026-09-30T16:55:17Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Show HN: Proteus – Can DeepSeek Harness evolve itself to handle audio?",
+      "url": "https://proteus-evolve.github.io/dsh-self-improvement.html",
+      "snippet": "",
+      "published": "2026-10-01T23:05:57Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Show HN: Opus6.video – Make Claude Opus 5.5 videos without a Claude account",
+      "url": "https://opus6.video/",
+      "snippet": "",
+      "published": "2026-10-01T16:36:42Z",
+      "weight": 9
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek API vs. OpenRouter latency, measured daily",
+      "url": "https://latencyradar.com/compare/deepseek-vs-openrouter-latency/",
+      "snippet": "",
+      "published": "2026-09-30T05:25:37Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "PewDiePie announces his own Qwen 2.5 9B fine-tune [video]",
+      "url": "https://www.youtube.com/watch?v=ODDJXGY_1kQ",
+      "snippet": "",
+      "published": "2026-10-01T06:22:47Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Firm rents four Nvidia H200s to test '80x cheaper' DeepSeek claim",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/firm-rents-four-nvidia-h200s-to-test-80x-cheaper-deepseek-claim-usd13-200-monthly-gpu-rental-doubles-claude-bill-while-security-flaws-keep-code-offline",
+      "snippet": "",
+      "published": "2026-10-01T16:07:36Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Increasingly-Sandboxed Qwen",
+      "url": "https://lottia.net/notes/0020-increasingly-sandboxed-qwen.html",
+      "snippet": "",
+      "published": "2026-10-01T16:37:01Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek outage and degraded: API and status page:)",
+      "url": "https://status.deepseek.com",
+      "snippet": "",
+      "published": "2026-10-01T20:28:41Z",
+      "weight": 7
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Google reportedly tests paying publishers for AI search results",
+      "url": "https://www.theverge.com/tech/1002665/google-paying-publishers-ai-search-features",
+      "snippet": "Google has launched a pilot program that pays publishers for their contributions to its AI-powered search features, according to a report from The Information. The pilot program reportedly includes ar",
+      "published": "2026-09-30T10:51:49-04:00",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "All the latest news on Meta’s cute, creepy Muse AI agent",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
+      "snippet": "Meta launched a new Muse AI agent it claims can help you with everything from firing off emails to buying stuff online. Muse can be surprisingly effective at delivering on those promises — if you’re w",
+      "published": "2026-09-30T11:18:49-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "xAI. AI coworkers that learn from your team",
+      "url": "https://x.ai/news/team-bots",
+      "snippet": "",
+      "published": "2026-09-30T12:50:20Z",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Google announces Gemini 4 and says it&#8217;s so capable that only &#8216;trusted cyber defenders&#8217; can have it right now",
+      "url": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
+      "snippet": "Google today revealed its next AI frontier model, which it's calling Gemini 4 Argon. The new model delivers \"frontier performance in complex workflows across real-world software engineering, enterpris",
+      "published": "2026-09-30T16:41:41-04:00",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Elon Musk’s Grokipedia has a ‘newly refreshed’ design",
+      "url": "https://www.theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai",
+      "snippet": "Grokipedia, SpaceXAI's AI-powered competitor to Wikipedia, recently started incorporating edits again, and today, it got some design tweaks as part of a v0.3 update, including a new logo and refreshes",
+      "published": "2026-09-30T20:23:45-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Show HN: I built Goodreads for startup founders (with Grok)",
+      "url": "https://founderread.com/",
+      "snippet": "",
+      "published": "2026-10-01T02:10:43Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Grokipedia v0.3 Just Released",
+      "url": "https://twitter.com/elonmusk/status/2105543421712843238",
+      "snippet": "",
+      "published": "2026-10-01T08:26:14Z",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
+      "snippet": "At OpenAI's annual DevDay conference, the company pulled out all the stops to compete with its rivals - primarily Meta, whose Muse AI agent platform has seen early runaway success. CEO Sam Altman walk",
+      "published": "2026-10-01T10:36:50-04:00",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Judge dismisses antitrust lawsuits over Google’s AI Overviews",
+      "url": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
+      "snippet": "A federal judge has dismissed a pair of antitrust lawsuits filed by Chegg and Rolling Stone parent company Penske Media Corporation, which accused Google of driving away web traffic with its AI-powere",
+      "published": "2026-10-01T13:12:21-04:00",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Google’s new Guided Vision feature can help you read the fine print",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+      "snippet": "Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gem",
+      "published": "2026-10-01T15:47:51-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Ask HN: Organize and Cleanup iCloud Photos Using LLMs or GrokBot and Muse",
+      "url": "https://news.ycombinator.com/item?id=49925054",
+      "snippet": "I have accumulated gigabytes of smartphone photos over the past decade that i have not been able to properly manage or cleanup systematically.<p>Has anyone been successful at using AI and a multitude ",
+      "published": "2026-10-01T18:09:11Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "The $10B AI Assistant Challenging Meta's Muse, Grok's Bots, and OpenAI's Dots [video]",
+      "url": "https://www.youtube.com/watch?v=Am7IWP8IpEc",
+      "snippet": "",
+      "published": "2026-10-01T19:30:44Z",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Cohere Releases Embed 5: How It Compares to Voyage 4 Large, Gemini Embedding 2, and OpenAI",
+      "url": "https://www.marktechpost.com/2026/10/01/cohere-releases-embed-5/",
+      "snippet": "<p>Cohere has released Embed 5, a new embedding model family. It targets enterprise search, RAG, and agentic retrieval. The model family ships in 2 tiers. Embed 5 Pro targets maximum retrieval quality",
+      "published": "Thu, 01 Oct 2026 17:13:12 +0000",
+      "weight": 6
+    },
+    {
+      "source": "TechReview-AI",
+      "title": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
+      "url": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+      "snippet": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady dr",
+      "published": "Wed, 30 Sep 2026 10:40:30 +0000",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "OpenAI Releases GPT-6.1 Sol: Near-Astra Coding and Computer Use at One-Fifth of Astra’s Token Price",
+      "url": "https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price/",
+      "snippet": "<p>OpenAI released GPT-6.1 Sol on September 29, 2026, an upgrade to GPT-6 Sol. It reaches near-Astra results on agentic coding, computer use and professional work at one-fifth of Astra's token prices.",
+      "published": "Wed, 30 Sep 2026 21:09:24 +0000",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Google DeepMind Unveils Gemini 4 Argon with 1M Output Tokens for Coding, Knowledge Work and Cyber Defense",
+      "url": "https://www.marktechpost.com/2026/09/30/google-deepmind-unveils-gemini-4-argon-with-1m-output-tokens-for-coding-knowledge-work-and-cyber-defense/",
+      "snippet": "<p>Gemini 4 Argon tops GPT-6 Astra and Claude Opus 5.5 on most benchmarks, but access remains gated today.</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/09/30/google-deepmind-unveils-gemi",
+      "published": "Wed, 30 Sep 2026 21:30:08 +0000",
+      "weight": 6
+    }
+  ],
+  "cn": [
+    {
+      "source": "量子位",
+      "title": "DeepSeek知乎独家发文，首次公开V4.1 Agent训练“大本营”DSec",
+      "url": "https://www.qbitai.com/2026/09/499308.html",
+      "snippet": "DeepSeek在知乎独家发布技术长文，首次系统阐释了DeepSeek弹性计算（DeepSeek Elastic Compute，DSec）",
+      "published": "Wed, 30 Sep 2026 05:18:05 +0000",
+      "weight": 10
+    },
+    {
+      "source": "雷锋网",
+      "title": "实测 Qwen-3.8 与 GLM-5.3 的 Flash 版：谁能让我提前下班半小时？",
+      "url": "https://www.leiphone.com/category/yanxishe/Dp2FW4Pb6iLUvdhf.html",
+      "snippet": "<section><section><section><section><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img js_insertlocalimg\" src=\"https://static.leiphone.com/uploads/new/images/20260930/6abcc7e37ef0a.pn",
+      "published": "Wed, 30 Sep 2026 16:28:00 +0800",
+      "weight": 10
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "刚刚，Gemini 4 Argon 发布：多项基测碾压 GPT-6 Astra，已参与谷歌 80 万行内核代码迁移",
+      "url": "https://www.infoq.cn/article/vVrSzjhEvkmpevS7wZzU?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/vVrSzjhEvkmpevS7wZzU?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Thu, 01 Oct 2026 11:00:00 GMT",
+      "weight": 9
+    },
+    {
+      "source": "量子位",
+      "title": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
+      "url": "https://www.qbitai.com/2026/10/499663.html",
+      "snippet": "价格只有Astra一半",
+      "published": "Thu, 01 Oct 2026 15:02:14 +0000",
+      "weight": 9
+    },
+    {
+      "source": "钛媒体",
+      "title": "谷歌推出了个“做题家”：Gemini 4 Argon屠榜，但干活差点意思",
+      "url": "https://www.tmtpost.com/8157785.html",
+      "snippet": "消失10个月的谷歌，为什么连Pro这块招牌都扔了？",
+      "published": "Thu, 01 Oct 2026 16:16:28 +0800",
+      "weight": 9
+    },
+    {
+      "source": "钛媒体",
+      "title": "腾讯经销、字节驻场、Kimi借船：FDE成了大模型的新成本？",
+      "url": "https://www.tmtpost.com/8157828.html",
+      "snippet": "AI公司活成了它们最讨厌的样子。",
+      "published": "Thu, 01 Oct 2026 16:16:17 +0800",
+      "weight": 7
+    },
+    {
+      "source": "量子位",
+      "title": "DeepSeek官方开源昇腾基础组件，与昇腾共建高效易用的AI芯片软件生态",
+      "url": "https://www.qbitai.com/2026/09/499263.html",
+      "snippet": "",
+      "published": "Wed, 30 Sep 2026 02:53:17 +0000",
+      "weight": 7
+    },
+    {
+      "source": "量子位",
+      "title": "Anthropic，你是来给智谱打广告的吧！",
+      "url": "https://www.qbitai.com/2026/09/499597.html",
+      "snippet": "实测说GLM-5.3很强",
+      "published": "Wed, 30 Sep 2026 10:04:12 +0000",
+      "weight": 7
+    },
+    {
+      "source": "雷锋网",
+      "title": "DeepSeek 开源算子工具大礼包，联手华为昇腾，手撕 CUDA 绑定！",
+      "url": "https://www.leiphone.com/category/yanxishe/UUIfK7eeFE9Ws1JI.html",
+      "snippet": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260930/6abceaf0bcb61.j",
+      "published": "Wed, 30 Sep 2026 18:58:00 +0800",
+      "weight": 7
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "DeepSeek 开源昇腾平台基础设施组件，覆盖 TileLang、计算库与分布式通信库",
+      "url": "https://www.infoq.cn/article/t5i2Yv2z0LwIbK36lteR?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/t5i2Yv2z0LwIbK36lteR?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Wed, 30 Sep 2026 19:40:16 GMT",
+      "weight": 7
+    },
+    {
+      "source": "掘金",
+      "title": "Nuxt 中 useSeoMeta 与 useHead 的区别",
+      "url": "https://juejin.cn/post/7691207444283260962",
+      "snippet": "在 Nuxt 3 中，页面标题和 SEO 元信息可以通过 useSeoMeta() 或 useHead() 设置。两者功能有重叠，但定位不同：useSeoMeta() 专注于 SEO 元标签，useH",
+      "published": "Thu, 01 Oct 2026 09:40:23 GMT",
+      "weight": 6
+    },
+    {
+      "source": "掘金",
+      "title": "半年翻倍！OpenAI再融300亿，估值冲到1.4万亿",
+      "url": "https://juejin.cn/post/7691223664160112703",
+      "snippet": "OpenAI正洽谈至少300亿美元新一轮融资，投前估值约1.4万亿美元，较今年3月的8520亿美元上涨逾60%。这笔融资是IPO前的过桥轮，而非直接上市。与此同时，公司年化收入已达400亿美元，7月以",
+      "published": "Thu, 01 Oct 2026 11:14:21 GMT",
+      "weight": 6
+    },
+    {
+      "source": "量子位",
+      "title": "OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜",
+      "url": "https://www.qbitai.com/2026/09/499654.html",
+      "snippet": "千禧年难题的突破，10000个Agent最多占了10%的功劳。",
+      "published": "Wed, 30 Sep 2026 14:03:43 +0000",
+      "weight": 6
+    },
+    {
+      "source": "199IT",
+      "title": "美国交通部：2026年新油耗标准为车企节省606亿美元技术成本，通用占204亿",
+      "url": "http://www.199it.com/archives/1854732.html",
+      "snippet": "据路透社报道，美国交通部放宽油耗标准，车企共节省606亿美元技术成本，通用占204亿美元，占比近三分之一，平均每车合规成本降约1289美元。新规减轻车企负担，但消费者全生命周期燃油支出增加超1600美元，到2050年美国汽油消费量将增加4.6%。",
+      "published": "Thu, 01 Oct 2026 10:32:01 +0000",
+      "weight": 5
+    },
+    {
+      "source": "199IT",
+      "title": "美光科技：2026财年Q4营收542.3亿美元，同比增长379%",
+      "url": "http://www.199it.com/archives/1854842.html",
+      "snippet": "美光科技发布2026财年第四财季财报，营收542.3亿美元，同比增长379%，环比增长31%；净利润377.01亿美元，同比增长约1078%；全年营收1331.88亿美元，同比增长约256%；下一财季营收指引约615亿美元。",
+      "published": "Thu, 01 Oct 2026 11:15:39 +0000",
+      "weight": 5
+    },
+    {
+      "source": "钛媒体",
+      "title": "豪掷82亿美元，芯片巨头押注的世界模型究竟是什么",
+      "url": "https://www.tmtpost.com/8157833.html",
+      "snippet": "当AI开始生成“世界”，影音游内容正在被颠覆。",
+      "published": "Thu, 01 Oct 2026 16:04:42 +0800",
+      "weight": 5
+    },
+    {
+      "source": "钛媒体",
+      "title": "三大主业同时失速，《欢迎来龙餐馆》票房爆火能救中国儒意吗？",
+      "url": "https://www.tmtpost.com/8157613.html",
+      "snippet": "业绩承压之下，AI叙事仍需兑现成果。",
+      "published": "Thu, 01 Oct 2026 18:22:31 +0800",
+      "weight": 4
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "首发！openJiuwen workSwarm全双工多模态 ，像聊天一样与Agent交互，昇腾算力原生亲和",
+      "url": "https://www.infoq.cn/article/fOuaRtwuySyZsS0iGg7N?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/fOuaRtwuySyZsS0iGg7N?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Wed, 30 Sep 2026 11:52:00 GMT",
+      "weight": 4
+    },
+    {
+      "source": "雷锋网",
+      "title": "世界制造业大会丨国轩高科重磅发布低空飞行高功率电池等三大创新成果",
+      "url": "https://www.leiphone.com/category/industrynews/DOdBNcP5frSITM4c.html",
+      "snippet": "<p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260930//6abcbee50f5a6.jpg?imageMogr2/quality/90\" /></p><p styl",
+      "published": "Wed, 30 Sep 2026 15:53:00 +0800",
+      "weight": 4
+    },
+    {
+      "source": "雷锋网",
+      "title": "Muse爆火，dots入场：Personal Agent开始和互联网平台抢入口",
+      "url": "https://www.leiphone.com/category/yanxishe/Zqcw9XvSO2Ht6FIQ.html",
+      "snippet": "<section><section><section><section><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img js_insertlocalimg\" src=\"https://static.leiphone.com/uploads/new/images/20260930/6abcc8a1299d7.pn",
+      "published": "Wed, 30 Sep 2026 16:35:00 +0800",
+      "weight": 4
+    },
+    {
+      "source": "36氪",
+      "title": "最前线丨打造“太空4S店”，未来宇航雄安智造基地启用，「锋行一号」首飞出征",
+      "url": "https://36kr.com/p/4005279658708868?f=rss",
+      "snippet": "<p>9月29日，未来宇航雄安智能制造基地在雄安新区科创中心中试基地正式启用。仪式现场，未来宇航首款空间飞行器锋行一号（FX-1）从总装车间驶出，进入首飞前工程节点，后续将按计划开展在轨技术验证。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260930/v2_268fa54145924ccb",
+      "published": "2026-09-30 10:26:30  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "品牌出海进入系统能力竞争阶段,亿邦智库 x Pattern栢藤《品牌全球化加速增长洞察报告》解析增长新路径",
+      "url": "https://36kr.com/p/4005358837076101?f=rss",
+      "snippet": "<p>当AI重塑消费者的发现与决策路径，平台规则与合规要求日趋复杂，不同区域市场的增长节奏与竞争形态也在加速分化。从成熟市场到新兴区域，全球化探索持续深入，增长的稳定性、效率与可持续性，正成为品牌共同面对的新命题。</p>\n  <p>为寻找答案，品牌方、创始人、CEO及服务商都在追问同一个核心问题：当商品供给持续增加、销量增长却未能同步，如何通过更精准的营销、更高效的运营和更深入的本地化服务及落地",
+      "published": "2026-09-30 11:42:44  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "理想再谈自研电池：电芯谁来造都行，前提是打通数据",
+      "url": "https://36kr.com/p/3994346489084932?f=rss",
+      "snippet": "<p>自研电池上车，是理想汽车今年的核心战略之一。</p>\n  <p>今年6月，理想第一次公开回应业界对理想自研电池的种种质疑时，舆论焦点还集中在为何自研、是否可靠。近日，理想再次就自研电池召开沟通会。但这一次，质疑声渐弱，取而代之的是对车企自研对电池供应链重构的讨论。</p>\n  <p>在长达2小时的沟通会里，理想汽车联合创始人马东辉、理想汽车整车电动研发高级副总裁刘立国、电池研发负责人柳志民三",
+      "published": "2026-09-30 13:41:47  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "三天四千万，一周破亿：琳朝现象的背后，是一场文化品牌的静默崛起",
+      "url": "https://36kr.com/p/4005786829312136?f=rss",
+      "snippet": "<p>未来真正的奢侈，是文化、价值观的输出，是中国特有的文化叙事。&nbsp;</p>\n  <p><strong>9月25日，琳朝南京德基店正式开业。但真正的震动，发生在更早之前。</strong></p>\n  <p><strong>试营业三天，仅对德基广场少量VIP会员开放，单日营业额连续突破千万，三天累计四千万多万。正式开业后，热度不减反增。每天店外都在排队，平均等待进店时间超过3小时。在德基",
+      "published": "2026-09-30 19:38:45  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "飞猪：国庆假期首日门票张数增长30%，“原生旅游”热度攀升",
+      "url": "https://36kr.com/newsflashes/4006839583854467?f=rss",
+      "snippet": "飞猪数据显示，10月1日出行的国内门票张数同比去年增长近30%，境外接送、境外当地玩乐订单量也分别同比去年增长43%、37%。\n北京、上海、成都、杭州、广州、重庆、南京、武汉、深圳、西安等城市是假期首日国内热门出游城市。“反向旅游”之后，这届游客又爱上了“原生旅游”。人们不再满足于“塑料感”明显的网红打卡点和一个模板倒出来的人造景观，更愿意到还保留着当地原始自然人文面貌的地方去体验、感受，寻找一方",
+      "published": "2026-10-01 13:45:52  +0800",
+      "weight": 1
+    }
+  ],
+  "source_stats": {
+    "OpenAI-News": 5,
+    "Google-AI-Blog": 0,
+    "TheVerge-AI": 10,
+    "TechReview-AI": 1,
+    "LastWeekInAI": 1,
+    "MarkTechPost": 8,
+    "SebastianRaschka": 0,
+    "TheGradient": 0,
+    "HuggingFace-Blog": 1,
+    "HackerNews": 0,
+    "HackerNews-DeepSeek": 8,
+    "HackerNews-Kimi": 8,
+    "HackerNews-Qwen": 5,
+    "HackerNews-Grok": 8,
+    "HackerNews-xAI": 8,
+    "ArXiv-cs.AI": 15,
+    "量子位": 10,
+    "雷锋网": 15,
+    "钛媒体": 15,
+    "36氪": 15,
+    "InfoQ中文": 15,
+    "掘金": 15,
+    "199IT": 15
+  },
+  "dedup": {
+    "intl": {
+      "before": 78,
+      "after": 76
+    },
+    "cn": {
+      "before": 100,
+      "after": 98
+    }
+  }
+}
