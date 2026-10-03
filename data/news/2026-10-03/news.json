@@ -1,0 +1,441 @@
+{
+  "intl": [
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Show HN: Proteus – Can DeepSeek Harness evolve itself to handle audio?",
+      "url": "https://proteus-evolve.github.io/dsh-self-improvement.html",
+      "snippet": "",
+      "published": "2026-10-01T23:05:57Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek open sourced their Huawei Ascend programming stack",
+      "url": "https://aistockwire.com/blog/deepseek-huawei-ascend-tilelang-open-source-nvidia-nvda-cuda-september-2026",
+      "snippet": "",
+      "published": "2026-10-02T22:26:51Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "The Official TypeScript SDK for the SpaceXAI API",
+      "url": "https://github.com/xai-org/xai-sdk-ts",
+      "snippet": "",
+      "published": "2026-10-02T21:50:04Z",
+      "weight": 9
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "PewDiePie announces his own Qwen 2.5 9B fine-tune [video]",
+      "url": "https://www.youtube.com/watch?v=ODDJXGY_1kQ",
+      "snippet": "",
+      "published": "2026-10-01T06:22:47Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Firm rents four Nvidia H200s to test '80x cheaper' DeepSeek claim",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/firm-rents-four-nvidia-h200s-to-test-80x-cheaper-deepseek-claim-usd13-200-monthly-gpu-rental-doubles-claude-bill-while-security-flaws-keep-code-offline",
+      "snippet": "",
+      "published": "2026-10-01T16:07:36Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Increasingly-Sandboxed Qwen",
+      "url": "https://lottia.net/notes/0020-increasingly-sandboxed-qwen.html",
+      "snippet": "",
+      "published": "2026-10-01T16:37:01Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek outage and degraded: API and status page:)",
+      "url": "https://status.deepseek.com",
+      "snippet": "",
+      "published": "2026-10-01T20:28:41Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek Harness Desktop for macOS and Windows",
+      "url": "https://www.deepseek.com/en/harness/",
+      "snippet": "",
+      "published": "2026-10-02T03:11:20Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "ImageGen: Local AI image generation for Mac with Qwen-Image 2.1",
+      "url": "https://github.com/ph1lb4/imagegen-mac",
+      "snippet": "",
+      "published": "2026-10-02T06:06:15Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "PewDiePie uncensors Qwen3.5-9B with Heretic",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/pewdiepie-unveils-uncensored-ajax-ai-model-built-to-run-on-home-pcs-creator-says-openai-banned-him-twice-while-making-it",
+      "snippet": "",
+      "published": "2026-10-02T15:27:58Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Fulcrum – Writing model built on top of Kimi K3",
+      "url": "https://echo.fulcrum.inc/",
+      "snippet": "",
+      "published": "2026-10-02T15:35:54Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Show HN: I built Goodreads for startup founders (with Grok)",
+      "url": "https://founderread.com/",
+      "snippet": "",
+      "published": "2026-10-01T02:10:43Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Grokipedia v0.3 Just Released",
+      "url": "https://twitter.com/elonmusk/status/2105543421712843238",
+      "snippet": "",
+      "published": "2026-10-01T08:26:14Z",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Judge dismisses antitrust lawsuits over Google’s AI Overviews",
+      "url": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
+      "snippet": "A federal judge has dismissed a pair of antitrust lawsuits filed by Chegg and Rolling Stone parent company Penske Media Corporation, which accused Google of driving away web traffic with its AI-powere",
+      "published": "2026-10-01T13:12:21-04:00",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Google’s new Guided Vision feature can help you read the fine print",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+      "snippet": "Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gem",
+      "published": "2026-10-01T15:47:51-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Ask HN: Organize and Cleanup iCloud Photos Using LLMs or GrokBot and Muse",
+      "url": "https://news.ycombinator.com/item?id=49925054",
+      "snippet": "I have accumulated gigabytes of smartphone photos over the past decade that i have not been able to properly manage or cleanup systematically.<p>Has anyone been successful at using AI and a multitude ",
+      "published": "2026-10-01T18:09:11Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "The $10B AI Assistant Challenging Meta's Muse, Grok's Bots, and OpenAI's Dots [video]",
+      "url": "https://www.youtube.com/watch?v=Am7IWP8IpEc",
+      "snippet": "",
+      "published": "2026-10-01T19:30:44Z",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+      "snippet": "It's a tale as old as last week: OpenAI's new agent platform, called Dots, is full of cute little guys who can do your bidding. But unlike the ultra-approachable Meta Muse, Dots feel very much like us",
+      "published": "2026-10-02T14:00:00-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Musk's AI chatbot Grok encouraged Trump to capture Venezuela's president",
+      "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+      "snippet": "",
+      "published": "2026-10-02T16:56:33Z",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Meta open sources code to let you make Muse AI gadgets",
+      "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+      "snippet": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display t",
+      "published": "2026-10-02T17:08:37-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "He (Trump) asked Grok how Venezuelans would react if the U.S. captured Maduro",
+      "url": "https://time.com/article/2026/10/01/donald-trump-2026-interview/",
+      "snippet": "",
+      "published": "2026-10-02T17:25:51Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Anthropic Nearly Walked Out on Pope Leo XIV's AI Encyclical",
+      "url": "https://www.thelettersfromleo.com/p/nyt-anthropic-nearly-walked-out-on",
+      "snippet": "",
+      "published": "2026-10-02T17:46:48Z",
+      "weight": 6
+    },
+    {
+      "source": "OpenAI-News",
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "url": "https://openai.com/index/chatham-financial",
+      "snippet": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "published": "Fri, 02 Oct 2026 00:00:00 GMT",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "A Coding Guide to Google Research’s Kauldron: Configs That Are Plain Data, Components Wired by String, and a JAX Trainer You Can Read End to End",
+      "url": "https://www.marktechpost.com/2026/10/01/a-coding-guide-to-google-researchs-kauldron-configs-that-are-plain-data-components-wired-by-string-and-a-jax-trainer-you-can-read-end-to-end/",
+      "snippet": "<p>In this comprehensive coding guide, we explore Google Research's Kauldron—a JAX training library optimized for research velocity and modularity. Learn how konfig turns experiments into plain dictio",
+      "published": "Fri, 02 Oct 2026 00:32:50 +0000",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Cohere Releases Embed 5: How It Compares to Voyage 4 Large, Gemini Embedding 2, and OpenAI",
+      "url": "https://www.marktechpost.com/2026/10/01/cohere-releases-embed-5/",
+      "snippet": "<p>Cohere has released Embed 5, a new embedding model family. It targets enterprise search, RAG, and agentic retrieval. The model family ships in 2 tiers. Embed 5 Pro targets maximum retrieval quality",
+      "published": "Thu, 01 Oct 2026 17:13:12 +0000",
+      "weight": 6
+    }
+  ],
+  "cn": [
+    {
+      "source": "InfoQ中文",
+      "title": "刚刚，Gemini 4 Argon 发布：多项基测碾压 GPT-6 Astra，已参与谷歌 80 万行内核代码迁移",
+      "url": "https://www.infoq.cn/article/vVrSzjhEvkmpevS7wZzU?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/vVrSzjhEvkmpevS7wZzU?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Thu, 01 Oct 2026 11:00:00 GMT",
+      "weight": 9
+    },
+    {
+      "source": "量子位",
+      "title": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
+      "url": "https://www.qbitai.com/2026/10/499663.html",
+      "snippet": "价格只有Astra一半",
+      "published": "Thu, 01 Oct 2026 15:02:14 +0000",
+      "weight": 9
+    },
+    {
+      "source": "钛媒体",
+      "title": "deepseek为什么要在此时拥抱华为？",
+      "url": "https://www.tmtpost.com/8158082.html",
+      "snippet": "这不是一次适配，这是一次搬家。",
+      "published": "Fri, 02 Oct 2026 09:56:11 +0800",
+      "weight": 7
+    },
+    {
+      "source": "36氪",
+      "title": "博通据悉筹措600亿美元，为Anthropic芯片项目提供资金",
+      "url": "https://36kr.com/newsflashes/4008270806782084?f=rss",
+      "snippet": "据报道，知情人士透露，博通的华尔街银团正开始筹集600亿美元的新一轮AI芯片融资，为Anthropic芯片项目提供资金。（财联社）",
+      "published": "2026-10-02 14:08:57  +0800",
+      "weight": 6
+    },
+    {
+      "source": "量子位",
+      "title": "丘成桐新论文致谢了GPT和Claude",
+      "url": "https://www.qbitai.com/2026/10/499991.html",
+      "snippet": "44年前被亲自列入问题清单",
+      "published": "Fri, 02 Oct 2026 07:27:03 +0000",
+      "weight": 6
+    },
+    {
+      "source": "钛媒体",
+      "title": "OpenAI 新文章把超级智能拉回执行层，十亿个爱因斯坦也要有人去采矿",
+      "url": "https://www.tmtpost.com/8158249.html",
+      "snippet": "机器智能最大的用武之地，可能是那些枯燥、庞大、重复的执行工作。",
+      "published": "Fri, 02 Oct 2026 10:32:28 +0800",
+      "weight": 6
+    },
+    {
+      "source": "钛媒体",
+      "title": "曾获5亿美元估值！芳拓生物再闯港股，能否承受“基因治疗之重”？",
+      "url": "https://www.tmtpost.com/8158178.html",
+      "snippet": "由美元基金孵化的芳拓生物，究竟被谁控制？",
+      "published": "Fri, 02 Oct 2026 10:17:35 +0800",
+      "weight": 5
+    },
+    {
+      "source": "钛媒体",
+      "title": "安森美半导体将以大幅折价收购Synaptics，两只股票均在飙升",
+      "url": "https://www.tmtpost.com/8158528.html",
+      "snippet": "安森美半导体股票和新思科技的股价都在上涨，此前双方重新协商了收购交易条款。原因如下。",
+      "published": "Fri, 02 Oct 2026 23:06:04 +0800",
+      "weight": 5
+    },
+    {
+      "source": "199IT",
+      "title": "美国交通部：2026年新油耗标准为车企节省606亿美元技术成本，通用占204亿",
+      "url": "http://www.199it.com/archives/1854732.html",
+      "snippet": "据路透社报道，美国交通部放宽油耗标准，车企共节省606亿美元技术成本，通用占204亿美元，占比近三分之一，平均每车合规成本降约1289美元。新规减轻车企负担，但消费者全生命周期燃油支出增加超1600美元，到2050年美国汽油消费量将增加4.6%。",
+      "published": "Thu, 01 Oct 2026 10:32:01 +0000",
+      "weight": 5
+    },
+    {
+      "source": "199IT",
+      "title": "美光科技：2026财年Q4营收542.3亿美元，同比增长379%",
+      "url": "http://www.199it.com/archives/1854842.html",
+      "snippet": "美光科技发布2026财年第四财季财报，营收542.3亿美元，同比增长379%，环比增长31%；净利润377.01亿美元，同比增长约1078%；全年营收1331.88亿美元，同比增长约256%；下一财季营收指引约615亿美元。",
+      "published": "Thu, 01 Oct 2026 11:15:39 +0000",
+      "weight": 5
+    },
+    {
+      "source": "量子位",
+      "title": "openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent越跑越省，实测减少50+%Token消耗",
+      "url": "https://www.qbitai.com/2026/10/500098.html",
+      "snippet": "让每一次请求选对模型，让每一次反馈都成为下一次更优、更省的选择",
+      "published": "Fri, 02 Oct 2026 07:34:15 +0000",
+      "weight": 4
+    },
+    {
+      "source": "掘金",
+      "title": "Personal Agent爆火 - 它到底是个什么",
+      "url": "https://juejin.cn/post/7691537889868021795",
+      "snippet": "引言 Meta 在 9 月 8 日发布 Muse，OpenAI 在 9 月 29 日发布 dots，它们突然爆火，不是因为“Agent 又多会调用了几个 Tool”，而是 Agent 的产品范式发生了",
+      "published": "Fri, 02 Oct 2026 10:24:16 GMT",
+      "weight": 4
+    },
+    {
+      "source": "36氪",
+      "title": "全球最大独立AI原生影视Utopai Studios视频生成模型跻身文生权威榜单全球第二",
+      "url": "https://36kr.com/newsflashes/4008300875141256?f=rss",
+      "snippet": "近日，全球最大的独立AI原生影视公司Utopai Studios的定制视频生成模型Utopai X在独立评测机构Artificial Analysis的全球文生视频排行榜中跻身第二，全美第一。据公开报道，这也是该榜单采用盲评机制以来，首次由影视公司定制的模型取得如此佳绩。榜单排名完全基于盲评输出质量，由观众在不知晓模型品牌的前提下对同一提示词生成的视频进行偏好评价（数据截至2026年9月30日）。",
+      "published": "2026-10-02 13:34:30  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "截至8月底我国境内公募基金规模达39.63万亿元",
+      "url": "https://36kr.com/newsflashes/4008236452908933?f=rss",
+      "snippet": "中国基金业协会最新发布的数据显示，截至2026年8月底，我国境内公募基金资产净值合计39.63万亿元。截至2026年8月底，我国境内公募基金管理机构共165家，其中基金管理公司150家，取得公募资格的资产管理机构15家。（新华社）",
+      "published": "2026-10-02 13:39:58  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "国庆假期首日高速公路充电量同比增长60.4%",
+      "url": "https://36kr.com/newsflashes/4008308658737284?f=rss",
+      "snippet": "通过对纳入国家充电设施监测服务平台的6.27万个高速公路充电设施（枪）进行统计分析，“十一”国庆假期首日，全国高速公路充电量达到2804.69万千瓦时，较去年“十一”国庆假期首日增长60.40%，创历史节假日单日新高。假期充电需求进一步集中释放，高速公路服务区充电设施运行总体平稳，切实为新能源汽车长途出行提供了补能支撑。下一步，国家能源局将会同有关方面继续加强高速公路充电设施的监测调度，持续保障好",
+      "published": "2026-10-02 13:42:25  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "瑞士宝盛集团宣布6亿瑞郎股票回购计划",
+      "url": "https://36kr.com/newsflashes/4008307544084355?f=rss",
+      "snippet": "瑞士宝盛集团宣布了一项价值至多6亿瑞士法郎（7.23亿美元）的股票回购计划，此前集团瑞士监管机构刚刚宣布结束对该公司长达数年的调查。贷款方还提出了修订后的资本分配政策。该公司在一份声明中表示，“在获得监管部门批准并考虑到集团雄厚的资本实力后，宝盛集团董事会已批准此次股票回购计划。 ”（新浪财经）",
+      "published": "2026-10-02 14:32:20  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "三菱重工将投资约1000亿日元用于造船项目",
+      "url": "https://36kr.com/newsflashes/4008323764637568?f=rss",
+      "snippet": "三菱重工将投资约1000亿日元用于造船项目。（新浪财经）",
+      "published": "2026-10-02 15:00:48  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "今年上半年外商股权性质直接投资同比增长55%",
+      "url": "https://36kr.com/newsflashes/4008327676874887?f=rss",
+      "snippet": "国家外汇管理局发布的《2026年上半年中国国际收支报告》显示，2026年上半年，外商股权性质直接投资为638亿美元，同比增长55%。报告显示，外商股权性质直接投资中，反映长期投资意愿的资本金净增加431亿美元；外资企业在境内的收益再投资同比增长31%，表明外资企业将经营所得更多用于在华投资兴业。（新华社）",
+      "published": "2026-10-02 15:22:48  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "超1200亿元，公募“红包”派发进行时",
+      "url": "https://36kr.com/newsflashes/4008344329293697?f=rss",
+      "snippet": "公募基金年内分红超1200亿元，债券型基金贡献逾六成，多只宽基ETF分红金额居前。与此同时，权益基金分红次数同比增加近八成，31家公募机构旗下产品分红金额超过10亿元。业内人士表示，在市场波动背景下，基金分红可以兑现部分收益，既有助于提升产品吸引力，也能在一定程度上帮助投资者锁定收益、缓解持仓压力。（上证报）",
+      "published": "2026-10-02 15:40:45  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "泰国扩大家庭太阳能补贴计划规模",
+      "url": "https://36kr.com/newsflashes/4008366827655040?f=rss",
+      "snippet": "泰国计划将拟议的家庭太阳能补贴计划规模从最初的500亿泰铢扩大至最高750亿泰铢，并放宽资格范围，不再局限于屋顶安装。据内政部副部长Polapee Suwunchwee介绍，该计划目标覆盖多达150万户家庭：第一阶段覆盖100万户，补贴500亿泰铢；随后再覆盖50万户，补贴250亿泰铢。政府计划为每户提供5万泰铢的安装补贴。登记预计于11月1日开始。（新浪财经）",
+      "published": "2026-10-02 16:00:35  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "恒指收跌2.6%，恒生科技指数跌2.26%",
+      "url": "https://36kr.com/newsflashes/4008458364440453?f=rss",
+      "snippet": "36氪获悉，恒指收跌2.6%，恒生科技指数跌2.26%；银行、医药生物板块领跌，百济神州跌超5%，工商银行跌超3%。",
+      "published": "2026-10-02 16:14:42  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "10月1日全社会跨区域人员流动量3.29亿人次",
+      "url": "https://36kr.com/newsflashes/4008465841213321?f=rss",
+      "snippet": "10月1日（国庆假期第1日），全社会跨区域人员流动量3.29亿人次，环比增长50.2%，比2025年同期（10月1日，中秋国庆假期第1日）下降1.9%。（证券时报）",
+      "published": "2026-10-02 16:22:18  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "阿斯顿 · 马丁首款纯电动汽车推迟至2033年后，V8/V12发动机保留至2035年",
+      "url": "https://36kr.com/newsflashes/4008368621785219?f=rss",
+      "snippet": "报道称阿斯顿 · 马丁（Aston Martin）计划延后其首款纯电动汽车上市时间，推迟到2033—2035年，并制定路线图确保V8与V12发动机车型至少供应至2035年。（新浪财经）",
+      "published": "2026-10-02 16:37:26  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "东芝拟将AI数据中心HDD产能翻倍，目标把容量份额提升至30%",
+      "url": "https://36kr.com/newsflashes/4008466778279810?f=rss",
+      "snippet": "东芝计划到2027财年将面向人工智能数据中心的硬盘驱动器产能提高一倍，以应对AI基础设施建设带来的高容量存储需求增长。据报道，公司将投资约600亿日元，约合3.8亿美元，扩建位于菲律宾的HDD生产设施。这将是东芝约五年来首次进行大规模硬盘相关投资。东芝目前与Western Digital和Seagate并列为全球三大HDD厂商之一。公司希望借此次扩产，提高其按存储容量计算的全球市场份额，中期目标是",
+      "published": "2026-10-02 17:11:16  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "嘉能可：澳大利亚证券交易所二次上市将于10月14日正式开始交易",
+      "url": "https://36kr.com/newsflashes/4008513230212996?f=rss",
+      "snippet": "嘉能可宣布，其澳大利亚证券交易所二次上市将于2026年10月14日正式开始交易。公司同时更新了长期营销业务指引：长期营销调整后EBIT指引中点为35亿美元，区间为28亿至42亿美元。嘉能可预计2026年全年营销调整后EBIT将超过50亿美元。（财联社）",
+      "published": "2026-10-02 17:29:33  +0800",
+      "weight": 1
+    }
+  ],
+  "source_stats": {
+    "OpenAI-News": 4,
+    "Google-AI-Blog": 1,
+    "TheVerge-AI": 10,
+    "TechReview-AI": 2,
+    "LastWeekInAI": 0,
+    "MarkTechPost": 8,
+    "SebastianRaschka": 0,
+    "TheGradient": 0,
+    "HuggingFace-Blog": 2,
+    "HackerNews": 0,
+    "HackerNews-DeepSeek": 8,
+    "HackerNews-Kimi": 8,
+    "HackerNews-Qwen": 4,
+    "HackerNews-Grok": 8,
+    "HackerNews-xAI": 8,
+    "ArXiv-cs.AI": 15,
+    "量子位": 5,
+    "雷锋网": 1,
+    "钛媒体": 15,
+    "36氪": 15,
+    "InfoQ中文": 7,
+    "掘金": 15,
+    "199IT": 15
+  },
+  "dedup": {
+    "intl": {
+      "before": 78,
+      "after": 75
+    },
+    "cn": {
+      "before": 73,
+      "after": 70
+    }
+  }
+}
