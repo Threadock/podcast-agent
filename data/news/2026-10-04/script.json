@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-10-04 | 国庆假期AI不停摆,中美大模型同台竞技 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "量子位",
+      "title": "DeepSeek大规模扩招,弹性计算团队放出大量资深工程师岗位",
+      "url": "https://www.qbitai.com",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "openJiuwen首发自演进路由模型X-Router,深度适配昇腾,实测节省50%以上Token消耗",
+      "url": "https://www.qbitai.com",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "丘成桐最新论文致谢GPT与Claude,44年前亲笔列入的问题清单终被AI攻破",
+      "url": "https://www.qbitai.com",
+      "weight": "deep"
+    },
+    {
+      "source": "掘金",
+      "title": "Meta Muse Spark跑赢Gemini 3.1,多代理并行推理成新底牌",
+      "url": "https://juejin.cn",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "谷歌搭载TPU芯片的原型卫星发射升空,剑指太空AI基础设施",
+      "url": "https://36kr.com",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "寒武纪前高管梁军连败六场遭强制执行,再提天价索赔被法院驳回",
+      "url": "https://www.leiphone.com",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI安全团队持续地震,负责人离职,三名员工因泄密被开除",
+      "url": "https://www.theverge.com",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI推出Dot智能体平台,既能处理企业事务,也能帮你点外卖",
+      "url": "https://www.theverge.com",
+      "weight": "deep"
+    },
+    {
+      "source": "LastWeekInAI",
+      "title": "Anthropic发布Opus 5.5,降价同时对标Fable级别性能",
+      "url": "https://www.lastweekinai.com",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "马斯克的Grok疑似建议特朗普抓捕委内瑞拉总统,AI介入地缘政治引争议",
+      "url": "https://news.ycombinator.com",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "arXiv推出最严新规,每人每月最多提交两篇论文,换区也不退额度",
+      "url": "https://www.qbitai.com",
+      "weight": "medium"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "亚马逊发长文警告社区,反对阻挡数据中心建设",
+      "url": "https://www.theverge.com",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "大家好,欢迎收听《今日AI头条》,今天是2026年10月4号,国庆假期第三天,AI圈可一点没放假。"
+    },
+    {
+      "role": "guest",
+      "text": "没错,国内这边DeepSeek大扩招、国产路由模型发布,国外OpenAI和Anthropic也在抢头条。"
+    },
+    {
+      "role": "host",
+      "text": "咱们先看国内第一条,DeepSeek放出大量资深工程师岗位,重点招弹性计算团队。"
+    },
+    {
+      "role": "guest",
+      "text": "对,而且这次招聘挺有意思,他们直接把岗位JD写成了一篇技术报告的形式发出来。"
+    },
+    {
+      "role": "host",
+      "text": "说白了,DeepSeek这是在为下一代超大模型的算力调度储备人才,你看他们最近又开源了昇腾编程栈。"
+    },
+    {
+      "role": "guest",
+      "text": "对,DeepSeek把那个高性能矩阵计算库DeepGEMM移植到了华为昇腾950上面,这可是国产算力的关键一步。"
+    },
+    {
+      "role": "host",
+      "text": "而且你看,假期里他们还推出了Mac和Windows桌面端的DeepSeek Harness开发工具,生态越来越完整了。"
+    },
+    {
+      "role": "guest",
+      "text": "说完了DeepSeek,咱们再看另一家,openJiuwen首发了一个叫X-Router的自演进路由模型。"
+    },
+    {
+      "role": "host",
+      "text": "这个技术挺硬核,它能根据请求自动选最合适的模型,跑得越多还越省,实测能省50%以上的Token消耗。"
+    },
+    {
+      "role": "guest",
+      "text": "而且它明确写出来对华为昇腾做了深度适配,这对国产算力生态是个大利好。"
+    },
+    {
+      "role": "host",
+      "text": "你看,现在企业级Agent落地最大的痛点就是贵,X-Router这种技术直接对症下药。"
+    },
+    {
+      "role": "guest",
+      "text": "没错,而且它是自演进的,用户反馈越多路由策略越聪明,Agent真的能越用越省。"
+    },
+    {
+      "role": "host",
+      "text": "第三条国内新闻更有意思,数学泰斗丘成桐的最新论文,致谢了GPT和Claude。"
+    },
+    {
+      "role": "guest",
+      "text": "这个事儿挺浪漫的,因为里面提到的一个开放问题,44年前丘先生就亲自写进了问题清单。"
+    },
+    {
+      "role": "host",
+      "text": "谁能想到,当年人类数学家留下的悬念,今天居然是大语言模型给解开的,你说AI是不是真在改变基础科研。"
+    },
+    {
+      "role": "guest",
+      "text": "其实AI辅助科研已经不是新鲜事了,但被数学界的大佬正式写进致谢,确实是一个里程碑式的认可。"
+    },
+    {
+      "role": "host",
+      "text": "对,而且你看钛媒体转的那篇OpenAI新文章,说超级智能最后还是要落到采矿这种执行层,理论突破只是第一步。"
+    },
+    {
+      "role": "guest",
+      "text": "那咱们再聊聊国际这边,Meta的Muse Spark跑赢了Gemini 3.1,这事儿你知道吧?。"
+    },
+    {
+      "role": "host",
+      "text": "知道,Meta超级智慧实验室憋了九个月,主打多代理并行推理,在FrontierScience科学推理测试上拿了第一。"
+    },
+    {
+      "role": "guest",
+      "text": "而且Meta还把Muse设备的代码开源了,你甚至可以把它刷到一个彩色的墨水屏上玩,门槛非常低。"
+    },
+    {
+      "role": "host",
+      "text": "你看,Meta这是在抢下一代AI硬件生态的入口,跟当年谷歌推安卓的思路有点像。"
+    },
+    {
+      "role": "guest",
+      "text": "没错,关键是Muse背后是多Agent协同架构,这跟OpenAI的Dot平台是同一个方向。"
+    },
+    {
+      "role": "host",
+      "text": "说到OpenAI,他们那边可不太平,安全团队负责人离职,还有三名员工因为泄密被开除。"
+    },
+    {
+      "role": "guest",
+      "text": "更严重的是,前安全报告的撰写人David Robinson直接在《大西洋月刊》发文,公开质疑公司方向。"
+    },
+    {
+      "role": "host",
+      "text": "你看啊,OpenAI一边是安全团队地震,一边又火速推出Dot智能体平台,这节奏反差挺大的。"
+    },
+    {
+      "role": "guest",
+      "text": "对,那个Dot挺有意思,既能处理企业级软件任务,也能帮你点外卖,算是把Agent场景彻底打通了。"
+    },
+    {
+      "role": "host",
+      "text": "不过OpenAI、Meta、Uber这三家现在都押注Agent主动开口这个方向,真正难的是什么时候该闭嘴。"
+    },
+    {
+      "role": "guest",
+      "text": "聊完OpenAI,Anthropic那边也没闲着,Opus 5.5发布了,而且降价了。"
+    },
+    {
+      "role": "host",
+      "text": "对,Opus 5.5号称达到了Fable级别的性能,但价格直接砍下来,这是要正面硬刚GPT-6。"
+    },
+    {
+      "role": "guest",
+      "text": "你看啊,DeepSeek-V4.1-Flash也发布了,加上阿里Qwen系列的本地版、Mac版,大模型市场是真卷。"
+    },
+    {
+      "role": "host",
+      "text": "说到价格战,我注意到马斯克的Grok最近摊上大事了,据说是建议特朗普去抓委内瑞拉总统。"
+    },
+    {
+      "role": "guest",
+      "text": "这事儿听着像段子,但如果是真的,AI介入地缘政治的风险就被摆到台面上了。"
+    },
+    {
+      "role": "host",
+      "text": "你看,Anthropic差点因为教皇的AI通谕退出谈判,大公司和监管的博弈越来越激烈。"
+    },
+    {
+      "role": "guest",
+      "text": "对,亚马逊还专门发了一篇3000多字的长文,警告社区不要阻挡数据中心建设。"
+    },
+    {
+      "role": "host",
+      "text": "没错,他们把AI基础设施拔高到了国家安全和经济命脉的高度,反对声音可能会越来越小。"
+    },
+    {
+      "role": "guest",
+      "text": "那咱们做几个联动对比,你看国内DeepSeek在搞昇腾适配,国外谷歌直接把TPU送上了太空。"
+    },
+    {
+      "role": "host",
+      "text": "对,谷歌那颗搭载TPU的原型卫星已经成功发射并通信正常,他们想测试太空里的AI基础设施。"
+    },
+    {
+      "role": "guest",
+      "text": "你看,国内卷的是性价比和工程落地,国外开始卷太空和下一代硬件形态,赛道其实已经分化了。"
+    },
+    {
+      "role": "host",
+      "text": "没错,像丘成桐用GPT解数学题这种学术突破,和马斯克Grok参与政治讨论,是AI社会影响的两极。"
+    },
+    {
+      "role": "guest",
+      "text": "而且你看OpenAI的安全离职潮和寒武纪前高管连败六场形成鲜明对比,国内AI公司在治理上反而更稳。"
+    },
+    {
+      "role": "host",
+      "text": "对,梁军在寒武纪股权诉讼里六连败,法院已经进入强制执行阶段了,天价索赔被驳回。"
+    },
+    {
+      "role": "guest",
+      "text": "这其实也反映出国内AI公司治理在走向成熟,司法判例给整个行业划了一条清晰的边界线。"
+    },
+    {
+      "role": "host",
+      "text": "没错,合规和稳定现在成了国内大模型公司很重要的竞争力,你看arXiv也推出了最严新规。"
+    },
+    {
+      "role": "guest",
+      "text": "对,arXiv规定每人每月最多提交两篇,换区也不退额度,这是为了遏制低质量灌水。"
+    },
+    {
+      "role": "host",
+      "text": "好,接下来咱们快速过几条其他要闻,先说国内,小米Vision GT即将入驻《跑车浪漫旅7》。"
+    },
+    {
+      "role": "guest",
+      "text": "对,这是游戏史上第一台中国Vision GT,小米汽车算是把虚拟和现实玩明白了。"
+    },
+    {
+      "role": "host",
+      "text": "再看一条,蔚来充电服务突破了1亿次,其中86.67%都是给非蔚来用户的。"
+    },
+    {
+      "role": "guest",
+      "text": "你看,新能源补能网络现在越来越像公共基础设施了,品牌之间的壁垒正在消失。"
+    },
+    {
+      "role": "host",
+      "text": "国际这边,Meta开源了Muse设备的代码,你可以自己DIY各种AI小硬件。"
+    },
+    {
+      "role": "guest",
+      "text": "对,从墨水屏到老玩具都能刷Muse,这是把Agent硬件化的门槛直接打到了地板价。"
+    },
+    {
+      "role": "host",
+      "text": "再来一条,亚马逊发了3000字长文,警告社区不要阻挡数据中心建设。"
+    },
+    {
+      "role": "guest",
+      "text": "对,他们把数据中心拔高到了国家安全和经济的战略高度,舆论造势已经开始了。"
+    },
+    {
+      "role": "host",
+      "text": "再看一条有意思的,美国法院叫停了明尼苏达州禁止AI去衣照片的立法。"
+    },
+    {
+      "role": "guest",
+      "text": "对,这个判例会让AI生成内容的版权和伦理争议变得更加复杂,值得持续关注。"
+    },
+    {
+      "role": "host",
+      "text": "最后一条,服务器Madison反映,AI幻觉让一些本来就挑剔的顾客更不好伺候了。"
+    },
+    {
+      "role": "guest",
+      "text": "对,AI幻觉不只是技术问题,它正在直接转化成服务行业的真实纠纷。"
+    },
+    {
+      "role": "host",
+      "text": "聊完新闻,咱们展望一下后续,你觉得OpenAI安全团队地震会影响Dot平台的进度吗。"
+    },
+    {
+      "role": "guest",
+      "text": "短期不会,你看他们推Dot的速度,说明战略层已经决定要All in Agent了,安全团队重组是必经阵痛。"
+    },
+    {
+      "role": "host",
+      "text": "那国产芯片这边呢,你觉得DeepSeek的昇腾适配是终点还是起点。"
+    },
+    {
+      "role": "host",
+      "text": "绝对是起点,你看openJiuwen也在做昇腾亲和,国产算力生态正在从单点突破走向全栈协同。"
+    }
+  ]
+}
