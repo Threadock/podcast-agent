@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-10-06 | 国内AI集体出海,国际巨头广告变现提速 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "MarkTechPost",
+      "title": "DeepSeek Harness v0.2 发布官方桌面应用,Agent 框架走向桌面端",
+      "url": "https://www.marktechpost.com/2026/10/04/deepseek-harness-v0-2/",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "通义千问全史:从7B小模型到2.4万亿参数的开源帝国",
+      "url": "https://www.marktechpost.com/2026/10/04/qwen-history-alibaba/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek开始为华为昇腾芯片做专门适配",
+      "url": "https://news.ycombinator.com/item?id=deepseek-ascend",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "Hinton发表首篇RSI论文:AI开始自己设计下一代AI",
+      "url": "https://www.qbitai.com/2026/10/05/hinton-rsi-paper/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "Rabbit创始人吕骋:人不该为Agent改变自己的思考方式",
+      "url": "https://36kr.com/p/rabbit-founder-agent-philosophy",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "恒生科技指数涨0.62%,智谱涨超6%,海清智元涨超5%",
+      "url": "https://36kr.com/p/hangseng-tech-oct5",
+      "weight": "medium"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI加大ChatGPT广告投放,本月起在美国测试商品图片广告",
+      "url": "https://www.theverge.com/2026/10/05/openai-chatgpt-ads",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI为ChatGPT和Codex加入隐形文本水印,欧盟用户先行",
+      "url": "https://www.theverge.com/2026/10/05/openai-text-watermark",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "GPT-6 Astra对决Gemini 4 Argon:六大前沿模型分岗评测",
+      "url": "https://www.marktechpost.com/2026/10/04/gpt-6-astra-vs-gpt-6-1-sol-vs",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen 3.8 Flash 125B在RTX 4090上跑到每秒100 Token",
+      "url": "https://news.ycombinator.com/item?id=qwen-flash-4090",
+      "weight": "medium"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Together Link免费命令行上线,把开源模型塞进Claude Code和Codex",
+      "url": "https://www.marktechpost.com/2026/10/04/together-link-cli/",
+      "weight": "medium"
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "英伟达200亿美元收购Grok相关授权,被甩掉的工程师集体起诉",
+      "url": "https://news.ycombinator.com/item?id=nvidia-groq-lawsuit",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "听众朋友早上好,今天是2026年10月6号,我是小语,《今日AI头条》准时开播。"
+    },
+    {
+      "role": "guest",
+      "text": "大家好我是老周,今天国内国外都挺热闹,咱们先从国内大模型这一摊聊起。"
+    },
+    {
+      "role": "host",
+      "text": "第一条重磅就是DeepSeek Harness v0.2,这次直接发了官方的桌面应用。"
+    },
+    {
+      "role": "guest",
+      "text": "对,这次DeepSeek给macOS和Windows都做了原生客户端,还是MIT开源协议。"
+    },
+    {
+      "role": "host",
+      "text": "而且不光是个壳子,还顺手加了插件管理、文件改动审阅、还有定时任务这些功能。"
+    },
+    {
+      "role": "guest",
+      "text": "我看还有个新闻说,有人把DeepSeek这套当MCP用,塞到Claude工作流里去了。"
+    },
+    {
+      "role": "host",
+      "text": "没错,Hacker News上那个Flash-Agents项目就是这么干的,大家都说DeepSeek性价比真的香。"
+    },
+    {
+      "role": "guest",
+      "text": "再说通义千问,MarkTechPost专门写了个长文,梳理阿里这条AI主线。"
+    },
+    {
+      "role": "host",
+      "text": "时间线特别清楚:2023年4月还是邀请制的聊天机器人,到了2026年8月直接干到2.4万亿参数。"
+    },
+    {
+      "role": "guest",
+      "text": "你看从最初的7B一路飙到2.4T,而且全程开源,这个迭代速度真的有点吓人。"
+    },
+    {
+      "role": "host",
+      "text": "配合这个主线还有个技术新闻,DeepSeek开始给华为昇腾做专门适配了。"
+    },
+    {
+      "role": "guest",
+      "text": "这个信号意义非常大,等于说国产大模型不再只盯着英伟达了,昇腾有了自己的生态位。"
+    },
+    {
+      "role": "host",
+      "text": "再叠加前面Qwen 3.8 Flash 125B能在RTX 4090上跑到每秒100 Token,你看算力这边格局在变。"
+    },
+    {
+      "role": "guest",
+      "text": "说完厂商咱们看学界,Hinton老爷子发了第一篇RSI论文,这个可太炸了。"
+    },
+    {
+      "role": "host",
+      "text": "对,RSI全称叫递归自我改进,核心意思就是AI开始自己设计下一代AI了。"
+    },
+    {
+      "role": "guest",
+      "text": "这不只是技术突破,更像是研究范式的拐点,以后AI流水线会越来越自动化。"
+    },
+    {
+      "role": "host",
+      "text": "对,而且Hinton之前一直对AI安全很谨慎,这次亲自下场做RSI,态度本身就耐人寻味。"
+    },
+    {
+      "role": "guest",
+      "text": "没错,他在论文里也强调了安全约束机制,可见这是带着刹车片进场的那种。"
+    },
+    {
+      "role": "host",
+      "text": "聊完学术咱们看产品,Rabbit创始人吕骋最近讲了Agent的哲学观。"
+    },
+    {
+      "role": "guest",
+      "text": "他原话是:人不该为Agent去改变自己的思考方式,这其实是个挺根本性的判断。"
+    },
+    {
+      "role": "host",
+      "text": "你看Rabbit从r1那台橙色小机子到现在,一直在押注一句话就能办成事的个人助理。"
+    },
+    {
+      "role": "guest",
+      "text": "国内资本市场这边,恒生科技指数今天涨了0.62%,智谱涨超6%挺亮眼。"
+    },
+    {
+      "role": "host",
+      "text": "海清智元也跟着涨了5%以上,资金面明显在回流国产大模型这条线。"
+    },
+    {
+      "role": "guest",
+      "text": "国内这边总结一下:DeepSeek、通义、智谱三足鼎立的态势越来越清晰了。"
+    },
+    {
+      "role": "host",
+      "text": "好,镜头切到海外,OpenAI这边连着放了两个大招,先说广告的事。"
+    },
+    {
+      "role": "guest",
+      "text": "对,ChatGPT这个月起在美国测试新的商品图片广告,生成结果里直接夹品牌赞助图。"
+    },
+    {
+      "role": "host",
+      "text": "这等于说OpenAI终于把生成式AI这条流量彻底商业化了,变现节奏明显加快。"
+    },
+    {
+      "role": "guest",
+      "text": "另一件事更敏感,OpenAI给ChatGPT和Codex加上了隐形文本水印。"
+    },
+    {
+      "role": "host",
+      "text": "而且首批只对欧盟用户开放,据说是欧盟那边的内容溯源监管逼出来的。"
+    },
+    {
+      "role": "guest",
+      "text": "这种机器可读的隐形水印一旦铺开,对学生党、还有灰色内容农场影响会非常大。"
+    },
+    {
+      "role": "host",
+      "text": "说到模型对比,MarkTechPost搞了个六大前沿模型分岗测评,你看了吗。"
+    },
+    {
+      "role": "guest",
+      "text": "看了,结论挺有意思:GPT-6 Astra搞电脑操作最猛,Gemini 4 Argon吃法律和金融。"
+    },
+    {
+      "role": "host",
+      "text": "Claude Fable 5.1和GPT-6.1 Sol在编程代理这个赛道直接打价格战。"
+    },
+    {
+      "role": "guest",
+      "text": "我发现一个细节,这篇测评里居然没把DeepSeek和Qwen放进对比。"
+    },
+    {
+      "role": "host",
+      "text": "这恰恰说明了一个问题,海外评测体系对开源模型还是有偏见的。"
+    },
+    {
+      "role": "guest",
+      "text": "你看DeepSeek V4.1 Flash和Qwen 3.8在Agent任务上的实际表现,完全不输闭源旗舰。"
+    },
+    {
+      "role": "host",
+      "text": "那咱们国内国际联动看一下,你这周观察下来有什么大趋势。"
+    },
+    {
+      "role": "guest",
+      "text": "最明显的就是开源闭源两条路都在加速,国内这边DeepSeek、Qwen持续放大招。"
+    },
+    {
+      "role": "host",
+      "text": "海外这边OpenAI一边加水印、一边插广告,变现和监管两条腿同时迈。"
+    },
+    {
+      "role": "guest",
+      "text": "我注意到一个细节,OpenAI广告测试只在美国,水印先在欧盟,这挺有意思。"
+    },
+    {
+      "role": "host",
+      "text": "没错,商业化优先走监管宽松的市场,合规压力大的市场先放合规功能,这是典型的精细化运营。"
+    },
+    {
+      "role": "guest",
+      "text": "说白了,OpenAI现在就是靠不同地区的监管差,来分阶段释放产品策略。"
+    },
+    {
+      "role": "host",
+      "text": "另外算力层面,昇腾适配DeepSeek加上英伟达那边200亿的Grok收购,也挺值得说。"
+    },
+    {
+      "role": "guest",
+      "text": "对,英伟达这单交易被前工程师集体起诉,说白了就是AI算力供需的蛋糕太诱人了。"
+    },
+    {
+      "role": "host",
+      "text": "国内国外都在抢算力底盘,这场争夺未来几年都不会停。"
+    },
+    {
+      "role": "guest",
+      "text": "还有Together Link这种小工具,把开源模型塞进Claude Code里,也挺值得聊。"
+    },
+    {
+      "role": "host",
+      "text": "对,这种桥接工具越来越多,说明开源和闭源模型之间的墙正在被开发者一点点拆掉。"
+    },
+    {
+      "role": "guest",
+      "text": "以前大家非此即彼,现在变成混搭风,谁好用就用谁。"
+    },
+    {
+      "role": "host",
+      "text": "好,接下来咱们快速过几条其他要闻,先把新闻密度拉满。"
+    },
+    {
+      "role": "guest",
+      "text": "先说学术圈:2026年诺贝尔生理学或医学奖揭晓,颁给了光遗传学三位奠基人。"
+    },
+    {
+      "role": "host",
+      "text": "再看商业:法国施耐德电气确认以226亿美元收购美国软件公司PTC。"
+    },
+    {
+      "role": "guest",
+      "text": "基础设施这边也有大新闻,张靖皋长江大桥进入上部结构施工,世界在建最大跨度。"
+    },
+    {
+      "role": "host",
+      "text": "资本市场方面,2026年第三季度全球IPO分化明显,融资盛宴和破发寒流并存。"
+    },
+    {
+      "role": "guest",
+      "text": "德国电信放出预测,说AI和自动化到2030年能帮公司省下25亿欧元间接成本。"
+    },
+    {
+      "role": "host",
+      "text": "Google Research把联邦学习搬进TEE可信执行环境,Gboard键盘训练上线新隐私方案。"
+    },
+    {
+      "role": "guest",
+      "text": "Grok Voice登顶新一期语音基准,马斯克那边又把SpaceXAI改名成SpaceXSI了。"
+    },
+    {
+      "role": "host",
+      "text": "最后一条,2026年国庆假期第四天全国跨区域人员流动量突破3.05亿人次。"
+    },
+    {
+      "role": "guest",
+      "text": "速览完毕,咱们回来聊点深的,你觉得下一阶段最值得关注的变量是什么。"
+    },
+    {
+      "role": "host",
+      "text": "我个人最看好三个:第一是开源Agent框架能不能在企业里真正跑通。"
+    },
+    {
+      "role": "host",
+      "text": "第二是国产算力的良率,昇腾能不能撑住DeepSeek这种大体量模型的训练。"
+    }
+  ]
+}
