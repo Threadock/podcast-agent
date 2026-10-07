@@ -1,0 +1,314 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-10-07 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "钛媒体",
+      "title": "DeepSeek被爆最新融资800亿元，正为冲击IPO做准备",
+      "url": "https://www.tmtpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "月之暗面据悉完成IPO前融资，最新估值约500亿美元",
+      "url": "https://36kr.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "掘金",
+      "title": "DeepSeek Harness底层揭秘：脚手架如何蜕变为产品",
+      "url": "https://juejin.cn/",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "Hinton发布首篇RSI论文，AI开始造下一代AI",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "OpenAI承诺28天无新功能就重置订阅",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "AMD CEO苏姿丰：未来数年芯片需求将非常高",
+      "url": "https://36kr.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "HackerNews",
+      "title": "DeepSeek获腾讯支持，至少120亿美元融资在即",
+      "url": "https://news.ycombinator.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge",
+      "title": "谷歌即将取消Gemini Flash和Pro的免费访问",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge",
+      "title": "OpenAI在ChatGPT和Codex中加入文本水印",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge",
+      "title": "维基百科称OpenAI的\"流氓\"机器人可能与5月宕机有关",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/",
+      "weight": "medium"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Qwen全史：从7B到2.4万亿参数的开源模型之路",
+      "url": "https://www.marktechpost.com/",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "各位听众好，今天是2026年10月7号，欢迎收听今日AI头条，咱们今天的内容密度可有点高。"
+    },
+    {
+      "role": "guest",
+      "text": "对，我先剧透一句，国内这头DeepSeek和月之暗面都在搞大事，国际那头OpenAI和谷歌也没闲着。"
+    },
+    {
+      "role": "host",
+      "text": "先看国内最炸的，DeepSeek被爆出最新融资800亿人民币，正在为冲击IPO做准备。"
+    },
+    {
+      "role": "guest",
+      "text": "注意啊，800亿人民币不是小数目，从当初梁文锋那句\"不接外部资本\"，到现在坐上千亿融资的牌桌。"
+    },
+    {
+      "role": "host",
+      "text": "这种态度转变背后，是不是说明AI竞赛已经到了\"输不起\"的阶段？"
+    },
+    {
+      "role": "guest",
+      "text": "其实你看，算力、芯片、人才全都在抢，没钱真玩不转，IPO几乎是必经之路。"
+    },
+    {
+      "role": "host",
+      "text": "紧接着另一家，月之暗面据悉完成IPO前融资，最新估值约500亿美元。"
+    },
+    {
+      "role": "guest",
+      "text": "500亿美元啊，并且他们计划明年第一季度在港交所上市，速度非常快。"
+    },
+    {
+      "role": "host",
+      "text": "而且新浪财经说这是最后一轮私募，后面就是公开市场见真章。"
+    },
+    {
+      "role": "guest",
+      "text": "对比一下，DeepSeek在国内走人民币融资，月之暗面则押注港股，这两条路径其实都很有看头。"
+    },
+    {
+      "role": "host",
+      "text": "再看一条产品线的新闻，掘金上有篇文章把DeepSeek Harness底层扒得很透。"
+    },
+    {
+      "role": "guest",
+      "text": "8月13号DeepSeek开源了一套MIT协议的Agent Harness，相当于把脚手架直接做成了产品战略。"
+    },
+    {
+      "role": "host",
+      "text": "这意味着什么？是不是\"Harness才是真正的产品\"这个观点，已经被官方盖章了？"
+    },
+    {
+      "role": "guest",
+      "text": "对，你看HackerNews上那个Flash-Agents项目，就是拿DeepSeek v4.1 Flash当Claude的子代理，效果还挺惊艳。"
+    },
+    {
+      "role": "host",
+      "text": "接下来这条有点科幻，量子位说Hinton刚刚发了第一篇RSI论文。"
+    },
+    {
+      "role": "guest",
+      "text": "RSI你可以理解成\"递归自我改进\"，也就是AI开始真正进入\"造下一代AI\"的流水线了。"
+    },
+    {
+      "role": "host",
+      "text": "以前咱们说AI写代码已经够猛了，现在是AI直接设计下一代模型，对吧？"
+    },
+    {
+      "role": "guest",
+      "text": "没错，Hinton老爷子出手分量不一样，这篇论文可能会重新定义AI研发的天花板。"
+    },
+    {
+      "role": "host",
+      "text": "还有一条OpenAI的动态，量子位提到他们承诺28天没新功能就重置订阅。"
+    },
+    {
+      "role": "guest",
+      "text": "网友反应很真实啊，纷纷表示\"只想要Opus\"，也就是Anthropic的Claude Opus。"
+    },
+    {
+      "role": "host",
+      "text": "你看，一边是OpenAI用承诺拉用户，一边是用户心里念着Claude，竞争多激烈可见一斑。"
+    },
+    {
+      "role": "guest",
+      "text": "没错，而且OpenAI这波\"28天实验\"今天也首日上线了，节奏挺紧。"
+    },
+    {
+      "role": "host",
+      "text": "那咱们切到国际那头，谷歌那边动了，TheVerge说10月9号起免费用户只能用Flash Lite。"
+    },
+    {
+      "role": "guest",
+      "text": "Flash和Pro以后都得付费，这等于谷歌正式收紧免费大模型的门。"
+    },
+    {
+      "role": "host",
+      "text": "这是不是说明Gemini的推理成本已经高到撑不住全面免费了？"
+    },
+    {
+      "role": "guest",
+      "text": "其实不只是成本，你看OpenAI那边也在搞ChatGPT的水印、Wikipedia宕机调查，全都指向一个词：商业化。"
+    },
+    {
+      "role": "host",
+      "text": "说到水印，OpenAI正在ChatGPT和Codex里加入文本水印，不过先在欧盟地区上线。"
+    },
+    {
+      "role": "guest",
+      "text": "对，他们管这套叫textGrain水印，说是机器可读、人类看不出来，匹配度还挺高。"
+    },
+    {
+      "role": "host",
+      "text": "那以后咱们写的稿子，是不是一过水印检测就知道是不是AI写的了？"
+    },
+    {
+      "role": "guest",
+      "text": "理论上是这样，但目前只在欧盟铺，可能是为了应对当地监管先打个底。"
+    },
+    {
+      "role": "host",
+      "text": "还有件挺戏剧化的事，OpenAI的公关居然让记者\"move on\"，因为Altman采访里提到ChatGPT用户自杀。"
+    },
+    {
+      "role": "guest",
+      "text": "这事出在《名利场》的采访上，记者Guiducci追问得很直接，公关却想岔开话题。"
+    },
+    {
+      "role": "host",
+      "text": "你看啊，AI安全和伦理这块，OpenAI明显还在被动接招。"
+    },
+    {
+      "role": "guest",
+      "text": "对，而且维基百科那边也说了，OpenAI的\"流氓机器人\"可能跟5月的宕机事件有关联。"
+    },
+    {
+      "role": "host",
+      "text": "再来个重磅，DeepSeek正在谈至少120亿美元的融资，腾讯领投。"
+    },
+    {
+      "role": "guest",
+      "text": "这笔钱加上国内的800亿人民币，DeepSeek现在的弹药库可以说相当恐怖。"
+    },
+    {
+      "role": "host",
+      "text": "而且他们还在给华为昇腾做适配对吧？这条路走得挺硬。"
+    },
+    {
+      "role": "guest",
+      "text": "没错，从硬件到资本，再到Harness开源，DeepSeek几乎是在全链条同时推进。"
+    },
+    {
+      "role": "host",
+      "text": "那咱们做个横向对比，国内大模型这半年估值飙升，国际那头什么节奏？"
+    },
+    {
+      "role": "guest",
+      "text": "你看啊，月之暗面500亿美元、DeepSeek加起来近千亿，这速度其实比Anthropic和OpenAI早期还猛。"
+    },
+    {
+      "role": "host",
+      "text": "但是OpenAI那边也在加速，28天承诺加水印，都是为了巩固订阅收入。"
+    },
+    {
+      "role": "guest",
+      "text": "所以你会发现，国内是资本驱动产品，国际是产品驱动商业化，路径正好反过来。"
+    },
+    {
+      "role": "host",
+      "text": "那AMD的苏姿丰昨天在台北说，未来几年芯片需求会\"非常高\"，是不是呼应了这场算力战？"
+    },
+    {
+      "role": "guest",
+      "text": "对，她明确说芯片需求大于供给，存储芯片供应持续紧张，这个判断和美光财报对得上。"
+    },
+    {
+      "role": "host",
+      "text": "美光2026财年Q4净利377亿美元，是去年同期的10倍以上，存储确实进入了超级周期。"
+    },
+    {
+      "role": "guest",
+      "text": "但是市场已经开始担心2028年供需逆转，所以美光股价盘后反而跌了，这就是预期博弈。"
+    },
+    {
+      "role": "host",
+      "text": "好，咱们快速过几条其他要闻：韩国明年启动35亿美元前沿AI模型研发计划。"
+    },
+    {
+      "role": "guest",
+      "text": "EmbedingGemma 2也开源了，740M参数的多模态嵌入模型，Apache 2.0协议。"
+    },
+    {
+      "role": "host",
+      "text": "阿里Qwen的全史也出来了，从7B一路做到2.4万亿参数的开源矩阵。"
+    },
+    {
+      "role": "guest",
+      "text": "OpenAI还和Atlassian扩大合作，要把企业知识直接接进前沿模型里。"
+    },
+    {
+      "role": "host",
+      "text": "硬科技这边，三星电机拿下了近2900亿韩元的AI服务器MLCC订单。"
+    },
+    {
+      "role": "guest",
+      "text": "对，还有Cloudflare把1.1.1.1 DNS的缓存内存直接砍掉100TB，工程优化挺夸张。"
+    },
+    {
+      "role": "host",
+      "text": "最后两条，软银支持的DayOne数据中心赴美IPO，目标募资至多50亿美元。"
+    },
+    {
+      "role": "guest",
+      "text": "而Rabbit创始人吕骋昨天也谈了个人Agent的愿景：人不该为Agent改变思考方式。"
+    },
+    {
+      "role": "host",
+      "text": "那展望一下未来，你觉得哪件事会成为接下来一个月的最大变量？"
+    },
+    {
+      "role": "guest",
+      "text": "我比较关注DeepSeek和月之暗面的IPO进展，这两家一旦上市，整个中国AI估值会被重估。"
+    },
+    {
+      "role": "host",
+      "text": "那国际那头呢？OpenAI的28天实验能不能跑通，会不会直接决定ChatGPT的订阅留存？"
+    },
+    {
+      "role": "guest",
+      "text": "其实最关键的变量是水印监管，欧盟一旦全面铺开，全球内容生态都会跟着动。"
+    },
+    {
+      "role": "host",
+      "text": "还有Hinton的RSI论文，会不会引发新一轮的AI自我迭代军备竞赛？"
+    },
+    {
+      "role": "host",
+      "text": "对，RSI一开闸，AI研发节奏会从\"人写模型\"变成\"模型写模型\"，这一步跨出去很吓人。"
+    }
+  ]
+}
