@@ -1,0 +1,73 @@
+# 今日AI头条 · 2026-10-08
+
+> 每日 8:00 自动汇总国际 + 国内 AI 新闻 (24h 内)
+
+
+**抓取统计**: OpenAI-News=7, Google-AI-Blog=1, TheVerge-AI=10, MarkTechPost=7, HuggingFace-Blog=2, HackerNews=1, HackerNews-DeepSeek=5, HackerNews-Kimi=8, HackerNews-Qwen=8, HackerNews-Grok=8, HackerNews-xAI=8, ArXiv-cs.AI=15, 量子位=8, 雷锋网=7, 钛媒体=15, 36氪=15, InfoQ中文=6, 掘金=15, 199IT=15
+
+**去重**: 国际 80→76, 国内 81→77
+
+## 🌍 国际
+
+- **[Running Qwen Flash Next Q4 on a Mac Mini](https://freshworktree.com/run-qwen-flash-next-q4-on-a-mac-mini-360-tks-read-in-17-5-tks-decode/)** _HackerNews-Qwen_ — 
+- **[DeepSeek v4.1 Flash at 378 tok/s 99.7% Cache hit rate](https://runinfra.ai/inference-api/deepseek-v4-1-flash)** _HackerNews-DeepSeek_ — 
+- **[Fast single-box DeepSeek v4.1 Flash runtime](https://tangled.org/astrra.space/ds4-recipe)** _HackerNews-DeepSeek_ — 
+- **[Moefit: Fit Qwen 3.8 Flash on your Mac with limited ram](https://github.com/yavarb/moefit)** _HackerNews-Qwen_ — 
+- **[MS announces DeepSeek V4 Flash and Nemotron locally, llama.cpp comes to Win ML](https://pasqualepillitteri.it/en/news/21457/windows-deepseek-v4-flash-nemotron-llama-cpp-windows-ml)** _HackerNews-DeepSeek_ — 
+- **[Why Isn't the Industry Freaking Out About DeepSeek 4.1 Flash?](https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/)** _HackerNews-DeepSeek_ — 
+- **[Grok Bot will use Opus 5.5, Midjourney](https://twitter.com/elonmusk/status/2107724314451878104)** _HackerNews-Grok_ — 
+- **[How I use Claude Code subagents to make my Claude Pro limits last longer](https://www.andreagrandi.it/posts/claude-code-subagents-to-save-usage/)** _HackerNews-Kimi_ — 
+- **[Meta AI Open-Sources Rebalancer: A C++ Assignment Solver That Runs About 40 Million Placement Problems a Day](https://www.marktechpost.com/2026/10/06/meta-ai-open-sources-rebalancer-a-c-assignment-solver-that-runs-about-40-million-placement-problems-a-day/)** _MarkTechPost_ — <p>Meta has open-sourced Rebalancer, the C++ and Python library it has used for over 9 years to place shards, servers and traffic. It handles about 40 million assignment problems a day, using local se
+- **[DeepSeek to Raise at Least $12B in Tencent-Backed Funding](https://www.bloomberg.com/news/articles/2026-10-06/deepseek-to-raise-at-least-12-billion-in-tencent-backed-funding)** _HackerNews-DeepSeek_ — 
+- **[Show HN: We Westernized Qwen for US enterprise use](https://huggingface.co/hirundo-io/Qwen3.6-35B-A3B-Westernized)** _HackerNews-Qwen_ — 
+- **[OpenAI drops another batch of mathematical breakthroughs](https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github)** _TheVerge-AI_ — OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related 
+- **[Grok Bot 101 [video]](https://www.youtube.com/watch?v=8xXhE25vJZY)** _HackerNews-Grok_ — 
+- **[Google invests millions in Mark Zuckerberg’s efforts to create a ‘virtual cell’](https://www.theverge.com/tech/1006766/google-meta-biohub-investment-virtual-cell)** _TheVerge-AI_ — Google DeepMind, Meta, and AI drug discovery startup Isomorphic Labs are jointly investing $300 million into an initiative to create a "virtual cell" that researchers can use to combat disease, as rep
+- **[Show HN: Codync – Free, open-source Grok Bot alternative for any coding agent](https://github.com/leepokai/Codync)** _HackerNews-Grok_ — 
+- **[Atlassian and OpenAI expand partnership to turn enterprise knowledge into action](https://openai.com/index/atlassian-partnership)** _OpenAI-News_ — Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.
+- **[Google DeepMind Releases EmbeddingGemma 2, a 740M Open Multimodal Embedding Model Built on Gemma 4](https://www.marktechpost.com/2026/10/06/google-deepmind-releases-embeddinggemma-2-a-740m-open-multimodal-embedding-model-built-on-gemma-4/)** _MarkTechPost_ — <p>Google DeepMind's EmbeddingGemma 2 maps 5 input types into one 768d space and ships today under Apache 2.0.</p>
+<p>The post <a href="https://www.marktechpost.com/2026/10/06/google-deepmind-releases
+- **[Show HN: I turned my iPhone and a $20 smart plug into an f-stop timer](https://peterszentkiralyi.eu/darkplug/)** _HackerNews-Kimi_ — I am a film photographer and do some darkroom printing and always wanted one of the proper, advanced f-stop timers, but never really wanted to spend a couple hundred dollars on one. Eventually I figur
+- **[Surface RTX Spark Dev Box is available for preorder for $5,999](https://www.theverge.com/tech/1006915/microsoft-surface-rtx-spark-dev-box-preorder)** _TheVerge-AI_ — Microsoft's Nvidia-powered Surface RTX Spark Dev Box is available for preorder now and is slated to ship in November for just about $6,000. It's pricier than the DGX Spark mini PC Nvidia launched last
+- **[QBasic Nibbles in C#](https://github.com/kimtg/NibblesSharp)** _HackerNews-Kimi_ — 
+- **['I'm a Twenty-Five-Year-Old Who Just Bought My Local Newspaper'](https://www.cjr.org/business_of_news/im-a-twenty-five-year-old-who-just-bought-my-local-newspaper-former-intern-evan-newton-monticello-news-georgia.php)** _HackerNews-Qwen_ — 
+- **[JetBrains reports revenue growth, net financial loss for 2025](https://www.helgilibrary.com/companies/jetbrains)** _HackerNews-Grok_ — 
+- **[Jim Bakker, disgraced televangelist who went to prison, dies at 86](https://www.washingtonpost.com/obituaries/2026/10/06/jim-bakker-disgraced-televangelist-dies-xx/)** _HackerNews-Qwen_ — 
+- **[Coupled but Late: Turn-Taking Between Full-Duplex Speech Models in Unscripted Dialogue](https://arxiv.org/abs/2610.08683v1)** _ArXiv-cs.AI_ — Full-duplex speech models are trained to converse with a person, but they are increasingly made to converse with each other, in self-play data generation, agent societies, and model-based evaluation. 
+- **[ScienceClaw: Benchmarking Continual Self-Evolution of AI-for-Science Agents Across the Natural and Social Sciences](https://arxiv.org/abs/2610.08691v1)** _ArXiv-cs.AI_ — Large language model agents are accelerating scientific automation, yet verified executions rarely become persistent program-level improvements, and existing evaluations do not examine this process ac
+
+## 🇨🇳 国内
+
+- **[8点1氪丨中国航协回应东航空姐跪地道歉事件；DeepSeek新一轮融资逼近1000亿；安踏集团正式成为彪马最大股东](https://36kr.com/p/4016467711316101?f=rss)** _36氪_ — <h2>今日热点导览</h2>
+  <ul>
+   <li>SpaceXAI官宣更名SpaceXSI</li>
+   <li>OpenAI将在欧盟为ChatGPT和Codex文本输出添加隐形水印</li>
+   <li>2026年诺贝尔化学奖、物理学奖揭晓</li>
+   <li>7-11便利店退出印度</li>
+   <li>苹果一号电脑或拍出80万美元</li>
+  </ul>
+  <h2>T
+- **[致敬，DeepSeek 最新开源的不是模型，是国产算力的地基](https://juejin.cn/post/7693930819551281179)** _掘金_ — 致敬DeepSeek，国庆节前，DeepSeek 干了件不太上热搜、但可能比发模型更重要的事，DeepSeek 把自己训练大模型用的"锅碗瓢盆"，在国产芯片上也做了一套，然后开源了。
+- **[博通据悉计划为OpenAI定制芯片项目融资逾500亿美元](https://36kr.com/newsflashes/4016409686183811?f=rss)** _36氪_ — 博通正在为其与OpenAI合作开发定制人工智能（AI）芯片项目安排超过500亿美元的融资。该报道援引知情人士称，阿波罗全球管理和黑石集团是洽谈参与这笔融资的贷款机构之一。与此同时，甲骨文也在与阿波罗和高盛商谈，为购买芯片筹措资金。随着数据中心建设成本飙升，各家科技公司竞相寻求融资。为了支持日益增多的AI软件和服务，科技巨头大举建设AI基础设施，也促使它们寻求新的融资方式。博通今年6月宣布建立一个融
+- **[OpenAI「疯狂28天」首日，这都发了些啥啊…](https://www.qbitai.com/2026/10/501726.html)** _量子位_ — 
+- **[OpenAI一夜甩出722篇数学论文！黎曼霍奇BSD全上阵，数学家：读不过来](https://www.qbitai.com/2026/10/501749.html)** _量子位_ — 三位菲尔兹奖得主：不代表认可
+- **[Claude、GPT“跨界”做视频，Seedance们的护城河还牢吗？](https://www.tmtpost.com/8160182.html)** _钛媒体_ — 未来的胜负手，不在于谁的参数更高，而在于谁能更深地融入真实的创作生产流程，成为创作者离不开的生产工具。
+- **[Swift Server，又多了一个 Google -- 肘子的 Swift 周报 #156](https://juejin.cn/post/7693712140221579279)** _掘金_ — Google Cloud 推出服务端 Swift SDK，如何看待大厂入局？本期探讨 Swift on Server 演进历程，并涵盖 Xcode Preview MCP 实践、AI 编程助手优化
+- **[【钛晨报】推动体育赛事发展，国务院办公厅最新部署；SpaceX拟募资400亿美元采购英伟达芯片；中国央行连续第23个月增持黄金](https://www.tmtpost.com/8160058.html)** _钛媒体_ — GLM-5.3上架Amazon，智谱打开海外收入分成通道；华为与高通宣布达成广泛专利许可协议；抖音7.5亿收购案终止；英伟达宣布将推出DGX SPARK 64GB，可在本地运行最高1000亿参数AI模型；软银完成对OpenAI追加投资最后一笔100亿美元，累计投资达646亿美元；国家税务总局发布全国统一的税务行政处罚裁量基准；中国推进7项天然气国际标准成功立项；财政部部长蓝佛安：要研究制定针对性强
+- **[2026年前三季度全球科技亿万富豪财富增加8450亿美元，创同期新高](http://www.199it.com/archives/1855667.html)** _199IT_ — 彭博亿万富豪指数显示，截至9月30日，全球500大富豪中约100位科技富豪财富合计增加8450亿美元，创同期新高。科技富豪总财富达4.6万亿美元，占指数财富36%；马斯克增加3100亿美元，占指数增幅40%；美国富豪贡献94%净财富增幅。
+- **[摩根士丹利：英伟达锁定2027年全球约37.3%HBM供应，承诺金额2790亿美元](http://www.199it.com/archives/1855665.html)** _199IT_ — 摩根士丹利估算，英伟达已锁定2027年全球约37.3%的HBM供应，承诺金额达2790亿美元。存储成本上升，英伟达毛利率预计降至71%-72%。瑞银预计2027年HBM均价同比上涨79%。三大存储原厂产能已被预订，消费端存储价格短期难回落。
+- **[黑莓键盘机又火了？昔日 830 亿美元机皇，如今靠卖系统“翻红”](https://www.tmtpost.com/8154176.html)** _钛媒体_ — 手机业务归零后，靠QNX翻身。
+- **[LG能源第三季度合并营收9.64万亿韩元](https://36kr.com/newsflashes/4016446627680133?f=rss)** _36氪_ — LG能源第三季度合并营收9.64万亿韩元，高于此前预期的8.48万亿韩元。LG能源第三季度营业利润为7560亿韩元，高于预期的3654.8亿韩元。（新浪财经）
+- **[10月近百只新基金定档待售，六成产品聚焦权益赛道](https://36kr.com/newsflashes/4016463036567429?f=rss)** _36氪_ — 国庆假期过后，10月新基金发行掀起小高峰，近百只新基金已经定档待售，其中六成产品聚焦权益赛道，有望为A股带来更多增量资金。同时，处于建仓期的次新基金也有望为A股带来约300亿元增量资金，其中包括规模超百亿元的科技主题新发股票ETF，以及近200亿元处于建仓期内的主动权益次新基金。此外，受益于新动能持续培育、传统经济内生动力修复，公募机构整体对四季度A股权益资产维持乐观判断。（证券时报）
+- **[北京现房销售细则落地后首个长假，部分新盘人气较旺](https://36kr.com/newsflashes/4016455897436037?f=rss)** _36氪_ — 北京现房销售细则落地后的首个长假，部分新盘人气较旺。国庆假期实地探访北京多个新楼盘发现，售楼处要排号等待销售接待，看样板间同样要排号，个别项目样板间叫号已超400号；有客户经理日均接待四十多组客户、上百人，从早上一直忙到晚上12点。（证券时报）
+- **[华泰证券A股策略：节后或迎来修复窗口](https://36kr.com/newsflashes/4016467433017225?f=rss)** _36氪_ — 36氪获悉，华泰证券发布A股策略报告称，假期前一周市场继续缩量震荡，结构上高低切换延续，创新药、地产、银行等相对占优，通信、半导体等仍在消化拥挤度。假期内增量信息整体偏正面：国内方面，9月制造业PMI重回扩张区间，假期消费数据总量平稳、结构分化，政策端首套房贷财政贴息落地；海外方面，“弱非农”下股涨债滞，纳指100创新高。结合长假后日历效应，节前A股已出现较明显调整，盈利预期稳定，节后有望放量回升
+- **[亚马逊多个团队再度裁员](https://36kr.com/newsflashes/4016471600336768?f=rss)** _36氪_ — 据媒体最新报道，亚马逊员工周二称，公司多个业务部门开启新一轮裁员。媒体看到消息显示，一批员工在内部Slack频道发文，表示收到邮件通知岗位被撤销。这个近3.7万名成员的频道瞬间充满提问，大家关心遣散补偿、内部岗位投递权限，以及是否还会收到更多裁员通知。消息显示本次裁员覆盖多个业务单元，包含客服、平台支持、亚马逊零售业务的工程岗位，同时波及印度与英国团队。（新浪财经）
+- **[华泰证券：白酒市场“双节”表现平淡，行业分化延续](https://36kr.com/newsflashes/4016469719044225?f=rss)** _36氪_ — 36氪获悉，华泰证券研报称，今年中秋及国庆白酒市场整体表现平淡，行业延续分化表现。分场景看，商务宴请、高端礼赠及企业大额采购仍弱，个人礼赠、家庭聚饮和大众宴席相对有支撑；分价格带看，飞天茅台、茅台1935及部分地产酒优势单品表现靠前，商务次高端压力较为明显。当前需求向头部品牌及优势单品集中的趋势延续，局部去库有助于释放渠道经营压力，行业需求拐点仍需跟踪，后续仍需观察真实开瓶、节后补货及渠道利润修复
+- **[国盛证券：AI算力催生电力缺口，燃机景气周期下国内产业链迎发展良机](https://36kr.com/newsflashes/4016473806262406?f=rss)** _36氪_ — 36氪获悉，国盛证券研报表示，AI算力驱动全球数据中心加速扩容使得北美电力供给瓶颈凸显，燃气轮机成为现场供电核心解决方案。全球燃气轮机行业迈入高景气周期，在行业长期低迷的背景下供需错配显著。国内燃气轮机产业链实现多点突破，各环节厂商深度切入全球供给体系。本轮全球燃气轮机需求扩容周期下，国内具备技术与成本优势的产业链各环节厂商有望充分受益于行业景气红利。
+- **[险资可投港股通ETF，跨境配置再添新通道](https://36kr.com/newsflashes/4016475066617993?f=rss)** _36氪_ — 保险资金投资港股通ETF的监管口径进一步明确。多家险企近日收到《关于明确保险资金投资港股通ETF监管口径的函》。函件明确，按照监管规定可投资港股通股票的保险机构，可以投资港股通ETF，并参照保险资金投资港股通股票的相关监管规定执行，该监管口径自9月20日起实施。8月18日，国家金融监督管理总局表态支持内地保险机构通过沪深港通投资香港交易所买卖基金；9月23日，香港证监会行政总裁梁凤仪公开证实，内地
+- **[国庆长假期间上海楼市热度未消，新房刚改产品热销](https://36kr.com/newsflashes/4016477467234180?f=rss)** _36氪_ — 国庆长假期间，上海楼市热度未消。10月6日下午，在宝山区长江西路附近的某央企A楼盘售楼处，前来看盘的客户络绎不绝。“国庆长假期间还是有不少客户前来看房。目前有少量143平方米的房源还在售，100平方米等户型均已售罄，交房时间也有望从明年9月提前至春季。”A楼盘相关负责人表示。10月6日，上海中原地产首席分析师卢文曦分析，新政带来房企成本端变化影响，有部分楼盘收回此前的优惠折扣，也有项目释放后续批次
+- **[中文在线：终止发行H股股票并于香港联交所上市事项](https://36kr.com/newsflashes/4016489858895751?f=rss)** _36氪_ — 36氪获悉，中文在线公告，基于市场环境与公司自身发展规划的综合考量，公司决定终止发行H股股票并于香港联交所上市。目前公司经营状况正常，此次终止H股发行上市事项不会对公司经营活动和持续发展造成重大影响。
+- **[深圳：国庆假期二手房咨询量成交量双双回暖](https://36kr.com/newsflashes/4016478321971080?f=rss)** _36氪_ — 作为全国楼市风向标之一的深圳，国庆假期新房与二手房市场也随着政策合力的释放发生变化。“在政策刺激下，9月二手房成交量已经明显高于8月。国庆假期期间的咨询量和成交量与以往相比也有所回暖。”深圳链家东方颐园店商圈经理熊小飞表示，“最直观的变化是，购房者的决策链条明显缩短，楼市新政提振了购房者的信心，也扫除了市场长期存在的不确定性，购房决策更为果断。”深圳不同区域的二手房价走势虽有分化，但市场信心已有所
+- **[中信证券：AI产业重心逐步转向推理、货币化，看好结构性机会](https://36kr.com/newsflashes/4016492125130883?f=rss)** _36氪_ — 36氪获悉，中信证券研报称，近期Anthropic、OpenAI等模型厂商提出放缓前沿能力提升的倡议，引发市场剧烈波动、广泛讨论。中信证券分析该事件和两位创始人道德洁癖无关，更多反映其精明的商业算计，以及当下头部模型厂商经营层面困境，监管成本上升更有利于头部模型厂商，以及模型进展、应用落地之间脱节使得头部模型厂商在市场定位、货币化等层面面临持续压力。预计后续行业监管有望缓慢完善，头部模型公司将更多
+- **[上海国庆假期线上线下消费762.4亿元，入境消费活力彰显](https://36kr.com/newsflashes/4016495015481476?f=rss)** _36氪_ — 从上海市商务委了解到，今年国庆，上海以“爱购上海，欢度国庆”为主题，全力做好节日期间200余场促消费活动。国庆假期（9月30日至10月6日），上海全市线上线下消费金额762.4亿元，同比增长9.9%。其中，线下消费金额400.4亿元，同比增长15.1%；线上消费金额362亿元，同比增长4.7%。监测的19个市级商圈消费金额56.2亿元，同比增长14.5%，日均进店客流396.4万人，同比增长1.9
+- **[LLM Provider SLA 工程实践：把第三方模型服务的不稳定性挡在你的系统边界之外](https://juejin.cn/post/7694033497295585307)** _掘金_ — 第三方 LLM Provider 的 SLA 承诺通常在 99.9%，但对生产应用来说远远不够。本文从 5 层工程体系出发，讲如何在应用层建立 Provider SLA 管理：SLO 基线测量、异常检测、降级契约、Provider 切换触发策略与成本-可用性权衡框架。
