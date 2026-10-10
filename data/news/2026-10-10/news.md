@@ -1,0 +1,96 @@
+# 今日AI头条 · 2026-10-10
+
+> 每日 8:00 自动汇总国际 + 国内 AI 新闻 (24h 内)
+
+
+**抓取统计**: OpenAI-News=5, TheVerge-AI=10, TechReview-AI=4, LastWeekInAI=1, MarkTechPost=10, HuggingFace-Blog=1, HackerNews=1, HackerNews-DeepSeek=1, HackerNews-Kimi=8, HackerNews-Qwen=8, HackerNews-Grok=8, HackerNews-xAI=8, ArXiv-cs.AI=15, 量子位=10, 雷锋网=15, 钛媒体=15, 36氪=15, InfoQ中文=15, 掘金=15, 199IT=15
+
+**去重**: 国际 80→78, 国内 100→100
+
+## 🌍 国际
+
+- **[Lily-Qwen3.8-Flash-Next](https://github.com/fabiogreter/lily-qwen3.8-flash-next)** _HackerNews-Qwen_ — 
+- **[Anthropic launches free AI security scans for open-source projects](https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner)** _TheVerge-AI_ — Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner. It says open-source projects that opt-in will get "thorough, periodic secur
+- **[From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents](https://arxiv.org/abs/2610.12463v1)** _ArXiv-cs.AI_ — In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research i
+- **[Google Research RRSI Guide: Mastering Self-Improving AI Agents](https://www.marktechpost.com/2026/10/08/google-research-rrsi-guide-mastering-self-improving-ai-agents/)** _MarkTechPost_ — <p>Explore a comprehensive coding guide to Google Research's RRSI (Regularized Recursive Self-Improvement), detailing how noise bands, cost rules, and leakage screens enable safe, efficient, and self-
+- **[Prism-ML Bonsai 2 Joins Our (ByteShape) Qwen3.8 Quantization Comparison](https://www.reddit.com/r/LocalLLaMA/comments/1wju8ky/prismml_bonsai_2_joins_our_qwen38_quantization/)** _HackerNews-Qwen_ — 
+- **[DeepSeek kernel engineer's opinion on automating his own job](https://www.lesswrong.com/posts/o8roRrdisBAjngHJN/a-summary-of-a-viral-chinese-essay-on-what-a-deepseek-kernel)** _HackerNews-DeepSeek_ — 
+- **[Qwen3.8-27B at ~200 tok/s peak on an Apple M5 Max](https://twitter.com/JiaZhihao/status/2108249739414147259)** _HackerNews-Qwen_ — 
+- **[Show HN: Pulsar – Qwen3.8-27B at 148 tok/s writing code on M5 Max](https://github.com/loopai-hq/pulsar)** _HackerNews-Qwen_ — 
+- **[Underdog Saluki: Qwen3.8-27B in under 8GB with tool calling intact](https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0)** _HackerNews-Qwen_ — 
+- **[Open-sourcing Finsight, based on Qwen3-14B for financial reasoning](https://news.ycombinator.com/item?id=50025273)** _HackerNews-Qwen_ — We are open-sourcing an earlier version of Finsight, based on Qwen3-14B, adapted for financial reasoning.<p>One interesting result was the trade-off:
+- FinQA accuracy improved from 1.9% to 12.6%
+- Six
+- **[Ecosia switches from Mistral to open-weight AI models including Qwen, GLM, Kimi](https://technode.com/2026/10/09/ecosia-switches-from-mistral-to-open-weight-ai-models-including-qwen-glm-and-kimi/)** _HackerNews-Kimi_ — 
+- **[Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling](https://www.marktechpost.com/2026/10/09/meet-the-underdog-saluki-27b-a-2-bit-qwen3-8-27b-that-beats-the-original-at-tool-calling/)** _MarkTechPost_ — <p>Underdog Saluki 27B is a 7.89 GB, 2-bit GGUF of Qwen3.8-27B under Apache 2.0. It beats the 54 GB original on tool calling but gives up ground on competition math and reasoning.</p>
+<p>The post <a h
+- **[Alibaba Qwen Releases Qwen-Image-2.1-Turbo, an 8-Step 7B Image Model](https://www.marktechpost.com/2026/10/09/alibaba-qwen-releases-qwen-image-2-1-turbo-an-8-step-7b-image-model/)** _MarkTechPost_ — <p>Alibaba&#8217;s Qwen team has released Qwen-Image-2.1-Turbo, an accelerated checkpoint of its open-weight Qwen-Image-2.1 model. It generates and edits images in 8 denoising steps instead of the bas
+- **[SpaceXAI joins Omarchy as corporate sponsor with $1.5M in Grok tokens](https://omarchy.org/news/2026/10/spacexai-joins-as-founding-corporate-patron/)** _HackerNews-Grok_ — 
+- **[Show HN: Runbook and scripts for Claude to edit raw footage in DaVinci Resolve](https://blog.simbastack.com/claude-edited-my-youtube-videos-davinci-resolve/)** _HackerNews-Kimi_ — Hi HN,<p>I&#x27;m not a content creator (yet), I&#x27;m a developer and I build tools &#x2F; agentic systems.<p>I was very impressed with Opus 5.5 overall, with all the animation, motion graphics and 
+- **[SpaceXAI backs Omarchy, the controversial Linux distro, with $1.5 million in compute](https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson)** _TheVerge-AI_ — If Elon Musk and SpaceXAI were going to back any Linux distro, it seems obvious they'd back Omarchy. Today it was announced that SpaceXAI would be joining the Omacom Foundation, which oversees Omarchy
+- **[USA Today becomes the latest publisher to sue OpenAI](https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit)** _TheVerge-AI_ — USA Today Co., along with the several local newspapers it owns, is suing OpenAI over claims that the company copied "hundreds of thousands" of articles to train its AI models, as reported earlier by R
+- **[Muse and Grok bot are a privacy nightmare,so I created a self-hosted alternative](https://eidonai.app)** _HackerNews-Grok_ — 
+- **[OpenAI doubles down on decision to fire three AI safety researchers](https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers)** _TheVerge-AI_ — OpenAI is standing firm on its decision to fire three safety researchers after an investigation found they committed "a significant breach of trust." In a post on X on Friday, the company said Jasmine
+- **[&#8216;Pure insanity&#8217;: Mathematicians will need years to make sense of OpenAI&#8217;s latest drop](https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos)** _TheVerge-AI_ — "Staggering." "Overwhelming." "Unprecedented." "Surreal." "Pure insanity." Those were among the descriptions more than three dozen mathematicians reached for in conversations with The Verge as they tr
+- **[Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide](https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip)** _TheVerge-AI_ — An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc. In a statement released on Friday, the P
+- **[Show HN: SpecWeave 3 – hand off a coding task across Claude Code, Codex and Grok](https://github.com/anton-abyzov/specweave)** _HackerNews-Grok_ — 
+- **[Google Cloud Launches Gemini Agent, One Universal Agent for Enterprise Work](https://www.marktechpost.com/2026/10/08/google-cloud-launches-gemini-agent-one-universal-agent-for-enterprise-work/)** _MarkTechPost_ — <p>Google Cloud has introduced the Google Cloud Gemini agent, a single agent for enterprise work. The Gemini agent is a cloud-hosted agent from Google Cloud that answers questions, does knowledge work
+- **[Sophos cuts threat investigation time by 96% with OpenAI Daybreak](https://openai.com/index/sophos)** _OpenAI-News_ — Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.
+- **[OpenAI Decisions API Hits Public Beta With 10x Faster Typed Answers](https://www.marktechpost.com/2026/10/09/openai-decisions-api-hits-public-beta-with-10x-faster-typed-answers/)** _MarkTechPost_ — <p>OpenAI’s Decisions API is now in public beta on GPT-6 Luna. It returns typed probabilities, choices and scores about 10x faster than the Responses API, billing $0.10 per 1M input tokens with no out
+
+## 🇨🇳 国内
+
+- **[8点1氪丨特朗普买入Meta股票；山姆宣布拟限制亲友卡绑定；豆包开通水、电、燃气等生活缴费功能](https://36kr.com/p/4019297973735560?f=rss)** _36氪_ — <h2>今日热点导览</h2>
+  <ul>
+   <li>Anthropic据悉组建专门团队对接2028年总统候选人</li>
+   <li>中国手机迎来新一轮涨价潮，部分机型涨幅达1000元</li>
+   <li>B站申请JILIJILI等商标</li>
+   <li>广东汕头在全国率先推出“词元出海贷”</li>
+   <li>英国大学生申领贷款将需达到最低标准</li>
+  </ul>
+
+- **[再裁员5000人！保时捷明确回归燃油车，高端车型计划涨价20%；腾讯拟发行50亿美元离岸债券，或筹钱加码AI；OpenAI全面上线GPT-6](https://www.leiphone.com/category/zaobao/GGmq1RiBgXY2GSVL.html)** _雷锋网_ — <section></section><section><section><section><section><section><section><section></section><section><section style="text-align: center;"><span style="font-size: 24px;"><strong>要闻提示</strong></span></s
+- **[@ 一下就能派活？谷歌推出办公 Agent，拥有独立账号、能够创建子 Agent，还能调用 Claude](https://www.infoq.cn/article/490gIS9Bk0NmylN7GIt1?utm_source=rss&utm_medium=article)** _InfoQ中文_ — <div align="right"><a href="https://www.infoq.cn/article/490gIS9Bk0NmylN7GIt1?utm_source=rss&amp;utm_medium=article">点击查看原文></a></div>
+- **[Claude Haiku 5.5 降本背后：操作能力暴涨，复杂编程为何仍差一截？](https://www.leiphone.com/category/ai/n2GjuJRnM4utgaun.html)** _雷锋网_ — <section style="text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;"><img class="rich_pages wxw-img" src="https://static.leiphone.com/uploads/new/images/20261008/6ac7b88ded3c4.j
+- **[字节找到了DeepSeek时强时弱的原因](https://www.qbitai.com/2026/10/502364.html)** _量子位_ — 答不答得对，得看Token站位
+- **[Kimi 现代高速开源治理的 AI Native 实践｜QCon上海](https://www.infoq.cn/article/832RV3o8ireEdJpO9H4v?utm_source=rss&utm_medium=article)** _InfoQ中文_ — <div align="right"><a href="https://www.infoq.cn/article/832RV3o8ireEdJpO9H4v?utm_source=rss&amp;utm_medium=article">点击查看原文></a></div>
+- **[豆包工作新增画布功能，并接入豆包2.1 Lite模型](https://www.leiphone.com/category/industrynews/J8Nj09CidhwiTl90.html)** _雷锋网_ — <p>近期，豆包工作持续更新，推出创作画布功能，并在模型上新增了轻量级的豆包2.1 Lite模型。</p><p>据介绍，画布功能主要针对复杂创作任务，速度更快，交互体验更好。该功能将素材、设计方案与创作成果集中到同一页面，用户可在一张无限画布上快速实现各个步骤，随时查看、对比和整理。图片生成后，用户仍可继续修改文字、配色和布局，从整体风格到局部细节逐步调整。该功能同时接入全新图片模型Seedrea
+- **[OpenAI 高管亲述：我们是怎么在一周内做出 Jev 竞品的](https://www.infoq.cn/article/IRqoPz4cNONlNFBolD9V?utm_source=rss&utm_medium=article)** _InfoQ中文_ — <div align="right"><a href="https://www.infoq.cn/article/IRqoPz4cNONlNFBolD9V?utm_source=rss&amp;utm_medium=article">点击查看原文></a></div>
+- **[Codex 和 Claude Code 都跑偏了，前 OpenAI 研究员称 Jev 出现前 AI 世界是个悲剧](https://www.infoq.cn/article/e0iQfJNgepz7VigRdD61?utm_source=rss&utm_medium=article)** _InfoQ中文_ — <div align="right"><a href="https://www.infoq.cn/article/e0iQfJNgepz7VigRdD61?utm_source=rss&amp;utm_medium=article">点击查看原文></a></div>
+- **[36氪首发丨航天老兵创业做高分辨率遥感相机，连续完成多轮次近亿元融资](https://36kr.com/p/4018036253626502?f=rss)** _36氪_ — <p>作者&nbsp;|&nbsp;乔钰杰</p>
+  <p>编辑&nbsp;|&nbsp;袁斯来</p>
+  <blockquote>
+   <p>本文约2300字，建议阅读5分钟</p>
+  </blockquote>
+  <p>硬氪获悉，北京重眸科技有限公司（以下简称“重眸科技”）近日宣布完成多轮次近亿元融资，由民银国际、亦庄种子基金、远翼投资联合投资，资金将用于0.5米分辨率遥感相机批量投
+- **[载人eVTOL获TC受理，「齐飞航空」完成近亿元战略轮融资｜36氪首发](https://36kr.com/p/4018318436110215?f=rss)** _36氪_ — <p>文&nbsp;|&nbsp;阿至</p>
+  <p>封面来源&nbsp;|&nbsp;企业供图</p>
+  <p>低空经济的资本叙事正在走向分化。</p>
+  <p>2026上半年，领域内大额融资频发，资金高度向少数头部公司集中，eVTOL整机研发制造占据绝对主导地位。进入三季度，行业负面舆情伴随市场收紧，机构对低空赛道的态度普遍转向谨慎。</p>
+  <p>多位从业者表达过类似感受，市场并
+- **[“鲲为科技”完成4亿元新一轮融资](https://36kr.com/newsflashes/4018646306426754?f=rss)** _36氪_ — 36氪获悉，“鲲为科技”近期完成4亿元新一轮融资，多家机构新进，老股东超额加注。据了解，这是鲲为成立七年来首次对外披露融资。高鹄资本担任后续财务顾问。
+- **[全球扩散语言模型最大融资诞生：经纬、顺为、君联数亿元押注扩散智能DiffuSpace](https://www.infoq.cn/article/kjPiCQV1cOO6AzaOjioR?utm_source=rss&utm_medium=article)** _InfoQ中文_ — <div align="right"><a href="https://www.infoq.cn/article/kjPiCQV1cOO6AzaOjioR?utm_source=rss&amp;utm_medium=article">点击查看原文></a></div>
+- **[英伟达没能捧出澳洲的AI估值神话](https://www.tmtpost.com/8162777.html)** _钛媒体_ — 估值300亿美元的AI算力工厂IPO折戟。
+- **[当年「字节投毒实习生」田柯宇，估值 2 亿美元，要挑战李飞飞做世界模型](https://www.leiphone.com/category/yanxishe/BfzpShx7bKSPT4Ul.html)** _雷锋网_ — <section><section><section><section><section style="text-align: center;"><img class="rich_pages wxw-img js_insertlocalimg" src="https://static.leiphone.com/uploads/new/images/20261009/6ac8c28d51f1f.pn
+- **[气候危机正在重塑全球健康经济：万亿美元成本背后的产业重构](http://www.199it.com/archives/1787633.html)** _199IT_ — 报告预计，若缺乏有效应对，到2050年全球将新增1450万例过早死亡，并造成12.5万亿美元经济损失。目前全球适应性资金中，仅不足5%流向健康领域，这意味着健康韧性已成为未来公共投资和企业资本配置的重要增量方向。
+- **[36氪首发｜「闹翻天PLAYFULLY」获青山资本投资，为世界造一张“中国球星卡”](https://36kr.com/p/3987542281862149?f=rss)** _36氪_ — <p>作者｜任彩茹</p>
+  <p>36氪获悉，新兴收藏级卡牌公司「闹翻天PLAYFULLY」（以下简称“闹翻天”）近期完成新一轮融资，青山资本领投，天使轮老股东Adam Zhu持续追投，领甪资本担任长期财务顾问。本轮资金将主要用于全球顶级体育IP的获取与拓展、产品研发与工艺创新以及全球化全渠道建设。</p>
+  <p><strong>「闹翻天」创立于2024年下半年，核心团队深耕文体IP运营、
+- **[【钛晨报】中央重磅部署19项举措，新质生产力发展路径明确；证监会发文，权益类基金成立门槛拟降至5000万元；浙商大佬俞发祥遭立案，两家A股公司回应](https://www.tmtpost.com/8163364.html)** _钛媒体_ — 天孚通信回应海外进出口政策限制传闻；懂车帝辟谣网传内部整顿通知；特斯拉弃用“自动驾驶”命名，以争取欧洲监管批准；iPhone 18 Pro系列被曝削减零部件产量，供应链人士回应；山姆拟限制亲友卡绑定；企查查A股IPO终止；美发布应对所谓“结构性产能和生产过剩”问题部长级联合声明，中方回应。
+- **[让AI走进真实产线，汇川技术2026工博会看点前瞻](https://36kr.com/p/4016926621470853?f=rss)** _36氪_ — <p>一把鲁班锁，几块木件，靠相互咬合形成稳固整体。结构如何组织，决定着各个部分能否共同发挥作用。这个古老物件，也为理解工业智能提供了一个直观入口：让AI走进制造现场，需要把算法、数据和设备真正连接起来。</p>
+  <p>10月12日至16日，2026中国国际工业博览会将在国家会展中心（上海）举行。汇川技术将以“以智融实，共赴新型工业化”为主题，围绕“Make Intelligence REAL
+- **[两年破5800万DAU，三角洲的“赢”没有标准答案](https://36kr.com/p/4017128711278725?f=rss)** _36氪_ — <p>10月8日，《三角洲行动》公布最新日活跃数据——5800万。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20261008/v2_95698ed261a14e1cb1b319a2d164d001@242988687_oswg891993oswg1080oswg608_img_000?x-os
+- **[8点1氪丨国际金价回调，金饰克价已暴跌约150元；A股千元股仅剩3只；711印度门店全部关闭](https://36kr.com/p/4017873472884616?f=rss)** _36氪_ — <h2>今日热点导览</h2>
+  <ul>
+   <li>粤万年青：澄清董事长欧先涛未涉航班冲突传闻，已报案处理</li>
+   <li>711印度门店全部关闭</li>
+   <li>2026年诺贝尔文学奖揭晓</li>
+   <li>腾讯据悉考虑发行至多50亿美元离岸债券</li>
+   <li>消息称三星手机四季度最高减产30%</li>
+   <li>Manus完成超5亿美元新一轮融资<
+- **[美央构建物理AI路径闭环：把人体变成可计算的真实世界](https://36kr.com/p/4018021038657411?f=rss)** _36氪_ — <h2><strong>万美京AIMIRA构建"感知—理解—决策—执行—反馈"产品闭环，回答物理AI核心命题</strong></h2>
+  <p>当AI走出屏幕，游戏规则彻底改变：真实的人体有空间结构、组织状态与一刻不停的时间变化；软件说错一句话可以重新生成，机器做错一个动作，结果可能无法撤回。物理AI难的从来不是更大的模型，而是"感知—建模—决策—执行—验证—再学习"这条长链路。广州美央创新科
+- **[别等项目成功了，才开始讲它的故事！](https://36kr.com/p/4018406199021449?f=rss)** _36氪_ — <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20261009/v2_4e6d6d7519d346149d1a6ff054467b00@5284654_oswg1999231oswg1828oswg860_img_png?x-oss-process=image/quality,q_90/format,jpg/i
+- **[近期海外进出口传闻的政策限制对公司是否有影响？ 天孚通信回应](https://36kr.com/newsflashes/4018634049294471?f=rss)** _36氪_ — 36氪获悉，就“近期海外进出口传闻的政策限制对公司是否有影响？”问题，天孚通信在线上通讯会上回应称，首先公司主营业务为各类无源光器件和有源光器件的研发、生产与销售，目前发布的相关政策未对光器件产品进行约束，不涉及对公司业务产生影响。其次，公司对美国市场的销售收入占比较低，2025年公司对北美地区销售收入占营业收入比例约为1.28%。从当前经营情况看，公司在手订单及客户需求整体保持旺盛，公司会根据市
+- **[美股大型科技股盘前多数上涨，苹果跌超2%](https://36kr.com/newsflashes/4018638880640896?f=rss)** _36氪_ — 36氪获悉，美股大型科技股盘前多数上涨，截至发稿，英伟达、特斯拉涨超1%，微软涨0.98%，亚马逊涨0.74%，谷歌涨0.69%，Meta涨0.59%；苹果跌超2%，奈飞跌超1%。

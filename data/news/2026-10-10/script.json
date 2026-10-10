@@ -1,0 +1,321 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-10-10 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "36氪",
+      "title": "腾讯据悉考虑发行至多50亿美元离岸债券,或为加码AI筹钱",
+      "url": "https://www.36kr.com",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "谷歌推出办公 Agent,拥有独立账号、能创建子 Agent、还能调用 Claude",
+      "url": "https://www.infoq.cn/article/490gIS9Bk0NmylN7GIt1",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "Claude Haiku 5.5 降本背后:操作能力暴涨,复杂编程为何仍差一截?",
+      "url": "https://www.leiphone.com",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "字节找到了 DeepSeek 时强时弱的原因:答不答得对,得看 Token 站位",
+      "url": "https://www.qbitai.com",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "豆包工作新增画布功能,并接入豆包 2.1 Lite 模型",
+      "url": "https://www.leiphone.com",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "经纬、顺为、君联数亿元押注扩散智能 DiffuSpace,全球扩散语言模型最大融资诞生",
+      "url": "https://www.infoq.cn/article/kjPiCQV1cOO6AzaOjioR",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Anthropic 推出免费 AI 安全扫描服务 OSS Scanner,面向开源项目",
+      "url": "https://www.theverge.com",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "阿里 Qwen 发布 Qwen-Image-2.1-Turbo,8 步出图的 7B 图像模型",
+      "url": "https://www.marktechpost.com",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "2 比特 Qwen3.8-27B 反超原版工具调用,7.89 GB 的 Saluki 横空出世",
+      "url": "https://www.marktechpost.com",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI 解雇三名 AI 安全研究员,公司表态不后悔",
+      "url": "https://www.theverge.com",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "OpenAI Decisions API 公开测试版上线,GPT-6 Luna 上提速 10 倍",
+      "url": "https://www.marktechpost.com",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "USA Today 起诉 OpenAI,指其抄袭数十万篇文章用于训练",
+      "url": "https://www.theverge.com",
+      "weight": "deep"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "听众朋友们大家好,今天是 2026 年 10 月 10 号,咱们《今日 AI 头条》准时上线,今天国内外大模型领域动静都不小。"
+    },
+    {
+      "role": "guest",
+      "text": "没错,我先给您把国内几位主角报个到——腾讯、字节、阿里、谷歌中国,还有钱袋子,都来了。"
+    },
+    {
+      "role": "host",
+      "text": "第一条重磅就挺炸,腾讯据说要发行最高 50 亿美元的离岸债券,这是要干啥?加码 AI 吗?"
+    },
+    {
+      "role": "guest",
+      "text": "对,腾讯最近在 AI 上的投入明显在提速,这笔钱大概率会砸向算力和模型,等于在给下半场的弹药库上保险。"
+    },
+    {
+      "role": "host",
+      "text": "你看这种体量的发债,在国内的互联网大厂里其实并不多见,是不是说明 AI 这仗不打不行?"
+    },
+    {
+      "role": "guest",
+      "text": "就是这意思,大模型训练一次烧掉的算力成本,基本是按亿美元起步的,不融资根本跑不动。"
+    },
+    {
+      "role": "host",
+      "text": "好,咱们再看第二条,谷歌这次推出了一个办公 Agent,居然还能调用 Claude,这操作有点意思啊。"
+    },
+    {
+      "role": "guest",
+      "text": "是,这个 Agent 有独立账号、能创建子 Agent,最关键的它允许跨模型调度,等于把竞争者变成了工具。"
+    },
+    {
+      "role": "host",
+      "text": "哎这背后传递什么信号呢?大厂之间是合作更多,还是要死磕?"
+    },
+    {
+      "role": "guest",
+      "text": "我感觉是分层共存,谁能搞定复杂任务链路,谁就坐庄,其他模型哪怕再强也只能当插件。"
+    },
+    {
+      "role": "host",
+      "text": "有意思,那咱们国内的办公 Agent 现在跟谷歌这个比,差距在哪?"
+    },
+    {
+      "role": "guest",
+      "text": "说实话,核心差距不在能不能调用,在于工作流的标准化,谷歌这套走得更靠前。"
+    },
+    {
+      "role": "host",
+      "text": "第三个事儿,Anthropic 的 Claude Haiku 5.5 降价后,操作能力涨了,但复杂编程还是差一截,这矛盾怎么解?"
+    },
+    {
+      "role": "guest",
+      "text": "其实很好理解,Haiku 系列本来就是性价比线,能落地到企业自动化场景就是胜利,真要写复杂代码还得 Opus 上场。"
+    },
+    {
+      "role": "host",
+      "text": "那对企业来说,是不是以后就是\"轻活 Haiku、重活 Opus\"这种组合拳?"
+    },
+    {
+      "role": "guest",
+      "text": "没错,主流打法就是这样,既能控制成本,又能保证关键环节不掉链子。"
+    },
+    {
+      "role": "host",
+      "text": "第四个,字节那边居然找到了 DeepSeek 时强时弱的原因,说答对答错全看 Token 站位?"
+    },
+    {
+      "role": "guest",
+      "text": "对,字节的研究发现,模型在处理长上下文的时候,关键 Token 的位置会直接影响推理准确率,这一下就解释了为啥 DeepSeek 偶尔掉链子。"
+    },
+    {
+      "role": "host",
+      "text": "这个发现对国产模型整体的优化方向意味着什么?"
+    },
+    {
+      "role": "guest",
+      "text": "意味着下一阶段比拼的不是参数堆叠,而是对关键信息位置的处理能力,这是工程层面的硬骨头。"
+    },
+    {
+      "role": "host",
+      "text": "第五条,豆包工作这次同时上画布和豆包 2.1 Lite,字节自家产品力挺能打的啊。"
+    },
+    {
+      "role": "guest",
+      "text": "是,画布功能把素材、设计、产出三件事并到一张无限画布上,改起来特别顺手,2.1 Lite 则补齐了轻量场景的响应速度。"
+    },
+    {
+      "role": "host",
+      "text": "那豆包现在和 Kimi、智谱这些国内选手相比,优势在哪儿?"
+    },
+    {
+      "role": "guest",
+      "text": "我觉得是闭环——字节有内容、有用户场景、有流量入口,这是别的玩家很难复制的。"
+    },
+    {
+      "role": "host",
+      "text": "好,国内最后一条,经纬、顺为、君联数亿元押注扩散智能 DiffuSpace,这是啥来头?"
+    },
+    {
+      "role": "guest",
+      "text": "DiffuSpace 做的是扩散语言模型,简单说就是用图像生成的思路去做文本,这一轮也是目前这类模型全球最大的单笔融资。"
+    },
+    {
+      "role": "host",
+      "text": "为啥押注这种非主流路线?资本是看到了什么机会?"
+    },
+    {
+      "role": "guest",
+      "text": "两点,一是算力效率比自回归高,二是多模态原生更顺,这俩点在 AGI 长跑里都是硬通货。"
+    },
+    {
+      "role": "host",
+      "text": "OK,国内咱先告一段落,把目光转向国际,先说 OpenAI,这次又上头条了,因为开除了三位 AI 安全研究员。"
+    },
+    {
+      "role": "guest",
+      "text": "对,公司明确表态不后悔,还说调查发现他们有\"严重失信\"行为,这事儿其实给整个安全研究圈都带来了冲击。"
+    },
+    {
+      "role": "host",
+      "text": "外媒之前还报道 OpenAI 一次数学成果发布,让三十多位数学家用\"前所未有的\"",
+      "疯狂": "形容,这安全研究员却出走,反差很大啊。"
+    },
+    {
+      "role": "guest",
+      "text": "对,这说明 OpenAI 在商业化提速的时候,内部安全文化和外部科研圈的评价已经明显分叉了。"
+    },
+    {
+      "role": "host",
+      "text": "那 Anthropic 也没闲着,刚给开源项目推出免费的安全扫描服务 OSS Scanner,您怎么评价?"
+    },
+    {
+      "role": "guest",
+      "text": "这是聪明的玩法,Anthropic 用安全能力去拉拢开源社区,等于把品牌信任度直接铺到开发者面前。"
+    },
+    {
+      "role": "host",
+      "text": "但是你还记得吗,费城警方用 Anthropic 的模型查悬案,结果模型给了个假线索,这事和今天的安全服务放一起看是不是挺讽刺?"
+    },
+    {
+      "role": "guest",
+      "text": "一点都不矛盾,反而解释了为啥要做 OSS Scanner——他们在用企业的扫描业务,给公众场景的幻觉兜底。"
+    },
+    {
+      "role": "host",
+      "text": "好,下一条,阿里 Qwen 这次放了 Qwen-Image-2.1-Turbo,只要 8 步就能出图,这个数字您怎么看?"
+    },
+    {
+      "role": "guest",
+      "text": "8 步出图是相当激进的,意味着推理成本几乎是对标实时系统的水平,这家技术底子稳得很。"
+    },
+    {
+      "role": "host",
+      "text": "而且同一天的素材里,还有个 2 比特的 Qwen3.8-27B 叫 Saluki,只有 7.89 GB 居然反超了原版的工具调用。"
+    },
+    {
+      "role": "guest",
+      "text": "这俩其实是同一波——一边把图像做到极致快,一边把 27B 模型压到消费级硬件都能跑,中国开源生态确实在两面夹击。"
+    },
+    {
+      "role": "host",
+      "text": "那 OpenAI 今天也没闲着,Decisions API 公开测试版在 GPT-6 Luna 上提速十倍,价格还便宜,这意味着什么?"
+    },
+    {
+      "role": "guest",
+      "text": "意味着结构化输出开始进入工程化标配阶段,以后开发者做决策类应用,不用再自己后处理 JSON,直接拿概率就行。"
+    },
+    {
+      "role": "host",
+      "text": "你看国际这轮对比下来,OpenAI、Anthropic、阿里、谷歌、xAI 全在动,行业整体节奏是不是明显比国内快?"
+    },
+    {
+      "role": "guest",
+      "text": "快是快,但国内有国内的打法,字节、豆包、Kimi 这一波也在贴身肉搏,只是舆论声量没那么大。"
+    },
+    {
+      "role": "host",
+      "text": "那您觉得国内国际这种差距会扩大还是会缩小?"
+    },
+    {
+      "role": "guest",
+      "text": "短期会缩小,长期看分化——国内更卷应用层,国际更卷基础研究和 AGI 前沿。"
+    },
+    {
+      "role": "host",
+      "text": "对接下来的商业化路径,您最关心的变量是啥?"
+    },
+    {
+      "role": "guest",
+      "text": "我盯三个:一个是 Agent 的真实工作流渗透率,一个是中小企业的订阅意愿,第三个是广告和 SaaS 的边界怎么划。"
+    },
+    {
+      "role": "host",
+      "text": "你说这个 Agent,我就在想——以后是不是大家都不用学编程了,直接跟 Agent 说话就行?"
+    },
+    {
+      "role": "guest",
+      "text": "不会完全替代,但门槛会降到产品经理甚至运营都能写的程度,这是生产力的一次再分配。"
+    },
+    {
+      "role": "host",
+      "text": "回到咱们今天的主题,您觉得最值得划重点的是哪家?"
+    },
+    {
+      "role": "guest",
+      "text": "必须是阿里 Qwen——一边 8 步出图,一边把 27B 压到 8GB 以内,这种技术密度,别家真不好接招。"
+    },
+    {
+      "role": "host",
+      "text": "那你会不会担心国产模型被海外反超?"
+    },
+    {
+      "role": "guest",
+      "text": "短期不会,你看 GPT-6 数学成果再炫,落地还得靠算力和场景,而这两件事国内都不缺。"
+    },
+    {
+      "role": "host",
+      "text": "好,接下来咱们用一分钟快速过几条稍轻的——USA Today 起诉 OpenAI 抄袭大量文章。"
+    },
+    {
+      "role": "guest",
+      "text": "对,这已经是又一家出版机构加入战团,版权诉讼这块未来一年会是 OpenAI 的长期负担。"
+    },
+    {
+      "role": "host",
+      "text": "第二条,SpaceXAI 拿出 150 万美元等值的 Grok 算力,赞助了争议挺大的 Omarchy Linux 发行版。"
+    },
+    {
+      "role": "guest",
+      "text": "这是马斯克生态的又一次延伸,把 AI 算力和开源社区绑到一块儿,既是营销也是布局。"
+    },
+    {
+      "role": "host",
+      "text": "第三条,搜索巨头 Ecosia 直接弃用 Mistral,全线切到了 Qwen、GLM、Kimi 这些开源权重模型。"
+    },
+    {
+      "role": "host",
+      "text": "这可是欧洲公司的真实投票,说明开源生态的可用性已经被国际市场认可了。"
+    }
+  ]
+}
