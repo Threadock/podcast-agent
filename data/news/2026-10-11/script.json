@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-10-11 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "量子位",
+      "title": "字节找到DeepSeek时强时弱原因：Token站位影响模型发挥",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "掘金",
+      "title": "Qwen-Image-2.1-Turbo发布：8步生成7B图像模型",
+      "url": "https://juejin.cn/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "广东汕头率先推出“词元出海贷”，AI融资添新工具",
+      "url": "https://36kr.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "钛媒体",
+      "title": "月之暗面Kimi据传即将完成IPO前融资，估值将达500亿美元",
+      "url": "https://www.tmtpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "Manus完成超5亿美元新一轮融资",
+      "url": "https://36kr.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "雷锋网",
+      "title": "蔚来李斌最新内部讲话：明年将有重量级新车，三年聚焦三大方向",
+      "url": "https://www.leiphone.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "微软发布Microsoft-Decision-1：基于Qwen3.5-9B的决策评分模型",
+      "url": "https://www.marktechpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "谷歌云推出Gemini Agent：单一通用智能体服务企业",
+      "url": "https://www.marktechpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Typesafe AI获8.7亿美元融资，估值达75亿美元",
+      "url": "https://news.ycombinator.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI解雇三名AI安全研究员，决定引发争议",
+      "url": "https://www.theverge.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Anthropic AI向费城警方提供虚假未破案件线索",
+      "url": "https://www.theverge.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "OpenAI Decisions API公测：类型化回答速度提升十倍",
+      "url": "https://www.marktechpost.com/",
+      "weight": "deep"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "今天是2026年10月11号，《今日AI头条》准时开播，咱们国内国外一起聊。"
+    },
+    {
+      "role": "guest",
+      "text": "好的，先把目光锁定在国内几条特别值得讲的新闻上。"
+    },
+    {
+      "role": "host",
+      "text": "第一条就挺有意思——字节跳动居然找到了DeepSeek时强时弱的原因。"
+    },
+    {
+      "role": "guest",
+      "text": "对，简单说就是Token的站位问题，加点空格、换个位置，模型表现就能翻车。"
+    },
+    {
+      "role": "host",
+      "text": "这事背后说明了什么？是DeepSeek本身不稳吗？"
+    },
+    {
+      "role": "guest",
+      "text": "其实它揭示了所有大模型的通病，训练时数据排布和推理时不一样，准确率就波动。"
+    },
+    {
+      "role": "host",
+      "text": "那对企业落地来说，这种不稳定性岂不是很难受？"
+    },
+    {
+      "role": "guest",
+      "text": "没错，所以字节这次等于公开了一个行业级问题，逼着大家都要正视鲁棒性。"
+    },
+    {
+      "role": "host",
+      "text": "好，第二条——阿里通义千问Qwen团队又有新动作了。"
+    },
+    {
+      "role": "guest",
+      "text": "他们发布了Qwen-Image-2.1-Turbo，一个70亿参数的加速版图像模型。"
+    },
+    {
+      "role": "host",
+      "text": "40步生成压到8步？这个数字听起来有点夸张啊。"
+    },
+    {
+      "role": "guest",
+      "text": "对，就是去噪步数大幅压缩，速度快很多，而且生成和编辑都支持。"
+    },
+    {
+      "role": "host",
+      "text": "那它的画质会不会因为步数少而打折扣？"
+    },
+    {
+      "role": "guest",
+      "text": "官方说质量基本持平，因为是流式匹配的算法本身允许少步收敛。"
+    },
+    {
+      "role": "host",
+      "text": "好，第三条，来关注一条金融和AI结合的新闻——汕头推出“词元出海贷”。"
+    },
+    {
+      "role": "guest",
+      "text": "这是国内首创，针对AI企业出海的专项贷款产品。"
+    },
+    {
+      "role": "host",
+      "text": "咱们普通听众可能不太懂，词元出海贷到底贷的是什么？"
+    },
+    {
+      "role": "guest",
+      "text": "通俗讲就是给AI创业公司出海提供资金，押的是未来的Token收入和数据资产。"
+    },
+    {
+      "role": "host",
+      "text": "这是不是说明地方政府已经把AI当成重点产业来扶持了？"
+    },
+    {
+      "role": "guest",
+      "text": "没错，汕头这种先行先试，反映了各地抢AI赛道的决心。"
+    },
+    {
+      "role": "host",
+      "text": "接下来这条是大新闻——月之暗面的Kimi据传估值要冲到500亿美元了。"
+    },
+    {
+      "role": "guest",
+      "text": "对，而且是IPO前的融资，估值直接翻了不止一番。"
+    },
+    {
+      "role": "host",
+      "text": "Manus刚融完5亿美元，Kimi又来500亿，国内AI是不是太热了？"
+    },
+    {
+      "role": "guest",
+      "text": "从Kimi到Manus，2026年的融资节奏比去年还猛，确实在抢跑。"
+    },
+    {
+      "role": "host",
+      "text": "那接下来咱们把目光转向国际，国际第一条来自微软——微软跳过了OpenAI。"
+    },
+    {
+      "role": "guest",
+      "text": "对，微软直接基于阿里巴巴的Qwen构建了自己的决策模型Microsoft-Decision-1。"
+    },
+    {
+      "role": "host",
+      "text": "微软和OpenAI不是深度绑定吗？怎么这次跑去用中国的开源模型？"
+    },
+    {
+      "role": "guest",
+      "text": "你看，这背后是微软不想被OpenAI绑死，Qwen3.5-9B成了备选引擎。"
+    },
+    {
+      "role": "host",
+      "text": "这个模型具体干什么用的？听起来挺专业的。"
+    },
+    {
+      "role": "guest",
+      "text": "它做的是路由、分类、验证还有智能体调度，是企业AI的关键调度器。"
+    },
+    {
+      "role": "host",
+      "text": "第二条国际新闻，谷歌云推出了Gemini Agent。"
+    },
+    {
+      "role": "guest",
+      "text": "对，号称一个智能体搞定所有企业工作，云端托管，能问答也能干活。"
+    },
+    {
+      "role": "host",
+      "text": "这个和企业版的ChatGPT有什么本质区别？"
+    },
+    {
+      "role": "guest",
+      "text": "Gemini Agent更强调通用执行，能调用各种工具直接完成任务。"
+    },
+    {
+      "role": "host",
+      "text": "第三条国际新闻，可能更劲爆——OpenAI开除了三名AI安全研究员。"
+    },
+    {
+      "role": "guest",
+      "text": "对，而且公司态度强硬，说他们有“严重失信”行为，坚称不后悔。"
+    },
+    {
+      "role": "host",
+      "text": "这会不会影响OpenAI在AI安全领域的形象？"
+    },
+    {
+      "role": "guest",
+      "text": "肯定有影响，业内已经开始质疑OpenAI对安全团队的态度了。"
+    },
+    {
+      "role": "host",
+      "text": "第四条——Anthropic那边也出事了，他们的AI居然给警方提供了假线索。"
+    },
+    {
+      "role": "guest",
+      "text": "对，费城警方接到AI生成的错误线索，差点影响一桩悬案的调查。"
+    },
+    {
+      "role": "host",
+      "text": "AI幻觉问题居然已经蔓延到执法领域了，这可太吓人了吧？"
+    },
+    {
+      "role": "guest",
+      "text": "是，所以Anthropic紧接着就宣布内部评估模型全部断网，避免再出岔子。"
+    },
+    {
+      "role": "host",
+      "text": "第五条国际新闻——OpenAI的Decisions API进入公测。"
+    },
+    {
+      "role": "guest",
+      "text": "对，号称比之前的Responses API快十倍，每百万输入Token只要一毛钱。"
+    },
+    {
+      "role": "host",
+      "text": "速度提十倍还降价，这是要卷死竞争对手吗？"
+    },
+    {
+      "role": "guest",
+      "text": "没错，这次OpenAI明显在主动打价格战，逼开发者全面迁过来。"
+    },
+    {
+      "role": "host",
+      "text": "你看，国内字节找到DeepSeek的Bug，国际Anthropic又给警方假线索，AI可靠性问题成了全球难题。"
+    },
+    {
+      "role": "guest",
+      "text": "是啊，鲁棒性这块，国内外大厂其实都还在爬坡。"
+    },
+    {
+      "role": "host",
+      "text": "再看融资端，Kimi估值500亿美元，Typesafe AI也拿了8.7亿美元，资本对AI的狂热没退。"
+    },
+    {
+      "role": "guest",
+      "text": "对比之下，OpenAI却在忙着内部整顿，两边画风差异特别大。"
+    },
+    {
+      "role": "host",
+      "text": "对，一边是OpenAI在收紧安全，另一边新创公司在拼命扩张，行业明显在分化。"
+    },
+    {
+      "role": "guest",
+      "text": "而且你看，Qwen这波被微软看上，相当于中国开源模型拿到了顶级背书。"
+    },
+    {
+      "role": "host",
+      "text": "是的，Qwen-Image-2.1-Turbo和Decision-1都用Qwen底座，说明生态在起来了。"
+    },
+    {
+      "role": "guest",
+      "text": "好，接下来几条简短的速览，先从国内开始。"
+    },
+    {
+      "role": "host",
+      "text": "国内：比亚迪前欧洲总裁舒酉星创立新公司星能远行，进军新能源。"
+    },
+    {
+      "role": "guest",
+      "text": "阿维塔酝酿高层调整，董事长王辉已接手长安海外业务。"
+    },
+    {
+      "role": "host",
+      "text": "奇瑞智能化中心负责人谢保军疑似离职，行业人事震动。"
+    },
+    {
+      "role": "guest",
+      "text": "蔚来李斌最新讲话，明年要推重量级新车，未来三年聚焦三件事。"
+    },
+    {
+      "role": "host",
+      "text": "尊界V800踏板测试断裂事件持续发酵，江淮股价两日跌停。"
+    },
+    {
+      "role": "host",
+      "text": "美央创新科技发布物理AI产品闭环，把人体当成可计算对象。"
+    }
+  ]
+}

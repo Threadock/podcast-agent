@@ -1,0 +1,441 @@
+{
+  "intl": [
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Show HN: LoRA over GGUF – Train Qwen3.8-Flash-Next in 40G VRAM",
+      "url": "https://github.com/woct0rdho/transformers5-qwen3.5-recipe",
+      "snippet": "Open weight AI is like open source software. Users not only run the weights, but also modify the weights. It matters to develop training framework for local hardware.<p>The method to train large AI mo",
+      "published": "2026-10-10T16:43:43Z",
+      "weight": 10
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Google Research RRSI Guide: Mastering Self-Improving AI Agents",
+      "url": "https://www.marktechpost.com/2026/10/08/google-research-rrsi-guide-mastering-self-improving-ai-agents/",
+      "snippet": "<p>Explore a comprehensive coding guide to Google Research's RRSI (Regularized Recursive Self-Improvement), detailing how noise bands, cost rules, and leakage screens enable safe, efficient, and self-",
+      "published": "Fri, 09 Oct 2026 05:06:17 +0000",
+      "weight": 9
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Show HN: Pulsar – Qwen3.8-27B at 148 tok/s writing code on M5 Max",
+      "url": "https://github.com/loopai-hq/pulsar",
+      "snippet": "",
+      "published": "2026-10-09T16:15:43Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Underdog Saluki: Qwen3.8-27B in under 8GB with tool calling intact",
+      "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
+      "snippet": "",
+      "published": "2026-10-09T16:37:32Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Open-sourcing Finsight, based on Qwen3-14B for financial reasoning",
+      "url": "https://news.ycombinator.com/item?id=50025273",
+      "snippet": "We are open-sourcing an earlier version of Finsight, based on Qwen3-14B, adapted for financial reasoning.<p>One interesting result was the trade-off:\n- FinQA accuracy improved from 1.9% to 12.6%\n- Six",
+      "published": "2026-10-09T19:08:15Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Ecosia switches from Mistral to open-weight AI models including Qwen, GLM, Kimi",
+      "url": "https://technode.com/2026/10/09/ecosia-switches-from-mistral-to-open-weight-ai-models-including-qwen-glm-and-kimi/",
+      "snippet": "",
+      "published": "2026-10-09T20:55:42Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "VibeSys Builds a Qwen3.5-397B Engine on MI300A, 2.3× Tuned SGLang",
+      "url": "https://syfi.cs.washington.edu/blog/2026-10-08-qwen35-mi300a/",
+      "snippet": "",
+      "published": "2026-10-10T06:51:34Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Microsoft skipped OpenAI's decision model and built its own on Alibaba's Qwen",
+      "url": "https://thenewstack.io/microsoft-decision-model-foundry/",
+      "snippet": "",
+      "published": "2026-10-10T16:08:31Z",
+      "weight": 7
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling",
+      "url": "https://www.marktechpost.com/2026/10/09/meet-the-underdog-saluki-27b-a-2-bit-qwen3-8-27b-that-beats-the-original-at-tool-calling/",
+      "snippet": "<p>Underdog Saluki 27B is a 7.89 GB, 2-bit GGUF of Qwen3.8-27B under Apache 2.0. It beats the 54 GB original on tool calling but gives up ground on competition math and reasoning.</p>\n<p>The post <a h",
+      "published": "Fri, 09 Oct 2026 07:23:36 +0000",
+      "weight": 7
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Alibaba Qwen Releases Qwen-Image-2.1-Turbo, an 8-Step 7B Image Model",
+      "url": "https://www.marktechpost.com/2026/10/09/alibaba-qwen-releases-qwen-image-2-1-turbo-an-8-step-7b-image-model/",
+      "snippet": "<p>Alibaba&#8217;s Qwen team has released Qwen-Image-2.1-Turbo, an accelerated checkpoint of its open-weight Qwen-Image-2.1 model. It generates and edits images in 8 denoising steps instead of the bas",
+      "published": "Fri, 09 Oct 2026 20:33:17 +0000",
+      "weight": 7
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Microsoft AI Releases Microsoft-Decision-1: A Qwen3.5-9B Decision-Scoring Model",
+      "url": "https://www.marktechpost.com/2026/10/09/microsoft-ai-releases-microsoft-decision-1-a-qwen3-5-9b-decision-scoring-model/",
+      "snippet": "<p>Microsoft has released Microsoft-Decision-1, a decision model for routing, classification, verification and agent control. Microsoft-Decision-1 is a decision-scoring model that returns a calibrated",
+      "published": "Sat, 10 Oct 2026 06:03:09 +0000",
+      "weight": 7
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI doubles down on decision to fire three AI safety researchers",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
+      "snippet": "OpenAI is standing firm on its decision to fire three safety researchers after an investigation found they committed \"a significant breach of trust.\" In a post on X on Friday, the company said Jasmine",
+      "published": "2026-10-09T05:48:26-04:00",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "&#8216;Pure insanity&#8217;: Mathematicians will need years to make sense of OpenAI&#8217;s latest drop",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
+      "snippet": "\"Staggering.\" \"Overwhelming.\" \"Unprecedented.\" \"Surreal.\" \"Pure insanity.\" Those were among the descriptions more than three dozen mathematicians reached for in conversations with The Verge as they tr",
+      "published": "2026-10-09T15:09:44-04:00",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+      "snippet": "An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc. In a statement released on Friday, the P",
+      "published": "2026-10-09T17:15:38-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Show HN: SpecWeave 3 – hand off a coding task across Claude Code, Codex and Grok",
+      "url": "https://github.com/anton-abyzov/specweave",
+      "snippet": "",
+      "published": "2026-10-09T21:25:21Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
+      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+      "snippet": "",
+      "published": "2026-10-09T22:00:35Z",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Anthropic is cutting off its internal evaluations from the internet",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+      "snippet": "After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations. In a report Friday, the company detailed \"",
+      "published": "2026-10-10T10:41:16-04:00",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Google Cloud Launches Gemini Agent, One Universal Agent for Enterprise Work",
+      "url": "https://www.marktechpost.com/2026/10/08/google-cloud-launches-gemini-agent-one-universal-agent-for-enterprise-work/",
+      "snippet": "<p>Google Cloud has introduced the Google Cloud Gemini agent, a single agent for enterprise work. The Gemini agent is a cloud-hosted agent from Google Cloud that answers questions, does knowledge work",
+      "published": "Fri, 09 Oct 2026 06:47:56 +0000",
+      "weight": 6
+    },
+    {
+      "source": "OpenAI-News",
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "url": "https://openai.com/index/sophos",
+      "snippet": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "published": "Fri, 09 Oct 2026 07:00:00 GMT",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "OpenAI Decisions API Hits Public Beta With 10x Faster Typed Answers",
+      "url": "https://www.marktechpost.com/2026/10/09/openai-decisions-api-hits-public-beta-with-10x-faster-typed-answers/",
+      "snippet": "<p>OpenAI’s Decisions API is now in public beta on GPT-6 Luna. It returns typed probabilities, choices and scores about 10x faster than the Responses API, billing $0.10 per 1M input tokens with no out",
+      "published": "Fri, 09 Oct 2026 20:05:07 +0000",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Typesafe AI raises $870M at $7.5B",
+      "url": "https://typesafe.ai/blog/series-ai",
+      "snippet": "",
+      "published": "2026-10-09T17:02:31Z",
+      "weight": 5
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Is society growing stupider? The clues are simple and repeated",
+      "url": "https://www.washingtonpost.com/opinions/2026/10/07/culture-is-getting-simpler-that-should-worry-you/",
+      "snippet": "",
+      "published": "2026-10-09T01:21:39Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Rogue Pilots Are a Growing Safety Threat–and No One Knows How to Stop Them",
+      "url": "https://www.wsj.com/business/airlines/rogue-pilots-have-become-one-of-the-biggest-threats-to-airline-safety-d4932855",
+      "snippet": "",
+      "published": "2026-10-09T03:46:53Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Cybernetics of AI Companies",
+      "url": "https://ai-cybernetics.grok.me",
+      "snippet": "",
+      "published": "2026-10-09T04:43:20Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews",
+      "title": "Can an AI learn what you like, rather than just what you've searched for?",
+      "url": "https://news.ycombinator.com/item?id=50017172",
+      "snippet": "I&#x27;m a writer who was pondering the problems with getting my work discovered and realized that current search&#x2F;recommendation engines don&#x27;t go very deep. So I thought about ways to addres",
+      "published": "2026-10-09T07:18:41Z",
+      "weight": 1
+    }
+  ],
+  "cn": [
+    {
+      "source": "36氪",
+      "title": "8点1氪丨特朗普买入Meta股票；山姆宣布拟限制亲友卡绑定；豆包开通水、电、燃气等生活缴费功能",
+      "url": "https://36kr.com/p/4019297973735560?f=rss",
+      "snippet": "<h2>今日热点导览</h2>\n  <ul>\n   <li>Anthropic据悉组建专门团队对接2028年总统候选人</li>\n   <li>中国手机迎来新一轮涨价潮，部分机型涨幅达1000元</li>\n   <li>B站申请JILIJILI等商标</li>\n   <li>广东汕头在全国率先推出“词元出海贷”</li>\n   <li>英国大学生申领贷款将需达到最低标准</li>\n  </ul>\n",
+      "published": "2026-10-10 08:04:26  +0800",
+      "weight": 10
+    },
+    {
+      "source": "量子位",
+      "title": "字节找到了DeepSeek时强时弱的原因",
+      "url": "https://www.qbitai.com/2026/10/502364.html",
+      "snippet": "答不答得对，得看Token站位",
+      "published": "Fri, 09 Oct 2026 07:11:55 +0000",
+      "weight": 7
+    },
+    {
+      "source": "掘金",
+      "title": "把 40 步压到 8 步：少步生成的三笔账，Qwen-Image-2.1-Turbo 拆给你看",
+      "url": "https://juejin.cn/post/7694855238747029539",
+      "snippet": "一、先讲清楚一件事：步数是离散化步数 现在的图像生成模型基本都跑 Flow Matching。它不学「怎么去噪」，而是学一个速度场： 生成图像 = 对这个常微分方程做数值积分。 而步数，就是积分的离散",
+      "published": "Sat, 10 Oct 2026 12:44:33 GMT",
+      "weight": 7
+    },
+    {
+      "source": "掘金",
+      "title": "一天一个开源项目（第232篇）：DSH Desktop —— 把桌面壳本身也做成一个插件，30k+ Stars 的 DeepSeek Harness 桌面客户端",
+      "url": "https://juejin.cn/post/7694832291802284086",
+      "snippet": "这是\"一天一个开源项目\"系列的第 232 篇。今天的项目是 DSH Desktop。 给一个 Agent 框架做桌面客户端",
+      "published": "Sat, 10 Oct 2026 12:53:49 GMT",
+      "weight": 7
+    },
+    {
+      "source": "雷锋网",
+      "title": "字节发现 DeepSeek 隐藏 Bug，加点空格，模型翻车",
+      "url": "https://www.leiphone.com/category/yanxishe/zm33Zeu88CNbEPMx.html",
+      "snippet": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20261010/6aca23dc05b1d.j",
+      "published": "Sat, 10 Oct 2026 19:40:00 +0800",
+      "weight": 7
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Pallas 内核怎么调优？Google 给出的答案是“少信模型，多看寄存器”",
+      "url": "https://www.infoq.cn/article/kVJUKEcbqhpL2qwpp2Eq?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/kVJUKEcbqhpL2qwpp2Eq?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Sat, 10 Oct 2026 14:22:04 GMT",
+      "weight": 6
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "OpenAI 只用 15 天，就杀死了估值 100 亿美元的 Jev？",
+      "url": "https://www.infoq.cn/article/qmoRIQ1TceKfKwGlXN0S?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/qmoRIQ1TceKfKwGlXN0S?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Sat, 10 Oct 2026 15:11:32 GMT",
+      "weight": 6
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用",
+      "url": "https://www.infoq.cn/article/MAo3KoDWm9FGIcKau9AK?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/MAo3KoDWm9FGIcKau9AK?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Sat, 10 Oct 2026 15:18:57 GMT",
+      "weight": 6
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Linear 通过 1000 多次 PR 从 styled-components 迁移到 Meta 的 StyleX",
+      "url": "https://www.infoq.cn/article/YLOUT8CrDm0NPWgHL8LG?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/YLOUT8CrDm0NPWgHL8LG?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Sat, 10 Oct 2026 18:09:00 GMT",
+      "weight": 6
+    },
+    {
+      "source": "掘金",
+      "title": "OpenAI 攻下千禧年难题之后，开发者似乎无动于衷",
+      "url": "https://juejin.cn/post/7694912314021806099",
+      "snippet": "似乎没有开发者讨论 OpenAI 公布数学成果这件事情。 OpenAI 宣布在纳维-斯托克斯问题上取得突破，同时一口气公布了三百多个长期未解数学问题的进展。 等等... 这和开发者有什么关系？",
+      "published": "Sat, 10 Oct 2026 18:43:17 GMT",
+      "weight": 6
+    },
+    {
+      "source": "36氪",
+      "title": "36氪首发丨航天老兵创业做高分辨率遥感相机，连续完成多轮次近亿元融资",
+      "url": "https://36kr.com/p/4018036253626502?f=rss",
+      "snippet": "<p>作者&nbsp;|&nbsp;乔钰杰</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <blockquote>\n   <p>本文约2300字，建议阅读5分钟</p>\n  </blockquote>\n  <p>硬氪获悉，北京重眸科技有限公司（以下简称“重眸科技”）近日宣布完成多轮次近亿元融资，由民银国际、亦庄种子基金、远翼投资联合投资，资金将用于0.5米分辨率遥感相机批量投",
+      "published": "2026-10-09 10:41:09  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "载人eVTOL获TC受理，「齐飞航空」完成近亿元战略轮融资｜36氪首发",
+      "url": "https://36kr.com/p/4018318436110215?f=rss",
+      "snippet": "<p>文&nbsp;|&nbsp;阿至</p>\n  <p>封面来源&nbsp;|&nbsp;企业供图</p>\n  <p>低空经济的资本叙事正在走向分化。</p>\n  <p>2026上半��，领域内大额融资频发，资金高度向少数头部公司集中，eVTOL整机研发制造占据绝对主导地位。进入三季度，行业负面舆情伴随市场收紧，机构对低空赛道的态度普遍转向谨慎。</p>\n  <p>多位从业者表达过类似感受，市场",
+      "published": "2026-10-09 15:35:58  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "用AI降低激光焊使用门槛，这家公司完成数千万元融资｜36氪首发",
+      "url": "https://36kr.com/p/4019439680327817?f=rss",
+      "snippet": "<p>作者&nbsp;|&nbsp;张子怡</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <p>硬氪获悉，智能激光金属加工设备公司LaserCyber已完成数千万元融资，由启高资本投资、为溪创投跟投，苍竹资本担任长期独家财务顾问。</p>\n  <p>LaserCyber于2025年8月成立于深圳，定位为“桌面智能激光工厂”。公司首款激光焊机产品L1系列覆盖600W、900W和",
+      "published": "2026-10-10 10:26:03  +0800",
+      "weight": 5
+    },
+    {
+      "source": "199IT",
+      "title": "气候危机正在重塑全球健康经济：万亿美元成本背后的产业重构",
+      "url": "http://www.199it.com/archives/1787633.html",
+      "snippet": "报告预计，若缺乏有效应对，到2050年全球将新增1450万例过早死亡，并造成12.5万亿美元经济损失。目前全球适应性资金中，仅不足5%流向健康领域，这意味着健康韧性已成为未来公共投资和企业资本配置的重要增量方向。",
+      "published": "Fri, 09 Oct 2026 21:00:19 +0000",
+      "weight": 5
+    },
+    {
+      "source": "钛媒体",
+      "title": "【数智周报】特朗普政府要求AI公司在发生安全事件后立即上报；华为与高通宣布达成广泛专利许可协议；月之暗面据悉即将完成IPO前融资，估值将达500亿美元",
+      "url": "https://www.tmtpost.com/8163752.html",
+      "snippet": "（10月5日-10日）Manus完成超5亿美元新一轮融资；博通据悉计划为OpenAI定制芯片项目融资逾500亿美元；Anthropic发布最新AI模型Claude Haiku 5.5，运行成本较4.5低约75%；OpenAI宣布面向全球所有ChatGPT用户上线GPT-6",
+      "published": "Sat, 10 Oct 2026 17:57:43 +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "36氪首发｜「闹翻天PLAYFULLY」获青山资本投资，为世界造一张“中国球星卡”",
+      "url": "https://36kr.com/p/3987542281862149?f=rss",
+      "snippet": "<p>作者｜任彩茹</p>\n  <p>36氪获悉，新兴收藏级卡牌公司「闹翻天PLAYFULLY」（以下简称“闹翻天”）近期完成新一轮融资，青山资本领投，天使轮老股东Adam Zhu持续追投，领甪资本担任长期财务顾问。本轮资金将主要用于全球顶级体育IP的获取与拓展、产品研发与工艺创新以及全球化全渠道建设。</p>\n  <p><strong>「闹翻天」创立于2024年下半年，核心团队深耕文体IP运营、",
+      "published": "2026-10-09 10:00:46  +0800",
+      "weight": 4
+    },
+    {
+      "source": "雷锋网",
+      "title": "独家丨舒酉星创立新公司「星能远行」，此前是比亚迪欧洲总裁",
+      "url": "https://www.leiphone.com/category/transportation/Mq2kLln4ozKgC9Kv.html",
+      "snippet": "<section><section><section><section><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img js_insertlocalimg\" src=\"https://static.leiphone.com/uploads/new/images/20261010/6ac9ecbf203bc.pn",
+      "published": "Sat, 10 Oct 2026 15:45:00 +0800",
+      "weight": 4
+    },
+    {
+      "source": "雷锋网",
+      "title": "独家丨阿维塔酝酿高层调整：董事长王辉已开始负责长安海外业务",
+      "url": "https://www.leiphone.com/category/transportation/K2A5u6HhCSr6HH9d.html",
+      "snippet": "<section><section><section><section><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img js_insertlocalimg\" src=\"https://static.leiphone.com/uploads/new/images/20261010/6ac9ed3762417.pn",
+      "published": "Sat, 10 Oct 2026 15:47:00 +0800",
+      "weight": 4
+    },
+    {
+      "source": "雷锋网",
+      "title": "独家丨蔚来李斌最新内部讲话：明年将有重量级新车，未来3年的核心是三个聚焦",
+      "url": "https://www.leiphone.com/category/transportation/aPoeP4p5SiG0Rian.html",
+      "snippet": "<section><section><section><section><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img js_insertlocalimg\" src=\"https://static.leiphone.com/uploads/new/images/20261010/6ac9edad59d3f.pn",
+      "published": "Sat, 10 Oct 2026 15:49:00 +0800",
+      "weight": 4
+    },
+    {
+      "source": "雷锋网",
+      "title": "新智驾独家丨奇瑞高层人事调整：智能化中心负责人谢保军疑似离职",
+      "url": "https://www.leiphone.com/category/transportation/oiSyYkdJBNF6AfVW.html",
+      "snippet": "<section><section><section><section><section><section><section label=\"Powered by 135editor.com\"><section><section><section><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" height=\"",
+      "published": "Sat, 10 Oct 2026 16:22:00 +0800",
+      "weight": 4
+    },
+    {
+      "source": "36氪",
+      "title": "美央构建物理AI路径闭环：把人体变成可计算的真实世界",
+      "url": "https://36kr.com/p/4018021038657411?f=rss",
+      "snippet": "<h2><strong>万美京AIMIRA构建\"感知—理解—决策—执行—反馈\"产品闭环，回答物理AI核心命题</strong></h2>\n  <p>当AI走出屏幕，游戏规则彻底改变：真实的人体有空间结构、组织状态与一刻不停的时间变化；软件说错一句话可以重新生成，机器做错一个动作，结果可能无法撤回。物理AI难的从来不是更大的模型，而是\"感知—建模—决策—执行—验证—再学习\"这条长链路。广州美央创新科",
+      "published": "2026-10-09 10:22:54  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "别等项目成功了，才开始讲它的故事！",
+      "url": "https://36kr.com/p/4018406199021449?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20261009/v2_4e6d6d7519d346149d1a6ff054467b00@5284654_oswg1999231oswg1828oswg860_img_png?x-oss-process=image/quality,q_90/format,jpg/i",
+      "published": "2026-10-09 16:55:54  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "尊界踏板断裂背后：百万豪车，每一个零件都得较真",
+      "url": "https://36kr.com/p/4018053011951493?f=rss",
+      "snippet": "<p>制动踏板断裂，这个看似离谱的故障，出现在了一辆百万级豪车上。</p>\n  <p>10月8日，懂车帝发布测试视频显示，在时速100至0的连续刹停试验中，尊界V800连续三辆车制动踏板都被踩断。视频显示，三辆车踏板断裂位置一致，均为包裹踏板转轴的塑料加强件。懂车帝视频显示，断裂当下，驾驶员对踏板施加的力已超1600N。</p>\n  <p>视频一经发布，便引发全行业热议，江淮汽车股价连续两日跌停，",
+      "published": "2026-10-10 08:00:16  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "世界的下一个版本，由我们定义 ｜2026苏客松招募启动",
+      "url": "https://36kr.com/p/4019446240857993?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20261010/v2_65478eede5284479881424ea03dd1b32@6438729_oswg1985117oswg1200oswg4776_img_jpg?x-oss-process=image/quality,q_90/format,jpg/",
+      "published": "2026-10-10 10:35:07  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "成年人要的「安心」，有时是一支笔给的",
+      "url": "https://36kr.com/p/4019731047731078?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20261010/v2_09d7ab3d805643389841a6ba16868ab9@5679941_oswg119044oswg1080oswg1526_img_000?x-oss-process=image/format,jpg/interlace,1\" /",
+      "published": "2026-10-10 15:30:18  +0800",
+      "weight": 1
+    }
+  ],
+  "source_stats": {
+    "OpenAI-News": 2,
+    "Google-AI-Blog": 0,
+    "TheVerge-AI": 10,
+    "TechReview-AI": 1,
+    "LastWeekInAI": 1,
+    "MarkTechPost": 9,
+    "SebastianRaschka": 0,
+    "TheGradient": 0,
+    "HuggingFace-Blog": 1,
+    "HackerNews": 3,
+    "HackerNews-DeepSeek": 1,
+    "HackerNews-Kimi": 8,
+    "HackerNews-Qwen": 8,
+    "HackerNews-Grok": 8,
+    "HackerNews-xAI": 8,
+    "ArXiv-cs.AI": 0,
+    "量子位": 10,
+    "雷锋网": 15,
+    "钛媒体": 15,
+    "36氪": 15,
+    "InfoQ中文": 15,
+    "掘金": 15,
+    "199IT": 10
+  },
+  "dedup": {
+    "intl": {
+      "before": 60,
+      "after": 56
+    },
+    "cn": {
+      "before": 95,
+      "after": 95
+    }
+  }
+}
