@@ -1,0 +1,441 @@
+{
+  "intl": [
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Operation Cheepseek Phase 3: $80 of usage for DeepSeek v4.1 Flash",
+      "url": "https://twitter.com/opencode/status/2109573342584058065",
+      "snippet": "",
+      "published": "2026-10-12T10:14:09Z",
+      "weight": 10
+    },
+    {
+      "source": "Google-AI-Blog",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "snippet": "TBD",
+      "published": "Tue, 13 Oct 2026 16:00:00 +0000",
+      "weight": 9
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "QwenGyre: An Elastic RL Framework for Training XLong-Horizon Agents",
+      "url": "https://arxiv.org/abs/2609.33848",
+      "snippet": "",
+      "published": "2026-10-12T13:36:10Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Coinbase's own model based on Qwen",
+      "url": "https://www.coinbase.com/blog/part-one-how-coinbase-built-evaluated-and-post-trained-a-fraud-agent",
+      "snippet": "",
+      "published": "2026-10-12T17:39:33Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen3.8-Omni: Towards Native Omni-Modal Agents",
+      "url": "https://arxiv.org/abs/2609.25611",
+      "snippet": "",
+      "published": "2026-10-13T12:24:55Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "I tried to do Kimi K3 inference, I still couldn't figure out bottleneck",
+      "url": "https://ramshankar07.substack.com/p/kimi-k3-tokenomics-i-spent-300-so",
+      "snippet": "",
+      "published": "2026-10-13T17:30:19Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Running Qwen3.8 at 255 tok/s on a single 5090",
+      "url": "https://meshapplied.com",
+      "snippet": "",
+      "published": "2026-10-13T22:31:48Z",
+      "weight": 7
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents",
+      "url": "https://www.marktechpost.com/2026/10/12/alibaba-qwen-introduces-qwengyre-elastic-reinforcement-learning-rl-for-xlong-horizon-agents/",
+      "snippet": "<p>Alibaba&#8217;s Qwen team has introduced QwenGyre, an elastic reinforcement learning RL framework for extreme-long-horizon agent training. QwenGyre is an online reinforcement learning system from A",
+      "published": "Mon, 12 Oct 2026 21:41:50 +0000",
+      "weight": 7
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB",
+      "url": "https://www.marktechpost.com/2026/10/13/zai-glm-legal-harvey-lab-legal-ai-model/",
+      "snippet": "<p>Z.ai’s GLM-Legal is a legal AI model built on GLM-5.3-Flash. It scores 19.2% all-pass on Harvey’s Legal Agent Benchmark, nearly 3x its base, at $0.15 per test. Access is by application.</p>\n<p>The ",
+      "published": "Tue, 13 Oct 2026 08:19:54 +0000",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Show HN: Tellcut – motion videos written as code by Claude, edited by chat",
+      "url": "https://tellcut.app/studio",
+      "snippet": "",
+      "published": "2026-10-12T15:42:58Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him",
+      "url": "https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/",
+      "snippet": "",
+      "published": "2026-10-12T18:19:17Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "SpaceXSI: Unified plans across Grok, Cursor, and X Premium",
+      "url": "https://x.ai/pricing",
+      "snippet": "",
+      "published": "2026-10-13T00:07:46Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "One plan now covers Cursor, Grok, Grok Bot, and X",
+      "url": "https://twitter.com/mattyp/status/2109784144649838754",
+      "snippet": "",
+      "published": "2026-10-13T09:24:37Z",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Google finally releases Gemini 4 Argon",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
+      "snippet": "After months sitting on the sidelines of the frontier AI race, Google has finally launched its long-awaited Gemini 4 Argon model, claiming it can compete with the best the industry has to offer. Googl",
+      "published": "2026-10-13T12:00:00-04:00",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Google makes it easier to launch your vibe-coded apps",
+      "url": "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch",
+      "snippet": "The next time you vibe-code a custom app with Google's AI Studio, you won't have to connect your phone to a computer to install it. On Tuesday, Google announced a new feature in the US that will allow",
+      "published": "2026-10-13T13:00:00-04:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Grok Is Killing Cursor",
+      "url": "https://www.vincentschmalbach.com/grok-is-killing-cursor/",
+      "snippet": "",
+      "published": "2026-10-13T13:53:53Z",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "I don’t miss the camera on the Ray-Ban Meta Audio glasses",
+      "url": "https://www.theverge.com/tech/1009128/ray-ban-meta-audio-glasses-review-smart-glasses-headphones-wearables",
+      "snippet": "The other day I whizzed past several people while running in the park, my playlist blasting at full volume. The next morning, I smiled at a barista while ordering a caramel apple-flavored matcha latte",
+      "published": "2026-10-13T14:00:00-04:00",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+      "snippet": "An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old ",
+      "published": "2026-10-13T16:45:25-04:00",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "How to Use Meta’s Rebalancer for Task Placement & Optimization",
+      "url": "https://www.marktechpost.com/2026/10/13/how-to-use-metas-rebalancer-for-task-placement-optimization/",
+      "snippet": "<p>In this comprehensive coding tutorial, we explore Meta's Rebalancer assignment solver using its C++ core and Python bindings. Learn how to build datacenters, manage task placements across racks, ha",
+      "published": "Tue, 13 Oct 2026 22:14:20 +0000",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Meta Launches Muse Wonder and Muse Wonder Full: Benchmarks, Pricing and How to Use It",
+      "url": "https://www.marktechpost.com/2026/10/13/meta-muse-wonder-muse-wonder-full-release/",
+      "snippet": "<p>Meta released Muse Wonder and Muse Wonder Full, 1M-context agent models. Muse Wonder costs $4/$20 per million tokens on Meta Model API. Wonder Full, on Muse Code plans, leads DeepSWE and SWE-Marath",
+      "published": "Tue, 13 Oct 2026 22:53:44 +0000",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Norway fines Microsoft's Xandr $9.6M over Grindr data sharing",
+      "url": "https://www.reuters.com/legal/litigation/norway-fines-microsofts-xandr-96-million-over-grindr-data-sharing-2026-10-12/",
+      "snippet": "",
+      "published": "2026-10-12T17:41:07Z",
+      "weight": 5
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Whey up: Protein powder prices soar as global demand grows",
+      "url": "https://www.cbc.ca/news/business/whey-up-protein-powder-prices-soar-as-global-demand-grows-9.7369910",
+      "snippet": "",
+      "published": "2026-10-12T00:31:30Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "A Memory of Pangea – Running a public-interest BBS in 1996",
+      "url": "https://github.com/l3nz/pangea-2023/blob/main/Storia_en.md",
+      "snippet": "",
+      "published": "2026-10-12T08:19:23Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Outrage grows as CDC reportedly poised to fund \"unethical\" vaccine trial",
+      "url": "https://arstechnica.com/health/2026/10/rfk-jr-still-eager-to-fund-vaccine-trial-that-would-expose-babies-to-deadly-virus/",
+      "snippet": "",
+      "published": "2026-10-12T12:59:28Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Steam, the Trojan Horse of Linux Gaming",
+      "url": "https://xyinn.org/blog/linux/steam_trojan_horse",
+      "snippet": "",
+      "published": "2026-10-12T15:56:13Z",
+      "weight": 1
+    }
+  ],
+  "cn": [
+    {
+      "source": "雷锋网",
+      "title": "「千问Go！」即将发布，刚帮用户在淘宝申请52元价保退款",
+      "url": "https://www.leiphone.com/category/industrynews/F5qbcy2P4jf6f81T.html",
+      "snippet": "<p>10月13日消息，千问Personal Agent「千问Go！」即将发布。一位用户使用后分享，通过千问Go为自己申请航班延误理赔，已获取70元理赔款；也有用户表示，千问Go已帮忙申请到52元的淘宝价保退款。此外，千问Go还可执行汽车保养、运动预约和购物比价等任务。</p><p>&nbsp;</p><p>资料显示，千问是全球首个能为用户办事的个人AI助理。自去年上线以来，基于阿里生态和开放平台",
+      "published": "Tue, 13 Oct 2026 10:19:00 +0800",
+      "weight": 10
+    },
+    {
+      "source": "雷锋网",
+      "title": "千问确认将推出「千问Go!」，已开放体验申请",
+      "url": "https://www.leiphone.com/category/industrynews/GalDeSPl8orEfNoI.html",
+      "snippet": "<p>10月13日，千问官方公众号发布消息，Personal Agent「千问Go!」的体验申请页面已在千问APP上线。用户可通过APP内指定入口提交申请，千问将逐步为更多用户开放体验资格。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20261013/6acd",
+      "published": "Tue, 13 Oct 2026 12:11:00 +0800",
+      "weight": 10
+    },
+    {
+      "source": "钛媒体",
+      "title": "【钛晨报】“求索”4.0上线！国内首个人工智能全产业链评测基准发布；重庆市委原副书记、市政府原市长黄奇帆被查；DeepSeek据称将完成1000亿元融资",
+      "url": "https://www.tmtpost.com/8167674.html",
+      "snippet": "字节跳动Seed单设安全与对齐部门，严林负责向吴永辉汇报；尊界V800公布制动踏板第三方检测结果；智元启动新融资，估值500亿元，IPO暂缓；马斯克披露Terafab芯片工厂规划：每年制造和测试10款芯片；苹果推出智能家居中枢HomeView，售价299美元；中证协明确券商跨境风险数据管理要求，个人信息出境须评估影响；外资持续撤出韩股，分析师警告：这比半导体基本面更令人担忧",
+      "published": "Wed, 14 Oct 2026 07:20:00 +0800",
+      "weight": 10
+    },
+    {
+      "source": "36氪",
+      "title": "8点1氪丨尊界SUV将给赛力斯生产？江淮汽车回应；字节跳动再现亿级爆款应用；Meta推出具备“前沿级能力”的Muse Wonder AI模型",
+      "url": "https://36kr.com/p/4023543221571463?f=rss",
+      "snippet": "<p>尊界品牌或将放弃SUV车型规划？</p>\n  <h2>今日热点导览</h2>\n  <ul>\n   <li>何立峰会见苹果公司执行董事长蒂姆·库克</li>\n   <li>宇树科技王兴兴：过去犯的最大错误是对AI还不够相信</li>\n   <li>贵州茅台，重夺A股“股王”</li>\n   <li>汽车坠百米悬崖车主奇迹生还，领克回应</li>\n   <li>46岁数学博士AI炒股登上富豪榜，",
+      "published": "2026-10-13 08:04:21  +0800",
+      "weight": 9
+    },
+    {
+      "source": "掘金",
+      "title": "Akamai 宣布与Anthropic达成 116 亿美元多年期协议，以支持其日益增长的需求",
+      "url": "https://juejin.cn/post/7695972603001765907",
+      "snippet": "Akamai宣布与Anthropic深化战略协同，发行认股权证，潜在承诺总额超200亿美元。该认股权证相当于约770万股普通股，行权价111.33美元，将随116亿美元云服务承诺逐步归属。",
+      "published": "Tue, 13 Oct 2026 14:18:06 GMT",
+      "weight": 9
+    },
+    {
+      "source": "量子位",
+      "title": "退差价、约保养、订球场、跟客服磨赔偿，千问Go什么都想管",
+      "url": "https://www.qbitai.com/2026/10/502849.html",
+      "snippet": "丢一句话进去，事儿就办完了",
+      "published": "Tue, 13 Oct 2026 04:04:22 +0000",
+      "weight": 7
+    },
+    {
+      "source": "量子位",
+      "title": "梁文锋投了Swin Transformer作者！DeepSeek开始布局具身大脑",
+      "url": "https://www.qbitai.com/2026/10/503093.html",
+      "snippet": "Winverse AI",
+      "published": "Tue, 13 Oct 2026 09:33:37 +0000",
+      "weight": 7
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "千问Personal Agent硬件升级：AI眼镜可虹膜支付，携手Bose首发AI耳夹耳机",
+      "url": "https://www.infoq.cn/article/xJ8vYf2lCwGWzVizOTSM?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/xJ8vYf2lCwGWzVizOTSM?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Tue, 13 Oct 2026 16:24:40 GMT",
+      "weight": 7
+    },
+    {
+      "source": "钛媒体",
+      "title": "千问借钉钉进场，靠什么留下？",
+      "url": "https://www.tmtpost.com/8165804.html",
+      "snippet": "钉钉留下的东西，千问办公究竟能用上多少，只有等客户真的交出第二项、第三项工作时，才会看得更清楚。",
+      "published": "Tue, 13 Oct 2026 18:43:02 +0800",
+      "weight": 7
+    },
+    {
+      "source": "36氪",
+      "title": "OpenAI正就收购安全初创公司Trail of Bits进行初步谈判",
+      "url": "https://36kr.com/newsflashes/4024955447906440?f=rss",
+      "snippet": "当地时间10月13日，据报道，知情人士透露，OpenAI正就收购安全初创公司Trail of Bits进行初步谈判。目前尚无法获悉这笔潜在交易的规模，谈判仍在进行中。（界面）",
+      "published": "2026-10-14 08:17:13  +0800",
+      "weight": 6
+    },
+    {
+      "source": "量子位",
+      "title": "Claude团队又搞事：实测AI全自主复制进智能家电",
+      "url": "https://www.qbitai.com/2026/10/502920.html",
+      "snippet": "拉马克进化的幽灵",
+      "published": "Tue, 13 Oct 2026 06:19:10 +0000",
+      "weight": 6
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Meta、OpenAI、Google集体杀入，个人Agent一夜爆红：YC CEO说真正的 AGI 已经在你电脑里",
+      "url": "https://www.infoq.cn/article/pkFg3POvaTwJt9lei8Vj?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/pkFg3POvaTwJt9lei8Vj?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Tue, 13 Oct 2026 11:45:54 GMT",
+      "weight": 6
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Claude 开始自己写程序管理 Agent 了：Anthropic 披露动态工作流架构",
+      "url": "https://www.infoq.cn/article/8La5gsJVOOF5BvFiLAUF?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/8La5gsJVOOF5BvFiLAUF?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Tue, 13 Oct 2026 17:41:43 GMT",
+      "weight": 6
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "刚亮相就传被英伟达收购：Gemini老兵团队凭什么还敢押注Coding Agent？",
+      "url": "https://www.infoq.cn/article/LQjytCZpPdgOE5PrWU59?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/LQjytCZpPdgOE5PrWU59?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Tue, 13 Oct 2026 17:57:05 GMT",
+      "weight": 6
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Meta 新模型杀回AI第一梯队，Alexandr Wang 亲述 Muse 7个月翻身内幕",
+      "url": "https://www.infoq.cn/article/2QXm6PqYYX57AOxTYyO0?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/2QXm6PqYYX57AOxTYyO0?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Tue, 13 Oct 2026 18:32:43 GMT",
+      "weight": 6
+    },
+    {
+      "source": "36氪",
+      "title": "36氪首发 | 获数千万融资，ModCraft想让AI通过Mod理解游戏设计",
+      "url": "https://36kr.com/p/4022737676259464?f=rss",
+      "snippet": "<p>文丨二几</p>\n  <p>36氪获悉，AI游戏Mod创作与内容平台ModCraft已完成数千万人民币种子轮融资，投资方包括商汤国香资本、L2F光源创业者基金。融资资金将主要用于AI模型训练以及平台增长。</p>\n  <p>从产品来看，ModCraft目前提供两大服务：一是让用户通过AI，用自然语言制作游戏Mod；二是在平台上发现、游玩和分享其他玩家创作的Mod。截至目前，平台已经上架28款",
+      "published": "2026-10-12 19:04:50  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "复旦师生Pre-A轮融资超10亿，想让AI懂人的情绪与处境",
+      "url": "https://36kr.com/p/4017114276368260?f=rss",
+      "snippet": "<p>文 | 孙小雯 海若镜<br />编辑 | 海若镜</p>\n  <p><strong>人的喜怒哀乐忧惧，对AI来说，重要吗？</strong></p>\n  <p>与人交谈时，我们会留意他的语气、停顿、表情，边听边想对方的真实所思。但当交流被整理成提示词文本，很多情绪信息会被过滤掉。</p>\n  <p>模思智能，这家由邱锡鹏教授（复旦大学特聘教授、上海创智学院副院长）创办的模型公司，一直在意A",
+      "published": "2026-10-13 09:15:49  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "华为投后，一盛新材再获元禾璞华等近亿融资，热控材料站上AI风口丨36氪首发",
+      "url": "https://36kr.com/p/4023646561668995?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20261013/v2_82c64f1959c04c09ac769bf2121c31d2@6221844_oswg1393656oswg1268oswg796_img_png?x-oss-process=image/quality,q_90/format,jpg/i",
+      "published": "2026-10-13 09:48:40  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "深度云海完成千万级天使轮融资，前百度搜索团队创办｜36氪首发",
+      "url": "https://36kr.com/p/4023041152585603?f=rss",
+      "snippet": "<p><strong>文｜王欣逸</strong></p>\n  <p>36氪获悉，近日，专注做GEO的AI营销公司深度云海智能科技（上海）有限公司（以下简称“深度云海”）已完成千万级天使轮融资，华工科技（000988.SZ）领投，本轮资金主要用于自研技术底座迭代、海外市场拓展、产品升级以及AI人才的扩充。</p>\n  <p>深度云海创立于2025年6月，团队规模为70余人，核心团队来自前百度搜索部",
+      "published": "2026-10-13 11:10:57  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "36氪首发丨达晨投过的老牌减速器厂商完成数亿元B轮融资，已供货多家头部机器人企业",
+      "url": "https://36kr.com/p/4023807119789956?f=rss",
+      "snippet": "<p>作者&nbsp;|&nbsp;乔钰杰</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <blockquote>\n   <p>本文约1500字，建议阅读3分钟</p>\n  </blockquote>\n  <p>硬氪获悉，近日，浙江三凯机电有限公司（以下简称“三凯机电”）宣布完成数亿元B轮股权融资。本轮融资由工业母机产业投资基金与物产中大投资联合领投，财通资本、温岭海和融智跟",
+      "published": "2026-10-13 12:29:08  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "Neocloud厂商Prime Intellect收购初创公司，加速推理业务",
+      "url": "https://36kr.com/newsflashes/4024952455237762?f=rss",
+      "snippet": "各类新云服务商（neocloud）以及为应用开发者运行开源模型的推理服务商，正在竞争白热化的市场中寻求差异化优势。 例如，这类新云厂商之一Prime Intellect，在7月的一轮股权融资中估值达10亿美元。该公司正收购一家初创企业，以求在英伟达服务器上运行开源模型时，相比竞争对手实现更高速度、更低成本。 Prime Intellect联合创始人兼首席执行官文森特·魏瑟介绍，这家总部位于旧金山的",
+      "published": "2026-10-14 08:14:12  +0800",
+      "weight": 5
+    },
+    {
+      "source": "量子位",
+      "title": "单轮23亿，累计43亿，无问芯穹刷新国产AI Infra赛道融资双重纪录",
+      "url": "https://www.qbitai.com/2026/10/502767.html",
+      "snippet": "算力、模型、行业，三层生意一起做",
+      "published": "Tue, 13 Oct 2026 04:01:15 +0000",
+      "weight": 5
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "星尘智能完成新一轮融资，公司估值达150亿元",
+      "url": "https://www.infoq.cn/article/z9ORbE470QJDHDiBCC8S?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/z9ORbE470QJDHDiBCC8S?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Tue, 13 Oct 2026 11:06:58 GMT",
+      "weight": 5
+    },
+    {
+      "source": "钛媒体",
+      "title": "科瑞思跨界收购宏钢封装押注光电子，深创投停牌前一月蹊跷减资退场｜并购一线",
+      "url": "https://www.tmtpost.com/8167551.html",
+      "snippet": "停牌前一个月，标的唯一外部机构股东深创投蹊跷减资退场。",
+      "published": "Tue, 13 Oct 2026 20:03:14 +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "AI气象大模型公司获厚雪数千万投资，已建成自有卫星星座丨36氪首发",
+      "url": "https://36kr.com/p/4023671039070081?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20261013/v2_8d60e0b5e79746d08cbd2dc9ae37729a@6221844_oswg1758626oswg1268oswg714_img_png?x-oss-process=image/quality,q_90/format,jpg/i",
+      "published": "2026-10-13 10:12:10  +0800",
+      "weight": 4
+    }
+  ],
+  "source_stats": {
+    "OpenAI-News": 1,
+    "Google-AI-Blog": 1,
+    "TheVerge-AI": 10,
+    "TechReview-AI": 2,
+    "LastWeekInAI": 0,
+    "MarkTechPost": 6,
+    "SebastianRaschka": 0,
+    "TheGradient": 0,
+    "HuggingFace-Blog": 1,
+    "HackerNews": 1,
+    "HackerNews-DeepSeek": 3,
+    "HackerNews-Kimi": 8,
+    "HackerNews-Qwen": 8,
+    "HackerNews-Grok": 8,
+    "HackerNews-xAI": 8,
+    "ArXiv-cs.AI": 0,
+    "量子位": 10,
+    "雷锋网": 15,
+    "钛媒体": 15,
+    "36氪": 15,
+    "InfoQ中文": 15,
+    "掘金": 15,
+    "199IT": 15
+  },
+  "dedup": {
+    "intl": {
+      "before": 57,
+      "after": 56
+    },
+    "cn": {
+      "before": 100,
+      "after": 97
+    }
+  }
+}
