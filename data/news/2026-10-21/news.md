@@ -1,0 +1,98 @@
+# 今日AI头条 · 2026-10-21
+
+> 每日 8:00 自动汇总国际 + 国内 AI 新闻 (24h 内)
+
+
+**抓取统计**: OpenAI-News=3, TheVerge-AI=10, TechReview-AI=6, MarkTechPost=9, HuggingFace-Blog=6, HackerNews=2, HackerNews-DeepSeek=8, HackerNews-Kimi=8, HackerNews-Qwen=8, HackerNews-Grok=8, HackerNews-xAI=8, ArXiv-cs.AI=15, 量子位=10, 雷锋网=15, 钛媒体=15, 36氪=15, InfoQ中文=15, 掘金=15, 199IT=15
+
+**去重**: 国际 91→88, 国内 100→98
+
+## 🌍 国际
+
+- **[DeepSeek V4.1 Flash 1017 (Max)](https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017)** _HackerNews-DeepSeek_ — 
+- **[Run Qwen3.8-Flash-Next on 8GB VRAM and 32 GB RAM at 20T/S](https://github.com/tin-hat/Qwen-tin)** _HackerNews-Qwen_ — 
+- **[US bans DeepSeek from federal agencies, prompting angry response from China](https://www.techspot.com/news/114269-us-bans-deepseek-ai-tools-built-models-federal.html)** _HackerNews-DeepSeek_ — 
+- **[DeepSeek Open-Sources DeepInfer, the Inference Framework Behind DeepSeek-V4.1-Flash](https://www.marktechpost.com/2026/10/20/deepseek-deepinfer-open-source-inference-framework/)** _MarkTechPost_ — <p>DeepSeek has open-sourced DeepInfer, the Apache 2.0 inference framework that serves DeepSeek-V4.1-Flash in production. It targets NVIDIA SM100 GPUs and Huawei Ascend 950 NPUs, and ships offline inf
+- **[Show HN: Qwen3-4B with the AI writing tics trained out](https://100toolkit.com/blog/deslop-model/)** _HackerNews-Qwen_ — 
+- **[DeepSeek banned from U.S. federal civilian agencies under new DHS order](https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/)** _HackerNews-DeepSeek_ — <a href="https:&#x2F;&#x2F;public-inspection.federalregister.gov&#x2F;2026-21447.pdf" rel="nofollow">https:&#x2F;&#x2F;public-inspection.federalregister.gov&#x2F;2026-21447.pdf</a>
+- **[The US orders every civilian agency to rip out DeepSeek, even tools built on it](https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/)** _HackerNews-DeepSeek_ — 
+- **[DHS Orders DeepSeek Technology Removed from Federal Civilian IT Systems](https://www.wsj.com/tech/ai/dhs-orders-deepseek-technology-removed-from-federal-civilian-it-systems-060b6d3d)** _HackerNews-DeepSeek_ — 
+- **[Homeland Security is requiring all civilian federal agencies to remove DeepSeek](https://twitter.com/AndrewCurran_/status/2112250754358788437)** _HackerNews-DeepSeek_ — 
+- **[How Grok Bot Works](https://www.peterp.me/articles/what-actually-happens-when-you-message-grok-bot/)** _HackerNews-Grok_ — 
+- **[Meta pauses Muse sharing after researchers find AI chats on the web](https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats)** _TheVerge-AI_ — Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report publ
+- **[Whoops: Grok Bot Spills Tech CEO's Bank Data in Public Slack](https://www.techdirt.com/2026/10/19/whoops-grok-bot-spills-tech-ceos-bank-data-in-public-slack/)** _HackerNews-Grok_ — 
+- **[Google’s more personalized Gemini AI is heading to your car](https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto)** _TheVerge-AI_ — Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gm
+- **[Anthropic S-1 Shows Red-Hot Growth, Risks and Computing Costs](https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1)** _HackerNews-Grok_ — 
+- **[Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google’s TimesFM-3](https://www.marktechpost.com/2026/10/18/mistral-timestral-time-series-foundation-model/)** _MarkTechPost_ — <p>Mistral released Timestral, a time series foundation model family from 5M to 209M parameters. The 209M model leads GIFT-Eval, TIME and fev-bench among zero-shot models and runs on CPU.</p>
+<p>The p
+- **[AI researchers stranded Claude on a virtual desert island. It started to “play.”](https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/)** _TechReview-AI_ — What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment remini
+- **[OpenAI acquires Orchestra Bio](https://openai.com/index/openai-to-acquire-orchestra-bio)** _OpenAI-News_ — OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&amp;D, helping biopharma teams accelerate drug development and advance new treatments.
+- **[Google Open-Sources TorchTPU, a Native PyTorch Backend for Cloud TPUs](https://www.marktechpost.com/2026/10/20/google-torchtpu-open-source-native-pytorch-tpu/)** _MarkTechPost_ — <p>Google and Meta open-sourced TorchTPU, a native PyTorch backend for Cloud TPUs. It runs eager by default, compiles through torch.compile and XLA, and replaces PyTorch/XLA for new workloads.</p>
+<p>
+- **[MiniMax Just Launched M3.1 Flash: 428B MoE Agentic Model at $0.15/M Input](https://www.marktechpost.com/2026/10/19/minimax-m3-1-flash-release/)** _MarkTechPost_ — <p>MiniMax has released M3.1 Flash, a 428B-parameter MoE model with about 23B active parameters and a 1M-token context. API pricing is $0.15/$0.60 per 1M tokens, with weights due October 23</p>
+<p>The
+- **[Dogs seem to agree with humans that 'kiki' is round and 'bouba' is spiky](https://news.ycombinator.com/item?id=50147195)** _HackerNews-Kimi_ — Just running an experiment.<p>Thanks for participating.
+- **[Democrats think cracking down on AI could give them an edge](https://www.theverge.com/policy/1013113/democrats-ai-midterms)** _TheVerge-AI_ — Democrats could win back control of Congress this November, and if they do, they'll need to decide how to approach one of the country's newest and thorniest political issues: AI. Polls predict Democra
+- **[A hacker broke into John Deere and SharkNinja with an army of AI agents](https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins)** _TheVerge-AI_ — A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn't name the targ
+- **[JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes](https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws)** _TheVerge-AI_ — Today, I’m talking with Illinois Gov. JB Pritzker, who has a lot of thoughts about AI, tech, and privacy. If you’ve been listening to the show, you know that one of my running theories is that those i
+- **[Amelia Earhart researchers leave remote atoll empty-handed](https://www.theguardian.com/us-news/2026/oct/19/amelia-earhart-purdue-expedition-clump-of-trees-nikumaroro-kiribati)** _HackerNews-Kimi_ — 
+- **[Start with Your Coding Agents](https://grokking.agency/posts/building-agents-with-agents-part-1/)** _HackerNews-Grok_ — 
+
+## 🇨🇳 国内
+
+- **[同样10美元，OpenDesign和Command Code的DeepSeek V4.1 Flash额度到底有多少？](https://juejin.cn/post/7698546901831352370)** _掘金_ — 最近，我买了两个每月10美元的套餐，用来使用 DeepSeek V4.1 Flash，它们分别是 OpenDesign Go 和 Command Code GOAT。 OpenDesign 宣传每月最
+- **[停止加薪！大众计划冻结全球大量员工薪酬至2030年；突发！美国发布DeepSeek禁令；马斯克：明年向全美儿童赠送SpaceX股票](https://www.leiphone.com/category/zaobao/Y7039p8HsmmeQClm.html)** _雷锋网_ — <section></section><section><section><section><section><section><section><section></section><section><section style="text-align: center;"><span style="font-size: 24px;"><strong>要闻提示</strong></span></s
+- **[【钛晨报】工信部：正研究起草新一代智能制造政策，推动“AI+制造”；新央企国家数据集团成立，董事长、总经理亮相；DeepSeek宣布全面开源内部推理框架](https://www.tmtpost.com/8175144.html)** _钛媒体_ — 宇树科技：人形机器人行业尚处于商业化早期；多家银行取消积存金手续费；宁德时代第三季度净利润212.46亿元，同比增长14.54%；云南锗业第三大股东章建平三季度增仓1961.57万股；特斯拉与支付宝达成车载助手项目合作；中国央行将连续九个工作日开展隔夜逆回购；美以窃取商业秘密为由制裁中国企业，商务部回应。
+- **[8点1氪丨将实施“消费才可入座”？星巴克中国回应；Anthropic上半年净亏807亿美元；日本优衣库宣布涨价](https://36kr.com/p/4034867385537670?f=rss)** _36氪_ — <h2>今日热点导览</h2>
+  <ul>
+   <li>官方定调L2禁用智驾“小蓝灯”</li>
+   <li>10月LPR报价出炉</li>
+   <li>特斯拉与支付宝达成合作</li>
+   <li>谷歌前CEO施密特据悉持有Anthropic约1%股份</li>
+   <li>马斯克去年薪酬超1万亿，但到手为零</li>
+  </ul>
+  <h2>TOP 3 大新闻</h2>
+  <
+- **[Claude新模型曝光！能跳出思维定势，修Bug治标又治本](https://www.qbitai.com/2026/10/504314.html)** _量子位_ — OpenAI只掏出一个6.1 Terra…
+- **[硬氪首发｜用AI智能体辅助新材料研发，睿质科技完成数千万元天使轮融资](https://36kr.com/p/4033523733042053?f=rss)** _36氪_ — <p>文｜杨媛</p>
+  <p>编辑｜彭孝秋</p>
+  <p>硬氪获悉，北京睿质科技有限公司（以下简称“睿质科技”）近日完成数千万元天使轮融资，本轮由中关村资本领投，中关村科学城公司跟投，中关村产业研究院担任独家财务顾问。目前，公司正在推进新一轮融资。</p>
+  <p>睿质科技是一家从事AI材料研发软件及平台开发的科技企业，由院士、长江学者团队领衔，主要面向科研机构及工业企业提供材料计算、性
+- **[硬氪首发丨虚拟电厂公司完成数亿元融资，预计2027年盈利](https://36kr.com/p/4033817271866244?f=rss)** _36氪_ — <p>作者&nbsp;|&nbsp;杨媛</p>
+  <p>编辑&nbsp;|&nbsp;彭孝秋</p>
+  <p>硬氪获悉，近日，合肥原力众合能源科技有限公司（以下简称“原力能源”）完成新一轮融资。据公司披露，本轮融资金额数亿元，投资方包括合肥仁创四期创业投资合伙企业（有限合伙）、合肥仁新创业投资合伙企业（有限合伙）。本轮资金将主要用于产品及能源垂直模型研发、区域市场拓展，以及部分能源资产投资。
+- **[AI创企ASI融资3.25亿美元，估值30亿美元](https://36kr.com/newsflashes/4034882381698180?f=rss)** _36氪_ — 当地时间10月20日，人工智能初创公司ASI宣布完成一轮3.25亿美元融资，公司估值达30亿美元。本轮融资由Spark Capital领投，参投方还包括Citadel Securities 旗下关联机构、Meritech Capital和Craft Ventures等。（界面）
+- **[新石器完成近4亿美元新一轮融资，加速全球化与规模化商业落地](https://www.leiphone.com/category/industrynews/eSrgjx3nGEGMMePm.html)** _雷锋网_ — <p>10月20日，全球领先的自动驾驶科技公司新石器（Neolix）宣布正式完成E轮近4亿美元融资。本轮融资由博裕投资与某国家级基金联合领投，阿里巴巴AEF NextGen香港基金、Monolith砺思资本、纪源资本、淡马锡旗下Vertex Growth、华映资本、广汽资本、金鼎资本、朗玛峰创投、正大机器人、领航新界、高鹄资本等机构参与投资，磊石资本（Stone Venture）、信宸资本、高成投
+- **[2026年Q2全球主要风险投资赛道融资额（附原数据表） ​​​](http://www.199it.com/archives/1858449.html)** _199IT_ — 2026年Q2全球主要风险投资赛道融资额（附原数据表） ​​​
+- **[鸿蒙智行抢滩海外，问界计划采用“博世inside”方案｜36氪独家](https://36kr.com/p/4034025645560963?f=rss)** _36氪_ — <p>巴黎车展上，赛力斯副总裁康波宣布，问界将在明年秋季进入欧洲市场，此后赛力斯A股股价涨停。</p>
+  <p>36氪从多位产业人士处了解到，问界的海外车型将采用“BOSCH Inside”的合作模式，与国际巨头博世联合开发。海外版问界M6、M7、M8、M9，都将搭载博世的全套智能化方案。博世的全套智能化方案涵盖高阶辅助驾驶、智能座舱和底盘。</p>
+  <p>目前，博世已启动了问界海外车型的开
+- **[大批API账户被刷爆！OpenCode遭黑客围攻48小时，官方甩锅“蒸馏攻击”被质疑](https://www.infoq.cn/article/K5J7yb60djWKM6vUZqwq?utm_source=rss&utm_medium=article)** _InfoQ中文_ — <div align="right"><a href="https://www.infoq.cn/article/K5J7yb60djWKM6vUZqwq?utm_source=rss&amp;utm_medium=article">点击查看原文></a></div>
+- **[国模Agent第一！MiniMax爆改Flash战力，全时段大肥鱼谷价](https://www.qbitai.com/2026/10/504517.html)** _量子位_ — 兔皮底下，竟然是MiniMax！
+- **[日本市场RTX 5060 Ti 16GB显卡最高售价20万日元，较首发价上涨144%](http://www.199it.com/archives/1857780.html)** _199IT_ — 日本市场RTX 50系列显卡价格近期飙升。RTX 5060 Ti 16GB最高售价20万日元（约9738元），较8.5万日元首发价涨144%；5060 Ti 8GB售11万日元，较首发价涨约63%；RTX 5080最高涨94%，挂牌价达38万日元。RTX 5090停产被视为高端市场连锁反应主因。
+- **[8点1氪丨被指品质暴跌，山姆回应；宇树科技市值重回2000亿，人形机器人股批量涨停；马斯克承诺给“美国每个孩子”1股SpaceX股份](https://36kr.com/p/4033470689268610?f=rss)** _36氪_ — <h2>今日热点导览</h2>
+  <p>长鑫科技旗下北京集电存储技术公司增资至约601.8亿</p>
+  <p>为什么有些功能微信鸿蒙版上还没有？微信回应</p>
+  <p>股票ETF上周净流入885亿元，为年内第四高</p>
+  <p>西贝否认“漫迩朵鲜羊肉铺”为旗下新品牌</p>
+  <p>国家税务总局发布关于离岸信托纳税申报的提示提醒</p>
+  <h2>TOP3大新闻</h2>
+  <p
+- **[顺为投��一位北大PI，想用AI“解密”人脑](https://36kr.com/p/4032248929686151?f=rss)** _36氪_ — <p>&nbsp;</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20261019/v2_42a5fd3a4caa4331abb8eb7b6b023d6d@5930287_oswg2840681oswg1672oswg941_img_png?x-oss-process=image/quality,q
+- **[在人人都能做漫剧之后，阅文打开了自己的版权库](https://36kr.com/p/4032661941883525?f=rss)** _36氪_ — <p>当一个人一天能制造一部短剧，这会给一家掌握海量IP的公司带来什么？</p>
+  <p>在2026阅文创作大会上，这家老牌网文公司公布了一组数据。</p>
+  <p>上半年，阅文短剧和漫剧收入4.3亿元，是去年同期三倍多。截至目前，阅文已有660部漫剧播放破千万，107部破亿；签约个人及个人工作室5000多个，前十大OPC创作者年收入过百万，头部团队分成破600万。</p>
+  <p>OPC，
+- **[前苹果工程师、Jackery联创做宠物健康硬件，年营收超10亿，获红杉投资｜硬氪专访](https://36kr.com/p/4026637554963074?f=rss)** _36氪_ — <p>摘要：从自动化工具进化为能感知、判断、通知、行动的智能终端。</p>
+  <p>作者｜黄楠</p>
+  <p>编辑｜袁斯来</p>
+  <p>Petlibro的创始人伍昱某种程度上是个幸运的人。他在20多岁的时候，赶上了中国消费硬件出海的黄金时代。</p>
+  <p>他2007年加入苹果做工程师，参与过早期iPod、初代iPhone的产研工作。2012年开始创业、联合成立储能品牌Jacker
+- **[从“卡脖子”到自主可控：航空制造国产替代进行时｜OpenTalk直播预告](https://36kr.com/p/4034016455627655?f=rss)** _36氪_ — <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20261020/v2_fe31ef1b8c6247e99538c804321d8742@6413691_oswg564530oswg2096oswg1180_img_png?x-oss-process=image/quality,q_90/format,jpg/i
+- **[机构预计北京写字楼市场将于2028年企稳](https://36kr.com/p/4033965080155016?f=rss)** _36氪_ — <p>当前，北京办公楼市场正在经历一场跨度十年的深度调整，全面迈入以“重新定价”为标志的系统性重构时期。据仲量联行发布的《2026北京办公楼市场白皮书》数据，截至2026年第三季度，全市空置率维持在17%左右，稳居全国一线城市最低水平。同时租金继续回落，三季度末全市甲级办公楼平均租金回落至198元/平方米/月，距2018年末的历史峰值8年累计下调近50%。其中，2024年和2025年租金年均同比下
+- **[亚盛医药：利生妥治疗初治慢性淋巴细胞白血病/小淋巴细胞淋巴瘤获突破性疗法认定](https://36kr.com/newsflashes/4034884540470145?f=rss)** _36氪_ — 36氪获悉，亚盛医药在港交所公告，公司原创1类新药Bcl-2抑制剂利生妥®（通用名：利沙托克拉，研发代号：APG-2575）获国家药品监督管理局（NMPA）药品审评中心（CDE）纳入“突破性治疗品种”名单，用于联合阿可替尼治疗成人初治慢性淋巴细胞白血病/小淋巴细胞淋巴瘤（CLL/SLL）患者。
+- **[和黄医药：与葛兰素史克的KRAS-EGFR抗体偶联疗法中国以外地区许可协议已完成交易](https://36kr.com/newsflashes/4034886485546119?f=rss)** _36氪_ — 36氪获悉，和黄医药在港交所公告，继2026年9月3日的公告并完成包括反垄断审查在内的惯例成交条件后，公司之附属公司和记黄埔医药（上海）有限公司（HUTCHMED Limited）与GSK plc（葛兰素史克）的附属公司的独家开发和许可协议已完成交易。协议授予该葛兰素史克附属公司除中国内地、香港、澳门和台湾以外的全球范围内开发和商业化HMPL-A830的权利。一项于中国和美国展开的HMPL-A83
+- **[日本9月出口稳健增长，受芯片和汽车出货提振](https://36kr.com/newsflashes/4034887164826497?f=rss)** _36氪_ — 日本9月出口表现依然稳健，芯片和汽车出货增长带来提振。日本财务省周三公布，9月出口额同比增长16.7%，低于经济学家预估中值21.3%。日本出口已连续13个月增长。进口同比增长18.9%，也低于经济学家预期的20.4%。未经调整的贸易逆差为5360亿日元（34亿美元），较8月的1.1万亿日元逆差明显收窄。（新浪财经）
+- **[苹果为iPhone Duo新增美国本土钛金属供应商，当前供货持续紧张](https://36kr.com/newsflashes/4034893061280902?f=rss)** _36氪_ — 苹果正在为新款折叠机型iPhone Duo新增一家美国钛金属供应商，同时扩大iPhone 18 Pro摄像头组件的本土产能，以此推进在美国本土扩大制造业务的计划。苹果周二宣布，未来三年将向宾夕法尼亚州休斯顿市Perryman Company投入最高1亿美元，用于生产苹果产品所用钛材，其中就包括售价1999美元的折叠手机iPhone Duo。（新浪财经）
+- **[从百比特芯片到整机交付，这家量子计算公司正将量子算力推向可调用服务](https://www.qbitai.com/2026/10/504277.html)** _量子位_ — 同步搭建千比特规模量子算力云平台

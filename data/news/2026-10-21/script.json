@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-10-21 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "钛媒体",
+      "title": "DeepSeek宣布全面开源内部推理框架DeepInfer",
+      "url": "",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews",
+      "title": "美国国土安全部下令所有联邦民事机构移除DeepSeek，中方强烈回应",
+      "url": "https://public-inspection.federalregister.gov/2026-21447.pdf",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "MiniMax爆改M3.1 Flash，428B MoE模型登顶国模Agent第一",
+      "url": "",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "OpenCode遭黑客围攻48小时，大批API账户被刷爆",
+      "url": "",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "新石器完成近4亿美元E轮融资，加速自动驾驶全球化落地",
+      "url": "",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "鸿蒙智行抢滩海外，问界明年秋季进欧洲并采用博世联合开发方案",
+      "url": "",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "阅文公布漫剧数据：660部播放破千万，短剧漫剧半年收入4.3亿",
+      "url": "",
+      "weight": "medium"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Anthropic上半年净亏807亿美元，增长火热但算力成本高企",
+      "url": "",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge",
+      "title": "黑客用一支AI智能体大军攻破John Deere与SharkNinja等100多个网站",
+      "url": "",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge",
+      "title": "谷歌个性化Gemini进军汽车，将接入Android Auto与谷歌内置车机",
+      "url": "",
+      "weight": "medium"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Mistral发布Timestral时序预测模型家族，209M参数超越谷歌TimesFM-3",
+      "url": "",
+      "weight": "medium"
+    },
+    {
+      "source": "TheVerge",
+      "title": "Meta暂停Muse对话分享功能，因研究人员发现聊天链接公开可访问",
+      "url": "",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "早上好，今天是10月21号，DeepSeek开源、美国禁令、百亿融资，信息量爆炸，咱们开聊！"
+    },
+    {
+      "role": "guest",
+      "text": "对，今天国内AI圈最炸的就是DeepSeek，咱们先从这个说起。"
+    },
+    {
+      "role": "host",
+      "text": "DeepSeek这次把内部推理框架DeepInfer全开源了，这操作说实话有点猛啊。"
+    },
+    {
+      "role": "guest",
+      "text": "没错，这个DeepInfer是支撑V4.1-Flash生产环境的框架，采用Apache 2.0协议，等于把看家本事都拿出来了。"
+    },
+    {
+      "role": "host",
+      "text": "关键它不是只支持英伟达吧？我记得还适配了华为的昇腾950，这信息量很大。"
+    },
+    {
+      "role": "guest",
+      "text": "对，它同时瞄准英伟达SM100和华为昇腾950，这是明确表态：国产算力路线要跟英伟达平起平坐。"
+    },
+    {
+      "role": "host",
+      "text": "不过讽刺的是，同一时间美国那边却对DeepSeek下了狠手，这事儿你怎么看？"
+    },
+    {
+      "role": "guest",
+      "text": "美国国土安全部下令所有联邦民事机构从IT系统里移除DeepSeek，连基于它构建的工具都不能留，中方也表达了强烈不满。"
+    },
+    {
+      "role": "host",
+      "text": "连基于它做的应用都要拔掉，这力度确实罕见，感觉已经不是技术问题了。"
+    },
+    {
+      "role": "guest",
+      "text": "对，这是把技术竞争直接政治化了，但对DeepSeek的开源生态反而可能是反向广告，全球开发者看得明白。"
+    },
+    {
+      "role": "host",
+      "text": "说到开源竞争，MiniMax今天也放大招了吧？M3.1 Flash好像很能打。"
+    },
+    {
+      "role": "guest",
+      "text": "M3.1 Flash是428B参数的MoE模型，激活参数约230亿，上下文窗口100万token，号称国模Agent第一。"
+    },
+    {
+      "role": "host",
+      "text": "价格我印象里也很夸张，0.15美元每百万输入，这价格是要打穿市场啊。"
+    },
+    {
+      "role": "guest",
+      "text": "输入0.15、输出0.6美元每百万token，而且权重10月23号开放，摆明了要抢Agent场景的企业订单。"
+    },
+    {
+      "role": "host",
+      "text": "国内安全圈今天还有个吓人的事，OpenCode被黑客围攻48小时，你给我讲讲。"
+    },
+    {
+      "role": "guest",
+      "text": "大批API账户被刷爆，官方说是遭遇蒸馏攻击，但社区普遍不买账，怀疑是防护和计费机制有漏洞。"
+    },
+    {
+      "role": "host",
+      "text": "这事儿给所有做模型API的公司提了个醒，烧钱补贴时代账单真的会被人恶意刷穿。"
+    },
+    {
+      "role": "guest",
+      "text": "对，随着推理价格越来越低，滥用成本也变低，安全风控必须跟模型能力一起升级。"
+    },
+    {
+      "role": "host",
+      "text": "融资方面，自动驾驶公司新石器今天官宣了近4亿美元E轮，阵容挺豪华的。"
+    },
+    {
+      "role": "guest",
+      "text": "博裕投资联合一家国家级基金领投，阿里、纪源、淡马锡旗下Vertex、广汽资本都跟了，主要投向全球化和规模化商业落地。"
+    },
+    {
+      "role": "host",
+      "text": "自动驾驶小daemon冷启动这么难，新石器凭什么拿到国家级基金背书？"
+    },
+    {
+      "role": "guest",
+      "text": "它主打无人配送车，场景比Robotaxi更容易跑通账面，国家基金入场也说明政策对低速无人化的态度转暖。"
+    },
+    {
+      "role": "host",
+      "text": "汽车圈还有个大新闻，问界要出海欧洲了，这步棋走得挺激进。"
+    },
+    {
+      "role": "guest",
+      "text": "赛力斯副总裁在巴黎车展宣布，问界明年秋季进欧洲，海外版M6到M9全系采用博世全套智能化方案联合开发。"
+    },
+    {
+      "role": "host",
+      "text": "用博世方案等于把智驾灵魂交给别人？国内可是高阶智驾自研路线啊。"
+    },
+    {
+      "role": "guest",
+      "text": "这就是出海的现实妥协，博世的品牌信任度和欧洲法规适配能力，比自研方案落地快得多，消息一出赛力斯股价直接涨停。"
+    },
+    {
+      "role": "host",
+      "text": "对了，阅文那边也公布了漫剧成绩单，AI对内容行业的冲击有数据了。"
+    },
+    {
+      "role": "guest",
+      "text": "上半年阅文短剧漫剧收入4.3亿元，是去年同期三倍多，660部漫剧播放破千万，107部破亿。"
+    },
+    {
+      "role": "host",
+      "text": "而且它开放了版权库，签约个人创作者5000多个，头部团队分成破600万，人人做内容的时代真来了。"
+    },
+    {
+      "role": "guest",
+      "text": "好，国内聊完了，咱们把目光转向海外，Anthropic财报数据挺震撼的。"
+    },
+    {
+      "role": "host",
+      "text": "Anthropic的S-1文件显示增长非常猛，但上半年净亏损807亿美元，算力成本是最大的吞金兽。"
+    },
+    {
+      "role": "guest",
+      "text": "807亿美元亏损？这数字听着比好多公司市值都大，这商业模式撑得住吗？"
+    },
+    {
+      "role": "host",
+      "text": "增长和亏损并存说明它还在赌规模效应，但前任谷歌CEO施密特持有约百分之一股份，资本显然还在加注。"
+    },
+    {
+      "role": "guest",
+      "text": "安全方面，那个用AI智能体大军入侵的黑客案例，我看完了后背发凉。"
+    },
+    {
+      "role": "host",
+      "text": "安全公司Norforge披露，一个黑客用AI智能体军团自主攻破了100多个网站，John Deere和SharkNinja都被点名。"
+    },
+    {
+      "role": "guest",
+      "text": "AI智能体从生产力工具变成攻击武器了，防守方怎么应对？"
+    },
+    {
+      "role": "host",
+      "text": "这正是问题所在，攻击是自动化规模化的，防御还是人肉响应，这个不对称鸿沟2027年前恐怕会更严重。"
+    },
+    {
+      "role": "guest",
+      "text": "Meta也翻车了，Muse分享功能刚上线就被紧急暂停，咋回事？"
+    },
+    {
+      "role": "host",
+      "text": "用户分享的AI对话链接被研究人员发现公开可访问，隐私直接裸奔，Meta只能暂停功能，跟当年数据泄露的剧本神似。"
+    },
+    {
+      "role": "guest",
+      "text": "谷歌倒是往前冲，Gemini要上车了，还是个性化定制版。"
+    },
+    {
+      "role": "host",
+      "text": "谷歌把Personal Intelligence引入Android Auto和谷歌内置车机，能调取 Gmail、日历等谷歌全家桶数据来定制车载体验。"
+    },
+    {
+      "role": "guest",
+      "text": "一边是Meta因隐私翻车，一边是谷歌要读你所有数据开车，用户隐私边界越来越模糊了。"
+    },
+    {
+      "role": "host",
+      "text": "对，座舱是最私密的空间之一，谷歌赌的是便利性压倒隐私顾虑，这仗有得打。"
+    },
+    {
+      "role": "guest",
+      "text": "还有个小而美的发布，Mistral的时序模型Timestral，别看它小。"
+    },
+    {
+      "role": "host",
+      "text": "Timestral家族从500万到2.09亿参数，209M版本在GIFT-Eval等多个基准超越谷歌TimesFM-3，关键是CPU就能跑。"
+    },
+    {
+      "role": "guest",
+      "text": "回到全局看，今天国内是DeepSeek开源加MiniMax降价，国际是Anthropic巨亏加安全事件，你觉得主线是什么？"
+    },
+    {
+      "role": "host",
+      "text": "主线就俩词：内卷和裂隙，国内卷价格卷开源，国际上技术脱钩的裂隙在加深，地缘正在重塑AI版图。"
+    },
+    {
+      "role": "guest",
+      "text": "美国禁令加上DeepSeek适配昇腾，是不是意味着中外AI技术栈要彻底分家了？"
+    },
+    {
+      "role": "host",
+      "text": "分家正在发生，DeepInfer同时支持英伟达和昇腾就是明牌，未来会出现两套平行的开源生态和算力体系。"
+    },
+    {
+      "role": "guest",
+      "text": "那对开发者来说，接下来该怎么站队或者两头下注呢？"
+    },
+    {
+      "role": "host",
+      "text": "我的建议是抽象层要做好，推理框架和模型API都保持可替换，成本敏感场景国内模型已经完全不输国际大厂。"
+    },
+    {
+      "role": "guest",
+      "text": "还有个变量别忽略，民主党如果赢回国会，美国AI监管可能要变天，Pritzker甚至拿核武类比AI风险。"
+    },
+    {
+      "role": "host",
+      "text": "对，美国监管收紧叠加欧盟法案落地，全球合规成本会上升，反而是中国厂商通过开源争取全球开发者的窗口期。"
+    },
+    {
+      "role": "guest",
+      "text": "最后快问快答，几条要闻别错过：OpenAI宣布收购Orchestra Bio，进军生命科学研发。"
+    },
+    {
+      "role": "host",
+      "text": "AI创企ASI完成3.25亿美元融资，估值30亿美元，由Spark Capital领投。"
+    },
+    {
+      "role": "guest",
+      "text": "谷歌联合Meta开源TorchTPU，PyTorch原生后端直连云端TPU，生态要变天。"
+    },
+    {
+      "role": "host",
+      "text": "AI初创睿质科技完成数千万元天使轮，用智能体辅助新材料研发，中关村资本领投。"
+    },
+    {
+      "role": "guest",
+      "text": "麻省理工科技评论报道，研究者把Claude困在虚拟荒岛30小时，它居然开始自娱自乐地玩耍。"
+    },
+    {
+      "role": "host",
+      "text": "Qwen社区玩法很猛，Qwen3.8-Flash-Next在8GB显存加32GB内存跑到每秒20 token。"
+    },
+    {
+      "role": "host",
+      "text": "日本市场RTX 5060 Ti 16GB最高炒到20万日元，较首发价暴涨144%，显卡荒又来了。"
+    }
+  ]
+}
