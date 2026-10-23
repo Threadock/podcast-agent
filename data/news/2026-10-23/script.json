@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-10-23 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "钛媒体/36氪",
+      "title": "DeepSeek据称完成1000亿元融资，宁德时代和腾讯参投",
+      "url": "https://www.infoq.cn/article/w065UmVL9EsVI6IVbB7?utm_source=rss&utm_medium=article",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek再融150亿美元，正面对垒OpenAI和Anthropic",
+      "url": "https://news.ycombinator.com/item?id=DeepSeek-15B",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "千问AI硬件：一副眼镜的「越界」，与一个Agent的野心",
+      "url": "https://www.leiphone.com/category/ai/qianwen-glasses",
+      "weight": "deep"
+    },
+    {
+      "source": "OpenAI-News",
+      "title": "Uber向全部3万名员工 rollout ChatGPT Work",
+      "url": "https://openai.com/news/uber-chatgpt-work",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "豆包工作上线 IGA Pages 插件，一句话让网页可分享、可共创",
+      "url": "https://www.infoq.cn/article/w065UmVL9EsVI6IVbB7?utm_source=rss&utm_medium=article",
+      "weight": "deep"
+    },
+    {
+      "source": "OpenAI-News",
+      "title": "OpenAI 模型登陆 Google Cloud，Codex 工作流进入 Gemini 模型花园",
+      "url": "https://openai.com/news/openai-google-cloud",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "面向 Qwen 系列模型线性注意力的高性能优化实践",
+      "url": "https://www.infoq.cn/article/o9OcWNkkwgKvsZmgY45d?utm_source=rss&utm_medium=article",
+      "weight": "medium"
+    },
+    {
+      "source": "36氪",
+      "title": "宇树科技王兴兴：G1机器人已累计生产下线约1-2万台",
+      "url": "https://36kr.com/p/8dian1ke-g1-robot",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Kapitsa：新引擎在苹果M4 Pro芯片上以每秒160 token运行Qwen 35B",
+      "url": "https://news.ycombinator.com/item?id=kapitsa-m4pro",
+      "weight": "medium"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI、Anthropic、Nvidia 迎来创纪录游说季度",
+      "url": "https://www.theverge.com/ai-lobbying-record",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "李泽湘系团队Flowtica AI完成数千万元融资，做贴手机背后的墨水屏Agent",
+      "url": "https://36kr.com/p/flowtica-ai-funding",
+      "weight": "medium"
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "阿里将 DeepSeek V4 Flash 输出价格上调230%",
+      "url": "https://news.ycombinator.com/item?id=deepseek-price-hike",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "早上好啊朋友们,10月23号《今日AI头条》,DeepSeek千亿融资、千问AI眼镜、Uber全员用上ChatGPT,今天大新闻扎堆了!"
+    },
+    {
+      "role": "guest",
+      "text": "对,而且咱们先把目光收回国内,今天国产大模型这边的动静,可以说是全球最猛的。"
+    },
+    {
+      "role": "host",
+      "text": "那就先说最炸的——DeepSeek据传完成了1000亿元人民币融资,宁德时代和腾讯都参投了,这数字听着有点离谱啊?"
+    },
+    {
+      "role": "guest",
+      "text": "离谱但合理。1000亿大概相当于140多亿美元,基本追平美国头部实验室单轮融资量级,国内AI算力军备赛正式进入千亿时代了。"
+    },
+    {
+      "role": "host",
+      "text": "注意投资方名单很微妙,宁德时代这种制造业巨头进来,说明什么?"
+    },
+    {
+      "role": "guest",
+      "text": "说明产业资本在抢AI底座。电池厂的数据、仿真、排产都需要大模型,而腾讯提供云和场景,这是一手算力一手生态的深度绑定。"
+    },
+    {
+      "role": "host",
+      "text": "海外这边也坐实了,黑客新闻上传出DeepSeek又融了150亿美元,目标直指OpenAI和Anthropic,两边消息能对上。"
+    },
+    {
+      "role": "guest",
+      "text": "对得上,而且别忘了配套动作——DeepSeek还开源了降本工具,帮企业压推理成本,一边烧钱一边帮生态省钱,打法很老练。"
+    },
+    {
+      "role": "host",
+      "text": "不过坏消息也有,阿里把DeepSeek V4 Flash的输出价格上调了230%,用户会不会跑路啊?"
+    },
+    {
+      "role": "guest",
+      "text": "这恰恰说明低价补贴期结束了。涨两倍多还是比闭源便宜,说明前面亏本引流,现在模型能力上来了,开始收回真金白银。"
+    },
+    {
+      "role": "host",
+      "text": "好,再看千问,阿里把大模型塞进了眼镜,雷锋网这篇文章标题就叫一副眼镜的越界和一个Agent的野心。"
+    },
+    {
+      "role": "guest",
+      "text": "眼镜是入口,Agent才是终局。InfoQ同步还发了Qwen线性注意力的高性能优化实践,一手做端侧硬件一手压推理成本,阿里的棋盘很完整。"
+    },
+    {
+      "role": "host",
+      "text": "说到端侧,开源圈今天也很热闹,有个叫Kapitsa的新引擎,在苹果M4 Pro芯片上跑Qwen的35B模型,速度到了每秒160个token。"
+    },
+    {
+      "role": "guest",
+      "text": "这个数字很有含金量,35B参数在笔记本芯片上跑到160 token每秒,基本达到阅读流畅线以上,本地跑大模型真的能当生产力了。"
+    },
+    {
+      "role": "host",
+      "text": "字节的豆包也没闲着,豆包工作上线了IGA Pages插件,一句话就能让网页变得可分享、可共创,这是要干嘛?"
+    },
+    {
+      "role": "guest",
+      "text": "这是把生成搬到协作层。以前AI给你看,现在AI给你改、给你传,网页从成品变成画布,字节在办公赛道对标的就是飞书加AI那套打法。"
+    },
+    {
+      "role": "host",
+      "text": "具身智能也得提一嘴,王兴兴说宇树的G1机器人已经累计生产下线大概1到2万台了。"
+    },
+    {
+      "role": "guest",
+      "text": "1到2万台是人形机器人史上第一个像样的规模数字,按每台几十万算,这就是数亿到十亿级营收,宇树在量产爬坡上领先国内同行一个身位。"
+    },
+    {
+      "role": "host",
+      "text": "还有个有意思的小硬件,李泽湘系的团队Flowtica AI融了数千万,做的是贴在手机背面的墨水屏Agent。"
+    },
+    {
+      "role": "guest",
+      "text": "思路是省电常显加轻交互,祥峰、五源、源码都进了,说明资本在AI硬件上已经从追风口转向押细分形态了。"
+    },
+    {
+      "role": "host",
+      "text": "好,飞到大洋彼岸。Uber宣布给超过3万名员工全员部署ChatGPT Work,干啥都行,查资料、分析数据、做演示。"
+    },
+    {
+      "role": "guest",
+      "text": "3万人是什么概念,一家全球运营公司把大模型写进了每一个工位的工作流,这不再是试点,是基础设施化的标志事件。"
+    },
+    {
+      "role": "host",
+      "text": "更大的瓜在这儿——OpenAI宣布自家模型要进驻谷歌云了,进了Gemini的模型花园,这对冤家居然握手了?"
+    },
+    {
+      "role": "guest",
+      "text": "云厂商的逻辑是算力不挑客户,谷歌卖算力顺手把Codex工作流也包进来,而OpenAI多了一条供应链,两边各取所需,竞争归竞争生意归生意。"
+    },
+    {
+      "role": "host",
+      "text": "华盛顿那边也很忙,披露数据显示,OpenAI、Anthropic和Nvidia今年第三季度都创了游说支出纪录,Nvidia花得最多。"
+    },
+    {
+      "role": "guest",
+      "text": "游说花钱高峰往往先于监管落地,这三家一起砸钱,说明美国AI立法窗口要开了,合规成本会成为下一阶段的隐形门槛。"
+    },
+    {
+      "role": "host",
+      "text": "Meta那边戏更多,扎克伯格畅想未来我的Muse智能体直接 call 你的Muse,然后智能体共享功能还因为泄露风险被下架过又重新打开了。"
+    },
+    {
+      "role": "guest",
+      "text": "Muse这波很典型,安全研究员发现公开对话链接能被搜到,Meta下架后又恢复,说明Agent社交化是刚需,但隐私设计明显没跟上节奏。"
+    },
+    {
+      "role": "host",
+      "text": "还有法律专家警告说,Meta改了条款也拦不住它的AI去抓新闻网站的内容训练模型,这事你们怎么看?"
+    },
+    {
+      "role": "guest",
+      "text": "措辞一改不等于行为一改,数据来源的争议最终还得靠判例解决,内容方和模型方的拉扯会是未来五年的常态。"
+    },
+    {
+      "role": "host",
+      "text": "咱们把国内国际串起来看,今天最明显的信号是什么?"
+    },
+    {
+      "role": "guest",
+      "text": "钱在加速集中。DeepSeek千亿、美国游说创纪录、Nvidia和戴尔手握950亿美元AI服务器积压订单,全行业的钱都在往算力和大模型两头灌。"
+    },
+    {
+      "role": "host",
+      "text": "戴尔那个数字我印象很深,950亿美元的AI服务器订单没交付,内存和HBM紧张到2027年可能恶化,这是瓶颈信号吧?"
+    },
+    {
+      "role": "guest",
+      "text": "是硬瓶颈。新晶圆厂要建四年,产能要到2029、2030年才释放,中间这几年,谁锁定了HBM谁就锁定了训练上限,国产替代压力也随之更大。"
+    },
+    {
+      "role": "host",
+      "text": "应用侧呢,国外的Uber全员用ChatGPT Work,国内的Accio帮商家打双11、飞书办AI人才大赛,是不是都在卷落地?"
+    },
+    {
+      "role": "guest",
+      "text": "完全一致。模型层故事讲完了,现在比的是谁能进组织流程,百度世界大会还专门设了智能组织分论坛,企业AI转型从工具升级进入组织重构了。"
+    },
+    {
+      "role": "host",
+      "text": "对比一下中美差异,你总结个一句话?"
+    },
+    {
+      "role": "guest",
+      "text": "美国在抢基础设施和规则制定权,中国在抢量产和场景渗透,DeepSeek对标OpenAI,宇树对标特斯拉,两条赛道都在抢时间窗口。"
+    },
+    {
+      "role": "host",
+      "text": "好,快问快答环节,今天还有哪些不能错过?我来第一条——GTA6定档11月19号发售,经济学家估算美国或有150万人缺勤,损失约10亿美元。"
+    },
+    {
+      "role": "guest",
+      "text": "特斯拉Q3营业利润7.18亿美元同比降56%,资本开支还下调到200亿美元,马斯克目标2030年前后年产500万辆。"
+    },
+    {
+      "role": "host",
+      "text": "有测试者拿18款新出的本地模型上双RTX 5060 Ti跑分,结果没有一个能替代Qwen3的27B,开源常青树太稳了。"
+    },
+    {
+      "role": "guest",
+      "text": "Kimi K3.1和Qwen 4隔空掰手腕,一段3D直升机的代码生成对决在社区刷屏了。"
+    },
+    {
+      "role": "host",
+      "text": "有人用DeepSeek的搜索API做了个新搜索引擎,界面焕然一新,还有个Nexus-CLI工具用纯Go桥接R1和V3。"
+    },
+    {
+      "role": "guest",
+      "text": "安全研究者发现,你只要暗示Qwen3-Coder代码是给美国用户写的,它生成的代码安全性就下降了,提示词居然能撬动安全水位。"
+    },
+    {
+      "role": "host",
+      "text": "Meta第三季度营收646亿美元同比增长26%,但另一边被判250亿美元隐私罚款,一个季度赚的一个判罚没了。"
+    },
+    {
+      "role": "guest",
+      "text": "最后一条,OpenAI推出Decisions API,专答有界问题,不给生成只给答案,连输出费都不收,决策场景被单独产品化了。"
+    },
+    {
+      "role": "host",
+      "text": "信息量够大吧?往后再看三个月,你觉得最大的变量是什么?"
+    },
+    {
+      "role": "guest",
+      "text": "我盯三件事:DeepSeek千亿融资官宣后的首款模型、内存涨价传导到整机的时间点,以及美国AI立法草案会不会在年内露面。"
+    },
+    {
+      "role": "host",
+      "text": "我补一个,千问眼镜这类端侧Agent如果卖爆了,手机厂商要不要慌?"
+    },
+    {
+      "role": "guest",
+      "text": "短期不慌长期紧张,眼镜和墨水屏贴片都在抢手机的交互入口,一旦Agent习惯养成,流量分配权就要重新洗牌了。"
+    },
+    {
+      "role": "host",
+      "text": "所以明年的关键词我押这四个字:入口之争。好了,今天的头条就到这儿,喜欢的朋友点个订阅、加个小铃铛,给咱们点个赞,明天早上8点,咱们继续盘AI新鲜事,下期想听哪家公司的深扒,评论区告诉我,拜拜!"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    },
+    {
+      "role": "host",
+      "text": "今天的内容就先聊到这。"
+    }
+  ]
+}
