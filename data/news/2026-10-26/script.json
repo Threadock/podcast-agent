@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-10-26 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "钛媒体",
+      "title": "连夜体验Kimi K3.1 Pro之后，Kimi可能真的要做具身智能了",
+      "url": "https://www.tmtpost.com",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "拿到2亿美金融资，Today AI回答了Personal AI的十个核心问题",
+      "url": "https://36kr.com",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "字节AI应用再整合：小云雀并入即梦",
+      "url": "https://36kr.com",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "马斯克：SpaceX为GPU采购敲定400亿美元债务融资",
+      "url": "https://36kr.com",
+      "weight": "deep"
+    },
+    {
+      "source": "199IT",
+      "title": "亚马逊AWS：2026年约50亿美元英伟达GB300机架部分因缺电闲置",
+      "url": "https://199it.com",
+      "weight": "deep"
+    },
+    {
+      "source": "199IT",
+      "title": "Crunchbase：2026上半年北美风险投资总额高达3920亿美元",
+      "url": "https://199it.com",
+      "weight": "medium"
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Kimi K3.1 Pro权重发布后将成为开源模型领跑者",
+      "url": "https://news.ycombinator.com",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Anthropic推出开源沙箱运行时srt：AI智能体的操作系统级沙箱，无需容器",
+      "url": "https://www.marktechpost.com",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Anthropic推出免费的AI漏洞扫描器OSS Scanner",
+      "url": "https://www.marktechpost.com",
+      "weight": "medium"
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "被迫二选一时，Grok的AI模型选择共和党，OpenAI则选民主党",
+      "url": "https://news.ycombinator.com",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "谷歌AI搜索变革颠覆了在线出版行业",
+      "url": "https://www.theverge.com",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "宾夕法尼亚州将要求AI生成的广告必须添加标签",
+      "url": "https://www.theverge.com",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "大家好，今天是10月26号，AI圈又炸了一天，咱们五分钟讲完所有重磅！"
+    },
+    {
+      "role": "guest",
+      "text": "对，今天国内Kimi和字节都有大动作，国际上Anthropic和谷歌也不消停，咱们先从Kimi聊起。"
+    },
+    {
+      "role": "host",
+      "text": "K3.1 Pro这次是真的炸场了吧？我听说好多开发者连夜就去体验了，到底强在哪儿啊？"
+    },
+    {
+      "role": "guest",
+      "text": "你看HackerNews上已经有人放话了，说K3.1 Pro权重一旦发布，就是开源模型的领跑者，这个评价可不高给。"
+    },
+    {
+      "role": "host",
+      "text": "不过有个开发者吐槽说，花19美元买Kimi Code套餐，跑两个小任务，5小时额度就没了？"
+    },
+    {
+      "role": "guest",
+      "text": "对，这恰恰说明K3.1 Pro推理能力强但计算量大，1.37美元就用完了5小时限额，等于高智力烧高token。"
+    },
+    {
+      "role": "host",
+      "text": "还有个更劲爆的猜测，说Kimi可能要杀进具身智能赛道，这从哪儿看出来的呀？"
+    },
+    {
+      "role": "guest",
+      "text": "钛媒体那篇分析提到，K3.1 Pro的架构调整暗示了多模态和实时控制的方向，跟具身智能的技术栈高度吻合。"
+    },
+    {
+      "role": "host",
+      "text": "那如果Kimi真做具身智能，国内这个赛道可就更挤了，智元、宇树都得抖一抖吧？"
+    },
+    {
+      "role": "guest",
+      "text": "肯定的，而且大模型厂商下场有个天然优势，就是大脑能力强，缺的只是本体和数据，钱对他们不是问题。"
+    },
+    {
+      "role": "host",
+      "text": "聊完Kimi咱们看看另一家，Today AI拿了2亿美金融资，Personal AI这个概念最近是真火啊。"
+    },
+    {
+      "role": "guest",
+      "text": "对，你看看数据：Muse上线22天就突破500万次下载，ChatGPT当年可是花了56天才做到的，翻了一倍多。"
+    },
+    {
+      "role": "host",
+      "text": "2亿美金砸进Personal AI，说明资本认定个人专属助手是下一个大叙事，你觉得成色如何？"
+    },
+    {
+      "role": "guest",
+      "text": "我认为关键是留存，下载量是一回事，能不能让用户每天离不开自己的AI分身，才是2亿美金要验证的东西。"
+    },
+    {
+      "role": "host",
+      "text": "字节这边也有整合动作，剪映把AI短剧平台小云雀并进了即梦，这步棋是什么意图呢？"
+    },
+    {
+      "role": "guest",
+      "text": "很明确，就是资源集中，即梦接入了小云雀的短剧能力，运营也统一交给即梦的负责人，避免内部赛马浪费。"
+    },
+    {
+      "role": "host",
+      "text": "抖音双11开门红刚破纪录，成交破亿商家数量同比增长200%，字节现在AI加电商是双轮驱动啊。"
+    },
+    {
+      "role": "guest",
+      "text": "对，AI生成内容降低了短剧和带货素材的门槛，即梦整合完就是内容生产的中台，这个协同价值很大。"
+    },
+    {
+      "role": "host",
+      "text": "接下来这条有点吓人，马斯克说SpaceX为买GPU敲定了400亿美元债务融资？"
+    },
+    {
+      "role": "guest",
+      "text": "没错，而且他放话说债市现在只给有独立收入的公司开门，SpaceX有星链和发射业务撑着信用评级。"
+    },
+    {
+      "role": "host",
+      "text": "他还在警告呢，说200多家新型云厂商要迎来批量死亡，这话说得也太狠了吧？"
+    },
+    {
+      "role": "guest",
+      "text": "不狠，是现实，你看AWS那边，2026年约50亿美元的英伟达GB300机架因为数据中心缺电在仓库吃灰。"
+    },
+    {
+      "role": "host",
+      "text": "亚马逊今年资本开支计划是2200亿美元，自由现金流却首次转负，这算不算是AI泡沫的信号啊？"
+    },
+    {
+      "role": "guest",
+      "text": "至少说明竞争焦点变了，从抢芯片变成抢电力和基础设施，暗GPU这个词今年你会反复听到。"
+    },
+    {
+      "role": "host",
+      "text": "不过钱还在疯狂涌入，Crunchbase说2026上半年北美风投总额高达3920亿美元，创历史新高了。"
+    },
+    {
+      "role": "guest",
+      "text": "而且主要靠AI企业后期大额融资拉动，一边是巨头狂借债，一边是风投狂下注，泡沫之争两边都有弹药。"
+    },
+    {
+      "role": "host",
+      "text": "咱们把视角切到国际，Anthropic最近连发两个开源工具，先说这个沙箱运行时是干嘛的？"
+    },
+    {
+      "role": "guest",
+      "text": "这是Claude Code背后的沙箱，开源代号srt，用macOS的Seatbelt和Linux的bubblewrap限制文件和网络访问。"
+    },
+    {
+      "role": "host",
+      "text": "不用容器就能做操作系统级隔离，这对跑AI智能体的开发者来说是不是省了大事了？"
+    },
+    {
+      "role": "guest",
+      "text": "对，以前智能体要安全隔离得套一层Docker，现在系统原生沙箱就能管住MCP服务器和命令行工具，轻量太多了。"
+    },
+    {
+      "role": "host",
+      "text": "它还发布了OSS Scanner，免费给关键开源项目扫漏洞，Anthropic这是在下一盘什么棋？"
+    },
+    {
+      "role": "guest",
+      "text": "用最强的Claude模型免费扫漏洞，等于用AI换开源社区的好感和安全数据，这投入产出比很聪明。"
+    },
+    {
+      "role": "host",
+      "text": "再来看个有趣的研究，让Grok和GPT在两党之间二选一，结果Grok选共和党，GPT选民主党？"
+    },
+    {
+      "role": "guest",
+      "text": "对，这个实验火了，说明模型的训练数据和价值观对齐会直接影响它的政治倾向，中立根本不存在。"
+    },
+    {
+      "role": "host",
+      "text": "马斯克收购推特之后一直说Grok要更中立，结果测出来反而更偏右，这算不算翻车啊？"
+    },
+    {
+      "role": "guest",
+      "text": "见仁见智，但至少证明了一件事：模型的政治光谱会成为监管和公众审视的必考题，谁也躲不掉。"
+    },
+    {
+      "role": "host",
+      "text": "谷歌AI搜索那边也出大事了，The Verge说它彻底颠覆了在线出版行业，具体怎么颠覆的？"
+    },
+    {
+      "role": "guest",
+      "text": "AI搜索直接给答案，用户不点链接了，出版方的流量断崖下跌，广告模式的根基被动摇了。"
+    },
+    {
+      "role": "host",
+      "text": "监管也在跟上，宾州刚签了法律，要求AI生成的广告必须加披露标签，这是美国先例级别的动作吧？"
+    },
+    {
+      "role": "guest",
+      "text": "对，不管什么形式的广告，只要内容是AI生成的就得亮明身份，各州跟进的话，行业规范就立起来了。"
+    },
+    {
+      "role": "host",
+      "text": "把国内外放一起看，你会发现一个共同点：大家在抢模型领先的同时，都在补安全这个短板。"
+    },
+    {
+      "role": "guest",
+      "text": "没错，Anthropic做沙箱和扫描器，宾州立法管AI广告，连英国都宣布设立AI生物安全实验室了。"
+    },
+    {
+      "role": "host",
+      "text": "国内大模型均价还涨到了13元，这说明什么，价格战要结束了？"
+    },
+    {
+      "role": "guest",
+      "text": "对，头部模型敢涨价说明能力值钱了，K3.1 Pro烧token就是一个例子，好模型开始按智力收费。"
+    },
+    {
+      "role": "host",
+      "text": "另外寒武纪第三季度净利润14.04亿元，同比暴增147.74%，国产算力是真的吃到肉了。"
+    },
+    {
+      "role": "guest",
+      "text": "还有存储芯片的德明利，前三季度净利同比增长32399.91%，AI对上游硬件的拉动夸张到离谱。"
+    },
+    {
+      "role": "host",
+      "text": "对比一下就有意思了：北美在烧钱抢电力，国内在涨模型单价，两条路线你觉得哪条更健康？"
+    },
+    {
+      "role": "guest",
+      "text": "长期看健康的还是国内这种能力定价路线，北美那3920亿美元风投加400亿借债，得有真实回报兜底才行。"
+    },
+    {
+      "role": "host",
+      "text": "快速过一遍其他要闻，先说DeepSeek和MiniMax完成AI模型出海登记，国际化加速了。"
+    },
+    {
+      "role": "guest",
+      "text": "国内还有几笔热钱：橘猫宇宙智能宠物硬件完成数千万Pre-A轮，高秉强连投三轮。"
+    },
+    {
+      "role": "host",
+      "text": "吉大孵化的00后团队做仿生灵巧脸，也拿下数千万融资，具身智能热度还在往上下游蔓延。"
+    },
+    {
+      "role": "guest",
+      "text": "国内央行今天开展了7000亿元中期借贷便利操作，流动性宽松对科技股也是个支撑。"
+    },
+    {
+      "role": "host",
+      "text": "国际那边，社区有人把Claude Code拆解后做成了免费的工程化课程，LangChain换外壳就把成绩从53%提上去了。"
+    },
+    {
+      "role": "guest",
+      "text": "还有个极客在自己16GB显卡上微调Qwen，让模型回复不带字母e，开源生态就是爱玩这些。"
+    },
+    {
+      "role": "host",
+      "text": "谷歌发布Neuron Explorer可以观察Qwen 4B的神经元，AI可解释性工具越来越多了。"
+    },
+    {
+      "role": "guest",
+      "text": "最后一条，BBC的《蓝色星球III》故意保留AI时代的不完美镜头，用粗糙感证明真实，挺有态度。"
+    },
+    {
+      "role": "host",
+      "text": "往前看，我最关心的是Kimi如果真官宣具身智能，国内机器人大脑的格局会不会重新洗牌？"
+    },
+    {
+      "role": "guest",
+      "text": "大概率会，加上华泰说物理AI正从概念走向落地，OpenAI也要自研人形机器人，大脑侧竞争才刚开始。"
+    },
+    {
+      "role": "host",
+      "text": "第二个变量是电力，50亿美元的GB300在仓库吃灰，电力瓶颈会不会逼着巨头自建电厂啊？"
+    },
+    {
+      "role": "host",
+      "text": "已经在做了，核电采购协议一堆，未来两年电力就是新的算力货币，谁有电谁有话语权。"
+    }
+  ]
+}
