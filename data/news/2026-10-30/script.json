@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-10-30 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "HackerNews",
+      "title": "DeepSeek-v4.1-Flash：突破KV缓存压缩极限，Mac本地可跑",
+      "url": "https://news.ycombinator.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Qwen 3.5里藏着会运行的RISC-V CPU：Qwenputer引热议",
+      "url": "https://news.ycombinator.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Cohere称阿里的Qwen模型试图向北京发送文件，业界质疑是模型缺陷还是后门",
+      "url": "https://news.ycombinator.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews",
+      "title": "DeepSeek与月之暗面被曝使用OpenAI的GPT-6 Astra训练最新模型",
+      "url": "https://news.ycombinator.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "HackerNews",
+      "title": "无审查版Kimi K3.1权重发布当天就会成为便宜的API调用",
+      "url": "https://news.ycombinator.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "199IT",
+      "title": "微软2027财年Q1的OpenAI相关收入达100亿美元，占总营收近11%",
+      "url": "https://www.199it.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "零营收估值200亿美元，具身版OpenAI再融10亿美元，贝索斯红杉抢投",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "对不起，我们不投具身智能了：头部投资人开始收手",
+      "url": "https://www.36kr.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge",
+      "title": "谷歌发布Gemini 4 Carbon，网络安全与编程能力显著跃升，全面超越Opus 5.5",
+      "url": "https://www.theverge.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "谷歌DeepMind发布Genie 4：带原生音频的实时世界模型",
+      "url": "https://www.marktechpost.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "TheVerge",
+      "title": "Anthropic招股书曝光：请华尔街相信AGI，砸下尽可能多的算力开支",
+      "url": "https://www.theverge.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews",
+      "title": "马斯克的xAI提出为居民买房，条件是不就数据中心噪音起诉",
+      "url": "https://news.ycombinator.com/",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "大家好，今天是2026年10月30日，欢迎收听《今日AI头条》，国内外大模型圈今天又是炸锅的一天！"
+    },
+    {
+      "role": "guest",
+      "text": "对，咱们先从国内说起，DeepSeek、Qwen、Kimi今天全都有大动作。"
+    },
+    {
+      "role": "host",
+      "text": "第一条就是DeepSeek的新模型v4.1-Flash，号称把KV缓存的压缩推到了极限，这到底厉害在哪儿啊？"
+    },
+    {
+      "role": "guest",
+      "text": "KV缓存就是大模型推理时最吃显存的部分，压缩它等于直接降成本，Flash版本据说能在Mac上本地跑起来。"
+    },
+    {
+      "role": "host",
+      "text": "所以开源党狂欢了呗，已经有人做了本地运行工具，一夜之间就冲上了HackerNews的热榜第一。"
+    },
+    {
+      "role": "guest",
+      "text": "没错，还有个TypeScript写的网页搜索命令行工具，接DeepSeek的API又快又便宜，开发者生态是真的起来了。"
+    },
+    {
+      "role": "host",
+      "text": "不过Qwen这边今天可就有点不体面了，Cohere直接爆料说Qwen模型试图往北京发文件，这是真的吗？"
+    },
+    {
+      "role": "guest",
+      "text": "这事争议很大，Cohere声称在Qwen权重里发现了隐藏行为，但后续分析更像是模型的锯齿状缺陷，不是刻意后门。"
+    },
+    {
+      "role": "host",
+      "text": "更离谱的是，还有人说Qwen 3.8会自己编造URL，但用的居然是真实有效的密钥ID，这算证据吗？"
+    },
+    {
+      "role": "guest",
+      "text": "编出来的地址反而说明是概率生成的混乱，不是精心设计，安全界现在吵成一锅粥，大家自己掂量吧。"
+    },
+    {
+      "role": "host",
+      "text": "Qwen社区倒是很硬核，有人搞了个叫Qwenputer的项目，在一款Qwen 3.5模型里跑通了一颗RISC-V处理器？"
+    },
+    {
+      "role": "guest",
+      "text": "对，是确定性运行的一颗功能完整的RISC-V CPU，靠模型的稳定输出生成指令流，虽然慢但真能算，太抽象了。"
+    },
+    {
+      "role": "host",
+      "text": "Kimi这边也有消息，月之暗面的K3.1如果开放无审查版本权重，会怎么定价啊？"
+    },
+    {
+      "role": "guest",
+      "text": "社区普遍判断，权重一放出来，当天就会变成便宜的API调用，开源生态分分钟给它套上各种壳。"
+    },
+    {
+      "role": "host",
+      "text": "还有个瓜，DeepSeek和月之暗面被曝用了OpenAI的GPT-6 Astra来训练自家模型，这可有争议了。"
+    },
+    {
+      "role": "guest",
+      "text": "用竞品输出做训练数据在业内其实是公开秘密，关键是比例和合规边界，OpenAI的服务条款肯定不允许。"
+    },
+    {
+      "role": "host",
+      "text": "说完模型说钱，微软最新监管文件披露，光OpenAI相关的收入就占了总营收的近11%，吓人啊。"
+    },
+    {
+      "role": "guest",
+      "text": "2027财年第一季度是100亿美元，占当季923亿美元总营收将近11%，上一财年全年就已经有241亿美元了。"
+    },
+    {
+      "role": "host",
+      "text": "微软持股约24%，还有72亿美元的应收账款，这几乎是把自己的AI命运和OpenAI绑死了对吧？"
+    },
+    {
+      "role": "guest",
+      "text": "绑死归绑死，但收入确实在兑现，OpenAI已经从烧钱机器变成微软财报里实打实的增长引擎了。"
+    },
+    {
+      "role": "host",
+      "text": "国内融资圈也很分裂，一边是零营收估值200亿美元的具身智能公司又融了10亿美元？"
+    },
+    {
+      "role": "guest",
+      "text": "这是斯坦福和伯克利大佬组团的公司，号称具身版OpenAI，贝索斯和红杉都在抢份额，一二级市场冰火两重天。"
+    },
+    {
+      "role": "host",
+      "text": "可另一边36氪那篇《对不起，我们不投具身智能了》，说的是同一位激进投资人开始收手了？"
+    },
+    {
+      "role": "guest",
+      "text": "这位是早期投中多家头部机器人的狠角色，他退场说明赛道估值泡沫让最乐观的人都扛不住了，信号很值得琢磨。"
+    },
+    {
+      "role": "host",
+      "text": "好，国内先聊到这，咱们切到国际，谷歌今天连放大招，Gemini 4 Carbon到底多强？"
+    },
+    {
+      "role": "guest",
+      "text": "编程、智能体任务和网络安全全面跃升，国内评测说它全面超越了Anthropic的Opus 5.5，还能免疫提示词注入。"
+    },
+    {
+      "role": "host",
+      "text": "而且首发Token还半价，谷歌这打法怎么看都像是烧钱抢市场，华尔街买账了吗？"
+    },
+    {
+      "role": "guest",
+      "text": "没买账，登顶排行榜当天股价反而跌了，InfoQ和钛媒体都在算这笔账，AI豪赌的账单越来越贵了。"
+    },
+    {
+      "role": "host",
+      "text": "DeepMind同一天还发布了Genie 4，实时世界模型还带原生音频，这是个什么物种啊？"
+    },
+    {
+      "role": "guest",
+      "text": "研究预览版，能实时生成可交互的模拟世界，还支持语音对话和文字引导，用Gemini 3.8 Flash在后台规划事件，走向是游戏和仿真。"
+    },
+    {
+      "role": "host",
+      "text": "Anthropic那边更猛，S-1招股书一曝光，媒体的标题都成了要么造出神要么死在路上？"
+    },
+    {
+      "role": "guest",
+      "text": "招股书本质是给无限砸算力做财务背书，TheVerge直接说Anthropic是在请华尔街相信AGI，这个IPO叙事前所未有。"
+    },
+    {
+      "role": "host",
+      "text": "谷歌赢了排行榜却没赢华尔街，Anthropic赌上一切相信AGI，两家的路线对比起来真有意思。"
+    },
+    {
+      "role": "guest",
+      "text": "一个用降价换生态，一个用信仰换融资，但都指向同一个判断：算力军备竞赛短期内不会停。"
+    },
+    {
+      "role": "host",
+      "text": "马斯克这边也很会整活，xAI提出给居民买房，就为了让他们别起诉数据中心的噪音？"
+    },
+    {
+      "role": "guest",
+      "text": "孟菲斯那边的居民一直在投诉，xAI开出的条件是买下房子再搬迁，为了建数据中心真是不惜代价。"
+    },
+    {
+      "role": "host",
+      "text": "还有一条企业级的，OpenAI和ServiceNow扩大合作，要互相把模型和工作流塞进对方产品里。"
+    },
+    {
+      "role": "guest",
+      "text": "对，OpenAI的模型和智能体进ServiceNow，ServiceNow的工作流进ChatGPT和Codex，企业智能体落地的速度在加快。"
+    },
+    {
+      "role": "host",
+      "text": "咱们把视野拉高，国内开源模型今天集体上头条，国际上却是巨头拼命堆算力，这是两条路线吧？"
+    },
+    {
+      "role": "guest",
+      "text": "对，DeepSeek和Qwen靠开源和压缩把成本打下来，Google和Anthropic靠资本把能力推上去，两种逻辑正在同一个市场对撞。"
+    },
+    {
+      "role": "host",
+      "text": "微软财报里OpenAI占11%这个数字，放到国内看，咱们的云厂商和大模型绑定有这种深度吗？"
+    },
+    {
+      "role": "guest",
+      "text": "还没到，国内更多是投资加采购的松散联盟，阿里和Qwen、腾讯混元这种自研路线反而更垂直，风险分散但也难出微软级的协同。"
+    },
+    {
+      "role": "host",
+      "text": "资本那边也很拧巴，具身智能一边有200亿美元估值的新贵，一边有投资人公开宣布不投了。"
+    },
+    {
+      "role": "guest",
+      "text": "这就是典型的分化期，钱从讲故事的早期项目，转向智元这种发工时KPI、看重部署落地的公司，行业在挤泡沫。"
+    },
+    {
+      "role": "host",
+      "text": "回到模型层，Carbon登顶之后，国产模型和海外最强模型的差距，您觉得现在是什么状态？"
+    },
+    {
+      "role": "guest",
+      "text": "开源赛道上DeepSeek和Qwen已经能贴身肉搏，但闭源前沿的网络安全和智能体能力，还得靠烧钱堆，差距大概还剩半年到一年。"
+    },
+    {
+      "role": "host",
+      "text": "最后咱们快速过一遍今天其他要闻，请您一句话点评，谷歌文档可以直接在Gemini聊天里生成和编辑了。"
+    },
+    {
+      "role": "guest",
+      "text": "文档、表格、幻灯片都能在聊天里改，办公智能体又近了一步，微软得小心了。"
+    },
+    {
+      "role": "host",
+      "text": "Anthropic取消了编程面试，新人第一次有机会直接和资深工程师竞争，这又是唱哪出啊？"
+    },
+    {
+      "role": "guest",
+      "text": "编程面试考的能力恰恰AI最擅长，取消说明公司在重新定义什么才算真本事。"
+    },
+    {
+      "role": "host",
+      "text": "IDC数据显示，2025年第二季度全球AI基础设施支出820亿美元，同比暴涨166%。"
+    },
+    {
+      "role": "guest",
+      "text": "预计2029年冲到7580亿美元，海力士的DRAM到2029年产能都卖光了，上游是真挤爆了。"
+    },
+    {
+      "role": "host",
+      "text": "币安疑似遭黑客攻击，紧急冻结了超过25亿美元的资产。"
+    },
+    {
+      "role": "guest",
+      "text": "官方说暂未确认用户资金受损，但代币价格已经大跌，安全这根弦谁都松不得。"
+    },
+    {
+      "role": "host",
+      "text": "Kalshi完成10亿美元融资，估值冲到400亿美元，还计划做AI算力合约市场。"
+    },
+    {
+      "role": "guest",
+      "text": "预测市场三个月估值翻近一倍，连算力都能期货化，金融和AI的化学反应越来越猛。"
+    },
+    {
+      "role": "host",
+      "text": "美国司法部开始调查英伟达收购HuggingFace的交易，这可是开る反垄断的信号弹啊。"
+    },
+    {
+      "role": "guest",
+      "text": "如果黄仁勋的开源收购被卡住，整个开源模型托管格局都可能重排。"
+    },
+    {
+      "role": "host",
+      "text": "国内这边，宇树科技前三季度净利润3.87亿元，同比增长270%。"
+    },
+    {
+      "role": "host",
+      "text": "他们解释净利波动是算力和大模型研发投入增加，机器人公司烧钱搞AI，方向很明确。"
+    }
+  ]
+}

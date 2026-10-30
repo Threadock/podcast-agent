@@ -1,0 +1,94 @@
+# 今日AI头条 · 2026-10-30
+
+> 每日 8:00 自动汇总国际 + 国内 AI 新闻 (24h 内)
+
+
+**抓取统计**: OpenAI-News=6, TheVerge-AI=10, TechReview-AI=3, MarkTechPost=10, HuggingFace-Blog=5, HackerNews=3, HackerNews-DeepSeek=8, HackerNews-Kimi=8, HackerNews-Qwen=8, HackerNews-Grok=8, HackerNews-xAI=8, 量子位=10, 钛媒体=15, 36氪=15, InfoQ中文=15, 掘金=15, 199IT=15
+
+**去重**: 国际 77→75, 国内 85→83
+
+## 🌍 国际
+
+- **[DeepSeek-v4.1-Flash: Pushing the Limits of KV Cache Compression](https://arxiv.org/abs/2609.19969)** _HackerNews-DeepSeek_ — 
+- **[Show HN: Local Code – Run DeepSeek 4.1 Flash 1017 Locally on Your Mac](https://github.com/drawthingsai/local-code-community)** _HackerNews-DeepSeek_ — 
+- **[OpenAI: We are doubling all usage limits for all Pro 100/200/500 tiers](https://twitter.com/thsottiaux/status/2115850175868727621)** _HackerNews-Kimi_ — 
+- **[Cohere says Alibaba's Qwen model tried to send a file to Beijing](https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/)** _HackerNews-Qwen_ — 
+- **[A Manchurian Candidate Hidden in Qwen's Weights](https://edwardbenson.com/2026/10/manchurian-candidate-mode)** _HackerNews-Qwen_ — 
+- **[Show HN: Simple DeepSeek web search CLI written in TypeScript (fast/cheap)](https://www.npmjs.com/package/deepseek-search-cli)** _HackerNews-DeepSeek_ — If you&#x27;ve been following along with DeepSeek news you will know they recently added web search capability to the DeepSeek API, where you can use web search under the same API key. It is pretty ha
+- **[Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5](https://divagr.com/blog/qwenputer)** _HackerNews-Qwen_ — 
+- **[Qwen 3.8 invents URLs with real key ID, that's why I think it's no backdoor](https://www.xda-developers.com/qwen-invents-alibaba-urls-real-key-id-dont-think-backdoor/)** _HackerNews-Qwen_ — 
+- **[DeepSeek, Moonshot used OpenAI's GPT-6 Astra to train latest models](https://www.reuters.com/technology/deepseek-moonshot-used-openais-gpt-6-astra-train-latest-models-information-2026-10-29/)** _HackerNews-DeepSeek_ — 
+- **[Cohere's Qwen Story: Looks more like model jaggedness](https://research.checkpoint.com/2026/coheres-qwen-story-looks-more-like-model-jaggedness/)** _HackerNews-Qwen_ — 
+- **[Evil Qwen](https://ziva.sh/blogs/evil-qwen)** _HackerNews-Qwen_ — 
+- **[Uncensored Kimi K3.1 will be a cheap API call the day the weights drop](https://silkcompute.com/)** _HackerNews-Kimi_ — 
+- **[OpenMausBot: Open-source Grok Bot alternative with a VM the bot can use](https://github.com/milind-soni/OpenMausBot)** _HackerNews-Grok_ — 
+- **[Musk's xAI offered to buy homes if they don't sue over datacentre noise](https://uk.news.yahoo.com/elonville-mississippi-residents-musk-xai-113001859.html)** _HackerNews-xAI_ — 
+- **[Show HN: Nekot, an iPhone app that warns you before Claude Code limits hit](https://jeman.net/nekot/)** _HackerNews-Kimi_ — 
+- **[Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity](https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier)** _TheVerge-AI_ — Google has released its latest frontier model, Gemini 4 Carbon, offering "significant gains" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's to
+- **[Anatomy of a personal factory of Grok bots](https://robotpaper.ai/anatomy-of-a-personal-factory-of-grok-bots/)** _HackerNews-Grok_ — 
+- **[Anthropic’s business plan: Build God or die trying](https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive)** _TheVerge-AI_ — The Anthropic S-1 seems to have provided the financial justification for the company to spend as much as it possibly can on compute. If you are the kind of person who wonders if Anthropic is doing its
+- **[Anthropic is asking Wall Street to believe in AGI](https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview)** _TheVerge-AI_ — Today on Decoder, I’m joined by Joey Brookhart, an analyst at the chip and AI research firm SemiAnalysis, to help me dig into the story inside the numbers of the Anthropic IPO filing — a document know
+- **[Ask HN: Why does meta suck at creating a good LLM?](https://news.ycombinator.com/item?id=50287747)** _HackerNews-DeepSeek_ — My LLM experience is frontier models in a group chat for the best outcome. I recently added muse wonder and removed it after a few hours of use. I&#x27;d even use deepseek flash over muse for literall
+- **[You can generate and edit Google Docs files directly in Gemini chats now](https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs)** _TheVerge-AI_ — Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. The new file editing capabilities are availabl
+- **[Ask HN: Sitting on unused OpenAI / Anthropic / AWS credits that will expire?](https://news.ycombinator.com/item?id=50291687)** _HackerNews-xAI_ — I heard someone can recycle unused AI quota
+- **[Show HN: Axoris – macOS App for Grok, Claude, ChatGPT and Gemini](https://www.axoris.app/)** _HackerNews-Grok_ — 
+- **[Meet Google DeepMind’s Genie 4: Real-Time World Model With Native Audio](https://www.marktechpost.com/2026/10/28/google-deepmind-genie-4-world-model/)** _MarkTechPost_ — <p>Google DeepMind released Genie 4 as a research preview. The real-time world model adds native audio, live dialogue and text steering, with Gemini 3.8 Flash planning events inside the simulation loo
+- **[OpenAI and ServiceNow expand partnership across enterprise workflows](https://openai.com/index/openai-servicenow-partnership-expansion)** _OpenAI-News_ — OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.
+
+## 🇨🇳 国内
+
+- **[刚刚，Gemini 4 Carbon全面超越Opus 5.5！首发Token半价](https://www.qbitai.com/2026/10/506227.html)** _量子位_ — 能连肝数日修Bug，免疫提示词注入
+- **[用了两周，我给 DeepSeek Harness 写了 5 个插件](https://juejin.cn/post/7702000935430242344)** _掘金_ — 前阵子我想找个能自己加工具的 AI 客户端。试过几个，基本都卡在同样的地方：能用的工具是平台定好的；记忆存在平台的数据库里，导不出来；想把团队自己的脚本接进去，也没有入口。 后来装了 DeepSeek
+- **[Java 近期资讯：JDK 28 JEP、Azul Payara、Gatherers4j、Google ADK、Yupiik 与 Apache Camel CVE](https://www.infoq.cn/article/dfj1fLfP8iVLKFtEfr69?utm_source=rss&utm_medium=article)** _InfoQ中文_ — <div align="right"><a href="https://www.infoq.cn/article/dfj1fLfP8iVLKFtEfr69?utm_source=rss&amp;utm_medium=article">点击查看原文></a></div>
+- **[微软：2027财年Q1 OpenAI相关收入100亿美元，占营收923亿美元近11%](http://www.199it.com/archives/1860328.html)** _199IT_ — 微软监管文件披露，2027财年Q1（截至2026年9月30日）OpenAI相关合作收入100亿美元，占当季总营收923亿美元近11%；2026财年相关收入241亿美元，OpenAI应收账款72亿美元，持股约24%。
+- **[Anthropic 取消编程面试：新人第一次有机会直接和资深工程师竞争](https://www.infoq.cn/article/EQTckj5GQQymiQES22Bo?utm_source=rss&utm_medium=article)** _InfoQ中文_ — <div align="right"><a href="https://www.infoq.cn/article/EQTckj5GQQymiQES22Bo?utm_source=rss&amp;utm_medium=article">点击查看原文></a></div>
+- **[谷歌赢了 AI 排行榜，却没赢下华尔街：Gemini 4 Carbon 登顶背后的昂贵代价](https://www.infoq.cn/article/dXwHCW7kjGX1kjPqtla9?utm_source=rss&utm_medium=article)** _InfoQ中文_ — <div align="right"><a href="https://www.infoq.cn/article/dXwHCW7kjGX1kjPqtla9?utm_source=rss&amp;utm_medium=article">点击查看原文></a></div>
+- **[Gemini 4 Carbon登顶难掩财报失色，谷歌AI豪赌的账单](https://www.tmtpost.com/8186405.html)** _钛媒体_ — 多家万亿市值的科技巨头仍在不断追加资金砝码，这场尚不明朗的AI竞速仍在继续。
+- **[0营收估值200亿美元，具身版OpenAI又融10亿美元](https://www.qbitai.com/2026/10/506042.html)** _量子位_ — 斯坦福伯克利宗师组团，贝索斯红杉抢着送钱
+- **[「微至航空」完成近亿元A轮融资，“云熊”累计飞行超12000公里，已获特许飞行证｜36氪首发](https://36kr.com/p/4044989810692999?f=rss)** _36氪_ — <p>文&nbsp;|&nbsp;阿至</p>
+  <p>“ 空中五菱 ” 正加速其在低空经济场景的落地。</p>
+  <p><strong>36氪获悉，经济型通用无人运输机研发制造商「微至航空」已完成近亿元A轮融资，由自贡市通航产业发展股权投资基金领投，航发基金持续跟投。</strong>本轮资金将主要用于新技术、新机型的研发试制，以及加速成熟机型适航取证进程和场景落地相关的市场拓展。</p>
+
+- **[36氪首发丨服务长征、蓝箭、C919，这家特种运输车企业完成数千万元融资](https://36kr.com/p/4045129016382339?f=rss)** _36氪_ — <p>作者&nbsp;|&nbsp;乔钰杰</p>
+  <p>编辑&nbsp;|&nbsp;袁斯来</p>
+  <blockquote>
+   <p>本文约2100字，建议阅读5分钟</p>
+  </blockquote>
+  <p>硬氪获悉，扬州伏尔坎机械制造有限公司（以下简称“伏尔坎”）近日完成数千万元融资，由投控东海（深投控）投资。</p>
+  <p>伏尔坎成立于2016年，是一家专注于多功
+- **[Rivian称有望年底前实现一个自动驾驶里程碑，解锁2.5亿美元投资款](https://36kr.com/newsflashes/4047630878620163?f=rss)** _36氪_ — 美国电动汽车制造商Rivian首席执行官RJ Scaringe周四表示，该公司“非常有信心”在今年实现一个自动驾驶方面的里程碑，从而解锁Uber投资中的2.5亿美元分期款项；他还提到，公司新款紧凑型SUV“R2”的市场需求十分强劲。对于Rivian而言，来自Uber的这笔资金以及R2车型的旺盛需求至关重要。该公司目前正致力于缩减巨额亏损并控制现金消耗，同时还要为自动驾驶技术的研发投入资金；此外，该
+- **[Kalshi最新一轮融资后估值升至400亿美元](https://36kr.com/newsflashes/4047617340717318?f=rss)** _36氪_ — Kalshi周四宣布，已完成10亿美元融资，本轮交易对这家事件合约交易所的估值定为400亿美元。 该公司上一轮融资在5月完成，当时估值为220亿美元。本轮由红杉资本与惠灵顿管理联合领投。Kalshi在融资公告博客中写道：预测市场仅仅是起点，公司目标是搭建一个综合性金融交易所。公司计划用新资金开发杠杆交易、个股永续期货，以及围绕AI算力这一可交易商品的相关合约市场。（新浪财经）
+- **[疑似遭黑客攻击后，币安冻结25亿美元资产](https://36kr.com/newsflashes/4047634962069767?f=rss)** _36氪_ — 全球最大加密货币交易所币安（Binance）遭遇疑似黑客攻击，导致其冻结了逾25亿美元的资产，并引发数字代币价格大幅下挫。币安表示，尚未确认客户资金受到任何影响。币安发言人表示：“我们已获悉有关潜在安全问题的报告，目前正在积极调查。现阶段，我们尚未确认用户资金受到影响。我们的安全团队正在紧急审查所有相关信息，一旦有经过核实的信息，我们将立即通过币安官方渠道发布更新。”尽管如此，币安表示目前已冻结2
+- **[文远知行001号员工带队，景烁科技首轮融资数千万美元](https://www.qbitai.com/2026/10/506281.html)** _量子位_ — 10月29日，文远知行披露旗下子公司景烁科技首次融资进展
+- **[IDC：2025年第二季度全球人工智能基础设施支出达820.0亿美元 同比增长166%](http://www.199it.com/archives/1793416.html)** _199IT_ — 全球人工智能（AI）基础设施市场正迎来前所未有的增长，根据IDC全球季度人工智能基础设施追踪报告的最新发现，预计到2029年支出将达到7580亿美元。2025年第二季度，各组织用于AI部署的计算和存储硬件基础设施支出同比增长166%，达到820.0亿美元。
+- **[在25万人的纽约漫展，一家中国公司排起了长队](https://36kr.com/p/4045364265358471?f=rss)** _36氪_ — <p>在刚刚过去的10月21日至23日，第二十四届上海玩具展如期举行。</p>
+  <p>23万平方米的展馆里，2700多家展商、5400多个品牌一字排开，拖着样品箱的海外买家超过1万人。</p>
+  <p>而在本次玩具展上，还出现了一位专程赶来的苏格兰小马宝莉粉丝——他几乎集齐了所有小马宝莉卡牌，正计划申请吉尼斯世界纪录。这样的场景，放在十年前很难想象。中国卡牌，也正在出现在越来越多海外展会的展
+- **[8点1氪丨姆巴佩中国代言收入近2200万欧元；长鑫科技已被纳入上证指数；宇树科技：前三季度净利润3.87亿元，同比增长270.54%](https://36kr.com/p/4046203581289345?f=rss)** _36氪_ — <h2>今日热点导览</h2>
+  <p>特朗普将“正式禁用”AI一词</p>
+  <p>泡泡玛特回应业绩大跌，管理层称高基数叠加“炒娃降温”</p>
+  <p>iPhone Duo首次支持Apple Pencil，仅限USB-C款且需有线配对</p>
+  <p>海力士DRAM到2029年产能已售罄</p>
+  <p>小鹏机器人固态电池小批量量产</p>
+  <h2>TOP3大新闻</h2>
+  
+- **[“对不起，我们不投具身智能了”](https://36kr.com/p/4046281658307456?f=rss)** _36氪_ — <p>作者&nbsp;|&nbsp;邱晓芬</p>
+  <p>编辑&nbsp;|&nbsp;袁斯来</p>
+  <p>具身赛道里，那个有些疯狂的投资人，开始收手了。</p>
+  <p>很少有人会质疑他的地位。他出现在某机器人上市公司早期投资人名单中、又是另一家具身智能头部企业的幕后人。在很多年中，他和公众视野保持着谨慎的距离。但在一级市场，他以风格凌厉和激进著名。</p>
+  <p>“他的判断很疯
+- **[王者荣耀2026周年庆：成为年轻人成长路上的故事](https://36kr.com/p/4046674567926665?f=rss)** _36氪_ — <p>10月25日晚，王者荣耀2026周年庆共创之夜在深圳市体育中心体育馆举行。晚会以“1，懂你意思”为主题，把峡谷梗、音乐、舞蹈、电竞热血和玩家文化都放在了同一束聚光灯下。</p>
+  <p>同时，《王者荣耀》《王者荣耀世界》《王者万象棋》三款王者IP产品的新内容预告也集中释出，比如新英雄姜姜、新棋手武凤，并公布了IP相关的动画、音乐、角色互动等内容企划。</p>
+  <p>当天，这三款产品还占
+- **[从低空出发，看航空制造国产替代的一线样本｜OpenTalk回顾](https://36kr.com/p/4046801592636553?f=rss)** _36氪_ — <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20261029/v2_474a55db6463416e92149aeb1c208346@6413691_oswg568047oswg2096oswg1180_img_png?x-oss-process=image/quality,q_90/format,jpg/i
+- **[36氪研究院 | 2026年中国自动驾驶行业发展研究报告](https://36kr.com/p/4046684874429576?f=rss)** _36氪_ — <p>自动驾驶是人工智能与汽车工业深度融合的战略性技术方向，也是中国智能网联新能源汽车战略性新兴产业中增长最为活跃的领域之一。当前，中国自动驾驶行业正处于从全域道路测试、示范应用迈向规模化商业落地的关键阶段。政策层面，2026年7月，首部针对L3、L4级自动驾驶系统的强制性国家标准（GB44721-2026）正式发布，将于2027年7月1日起实施，为自动驾驶产品确立了统一的安全准入基线；2026年
+- **[部署态加速，智元要打通物理AI全链路](https://36kr.com/p/4047032889800965?f=rss)** _36氪_ — <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20261029/v2_559562a5a8e847419ffde66259a4ace8@19153231_oswg547077oswg900oswg480_img_png?x-oss-process=image/quality,q_90/format,jpg/in
+- **[8点1氪丨外交部回应三丽鸥取消Vivant联名；科创50指数创新低；上海一宜家餐厅开始实行“消费入座”，周二、周四有保安劝离](https://36kr.com/p/4047618190883331?f=rss)** _36氪_ — <h2>今日热点导览</h2>
+  <p>宇树回应净利润下滑：系算力、大模型方向研发投入增加所致</p>
+  <p>美国司法部调查英伟达收购HuggingFace</p>
+  <p>美国知名投资人质疑美联储利率决议</p>
+  <p>机器人也有KPI考核标准了，智元发布首个“工时KPI”Worken</p>
+  <p>成都国星宇航科技股份有限公司通过港交所上市聆讯</p>
+  <h2>TOP3大新
+- **[外资公募优化持仓结构，科技成长仍是关注重点](https://36kr.com/newsflashes/4047614167333123?f=rss)** _36氪_ — 随着公募基金2026年三季报披露收官，外商独资公募基金的最新持仓动向逐渐明晰。从三季度调仓情况来看，部分外资公募在保持权益资产配置的同时，适度增加银行等稳健型资产持仓，并继续挖掘人工智能、半导体等科技领域的投资机会，投资组合更加注重行业均衡与风险收益匹配。多位受访人士认为，相关调整并非简单的投资风格切换，而是基金经理在把握科技成长机遇的同时，更加重视企业盈利质量、估值水平及业绩兑现能力。（证券时报
+- **[国家能源局：到2030年我国燃气轮机自主创新能力显著增强](https://36kr.com/newsflashes/4047633888196868?f=rss)** _36氪_ — 36氪获悉，国家能源局等部门发布关于促进燃气轮机创新发展的指导意见，其中提到，到2030年，我国燃气轮机自主创新能力显著增强，具备整机和关键部件研发制造能力，性能和可靠性水平不断提升，智能化、绿色化、融合化发展取得显著成效，建成自主可控的“研发—制造—验证—维护”全产业链体系，基本满足国内分布式能源和海上油气平台用燃气轮机、油气长输管道压缩机等发展需要，重型燃气轮机发电试点应用取得阶段性成效。
