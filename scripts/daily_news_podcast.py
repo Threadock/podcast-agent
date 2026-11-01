@@ -21,6 +21,7 @@ import json
 import os
 import subprocess
 import sys
+import time
 import traceback
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -32,14 +33,13 @@ PROJECT_ROOT = Path("/Users/saber/projects/podcast-agent")
 DATA_DIR = PROJECT_ROOT / "data" / "news"
 WORK_DIR = PROJECT_ROOT  # .git 所在
 
-# ============ 音色配置 (1男1女, 1.5× 速度, 经典播客场景) ============
-# 选成熟音色, 男声女声对比度明显 (经典电台/播客场景)
-HOST_VOICE = "female-chengshu"   # 主持人: 成熟女声 (浑厚, 跟男声区分度大)
-GUEST_VOICE = "male-qn-qingse"  # 嘉宾: 青年男声 (清晰, 中频)
-HOST_SPEED = 1.25               # 主持人 1.25× (信息密度高, 节奏舒适)
-GUEST_SPEED = 1.25              # 嘉宾 1.25× (跟 host 一致)
-HOST_EMOTION = "happy"
-GUEST_EMOTION = "happy"           # 都用 happy, 整体气氛积极
+# ============ 音色配置 (edge-tts, 2026-10-16 起: MiniMax 余额耗尽 → 免费微软 TTS) ============
+HOST_VOICE = "zh-CN-XiaoxiaoNeural"   # 主持人: 女声 (晓晓, edge-tts 最自然的中文女声)
+GUEST_VOICE = "zh-CN-YunjianNeural"   # 嘉宾: 男声 (云健)
+HOST_SPEED = "+25%"              # edge-tts 速率格式: +N% (对应原 MiniMax 1.25×)
+GUEST_SPEED = "+25%"
+HOST_EMOTION = ""   # edge-tts 无 emotion 参数, 保留字段兼容
+GUEST_EMOTION = ""
 
 # 时区: GMT+8
 TZ = timezone(timedelta(hours=8))
@@ -82,6 +82,8 @@ RSS_FEEDS_CN = [
     ("量子位", "https://www.qbitai.com/feed"),  # 10 条, 国内 AI 主流
     ("雷锋网", "https://www.leiphone.com/feed"),  # 20 条, 智能硬件+AI
     ("钛媒体", "https://www.tmtpost.com/feed"),  # 17 条, 创投资讯
+    ("36氪", "https://www.36kr.com/feed"),  # 30 条, 创业/AI 财经 (DeepSeek V4 Pro 在这里首发)
+    ("InfoQ中文", "https://www.infoq.cn/feed.xml"),  # 20 条, 技术深度报道
     ("掘金", "https://juejin.cn/rss"),  # 20 条, 技术社区
     ("199IT", "https://www.199it.com/feed"),  # 50 条, 数据/AI 媒体
 ]
@@ -89,8 +91,29 @@ RSS_FEEDS_CN = [
 # ArXiv API 返回 Atom XML, 用 feedparser 解析 (不是 JSON)
 JSON_API_INTL = [
     ("HackerNews", "json", "https://hn.algolia.com/api/v1/search?tags=story&query=AI+OR+LLM+OR+GPT&numericFilters=created_at_i%3E{ts}"),
+    # 国内大模型厂商专项 — Algolia 不支持 OR, 用关键词拼接 (空格 = AND, 这里单跑多次拿全)
+    ("HackerNews-DeepSeek", "json", "https://hn.algolia.com/api/v1/search?tags=story&query=DeepSeek&numericFilters=created_at_i%3E{ts}"),
+    ("HackerNews-Kimi", "json", "https://hn.algolia.com/api/v1/search?tags=story&query=Kimi&numericFilters=created_at_i%3E{ts}"),
+    ("HackerNews-Qwen", "json", "https://hn.algolia.com/api/v1/search?tags=story&query=Qwen&numericFilters=created_at_i%3E{ts}"),
+    # xAI / Grok 专项（Twitter/X 抓不到, 靠 HN 信号)
+    ("HackerNews-Grok", "json", "https://hn.algolia.com/api/v1/search?tags=story&query=Grok&numericFilters=created_at_i%3E{ts}"),
+    ("HackerNews-xAI", "json", "https://hn.algolia.com/api/v1/search?tags=story&query=xAI&numericFilters=created_at_i%3E{ts}"),
     ("ArXiv-cs.AI", "atom", "https://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=15"),
 ]
+
+
+def _http_get_with_retry(client, url, headers, attempts=3, delay=3.0):
+    """带重试的 GET——qbitai 等站点 WAF 偶发 RST 连接(Errno 54), 单次失败即弃会整源丢失。"""
+    last_exc: Exception | None = None
+    for i in range(attempts):
+        try:
+            return client.get(url, headers=headers)
+        except Exception as e:  # noqa: BLE001
+            last_exc = e
+            if i < attempts - 1:
+                time.sleep(delay * (i + 1))
+    assert last_exc is not None
+    raise last_exc
 
 
 def fetch_news() -> dict[str, list[dict]]:
@@ -117,7 +140,7 @@ def fetch_news() -> dict[str, list[dict]]:
         # ============ 国际 RSS ============
         for name, url in RSS_FEEDS_INTL:
             try:
-                resp = client.get(url, headers={
+                resp = _http_get_with_retry(client, url, {
                     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
                 })
                 feed = feedparser.parse(resp.text)
@@ -128,12 +151,14 @@ def fetch_news() -> dict[str, list[dict]]:
                         pub_dt = datetime(*pub[:6], tzinfo=timezone.utc)
                         if pub_dt < now - timedelta(hours=48):
                             continue
+                    title_str = entry.get("title", "")
                     intl_items.append({
                         "source": name,
-                        "title": entry.get("title", ""),
+                        "title": title_str,
                         "url": entry.get("link", ""),
                         "snippet": (entry.get("summary", "") or "")[:200],
                         "published": entry.get("published", ""),
+                        "weight": _news_weight(title_str, name),
                     })
                     count += 1
                     if count >= 12:  # 每源最多 12 条
@@ -149,20 +174,24 @@ def fetch_news() -> dict[str, list[dict]]:
                     url = url_template.format(ts=cutoff_ts)
                 else:
                     url = url_template
-                resp = client.get(url, headers={"User-Agent": "Mozilla/5.0"})
+                resp = _http_get_with_retry(client, url, {"User-Agent": "Mozilla/5.0"})
 
                 count = 0
                 if fmt == "json":
                     data = resp.json()
                     items_iter = data.get("hits", [])
-                    for hit in items_iter:
+                    # HN 专项搜索每源最多 8 条 (避免一个关键词刷屏挤掉其他厂商)
+                    per_source_limit = 8 if name.startswith("HackerNews-") else 100
+                    for hit in items_iter[:per_source_limit]:
                         title = hit.get("title") or hit.get("story_title", "")
                         url_link = hit.get("url") or f"https://news.ycombinator.com/item?id={hit.get('objectID', '')}"
                         snippet = (hit.get("story_text") or "")[:200]
                         pub = hit.get("created_at", "")
+                        # 大厂发布事件加权 (确保排序时被排到前面)
+                        weight = _news_weight(title, name)
                         intl_items.append({
                             "source": name, "title": title, "url": url_link,
-                            "snippet": snippet, "published": pub,
+                            "snippet": snippet, "published": pub, "weight": weight,
                         })
                         count += 1
                 elif fmt == "atom":
@@ -182,6 +211,7 @@ def fetch_news() -> dict[str, list[dict]]:
                         intl_items.append({
                             "source": name, "title": title, "url": url_link,
                             "snippet": snippet, "published": pub,
+                            "weight": _news_weight(title, name),
                         })
                         count += 1
                 source_stats[name] = count
@@ -191,7 +221,7 @@ def fetch_news() -> dict[str, list[dict]]:
         # ============ 国内 RSS (同样放宽到 48h) ============
         for name, url in RSS_FEEDS_CN:
             try:
-                resp = client.get(url, headers={
+                resp = _http_get_with_retry(client, url, {
                     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
                 })
                 feed = feedparser.parse(resp.text)
@@ -202,12 +232,14 @@ def fetch_news() -> dict[str, list[dict]]:
                         pub_dt = datetime(*pub[:6], tzinfo=timezone.utc)
                         if pub_dt < now - timedelta(hours=48):
                             continue
+                    title_str = entry.get("title", "")
                     cn_items.append({
                         "source": name,
-                        "title": entry.get("title", ""),
+                        "title": title_str,
                         "url": entry.get("link", ""),
                         "snippet": (entry.get("summary", "") or "")[:200],
                         "published": entry.get("published", ""),
+                        "weight": _news_weight(title_str, name),
                     })
                     count += 1
                     if count >= 15:  # 国内每源最多 15 条
@@ -230,13 +262,13 @@ def fetch_news() -> dict[str, list[dict]]:
         if len(cn_items) < 3:
             cn_items.extend(fallback["cn"][:5-len(cn_items)])
 
-    # 按时间排序 (最新的在前)
-    intl_items.sort(key=lambda x: x.get("published", ""), reverse=True)
-    cn_items.sort(key=lambda x: x.get("published", ""), reverse=True)
+    # 按权重 + 时间排序 (weight 高的在前, 同 weight 按时间倒序)
+    intl_items.sort(key=lambda x: (-x.get("weight", 1), x.get("published", "")), reverse=False)
+    cn_items.sort(key=lambda x: (-x.get("weight", 1), x.get("published", "")), reverse=False)
 
     return {
-        "intl": intl_items[:15],
-        "cn": cn_items[:15],
+        "intl": intl_items[:25],
+        "cn": cn_items[:25],
         "source_stats": source_stats,
         "dedup": {
             "intl": {"before": intl_before, "after": len(intl_items)},
@@ -248,10 +280,14 @@ def fetch_news() -> dict[str, list[dict]]:
 def _dedup_news(items: list[dict]) -> list[dict]:
     """
     标题相似度去重 + URL 去重。
-    算法: 提取标题核心关键词 (中文 2-gram + 英文 word), Jaccard > 0.5 视为重复。
+    算法:
+      1) 标题前 6 个核心 token 做签名, 完全相同直接去重
+      2) 标题核心关键词 Jaccard > 0.4 (放宽自 0.5, 抓同主题多个报道)
+      3) URL 完全相同去重
     """
     import re
     seen_urls = set()
+    seen_signatures: list[set] = []
     seen_keywords: list[set] = []
 
     result = []
@@ -263,10 +299,22 @@ def _dedup_news(items: list[dict]) -> list[dict]:
             seen_urls.add(url)
 
         kw = _extract_keywords(it.get("title", ""))
+        # 短签名: 选最重要的 6 个 token
+        important_kw = sorted(kw, key=lambda w: (-len(w), w))[:6]
+        sig = frozenset(important_kw)
+
+        # 完全相同签名 -> 直接去重
+        if sig in seen_signatures:
+            continue
+        # 相似签名 -> 也去重 (Jaccard > 0.4)
+        if any(_jaccard(sig, s) > 0.4 for s in seen_signatures):
+            continue
+        # 关键词重叠度
         if any(_jaccard(kw, k) > 0.5 for k in seen_keywords):
             continue
-        seen_keywords.append(kw)
 
+        seen_signatures.append(sig)
+        seen_keywords.append(kw)
         result.append(it)
     return result
 
@@ -292,6 +340,56 @@ def _extract_keywords(title: str) -> set[str]:
     return cn_grams | en_words
 
 
+def _news_weight(title: str, source: str) -> int:
+    """
+    新闻权重: 大厂新模型/产品发布 = 10, 重大并购/融资 = 8, 行业变革 = 6, 普通新闻 = 1。
+    排序时优先选高权重新闻, 避免低质 Show HN / 中文长标题把重要新闻挤掉。
+    """
+    title_lower = title.lower()
+
+    # 顶级模型/产品发布 (新版本号)
+    big_keywords = ["v4", "v5", "4.5", "4.6", "4.7", "5.0", "pro", "ultra", "opus",
+                    "sonnet", "haiku", "flash", "preview", "official", "正式版", "正式上线",
+                    "上线", "发布", "发布", "推出", "宣布"]
+    # 国内大模型厂商首发
+    cn_major_vendors = ["deepseek", "kimi", "qwen", "通义千问", "千问", "文心",
+                        "智谱", "chatglm", "豆包", "混元", "hunyuan", "doubao"]
+    # xAI / Grok / OpenAI / Anthropic / Google / Meta
+    intl_majors = ["grok", "xai", "x.ai", "openai", "anthropic", "claude",
+                   "google", "gemini", "meta", "llama"]
+
+    # 大厂首发 = 10
+    if any(kw in title_lower for kw in cn_major_vendors):
+        if any(kw in title_lower for kw in big_keywords):
+            return 10
+        return 7  # 普通厂商新闻
+    if any(kw in title_lower for kw in intl_majors):
+        if any(kw in title_lower for kw in big_keywords):
+            return 9
+        return 6
+
+    # 重大融资/并购
+    if any(kw in title for kw in ["收购", "并购", "亿美元", "$", "融资", "估值"]):
+        return 5
+
+    # 行业变革信号
+    if any(kw in title for kw in ["重大", "重磅", "首发", "独家", "突发", "爆"]):
+        return 4
+
+    # 噪声降权: Show HN 类 (个人项目, 非新闻)
+    if "show hn" in title_lower or "ask hn" in title_lower:
+        # 但保留包含大厂 + 新版本的
+        has_major = any(kw in title_lower for kw in ["deepseek", "grok", "xai", "x.ai",
+                                                       "openai", "claude", "anthropic",
+                                                       "gemini", "qwen", "kimi"])
+        if has_major and any(kw in title_lower for kw in ["v4", "v5", "4.5", "4.6", "4.7", "5.0", "pro", "ultra", "opus", "sonnet", "haiku", "flash"]):
+            return 9  # 大厂 + 新版本 Show HN 保留
+        return 0  # 普通 Show HN 直接降到 0
+
+    # 默认
+    return 1
+
+
 def _jaccard(a: set, b: set) -> float:
     if not a or not b:
         return 0.0
@@ -300,8 +398,36 @@ def _jaccard(a: set, b: set) -> float:
     return inter / union if union > 0 else 0.0
 
 
+def _fallback_news_items() -> dict[str, list[dict]]:
+    """全部新闻源抓取失败时的硬编码兜底新闻 (2026-09-05 恢复, 原 8/13 改动误删)"""
+    return {
+        "intl": [
+            {"title": "OpenAI announces GPT-5.6 with 1M context",
+             "url": "https://openai.com/blog", "snippet": "1M token context, 60% cost reduction"},
+            {"title": "Anthropic releases Claude Opus 5",
+             "url": "https://anthropic.com/news", "snippet": "92% HumanEval, 50-step agent capability"},
+            {"title": "Google debuts Gemini 3.5 Pro and 3.6 Flash",
+             "url": "https://blog.google", "snippet": "Native video generation, multimodal fusion"},
+            {"title": "Meta open-sources Llama 4 70B MoE",
+             "url": "https://ai.meta.com", "snippet": "17B active params, 100+ languages"},
+            {"title": "NVIDIA Blackwell B200 ships",
+             "url": "https://nvidianews.nvidia.com", "snippet": "2080 TFLOPS FP4, $30k per GPU"},
+        ],
+        "cn": [
+            {"title": "阿里 Qwen3-Max 1.2T 登顶中文榜单",
+             "url": "https://qwen.alibaba.com", "snippet": "C-Eval/CMMLU 双榜第一"},
+            {"title": "DeepSeek V4 推理降价至 Claude 七分之一",
+             "url": "https://deepseek.com", "snippet": "极致性价比"},
+            {"title": "字节豆包大模型 1.5 Pro 升级",
+             "url": "https://doubao.com", "snippet": "中文理解能力提升"},
+            {"title": "智谱 GLM-5 开源",
+             "url": "https://zhipu.ai", "snippet": "支持 128K 上下文"},
+        ],
+    }
+
+
 # ============ Step 2: LLM 生成剧本 (选最重磅 4-6 条, 20 句 ≈ 5-6 分钟) ============
-SCRIPT_PROMPT = """你是一档名为《今日AI头条》的中文科技播客的主笔编剧。
+SCRIPT_PROMPT = """你是一档名为《今日AI头条》的中文科技播客的主笔编剧, 节目时长约 6-7 分钟, 60 句对话, 信息密度高。
 
 ## 新闻素材 (按时间倒序, 24小时内)
 ### 🌍 国际 ({n_intl} 条)
@@ -311,21 +437,25 @@ SCRIPT_PROMPT = """你是一档名为《今日AI头条》的中文科技播客�
 {cn}
 
 ## 任务
-1. **精选最重磅的 4-6 条** (国际+国内各 2-3 条) 做深度解读
-2. 选材标准: 涉及顶级模型/产品发布、重磅融资、行业变革
-3. 剩余新闻在第 17-19 句快速提及 (一句话带过)
+1. **精选最重磅的 10-12 条** (国内 5-6 条 + 国际 4-5 条) 做深度解读
+2. **顺序严格**: 国内重磅在前, 国际重磅在后, 联动分析贯穿中间
+3. 选材标准: 涉及顶级模型/产品发布、重磅融资、行业变革、高管人事
+4. 国内优先级: 涉及国内大模型厂商 (DeepSeek/Qwen/Kimi/豆包/智谱) 或中国 AI 行业大事
+5. 国际优先级: 涉及 OpenAI/Anthropic/xAI/Google/Meta 或国际 AI 趋势
+6. 剩余新闻在第 47-54 句快速提及 (一句话带过, 8 条速览)
+7. **文字部分 (news.md) 会单独输出全部新闻** (30 条以上), 播客部分只挑最重磅的 10-12 条
 
 ## 双角色
 - **host** (女, 主持人, 节奏活泼) — 开场、追问、过渡、收尾
 - **guest** (男, 科技评论员) — 解读事实、给数字、举例子
 
 ## 严格要求
-1. **总轮数**: 30 句 (15 轮对话, host/guest 各 15 句) - 目标时长 6 分钟
+1. **总轮数**: 60 句 (30 轮对话, host/guest 各 30 句) - 目标时长 6-7 分钟
 2. **严格交替**: host→guest→host→...→host 收尾
 3. **句长**: 35-70 字 (口语化, 用"咱们/你看/啊/对吧/其实/不过"等口语词)
-4. **节奏**: 紧凑, 一句一个信息点
+4. **节奏**: 紧凑, 一句一个信息点, 但内容更深度 (每条新闻 4-6 句讨论)
 5. **必须有具体数字**: 年份、模型名、性能、价格、参数量、用户数
-6. **国际+国内都覆盖**: 至少 2 条国际 + 2 条国内
+6. **国内 5-6 条 + 国际 4-5 条**, 深度解读
 7. **结尾必须是 host**, 包含"订阅/点赞/小铃铛/下期预告"
 8. **【严格语言】全篇中文,绝不出现英文**:
    - 英文模型/公司/产品名必须翻译或中文化,例如:
@@ -339,19 +469,20 @@ SCRIPT_PROMPT = """你是一档名为《今日AI头条》的中文科技播客�
      常见词必须中文 ("release/launch/announce"→发布/推出/宣布)
    - host 和 guest 全程说中文,口语化,绝不夹英文长句
 
-## 结构模板 (30 句)
-- 句1-2: 开场寒暄 (host 问, guest 应)
-- 句3-8: 国际重磅 2-3 条 (host 问, guest 详解)
-- 句9-16: 国内动态 2-3 条 (host 问, guest 详解)
-- 句17-22: 行业影响/对比 (host 总结, guest 回应)
-- 句23-26: 其他要闻速览 (3-4 条, 各一句话)
-- 句27-29: 后续展望 (host+guest)
-- 句30: 结尾订阅 CTA (host)
+## 结构模板 (60 句)
+- 句1: 开场寒暄 (host 极简版, 一句话报日期+今日概览, 30 字以内)
+- 句2: 过场 (guest 一句话衔接国内重点, 30 字以内)
+- 句3-22: **国内重磅 5-6 条** (20 句, 每条 ~4 句深入讨论, host+guest 轮流追问+解读+举例)
+- 句23-38: **国际重磅 4-5 条** (16 句, 每条 ~3-4 句深入讨论)
+- 句39-46: **行业影响/对比** (8 句, 国内国际联动分析, 横纵对比)
+- 句47-54: **其他要闻速览** (8 条, 各一句话快速带过, host+guest 交替)
+- 句55-59: **后续展望** (5 句, host+guest 深度讨论未来变量)
+- 句60: 结尾订阅 CTA (host, 一句话)
 
 ## 输出 (严格 JSON, 不要任何解释文字)
 {{
   "title": "今日AI头条",
-  "tagline": "{date} | 国际+国内重磅速览",
+  "tagline": "{date} | 国际+国内重磅速览 (60句深度版)",
   "selected_news": [
     {{"source": "...", "title": "中文标题(必须把英文标题译成中文,保留产品/模型英文名)", "url": "...", "weight": "deep"}},
     ...
@@ -367,32 +498,40 @@ SCRIPT_PROMPT = """你是一档名为《今日AI头条》的中文科技播客�
 - **必须从上面新闻素材里挑,不能凭空编** (LLM 编出来的 url 会失效)
 - 每条 selected_news 的 url 必须**原样拷贝**自新闻素材 (不要填来源站首页)
 - title 翻译成中文 (保留专有名词如 GPT-4o / Claude / Pokee-Isaac 等)
-- 4-6 条, 国际+国内都覆盖, weight 用 "deep" (重磅) 或 "medium" (次要)
+- **10-12 条**, 国内 5-6 条 + 国际 4-5 条, weight 用 "deep" (重磅) 或 "medium" (次要)
+- **播客只念 10-12 条最重要的, 文字部分 (news.md) 会单独输出全部 30+ 条新闻**
 """
 
 
 async def generate_script(news: dict[str, list[dict]], date: str) -> dict[str, Any]:
-    """调 hermes token plan 走 MiniMax M3 生成剧本 (Anthropic 兼容路径)"""
+    """调智谱 GLM (OpenAI 兼容路径) 生成剧本
+
+    2026-10-16: MiniMax 余额耗尽 (HTTP 402) → 换 zai glm-5.3-flash。
+    - 走 https://open.bigmodel.cn/api/coding/paas/v4/chat/completions (OpenAI 兼容)
+    - key 经 resolve_provider_secret("ZAI_API_KEY", "zai") 拿 (hermes 进程内)
+    - thinking 关闭: glm 系 thinking 在长 prompt 上会拖慢甚至超时 (见 memory)
+    - timeout 600s: 60 句深度版 prompt ~7k 字, 保险余量
+    """
     import httpx
 
-    # 拿 key (token plan 凭证池)
+    # 拿 key (hermes 凭证池)
     sys.path.insert(0, "/Users/saber/.hermes/hermes-agent")
-    key = os.environ.get("MINIMAX_CN_API_KEY", "")
+    key = os.environ.get("ZAI_API_KEY", "")
     if not key:
         try:
             from tools.tool_backend_helpers import resolve_provider_secret
-            key = resolve_provider_secret("MINIMAX_CN_API_KEY", "minimax-cn")
+            key = resolve_provider_secret("ZAI_API_KEY", "zai")
         except Exception as e:
             raise RuntimeError(
-                f"拿不到 MiniMax key: {e}. "
-                "必须在 hermes 进程内执行, 或 export MINIMAX_CN_API_KEY=..."
+                f"拿不到智谱 key: {e}. "
+                "必须在 hermes 进程内执行, 或 export ZAI_API_KEY=..."
             )
 
     if not key:
-        raise RuntimeError("MiniMax key 为空")
+        raise RuntimeError("智谱 key 为空")
 
-    base = "https://api.minimaxi.com/anthropic"
-    model = "MiniMax-M3"
+    base = "https://open.bigmodel.cn/api/coding/paas/v4"
+    model = "glm-5.3-flash"
 
     prompt = SCRIPT_PROMPT.format(
         n_intl=len(news["intl"]),
@@ -404,18 +543,17 @@ async def generate_script(news: dict[str, list[dict]], date: str) -> dict[str, A
 
     body = {
         "model": model,
-        "max_tokens": 8192,
+        "max_tokens": 16384,  # 60 句深度版需要更多 token
         "temperature": 0.85,
-        "reasoning_split": True,
+        "thinking": {"type": "disabled"},  # glm 系 thinking 会拖慢长 prompt, 关掉
         "messages": [{"role": "user", "content": prompt}],
     }
 
-    async with httpx.AsyncClient(timeout=180.0) as client:
+    async with httpx.AsyncClient(timeout=600.0) as client:
         resp = await client.post(
-            f"{base}/v1/messages",
+            f"{base}/chat/completions",
             headers={
-                "x-api-key": key,
-                "anthropic-version": "2023-06-01",
+                "Authorization": f"Bearer {key}",
                 "Content-Type": "application/json",
             },
             json=body,
@@ -424,40 +562,75 @@ async def generate_script(news: dict[str, list[dict]], date: str) -> dict[str, A
             raise RuntimeError(f"LLM HTTP {resp.status_code}: {resp.text[:300]}")
         data = resp.json()
 
-    # Anthropic 响应格式: content[].text
-    content = ""
-    for block in data.get("content", []):
-        if block.get("type") == "text":
-            content += block["text"]
+    # OpenAI 响应格式: choices[].message.content
+    content = (data.get("choices") or [{}])[0].get("message", {}).get("content") or ""
 
-    # 解析 JSON (优先用 json_repair, 容错强)
+    # 解析 JSON (优先用 json_repair, 容错强; 截断时尝试补救)
     import re
-    match = re.search(r"\{[\s\S]*\}", content)
-    if not match:
-        raise RuntimeError(f"LLM 没返回 JSON: {content[:300]}")
-    json_str = match.group(0)
+    script = None
+    # 优先 raw_decode: 从首个 { 精确解析一个完整 JSON 对象, 忽略其后多余文本
+    # (greedy regex 会把 JSON 后的尾巴一起吞进来, 报 "Extra data" — 2026-10-28 实锤)
+    start = content.find("{")
+    if start >= 0:
+        try:
+            script, _ = json.JSONDecoder().raw_decode(content[start:])
+        except json.JSONDecodeError:
+            script = None
+    if script is None:
+        match = re.search(r"\{[\s\S]*\}", content)
+        if not match:
+            raise RuntimeError(f"LLM 没返回 JSON: {content[:300]}")
+        json_str = match.group(0)
+    else:
+        json_str = ""
+    if script is None:
+        try:
+            from json_repair import repair_json
+            repaired = repair_json(json_str, return_objects=True)
+            if isinstance(repaired, dict):
+                script = repaired
+        except ImportError:
+            pass
 
-    try:
-        from json_repair import repair_json
-        repaired = repair_json(json_str, return_objects=True)
-        script = repaired if isinstance(repaired, dict) else json.loads(json_str)
-    except ImportError:
+    if script is None:
         try:
             script = json.loads(json_str)
-        except json.JSONDecodeError as e:
-            raise RuntimeError(f"JSON 解析失败: {e}\n{json_str[:500]}")
+        except json.JSONDecodeError:
+            # 截断补救: 找到最后一个完整的 "},", 截断到那里 + 补全结构
+            last_complete = json_str.rfind("},")
+            if last_complete > 0:
+                truncated = json_str[:last_complete+1]
+                # 计数未闭合的 [ 和 {
+                opens = truncated.count("[") - truncated.count("]")
+                braces = truncated.count("{") - truncated.count("}")
+                # 补全 closing
+                truncated += "]" * opens + "}" * braces
+                try:
+                    script = json.loads(truncated)
+                    print(f"  ⚠️ JSON 截断补救: 截断到 {last_complete+1} 位置 + 补全 {opens}+{braces} 个括号")
+                except json.JSONDecodeError as e:
+                    raise RuntimeError(f"JSON 解析失败 (截断补救也失败): {e}\n{json_str[:500]}")
+            else:
+                raise RuntimeError(f"JSON 解析失败: {json_str[:500]}")
 
-    # 兜底: 严格交替 + 最后一句 host
+    # 兜底: 严格交替 + 最后一句 host + 截断到目标句数
+    target_lines = 60  # SCRIPT_PROMPT 要求 60 句
     lines = script.get("lines", [])
     fixed = []
-    for i, line in enumerate(lines[:-1]):
+    for i, line in enumerate(lines):
+        if len(fixed) >= target_lines:
+            break  # 截断多余句
         want = "host" if i % 2 == 0 else "guest"
         if line.get("role") != want:
             line = {**line, "role": want}
         fixed.append(line)
+    # 最后一句必须是 host
     if fixed and fixed[-1].get("role") != "host":
         fixed[-1] = {**fixed[-1], "role": "host"}
-    script["lines"] = fixed
+    # 确保 60 句 (如果 LLM 输出 < 60, 补 host 收尾)
+    while len(fixed) < target_lines:
+        fixed.append({"role": "host", "text": "今天的内容就先聊到这。"})
+    script["lines"] = fixed[:target_lines]
 
     if not script.get("title"):
         script["title"] = "今日AI头条"
@@ -497,62 +670,39 @@ async def generate_script(news: dict[str, list[dict]], date: str) -> dict[str, A
 
 async def synthesize_tts_async(script: dict, out_dir: Path) -> list[Path]:
     """
-    用 HermesTTSClient (直接调 MiniMax t2a_v2) 合成, 串行+重试, 避免 RPM 限流。
+    用 edge-tts (微软免费 TTS) 合成, 串行 + 重试。
 
-    不用 hermes text_to_speech_tool (它不接受 voice 参数, 只能用一个默认 voice)。
-
-    串行实现: MiniMax TTS RPM 限流严 (实测并发 3 会触发 1002 rate limit),
-    串行单请求 5-7s, 30 句约 3 分钟, 可接受
+    2026-10-16: MiniMax t2a_v2 余额耗尽 → 换 edge-tts (免费, 无 RPM 顾虑但保持串行
+    避免并发连接被微软限流)。双角色直接指定 voice; 速率 +25% 对应原 MiniMax 1.25×。
     """
-    project_root = Path(__file__).parent.parent
-    hermes_scripts = Path("/Users/saber/.hermes/scripts")
-    for path in (project_root, hermes_scripts):
-        if path.exists() and (path / "app" / "tts" / "hermes_tts.py").exists():
-            sys.path.insert(0, str(path))
-            break
-    from app.tts.hermes_tts import HermesTTSClient
+    import edge_tts
 
-    tts_client = HermesTTSClient()
     tts_segments: list[Path] = []
-
-    # 串行 + 重试 (MiniMax TTS RPM 限流严, 并发容易触发 1002)
     MAX_RETRIES = 3
     for i, line in enumerate(script["lines"]):
         role = line["role"]
         text = line["text"]
         mp3_path = out_dir / f"line_{i:02d}_{role}.mp3"
 
-        if role == "host":
-            voice = HOST_VOICE
-            speed = HOST_SPEED
-            emotion = HOST_EMOTION
-        else:
-            voice = GUEST_VOICE
-            speed = GUEST_SPEED
-            emotion = GUEST_EMOTION
+        voice = HOST_VOICE if role == "host" else GUEST_VOICE
+        rate = HOST_SPEED if role == "host" else GUEST_SPEED
 
-        # 重试逻辑
         for attempt in range(1, MAX_RETRIES + 1):
             try:
-                result = await tts_client.synthesize(
-                    text=text,
-                    voice=voice,
-                    speed=speed,
-                    emotion=emotion,
-                    output_path=mp3_path,
-                )
+                comm = edge_tts.Communicate(text, voice, rate=rate)
+                await comm.save(str(mp3_path))
                 tts_segments.append(mp3_path)
-                break  # 成功, 退出重试循环
+                await asyncio.sleep(0.2)
+                break
             except Exception as e:
-                if attempt < MAX_RETRIES and ("rate limit" in str(e).lower() or "1002" in str(e)):
-                    wait = 5 * attempt  # 5s, 10s, 15s
-                    print(f"  ⚠️ [{i}] TTS 限流, {wait}s 后重试 ({attempt}/{MAX_RETRIES})")
+                if attempt < MAX_RETRIES:
+                    wait = 3 * attempt
+                    print(f"  ⚠️ [{i}] TTS 失败 ({e}), {wait}s 后重试 ({attempt}/{MAX_RETRIES})")
                     await asyncio.sleep(wait)
                 else:
-                    print(f"  ⚠️ [{i}] TTS 失败: {e}")
+                    print(f"  ⚠️ [{i}] TTS 最终失败: {e}")
                     break
 
-    await tts_client.close()
     return tts_segments
 
 
@@ -869,25 +1019,21 @@ def build_feishu_message(date: str, news: dict, script: dict,
             # 没匹配上保留原 url
 
     # ---- 精选要闻 (deep + medium) ----
-    deep_lines = []
-    other_selected = []
-    for sn in selected:
-        weight = sn.get("weight", "deep")
+    # 格式与"国际其他/国内其他"一致: `- [标题](url)  _source_`
+    def _fmt(sn):
         title = sn.get("title", "").strip()
         url = sn.get("url", "").strip()
-        src = sn.get("source", "")
-        line = f"- **{title}**"
-        if src:
-            line += f"  \n   _{src}_"
+        source = sn.get("source", "")
         if url:
-            line += f"  \n   [原文]({url})"
-        snippet = sn.get("snippet", "").strip()
-        if snippet:
-            line += f"  \n   > {snippet[:150]}"
-        if weight == "deep":
-            deep_lines.append(line)
+            line = f"- [{title}]({url})"
         else:
-            other_selected.append(line)
+            line = f"- {title}"
+        if source:
+            line += f"  _{source}_"
+        return line
+
+    deep_lines = [_fmt(sn) for sn in selected if sn.get("weight", "deep") == "deep"]
+    other_selected = [_fmt(sn) for sn in selected if sn.get("weight", "deep") != "deep"]
 
     # ---- 扩展要闻 (selected 之外的, 国际 + 国内 各 5 条) ----
     used_titles = set(sn.get("title", "")[:12] for sn in selected)
@@ -905,13 +1051,7 @@ def build_feishu_message(date: str, news: dict, script: dict,
         if len(ext_cn) >= 5:
             break
 
-    # ---- 完整逐字稿 (备用, 供查阅) ----
-    lines_text = []
-    for i, line in enumerate(script.get("lines", []), 1):
-        emoji = "🎙️" if line["role"] == "host" else "🎓"
-        lines_text.append(f"**{i}.** {emoji} **{line['role'].upper()}**: {line['text']}")
-
-    # ---- 构造 4 个语义块 ----
+    # ---- 构造 3 个语义块 (header + 精选 + 扩展 + mp3) ----
     header_block = (
         f"📰 **今日AI头条** · {date}{bgm_info}\n"
         f"⏱️ {duration_min:.1f} 分钟 · {push_status}"
@@ -939,10 +1079,8 @@ def build_feishu_message(date: str, news: dict, script: dict,
             ext_parts.append(f"- [{t}]({u})" if u else f"- {t}")
     ext_block = "\n".join(ext_parts) if ext_parts else ""
 
-    transcript_block = (
-        f"## 📜 完整逐字稿\n\n" + "\n\n".join(lines_text)
-        if lines_text else ""
-    )
+    # 逐字稿不再发到飞书 (用户只要 mp3), news.md 里已经有完整 transcript
+    transcript_block = ""
 
     mp3_block = f"🎧 播客音频:\n\nMEDIA:{mp3_path}"
 
@@ -952,7 +1090,6 @@ def build_feishu_message(date: str, news: dict, script: dict,
         ("header", header_block),
         ("deep", deep_block),
         ("ext", ext_block),
-        ("transcript", transcript_block),
         ("mp3", mp3_block),
     ]
 
@@ -1013,6 +1150,18 @@ async def main():
     out_dir.mkdir(parents=True, exist_ok=True)
     tts_dir = out_dir / "tts_segments"
     tts_dir.mkdir(exist_ok=True)
+
+    # 当日去重（2026-10-17 加）
+    # ---------------------------------------------------------------
+    # 背景：Mac 睡眠时 8:30 的 cron 班次会被错过，且 hermes cron
+    # 错过不补跑（不是 anacron）。为自愈，cron 改成每 30 分钟触发一次，
+    # 由本检查保证一天只真正生成一期：final.mp3 已存在 = 今天已完成，
+    # 静默退出（cron no_agent 空 stdout = 不推送）。
+    #
+    # 想强制重跑当天：删掉 data/news/<date>/final.mp3 再触发。
+    final_early = out_dir / "final.mp3"
+    if final_early.exists() and final_early.stat().st_size > 100_000:
+        return  # 当日已完成，完全静默（cron no_agent 空 stdout = 不推送）
 
     # Step 1: 拉新闻
     news = fetch_news()
