@@ -1,0 +1,441 @@
+{
+  "intl": [
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Evaluating DeepSeek v4.1 Flash-1017 for loss of control and harmful manipulation",
+      "url": "https://arxiv.org/abs/2610.35671",
+      "snippet": "",
+      "published": "2026-11-03T04:06:06Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+      "snippet": "",
+      "published": "2026-11-03T12:21:17Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek Flash v4.1 Explained Through Harry Potter",
+      "url": "https://statsig.substack.com/p/deepseek-flash-v41-explained-through",
+      "snippet": "",
+      "published": "2026-11-03T23:14:20Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek Harness' new Creator Mode creates plugins from prompts",
+      "url": "https://mashable.com/tech/deepseek-creator-mode-plugins",
+      "snippet": "",
+      "published": "2026-11-04T03:40:45Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Kimi K3.1 Pro model weights are out",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "snippet": "",
+      "published": "2026-11-04T15:30:30Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Verda Inference, in Preview with Kimi K3.1 Pro",
+      "url": "https://verda.com/blog/verda-inference-in-preview",
+      "snippet": "",
+      "published": "2026-11-04T16:58:53Z",
+      "weight": 10
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From Committed Weights",
+      "url": "https://www.marktechpost.com/2026/11/03/anthropic-flashprove-provable-inference-zksnark/",
+      "snippet": "<p>Anthropic released FlashProve, an Apache 2.0 zkSNARK prototype that proves a reply came from a committed model without revealing weights. It proves Llama 4 Maverick at 110 tokens/second on 1 H100, ",
+      "published": "Tue, 03 Nov 2026 22:08:22 +0000",
+      "weight": 9
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "What Qwen is thinking when it gets stuck saying \"Wait\"",
+      "url": "https://alisorcorp.github.io/inside-a-reasoning-loop/",
+      "snippet": "",
+      "published": "2026-11-03T12:28:15Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "The Qwen weight edits are fixing the repetition and works on non math as well",
+      "url": "https://www.hedwigai.com/blog/weight-edit-math-or-loops",
+      "snippet": "",
+      "published": "2026-11-03T14:38:50Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Custom Voices with Qwen3-TTS",
+      "url": "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/",
+      "snippet": "",
+      "published": "2026-11-03T15:50:11Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "snippet": "",
+      "published": "2026-11-03T17:40:00Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Kimi-k3-in-C: A 2.78T-parameter model. No GPU. 8 GB of RAM",
+      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+      "snippet": "",
+      "published": "2026-11-03T19:55:00Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Turn Qwen evil using a single neuron",
+      "url": "https://ziva.sh/blogs/evil-qwen",
+      "snippet": "",
+      "published": "2026-11-04T03:07:59Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "MIT researchers edit Qwen weights with GPT-6 Astra to boost math",
+      "url": "https://venturebeat.com/technology/like-gene-editing-for-neural-networks-mit-researchers-used-gpt-6-astra-to-edit-qwens-open-weights-directly-boosting-math-performance",
+      "snippet": "",
+      "published": "2026-11-04T06:18:38Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Over 500k words in a single DeepSeek thread",
+      "url": "https://explore.openaire.eu/search/publication?pid=10.5281%2Fzenodo.23686384",
+      "snippet": "",
+      "published": "2026-11-04T07:27:22Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "DeepSeek alone now accounts for 53% of all token volume on Openrouter",
+      "url": "https://dirac.run/labs-market-share",
+      "snippet": "",
+      "published": "2026-11-04T20:26:56Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Musk is throttling Grok because its cost is 'unsustainably high'",
+      "url": "https://finance.yahoo.com/technology/article/musk-is-throttling-grok-because-its-cost-is-unsustainably-high-162959909.html",
+      "snippet": "",
+      "published": "2026-11-03T01:42:29Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "How to export Grok to pdf [video]",
+      "url": "https://www.youtube.com/watch?v=FCii1xxIBJo",
+      "snippet": "",
+      "published": "2026-11-03T10:19:15Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Google will turn off search for schools that reject AI",
+      "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+      "snippet": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;RuwsB\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;RuwsB</a><p><a href=\"https:&#x2F;&#x2F;blog.google&#x2F;products-and-platforms&#x2F;products&#x2F;edu",
+      "published": "2026-11-03T15:25:47Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Show HN: Unblock Dot/Grok Bot/Instinct with Amazon, etc.",
+      "url": "https://browse.sophtron.com/",
+      "snippet": "Hi HN, I&#x27;m founder of Sophtron.com. With agents like Dot constantly blocked by Amazon, etc., we have built a simple service to get them unblocked. Just ask the agent to go to browse.sophtron.com ",
+      "published": "2026-11-03T16:24:06Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "xAI installs eight converted jet engines to power Mississippi data center",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/elon-musks-xai-installs-eight-converted-jet-engines-to-power-mississippi-data-center-permits-allow-25-percent-higher-limit-for-pollutants-concerns-raised-over-carbon-monoxide",
+      "snippet": "",
+      "published": "2026-11-03T16:34:14Z",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Google hasn&#8217;t figured out how to make AI pay like its search engine",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
+      "snippet": "Search queries are growing at their fastest rate in five years, Google parent Alphabet said in its earnings report last week. However, Google's Search revenue growth slowed to 12 percent year over yea",
+      "published": "2026-11-04T07:00:00-05:00",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Gemini for Home now plugs into AT&#038;T’s smart security system",
+      "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
+      "snippet": "AT&#38;T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabli",
+      "published": "2026-11-04T15:23:24-05:00",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "OpenAI Introduces Pando: A Git Backend That Cuts Median Push Latency ~80%",
+      "url": "https://www.marktechpost.com/2026/11/02/openai-pando-git-backend-monorepo/",
+      "snippet": "<p>OpenAI built Pando, a Git-compatible backend for its monorepo. It handles branches independently, reuses stored packfiles across fetches, cut median push latency by nearly 80%, and now delivers nea",
+      "published": "Tue, 03 Nov 2026 05:51:06 +0000",
+      "weight": 6
+    },
+    {
+      "source": "OpenAI-News",
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "url": "https://openai.com/index/cisco-cyber",
+      "snippet": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "published": "Tue, 03 Nov 2026 08:00:00 GMT",
+      "weight": 6
+    }
+  ],
+  "cn": [
+    {
+      "source": "掘金",
+      "title": "腾讯混元 Hy4 正式版：1/8 的价格摸到 Opus 5.5，能看图能开电脑，就差权重没放",
+      "url": "https://juejin.cn/post/7704232000831373339",
+      "snippet": "11 月 4 日腾讯混元发布 Hy4 正式版：770B MoE、1M 上下文，首次引入视觉理解与",
+      "published": "Thu, 05 Nov 2026 00:22:42 GMT",
+      "weight": 10
+    },
+    {
+      "source": "掘金",
+      "title": "小程序成长计划上新：10 亿 Token 现在能调 DeepSeek-v4.1-flash了",
+      "url": "https://juejin.cn/post/7704204284116238399",
+      "snippet": "小程序成长计划赠送的 AI 资源包，今天新增两个可抵扣模型：hy4-preview、deepseek-v4.1-flash。加上原有的 hy3，10 亿 Token 生文额度现在共支持三个文本模型。",
+      "published": "Wed, 04 Nov 2026 15:35:38 GMT",
+      "weight": 10
+    },
+    {
+      "source": "199IT",
+      "title": "The Information：DeepSeek融资1055亿元，国资约占27%",
+      "url": "http://www.199it.com/archives/1860717.html",
+      "snippet": "The Information报道，DeepSeek第二轮融资筹集1055亿元人民币（约158亿美元），腾讯、宁德时代领投。国有投资者占比约27%，首轮为2%。因英伟达芯片涨价及防备AI泡沫，融资规模中途扩大一倍。",
+      "published": "Wed, 04 Nov 2026 13:03:26 +0000",
+      "weight": 7
+    },
+    {
+      "source": "雷锋网",
+      "title": "0.016% 的 Astra 微创手术，治好了 Qwen 的 3 万 Token 死循环",
+      "url": "https://www.leiphone.com/category/ai/0F072La1etrUN0Tr.html",
+      "snippet": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20261104/6aeaed8350f73.j",
+      "published": "Wed, 04 Nov 2026 16:32:00 +0800",
+      "weight": 7
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Uber 总裁跳槽 OpenAI！曾掌舵谷歌、Snap 公关，Brockman 亲自发文欢迎",
+      "url": "https://www.infoq.cn/article/mcHCe07TQ08mEZtqcWi1?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/mcHCe07TQ08mEZtqcWi1?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Wed, 04 Nov 2026 14:02:24 GMT",
+      "weight": 6
+    },
+    {
+      "source": "雷锋网",
+      "title": "榜单第一，市值暴跌！Gemini 4 Carbon「速成」背后，谷歌一场豪赌",
+      "url": "https://www.leiphone.com/category/yanxishe/7uvYEZBsCWcPvhw3.html",
+      "snippet": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20261104/6aead2a636794.j",
+      "published": "Wed, 04 Nov 2026 14:39:00 +0800",
+      "weight": 6
+    },
+    {
+      "source": "掘金",
+      "title": "Postman 被曝自动往 Claude Code 和 Codex 装插件",
+      "url": "https://juejin.cn/post/7704195451616952356",
+      "snippet": "大家好，我是： 农村程序员（2020年回农村，至今未出村） 独立开发者（致力于开发 1000 个小产品） 技术观察者（分享编程技术，行业资讯等） 前端之虎陈随易（自封的） 我的官网是：https://",
+      "published": "Wed, 04 Nov 2026 16:35:57 GMT",
+      "weight": 6
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Anthropic 为重要开源项目新增可选安全扫描服务",
+      "url": "https://www.infoq.cn/article/hdmi6FdjpYSEvuMhPOAa?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/hdmi6FdjpYSEvuMhPOAa?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Wed, 04 Nov 2026 19:53:34 GMT",
+      "weight": 6
+    },
+    {
+      "source": "36氪",
+      "title": "硬氪首发丨快手系AI芯片公司凌川科技完成10亿元B轮融资，3D芯片已回片，明年规模出货",
+      "url": "https://36kr.com/p/4054776980378758?f=rss",
+      "snippet": "<p>作者&nbsp;|&nbsp;邱晓芬</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <p>硬氪获悉，人工智能芯片公司「凌川科技」近日完成10亿元B轮融资，本轮融资将主要用于下一代芯片研发与量产及全球市场拓展。</p>\n  <p>本轮由亦庄国投屹唐盛和基金、启明创投、朝晖资本联合领投，知名投资机构国泰海通开元、华控投资、国寿长三角科创基金、北工投资、建信（北京）投资、沛坤",
+      "published": "2026-11-04 09:33:32  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "6个月完成3轮融资，震业新材获国元数千万元A++投资｜36氪首发",
+      "url": "https://36kr.com/p/4055059760681858?f=rss",
+      "snippet": "<p>36氪获悉，ADI（等温淬火球铁）金属材料企业震业新材近期完成数千万元A++轮融资，由国元股权投资独家投资。本轮融资将主要用于ADI材料产线扩建、核心工艺迭代研发，以及乘用车、商用车、工程机械等下游场景的商业化落地。&nbsp;</p>\n  <p>这是震业新材6个月内完成的第三轮融资。此前，公司先后完成超亿元A轮融资，和数千万元战略融资。&nbsp;</p>\n  <p>ADI是一种经等温淬火",
+      "published": "2026-11-04 14:25:54  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "比利时政府与Engie将核电业务收购谈判期限延长至12月12日",
+      "url": "https://36kr.com/newsflashes/4056126289745033?f=rss",
+      "snippet": "当地时间11月4日，比利时政府、法国能源集团Engie及其子公司Electrabel达成协议，将就比利时政府潜在收购核电业务一事达成条款清单的目标日期，从原定时间延长至2026年12月12日。三方表示，考虑到当前情况以及交易的复杂性和规模，各方同意延长讨论时间。过去数月的深入谈判已取得进展，双方对相关问题的理解有所加深，但在交易估值等方面仍存在重大分歧。此次延期最长为一个月。（界面）",
+      "published": "2026-11-05 08:25:01  +0800",
+      "weight": 5
+    },
+    {
+      "source": "199IT",
+      "title": "NVIDIA：数据中心营收890亿美元占92.5%，RTX60或延至2028年",
+      "url": "http://www.199it.com/archives/1860750.html",
+      "snippet": "TechSpot测试及近日消息：RTX 60或推迟至2028年，GPU换代周期或约三年。NVIDIA 8月财报显示，数据中心营收890亿美元，占总营收92.5%，游戏业务已非主收入；5080在1440p下较4080 SUPER仅快4%。",
+      "published": "Wed, 04 Nov 2026 12:52:04 +0000",
+      "weight": 5
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "月烧 1.5 万亿 token，年烧 1.32 亿美元？Cursor 工程师的账单，凡人只能仰望",
+      "url": "https://www.infoq.cn/article/q9iebpvFozfy4bgCYUyE?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/q9iebpvFozfy4bgCYUyE?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Wed, 04 Nov 2026 15:48:18 GMT",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "当AI不再「夸夸其谈」：决策模型爆红，物理世界需要端侧「快判断」",
+      "url": "https://36kr.com/p/4055330063766663?f=rss",
+      "snippet": "<p>9月中旬，一家名叫TypeSafeAI的初创公司发布了一个叫Jev的模型。它不写文章，不聊天，甚至不输出一段完整的句子。它做的事只有一件：把输入归入预设的选项，返回一个是/否、一个评分、一个概率。就是这样一款“不会说话”的模型，上线数周用户破百万，财富500强中约三分之一的企业开始使用，24天内估值从约2亿美元飙到75亿美元。</p>\n  <p>它带出了一个迅速被行业共识的新品类名字：决策模",
+      "published": "2026-11-04 22:00:00  +0800",
+      "weight": 4
+    },
+    {
+      "source": "雷锋网",
+      "title": "独家丨预测引擎 Prophetlab 获数千万种子轮，常春藤资本等机构联合投资",
+      "url": "https://www.leiphone.com/category/industrynews/5gyZIVYyxDzi67wu.html",
+      "snippet": "<section style=\"margin-bottom: 16px;\"><span><img alt=\"图片\" class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/6a6c4981e5bcb.jpg?imageMogr2/quality/90\" /></span></section><section style=\"margin",
+      "published": "Thu, 05 Nov 2026 00:30:00 +0800",
+      "weight": 4
+    },
+    {
+      "source": "雷锋网",
+      "title": "独家 | 腾讯前高级研究员获数千万投资，锚定物理AI接触智能",
+      "url": "https://www.leiphone.com/category/industrynews/30nTa8g0yzQmZGys.html",
+      "snippet": "<section style=\"margin-bottom: 16px;\"><span><img alt=\"图片\" class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/6a6c4981e5bcb.jpg?imageMogr2/quality/90\" /></span></section><section style=\"margin",
+      "published": "Thu, 05 Nov 2026 00:38:00 +0800",
+      "weight": 4
+    },
+    {
+      "source": "量子位",
+      "title": "超维动力全栈矩阵亮相2026香港金融科技周，具身智能硬科技引爆全场",
+      "url": "https://www.qbitai.com/2026/11/507574.html",
+      "snippet": "一场别开生面的具身智能科技盛宴",
+      "published": "Wed, 04 Nov 2026 08:59:57 +0000",
+      "weight": 4
+    },
+    {
+      "source": "钛媒体",
+      "title": "一个标签的引爆：“字节时间”之争的舆论传播复盘",
+      "url": "https://www.tmtpost.com/8193187.html",
+      "snippet": "在这一统计口径上，字节系可能领先腾讯系至少一年；只是一年前差距仅一两个百分点，到2026年才拉开到十个点以上。",
+      "published": "Wed, 04 Nov 2026 18:04:55 +0800",
+      "weight": 4
+    },
+    {
+      "source": "36氪",
+      "title": "最前线| 拓竹发布新一代3D打印机，9个独立打印头、最快6秒切换",
+      "url": "https://36kr.com/p/4054776330900353?f=rss",
+      "snippet": "<p>11月3日，拓竹发布第三代旗舰3D打印机 H3C，标准套装起售价16499元，首发期间直降1000元。</p>\n  <p>作为拓竹新一代旗舰产品，H3C此次升级的重点不再局限于打印速度，而是围绕多材料打印展开。新机搭载Swaptek™九头闪切系统、顶置一体化AMS 3H供料系统以及可变线径挤出机三��核心技术。</p>\n  <p class=\"image-wrapper\"><img src=",
+      "published": "2026-11-04 09:33:10  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "36氪官方股票舆情交流群开放加入，抢先掌握A股一手资讯！",
+      "url": "https://36kr.com/p/4054849345672326?f=rss",
+      "snippet": "<p>每天开盘前，你会关注哪些市场消息？</p>\n  <p>上市公司有没有新的业务进展？行业里出现了哪些值得关注的变化？市场热点背后，又有哪些企业动态值得留意？</p>\n  <p>对于关注A股市场的人来说，及时获取信息、了解行业动态，往往是观察市场的重要一环。</p>\n  <p>为此，36氪企业全情报持续运营官方股票舆情交流群，希望为关注资本市场、上市公司和行业动态的朋友，提供一个获取信息、交流观",
+      "published": "2026-11-04 10:46:43  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "WISE 2026 特别策划 - Re：Frame者征集",
+      "url": "https://36kr.com/p/4054890923824260?f=rss",
+      "snippet": "<p>Re：Frame 是36氪在「WISE 2026商业之王」中推出的特别策划环节，是一项面向创新者的年度案例征集与现场发布计划。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20261104/v2_f5e0e7fb05fd4b43944fa1bf78cb307d@6301044_oswg320",
+      "published": "2026-11-04 11:36:35  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "WISE 2026 特别策划 - 我们的创业梦",
+      "url": "https://36kr.com/p/4054909861942149?f=rss",
+      "snippet": "<p>WISE 2026 的最后小时，不属于已经成功的公司，属于还没被听见的人。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20261104/v2_c1d3da1aaf2a488cbf2a2ed5ca7dbc3d@6301044_oswg252035oswg1001oswg751_img_jpg",
+      "published": "2026-11-04 11:50:06  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "“AI+咖啡”改写产业链：新消费场景下的降本增效与青年机会",
+      "url": "https://36kr.com/p/4054786040026244?f=rss",
+      "snippet": "<p>随着城市节奏加快，咖啡愈发成为年轻人的日常刚需，日常之外，年轻人对咖啡的期待愈发多元，他们开始为空间氛围、风味探索和社交表达买单，线下咖啡的竞争焦点也从便利转向体验。从平价高频到体验创新，线下咖啡场景正在经历深刻的重构。与此同时，AI技术正加速进入咖啡产业链，被改变的不仅是出品效率，更引发了岗位能力、培训体系与青年就业方向的连锁反应。</p>\n  <p>10月31日下午，由鄞州区发展和改革局",
+      "published": "2026-11-04 14:00:53  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "当流量退潮，新消费场景靠什么留住年轻人？",
+      "url": "https://36kr.com/p/4054982649320583?f=rss",
+      "snippet": "<p>当咖啡日益嵌入年轻人的生活半径，成为城市街角常见的消费场景，线下实体空间的商业逻辑正在发生微妙而深刻的重构。过去几年，行业内外热衷于探讨新业态的诞生与技术的迭代，然而当视线回归到具体的街区与门店时，一个冷酷的现实摆在所有经营者面前：当新奇感褪去、打卡热潮降温，线下咖啡门店究竟靠什么留住年轻人？</p>\n  <p>10月31日下午，“AiPartner带着AI上前线——宁波咖啡生活周场景创新交",
+      "published": "2026-11-04 14:03:06  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "8点1氪丨张雪回应“校招年薪10万起被嫌低”；A股史诗级大涨；“iPhone显示下周五多地-30℃”，苹果致歉",
+      "url": "https://36kr.com/p/4056098541425801?f=rss",
+      "snippet": "<h2>今日热点导览</h2>\n  <ul>\n   <li>中国微短剧有了英文名：Duanju</li>\n   <li>京东外卖赛道负责人郭庆离职</li>\n   <li>科创板史上单次最大回购要来了</li>\n   <li>马斯克回应美国中期选举</li>\n   <li>卫龙换帅，“90后”余风接任CEO</li>\n   <li>瑞幸发布三季报，第三季度省了11亿元配送费</li>\n  </ul",
+      "published": "2026-11-05 08:01:15  +0800",
+      "weight": 1
+    }
+  ],
+  "source_stats": {
+    "OpenAI-News": 8,
+    "Google-AI-Blog": 0,
+    "TheVerge-AI": 10,
+    "TechReview-AI": 4,
+    "LastWeekInAI": 0,
+    "MarkTechPost": 9,
+    "SebastianRaschka": 0,
+    "TheGradient": 0,
+    "HuggingFace-Blog": 3,
+    "HackerNews": 2,
+    "HackerNews-DeepSeek": 7,
+    "HackerNews-Kimi": 8,
+    "HackerNews-Qwen": 8,
+    "HackerNews-Grok": 8,
+    "HackerNews-xAI": 8,
+    "ArXiv-cs.AI": 15,
+    "量子位": 10,
+    "雷锋网": 15,
+    "钛媒体": 15,
+    "36氪": 15,
+    "InfoQ中文": 15,
+    "掘金": 15,
+    "199IT": 15
+  },
+  "dedup": {
+    "intl": {
+      "before": 90,
+      "after": 90
+    },
+    "cn": {
+      "before": 100,
+      "after": 96
+    }
+  }
+}
