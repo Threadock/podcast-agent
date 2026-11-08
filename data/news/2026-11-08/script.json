@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-11-08 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "36氪",
+      "title": "9点1氪：豆包工作个人版取消5小时额度限制；美国企业支付的开源模型费用89%流向中国",
+      "url": "https://36kr.com",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "DeepSeek带火稀疏计算，国产芯片公司加速突围，又融近10亿",
+      "url": "https://www.qbitai.com",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了",
+      "url": "https://www.qbitai.com",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "2026年PyTorch大会：谷歌和Meta开源TorchTPU，在TPU上原生支持PyTorch",
+      "url": "https://www.infoq.cn/article/azhgYaRTIjsSSVfA8AaU",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "美的全屋智能锚定A2A：家电互联正从接口对接走向Agent对话",
+      "url": "https://36kr.com",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "米哈游退出，交大系基金投资接手脑机接口公司零唯一思",
+      "url": "https://36kr.com",
+      "weight": "medium"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "OpenAI估值达1.25万亿美元，新一轮融资110亿美元，Anthropic临近IPO",
+      "url": "https://www.theverge.com",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Anthropic用AI自动化AI研发报告引发担忧：模型改进速度约为一年前的两倍",
+      "url": "https://www.theverge.com",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Meta的Muse AI可创建定制化spaces空间，按需生成应用",
+      "url": "https://www.theverge.com",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "Meta首席战略官离职，转投AI推理初创公司Fireworks",
+      "url": "https://36kr.com",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Conductor被Meta收购，开发者3天、170美元用DeepSeek重建应用并开源",
+      "url": "https://news.ycombinator.com/item?id=50369503",
+      "weight": "medium"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "AI狂烧2000亿美元，谷歌全球启动自愿买断计划，最高补偿12个月工资",
+      "url": "https://www.infoq.cn/article/vMSj216sQUhmeDH4H0G7",
+      "weight": "deep"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "早上好,11月8号星期天,今天的AI头条,咱们聚焦资本变局和大模型落地两大主线!"
+    },
+    {
+      "role": "guest",
+      "text": "对,今天国内开源生态和智能体特别热闹,咱们先从国内说起。"
+    },
+    {
+      "role": "host",
+      "text": "先说豆包啊,豆包工作个人版直接取消了5小时额度限制,这对重度用户是好事吧?"
+    },
+    {
+      "role": "guest",
+      "text": "意义不小,取消5小时限制等于官方承认工作场景是主战场,和国外的Claude、Codex拼的就是可用时长。"
+    },
+    {
+      "role": "host",
+      "text": "还有个数字更震撼,说美国企业支付的开源模型费用,89%都流向了中国厂商,这可信吗?"
+    },
+    {
+      "role": "guest",
+      "text": "方向是对的,因为开源商用 API 大头来自 DeepSeek、Qwen、Kimi 这些中国模型,性价比摆在那里,国外开发者用脚投票。"
+    },
+    {
+      "role": "host",
+      "text": "所以开源这张牌,咱们不光赚了名声,还实打实赚到了钱,对吧?"
+    },
+    {
+      "role": "guest",
+      "text": "对,而且带火了上游,今天第二条重磅,DeepSeek带火稀疏计算,一家国产芯片公司又融了近10亿,Q3营收翻了数倍。"
+    },
+    {
+      "role": "host",
+      "text": "稀疏计算到底是啥?为什么突然被DeepSeek带火了?"
+    },
+    {
+      "role": "guest",
+      "text": "简单说就是模型推理时不激活全部参数,只算相关的那部分,DeepSeek的稀疏架构让国产芯片绕开了和英伟达拼密集算力的死路。"
+    },
+    {
+      "role": "host",
+      "text": "所以这是软件定义硬件的机会窗口,国产芯片借着开源模型的东风突围了?"
+    },
+    {
+      "role": "guest",
+      "text": "没错,算法创新和硬件架构打配合,这是中国AI算力最现实的一条路,资本显然也看懂了。"
+    },
+    {
+      "role": "host",
+      "text": "说到智能体,量子位报道硅谷华人抢跑DeepSeek,把下一代Agent Harness造出来了,这又是什么?"
+    },
+    {
+      "role": "guest",
+      "text": "Harness就是智能体的运行框架,现在大家苦单会话久矣,新方案能让多个Agent共享上下文、长任务不断线,和DeepSeek的超级智能体思路不谋而合。"
+    },
+    {
+      "role": "host",
+      "text": "同一个方向两边同时做,说明Agent基础设施确实是当下的共识赛道啊。"
+    },
+    {
+      "role": "guest",
+      "text": "对,而且这是个信号,竞争从拼模型参数转向拼工程框架,谁把Agent跑得稳,谁就拿到开发者。"
+    },
+    {
+      "role": "host",
+      "text": "还有个开源大新闻,谷歌和Meta居然联手,在2026年PyTorch大会上开源了TorchTPU?"
+    },
+    {
+      "role": "guest",
+      "text": "这可是历史性时刻,PyTorch原本是Meta的阵营,TPU是谷歌的硬件,现在TorchTPU让PyTorch原生跑在TPU上,等于两大巨头在对抗英伟达生态上结盟了。"
+    },
+    {
+      "role": "host",
+      "text": "对手变队友,目标直指英伟达的CUDA护城河,这步棋够狠的。"
+    },
+    {
+      "role": "guest",
+      "text": "对开发者是大利好,训练框架和芯片解耦,以后选硬件不用被单一生态绑架了。"
+    },
+    {
+      "role": "host",
+      "text": "落地侧也有新玩法,美的全屋智能这次锚定了A2A协议,家电互联从接口对接走向Agent对话?"
+    },
+    {
+      "role": "guest",
+      "text": "这是全屋智能破局的关键,以前跨品牌联动全靠接口硬对接,现在让每台家电变成Agent,互相商量着干活,规模化普及的门槛有望跨过去。"
+    },
+    {
+      "role": "host",
+      "text": "美的科技月还展示了不少数智化成果,看来传统制造业是真把AI当基建了。"
+    },
+    {
+      "role": "guest",
+      "text": "是的,家电是天然的多智能体场景,谁先定协议标准,谁就掌握下一代智能家居的话语权。"
+    },
+    {
+      "role": "host",
+      "text": "资本圈还有个变化,米哈游退出了脑机接口公司零唯一思,交大系基金接手,这怎么看?"
+    },
+    {
+      "role": "guest",
+      "text": "这是吕宝粮教授的公司,主打情感脑电模型,米哈游退出、交大菡源数百万独家投资,说明公司从游戏探索转向了学术与临床路线,节奏更务实了。"
+    },
+    {
+      "role": "host",
+      "text": "好,国内部分先到这儿,咱们把镜头转向国际,先聊聊最炸的估值新闻!"
+    },
+    {
+      "role": "guest",
+      "text": "OpenAI完成110亿美元新融资,估值达到1.25万亿美元,直接跻身全球最有价值公司行列,同时Anthropic也在逼近IPO。"
+    },
+    {
+      "role": "host",
+      "text": "1.25万亿是什么概念?不过有分析说这轮融资其实缩水了,钱没那么好融了?"
+    },
+    {
+      "role": "guest",
+      "text": "对,此前传闻的规模更大,实际首批交割110亿,Anthropic的IPO也被压价,一级市场的热情在降温,但头部两家依然通吃。"
+    },
+    {
+      "role": "host",
+      "text": "一边是估值冲天,一边是融资缩水,这个矛盾怎么看?"
+    },
+    {
+      "role": "guest",
+      "text": "我的判断是分化:资本只信有收入闭环的头部,腰尾部融资难,烧钱换叙事的时代过去了。"
+    },
+    {
+      "role": "host",
+      "text": "Anthropic那边还有个更劲爆的报告,说他们在用AI自动化AI研发,模型改进速度翻倍?"
+    },
+    {
+      "role": "guest",
+      "text": "对,报告显示其模型改进速度大约是一年前的两倍,而且没有放缓迹象,也就是说AI开始参与造更强的AI,这是研究员集体警觉的原因。"
+    },
+    {
+      "role": "host",
+      "text": "这算不算Recursive Self-Improvement的第一步?听起来既兴奋又让人后背发凉。"
+    },
+    {
+      "role": "guest",
+      "text": "谨慎乐观吧,目前是AI辅助科研流程,还没到自主迭代,但趋势线已经很清晰,安全对齐必须跟上速度。"
+    },
+    {
+      "role": "host",
+      "text": "Meta这边动作也多, Muse AI推出了spaces功能,可以按需生成定制应用?"
+    },
+    {
+      "role": "guest",
+      "text": "对,你在Muse里说一句想要个购物中心或学校看板,它就现场搭一个类App的空间,这其实是把AI助手往操作系统级别推。"
+    },
+    {
+      "role": "host",
+      "text": "应用不再是一个个下载,而是随用随生成,这对应用商店模式是釜底抽薪啊。"
+    },
+    {
+      "role": "guest",
+      "text": "正是这个逻辑,入口从App迁移到对话,Meta手里有几十亿用户,这步棋的想象空间很大。"
+    },
+    {
+      "role": "host",
+      "text": "人事上也有震动,Meta首席战略官戴夫·韦纳离职,转投AI推理初创公司Fireworks?"
+    },
+    {
+      "role": "guest",
+      "text": "他在Meta干了十四年,当首席财务官超过八年,现在去做推理公司的 CFO,说明推理服务这个赛道被顶级财务老手看好,商业化拐点到了。"
+    },
+    {
+      "role": "host",
+      "text": "人才用脚投票,比研报更有说服力。还有一个开发者小故事,Conductor被Meta收购了?"
+    },
+    {
+      "role": "guest",
+      "text": "有意思的是,原作者只花3天、170美元成本,用DeepSeek就把应用重建了一遍还开源了,这充分说明小团队加强模型,迁移成本已经低到惊人。"
+    },
+    {
+      "role": "host",
+      "text": "省钱、快捷、还开源反击,这波操作我给满分!国际区还有个大新闻,谷歌要裁员了?"
+    },
+    {
+      "role": "guest",
+      "text": "对,谷歌AI一年狂烧2000亿美元,全球启动自愿买断计划,最高补偿12个月工资,巨头的算力账单已经开始挤压人力预算了。"
+    },
+    {
+      "role": "host",
+      "text": "把国内国际放一起看,今天的新闻串起来是一条什么主线?"
+    },
+    {
+      "role": "guest",
+      "text": "两条线:一条是效率革命,稀疏计算、Agent框架、开源模型都在压成本;另一条是权力重构,生态联盟、协议标准、人才流向都在换座次。"
+    },
+    {
+      "role": "host",
+      "text": "中国厂商靠开源和工程化赚到了真金白银,美国巨头则靠资本和算力堆护城河,两种打法哪种更持久?"
+    },
+    {
+      "role": "guest",
+      "text": "短期看资本响,长期看效率赢,89%的开源费用流向中国就是市场给出的第一张选票,不过推理服务和Agent生态的争夺才刚开局。"
+    },
+    {
+      "role": "host",
+      "text": "那接下来一个月,咱们观众最该盯住哪几个变量?"
+    },
+    {
+      "role": "guest",
+      "text": "盯三件事:Anthropic的IPO定价、TorchTPU的社区采用速度,还有国内厂商的Agent框架谁先跑出百万日活。"
+    },
+    {
+      "role": "host",
+      "text": "行业影响这环咱们聊透了,接下来进入快速 news 环节,几条要闻一句话带过!"
+    },
+    {
+      "role": "guest",
+      "text": "第一条,Skymizer和MiTAC将在超算大会展示Kimi K3 2.8万亿参数模型跑在单台风冷服务器上。"
+    },
+    {
+      "role": "host",
+      "text": "第二条,有开发者在12GB显存上本地跑通了DeepSeek v4.1 Flash完整模型,还用不到1美元做出了一款Mac应用。"
+    },
+    {
+      "role": "guest",
+      "text": "第三条,马斯克正评估特斯拉与SpaceX合并,SpaceX市值一夜暴涨9653亿,谷歌董事同期卸任。"
+    },
+    {
+      "role": "host",
+      "text": "第四条,神舟二十四号将迎来首位外籍航天员,巴基斯坦载荷专家随任务进入中国空间站。"
+    },
+    {
+      "role": "guest",
+      "text": "第五条,美国联邦航空局宣布2028年前淘汰空管系统里的软盘,数字化的末班车终于赶上了。"
+    },
+    {
+      "role": "host",
+      "text": "第六条,基于Qwen3.8的27B模型Arete经后训练强化西方价值观,开源阵营开始卷对齐方向了。"
+    },
+    {
+      "role": "host",
+      "text": "第七条,荣耀CEO李健在2026移动网络大会提出AI入口主权应回归用户,共建智能终端信任生态。"
+    }
+  ]
+}
