@@ -1,0 +1,85 @@
+# 今日AI头条 · 2026-11-10
+
+> 每日 8:00 自动汇总国际 + 国内 AI 新闻 (24h 内)
+
+
+**抓取统计**: OpenAI-News=4, TheVerge-AI=10, TechReview-AI=3, MarkTechPost=8, HuggingFace-Blog=2, HackerNews=3, HackerNews-DeepSeek=8, HackerNews-Kimi=8, HackerNews-Qwen=8, HackerNews-Grok=8, HackerNews-xAI=8, 量子位=10, 雷锋网=15, 钛媒体=15, 36氪=15, InfoQ中文=15, 掘金=15, 199IT=15
+
+**去重**: 国际 70→70, 国内 100→96
+
+## 🌍 国际
+
+- **[489.8 tok/s, QWen2.5 7B on RTX3050 for code edit, reproducible decoding](https://github.com/hardenedlinux/SonicBoom)** _HackerNews-Qwen_ — 
+- **[Weight-space programming: editing Qwen3.5 into a top Pac-Man decision model](https://opper.ai/blog/jevlar-weight-space-programming)** _HackerNews-Qwen_ — 
+- **[M4 Pro vs. M5 Pro (24GB): Qwen 3.8 Flash Next at 374 Tok/S Prefill with MoEShift](https://github.com/davide-troiani/moeshift)** _HackerNews-Qwen_ — 
+- **[Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%](https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/)** _MarkTechPost_ — <p>Nous Research released Arete-27B, an Apache 2.0 fine-tune of Qwen3.8-27B. On Nous’s 803-prompt eval, propaganda answers fell from 22% to 0.9% while Hermes Bench stayed flat at 65.60%.</p>
+<p>The po
+- **[Grok bot helped a guy disprove a stalking charge in divorce court](https://twitter.com/0xAlbus/status/2119502015554613344)** _HackerNews-Grok_ — 
+- **[DeepSeek Harness – Creator Mode](https://www.reddit.com/r/DeepSeek/s/sxg7aAM6rS)** _HackerNews-DeepSeek_ — 
+- **[Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU](https://github.com/synchopate/llama-modchip)** _HackerNews-DeepSeek_ — 
+- **[DSpine for Qwen3.8-27B](https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16)** _HackerNews-Qwen_ — 
+- **[DeepSeek Harness: Growing Together with Our Plugin Community](https://twitter.com/DeepSeekHarness/status/2119431663642153128)** _HackerNews-DeepSeek_ — 
+- **[China's AI models, led by Kimi, dominate open-source enterprise spending](https://www.scmp.com/tech/tech-trends/article/3373550/chinas-ai-models-led-kimi-dominate-open-source-enterprise-spending)** _HackerNews-Kimi_ — 
+- **[Tricking DeepSeek into Not Hacking Your Website](https://utkusen.substack.com/p/tricking-deepseek-into-not-hacking)** _HackerNews-DeepSeek_ — 
+- **[Show HN: Dependency free RSS reader (vibecoded with DeepSeek)](https://github.com/bipinKrishnan/rss_feed)** _HackerNews-DeepSeek_ — 
+- **[Can DeepSeek Challenge OpenAI, Anthropic in AI Agents](https://www.scmp.com/tech/big-tech/article/3373757/can-deepseek-challenge-openai-anthropic-ai-agents-harness-adoption-takes)** _HackerNews-DeepSeek_ — 
+- **[A redacted DeepSeek conversation archive: 500K+ words across 742 turns](https://huggingface.co/datasets/PINUS8/deepseek-long-thread-redacted)** _HackerNews-DeepSeek_ — 
+- **[What Is QoDuck? Is QoDuck Qwen 4?](https://kie.ai/blog/what-is-qoduck)** _HackerNews-Qwen_ — 
+- **[Show HN: Nenya, a 0.5B-active base trained on 60B tokens, rivals Qwen3.5-2B](https://huggingface.co/ArsalanZ/Nenya-2.5B-A0.5B-Base)** _HackerNews-Qwen_ — Would love some feedback! :)
+- **[Which Routing Does Each MoE Model Use? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Compared](https://www.marktechpost.com/2026/11/08/moe-model-routing-comparison/)** _MarkTechPost_ — <p>A config-verified comparison of how 10 open MoE models route tokens: total and active parameters, expert counts, top-k, shared experts, gating functions and load-balancing methods.</p>
+<p>The post 
+- **[I Build Qorqbot – OS Grokbot](https://news.ycombinator.com/item?id=50410027)** _HackerNews-Grok_ — And I am looking for a CTO! Please message me if you are ultra technical - I have quant researcher background.
+- **[My Grok Bot Started Vendor Locking Me](https://twitter.com/RoyOsherove/status/2119327808778313824)** _HackerNews-Grok_ — 
+- **[Grokbot rootkit vulnerability, ignored](https://profero.io/blog/the-rootkit-built-into-grok-bot)** _HackerNews-Grok_ — 
+- **[Anthropic launches new Claude Fable and Mythos 5.2 models](https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2)** _TheVerge-AI_ — Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, which it says are designed to take on "daunting" technical challenges. The company claims the new models show impr
+- **[xAI's Jet Engine-Powered Data Center Has Experts Raising the Alarm](https://www.slashgear.com/2309379/xai-jet-engine-data-center-pollution-alarm/)** _HackerNews-xAI_ — 
+- **[Google Unveils TPU 8i Max and TPU 8tx: A Dual-Chip TPU and a Confidential TPU](https://www.marktechpost.com/2026/11/09/google-tpu-8i-max-tpu-8tx/)** _MarkTechPost_ — <p>Google added TPU 8i Max and TPU 8tx to its eighth-generation TPU lineup. TPU 8i Max packs 2 TPU 8i chips per package for long-context agents. TPU 8tx adds hardware confidential inference. Bloomberg
+- **[Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding](https://www.marktechpost.com/2026/11/08/google-elephant-goldfish-model-plugin-spec-review-coding-agents/)** _MarkTechPost_ — <p>Google's Elephant-Goldfish Model plugin makes coding agents draft specs, then runs 5 zero-context review stages before any code.</p>
+<p>The post <a href="https://www.marktechpost.com/2026/11/08/goo
+- **[Apple’s $50 Intelligence Usage Packs extend access to some AI features](https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro)** _TheVerge-AI_ — After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to "Buy More Usage" for a one-time p
+
+## 🇨🇳 国内
+
+- **[千问办公2.0发布，首个支持多人与Agent协作的Team Agent来了](https://www.qbitai.com/2026/11/508694.html)** _量子位_ — 11月9日，千问办公发布2.0版本
+- **[百度文心首次披露RSI进展：ERNIE Evolve已用于最新模型研发，文心5.5 Flash 或将近期发布](https://www.leiphone.com/category/industrynews/FO9Dx6HKj5Bvno5y.html)** _雷锋网_ — <p>11月9日，百度文心首次披露 RSI 最新进展，公布参与文心 5.5 Flash 研发的自动研究系统 ERNIE Evolve，其能够围绕目标与约束，自主提出研究方向、开展实验、验证结果并积累经验，既可以持续优化已有路径，也能根据实际效果探索新方向。在 NanoChat AutoResearch 和 NanoGPT Speedrun 两项任务的三个评测指标上，均取得了目前公开验证的 SOTA
+- **[字节跳动发布Seedream 5.5，上线豆包、豆包工作、即梦](https://www.leiphone.com/category/industrynews/CoJod8Z9X1pDj1sv.html)** _雷锋网_ — <p>11 月 9 日，字节跳动正式发布豆包图像创作模型 Seedream 5.5。相较上一代 Seedream 5.0 Pro，新模型的生成速度大幅提升，同时增强了多轮编辑稳定性，原生支持透明素材生成，并针对图像真实感和小字渲染方面做了重点优化，更好地满足了专业创作场景对质量、稳定性与效率的要求。</p><p>目前，豆包、豆包工作、即梦已同步接入Seedream 5.5，API 即将上线火山方舟
+- **[腾讯混元跻身最强开源模型！一手实测Hy4：搭配WorkBuddy，多模态Agent交付力拉满](https://www.qbitai.com/2026/11/507843.html)** _量子位_ — 
+- **[千问“死磕”Personal Agent：为什么下限比上限更重要？](https://www.infoq.cn/article/1g0PWSVhNkb0sgud4heO?utm_source=rss&utm_medium=article)** _InfoQ中文_ — <div align="right"><a href="https://www.infoq.cn/article/1g0PWSVhNkb0sgud4heO?utm_source=rss&amp;utm_medium=article">点击查看原文></a></div>
+- **[千问办公2.0，补上了办公Agent最关键的「短板」](https://www.leiphone.com/category/industrynews/ljjfjnedPmwgYh6Q.html)** _雷锋网_ — <section><section><section><section><section style="text-align: center;"><img class="rich_pages wxw-img js_insertlocalimg" src="https://static.leiphone.com/uploads/new/images/20261109/6af1d55ca9603.pn
+- **[“印度成OpenAI最大市场”，Altman首次回应“离职潮”：一群聪明人互不信任](https://www.infoq.cn/article/7AXcQvPCSwfPhtL8iQpo?utm_source=rss&utm_medium=article)** _InfoQ中文_ — <div align="right"><a href="https://www.infoq.cn/article/7AXcQvPCSwfPhtL8iQpo?utm_source=rss&amp;utm_medium=article">点击查看原文></a></div>
+- **[OpenAI、Anthropic、Google 各有接口，开放标准离统一还有多远？](https://www.infoq.cn/article/5e8Qs11VHRHRyYsB2kFO?utm_source=rss&utm_medium=article)** _InfoQ中文_ — <div align="right"><a href="https://www.infoq.cn/article/5e8Qs11VHRHRyYsB2kFO?utm_source=rss&amp;utm_medium=article">点击查看原文></a></div>
+- **[不想当管理者，就用不好 Coding Agent？Anthropic 工程师长文谈 Agent 管理实战](https://www.infoq.cn/article/YPQyY6bqhzhtO8MN6XUb?utm_source=rss&utm_medium=article)** _InfoQ中文_ — <div align="right"><a href="https://www.infoq.cn/article/YPQyY6bqhzhtO8MN6XUb?utm_source=rss&amp;utm_medium=article">点击查看原文></a></div>
+- **[Meta FAIR 开源 e-means：k-means 十分之一的轮数跑出更低损失，已并入 Faiss](https://juejin.cn/post/7706011633764810752)** _掘金_ — 如果你的检索、推荐或者向量量化流水线里有聚类这一步，它用的更新规则大概率还是 Lloyd 在上世纪五十年代写下的那一个：把每个点分配给最近的中心，再把中心重算为分配点的均值，全量数据过一遍，重复二三十
+- **[一年融5轮，首颗星计划明年一季度发射，「谱星航天」连续完成两轮近3亿元融资｜融资首发](https://36kr.com/p/4061912127247490?f=rss)** _36氪_ — <p>文&nbsp;|&nbsp;阿至</p>
+  <p>36 氪获悉，<strong>光学载荷与微纳卫星系统解决方案提供商「谱星航天」已于近期连续完成Pre-A+、A轮两轮融资，融资规模近3亿元</strong>，投后估值达数十亿元 ，资金将主要用 于团队建设、研发投入，以及首个轨道面 128 颗星的投产与快速组网。</p>
+  <p>Pre-A+轮由老股东金浦智能、联融志道追加投资，新鼎资本跟
+- **[36氪首发丨数十台套产品在轨稳定运行，国科大系卫星推进器公司完成近亿元融资](https://36kr.com/p/4062043589432195?f=rss)** _36氪_ — <p>作者&nbsp;|&nbsp;乔钰杰</p>
+  <p>编辑&nbsp;|&nbsp;袁斯来</p>
+  <blockquote>
+   <p>本文约3800字，建议阅读9分钟</p>
+  </blockquote>
+  <p>硬氪获悉，空间推进企业国科星擎航天科技有限公司（以下简称“国科星擎”）已完成多轮融资，截至目前累计融资近亿元，投资方包括上海国投旗下上海科创集团策源基金、杭州科创集团
+- **[前歌尔、华为团队做全彩3D拼装DIY创作平台，拿下元禾、梅花等天使系列融资｜硬氪首发](https://36kr.com/p/4053486898418569?f=rss)** _36氪_ — <p>作者｜黄楠</p>
+  <p>编辑｜袁斯来</p>
+  <p>硬氪获悉，全彩3D拼装DIY软硬件创作平台「睿岭智能」近日连续完成两轮数千万元融资，天使轮由元禾原点领投、天使+轮梅花创投领投，高秉强教授及旗下Brizan Venture基金、麟阁创投、某全球头部IP企业创始人跟投。资金将重点用于首款产品的量产落地与工艺迭代，加快内容生态体系搭建，拓展线下渠道布局，以实现商业化规模起量。</p>
+- **[雅虎财经：2026年美国中期选举后纳指跌超5%，芯片股市值蒸发超1万亿美元](http://www.199it.com/archives/1862289.html)** _199IT_ — 雅虎财经报道，美国中期选举后美股仅一日狂欢，周四芯片股遭抛售。纳指六分钟回吐大选后全部涨幅，早盘跌超5%；标普500跌超3%。费半跌约10%，较6月高点跌超三分之一；标普500市值蒸发超2万亿美元，英伟达缩水超4000亿美元。
+- **[网件：2026财年Q3净营收1.673亿美元，同比下降9.3%](http://www.199it.com/archives/1862281.html)** _199IT_ — 网件（Netgear）公布2026财年第三季度业绩：净营收1.673亿美元，同比下滑9.3%；非GAAP毛利率41.3%。企业级营收同比增长7.7%，占总营收过半；受内存等成本影响，托管交换机11月涨价约10%，产能预计2027年Q1恢复。
+- **[黄仁勋婚外情背后：黄乐的神秘履历、48亿美元芯片生意与美国政策博弈](https://www.tmtpost.com/8198370.html)** _钛媒体_ — 接下来，英伟达要查清这段关系有没有越过公司的制度边界；华盛顿则会借这场风波，重新计算黄仁勋、英伟达与美国AI政策之间的距离。
+- **[光模块龙头股价腰斩之际，天安新材拟2.5亿“追光”｜并购一线](https://www.tmtpost.com/8198545.html)** _钛媒体_ — 天安新材拟跨界。
+- **[最前线｜仰望鼎曜阿联酋全球首发，预估售价200万元](https://36kr.com/p/4062540807099270?f=rss)** _36氪_ — <p>11月7日，比亚迪旗下仰望品牌在阿联酋阿布扎比全球首发超豪华行政旗舰轿车——仰望鼎曜。这也是仰望首次以完整品牌形象在海外举行全球发布会，意味着比亚迪的全球化战略，正从规模扩张进一步迈向高端品牌引领。</p>
+  <p class="image-wrapper"><img src="https://img.36krcdn.com/hsossms/20261109/v2_77148fee9876
+- **[Piper Sandler：预计《GTA6》首发销量超4500万份](http://www.199it.com/archives/1862270.html)** _199IT_ — Piper Sandler调查约9000名青少年：70%本世代主机用户计划购买《GTA6》，55%愿首发入手；虽21%青少年同时持两台新主机或影响销量，机构仍预计首发销量超4500万份，游戏于2026年11月19日发售。
+- **[FAV Lab 未来视听实验室正式开业：华强北“硬科技潮品首发地”](https://www.leiphone.com/category/industrynews/XMSv9fRcpKP6fRXD.html)** _雷锋网_ — <p>11月1日，坐落于“中国电子第一街”华强北核心地段、毗邻深南大道的<strong>FAV Lab 未来视听实验室</strong>正式宣告开业。FAV Lab由世界人工智能眼镜联盟（WAEA）与世界超高清视频产业联盟（UWA）共同发起，镜界探索负责投资运营，定位为全球AI视听场景展示体验中心、硬科技潮品首发地、国际买手选品一站式枢纽，将打造华强北极具辨识度的“街头超级科技橱窗”和面向海内外客
+- **[*ST亿晶重整易主引爆五连板：中润光能拟入主，游资击鼓传花](https://www.tmtpost.com/8198759.html)** _钛媒体_ — 不过是又一场借题发挥的游资狂欢。
+- **[agent 撑爆 Git 之后，两家改的不是同一层](https://juejin.cn/post/7706073526897573939)** _掘金_ — OpenAI 把中位推送延迟压到原来的五分之一，代价是仓库不再有一个统一时间点；Anthropic 干脆换掉了 Git，换来的是取消合并队列的全局锁。同一个症状，两家给出了相反的诊断。
+- **[香港与内地企业“拼船出海”，全球人才看见更多可能](https://36kr.com/p/4054854397187205?f=rss)** _36氪_ — <p>国家“十五五”规划明确提出“统筹教育强国、科技强国、人才强国建设”，围绕全方位培养、引进、用好人才作出系统安排。配合国家“十五五”规划，《香港第一个五年规划》也提出打造香港为国际高端人才集聚高地，并制定了“针对性引进有助国家和香港发展所需的人才”策略。</p>
+  <p>在此背景下，“香港·全球人才机遇展——伦敦站”，这个由香港人才服务办公室（香港人才办）主办、粤港澳大湾区发展办公室和香港驻
+- **[36万「中女」，一年买走52亿江南布衣](https://36kr.com/p/4061858250773385?f=rss)** _36氪_ — <p><strong>作者 |&nbsp;谢芸子</strong></p>
+  <p><strong>编辑 | 张帆</strong></p>
+  <p>消费行业集体过冬的2026年，江南布衣反而迎来了巅峰。</p>
+  <p>10月20日，江南布衣报收23.2港元，当天达到上市以来的最高价23.66港元，年初至今累计涨幅超过29%。</p>
+  <p>支撑股价的，是公司发布的最新财报。</p>
+
+- **[122天、团队不止翻倍，耐克首批本土源创系列幕后｜专访](https://36kr.com/p/4059160873046920?f=rss)** _36氪_ — <p>很长时间，耐克在中国最为人称道的“本土化”，几乎都在广告里。</p>
+  <p>2008年8月18日，刘翔在鸟巢因伤退赛，次日耐克在报纸上登出新广告：“爱运动，即使它伤了你的心。”2020年春节，W+K上海为耐克拍了一支短片：姑姑和侄女为一个红包你推我让，从客厅一路较劲成一场体能对决。人们记住了广告里的中国式人情，却很少有人记得那几年耐克在中国卖的是哪件衣服。</p>
+  <p>上个月，这家

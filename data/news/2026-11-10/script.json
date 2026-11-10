@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-11-10 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "量子位",
+      "title": "千问办公2.0发布，首个支持多人与Agent协作的Team Agent来了",
+      "url": "",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "百度文心首次披露RSI进展：ERNIE Evolve已用于最新模型研发，文心5.5 Flash或将近期发布",
+      "url": "",
+      "weight": "deep"
+    },
+    {
+      "source": "雷锋网",
+      "title": "字节跳动发布Seedream 5.5，上线豆包、豆包工作、即梦",
+      "url": "",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "腾讯混元跻身最强开源模型！一手实测Hy4：搭配WorkBuddy，多模态Agent交付力拉满",
+      "url": "",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "千问“死磕”Personal Agent：为什么下限比上限更重要？",
+      "url": "",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "中国AI模型以Kimi为首，主导开源模型企业级支出",
+      "url": "",
+      "weight": "medium"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Anthropic发布全新Claude Fable与Mythos 5.2模型，主打攻克高难技术挑战",
+      "url": "",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "谷歌发布第八代TPU：TPU 8i Max双芯封装与支持机密推理的TPU 8tx",
+      "url": "",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "xAI的喷气发动机驱动数据中心引发专家警告",
+      "url": "",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Nous Research发布Arete-27B：基于Qwen3.8-27B微调，宣传性回答比例从22%降至0.9%",
+      "url": "",
+      "weight": "medium"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "谷歌发布Elephant-Goldfish模型插件：先写规格再写代码的规范优先编程",
+      "url": "",
+      "weight": "medium"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "苹果推出50美元智能用量包，扩展部分AI功能的使用额度",
+      "url": "",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "各位好，11月10号周一，国内大厂扎堆发新品，国际那边Anthropic和谷歌也放大招，咱们六分钟聊透！"
+    },
+    {
+      "role": "guest",
+      "text": "对，今天国内是绝对主角，千问、百度、字节、腾讯四家齐上阵，咱们一条条拆。"
+    },
+    {
+      "role": "host",
+      "text": "先说千问办公2.0，号称首个支持多人和Agent协作的Team Agent，这到底是个啥玩法？"
+    },
+    {
+      "role": "guest",
+      "text": "简单讲就是不再是单打独斗的助手了，人可以拉好几个Agent进同一个任务，Agent之间还能互相分工，像个小团队。"
+    },
+    {
+      "role": "host",
+      "text": "那跟传统的协同办公有啥本质区别？你别跟我说只是换了层皮啊。"
+    },
+    {
+      "role": "guest",
+      "text": "区别在于Agent能主动干活，比如你扔个调研需求，它自己拆步骤、查资料、写文档，人只做验收，这是协作模式的升级。"
+    },
+    {
+      "role": "host",
+      "text": "好，接下来百度这条很硬核——文心首次披露RSI进展，ERNIE Evolve已经参与最新模型研发了？"
+    },
+    {
+      "role": "guest",
+      "text": "对，这就是AI自己研究AI，Evolve能自主提方向、跑实验、验证结果，在NanoGPT Speedrun等两项任务上拿了公开SOTA。"
+    },
+    {
+      "role": "host",
+      "text": "那文心5.5 Flash是不是就快了？听说近期要发布，这个节奏是不是提前埋好了？"
+    },
+    {
+      "role": "guest",
+      "text": "基本可以这么理解，Evolve已经用在5.5 Flash的研发里了，等于说下一代模型的背后有自动化研究系统的功劳，这是个标志性信号。"
+    },
+    {
+      "role": "host",
+      "text": "字节这边也没闲着，Seedream 5.5发布，豆包、即梦全接入了，这代图像模型升级在哪？"
+    },
+    {
+      "role": "guest",
+      "text": "三个重点：生成速度大幅提升、多轮编辑更稳定、原生支持透明素材，另外小字渲染这块专门优化了，专业设计师最头疼的字。"
+    },
+    {
+      "role": "host",
+      "text": "透明素材这个我懂，以前抠图抠到眼瞎，现在直接生成就是带透明通道的，效率差太多了吧。"
+    },
+    {
+      "role": "guest",
+      "text": "没错，这招就是冲着专业创作场景去的，API马上上线火山方舟，字节的打法一直是产品加生态一起推。"
+    },
+    {
+      "role": "host",
+      "text": "腾讯混元也很猛，实测说Hy4已经跻身最强开源模型，还配了个WorkBuddy，靠谱吗？"
+    },
+    {
+      "role": "guest",
+      "text": "从实测看Hy4在多模态Agent交付上确实拉满，能看图、能执行任务、能交付结果，开源阵营里算是第一梯队了。"
+    },
+    {
+      "role": "host",
+      "text": "那开源这块的格局现在到底什么样？千问、混元、DeepSeek三家打得怎么样？"
+    },
+    {
+      "role": "guest",
+      "text": "有意思的是开源企业级支出这块，中国模型以Kimi为首已经占主导了，国外开源想收企业钱反而越来越难，这趋势值得注意。"
+    },
+    {
+      "role": "host",
+      "text": "InfoQ还有篇深文讲千问死磕Personal Agent，说下限比上限更重要，这话怎么理解？"
+    },
+    {
+      "role": "guest",
+      "text": "意思是Agent拼的不是峰值惊艳，而是每次都不翻车的稳定性，个人助理用一千次里翻车一次就毁信任，所以下限决定生死。"
+    },
+    {
+      "role": "host",
+      "text": "有道理，个人场景就要的是省心。国内聊完了，转到国际，Anthropic今天发了两个新模型？"
+    },
+    {
+      "role": "guest",
+      "text": "对，Claude Fable 5.2和Mythos 5.2一起亮相，定位是攻克所谓令人生畏的技术难题，官方声称在困难任务上有显著提升。"
+    },
+    {
+      "role": "host",
+      "text": "两个模型一起发，是不是一个偏推理一个偏工程？这命名风格我一时还真没适应。"
+    },
+    {
+      "role": "guest",
+      "text": "Fable和Mythos这对组合明显是想覆盖不同技术场景，直接对标OpenAI和谷歌的旗舰线，模型竞赛又升一级。"
+    },
+    {
+      "role": "host",
+      "text": "谷歌这边发的是硬件，第八代TPU，8i Max和8tx两款，有什么看点？"
+    },
+    {
+      "role": "guest",
+      "text": "8i Max一个封装塞两颗TPU 8i，专门为长上下文Agent优化；8tx更狠，支持硬件级机密推理，数据在推理时也是加密的。"
+    },
+    {
+      "role": "host",
+      "text": "机密推理这个概念能展开说说吗？企业为啥会为它买单？"
+    },
+    {
+      "role": "guest",
+      "text": "金融和医疗企业不敢把敏感数据交给云上AI，8tx在芯片层面保证数据不可见，等于把企业最后一道顾虑也拆掉了。"
+    },
+    {
+      "role": "host",
+      "text": "xAI那边画风就不太一样了，喷气发动机驱动的数据中心把专家都吓着了，这什么操作？"
+    },
+    {
+      "role": "guest",
+      "text": "马斯克用喷气发动机给数据中心做临时供电，算力扩张快到等不及电网，专家警告这种供电方式的排放和安全都有隐患。"
+    },
+    {
+      "role": "host",
+      "text": "为了抢算力连电都不好好用了，这算不算是行业内卷的一个极端缩影？"
+    },
+    {
+      "role": "guest",
+      "text": "就是缩影，Anthropic谷歌靠芯片和架构创新，xAI靠暴力堆硬件，路线完全相反，但都在赌时间窗口。"
+    },
+    {
+      "role": "host",
+      "text": "开源社区也有大动作，Nous Research的Arete-27B把宣传性回答从22%干到0.9%，怎么做到的？"
+    },
+    {
+      "role": "guest",
+      "text": "它基于Qwen3.8-27B微调，在803条提示词的评测里把倾向性内容基本清零，同时Hermes Bench保持在65.6%没掉点，对齐和性能兼顾了。"
+    },
+    {
+      "role": "host",
+      "text": "这还是基于千问微调的，说明中国开源模型在全球开发者生态里已经成了基础设施了呀。"
+    },
+    {
+      "role": "guest",
+      "text": "正是，同一波人里还有在RTX3050上跑到每秒489个token跑Qwen2.5 7B的，中国开源模型的工具链生态非常活跃。"
+    },
+    {
+      "role": "host",
+      "text": "谷歌还有个Elephant-Goldfish插件，先让Agent写规格书、过五轮零上下文评审再写代码，靠谱吗？"
+    },
+    {
+      "role": "guest",
+      "text": "思路是把需求冻结在写代码之前，五轮独立评审防跑偏，这是在治vibe coding乱写代码的老毛病，方向很对。"
+    },
+    {
+      "role": "host",
+      "text": "苹果则开始卖50美元的AI用量包了，订阅制之外又开一条收费口子，消费者会买账吗？"
+    },
+    {
+      "role": "guest",
+      "text": "重度用户会买，轻用户不会，苹果在试探AI到底该怎么定价，一次性用量包比订阅门槛低，这一步棋挺精明。"
+    },
+    {
+      "role": "host",
+      "text": "咱们把国内外放一起看，今天最大的共同主题是什么？"
+    },
+    {
+      "role": "guest",
+      "text": "Agent，国内千问办公2.0、混元WorkBuddy做协作Agent，谷歌TPU 8i Max直接为长上下文Agent造芯片，全产业链都在围着Agent转。"
+    },
+    {
+      "role": "host",
+      "text": "百度那个RSI又是一个更激进的信号，AI自己研究AI，这是不是意味着研发范式要变了？"
+    },
+    {
+      "role": "guest",
+      "text": "可能真要变，Evolve拿了SOTA说明自动化研究已经能出实际成果，以后拼的就是谁的自我改进循环跑得更快更稳。"
+    },
+    {
+      "role": "host",
+      "text": "那硬件层面呢？谷歌TPU、xAI喷气供电、苹果用量包，底层和商业模式都在变啊。"
+    },
+    {
+      "role": "guest",
+      "text": "对，算力端在拼机密推理和长上下文专用芯片，商业端在试按量付费，说明烧钱换规模的时代在往精细化运营拐弯。"
+    },
+    {
+      "role": "host",
+      "text": "开源和闭源的竞争格局呢？今天看起来开源这边气势更足？"
+    },
+    {
+      "role": "guest",
+      "text": "确实，中国开源模型主导企业支出，国外开发者拿它当底座微调，开源已经从省钱方案变成了生产力首选，闭源只能靠前沿能力压阵。"
+    },
+    {
+      "role": "host",
+      "text": "好，接下来快问快答，八条要闻一句话带过，第一条，OpenAI、Anthropic、谷歌接口标准各有各的，统一还远吗？"
+    },
+    {
+      "role": "guest",
+      "text": "远，三家都想当标准制定者，短期看各自为战没得商量。"
+    },
+    {
+      "role": "host",
+      "text": "第二条，Anthropic工程师发长文说不想当管理者就用不好Coding Agent？"
+    },
+    {
+      "role": "guest",
+      "text": "对，用Agent得像带团队一样拆任务、做验收，管理能力成了新刚需。"
+    },
+    {
+      "role": "host",
+      "text": "第三条，Meta FAIR开源e-means聚类，把k-means轮数砍到十分之一还更低损失？"
+    },
+    {
+      "role": "guest",
+      "text": "已并入Faiss，检索推荐流水线直接受益，底层算法优化还在持续。"
+    },
+    {
+      "role": "host",
+      "text": "第四条，Altman回应OpenAI离职潮，说是一群聪明人互不信任？"
+    },
+    {
+      "role": "guest",
+      "text": "这话听着坦率但也扎心，人才流失和文化问题得正视。"
+    },
+    {
+      "role": "host",
+      "text": "第五条，中期选举后纳指跌超5%，芯片股一天蒸发超1万亿美元？"
+    },
+    {
+      "role": "guest",
+      "text": "英伟达一家缩水超4000亿美元，AI板块的估值压力真实存在。"
+    },
+    {
+      "role": "host",
+      "text": "第六条，黄仁勋婚外情风波牵出48亿美元芯片生意，公司要查有没有越界？"
+    },
+    {
+      "role": "host",
+      "text": "华盛顿也会借机重新审视英伟达和美国AI政策的关系，后续有戏看。"
+    }
+  ]
+}
