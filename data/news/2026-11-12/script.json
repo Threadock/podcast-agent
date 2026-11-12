@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-11-12 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "雷锋网",
+      "title": "百度发布文心 5.5 Flash Preview：总参数量2800亿、单Token激活140亿、支持百万Token上下文",
+      "url": "https://www.leiphone.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "Kimi开始出租数字员工：Agent计价锚点正从软件预算滑向人力预算",
+      "url": "https://www.tmtpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "成立四个月融资过亿美金：TensorWorld物原科技押注物理真实路线",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "黄仁勋已回英伟达上班并向员工致歉；Anthropic IPO获数倍超额认购；SpaceX尝试去英伟达化",
+      "url": "https://36kr.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "199IT",
+      "title": "黄仁勋净资产1554亿美元单日缩水68亿美元，英伟达市值单日蒸发约2600亿美元",
+      "url": "https://www.199it.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "阿里拟分拆平头哥独立上市，今年已增资399倍",
+      "url": "https://36kr.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "谷歌最强模型 Gemini 4 Carbon 全面开放，价格仅为 Claude Fable 5.2 的四分之一",
+      "url": "https://www.infoq.cn/article/YiANe38yfSYitvZOtab0?utm_source=rss&utm_medium=article",
+      "weight": "deep"
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Anthropic一夜逼疯微软：Claude杀入办公软件腹地，能参会、做表格、生成PPT",
+      "url": "https://www.infoq.cn/article/1PdshF8SLevbGZbbP0?utm_source=rss&utm_medium=article",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Anthropic寻求1.4万亿美元估值，IPO定档11月19日或20日",
+      "url": "https://news.ycombinator.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "谷歌 AlphaGenome 2 发布：深入细胞层面解析基因变异与疾病根源",
+      "url": "https://www.theverge.com/ai",
+      "weight": "medium"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Meta发布 Muse Ember：百万上下文窗口的高并发Agent小模型",
+      "url": "https://www.marktechpost.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "HackerNews",
+      "title": "GPT-6 Astra 无反向传播直接改写 Qwen3.5-0.8B 的131072个权重",
+      "url": "https://news.ycombinator.com/",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "早上好,今天是2026年11月12日,文心新模型、Kimi数字员工、黄仁勋风波、Anthropic上市,干货超多,咱们马上开讲!"
+    },
+    {
+      "role": "guest",
+      "text": "对,今天国内的主角是百度和月之暗面,咱们先从文心5.5说起。"
+    },
+    {
+      "role": "host",
+      "text": "百度11月11日发布文心5.5 Flash Preview,总参数量2800亿,每个Token激活140亿,这架构思路你怎么看?"
+    },
+    {
+      "role": "guest",
+      "text": "典型的稀疏混合专家路线,激活比例只有5%,推理成本低,但知识容量大,很适配国内大规模商用场景。"
+    },
+    {
+      "role": "host",
+      "text": "听说上下文直接拉到100万Token,编程、3D建模、内容创作全升级,具体成绩怎么样啊?"
+    },
+    {
+      "role": "guest",
+      "text": "在Terminal-Bench、AutomationBench这些基准上表现突出,尤其编程能力明显对标国际第一梯队,价格战又要打起来了。"
+    },
+    {
+      "role": "host",
+      "text": "不过国产模型卷能力只是上半场,商业模式才是下半场对吧?"
+    },
+    {
+      "role": "guest",
+      "text": "没错,月之暗面就给出了新答案,他们开始出租数字员工了,这个方向变化非常关键。"
+    },
+    {
+      "role": "host",
+      "text": "Kimi这次发布托管智能体,好多人都当功能升级看,你为什么说这是用工形态的重构呢?"
+    },
+    {
+      "role": "guest",
+      "text": "因为计价锚点变了,以前按Token卖软件预算,现在按月租Agent,直接对标一个真人岗位的人力预算,天花板高太多了。"
+    },
+    {
+      "role": "host",
+      "text": "那企业到底该租还是买啊?有没有一个简单的判断框架?"
+    },
+    {
+      "role": "guest",
+      "text": "钛媒体提了三层框架:任务动态性高的通用场景租是主航道,稳定的垂直场景买断加定制,中间态就混合部署,买不会消失。"
+    },
+    {
+      "role": "host",
+      "text": "这模式要是跑通,国内Agent创业格局怕是要重新洗牌了,咱们盯着看。"
+    },
+    {
+      "role": "guest",
+      "text": "对,而且资本也在押注新方向,TensorWorld物原科技成立才四个月,融资就过了亿美金。"
+    },
+    {
+      "role": "host",
+      "text": "他们走的是物理真实路线,一个月内拿到过亿美元,这速度在今年的机器人赛道算什么水平?"
+    },
+    {
+      "role": "guest",
+      "text": "顶配水平,说明世界模型加物理仿真是资本认定的下一个大风口,国产生成式物理引擎开始被全球定价了。"
+    },
+    {
+      "role": "host",
+      "text": "说完创业圈,再看大公司,英伟达这两天可是风波不断啊,黄仁勋那边什么情况?"
+    },
+    {
+      "role": "guest",
+      "text": "他因婚外情舆论风波单日净资产缩水68亿美元,跌幅4.19%,富豪榜掉到第十,股价收178.67美元,市值一天蒸发约2600亿。"
+    },
+    {
+      "role": "host",
+      "text": "更狠的是股东集体诉讼,市值两天蒸发2.85万亿,他本人已经回公司上班了吧?"
+    },
+    {
+      "role": "guest",
+      "text": "对,黄仁勋已回到英伟达上班,并就风波向员工致歉,但诉讼和调查短期内都消停不了,情绪面冲击还在发酵。"
+    },
+    {
+      "role": "host",
+      "text": "有意思的是SpaceX居然趁机搞去英伟达化,只买芯片自己研发机柜,这算釜底抽薪了吧?"
+    },
+    {
+      "role": "guest",
+      "text": "他们研发自己的机柜方案,绕开英伟达的计算板,直接威胁的其实是整机柜的高毛利环节,这个信号比单笔采购重要得多。"
+    },
+    {
+      "role": "host",
+      "text": "芯片格局暗流涌动,国内这边阿里也有大动作,平头哥要分拆上市了?"
+    },
+    {
+      "role": "guest",
+      "text": "对,阿里拟分拆平头哥独立上市,今年已经增资399倍,自研芯片独立融资,说明国产算力的资本市场窗口彻底打开了。"
+    },
+    {
+      "role": "host",
+      "text": "好,国内先聊到这,咱们切到国际,今天最炸的莫过于Anthropic的IPO了吧?"
+    },
+    {
+      "role": "guest",
+      "text": "Anthropic正式路演,估值冲1.4万亿美元,上市定在11月19日或20日,认购已数倍超额,或最高募资640亿美元。"
+    },
+    {
+      "role": "host",
+      "text": "高盛那个预测我看了,说2030年营收超6000亿美元,较2025年增长130多倍,这数字靠谱吗?"
+    },
+    {
+      "role": "guest",
+      "text": "他们测算2025年营收46亿,2030年营业利润652亿、自由现金流336亿,前提是企业级收入持续翻倍,风险和想象一样大。"
+    },
+    {
+      "role": "host",
+      "text": "而且上市前Anthropic还连续放大招,直接杀进办公软件腹地了,对吧?"
+    },
+    {
+      "role": "guest",
+      "text": "Claude现在能自己参会、做表格、生成PPT,等于正面攻击微软Office的腹地,各家前沿实验室都被迫跟进办公套件。"
+    },
+    {
+      "role": "host",
+      "text": "他们还推出Claude Fable 5.2和Mythos 5.2,同一个模型配两档安全策略,这玩法挺新鲜啊。"
+    },
+    {
+      "role": "guest",
+      "text": "Fable 5.2在FrontierCode 2.0拿到49.1%,定价每百万Token输入8美元、输出40美元,还带100万上下文,一个模型双保险是个聪明的设计。"
+    },
+    {
+      "role": "host",
+      "text": "谷歌这边也没闲着,Gemini 4 Carbon全面开放了,杀伤力在哪?"
+    },
+    {
+      "role": "guest",
+      "text": "价格只有Fable 5.2的四分之一,还一夜重写了OpenCode桌面应用,性能加价格战双管齐下,开发者迁移成本极低。"
+    },
+    {
+      "role": "host",
+      "text": "谷歌还发布AlphaGenome 2,能按细胞类型预测基因变异影响,这对医药研究意味着什么呀?"
+    },
+    {
+      "role": "guest",
+      "text": "它把DNA变化如何影响不同细胞这个难题拆细了,已经开放非商用接口,疾病机理研究和新药靶点筛选都会提速。"
+    },
+    {
+      "role": "host",
+      "text": "Meta也掺和进来了,Muse Ember这个百万上下文的Agent小模型什么定位?"
+    },
+    {
+      "role": "guest",
+      "text": "它是Meta最小的模型,专做工具调用和文档解析,打平Claude Haiku 5.5但成本只有三分之一,专抢高并发Agent的量。"
+    },
+    {
+      "role": "host",
+      "text": "还有条离谱新闻,GPT-6 Astra不用反向传播直接改了Qwen3.5-0.8B的13万个权重,这是什么操作?"
+    },
+    {
+      "role": "guest",
+      "text": "等于绕过训练直接做外科手术式编辑,如果可复现,微调的成本结构都会被改写,但泛化风险还需要验证。"
+    },
+    {
+      "role": "host",
+      "text": "聊了这么多单点新闻,你给咱们串一下,国内和国际今天到底在比什么?"
+    },
+    {
+      "role": "guest",
+      "text": "三个战场:模型层卷价格和上下文,Kimi和Meta都押Agent商业化,资本层面Anthropic和平头哥先后打开估值天花板。"
+    },
+    {
+      "role": "host",
+      "text": "我注意到一个反差,国际在冲万亿美元估值,国内创业公司还在拿亿元级融资,差距在哪?"
+    },
+    {
+      "role": "guest",
+      "text": "差距在收入结构,Anthropic有企业级年化收入背书,国内大部分还在烧钱换场景,但TensorWorld和光通信的热度说明窗口没关。"
+    },
+    {
+      "role": "host",
+      "text": "说到光通信,今天多只龙头涨停,资本都在赌算力基建,这对国产大模型是好事吧?"
+    },
+    {
+      "role": "guest",
+      "text": "短期是利好,算力供给上去训练成本就降,但杠杆资金占比高,监管和砍单传闻一有风吹草动,波动也会被放大。"
+    },
+    {
+      "role": "host",
+      "text": "再往深看一层,Anthropic自己都警告可能接近递归自我改进,这轮IPO募的钱会流向哪?"
+    },
+    {
+      "role": "guest",
+      "text": "大头必然是算力,他们2030年6000亿的营收预测,本质是拿钱堆训练集群,算力军备竞赛只会更凶。"
+    },
+    {
+      "role": "host",
+      "text": "那对英伟达来说,SpaceX去英伟达化加上股市震荡,垄断地位真会被撼动吗?"
+    },
+    {
+      "role": "guest",
+      "text": "一年内难,但自研机柜和谷歌自建TPU都在拆墙,黄仁勋的1554亿美元身家背后,护城河第一次出现结构性裂缝。"
+    },
+    {
+      "role": "host",
+      "text": "对咱们普通开发者来说,今天这几条新闻里最该行动的是哪条?"
+    },
+    {
+      "role": "guest",
+      "text": "把Gemini 4 Carbon和文心5.5 Flash都接进自己的工作流,价格只有四分之一、百万上下文,迁移试验成本几乎为零。"
+    },
+    {
+      "role": "host",
+      "text": "最后快速过一遍其他要闻,OpenAI和新加坡航空合作,Kris聊天机器人满意度翻倍。"
+    },
+    {
+      "role": "guest",
+      "text": "谷歌云推出Gemini for Healthcare,统一临床数据,医疗这条线谷歌明显在加码。"
+    },
+    {
+      "role": "host",
+      "text": "Anthropic还推出了自己的AI办公套件,直接对标微软和谷歌的全家桶。"
+    },
+    {
+      "role": "guest",
+      "text": "谷歌实验性产品Tabletop上线,一句话就能生成家庭协作小应用,轻量Agent开始大众化。"
+    },
+    {
+      "role": "host",
+      "text": "xAI这边有点尴尬,Grok应用泄露商业机密,Grok Build也漏了大量机密信息。"
+    },
+    {
+      "role": "guest",
+      "text": "Grok API的文字水印功能改成了默认关闭,安全 researchers 对这个改动普遍不满。"
+    },
+    {
+      "role": "host",
+      "text": "开源圈有个替代品叫Pots,MIT协议,已经被6家创业公司用了一个月。"
+    },
+    {
+      "role": "host",
+      "text": "国内这边,罗永浩在双11直播上手TRAE编程工具,把AI Coding的门槛和价格又打穿了一层。"
+    }
+  ]
+}

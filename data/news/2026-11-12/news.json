@@ -1,0 +1,441 @@
+{
+  "intl": [
+    {
+      "source": "HackerNews-Qwen",
+      "title": "GPT-6 Astra edited 131,072 weights in Qwen3.5-0.8B, with no backpropagation",
+      "url": "https://twitter.com/ZhihuFrontier/status/2117541464158921136",
+      "snippet": "",
+      "published": "2026-11-10T09:00:22Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen4-Max is now in Preview",
+      "url": "https://twitter.com/Alibaba_Qwen/status/2120335993643684315",
+      "snippet": "",
+      "published": "2026-11-11T02:33:25Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Maxwell made DeepSeek-v4.1-Flash on B200s faster than comparable GB300s",
+      "url": "https://www.doubleai.com/research/gb300-speed-on-b200-hardware",
+      "snippet": "",
+      "published": "2026-11-11T16:54:02Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Ask HN: Anyone else feels Grok 4.7 got nerfed?",
+      "url": "https://news.ycombinator.com/item?id=50441703",
+      "snippet": "I use Cursor for daily coding (personal and professionally) and used to be very happy with Grok 4.7 being my default for everyday work.<p>But this past week it is fumbling horribly and much more often",
+      "published": "2026-11-10T15:25:04Z",
+      "weight": 9
+    },
+    {
+      "source": "Google-AI-Blog",
+      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "snippet": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Adobe_snippet_hero.max-600x600.format-webp.webp\" />Google and Adobe are integrating creative and productivity tools. Edit PDFs",
+      "published": "Tue, 10 Nov 2026 14:00:00 +0000",
+      "weight": 9
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Anthropic has its own AI-powered office suite now",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
+      "snippet": "For years, Anthropic has been known for its focus on enterprise and coding tools that attract high-flying corporate clients, inspiring competing frontier labs - like OpenAI, SpaceXSI, and Meta - to co",
+      "published": "2026-11-10T12:30:00-05:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Anthropic seeks $1.4T valuation; IPO aiming for November 19 or 20",
+      "url": "https://finance.yahoo.com/markets/article/anthropic-seeks-14-trillion-valuation-in-ipo-130300928.html",
+      "snippet": "",
+      "published": "2026-11-10T15:42:03Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Grok Bot secrets extraction vulnerability",
+      "url": "https://profero.io/blog/the-rootkit-built-into-grok-bot",
+      "snippet": "",
+      "published": "2026-11-10T17:20:42Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews",
+      "title": "Show HN: Zeus – Claude Code for AI voice agents",
+      "url": "https://thunderphone.com/blog/introducing-zeus",
+      "snippet": "Hi everyone, Alex here - I’m one of the founders. We’re very excited to announce the launch of Zeus, which is a platform that makes AI phone calls actually work, and without requiring extensive hand-t",
+      "published": "2026-11-10T20:20:03Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "GhostShares 2: Grok apps exposed xAI's business secrets and private data",
+      "url": "https://blog.claroc.io/ghostshares-grok-build-apps/",
+      "snippet": "",
+      "published": "2026-11-10T21:32:58Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Claude usage limit reset is a gambler's rush",
+      "url": "https://news.ycombinator.com/item?id=50448880",
+      "snippet": "I have a humble Pro Claude sub for my personal projects, and I use it on Android.<p>So I used up my weekly limit on Monday, and I was going about my day waiting for Thursday to continue.<p>Then I chec",
+      "published": "2026-11-11T01:49:10Z",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+      "snippet": "Researchers at Google DeepMind have unveiled a new AI model designed to unravel how changes in our DNA affect different cells, giving scientists a more detailed view of a notoriously difficult problem",
+      "published": "2026-11-11T10:00:00-05:00",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
+      "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+      "snippet": "Google has cooked up a new experimental AI tool called Tabletop that generates customized collaborative hubs to help you coordinate with family, and friends. The Tabletop platform shares some visual s",
+      "published": "2026-11-11T11:00:00-05:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Show HN: Pots – Open-source Grok Bot alternative, used by 6 startups for a month",
+      "url": "https://github.com/Crokily/pi-durable-bot",
+      "snippet": "Hi HN, I&#x27;m Crokily. Pots is an AI coworker that lives in the chat your team already uses: Slack, Discord, Telegram, or any channel with a Chat SDK adapter. It is MIT-licensed and runs on a machin",
+      "published": "2026-11-11T11:11:34Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Grok API text watermarking is now 'off' by default",
+      "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking",
+      "snippet": "",
+      "published": "2026-11-11T12:11:01Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Grok Build coding agent leaks oodles of confidential info",
+      "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+      "snippet": "",
+      "published": "2026-11-11T17:53:23Z",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Meta Releases Muse Ember, a 1M-Context Model for High-Volume Agent Work",
+      "url": "https://www.marktechpost.com/2026/11/09/meta-muse-ember-small-agent-model/",
+      "snippet": "<p>Meta Muse Ember is Meta’s smallest model, built for tool calls, coding subtasks and document parsing. It ties Claude Haiku 5.5 on the Artificial Analysis Intelligence Index at roughly a third of th",
+      "published": "Tue, 10 Nov 2026 06:36:10 +0000",
+      "weight": 6
+    },
+    {
+      "source": "OpenAI-News",
+      "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+      "url": "https://openai.com/index/singapore-airlines-travel-work",
+      "snippet": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+      "published": "Tue, 10 Nov 2026 08:00:00 GMT",
+      "weight": 6
+    },
+    {
+      "source": "Google-AI-Blog",
+      "title": "Google Cloud launches Gemini for healthcare.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "snippet": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_share_NWQpgus.max-600x600.format-webp.webp\" />Google Cloud launches Gemini for healthcare to unify clinical data and au",
+      "published": "Tue, 10 Nov 2026 13:00:00 +0000",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards",
+      "url": "https://www.marktechpost.com/2026/11/10/anthropic-claude-fable-5-2-mythos-5-2-release/",
+      "snippet": "<p>Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, one model with two safeguard levels. Fable 5.2 scores 49.1% on FrontierCode 2.0, costs $8/$40 per million tokens, and ships with a 1M-toke",
+      "published": "Tue, 10 Nov 2026 14:59:09 +0000",
+      "weight": 6
+    },
+    {
+      "source": "Google-AI-Blog",
+      "title": "Gemini Intelligence: New features, on more devices",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "snippet": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'",
+      "published": "Tue, 10 Nov 2026 19:00:00 +0000",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Meta FAIR Releases e-means: An Algorithm Beating k-means in 10x Fewer Epochs",
+      "url": "https://www.marktechpost.com/2026/11/10/meta-fair-e-means-k-means-faiss/",
+      "snippet": "<p>Meta FAIR’s e-means is a mini-batch k-means replacement shipped in FAISS 1.16.0. It reaches Lloyd’s 25-epoch loss in 1.4 to 2.6 epochs, with 10-45x GPU speedups and no extra hyperparameters.</p>\n<p",
+      "published": "Tue, 10 Nov 2026 23:20:19 +0000",
+      "weight": 6
+    },
+    {
+      "source": "LastWeekInAI",
+      "title": "Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave",
+      "url": "https://lastweekin.ai/p/last-week-month-in-ai-347-nvidias",
+      "snippet": "Catching up on five weeks: Huang under investigation, Anthropic and OpenAI priced at $1.4T and $1.25T as spending stalls, Anthropic warns it may be nearing recursive self-improvement, Gemini 4 Carbon",
+      "published": "Wed, 11 Nov 2026 14:21:42 GMT",
+      "weight": 6
+    },
+    {
+      "source": "Google-AI-Blog",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "snippet": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "published": "Wed, 11 Nov 2026 18:00:00 +0000",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Google DeepMind Releases AlphaGenome 2 for Cell-Type-Specific Variant Effects",
+      "url": "https://www.marktechpost.com/2026/11/11/google-deepmind-alphagenome-2-cell-type-variant-effects/",
+      "snippet": "<p>Google DeepMind released AlphaGenome 2, a conditional DNA sequence model that predicts regulatory activity and variant effects per cell type. It is available via the AlphaGenome API for non-commerc",
+      "published": "Wed, 11 Nov 2026 20:51:56 +0000",
+      "weight": 6
+    }
+  ],
+  "cn": [
+    {
+      "source": "雷锋网",
+      "title": "文心 5.5 Flash Preview发布！编程、3D 建模、知识工作、内容创作等全面升级",
+      "url": "https://www.leiphone.com/category/industrynews/sqz0hf4DoTPX5mqI.html",
+      "snippet": "<p>11月11日，百度最新基础模型文心 5.5 Flash Preview正式发布。文心 5.5 Flash Preview总参数量达 2800 亿，每个 Token 激活 140 亿参数，支持最长 100 万 Token 的上下文，在编程、3D 建模、知识工作、内容创作等方面表现突出。目前在Terminal-Bench、AutomationBench等多项基准测试中，文心5.5 Flash P",
+      "published": "Wed, 11 Nov 2026 13:22:00 +0800",
+      "weight": 10
+    },
+    {
+      "source": "钛媒体",
+      "title": "Kimi开始\"出租\"数字员工：Agent计价锚点，正从软件预算滑向人力预算",
+      "url": "https://www.tmtpost.com/8201187.html",
+      "snippet": "月之暗面发布托管智能体，市场多解读为\"功能升级\"。本文判断：这不是产品迭代，是用工形态重构——AI厂商正从\"卖token\"转向\"租数字员工\"。基于\"动态性\"原理，本文提出三层形态租买决策框架，揭示计价锚点正从IT预算滑向人力预算。通用场景租是主航道，但买不会消失；垂直场景进入混合态。",
+      "published": "Wed, 11 Nov 2026 16:42:32 +0800",
+      "weight": 7
+    },
+    {
+      "source": "36氪",
+      "title": "8点1氪丨英伟达及黄仁勋遭股东集体诉讼，市值两天蒸发2.85万亿；Anthropic正式启动IPO路演；阿里拟分拆平头哥独立上市",
+      "url": "https://36kr.com/p/4064610635781257?f=rss",
+      "snippet": "<h2>今日热点导览</h2>\n  <p>外交部：中美双方就两国元首年内互动安排保持着沟通</p>\n  <p>全球芯片LOF于11月10日下午开市起停牌至收市</p>\n  <p>董明珠回应格力电器业绩下滑&nbsp;</p>\n  <p>宝马选定LG新能源、三星SDI供应下一代动力电池</p>\n  <p>百事公司北美业务陷入困境，裁员1000人</p>\n  <h2>TOP3大新闻</h2>\n  <p",
+      "published": "2026-11-11 08:15:52  +0800",
+      "weight": 6
+    },
+    {
+      "source": "36氪",
+      "title": "8点1氪丨黄仁勋已回英伟达上班，就最近的风波向员工致歉；贾国龙质押西贝全部股份；Anthropic IPO获数倍超额认购",
+      "url": "https://36kr.com/p/4066019497464960?f=rss",
+      "snippet": "<h2>今日热点导览</h2>\n  <p>阿里平头哥今年已增资399倍</p>\n  <p>刘强东也要入局短剧？京东内测独立短剧产品</p>\n  <p>国内金饰报价集体下调</p>\n  <p>苹果宣布官方社区将于11月20日永久关闭</p>\n  <p>SpaceX据悉尝试机架层“去英伟达化”：只买芯片，研发Kessel机柜绕过L6计算板</p>\n  <h2>TOP3大新闻</h2>\n  <p><st",
+      "published": "2026-11-12 08:12:23  +0800",
+      "weight": 6
+    },
+    {
+      "source": "199IT",
+      "title": "高盛：Anthropic 2030年营收超6000亿美元，较2025年增长超130倍",
+      "url": "http://www.199it.com/archives/1863044.html",
+      "snippet": "高盛预测，Anthropic 2025年营收46亿美元，2030年将超6000亿美元，较2025年增长超130倍；2030年营业利润652亿美元，自由现金流336亿美元。公司IPO最高募资640亿美元，估值或达1.4万亿美元。",
+      "published": "Wed, 11 Nov 2026 12:32:44 +0000",
+      "weight": 6
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Anthropic 一夜逼疯微软？Claude 杀入办公软件腹地：能自己参会、做表格、生成PPT",
+      "url": "https://www.infoq.cn/article/1PdshF8SLevbGZbbZHoP?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/1PdshF8SLevbGZbbZHoP?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Wed, 11 Nov 2026 20:52:45 GMT",
+      "weight": 6
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "谷歌最强模型 Gemini 4 Carbon 全面开放：一夜重写 OpenCode 桌面应用、价格仅为 Fable 5.2 的 1/4",
+      "url": "https://www.infoq.cn/article/YiANe38yfSYitvZOtab0?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/YiANe38yfSYitvZOtab0?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Wed, 11 Nov 2026 21:05:37 GMT",
+      "weight": 6
+    },
+    {
+      "source": "36氪",
+      "title": "36氪首发丨交大团队获中网投与清华系资本领投亿元级融资，以“原子+光子芯片”切入量子计算",
+      "url": "https://36kr.com/p/4064699766068101?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20261111/v2_268839922fcd4a4580de9f6d314dcea5@6221844_oswg179900oswg2276oswg1280_img_jpg?x-oss-process=image/quality,q_100/format,jpg/",
+      "published": "2026-11-11 10:00:00  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "36氪首发丨国产半导体模块厂商获近亿元 B 轮融资，营收大幅增长，海外占比近半",
+      "url": "https://36kr.com/p/4064722121823367?f=rss",
+      "snippet": "<p>作者&nbsp;|&nbsp;乔钰杰</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <blockquote>\n   <p>本文约3800字，建议阅读9分钟</p>\n  </blockquote>\n  <p>硬氪获悉，国产碳化硅（SiC）功率模块厂商利普思半导体（以下简称“利普思”）近日完成近亿元B轮融资，新投资方为上海新微资本。本轮资金将主要用于加大AIDC相关产品研发",
+      "published": "2026-11-11 10:10:08  +0800",
+      "weight": 5
+    },
+    {
+      "source": "量子位",
+      "title": "成立四个月，融资过亿美金：TensorWorld物原科技要跑通“物理真实”路线",
+      "url": "https://www.qbitai.com/2026/11/508991.html",
+      "snippet": "TensorWorld物原科技在一个月内已拿到过亿美元融资",
+      "published": "Tue, 10 Nov 2026 07:50:26 +0000",
+      "weight": 5
+    },
+    {
+      "source": "雷锋网",
+      "title": "三个月估值涨十倍的芯片热潮里，5000万也没让他创业",
+      "url": "https://www.leiphone.com/category/chipdesign/6mjibhXfWFoLrabg.html",
+      "snippet": "<p style=\"margin-top: 24pt; margin-bottom: 24pt;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20261110//6af2e9a210ce7.jpg?imageMogr2/quality/90\" style=\"text-align: center;\" /><",
+      "published": "Wed, 11 Nov 2026 10:51:00 +0800",
+      "weight": 5
+    },
+    {
+      "source": "199IT",
+      "title": "福布斯：黄仁勋净资产1554亿美元，单日减少68亿美元、跌幅4.19%",
+      "url": "http://www.199it.com/archives/1863050.html",
+      "snippet": "据媒体报道及福布斯实时富豪榜数据，黄仁勋受婚外情舆论影响，截至发稿净资产1554亿美元，单日减少68亿美元，跌幅4.19%，富豪榜排名降至第十；英伟达股价收报178.67美元，较前日跌4.27%，市值单日蒸发约2600亿美元。",
+      "published": "Wed, 11 Nov 2026 12:32:26 +0000",
+      "weight": 5
+    },
+    {
+      "source": "钛媒体",
+      "title": "389家游戏工作室并购调查：34%关停，十年内关停比例达38.9%",
+      "url": "https://www.tmtpost.com/8200751.html",
+      "snippet": "作室被收购之后，真的能够获得更好的发展吗？",
+      "published": "Wed, 11 Nov 2026 16:42:37 +0800",
+      "weight": 5
+    },
+    {
+      "source": "199IT",
+      "title": "东南亚蓝色经济融资：从发展援助走向多元资本",
+      "url": "http://www.199it.com/archives/1843768.html",
+      "snippet": "2000年至2024年，区域GDP从不足6500亿美元升至近4万亿美元。更值得关注的是，东南亚及大洋洲占全球海洋经济增加值的比重已从1995年的7.4%升至2019年的10.7%，但其就业占比达到18.4%，显示产业规模增长与劳动生产率之间仍存在明显落差。",
+      "published": "Wed, 11 Nov 2026 21:30:40 +0000",
+      "weight": 5
+    },
+    {
+      "source": "量子位",
+      "title": "Agent自演进驶入“双轨时代”！openJiuwen首发TTSE经验学习框架",
+      "url": "https://www.qbitai.com/2026/11/508998.html",
+      "snippet": "让每一次任务，都成为下一次进步的起点",
+      "published": "Tue, 10 Nov 2026 07:56:29 +0000",
+      "weight": 4
+    },
+    {
+      "source": "量子位",
+      "title": "双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替",
+      "url": "https://www.qbitai.com/2026/11/509146.html",
+      "snippet": "价格、门槛全打穿",
+      "published": "Wed, 11 Nov 2026 06:41:26 +0000",
+      "weight": 4
+    },
+    {
+      "source": "雷锋网",
+      "title": "独家丨清华系团队创业做 AI 眼镜，拿下传统眼镜厂商种子轮",
+      "url": "https://www.leiphone.com/category/weiwu/Lfff1nBYqpWoqgMF.html",
+      "snippet": "<section style=\"margin-bottom: 16px;\"><span><img alt=\"图片\" class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/6a6c4981e5bcb.jpg?imageMogr2/quality/90\" /></span></section><section style=\"margin",
+      "published": "Wed, 11 Nov 2026 10:02:00 +0800",
+      "weight": 4
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "面向产业决策的升级：蚂蚁数科LingDT-Decision 首发信息抽取能力",
+      "url": "https://www.infoq.cn/article/7wd1IyRiffi1vPz6goHS?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/7wd1IyRiffi1vPz6goHS?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Wed, 11 Nov 2026 17:23:19 GMT",
+      "weight": 4
+    },
+    {
+      "source": "36氪",
+      "title": "产业对接五大赛道集结，点名！速来——WISE2026「产业对接」火热报名中",
+      "url": "https://36kr.com/p/4063821771068546?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20261110/v2_8651652b485047d9a45d8f7d85568abf@6301044_oswg3991585oswg9048oswg3738_img_jpg?x-oss-process=image/quality,q_80/format,jpg/",
+      "published": "2026-11-10 19:06:38  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "关注A股市场动态？加入36氪官方交流群，获取每日资讯与企业舆情",
+      "url": "https://36kr.com/p/4064733248083080?f=rss",
+      "snippet": "<p><strong>看市场，不只看股价，也要关注企业正在发生什么。</strong></p>\n  <p>每天A股开盘前，市场上总有大量信息值得关注。</p>\n  <p>上市公司发布了什么新公告？哪些企业有了新的业务进展？近期行业出现了哪些变化？热门概念背后，又有哪些值得关注的企业动态？</p>\n  <p>信息越来越多，如何从中快速找到有价值的内容，成为不少市场关注者日常面临的问题。</p>\n  ",
+      "published": "2026-11-11 10:20:59  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "别只说你的产品有多好，先说它解决了什么问题",
+      "url": "https://36kr.com/p/4064787786273673?f=rss",
+      "snippet": "<p>在介绍一个创业项目时，很多团队习惯从产品和技术讲起。</p>\n  <p>我们用了什么技术、开发了哪些功能、拥有多少项专利、产品性能达到什么水平……这些内容都很重要，但对于第一次接触项目的人来说，可能还有一个更直接的问题：</p>\n  <p><strong>这个项目，到底解决了什么问题？</strong></p>\n  <p>一款产品功能再丰富，如果没有讲清楚它服务谁、解决什么需求，外界就很难真",
+      "published": "2026-11-11 11:16:27  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "对话英矽智能任峰：年轻的AI4S创业者，我羡慕你们的野心和创造力",
+      "url": "https://36kr.com/p/4059772128646019?f=rss",
+      "snippet": "<p>文｜胡香赟</p>\n  <p>编辑｜海若镜</p>\n  <p>2026年，51岁的任峰身边，开始出现越来越多30岁出头的年轻同行。</p>\n  <p>任峰是英矽智能（03696.HK）的联席首席执行官。今年上半年，英矽智能正式宣布盈利，依托生成式AI平台Pharma.AI开发的35个管线资产进入PCC（临床前候选化合物），基于AI技术平台和管线的BD合作披露金额达到110亿美元，位居国内AI",
+      "published": "2026-11-11 13:46:59  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "日薪180，在「流水线」上给机器人当老师",
+      "url": "https://36kr.com/p/4065157431317385?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20261111/v2_3d7250a38fd64321b273adec8527ff49@6314151_oswg1725557oswg900oswg1030_img_png?x-oss-process=image/quality,q_90/format,jpg/i",
+      "published": "2026-11-11 17:48:35  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "36氪 WISE 了不起的OPC｜Workshop 招募啦！",
+      "url": "https://36kr.com/p/4065273480188801?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20261111/v2_9f9c1ce1c3d44610b4607a786b386555@6455879_oswg672321oswg1440oswg600_img_jpg?x-oss-process=image/quality,q_90/format,jpg/in",
+      "published": "2026-11-11 19:31:07  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "光通信行业“砍单”传闻不断，上市公司回应称“近期市场并没有不利变化”",
+      "url": "https://36kr.com/newsflashes/4066001308111752?f=rss",
+      "snippet": "作为AI赛道主线之一，11月11日，包括“易中天”、剑桥科技、源杰科技等在内的多只光通信龙头股涨停或大涨超过10%，引起市场广泛关注。近期市场上有关光通信行业“砍单”的传闻不断，有上市公司高管对记者表示“近期市场并没有不利变化”。与此同时，多家上市公司正积极“跨界”入局，切入AI光互联、光芯片、光器件等热门赛道。另外，从投资层面来看，光模块股票“杠杆”水平较高峰期已明显下降，一些主流机构长线资金已",
+      "published": "2026-11-12 08:12:12  +0800",
+      "weight": 1
+    }
+  ],
+  "source_stats": {
+    "OpenAI-News": 8,
+    "Google-AI-Blog": 6,
+    "TheVerge-AI": 10,
+    "TechReview-AI": 0,
+    "LastWeekInAI": 1,
+    "MarkTechPost": 9,
+    "SebastianRaschka": 0,
+    "TheGradient": 0,
+    "HuggingFace-Blog": 2,
+    "HackerNews": 6,
+    "HackerNews-DeepSeek": 2,
+    "HackerNews-Kimi": 8,
+    "HackerNews-Qwen": 8,
+    "HackerNews-Grok": 8,
+    "HackerNews-xAI": 8,
+    "ArXiv-cs.AI": 15,
+    "量子位": 10,
+    "雷锋网": 15,
+    "钛媒体": 15,
+    "36氪": 15,
+    "InfoQ中文": 15,
+    "掘金": 15,
+    "199IT": 15
+  },
+  "dedup": {
+    "intl": {
+      "before": 91,
+      "after": 86
+    },
+    "cn": {
+      "before": 100,
+      "after": 94
+    }
+  }
+}
