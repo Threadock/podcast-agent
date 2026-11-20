@@ -1,0 +1,320 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-11-20 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "InfoQ中文",
+      "title": "腾讯混元 Hy4 flash 上线首日登顶 OpenRouter，2 毛钱就能跑完一个任务",
+      "url": "https://www.infoq.cn/article/o4edzZ1lM7CUQgcupk8H?utm_source=rss&utm_medium=article",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "DeepSeek第二轮融资落地，31家出资主体现身",
+      "url": "https://www.tmtpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "Kimi API服务出现可用性下降，官方调查中",
+      "url": "https://36kr.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "36氪",
+      "title": "三个月四轮，估值近百亿，浙大阿里系具身大脑公司原力无限再获新融资",
+      "url": "https://36kr.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "199IT",
+      "title": "联想2026/27财年Q2营收302.38亿美元，AI相关业务营收超700亿元同比增长79%",
+      "url": "https://www.199it.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "钛媒体",
+      "title": "OpenAI裁撤机器人团队，印证了梁文锋的预言，通用模型杀死垂直模型？",
+      "url": "https://www.tmtpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Anthropic 登陆纳斯达克，开盘价111.50美元暴涨17%，创史上最大IPO",
+      "url": "https://www.theverge.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "掘金",
+      "title": "谷歌发布 Gemini 4 Neon：Agent编程榜58.6分登顶，缓存仅0.15美元",
+      "url": "https://juejin.cn/",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "GPT-6.2难产！OpenAI怕了，活成了2022年谷歌的样子",
+      "url": "https://www.qbitai.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Meta 的 Muse Charm 智能配件定价或为300美元，可随身与Muse AI对话",
+      "url": "https://www.theverge.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Hugging Face 发布 LoRA 适配器，Qwen3.8 编程成功率从39%提升到65%",
+      "url": "https://www.marktechpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "谷歌 Mac 版 Gemini 支持电脑操作，可跨本地文件与桌面应用执行多步任务",
+      "url": "https://www.theverge.com/",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "早上好,今天是2026年11月20日,Anthropic上市暴涨、腾讯混元登顶,干货超多,咱们马上开讲!"
+    },
+    {
+      "role": "guest",
+      "text": "对,今天国内外大事件扎堆,咱们先从国内几家大模型厂商的重磅消息说起。"
+    },
+    {
+      "role": "host",
+      "text": "先聊腾讯,听说混元Hy4 flash上线第一天就登顶了OpenRouter,这速度也太猛了吧?"
+    },
+    {
+      "role": "guest",
+      "text": "没错,关键是价格,一个任务跑完只要两毛钱,这成本控制能力直接把同行卷哭了。"
+    },
+    {
+      "role": "host",
+      "text": "两毛钱跑完一个任务,那企业用户批量调用岂不是几乎不要钱?这对开发者生态意味着什么?"
+    },
+    {
+      "role": "guest",
+      "text": "意味着推理成本战进入白热化了,谁先把单价打下来,谁就能抢占开发者迁移的第一站。"
+    },
+    {
+      "role": "host",
+      "text": "好,再看DeepSeek,它的第二轮融资终于落地了,听说有31家出资主体现身,阵仗不小啊。"
+    },
+    {
+      "role": "guest",
+      "text": "对,31家主体说明机构抢份额抢得很凶,DeepSeek的稀缺性让它几乎是融资市场的硬通货。"
+    },
+    {
+      "role": "host",
+      "text": "不过融这么多钱,大家肯定也关心它下一代会怎么花,你覺得重心会放在算力还是人才上?"
+    },
+    {
+      "role": "guest",
+      "text": "我猜两头都会投,但梁文锋一贯的路线是极致工程效率,钱更多会砸向自建算力和研究自由度。"
+    },
+    {
+      "role": "host",
+      "text": "哎,这边有个不太好的消息,Kimi的API服务出现可用性下降,官方说正在调查,你了解情况吗?"
+    },
+    {
+      "role": "guest",
+      "text": "具体原因还没公布,但国内模型需求暴涨、推理资源吃紧,这类抖动最近其实不少见。"
+    },
+    {
+      "role": "host",
+      "text": "这对月之暗面是个提醒啊,模型再强,稳定性跟不上,付费企业客户可是会跑的。"
+    },
+    {
+      "role": "guest",
+      "text": "对,现在比拼的不只是榜单分数,而是生产环境的可用性,这才是商业化的生死线。"
+    },
+    {
+      "role": "host",
+      "text": "再来看具身智能,原力无限三个月拿了四轮融资,这次杭州资本独家投了数千万,估值近百亿。"
+    },
+    {
+      "role": "guest",
+      "text": "它背后是浙大和阿里系班底,主攻具身大脑AtomBrain,资本明显在往真实落地场景押注。"
+    },
+    {
+      "role": "host",
+      "text": "三个月四轮,这节奏放在整个一级市场都算罕见,说明具身赛道的热钱又开始动了?"
+    },
+    {
+      "role": "guest",
+      "text": "是的,硬件迭代加上大脑模型成熟,2026年具身智能从演示走向产线,资本自然抢跑。"
+    },
+    {
+      "role": "host",
+      "text": "财报时间到,联想第二财季营收302.38亿美元,同比大增47.8%,AI业务表现如何?"
+    },
+    {
+      "role": "guest",
+      "text": "非常亮眼,AI相关营收超700亿元人民币,同比增长79%,已经占到总营收的36%了。"
+    },
+    {
+      "role": "host",
+      "text": "净利润更是涨了166%,看来联想不只是卖电脑,是真把自己改造成AI基础设施公司了。"
+    },
+    {
+      "role": "guest",
+      "text": "对,服务器、存储加上AI终端三条线一起放量,传统硬件厂商的转型样本已经成型。"
+    },
+    {
+      "role": "host",
+      "text": "最后一个国内话题,OpenAI裁撤了机器人团队,有评论说这印证了梁文锋的预言,怎么理解?"
+    },
+    {
+      "role": "guest",
+      "text": "梁文锋早就说过通用模型会吃掉垂直模型,OpenAI砍掉机器人团队,把钱集中回通用智能主线。"
+    },
+    {
+      "role": "host",
+      "text": "那国内公司还在大力投具身智能,两边路线这么反着来,到底谁更聪明?"
+    },
+    {
+      "role": "guest",
+      "text": "没有绝对答案,OpenAI是算力不够先聚焦,国内是制造场景丰富值得赌,五年后见分晓。"
+    },
+    {
+      "role": "host",
+      "text": "好,咱们把视线转向国际,今天最大的新闻必须是Anthropic上市,首日到底有多疯?"
+    },
+    {
+      "role": "guest",
+      "text": "发行价83美元,开盘直接冲到111.50美元,涨了17%,募资813亿美元,成了史上最大IPO。"
+    },
+    {
+      "role": "host",
+      "text": "它还超过了SpaceX的估值纪录,股票代码就叫ANT,不过这些钱进来之后Anthropic会变吗?"
+    },
+    {
+      "role": "guest",
+      "text": "压力会变大,它一直靠安全人设立足,上市后要向股东交代营收,好 guy 形象第一次面临真金白银考验。"
+    },
+    {
+      "role": "host",
+      "text": "有意思的是,还有视频指出一些所谓独立的AI安全组织在给这次IPO站台,这就很微妙了。"
+    },
+    {
+      "role": "guest",
+      "text": "对,利益关联被摆上台面,Anthropic接下来的一举一动都会被资本市场拿着放大镜看。"
+    },
+    {
+      "role": "host",
+      "text": "国际第二炸点是谷歌,新模型Gemini 4 Neon发布,听说Agent编程榜直接登顶了?"
+    },
+    {
+      "role": "guest",
+      "text": "对,58.6分拿下Agent编程榜第一,而且百万上下文的缓存价格只有0.15美元,便宜到离谱。"
+    },
+    {
+      "role": "host",
+      "text": "网友还调侃谷歌在遍历元素周期表,从Hydrogen到Neon,这是要出一套元素周期表全家桶啊。"
+    },
+    {
+      "role": "guest",
+      "text": "哈哈对,命名策略背后是快速迭代的节奏,谷歌现在发模型的频率确实已经卷到月更级别了。"
+    },
+    {
+      "role": "host",
+      "text": "那OpenAI这边呢,GPT-6.2难产的消息也传出来了,量子位说它怕了,你怎么看?"
+    },
+    {
+      "role": "guest",
+      "text": "量子位的意思是它活成了2022年的谷歌,被对手牵着走,反复推迟发布,先发优势正在流失。"
+    },
+    {
+      "role": "host",
+      "text": "从领跑者变成追赶者,这个心理落差对OpenAI的士气和人才留存影响应该不小吧?"
+    },
+    {
+      "role": "guest",
+      "text": "肯定有,而且Altman还罕见回应说不怕Anthropic先上市,市场上不缺投资者,越解释越像心虚。"
+    },
+    {
+      "role": "host",
+      "text": "再聊Meta,传闻中的Muse Charm小配件可能定价300美元,就能随身跟Muse AI助手聊天。"
+    },
+    {
+      "role": "guest",
+      "text": "300美元是个卡位价,比高端手机便宜,比普通配件贵,Meta想给AI助手做一个随身硬件入口。"
+    },
+    {
+      "role": "host",
+      "text": "这跟国内火热的Personal Agent赛道正好呼应,咱们的Akasi、Today AI也在做类似的事。"
+    },
+    {
+      "role": "guest",
+      "text": "对,个人智能体是大公司和创业者同时入场的选择,硬件入口之争2027年会更激烈。"
+    },
+    {
+      "role": "host",
+      "text": "开源圈也有大事,Hugging Face发了个LoRA适配器,把Qwen3.8编程成功率从39%拉到65%!"
+    },
+    {
+      "role": "guest",
+      "text": "对,一个用强化学习训练的Apache-2.0适配器,SWE-bench Pro高难度集的pass@1从39.2%到64.7%,几乎翻倍。"
+    },
+    {
+      "role": "host",
+      "text": "也就是说不用换基座模型,加个小适配器就有这么大的提升,这对开源社区太友好了。"
+    },
+    {
+      "role": "guest",
+      "text": "对,这代表了一种新范式,基座加轻量适配的组合拳,可能比每次都训全新大模型更划算。"
+    },
+    {
+      "role": "host",
+      "text": "谷歌还有个动作,Mac版Gemini支持电脑操作了,可以跨本地文件和桌面应用干多步任务。"
+    },
+    {
+      "role": "guest",
+      "text": "对,电脑使用能力正式进入消费者端,谷歌还把AI对话搬到了搜索首页,侧边栏直接续聊。"
+    },
+    {
+      "role": "host",
+      "text": "现在把国内国际放一起看,你觉得今天最大的共性趋势是什么?"
+    },
+    {
+      "role": "guest",
+      "text": "两个词,降本和落地,国内卷推理价格,国外卷Agent能力,大家都在把模型变成生产力工具。"
+    },
+    {
+      "role": "host",
+      "text": "而且你看,Agent已经成了所有人的共识战场,谷歌、腾讯、开源社区全都押注同一个方向。"
+    },
+    {
+      "role": "guest",
+      "text": "没错,2026年是Agent商业化元年,2027年比的就是谁的Agent真的能替人干完整活儿。"
+    },
+    {
+      "role": "host",
+      "text": "资本面也很呼应,Anthropic的813亿美元IPO和DeepSeek的31家机构,热钱全在往头部集中。"
+    },
+    {
+      "role": "guest",
+      "text": "对,冰火两重天,头部公司融资上市两不误,腰尾部模型公司会越来越难拿到钱。"
+    },
+    {
+      "role": "host",
+      "text": "那对普通开发者,你今天最推荐关注哪一条消息?"
+    },
+    {
+      "role": "guest",
+      "text": "我推荐那个LoRA适配器,成本几乎为零就能把编程能力提升近一倍,实用价值最高。"
+    },
+    {
+      "role": "host",
+      "text": "好,快速过一下今天的其他要闻,先说DeepSeek,它对免费聊天服务开始限制用量了。"
+    },
+    {
+      "role": "host",
+      "text": "安全方面也有事,Prime Intellect的DeepSeek v4.1 Flash端点被攻击者调包了53小时才被发现。"
+    }
+  ]
+}
