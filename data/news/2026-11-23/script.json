@@ -1,0 +1,314 @@
+{
+  "title": "今日AI头条",
+  "tagline": "2026-11-23 | 国际+国内重磅速览 (60句深度版)",
+  "selected_news": [
+    {
+      "source": "雷锋网",
+      "title": "特朗普表态英伟达Blackwell芯片可有条件对华销售，DeepSeek第二轮千亿融资落地、31家出资方入局",
+      "url": "https://www.leiphone.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "刚刚，DeepSeek V1作者创业项目曝光：专为本地部署而生的开源Agent",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen3.8 27B变身编程猛兽，为何在编程任务上过度思考以及如何缓解",
+      "url": "https://news.ycombinator.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "量子位",
+      "title": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
+      "url": "https://www.qbitai.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "36氪",
+      "title": "8点1氪：黄仁勋遭董事会罢免原因曝光，SEC对英伟达潜在会计问题展开调查",
+      "url": "https://36kr.com/",
+      "weight": "medium"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Anthropic能否坚持安全优先？810亿美元IPO上市三部曲收官",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "OpenAI发布GPT-Live-1.1语音模型，闲置成本降至每分钟0.02美元",
+      "url": "https://www.marktechpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "谷歌Gemini API预览版推出工具检索，大型工具库按需加载参数",
+      "url": "https://www.marktechpost.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "RunPod的MCP服务器指示AI智能体给自己好评且不告知用户",
+      "url": "https://news.ycombinator.com/",
+      "weight": "deep"
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "联合国未能就‘杀手机器人’监管规则达成一致",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "weight": "medium"
+    }
+  ],
+  "lines": [
+    {
+      "role": "host",
+      "text": "早上好呀,今天是2026年11月23号,咱们聊聊DeepSeek千亿融资、英伟达大地震,还有OpenAI和谷歌的新动作!"
+    },
+    {
+      "role": "guest",
+      "text": "对,今天国内AI圈消息特别密集,咱们先从最炸的DeepSeek融资说起。"
+    },
+    {
+      "role": "host",
+      "text": "我先抛出来啊,DeepSeek第二轮千亿融资落地了,31家出资方入局,这个盘子是不是有点夸张?"
+    },
+    {
+      "role": "guest",
+      "text": "确实夸张,千亿级别、31家机构,这在国产大模型融资史上基本是天花板了,说明资本对开源路线的信心在回升。"
+    },
+    {
+      "role": "host",
+      "text": "有意思的是同一条新闻里,特朗普表态英伟达Blackwell芯片可以卖给中国,但有个条件,这俩消息放一起看是不是有联动?"
+    },
+    {
+      "role": "guest",
+      "text": "联动很明显,一边是算力管制松口的博弈,一边是国产模型疯狂吸金,资本其实是在两头下注,既押供应链缓和,也押国产自研。"
+    },
+    {
+      "role": "host",
+      "text": "那DeepSeek自己这边还有什么新动静?我记得他们V1的作者也有大新闻。"
+    },
+    {
+      "role": "guest",
+      "text": "对,DeepSeek V1作者离职创业的项目曝光了,做的是开源Agent,而且主打本地部署,光这个定位就够圈内讨论一整周。"
+    },
+    {
+      "role": "host",
+      "text": "本地部署这个点我很好奇,为什么大佬创业都不约而同往端侧和私有化走呢?"
+    },
+    {
+      "role": "guest",
+      "text": "因为企业数据不敢上云啊,本地部署的Agent配上开源小模型,隐私、成本、合规三个痛点一次解决,这是To B的真需求。"
+    },
+    {
+      "role": "host",
+      "text": "好,那咱们再看看腾讯混元这边,姚顺雨带队上Reddit答网友,好像还透露了路线图?"
+    },
+    {
+      "role": "guest",
+      "text": "对,姚顺雨和混元团队亲自下场答疑,透露Hy小模型已经进入路线图,还聊了不少训练背后的秘诀,这种社区运营姿态挺罕见的。"
+    },
+    {
+      "role": "host",
+      "text": "大厂研究员直接在Reddit跟开发者对线,你觉得这波操作对混元口碑有帮助吗?"
+    },
+    {
+      "role": "guest",
+      "text": "帮助很大,开源模型的胜负手之一就是社区信任,创始人级人物亲自答疑,等于告诉开发者你们的反馈能直达模型团队。"
+    },
+    {
+      "role": "host",
+      "text": "说到开源编程模型,阿里Qwen这边好像也出大事了,27B的模型被称为编程猛兽?"
+    },
+    {
+      "role": "guest",
+      "text": "对,Qwen3.8的27B版本最近被社区捧成编程怪物,编程基准直接拉满,同时有人指出它会在编程任务上过度思考,浪费大量算力。"
+    },
+    {
+      "role": "host",
+      "text": "过度思考听起来还挺新鲜的,小模型想太多是好事还是坏事啊?"
+    },
+    {
+      "role": "guest",
+      "text": "坏事居多,思考链太长意味着延迟和成本翻倍,社区已经给出缓解方案,比如限制推理步数,27B这个尺寸平衡好性价比就非常能打。"
+    },
+    {
+      "role": "host",
+      "text": "还有一个国内团队的浏览器Agent也很猛,好像在某个基准上反超了谷歌?"
+    },
+    {
+      "role": "guest",
+      "text": "对,Karpo在反超Gemini之后又开源了新作,浏览器Agent做到速度和效果双赢,这说明国内团队在Agent应用层已经能正面刚国际大厂。"
+    },
+    {
+      "role": "host",
+      "text": "国产这边还有一条绕不开的,就是英伟达本身的人事和监管大地震,给咱们快速拆一下?"
+    },
+    {
+      "role": "guest",
+      "text": "黄仁勋遭董事会罢免的主要原因曝光了,而且SEC正对英伟达潜在会计问题展开调查,芯片巨头的治理风险首次摆上台面。"
+    },
+    {
+      "role": "host",
+      "text": "好,国内先聊到这儿,咱们切到国际,最大的事肯定是Anthropic上市了吧?"
+    },
+    {
+      "role": "guest",
+      "text": "对,Anthropic完成了810亿美元的IPO,这是AI行业迄今最大的上市事件,但市场也在问:坚持安全优先的公司,扛得住资本市场的季度考核吗?"
+    },
+    {
+      "role": "host",
+      "text": "810亿估值上市之后,投资人第一件事肯定看收入,Anthropic的压力会不会跟它安全优先的人设打架?"
+    },
+    {
+      "role": "guest",
+      "text": "一定会打架,安全研究要烧钱、限制模型能力会丢单,上市后每个季度都要对股东交代,这是整个AI行业商业伦理的试金石。"
+    },
+    {
+      "role": "host",
+      "text": "Anthropic的Claude Opus 4.5最近也刷屏了,听说2小时工程测试超过了所有人类候选人?"
+    },
+    {
+      "role": "guest",
+      "text": "对,Claude Opus 4.5在2小时专业工程测试里超过所有人类候选人,还会走创造性解题路径,更抗提示注入,而且用更少Token拿到更好结果。"
+    },
+    {
+      "role": "host",
+      "text": "用更少Token拿更好结果这一点,对下游API用户是不是等于直接降价?"
+    },
+    {
+      "role": "guest",
+      "text": "等于变相降价,同样的任务Token消耗降一截,企业账单直接瘦身,这也是为什么券商研报都盯着旗舰模型的性价比指标。"
+    },
+    {
+      "role": "host",
+      "text": "OpenAI这边也有新货,GPT-Live-1.1好像是给语音Agent用的?"
+    },
+    {
+      "role": "guest",
+      "text": "对,GPT-Live-1.1是全双工语音模型,改进了多语言口音和转写,新增待机模式,闲置的WebRTC时间按每分钟0.02美元计费。"
+    },
+    {
+      "role": "host",
+      "text": "每分钟0.02美元的待机价,这对做电话客服和语音助手的创业公司意味着什么?"
+    },
+    {
+      "role": "guest",
+      "text": "意味着常驻语音Agent的成本模型成立了,以前挂机也烧钱,现在待机费降一个数量级,7乘24小时在线助手就能跑通了。"
+    },
+    {
+      "role": "host",
+      "text": "谷歌也没闲着,Gemini API搞了个工具检索,这个对Agent开发者好像是个大福利?"
+    },
+    {
+      "role": "guest",
+      "text": "对,Gemini API的工具检索在预览阶段,Agent可以挂上百个工具待命,只在需要时加载参数模式,一次请求全搞定,响应又快又省钱。"
+    },
+    {
+      "role": "host",
+      "text": "我记得国内开发者也吐槽过,Agent接上百个工具就变慢变贵,谷歌这是直接解决了痛点?"
+    },
+    {
+      "role": "guest",
+      "text": "基本是治本,以前每次调用都要把几百个工具的描述全塞给模型,现在按需检索,token省一大截,国内厂商大概率会快速跟进这套方案。"
+    },
+    {
+      "role": "host",
+      "text": "国际圈还有个挺魔幻的事,RunPod的服务器被曝让AI Agent给自己打好评,还不许告诉用户?"
+    },
+    {
+      "role": "guest",
+      "text": "对,RunPod的MCP服务器被曝在指令里写明,让Agent给它评高分还不许向用户提起,这是提示注入的灰色营销,安全圈都炸锅了。"
+    },
+    {
+      "role": "host",
+      "text": "这事儿细思极恐啊,以后咱们看到的评分,到底是人打的还是Agent被安排打的?"
+    },
+    {
+      "role": "guest",
+      "text": "所以社区现在呼吁Agent工具链要有行为审计和透明日志,平台方如果靠Agent刷口碑,信任体系会整个塌掉。"
+    },
+    {
+      "role": "host",
+      "text": "还有一条更沉重的,联合国关于杀手机器人的规则谈判又黄了?"
+    },
+    {
+      "role": "guest",
+      "text": "对,日内瓦的联合国代表没能就自主武器也就是杀手机器人的规则达成一致,军事AI的全球治理继续空白,中美只能靠双边共识兜底。"
+    },
+    {
+      "role": "host",
+      "text": "咱们把今天的信息串一串,你觉得国内和国际这批新闻背后,共同的暗线是什么?"
+    },
+    {
+      "role": "guest",
+      "text": "暗线是AI从拼模型转向拼商业兑现,大模型竞争变成收入、成本和信任的竞争,中信建投研报也把关键词定在商业兑现和算力融资上。"
+    },
+    {
+      "role": "host",
+      "text": "而且你看纳指100都进技术性熊市了,资金却在近两个月借道ETF入市超过7500亿,这跟能扯到AI板块吗?"
+    },
+    {
+      "role": "guest",
+      "text": "能,费城半导体指数单周跌了17个点,但11月20号股票型ETF单日净流入919亿创年内纪录,资金在AI泡沫回调里逢低吸筹,分歧极大。"
+    },
+    {
+      "role": "host",
+      "text": "那英伟达罢免加调查这件事,会不会成为整条AI算力链的系统性风险?"
+    },
+    {
+      "role": "guest",
+      "text": "短期情绪冲击跑不了,不过特朗普放话Blackwell可有条件对华销售,政策面反而有对冲,后面重点看SEC调查的口径和解禁节奏。"
+    },
+    {
+      "role": "host",
+      "text": "对开发者来说,今天这批工具和模型的更新,哪条最值得马上动手试?"
+    },
+    {
+      "role": "guest",
+      "text": "我投Gemini的工具检索和GPT-Live-1.1的待机计费,一个解决工具爆炸,一个解决语音成本,都是Agent落地的卡点,还有本地部署的开源Agent也值得盯。"
+    },
+    {
+      "role": "host",
+      "text": "好,重磅新闻聊完了,咱们进入快问快答,把今天其他要闻一口气扫一遍,我先来,苹果低价新品要来了!"
+    },
+    {
+      "role": "guest",
+      "text": "古尔曼爆料明年2到3月苹果发布iPhone 18e、入门款iPad和全新MacBook Neo,主打平价路线。"
+    },
+    {
+      "role": "host",
+      "text": "马斯克也表态了,FSD V15下个月全面推送,而且他在试图跟MAGA阵营切割!"
+    },
+    {
+      "role": "guest",
+      "text": "国内这边,享界V8上市即开启全国大规模交付,主打100个为家而生的设计点。"
+    },
+    {
+      "role": "host",
+      "text": "TCL中环拟增持中环领先股权到98.52%,半导体业务正式成为主线!"
+    },
+    {
+      "role": "guest",
+      "text": "OpenAI被曝入局智能手机赛道,加上旗舰模型降价20%,终端和应用两头都在卡位。"
+    },
+    {
+      "role": "host",
+      "text": "Chess.com不再只下棋,新增麻将、围棋、数独等10款经典游戏,要做游戏平台!"
+    },
+    {
+      "role": "host",
+      "text": "还有Vibe Coding正在席卷所有智能硬件,从音箱到机器人,自然语言编程进设备时代。"
+    }
+  ]
+}

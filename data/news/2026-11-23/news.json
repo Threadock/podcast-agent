@@ -1,0 +1,441 @@
+{
+  "intl": [
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Show HN: Kimi-K3.1-Pro Unlimited API",
+      "url": "https://www.youtube.com/watch?v=Hu-xaL-OCgE",
+      "snippet": "",
+      "published": "2026-11-21T16:50:55Z",
+      "weight": 10
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries",
+      "url": "https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval/",
+      "snippet": "<p>Google launched Gemini API Tool Retrieval in preview. Agents keep a large tool library on standby and load each parameter schema only when needed, inside one Interactions API request.</p>\n<p>The po",
+      "published": "Sun, 22 Nov 2026 10:03:54 +0000",
+      "weight": 9
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Why Qwen3.8-27B Overthinks in Coding Tasks and How to Mitigate That",
+      "url": "https://penberg.org/blog/qwen38-overthink.html",
+      "snippet": "",
+      "published": "2026-11-21T13:18:54Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen3.8 27B Just Became a Coding Monster (DaisyRose)",
+      "url": "https://www.youtube.com/watch?v=bwsSnLM3YFI",
+      "snippet": "",
+      "published": "2026-11-21T14:20:43Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Field Guide: Running Qwen3.8 Locally",
+      "url": "https://igorstechnoclub.com/field-guide-running-qwen38-locally/",
+      "snippet": "",
+      "published": "2026-11-21T22:39:26Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "TonkAI – OpenAI-Compatible Gateway for GPT, Claude, Gemini, DeepSeek, and Qwen",
+      "url": "https://tonkai.app/",
+      "snippet": "",
+      "published": "2026-11-22T00:59:13Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Intruder swaps DeepSeek at Prime Intellect. The copy almost never refuses",
+      "url": "https://maccus.fr/en/prime-intellect-deepseek-swap/",
+      "snippet": "",
+      "published": "2026-11-22T08:50:51Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Show HN: I asked a simple RegEx question and DeepSeek had a breakdown",
+      "url": "https://chat.deepseek.com/a/chat/s/d6d82831-9b07-44fb-ae5b-6d3163e25092",
+      "snippet": "The question was:\n&quot;&quot;&quot;\nNow, I am looking for files ending with anything rather than double quotes. `[^&quot;]\\z` does not work!\n&quot;&quot;&quot;",
+      "published": "2026-11-22T09:44:38Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "snippet": "",
+      "published": "2026-11-22T21:01:16Z",
+      "weight": 7
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Can Anthropic afford to put safety first?",
+      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "snippet": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public ",
+      "published": "2026-11-21T10:00:00-05:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Grok Bot Symbiosis",
+      "url": "https://timeline.place/guides/grok-bot-symbiosis",
+      "snippet": "",
+      "published": "2026-11-21T23:03:47Z",
+      "weight": 6
+    },
+    {
+      "source": "LastWeekInAI",
+      "title": "Last Week in AI #348 - IPO->Correction, new GPTs and Geminis, Nvidia’s Fate",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-348-ipo-correction",
+      "snippet": "Anthropic's $81B IPO, AI stocks enter a correction, Huang resigns from Nvidia, Trump and Xi agree on military AI",
+      "published": "Sat, 21 Nov 2026 08:41:43 GMT",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost to $0.02/Min",
+      "url": "https://www.marktechpost.com/2026/11/21/openai-gpt-live-1-1-api-standby-mode/",
+      "snippet": "<p>OpenAI has released GPT-Live-1.1 in the API. The full-duplex voice model improves multilingual accents and transcription, and a new standby mode bills idle WebRTC time at $0.02 per minute instead o",
+      "published": "Sat, 21 Nov 2026 11:46:17 +0000",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and More, Compared on Memory, Security and Cost",
+      "url": "https://www.marktechpost.com/2026/11/22/best-personal-ai-agents-2026/",
+      "snippet": "<p>Hermes Agent, OpenClaw, Gemini Spark, OpenAI dots, Meta Muse and Perplexity Personal Computer ranked on memory, security defaults and real cost.</p>\n<p>The post <a href=\"https://www.marktechpost.co",
+      "published": "Sun, 22 Nov 2026 10:36:17 +0000",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Twin films are films with the same or similar plots released with a short time",
+      "url": "https://en.wikipedia.org/wiki/Twin_films",
+      "snippet": "",
+      "published": "2026-11-21T00:41:53Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Integrals of Polynomials with Galois Group S_p",
+      "url": "https://m-slee.netlify.app/posts/integrals-galois-polynomials",
+      "snippet": "",
+      "published": "2026-11-21T01:17:05Z",
+      "weight": 1
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+      "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "snippet": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahj",
+      "published": "2026-11-21T09:00:00-05:00",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "How to Make Product Growth Last (Retention Before Acquisition) [video]",
+      "url": "https://www.youtube.com/watch?v=63Toi0Q-l5s",
+      "snippet": "",
+      "published": "2026-11-21T13:39:26Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "RunPod's MCP server tells AI agents to rate it and not mention it to the user",
+      "url": "https://github.com/runpod/runpod-mcp/issues/202",
+      "snippet": "",
+      "published": "2026-11-21T14:53:19Z",
+      "weight": 1
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "The UN fails to agree on rules regulating ‘killer robots’",
+      "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+      "snippet": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives",
+      "published": "2026-11-21T15:03:37-05:00",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Chinese-Born Neuroscientist Is Detained by ICE While Traveling from Conference",
+      "url": "https://www.nytimes.com/2026/11/20/science/chinese-scientist-detained-ice-princeton-eva-yi-xie-.html",
+      "snippet": "",
+      "published": "2026-11-21T23:29:43Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Open-Source FPGA The \"startup idea\" to \"go big fast\"",
+      "url": "https://news.ycombinator.com/item?id=50595097",
+      "snippet": "FPGAs are general purpose and can be made to do anything.\nThey are basically a function of the number of repeated elements.\nThey are &quot;commodity items&quot; except for one fact.<p>The current FPGA",
+      "published": "2026-11-22T00:41:59Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Trump at the \"Summit\": One of His Dumbest Moments in the Last 10 Years",
+      "url": "https://newrepublic.com/post/218235/trump-summit-xi-putin-nuclear",
+      "snippet": "",
+      "published": "2026-11-22T04:25:59Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Why agent swarms get better at optimizing code as they grow",
+      "url": "https://frontier.replit.com/throwing-headcount-at-the-problem/",
+      "snippet": "",
+      "published": "2026-11-22T06:19:54Z",
+      "weight": 1
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "The vibe-coding revolution is coming to all the gadgets",
+      "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+      "snippet": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscriber",
+      "published": "2026-11-22T08:00:00-05:00",
+      "weight": 1
+    }
+  ],
+  "cn": [
+    {
+      "source": "掘金",
+      "title": "超越基准：Claude Opus 4.5 的 4 个惊人洞察",
+      "url": "https://juejin.cn/post/7710657436017442826",
+      "snippet": "Claude Opus 4.5 不只刷新分数：2小时专业工程测试超过所有人类候选人，会走创造性路径，更抗提示注入，还能用更少Token取得更好结果。",
+      "published": "Sun, 22 Nov 2026 14:55:11 GMT",
+      "weight": 9
+    },
+    {
+      "source": "量子位",
+      "title": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
+      "url": "https://www.qbitai.com/2026/11/511757.html",
+      "snippet": "还透露了不少训练背后的秘诀",
+      "published": "Sat, 21 Nov 2026 06:30:55 +0000",
+      "weight": 7
+    },
+    {
+      "source": "量子位",
+      "title": "刚刚，DeepSeek V1作者创业项目曝光：开源Agent",
+      "url": "https://www.qbitai.com/2026/11/511570.html",
+      "snippet": "专为本地部署而生",
+      "published": "Sat, 21 Nov 2026 06:32:31 +0000",
+      "weight": 7
+    },
+    {
+      "source": "雷锋网",
+      "title": "特朗普表态：英伟达Blackwell芯片可对华销售，但有个条件；OpenAI被曝入局智能手机赛道；DeepSeek第二轮千亿融资落地，31家出资方入局",
+      "url": "https://www.leiphone.com/category/zaobao/qb1uol6hKvK6pRgF.html",
+      "snippet": "<section></section><section><section><section><section><section><section><section></section><section><section style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>要闻提示</strong></span></s",
+      "published": "Sun, 22 Nov 2026 18:15:00 +0800",
+      "weight": 7
+    },
+    {
+      "source": "量子位",
+      "title": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
+      "url": "https://www.qbitai.com/2026/11/511791.html",
+      "snippet": "",
+      "published": "Sat, 21 Nov 2026 11:24:29 +0000",
+      "weight": 6
+    },
+    {
+      "source": "量子位",
+      "title": "全网疯传！Grok一姐教你如何月提交3000个PR",
+      "url": "https://www.qbitai.com/2026/11/511830.html",
+      "snippet": "",
+      "published": "Sat, 21 Nov 2026 11:34:18 +0000",
+      "weight": 6
+    },
+    {
+      "source": "量子位",
+      "title": "A社数学家用Claude又证明另一千禧难题，逼出一份写了12年的940页纯人类手稿",
+      "url": "https://www.qbitai.com/2026/11/511870.html",
+      "snippet": "",
+      "published": "Sun, 22 Nov 2026 06:03:54 +0000",
+      "weight": 6
+    },
+    {
+      "source": "掘金",
+      "title": "Agent 接了上百个工具就变慢变贵？Gemini 把工具加载改成了按需检索",
+      "url": "https://juejin.cn/post/7710701905597186063",
+      "snippet": "做过 AI Agent 开发的人大概都遇到过一个很憋屈的场景。 你想让 Agent 真正能干活，于是给它接了 CRM、工单系统、邮件、数据库，再挂上几个 MCP 服务器，工具数量很快突破几十甚至上百个",
+      "published": "Sun, 22 Nov 2026 20:13:01 GMT",
+      "weight": 6
+    },
+    {
+      "source": "36氪",
+      "title": "中信建投：全球模型密集迭代，关注海外算力融资情况",
+      "url": "https://36kr.com/newsflashes/4081604438823810?f=rss",
+      "snippet": "36氪获悉，中信建投研报称，大模型竞争转向商业兑现，个人Agent加快进入交易场景。Anthropic上市后重点看四季度收入、算力长约支出与解禁。OpenAI旗舰降价20%，谷歌Neon与任务模式推进，国产模型持续迭代。性价比提升与Agent支付复购，有望带动应用渗透及付费调用。 海外算力约束加强，CSP与NeoCloud重点看融资覆盖和订单执行。BIS将管制延伸至海外远程算力，关注客户敞口与许可",
+      "published": "2026-11-23 08:22:44  +0800",
+      "weight": 5
+    },
+    {
+      "source": "钛媒体",
+      "title": "中设集团总包，7.5亿美元光伏电站项目落地非洲，央国企EPC不再只卖电站",
+      "url": "https://www.tmtpost.com/8213796.html",
+      "snippet": "赤几签500MWp光储框架，中资分层分担风险推进。",
+      "published": "Sun, 22 Nov 2026 14:17:03 +0800",
+      "weight": 5
+    },
+    {
+      "source": "雷锋网",
+      "title": "享界V8上市即开启全国大规模交付，以为家而生的100个设计锁定爆款",
+      "url": "https://www.leiphone.com/category/industrynews/cjpukqhxIgaEYhyQ.html",
+      "snippet": "<p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-size: 10pt;\">一款车，从上市到全国范围交付，需要多长时间？</span><br /></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-size: 10pt;\">享界V8给出了答案！<",
+      "published": "Sat, 21 Nov 2026 11:47:00 +0800",
+      "weight": 4
+    },
+    {
+      "source": "36氪",
+      "title": "9点1氪丨黄仁勋或将创办新公司；水贝金价一度跌破800元/克；纳指100进入技术性熊市",
+      "url": "https://36kr.com/p/4078827757310856?f=rss",
+      "snippet": "<h2><strong>今日热点导览</strong></h2>\n  <p>上证50ETF尾盘爆量拉升，成交突破215亿创成交额历史天量</p>\n  <p>英伟达市值被谷歌超越</p>\n  <p>12306重磅升级通知服务</p>\n  <p>马斯克试图与MAGA阵营切割</p>\n  <p>段永平：好公司未必要上市，字节6000亿美元估值下我会有兴趣</p>\n  <p>A股三大指数集体收跌，全市场超",
+      "published": "2026-11-21 09:19:00  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "最前线｜半导体业务成主线，TCL中环增持中环领先股权至98.52%",
+      "url": "https://36kr.com/p/4078863230800768?f=rss",
+      "snippet": "<p>近日，&nbsp;TCL中环（002129.SZ）公告称，拟向50名交易对方发行股份，购买中环领先65.80%的股份。交易完成后，其持股比例将由32.72%升至98.52%。</p>\n  <p>同时，本次购买资产的股份发行价为7.59元/股，交易对价尚待审计评估后协商确定。公司还拟募集配套资金，主要用于中环领先项目建设。目前交易处于预案阶段，尚需履行后续审议及监管程序。</p>\n  <p>1",
+      "published": "2026-11-21 09:55:14  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "WISE2026「年度人物·产业攻坚者」名册正式发布丨他们，向产业深处走去",
+      "url": "https://36kr.com/p/4079476599772038?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20261121/v2_d3d2a6d006524a1eafcadc15e4cccbe0@5889148_oswg246709oswg900oswg480_img_000?x-oss-process=image/format,jpg/interlace,1\" /><",
+      "published": "2026-11-21 20:44:52  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "WISE2026「年度企业系列名册」正式发布丨成为自己的时代",
+      "url": "https://36kr.com/p/4080920403743624?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20261122/v2_0800ea5a152040d899cb81a371d9c977@5889148_oswg249565oswg900oswg480_img_000?x-oss-process=image/format,jpg/interlace,1\" /><",
+      "published": "2026-11-22 20:53:31  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "8点1氪丨黄仁勋遭董事会罢免主要原因曝光；零跑汽车回应“A10后备厢被几箱啤酒压穿底”；PS5 Pro涨至1.6万元",
+      "url": "https://36kr.com/p/4081573022552962?f=rss",
+      "snippet": "<h2>今日热点导览</h2>\n  <ul>\n   <li>美国证券交易委员会据悉正对英伟达潜在会计问题展开调查</li>\n   <li>同名同姓引误读，搜狐张朝阳辟谣“被出具警示函”</li>\n   <li>小米从小鹏挖来了欧洲汽车业务负责人</li>\n   <li>菜百股份提示贵金属市场波动风险</li>\n   <li>马斯克称FSD V15下个月将全面推送</li>\n  </ul>\n  <h",
+      "published": "2026-11-23 07:50:57  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "华泰证券港股策略：短期密集压力或已接近峰值",
+      "url": "https://36kr.com/newsflashes/4081572416082822?f=rss",
+      "snippet": "36氪获悉，华泰证券发布港股策略研报称，上周港股因三季报不及预期、盈利下修和海外流动性及风偏压力大幅回撤。盈利上，腾讯、网易、快手三季报承压，互联网盈利预期下修拖累港股整体基本面预期；海外流动性上，全球AI产业链短期大幅回调，纳指、费城半导体指数周跌10.0%、17.1%，同时美联储表态鹰派，大类资产除美元几乎全面调整，呈现出一定流动性紧张迹象，对作为离岸市场的港股同样造成影响。本周财报密集期接近",
+      "published": "2026-11-23 08:00:09  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "苹果一大波低价新品即将来袭，就在明年2、3月",
+      "url": "https://36kr.com/newsflashes/4081584591246216?f=rss",
+      "snippet": "彭博社知名苹果记者马克·古尔曼(Mark Gurman)周日透露，苹果公司计划于明年2月至3月发布iPhone 18e、iPhone 18、新款入门级iPad，以及新款MacBook Neo和MacBook Air。 古尔曼透露，在明年2月至3月的iOS 27.4周期内，苹果计划将重点放在平价产品上，推出新版低端iPad、iPhone 18e和全新的MacBook Neo。标准版iPhone 18",
+      "published": "2026-11-23 08:02:33  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "近两个月超7500亿元借道ETF入市，资金流入呈现两大特征",
+      "url": "https://36kr.com/newsflashes/4081587974182018?f=rss",
+      "snippet": "在近期的震荡调整行情中，大量资金借道ETF积极入市。Wind数据显示，11月20日股票型ETF单日净流入919.29亿元，刷新年内纪录；自9月底以来，这一数字已突破7500亿元，沪深300、创业板指、科创50等10只核心宽基ETF独揽近7456亿元。创业板指ETF、科创50ETF净流入均破1000亿元。此次资金流入呈现持续时间长、买入金额大等重要特点，多家基金公司表示，底部区域已经显现，市场结构可",
+      "published": "2026-11-23 08:05:59  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "水贝商户一天卖数公斤黄金，金价跌了多地现购金热潮",
+      "url": "https://36kr.com/newsflashes/4081591413822596?f=rss",
+      "snippet": "近期金价变动，搅动年末的黄金消费市场。随着伦敦现货黄金失守3600美元/盎司，国内黄金消费市场迎来小高潮。在北京市西城区的菜百首饰总店，柜台前挤满了前来选购黄金饰品的消费者。不少购买婚嫁首饰的消费者在持续观望后，选择在这个时机入手婚嫁用品。这周末，深圳水贝各大商场的柜台前人头攒动，迎来了近几个月来最大客流，各楼层柜台前几乎被围得水泄不通。有商户表示：“这段时间都是人挤人，销售吃饭都没时间。”“每天",
+      "published": "2026-11-23 08:09:29  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "中信建投：防御品种当前仍具有较高配置价值",
+      "url": "https://36kr.com/newsflashes/4081594779440005?f=rss",
+      "snippet": "36氪获悉，中信建投研报称，在探底行情中，防御品种是配置的重点方向，当前仍具有较高配置价值。当前主要红利板块交易热度有所升高，但也未出现交易拥挤的情况，建议精选高股息、低机构配置和低拥挤的品种，重点关注银行、白电、白酒、家纺、保险、铁路公路、电信运营、航运港口等。在市场探底后，外部环境改善、强力稳市政策出台和增量资金流入协同发力，市场触底回升，则可能导致市场普涨而红利板块阶段性跑输。届时小微盘和科",
+      "published": "2026-11-23 08:12:55  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "欧洲天然气价格延续涨势，寒潮天气预报推高市场情绪",
+      "url": "https://36kr.com/newsflashes/4081596771996551?f=rss",
+      "snippet": "受最新气象预报转冷影响，欧洲天然气价格在亚洲早盘交易中大幅上涨。荷兰TTF近月天然气期货价格涨幅最高达8.6%，至每兆瓦时96.075欧元。天气预报显示，下周西北欧地区的气温预计将比过去30年同期的平均水平低约5摄氏度。（新浪财经）",
+      "published": "2026-11-23 08:14:56  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "20余家上市公司确认参加中国航展，15家年内获机构调研",
+      "url": "https://36kr.com/newsflashes/4081599567058053?f=rss",
+      "snippet": "第十六届中国国际航空航天博览会（简称“中国航展”）已进入倒计时，A股市场已提前预热。根据上市公司通过投资者关系互动平台等公开信息梳理，下半年以来已有20余家公司确认参加第十六届中国航展。按照年内市场表现排序，相对居前的有海洋王、中航光电、大立科技、中航沈飞等。从机构调研情况来看，上述20余家公司中，有15家年内获得机构调研，10家公司均获得60余家机构调研，其中中航光电、广东宏大、光启技术、科思科",
+      "published": "2026-11-23 08:17:47  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "摩根士丹利基础设施合伙公司报告出售StraitNZ",
+      "url": "https://36kr.com/newsflashes/4081608401671041?f=rss",
+      "snippet": "今日，摩根士丹利投资管理公司通过其私募基础设施投资平台摩根士丹利基础设施合伙公司管理的投资基金宣布，已签署协议，将其旗下位于新西兰的综合交通、物流和渡轮公司StraitNZ出售给全球领先的私募市场公司Partners Group（该集团代表其客户进行此次收购）。该交易预计将于2027年上半年完成，前提是获得常规的监管批准并满足其他交割条件。（新浪财经）",
+      "published": "2026-11-23 08:26:46  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "银行业金融机构总资产突破500万亿元",
+      "url": "https://36kr.com/newsflashes/4081608949060485?f=rss",
+      "snippet": "金融监管总局日前发布的最新监管指标数据显示，截至三季度末，银行业金融机构本外币资产总额首次站上500万亿元台阶，同比增长6.1%。资产扩张的同时，银行业净息差延续筑底态势，净利润小幅下滑。多位受访专家表示，在规模稳步扩张的同时，银行业保险业正把重心从“量的增长”转向“质的夯实”。盈利增速与保费增速有所回落，但拨备与偿付能力充足，行业质效转型的安全垫进一步增厚。（上证报）",
+      "published": "2026-11-23 08:27:19  +0800",
+      "weight": 1
+    }
+  ],
+  "source_stats": {
+    "OpenAI-News": 1,
+    "Google-AI-Blog": 0,
+    "TheVerge-AI": 6,
+    "TechReview-AI": 0,
+    "LastWeekInAI": 1,
+    "MarkTechPost": 7,
+    "SebastianRaschka": 0,
+    "TheGradient": 0,
+    "HuggingFace-Blog": 0,
+    "HackerNews": 2,
+    "HackerNews-DeepSeek": 3,
+    "HackerNews-Kimi": 8,
+    "HackerNews-Qwen": 8,
+    "HackerNews-Grok": 8,
+    "HackerNews-xAI": 8,
+    "ArXiv-cs.AI": 0,
+    "量子位": 10,
+    "雷锋网": 5,
+    "钛媒体": 15,
+    "36氪": 15,
+    "InfoQ中文": 9,
+    "掘金": 15,
+    "199IT": 15
+  },
+  "dedup": {
+    "intl": {
+      "before": 52,
+      "after": 49
+    },
+    "cn": {
+      "before": 84,
+      "after": 80
+    }
+  }
+}
