@@ -1,0 +1,441 @@
+{
+  "intl": [
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
+      "url": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
+      "snippet": "",
+      "published": "2026-11-25T03:28:06Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Free DeepSeek v4.1 Flash 1017 No Card No Limits",
+      "url": "https://demonroute.com/",
+      "snippet": "",
+      "published": "2026-11-25T14:42:00Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Jev is probably Qwen3.5-35B-A3B",
+      "url": "https://modaic.dev/blog/latency-doesnt-lie",
+      "snippet": "",
+      "published": "2026-11-25T22:57:04Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Fine-Tuning Local Models for the GPU Poor – Qwen3.8-27B on RTX 4090",
+      "url": "https://shimin.io/journal/fine-tuning-local-models-for-the-gpu-poor/",
+      "snippet": "",
+      "published": "2026-11-25T17:13:40Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Lessons from running DeepSeek's DSec sandbox design on public cloud",
+      "url": "https://vibrantlabs.com/research/swarmbox",
+      "snippet": "",
+      "published": "2026-11-25T20:01:20Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Bare Metal Qwen",
+      "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+      "snippet": "",
+      "published": "2026-11-25T22:15:34Z",
+      "weight": 7
+    },
+    {
+      "source": "ArXiv-cs.AI",
+      "title": "MetaFORGE: A Meta-Learning Framework for Harness Optimization in Automated Code Generation for Parallel Computing",
+      "url": "https://arxiv.org/abs/2611.33119v1",
+      "snippet": "Large language models (LLMs) can generate parallel programs, but their correctness and performance depend strongly on the instructions that guide generation. We present \\textsc{MetaFORGE}, an executio",
+      "published": "2026-11-24T18:49:19Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Always-on agent routing and permissions: dsh-superagent, Grok Bot, Claude Duet",
+      "url": "https://www.agentconnect.md/blog/always-on-agents-router-worker/",
+      "snippet": "",
+      "published": "2026-11-25T01:39:16Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "xAI Founders Unveil New AI Startup to Predict Future Events",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/xai-founders-unveil-new-ai-startup-to-predict-future-events",
+      "snippet": "",
+      "published": "2026-11-25T12:01:15Z",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+      "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+      "snippet": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows ",
+      "published": "2026-11-25T16:51:26-05:00",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "OpenAI and Cisco Releases Shirudo: An Open-Source Linux Runtime Allowing Agents to Defend Systems Without Downtime",
+      "url": "https://www.marktechpost.com/2026/11/24/openai-cisco-shirudo-ebpf-linux-runtime/",
+      "snippet": "<p>OpenAI and Cisco released Shirudo, a pre-release, BSD-licensed eBPF runtime for Linux. AI agents write signed \"shields\" that block exploit paths on running systems while teams test and roll out rea",
+      "published": "Tue, 24 Nov 2026 14:16:53 +0000",
+      "weight": 6
+    },
+    {
+      "source": "Google-AI-Blog",
+      "title": "How Gemini is changing the game for Golden State's organization and fans.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "snippet": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Gemini_1.max-600x600.format-webp.webp\" />Google Gemini partners with Golden State to power fan experiences and business",
+      "published": "Tue, 24 Nov 2026 16:00:00 +0000",
+      "weight": 6
+    },
+    {
+      "source": "MarkTechPost",
+      "title": "Meet Facebook’s Your Algorithm: How Meta Turns Plain-Language Preferences Into Ranking",
+      "url": "https://www.marktechpost.com/2026/11/24/meta-facebook-your-algorithm-llm-recommendations/",
+      "snippet": "<p>Meta's engineering team explains how Facebook's Your Algorithm turns plain-language interests into ranking signals for Feed and Reels, using LLM validation, 4 retrieval sources, layered filtering a",
+      "published": "Tue, 24 Nov 2026 23:06:17 +0000",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "snippet": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an emai",
+      "published": "2026-11-24T11:09:23-05:00",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Anchor cloud browser plugin is in GA",
+      "url": "https://grok-bot.directory/bots/cloud-browser",
+      "snippet": "",
+      "published": "2026-11-24T11:11:23Z",
+      "weight": 1
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Jensen Huang deepfakes are the hot new AI slop",
+      "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+      "snippet": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signatur",
+      "published": "2026-11-24T11:30:00-05:00",
+      "weight": 1
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Tidal will start banning AI-generated music next month",
+      "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+      "snippet": "Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per d",
+      "published": "2026-11-24T12:17:09-05:00",
+      "weight": 1
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "David Fincher is being dragged for suspected use of AI in his latest film",
+      "url": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+      "snippet": "Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Hollywood sequel starring Brad Pitt have raised questio",
+      "published": "2026-11-24T13:15:00-05:00",
+      "weight": 1
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Jensen Huang reportedly tells Nvidia staff it&#8217;s ‘not true’ Trump got him rehired",
+      "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+      "snippet": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders hel",
+      "published": "2026-11-24T15:02:03-05:00",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Breaking the 4 GiB Address Space Limit: Porting Cod MW2 (IW4x) to X64",
+      "url": "https://iw4x.io/devlog/moving-to-x64",
+      "snippet": "",
+      "published": "2026-11-24T15:38:41Z",
+      "weight": 1
+    },
+    {
+      "source": "ArXiv-cs.AI",
+      "title": "Can LLM Judges Catch Unsafe Clinical Actions? A Fault-Injection Study",
+      "url": "https://arxiv.org/abs/2611.33012v1",
+      "snippet": "As clinical AI agents begin to interact with electronic health records (EHRs), large language models (LLMs) are increasingly used to evaluate their actions. But how reliably can these judges recognize",
+      "published": "2026-11-24T17:32:40Z",
+      "weight": 1
+    },
+    {
+      "source": "ArXiv-cs.AI",
+      "title": "RecordRoute: Auditing Agent Failures with Localization-Guided Diagnosis",
+      "url": "https://arxiv.org/abs/2611.33022v1",
+      "snippet": "Auditing failed agent executions requires identifying the responsible actor, the earliest decisive step, and the error mode. Representative supervised methods either focus on step localization or pred",
+      "published": "2026-11-24T17:37:25Z",
+      "weight": 1
+    },
+    {
+      "source": "ArXiv-cs.AI",
+      "title": "Can a Frontier LLM Repair a Quantized Network by Tool-Free Weight-Space Programming?",
+      "url": "https://arxiv.org/abs/2611.33031v1",
+      "snippet": "We give four large language models (LLMs) of the Claude family the complete weights of a 20k-parameter CIFAR-10 CNN as text and ask them to produce a 4-bit network without tools, data or the ability t",
+      "published": "2026-11-24T17:43:09Z",
+      "weight": 1
+    },
+    {
+      "source": "ArXiv-cs.AI",
+      "title": "Hybrid AI for AI-Native RAN Control: A Functional Perspective",
+      "url": "https://arxiv.org/abs/2611.33035v1",
+      "snippet": "AI-native radio access network (RAN) control involves interdependent decisions across network entities, protocol layers, and timescales. Understanding how AI and conventional methods can jointly suppo",
+      "published": "2026-11-24T17:47:24Z",
+      "weight": 1
+    },
+    {
+      "source": "ArXiv-cs.AI",
+      "title": "ClusterVAD: Threshold-Free Unsupervised Voice Activity Detection with Pre-Trained Neural Representations",
+      "url": "https://arxiv.org/abs/2611.33059v1",
+      "snippet": "Voice activity detection (VAD) is one of the first steps in speech processing pipelines, from transcription and diarization to speech language models. Supervised detectors need labelled data and inher",
+      "published": "2026-11-24T18:03:21Z",
+      "weight": 1
+    }
+  ],
+  "cn": [
+    {
+      "source": "36氪",
+      "title": "8点1氪丨黄仁勋称英伟达不需要接班人计划 ；红果短剧上线“时间锁”，支持自定义观剧时长 ；豆包灰度测试“豆包购物”",
+      "url": "https://36kr.com/p/4084431441488260?f=rss",
+      "snippet": "<h2>今日热点导览</h2>\n  <p>美国民主党：将“动用全部权力”彻查特朗普政府、黄仁勋</p>\n  <p>SpaceX和特斯拉委派五名董事负责合并谈判</p>\n  <p>木头姐旗下ARK因担忧黄仁勋离职抛售英伟达股票，错失约1070万美元潜在收益</p>\n  <p>罗马仕被列为失信被执行人</p>\n  <p>罗永浩所持锤子科技713.95万元股权续冻</p>\n  <p>Neuralink临",
+      "published": "2026-11-25 08:18:47  +0800",
+      "weight": 10
+    },
+    {
+      "source": "雷锋网",
+      "title": "AI加速酒店从标准化到\"千店千策\"，中国饭店协会联合千问办公发布酒旅行业白皮书",
+      "url": "https://www.leiphone.com/category/industrynews/PiVtVm8Sy8CGtTb1.html",
+      "snippet": "<p>11 月 25 日，在2026中国饭店业高质量大会上，中国饭店协会联合千问办公发布《酒旅行业白皮书——从岗位、门店到千城万店的AI经营实践》。白皮书指出，酒旅行业的增长重心正从标准化转向个性化：过去，行业主要依赖物业、品牌来扩张；如今，单店经营质量更受关注。AI 正渗入行业全链条管理，从项目筹建、品质巡检到经营诊断、宾客服务，通过“千店千策”协助酒店转型。</p><p>&nbsp;</p><",
+      "published": "Wed, 25 Nov 2026 17:32:00 +0800",
+      "weight": 10
+    },
+    {
+      "source": "掘金",
+      "title": "【轻量化复刻大模型 / KIMI K3】并行（Parallel）梳理",
+      "url": "https://juejin.cn/post/7712008429044383778",
+      "snippet": "【轻量化复刻大模型 / KIMI K3】并行（Parallel）梳理 0x00 概要 0x01. 演进脉络与定位 1.1 前身与痛点 1.2 同期竞品对比 1.3 一句话定位 0x02 原理讲解 2.",
+      "published": "Wed, 25 Nov 2026 12:39:00 GMT",
+      "weight": 7
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "GLM-5.4 编程能力暴涨、3D惊艳，但推理变久了？智谱押注双路线：首发Loop架构，下一代继续 Scaling",
+      "url": "https://www.infoq.cn/article/gXU31yBa9HMEe19PxHVB?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/gXU31yBa9HMEe19PxHVB?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Wed, 25 Nov 2026 13:27:15 GMT",
+      "weight": 7
+    },
+    {
+      "source": "量子位",
+      "title": "A社Tibo被曝加盟OpenAI！上市前离职三人组异地团圆",
+      "url": "https://www.qbitai.com/2026/11/512515.html",
+      "snippet": "OpenAI这下要有俩Tibo了",
+      "published": "Wed, 25 Nov 2026 07:46:52 +0000",
+      "weight": 6
+    },
+    {
+      "source": "量子位",
+      "title": "Anthropic还藏着2个最强模型…",
+      "url": "https://www.qbitai.com/2026/11/512538.html",
+      "snippet": "Fable5.2已经很旧了。",
+      "published": "Wed, 25 Nov 2026 08:23:24 +0000",
+      "weight": 6
+    },
+    {
+      "source": "掘金",
+      "title": "模型已经会欺骗评估员？24人爆料，OpenAI为何考虑停训",
+      "url": "https://juejin.cn/post/7711983801211977764",
+      "snippet": "Axios 援引超过 24 名知情人士报道：OpenAI 与 Anthropic 内部尚未发布的模型，推理能力在数学、科学、网络安全与 AI 研究上快速提升，部分员工已不相信它们能安全公开",
+      "published": "Wed, 25 Nov 2026 13:36:04 GMT",
+      "weight": 6
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "Pi创始人曝现代开发奇观：系统崩了，一屋子工程师都在问Claude怎么修",
+      "url": "https://www.infoq.cn/article/ExbJjrItIlc9KLfQ2UeT?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/ExbJjrItIlc9KLfQ2UeT?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Wed, 25 Nov 2026 18:22:07 GMT",
+      "weight": 6
+    },
+    {
+      "source": "钛媒体",
+      "title": "破发！但这仅仅是Anthropic要填的七个大坑之一",
+      "url": "https://www.tmtpost.com/8217094.html",
+      "snippet": "游戏才刚刚开始",
+      "published": "Wed, 25 Nov 2026 18:56:34 +0800",
+      "weight": 6
+    },
+    {
+      "source": "36氪",
+      "title": "业绩快报 | 唯品会三季度净营收204亿元，宣布派发3.4亿美元特别现金股息",
+      "url": "https://36kr.com/p/4083650419550601?f=rss",
+      "snippet": "<p>11月24日美股盘前，唯品会发布2026年第三季度财报。今年三季度，唯品会实现净营收204亿元（人民币，下同），Non-GAAP净利润13亿元。</p>\n  <p>具体来看，三季度唯品会超级大牌日和超级品类日栏目的整体业绩保持增长。其中，假期出游季、开学焕新季、七夕礼献、唯品运动节等主题活动紧扣场景化消费需求，销售表现良好；运动户外及换季时尚服饰品类展现出较强的消费韧性。</p>\n  <p>",
+      "published": "2026-11-24 19:52:44  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "全栈自研水下焊接技术，解决四大高壁垒场景痛点，「振海智能」完成数千万元Pre-A轮融资｜36氪首发",
+      "url": "https://36kr.com/p/4084508820875909?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20261125/v2_9b8a242d8f1a416baf1b556b9ae7b7d1@5688585_oswg186647oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1\" />",
+      "published": "2026-11-25 09:45:33  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "36氪首发丨创始人师从“量子互联网之父”，量子计算企业获联想之星等超亿天使轮融资",
+      "url": "https://36kr.com/p/4084553221630343?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20261125/v2_9beab107f19b4500a86173d653e0ab43@6221844_oswg13489630oswg2120oswg1588_img_png?x-oss-process=image/quality,q_80/format,jpg",
+      "published": "2026-11-25 10:23:03  +0800",
+      "weight": 5
+    },
+    {
+      "source": "雷锋网",
+      "title": "独家丨哥大博士创业做眼动追踪，已获 1800 万种子轮融资",
+      "url": "https://www.leiphone.com/category/weiwu/4Hb8s6tRcpRrICqZ.html",
+      "snippet": "<section style=\"margin-bottom: 16px;\"><span><img alt=\"图片\" class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/6a6c4981e5bcb.jpg?imageMogr2/quality/90\" /></span></section><section style=\"margin",
+      "published": "Wed, 25 Nov 2026 18:19:00 +0800",
+      "weight": 5
+    },
+    {
+      "source": "钛媒体",
+      "title": "对赌刚过业绩就变脸，和仁科技或迎存储芯片二股东 | 并购一线",
+      "url": "https://www.tmtpost.com/8217626.html",
+      "snippet": "对于和仁科技来说，这个可能成为二股东的芯片公司将是其业绩转正的关键变量。",
+      "published": "Wed, 25 Nov 2026 19:17:02 +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "36氪新风向丨英伟达押注、黄仁勋看好，半导体赛道又爆出大热点",
+      "url": "https://36kr.com/p/4084560902728326?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20261125/v2_2ec5b2259e944b1ca91d9b9944eab247@6221844_oswg437261oswg920oswg656_img_jpg?x-oss-process=image/quality,q_100/format,jpg/in",
+      "published": "2026-11-25 10:31:38  +0800",
+      "weight": 4
+    },
+    {
+      "source": "36氪",
+      "title": "最前线丨联想擎天发布敦煌城市超级智能体，统一多模态交互入口",
+      "url": "https://36kr.com/p/4083749704116616?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20261124/v2_8de5cb94167c4af680611089754b8e74@6221844_oswg7655288oswg2380oswg3364_img_png?x-oss-process=image/quality,q_80/format,jpg/",
+      "published": "2026-11-24 20:45:19  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "机器人上班、火箭卫星登场｜WISE把一座未来之城搬到了现场",
+      "url": "https://36kr.com/p/4084605857753478?f=rss",
+      "snippet": "<p>WISE2026未来之城展区怎么逛？最新打开方式，一文解锁。今年，WISE将在现场设置约1000平方米的未来展区。我们不把科技产品摆进展柜，我们<strong>把一座正在生长的“未来之城”，提前开放给所有人。</strong></p>\n  <h2><strong>在现场给机器人安排了工作</strong></h2>\n  <p>在未来展区，你会见到一群已经“找到工作”的机器人。优理奇科技将带来",
+      "published": "2026-11-25 11:17:17  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "正式开场就在明天！请以我的名字呼唤我，WISE2026就差你了",
+      "url": "https://36kr.com/p/4085010597210754?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20261125/v2_72a311797e67479cb554785a54787215@6301044_oswg472448oswg2097oswg1181_img_jpg?x-oss-process=image/quality,q_100/format,jpg/",
+      "published": "2026-11-25 18:11:26  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "8点1氪丨英伟达市值一夜蒸发近9800亿元；福布斯中国辟谣“8万元包上榜”；斗鱼及创始人陈少杰被执行1.9亿余元",
+      "url": "https://36kr.com/p/4085847020153478?f=rss",
+      "snippet": "<h2>今日热点导览</h2>\n  <p>特朗普：必要时愿意赦免黄仁勋</p>\n  <p>Anthropic上市次日，创始人兄妹套现5.6亿美元</p>\n  <p>星巴克据悉正与银行洽谈出售其日本业务事宜</p>\n  <p>黄仁勋复职不穿皮衣改穿棉夹克，迪奥同款售价28000元，官网多尺寸售罄</p>\n  <p>比特币基金即将创下史上最差单月表现，资金流出规模逼近50亿美元</p>\n  <p>野人",
+      "published": "2026-11-26 08:18:39  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "美国评估政策选项，回应韩国对Coupang的歧视性待遇",
+      "url": "https://36kr.com/newsflashes/4085826257283712?f=rss",
+      "snippet": "美国国务院正在评估一系列政策选项，以回应其所认为的韩国对美国公司Coupang的歧视性待遇。美国国务院一名官员表示，韩国对待美国公司的方式正在威胁美韩两国的同盟关系。　此前，韩国因数据泄露对Coupang处以创纪录的4.09亿美元罚款。（新浪财经）",
+      "published": "2026-11-26 08:27:10  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "三部委：加强6G基站和核心网设备、高速光网络设备、卫星设备等研制",
+      "url": "https://36kr.com/newsflashes/4085855638825353?f=rss",
+      "snippet": "工业和信息化部等三部委印发《新一代通信网建设实施方案》，其中提到，加强核心技术创新突破应用。统筹推进6G、超高速光通信、卫星通信等核心技术攻关突破。加强6G基站和核心网设备、高速光网络设备、卫星设备等研制。加强深空、深地、深海、远海场景技术探索。加强集成电路、软件、通信设备等产业链紧密联动，促进高端芯片、关键软件等突破和规模应用。发挥国际移动通信—2030（6G）推进组等产业平台、科研院所、学会和",
+      "published": "2026-11-26 08:27:17  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "三部委：推动人工智能与信息网络融合发展，研究布局智能互联网",
+      "url": "https://36kr.com/newsflashes/4085856235661959?f=rss",
+      "snippet": "工业和信息化部等三部委印发《新一代通信网建设实施方案》，其中提到，强化智能业务承载。推动通信网架构向以支持人工智能应用为中心演进，提升算内、算间、入算的网络性能。加快网络设备智能化升级，探索边缘设备部署推理算力和智能算法，提升业务感知、调度、优化能力。聚焦5G-A/6G、高速光网络、“IPv6+”、工业互联网等领域，加强人工智能驱动的关键网络技术部署应用。推动人工智能与信息网络融合发展，研究布局智",
+      "published": "2026-11-26 08:27:53  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "中信建投：AI相关需求放量升级，测试设备产业链价值重估",
+      "url": "https://36kr.com/newsflashes/4085857803659655?f=rss",
+      "snippet": "36氪获悉，中信建投研报认为，随着AI芯片出货规模扩大、芯片架构复杂度提升及国产算力产业加速发展，测试设备行业有望迎来市场扩容与国产替代的双重成长机遇：①行业扩容：HBM与高端SoC放量推动测试次数、测试时间及单机价值量同步提升，测试前移、后延及系统化进一步打开产业链成长空间，测试设备景气度有望持续高于半导体设备整体；②国产替代：国产AI芯片进入规模化交付阶段，国内测试设备厂商由成熟品类向高端So",
+      "published": "2026-11-26 08:29:29  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "三部委：探索大小模型协同、人机协同、机机协同等网络运维新范式",
+      "url": "https://36kr.com/newsflashes/4085858313333121?f=rss",
+      "snippet": "工业和信息化部等三部委印发《新一代通信网建设实施方案》，其中提到，强化全环节智能运营。探索大小模型协同、人机协同、机机协同等网络运维新范式，搭建网络大模型和智能体开发工具链与自动化运维平台。围绕网络建设、管理、运营等场景，打造特色智能体，探索复杂场景下智能体协同技术，增强网络自管理、自配置、自优化能力，逐步建成高等级自智网络。加强信息通信业数据要素规范高效利用。强化算力设施智能运维能力。（财联社）",
+      "published": "2026-11-26 08:30:00  +0800",
+      "weight": 1
+    },
+    {
+      "source": "掘金",
+      "title": "扫码总是听到\"已入库\"？一次广播撞车的排查记录",
+      "url": "https://juejin.cn/post/7712000906317987850",
+      "snippet": "扫码总是听到\"已入库\"？一次广播撞车的排查记录 一、现象描述 手持 PDA（Android 10，工业扫描头）上安装自研的仓储 App。 在 所有页面 扫码，都会听到一句中文语音提示：\"已入库，请勿重",
+      "published": "Thu, 26 Nov 2026 00:03:58 GMT",
+      "weight": 1
+    }
+  ],
+  "source_stats": {
+    "OpenAI-News": 2,
+    "Google-AI-Blog": 1,
+    "TheVerge-AI": 10,
+    "TechReview-AI": 1,
+    "LastWeekInAI": 0,
+    "MarkTechPost": 3,
+    "SebastianRaschka": 0,
+    "TheGradient": 0,
+    "HuggingFace-Blog": 4,
+    "HackerNews": 2,
+    "HackerNews-DeepSeek": 4,
+    "HackerNews-Kimi": 8,
+    "HackerNews-Qwen": 8,
+    "HackerNews-Grok": 8,
+    "HackerNews-xAI": 8,
+    "ArXiv-cs.AI": 15,
+    "量子位": 10,
+    "雷锋网": 15,
+    "钛媒体": 15,
+    "36氪": 15,
+    "InfoQ中文": 15,
+    "掘金": 15,
+    "199IT": 15
+  },
+  "dedup": {
+    "intl": {
+      "before": 74,
+      "after": 74
+    },
+    "cn": {
+      "before": 100,
+      "after": 97
+    }
+  }
+}
