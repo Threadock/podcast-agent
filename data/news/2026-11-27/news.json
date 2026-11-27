@@ -1,0 +1,441 @@
+{
+  "intl": [
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
+      "url": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
+      "snippet": "",
+      "published": "2026-11-25T03:28:06Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Free DeepSeek v4.1 Flash 1017 No Card No Limits",
+      "url": "https://demonroute.com/",
+      "snippet": "",
+      "published": "2026-11-25T14:42:00Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Jev is probably Qwen3.5-35B-A3B",
+      "url": "https://modaic.dev/blog/latency-doesnt-lie",
+      "snippet": "",
+      "published": "2026-11-25T22:57:04Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Qwen-4-27B-Preview Released on HF",
+      "url": "https://huggingface.co/spaces/SUGE212/Qwen-4-27B-Preview",
+      "snippet": "",
+      "published": "2026-11-26T04:49:08Z",
+      "weight": 10
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Fine-Tuning Local Models for the GPU Poor – Qwen3.8-27B on RTX 4090",
+      "url": "https://shimin.io/journal/fine-tuning-local-models-for-the-gpu-poor/",
+      "snippet": "",
+      "published": "2026-11-25T17:13:40Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-DeepSeek",
+      "title": "Lessons from running DeepSeek's DSec sandbox design on public cloud",
+      "url": "https://vibrantlabs.com/research/swarmbox",
+      "snippet": "",
+      "published": "2026-11-25T20:01:20Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Qwen",
+      "title": "Bare Metal Qwen",
+      "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+      "snippet": "",
+      "published": "2026-11-25T22:15:34Z",
+      "weight": 7
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Always-on agent routing and permissions: dsh-superagent, Grok Bot, Claude Duet",
+      "url": "https://www.agentconnect.md/blog/always-on-agents-router-worker/",
+      "snippet": "",
+      "published": "2026-11-25T01:39:16Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "xAI Founders Unveil New AI Startup to Predict Future Events",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/xai-founders-unveil-new-ai-startup-to-predict-future-events",
+      "snippet": "",
+      "published": "2026-11-25T12:01:15Z",
+      "weight": 6
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+      "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+      "snippet": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows ",
+      "published": "2026-11-25T16:51:26-05:00",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "Show HN: Toad in the hole - Grokbot for Voice",
+      "url": "https://toadinthehole.app/",
+      "snippet": "",
+      "published": "2026-11-26T00:49:18Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Why OpenAI and Anthropic are holding back their latest models",
+      "url": "https://twitter.com/kimmonismus/status/2125602411540566221",
+      "snippet": "",
+      "published": "2026-11-26T01:20:24Z",
+      "weight": 6
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+      "snippet": "",
+      "published": "2026-11-26T03:36:58Z",
+      "weight": 6
+    },
+    {
+      "source": "HuggingFace-Blog",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "snippet": "",
+      "published": "Thu, 26 Nov 2026 11:37:17 GMT",
+      "weight": 6
+    },
+    {
+      "source": "ArXiv-cs.AI",
+      "title": "$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents",
+      "url": "https://arxiv.org/abs/2611.34920v1",
+      "snippet": "Voice agents in shared spaces must satisfy interdependent multi-user requests while upholding per-user authority, privacy, and task constraints. Existing evaluations offer limited coverage when partic",
+      "published": "2026-11-25T18:58:42Z",
+      "weight": 5
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Advent of Microarchitecture 2026",
+      "url": "https://xania.org/202611/advent-of-what",
+      "snippet": "",
+      "published": "2026-11-25T02:00:24Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+      "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+      "snippet": "",
+      "published": "2026-11-25T03:04:37Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Marvel family calls Patrick Stewart's Xavier 'the conscience' of new Avengers",
+      "url": "https://ew.com/patrick-stewart-avengers-doomsday-final-performance-tributes-exclusive-12262759",
+      "snippet": "",
+      "published": "2026-11-25T04:12:24Z",
+      "weight": 1
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Has vibe coding made open source the new normal for synths?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware",
+      "snippet": "The emergence of powerful vibe-coding agents and tools like Reverse Engineer Anything has caused chaos in the music gear world, leaving companies scrambling to figure out how to respond. While some, l",
+      "published": "2026-11-25T08:00:00-05:00",
+      "weight": 1
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Amazon is reportedly in talks to end Muse AI shopping block",
+      "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+      "snippet": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center ",
+      "published": "2026-11-25T09:12:33-05:00",
+      "weight": 1
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "Nothing offers a full look at its AI earbuds and charging case",
+      "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+      "snippet": "Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcri",
+      "published": "2026-11-25T11:00:59-05:00",
+      "weight": 1
+    },
+    {
+      "source": "TheVerge-AI",
+      "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "snippet": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several ot",
+      "published": "2026-11-25T12:44:51-05:00",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-xAI",
+      "title": "Timberborn Frame Analysis",
+      "url": "https://xandev.blog.br/studies/timberborn-frame-analysis/",
+      "snippet": "",
+      "published": "2026-11-25T13:07:03Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-Kimi",
+      "title": "Limiting Charging to 80 Percent",
+      "url": "https://www.jefftk.com/p/limiting-charging-to-80",
+      "snippet": "",
+      "published": "2026-11-25T15:00:05Z",
+      "weight": 1
+    },
+    {
+      "source": "HackerNews-Grok",
+      "title": "The Art of the Terrible Startup Name",
+      "url": "https://news.crunchbase.com/startups/bad-startup-name-examples-advice-grok/",
+      "snippet": "",
+      "published": "2026-11-25T15:56:42Z",
+      "weight": 1
+    }
+  ],
+  "cn": [
+    {
+      "source": "掘金",
+      "title": "【轻量化复刻大模型 / KIMI K3】K3 并行机制交互式演示",
+      "url": "https://juejin.cn/post/7712474106735018018",
+      "snippet": "【轻量化复刻大模型 / KIMI K3】K3 并行机制交互式演示 0x01 总览 1.1 实现了什么 1.2 实现思路 1.3 如何运行 1.4 Q&amp;A（可复现的验证入口） 0x02 核心数学 2.1",
+      "published": "Thu, 26 Nov 2026 13:47:48 GMT",
+      "weight": 7
+    },
+    {
+      "source": "雷锋网",
+      "title": "一月只开工两三天！奥迪中国回应长春工厂产能利用率跌破10%；Anthropic创始人兄妹上市次日套现37亿；小鹏智驾拟开启全球付费订阅",
+      "url": "https://www.leiphone.com/category/zaobao/TaYBp58OxQSPMi10.html",
+      "snippet": "<section style=\"text-align: justify;\"></section><section><section><section><section><section><section><section></section><section><section style=\"text-align: center;\"><span style=\"font-size: 24px;\"><s",
+      "published": "Thu, 26 Nov 2026 09:30:00 +0800",
+      "weight": 6
+    },
+    {
+      "source": "InfoQ中文",
+      "title": "破发不算最疼，Claude Code核心班底被OpenAI疯狂收割才是：Anthropic的编程王座悬了？",
+      "url": "https://www.infoq.cn/article/z9IwzAY8hP15oDa2VKi6?utm_source=rss&utm_medium=article",
+      "snippet": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/z9IwzAY8hP15oDa2VKi6?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "Thu, 26 Nov 2026 15:35:51 GMT",
+      "weight": 6
+    },
+    {
+      "source": "钛媒体",
+      "title": "一家100人的AI公司，凭什么被英伟达、Anthropic、亚马逊抬到75亿？",
+      "url": "https://www.tmtpost.com/8218433.html",
+      "snippet": "同样一套技术，为什么对亚马逊更值钱。",
+      "published": "Thu, 26 Nov 2026 17:56:00 +0800",
+      "weight": 6
+    },
+    {
+      "source": "钛媒体",
+      "title": "Anthropic上市：从Uber的预算看Claude怎么赚钱",
+      "url": "https://www.tmtpost.com/8218636.html",
+      "snippet": "Anthropic 在纳斯达克上市。今年前三季度，它近八成收入来自按使用量计费的业务。",
+      "published": "Thu, 26 Nov 2026 18:34:24 +0800",
+      "weight": 6
+    },
+    {
+      "source": "36氪",
+      "title": "「华源智因」获过亿元天使轮融资，已有基于临床管线的药效预测合作落地｜36氪首发",
+      "url": "https://36kr.com/p/4084622369516167?f=rss",
+      "snippet": "<p>文｜胡香赟</p>\n  <p>编辑｜海若镜</p>\n  <p>36氪获悉，近日，「华源智因」已完成过亿元天使轮融资。本轮由华盖资本领投，华方资本、华映资本、梅花资本、同新基金、讯飞创投、启赋资本跟投。募集资金将主要用于大规模人源扰动数据生产、联合实验室建设，以及加速药企订单执行和商业化落地。向阳资本为公司长期独家财务顾问。</p>\n  <p>华源智因是36氪持续报道的虚拟细胞公司。今年7月，",
+      "published": "2026-11-26 09:00:00  +0800",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "36氪首发丨安克前高管创业做AI音频设备，获博裕创投等数千万元种子轮融资，产品即将众筹",
+      "url": "https://36kr.com/p/4085971424995714?f=rss",
+      "snippet": "<p>作者&nbsp;|&nbsp;乔钰杰</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <blockquote>\n   <p>本文约4500字，建议阅读11分钟</p>\n  </blockquote>\n  <p>硬氪获悉，AI声学感知公司「听好科技」（HearWell）近日完成两轮共数千万元融资，由博裕创投、璀璨资本、梅花创投、修远资本参与投资，涵盖财务投资机构与产业投资方",
+      "published": "2026-11-26 10:25:52  +0800",
+      "weight": 5
+    },
+    {
+      "source": "199IT",
+      "title": "谷歌DeepMind：AI认知任务十年后或从10亿美元降至1000美元，降百万倍",
+      "url": "http://www.199it.com/archives/1865785.html",
+      "snippet": "谷歌DeepMind论文称，过去十年AI有效算力每年至少增长10倍，源于硬件、算法与投资提升。按趋势，今天需10亿美元算力的认知任务，十年后或仅需1000美元，降幅百万倍；2030年AI智能体数量或扩大1000倍以上，但受数据、电力等限制。",
+      "published": "Thu, 26 Nov 2026 14:15:22 +0000",
+      "weight": 5
+    },
+    {
+      "source": "36氪",
+      "title": "36氪首发丨合肥产投领投量子计算企业超亿元，攻坚中性原子量子多机互联",
+      "url": "https://36kr.com/p/4054916912600195?f=rss",
+      "snippet": "<p>文 | 张卓倩</p>\n  <p>编辑 | 袁斯来</p>\n  <p>36氪获悉，中性原子量子计算企业「乾原量子」近日完成超 1 亿元天使轮融资，本轮融资将主要用于核心光学器件自研迭代、乾阵系列中性原子 QPU&nbsp;（量子处理单元）整机研发，以及 QAVEXUS （量子互联技术）多机互联接口的预研与工程调试，同时用于科研团队扩充、实验室建设等产业化配套投入。</p>\n  <p>本轮由合",
+      "published": "2026-11-26 09:52:59  +0800",
+      "weight": 4
+    },
+    {
+      "source": "36氪",
+      "title": "36氪首发丨牛津博士团队绕开光刻机用玻璃做高维光计算芯片，获英诺基金独家天使投资",
+      "url": "https://36kr.com/p/4085953425877377?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20261126/v2_bcc88bb209a34d28b6e3e9153385df0d@6221844_oswg183296oswg1536oswg1024_img_jpg?x-oss-process=image/quality,q_100/format,jpg/",
+      "published": "2026-11-26 10:07:02  +0800",
+      "weight": 4
+    },
+    {
+      "source": "36氪",
+      "title": "始于爆款，困于爆款，北极狐不想只当「卖包的」",
+      "url": "https://36kr.com/p/4086378667600512?f=rss",
+      "snippet": "<p>一只小狐狸蜷缩着，尾巴遮住大半身子，只探出一个头。</p>\n  <p>这是北极狐（Fjällräven）的商标，也像它在中国市场的长期处境：</p>\n  <p>它的一款单品太过耀眼：十几年前，旗下Kanken背包风靡街头，样式至今几乎没变，仍随处可见。你多半见过，甚至买过，却未必叫得对名字；整个品牌则不显山露水：它对外向来“低调”，不签明星代言人，也很少大规模投放广告——自媒体盘“小众户外品",
+      "published": "2026-11-26 18:00:00  +0800",
+      "weight": 4
+    },
+    {
+      "source": "36氪",
+      "title": "百只上市公募REITs首发规模合计超2500亿元",
+      "url": "https://36kr.com/newsflashes/4087233646295687?f=rss",
+      "snippet": "万得数据显示，截至11月26日，100只上市公募REITs首次发行规模合计2588.07亿元。其中，园区基础设施、交通基础设施产品分别为21只、15只，能源基础设施、仓储物流及消费基础设施产品均为12只，保障性租赁住房产品达11只，商业不动产产品达9只，水利设施、市政设施、生态环保设施及新型基础设施产品均为2只。（证券时报）",
+      "published": "2026-11-27 08:28:53  +0800",
+      "weight": 4
+    },
+    {
+      "source": "雷锋网",
+      "title": "独家 | 华人 CV 先驱权龙二次创业，成立空间与物理 AI 公司「Envision AI」",
+      "url": "https://www.leiphone.com/category/academic/S12DTjaFWmIPkwCk.html",
+      "snippet": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20261126/6b079461c9cb6.j",
+      "published": "Thu, 26 Nov 2026 10:09:00 +0800",
+      "weight": 4
+    },
+    {
+      "source": "36氪",
+      "title": "8点1氪丨英伟达市值一夜蒸发近9800亿元；福布斯中国辟谣“8万元包上榜”；斗鱼及创始人陈少杰被执行1.9亿余元",
+      "url": "https://36kr.com/p/4085847020153478?f=rss",
+      "snippet": "<h2>今日热点导览</h2>\n  <p>特朗普：必要时愿意赦免黄仁勋</p>\n  <p>Anthropic上市次日，创始人兄妹套现5.6亿美元</p>\n  <p>星巴克据悉正与银行洽谈出售其日本业务事宜</p>\n  <p>黄仁勋复职不穿皮衣改穿棉夹克，迪奥同款售价28000元，官网多尺寸售罄</p>\n  <p>比特币基金即将创下史上最差单月表现，资金流出规模逼近50亿美元</p>\n  <p>野人",
+      "published": "2026-11-26 08:18:39  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "OBSBOT寻影发布三款新品，加速AI影像自动化落地｜最前线",
+      "url": "https://36kr.com/p/4086154043009413?f=rss",
+      "snippet": "<p>作者｜黄楠</p>\n  <p>编辑｜袁斯来</p>\n  <p>11月25日，智能影像品牌OBSBOT寻影发布寻影Tail 2先锋版、Tail Air 2与Meet 3三款新品，分别面向专业远距离拍摄、轻量化节目制作与桌面视讯场景。</p>\n  <p>影像设备行业正在经历一轮叙事重心的转移。过去几年，主流产品的竞争集中在传感器尺寸、分辨率、帧率等硬指标上，参数表越来越长，但用户在实际拍摄中面临",
+      "published": "2026-11-26 14:34:16  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "科氪 | 全焦段 4K 超清 6 秒长实况，OPPO Reno17 系列拓展创作边界",
+      "url": "https://36kr.com/p/4086256279972229?f=rss",
+      "snippet": "<p>2026 年 11 月 16 日，中国·成都——OPPO 举办“OPPO Reno17 系列暨移动智能生态新品发布会”，正式推出全新一代潮流手机 OPPO Reno17 系列，并同步发布轻薄小方表 OPPO Watch 5、学习平板 OPPO Pad Air6 以及 OPPO Enco Clip2 新配色粉黛海。新品围绕年轻用户的个性表达与多元生活需求，以梦核潮流美学、实况影像创作、智慧体验",
+      "published": "2026-11-26 15:15:00  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "一款AI心理产品，靠「挽回前任挑战」活了下来",
+      "url": "https://36kr.com/p/4086400100706693?f=rss",
+      "snippet": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20261126/v2_0db3892fe0044a20b8ea7c9f146c9280@6314151_oswg561770oswg900oswg1030_img_png?x-oss-process=image/quality,q_90/format,jpg/in",
+      "published": "2026-11-26 17:51:53  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "德意志银行预计2027年德国股市将再创新高",
+      "url": "https://36kr.com/newsflashes/4087231493044871?f=rss",
+      "snippet": "德意志银行11月26日在法兰克福举行2027年资本市场展望会议。会上发布的报告预计2027年德国经济将增长1.3%，而德国法兰克福股市DAX指数有望于2027年年底前突破28000点，再创历史新高。报告称，2027年全球经济有望保持稳健增长，企业利润上升和人工智能投资热潮将继续为股票市场提供支撑，但地缘政治不确定性、持续的通胀压力及高企的政府债务仍将构成风险。（新华财经）",
+      "published": "2026-11-27 08:13:41  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "8点1氪丨美团、淘宝闪购全面取消超时扣款；王兴兴：5到10年内中国机器人产量有望超过汽车；三只松鼠就12人间毛坯宿舍致歉",
+      "url": "https://36kr.com/p/4087256294160773?f=rss",
+      "snippet": "<h2>今日热点导览</h2>\n  <p>自11月26日24时起，国内汽、柴油价格每吨分别下调440元、425元</p>\n  <p>马斯克：每名美国儿童将获赠两股SpaceX股票，由其个人及公司各提供一股</p>\n  <p>王虹再获重磅国际大奖</p>\n  <p>魏建军称车企竞争激烈，董明珠：家里冲进老鼠把它打掉就好，汽车绝不能是快消品</p>\n  <p>德佑母公司冲刺“湿厕纸第一股”</p>\n ",
+      "published": "2026-11-27 08:15:00  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "6G产业推进提速，4只概念股获机构净买入超10亿元",
+      "url": "https://36kr.com/newsflashes/4087249741019776?f=rss",
+      "snippet": "6G发展正从愿景描绘转向标准研制落地，我国新一代通信网建设步入实施阶段。6G在技术验证、商业模式等方面仍有不少细节有待探索，行业共识持续凝聚。A股市场有近50家上市公司涉及6G概念。据数据统计，截至11月26日收盘，6G概念股今年以来平均下跌25.45%。6股累计跌幅超50%。少数概念股逆势上涨，如亨通光电、本川智能、沃格光电、中国电信、光库科技等年内涨幅超10%。从资金层面来看，数据统计，截至1",
+      "published": "2026-11-27 08:16:17  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "动力电池格局重塑，二线阵营分化明显",
+      "url": "https://36kr.com/newsflashes/4087232737475200?f=rss",
+      "snippet": "动力电池行业的座次重构正在持续上演。11月26日，宁德时代A股收盘报204.22元/股，总市值接近万亿元。据统计，今年前三季度，国内8家动力电池及锂电上市公司中，半数实现净利润同比增长。中国汽车流通协会乘用车市场信息联席分会秘书长崔东树表示，2026年动力电池市场呈现“双雄份额松动，二线梯队加速崛起”的态势，国轩高科、亿纬锂能、吉利耀宁等二线企业份额显著提升，尾部企业份额基本清零，行业集中度下降、",
+      "published": "2026-11-27 08:20:59  +0800",
+      "weight": 1
+    },
+    {
+      "source": "36氪",
+      "title": "韩国据悉评估扩大股市稳定基金规模",
+      "url": "https://36kr.com/newsflashes/4087268463311236?f=rss",
+      "snippet": "据报道，韩国正审议扩大股市稳定基金的规模，同时正研究在市场波动加剧时启动该基金的程序。韩国财政经济部长官李炯日将于周五与韩国央行行长申铉松、金融服务委员会委员长和金融监督院院长举行市场监督会议，审议与该基金相关的程序。报道称，当前首要任务是核查基金的启动程序，至于在目前情况下是否动用该基金，韩国当局尚未做出决定。据悉，韩国正积极考虑在目前已承诺的10.76万亿韩元基础上扩大基金规模。（界面）",
+      "published": "2026-11-27 08:24:29  +0800",
+      "weight": 1
+    },
+    {
+      "source": "掘金",
+      "title": "期待已久的workbuddy多设备同步终于来了",
+      "url": "https://juejin.cn/post/7712334617722224683",
+      "snippet": "大家好，我是晓凡。 有没有小伙伴跟我一样，公司一台电脑，家里一台电脑，两边都装了 WorkBuddy。 白天在公司的进度，晚上回家想接着干，结果一打开傻眼了：对话记录、任务、定时任务，全在另一台机器上",
+      "published": "Fri, 27 Nov 2026 00:03:33 GMT",
+      "weight": 1
+    },
+    {
+      "source": "掘金",
+      "title": "大模型降本的三条开源路线：任务路由、指令优化与消耗量控制",
+      "url": "https://juejin.cn/post/7712312106733371411",
+      "snippet": "开源方案已把模型选择、提示词与单次 token 消耗拆成三条可叠加路线，先观测与缓存往往比学习路由更快见效。",
+      "published": "Fri, 27 Nov 2026 00:05:43 GMT",
+      "weight": 1
+    },
+    {
+      "source": "掘金",
+      "title": "《HelloGitHub》第 128 期",
+      "url": "https://juejin.cn/post/7712381923053764617",
+      "snippet": "简介 HelloGitHub 分享 GitHub 上有趣、入门级的开源项目。 这里有实战项目、入门教程、黑科技、开源书籍、大厂开源项目等，涵盖多种编程语言 Python、Java、Go、C/C++、S",
+      "published": "Fri, 27 Nov 2026 00:21:20 GMT",
+      "weight": 1
+    }
+  ],
+  "source_stats": {
+    "OpenAI-News": 0,
+    "Google-AI-Blog": 0,
+    "TheVerge-AI": 6,
+    "TechReview-AI": 1,
+    "LastWeekInAI": 0,
+    "MarkTechPost": 2,
+    "SebastianRaschka": 0,
+    "TheGradient": 0,
+    "HuggingFace-Blog": 5,
+    "HackerNews": 3,
+    "HackerNews-DeepSeek": 3,
+    "HackerNews-Kimi": 8,
+    "HackerNews-Qwen": 8,
+    "HackerNews-Grok": 8,
+    "HackerNews-xAI": 8,
+    "ArXiv-cs.AI": 15,
+    "量子位": 10,
+    "雷锋网": 15,
+    "钛媒体": 15,
+    "36氪": 15,
+    "InfoQ中文": 15,
+    "掘金": 15,
+    "199IT": 15
+  },
+  "dedup": {
+    "intl": {
+      "before": 67,
+      "after": 64
+    },
+    "cn": {
+      "before": 100,
+      "after": 99
+    }
+  }
+}
